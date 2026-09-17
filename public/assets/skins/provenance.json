@@ -1,0 +1,47 @@
+{
+  "source_job": "a4887158-9444-42f8-9573-ce2581d8495e",
+  "source_size": [
+    2752,
+    1536
+  ],
+  "texture_size": 512,
+  "method": "Mirrored material crops from generated concept artwork; luminance-derived relief, not measured PBR scans.",
+  "patches": {
+    "steel": [
+      0.148,
+      0.324,
+      0.188,
+      0.39
+    ],
+    "hide": [
+      0.48,
+      0.395,
+      0.52,
+      0.455
+    ],
+    "obsidian": [
+      0.817,
+      0.277,
+      0.847,
+      0.332
+    ],
+    "bone": [
+      0.449,
+      0.239,
+      0.465,
+      0.279
+    ],
+    "cloth": [
+      0.14,
+      0.253,
+      0.166,
+      0.292
+    ],
+    "mail": [
+      0.147,
+      0.211,
+      0.164,
+      0.235
+    ]
+  }
+}

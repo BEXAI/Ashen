@@ -1,0 +1,185 @@
+:root {
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+}
+
+.touch-help { display: none; }
+.game-notice { pointer-events: none; }
+.game-app button, .realm-dialog button { touch-action: manipulation; }
+
+@media (any-pointer: coarse) {
+  .game-app { min-height: 0; height: 100svh; height: 100dvh; }
+  .game-app.is-playing { position: fixed; inset: 0; touch-action: none; overscroll-behavior: none; }
+  .game-hud, .mobile-controls { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+  .game-app .icon-button { width: 48px; height: 48px; min-width: 48px; min-height: 48px; }
+  .game-app button:focus-visible { outline-offset: 2px; }
+  .error-state { justify-content: flex-start; overflow-y: auto; gap: 14px; padding: calc(var(--safe-top) + 18px) calc(var(--safe-right) + 24px) calc(var(--safe-bottom) + 18px) calc(var(--safe-left) + 24px); }
+  .error-state > svg, .error-state > button { flex-shrink: 0; }
+  .error-state > button { min-height: 48px; width: min(380px, 100%); }
+
+  /* Keep menu actions reachable when Safari chrome or the keyboard reduces space. */
+  .title-screen {
+    display: flex; flex-direction: column; overflow-y: auto; overscroll-behavior: contain;
+    padding: calc(var(--safe-top) + 16px) calc(var(--safe-right) + 24px) calc(var(--safe-bottom) + 18px) calc(var(--safe-left) + 24px);
+    gap: 16px;
+  }
+  .title-header { position: relative; top: auto; left: auto; right: auto; flex-shrink: 0; min-height: 48px; }
+  .title-content { position: relative; top: auto; left: auto; width: 100%; padding: 20px 0; margin-block: auto; }
+  .title-content h1 { font-size: clamp(64px, 18vw, 100px); }
+  .title-actions { width: min(360px, 100%); }
+  .begin-button { min-height: 56px; padding: 16px 20px; font-size: 16px; }
+  .begin-button:hover { transform: none; }
+  .menu-links { flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .menu-links button { min-height: 48px; font-size: 14px; padding: 8px 4px; }
+  .menu-error button { min-height: 48px; }
+  .title-footer { position: relative; left: auto; right: auto; bottom: auto; margin-top: auto; flex-shrink: 0; padding-top: 16px; }
+  .title-footer > span { font-size: 12px; letter-spacing: 0; }
+  .edition, .chapter-card { display: none; }
+  .header-sound { display: inline-flex !important; }
+
+  .player-status { top: calc(var(--safe-top) + 14px); left: calc(var(--safe-left) + 16px); gap: 10px; }
+  .player-medallion { width: 48px; min-width: 48px; height: 58px; }
+  .vitals { width: clamp(120px, 36vw, 190px); }
+  .player-label { font-size: 12px; gap: 6px; }
+  .player-label span:first-child { font-size: 14px; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .map-hud { top: calc(var(--safe-top) + 12px); right: calc(var(--safe-right) + 12px); width: 100px; }
+  .map-hud > button { width: 76px; height: 76px; margin-left: auto; padding: 3px; }
+  .map-hud > div { padding: 0; gap: 4px; font-size: 12px; }
+  .map-hud > div > span { gap: 3px; }
+  .map-hud > div .icon-button { width: 48px; height: 48px; }
+  .compass-hud { top: calc(var(--safe-top) + 104px); width: 140px; }
+  .compass-hud p { display: none; }
+  .quest-hud { left: calc(var(--safe-left) + 18px); top: calc(var(--safe-top) + 150px); max-width: 205px; }
+  .quest-hud h2 { font-size: 20px; }
+  .quest-hud > p:not(.eyebrow) { font-size: 14px; }
+  .quest-distance { font-size: 12px; }
+
+  .desktop-actions, .movement-hint, .fullscreen-button { display: none !important; }
+  .game-bottom {
+    left: calc(var(--safe-left) + 12px); right: calc(var(--safe-right) + 12px);
+    bottom: calc(var(--safe-bottom) + 8px); height: 48px; justify-content: flex-end;
+  }
+  .save-indicator { min-height: 48px; font-size: 12px; max-width: calc(100% - 110px); justify-content: center; padding: 8px; }
+  .mobile-controls { display: block; position: absolute; inset: 0; height: auto; pointer-events: none; }
+  .joystick {
+    position: absolute; left: calc(var(--safe-left) + 18px); bottom: calc(var(--safe-bottom) + 68px);
+    width: clamp(108px, 32vw, 132px); height: auto; aspect-ratio: 1; display: grid; place-items: center;
+    border: 1px solid #d6c49880; border-radius: 50%; background: radial-gradient(circle, #3c50597d, #10212bd9);
+    box-shadow: inset 0 0 0 10px #ffffff05, 0 4px 18px #0005;
+    touch-action: none; pointer-events: auto; -webkit-user-select: none; user-select: none;
+  }
+  .joystick[data-sprinting="true"] { border-color: #ead194; box-shadow: inset 0 0 0 10px #d6b57019, 0 0 18px #dec18b30; }
+  .joystick .joystick-thumb { width: 52px; height: 52px; border-radius: 50%; border: 1px solid #e2d7bda6; background: linear-gradient(145deg, #a4b1a899, #456475b3); box-shadow: 0 4px 12px #0005; pointer-events: none; }
+  .joystick .joystick-label { position: absolute; left: 0; right: 0; bottom: 8px; width: auto; height: auto; border: 0; border-radius: 0; background: none; box-shadow: none; text-align: center; font-size: 12px; line-height: 16px; color: #e2d8be; pointer-events: none; }
+  .touch-actions {
+    position: absolute; right: calc(var(--safe-right) + 18px); bottom: calc(var(--safe-bottom) + 64px);
+    width: 156px; height: 156px; display: grid; grid-template-columns: 64px 80px; grid-template-rows: 64px 80px; gap: 12px; pointer-events: none;
+  }
+  .touch-actions .touch-action {
+    position: relative; inset: auto; width: 64px; height: 64px; min-width: 64px; min-height: 64px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; padding: 6px;
+    background: #11232eed; border: 1px solid #d8c79b9c; border-radius: 50%; color: #eee0c1;
+    box-shadow: 0 3px 14px #0006, inset 0 1px #ffffff12; backdrop-filter: none; -webkit-backdrop-filter: none;
+    touch-action: none; pointer-events: auto; -webkit-touch-callout: none;
+  }
+  .touch-actions .touch-action > svg { width: 24px; height: 24px; pointer-events: none; }
+  .touch-actions .touch-label { font-size: 12px; line-height: 15px; font-weight: 600; pointer-events: none; }
+  .touch-actions .touch-strike { grid-column: 2; grid-row: 2; width: 80px; height: 80px; background: #796341ed; border-color: #efd29e; }
+  .touch-actions .touch-strike > svg { width: 30px; height: 30px; }
+  .touch-actions .touch-dodge { grid-column: 1; grid-row: 2; align-self: center; }
+  .touch-actions .touch-spell { grid-column: 2; grid-row: 1; justify-self: center; color: #c0eef6; }
+  .touch-actions .touch-heal { grid-column: 1; grid-row: 1; color: #f2c6aa; }
+  .touch-actions .touch-action[data-unavailable="true"] { border-color: #a4adab66; color: #aebcbd; background: #14212aeb; }
+  .touch-actions .touch-action[data-pressed="true"] { transform: scale(.96); background: #907547; border-color: #ffe1a2; color: #fff0ce; }
+  .touch-actions .touch-badge { position: absolute; top: -5px; right: -3px; bottom: auto; min-width: 24px; height: 24px; padding: 3px; border: 1px solid #c9c8b97d; border-radius: 12px; background: #0b1724; color: #f3e9cc; font-size: 12px; line-height: 16px; font-variant-numeric: tabular-nums; pointer-events: none; }
+  .interact-prompt { bottom: calc(var(--safe-bottom) + 238px); min-height: 48px; max-width: calc(100% - var(--safe-left) - var(--safe-right) - 36px); font-size: 14px; white-space: normal; text-align: left; padding: 12px 16px; }
+  .interact-prompt kbd { display: none; }
+  .interact-prompt > svg { flex-shrink: 0; }
+  .is-playing .game-notice { bottom: calc(var(--safe-bottom) + 300px); font-size: 14px; }
+  .has-boss .quest-hud { display: none; }
+  .boss-status { top: calc(var(--safe-top) + 150px); bottom: auto; width: calc(100% - var(--safe-left) - var(--safe-right) - 48px); }
+
+  .realm-dialog, .realm-dialog.wide {
+    top: calc(var(--realm-viewport-top, 0px) + var(--realm-viewport-height, 100dvh) / 2 + (var(--safe-top) - var(--safe-bottom)) / 2) !important;
+    max-width: min(680px, calc(100% - var(--safe-left) - var(--safe-right) - 24px)) !important;
+    max-height: calc(var(--realm-viewport-height, 100dvh) - var(--safe-top) - var(--safe-bottom) - 24px);
+    padding: 26px 20px !important; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
+  }
+  .realm-dialog button { min-height: 48px; }
+  .realm-dialog [data-slot="dialog-close"] { width: 48px; height: 48px; top: 8px; right: 8px; display: grid; place-items: center; }
+  .realm-dialog [data-slot="dialog-close"] > svg { width: 22px; height: 22px; }
+  .dialog-eyebrow { padding-right: 36px; }
+  .dialog-description { font-size: 14px !important; }
+  .setting-row { flex-wrap: wrap; gap: 14px; }
+  .setting-row > div { flex: 1 1 160px; }
+  .setting-row label { font-size: 16px; }
+  .setting-row p { font-size: 14px; }
+  .setting-row [data-slot="select-trigger"] { min-width: 142px; min-height: 48px; font-size: 16px; }
+  .realm-select [data-slot="select-item"] { min-height: 48px; font-size: 16px; padding-block: 12px; }
+  .setting-row [data-slot="switch"] { width: 72px; min-width: 72px; height: 44px; min-height: 44px; padding: 5px; }
+  .setting-row [data-slot="switch-thumb"] { width: 32px; height: 32px; }
+  .setting-row [data-slot="switch-thumb"][data-state="checked"] { translate: 28px 0; transform: none; }
+  .setting-row [data-slot="switch-thumb"][data-state="unchecked"] { translate: 0 0; transform: none; }
+  .equipment-card button { font-size: 14px; flex-wrap: wrap; padding: 10px; }
+  .journal-tabs [data-slot="tabs-trigger"] { min-height: 48px; font-size: 14px; padding: 10px 12px; }
+  .controls-list > .desktop-help { display: none; }
+  .touch-help { display: block; }
+  .controls-list .control-row { font-size: 14px; gap: 12px; }
+  .controls-list kbd { font-size: 14px; }
+}
+
+@media (any-pointer: coarse) and (orientation: landscape) and (max-height: 600px) {
+  .title-screen { padding-top: calc(var(--safe-top) + 8px); padding-bottom: calc(var(--safe-bottom) + 8px); gap: 8px; }
+  .title-content { display: grid; grid-template-columns: 1fr 1fr; align-items: center; column-gap: 28px; padding: 8px 0; }
+  .title-content > .eyebrow { grid-column: 1; grid-row: 1; font-size: 10px; }
+  .title-content h1 { grid-column: 1; grid-row: 2; font-size: 50px; line-height: 1; margin: 10px 0 0; }
+  .title-subtitle { display: none; }
+  .title-actions { grid-column: 2; grid-row: 1 / span 2; width: 100%; }
+  .title-footer { padding-top: 8px; }
+  .player-status { top: calc(var(--safe-top) + 10px); }
+  .player-medallion { height: 52px; }
+  .vitals { width: 132px; }
+  .map-hud { top: calc(var(--safe-top) + 8px); display: flex; align-items: center; gap: 8px; width: auto; }
+  .map-hud > button { width: 52px; height: 52px; }
+  .map-hud > div > span { display: none; }
+  .compass-hud { top: calc(var(--safe-top) + 16px); width: 120px; }
+  .quest-hud { top: calc(var(--safe-top) + 70px); left: 50%; transform: translateX(-50%); max-width: 240px; text-align: center; }
+  .quest-hud .eyebrow, .quest-hud > p:not(.eyebrow), .has-boss .quest-hud { display: none; }
+  .quest-hud h2 { font-size: 18px; margin: 0; }
+  .quest-distance { margin-top: 6px; justify-content: center; }
+  .boss-status { top: calc(var(--safe-top) + 70px); bottom: auto; width: 34%; }
+  .boss-status > span { font-size: 16px; }
+  .joystick { width: 112px; bottom: calc(var(--safe-bottom) + 62px); }
+  .joystick .joystick-thumb { width: 46px; height: 46px; }
+  .touch-actions { width: 144px; height: 144px; grid-template-columns: 64px 72px; grid-template-rows: 64px 72px; gap: 8px; bottom: calc(var(--safe-bottom) + 60px); }
+  .touch-actions .touch-strike { width: 72px; height: 72px; }
+  .interact-prompt { left: calc(var(--safe-left) + 150px); right: calc(var(--safe-right) + 178px); bottom: calc(var(--safe-bottom) + 68px); transform: none; max-width: none; justify-content: center; font-size: 14px; padding: 10px; }
+  .is-playing .game-notice { bottom: calc(var(--safe-bottom) + 140px); width: max-content; max-width: 42%; font-size: 13px; padding: 10px 12px; }
+  .save-indicator { max-width: 60%; }
+}
+
+/* Safari's visible toolbars leave little vertical space on smaller iPhones. */
+@media (any-pointer: coarse) and (orientation: landscape) and (max-height: 380px) {
+  .joystick { width: 100px; bottom: calc(var(--safe-bottom) + 20px); }
+  .joystick .joystick-thumb { width: 42px; height: 42px; }
+  .touch-actions { width: 132px; height: 132px; grid-template-columns: 56px 68px; grid-template-rows: 56px 68px; gap: 8px; bottom: calc(var(--safe-bottom) + 16px); }
+  .touch-actions .touch-action { width: 56px; height: 56px; min-width: 56px; min-height: 56px; gap: 1px; }
+  .touch-actions .touch-strike { width: 68px; height: 68px; }
+  .touch-actions .touch-action > svg { width: 22px; height: 22px; }
+  .touch-actions .touch-strike > svg { width: 26px; height: 26px; }
+  .game-bottom { left: calc(var(--safe-left) + 140px); right: calc(var(--safe-right) + 160px); bottom: calc(var(--safe-bottom) + 2px); justify-content: center; height: 44px; }
+  .game-bottom > div { display: none; }
+  .save-indicator { position: static; transform: none; min-height: 44px; max-width: 100%; }
+  .interact-prompt { left: calc(var(--safe-left) + 140px); right: calc(var(--safe-right) + 160px); bottom: calc(var(--safe-bottom) + 50px); font-size: 13px; }
+  .is-playing .game-notice { bottom: calc(var(--safe-bottom) + 104px); }
+  .quest-distance { display: none; }
+}
+
+@media (any-pointer: coarse) and (max-width: 360px) {
+  .title-screen { padding-left: calc(var(--safe-left) + 18px); padding-right: calc(var(--safe-right) + 18px); }
+  .equipment-grid { grid-template-columns: 1fr; }
+  .equipment-art { height: 64px; }
+  .journal-tabs [data-slot="tabs-trigger"] { padding-inline: 8px; }
+}
