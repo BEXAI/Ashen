@@ -3,7 +3,7 @@
 Implementation receipt for `codex/physics-battle-update`, based on `459759d98c7c51fab23177f0ee199fef7a16dca5`.
 Runtime and tested revision: `bc9ab699057c23be2339413cb31a1338db92fb65`. Verification timestamp: 2026-09-17T13:10:17.346985+00:00. Evidence files are included with this receipt.
 Implementation follows [PHYSICS_BATTLE_VIDEO_UPDATE_PLAN.md](PHYSICS_BATTLE_VIDEO_UPDATE_PLAN.md); its video observations inspire the design and do not measure a reference game's engine.
-P1–P6 code is integrated. P7 has automated and selected browser evidence, with the explicit limits below. No deployment was requested or performed. Physical touch/device acceptance remains open; this receipt is not physical-device certification.
+P1–P6 code is integrated. P7 has automated and selected browser evidence, with the explicit limits below. No deployment was requested or performed. On 17 September 2026 the user instructed “skip iphone checks.” The physical iPhone portions of A13 and A15 are therefore skipped, and the implementation is complete within that revised scope. This receipt is not physical-device certification.
 
 ## Changes and preserved contracts
 
@@ -56,7 +56,7 @@ Recorded replay trace SHA256: `00e68a06552c2dc82cef7972ec3a32033a2c27fdf91e2423c
 
 ## Acceptance matrix
 
-Automated evidence exercises the named contracts. Remaining work below identifies specific plan clauses; it does not add an exhaustive matrix of every action, model and obstacle combination.
+Automated evidence exercises the named contracts. The boundaries below preserve each review’s actual scope and the explicit iPhone waiver; they do not add an exhaustive matrix of every action, model and obstacle combination.
 
 | ID | Evidence and present coverage | Concrete remaining boundary |
 |---|---|---|
@@ -72,9 +72,9 @@ Automated evidence exercises the named contracts. Remaining work below identifie
 | A10 | Root-center rim, one pulse, protection/path/wall checks, owner cancellation and equal-rate trace; new actual-engine escape/boss-admission tests reject overhead active and recovery jointly constrained by throne-room walls and living body path starts, restore admission without blockers, and preserve pre-plan state | The named combined-placement gap is covered and included in the final aggregate. The fixture uses the north/east corner after masonry validation exposed the original south-corner setup inside end-wall thickness. No all-action browser matrix is required |
 | A11 | Clamped actual loss and rejection suppression; 200-label burst stays within eight surfaces and particles reuse a fixed buffer. [Low + Reduce Motion browser regression](mechanics-implementation/a11-browser-followup/README.md) shows readable −27 for HP 140→113, visible warning/rim and a damage-free walking escape. Main Game overlay also suppresses its red damage flash under Reduce Motion | Named representative feedback/readability checks are covered. Reduce Motion was **tab-scoped Chromium media emulation**, not physical OS/device testing; the Game overlay is verified by rendering its actual production JSX. Physical endurance remains A15 |
 | A12 | Lethal/reward/finite-death tests plus actual Game UI reloads from disposable local saved fixtures: defeat persists after recovery; won/zero-HP presents victory-only shrine return, restores HP 140, and retains all ten defeats/won/shrines through a second save/reload | The named representative reload gap is covered. States were seeded locally to test persistence/recovery; this is not a gameplay-earned boss victory or a physical-device test |
-| A13 | Volume/near-plane/framing tests; desktop/390 px boss and shrine-return views; HD portrait Knife/Bone Throne at normal and .18/.98 pitch limits; new [door portrait and paired corner views](mechanics-implementation/a13-browser-followup/REVIEW.md) complete the named desktop subset | **Physical finger occlusion of warning/escape paths remains unverified.** Ordinary inward user yaw gives the corner clearance; no forced orbit. Existing burial-niche decoration partly covers the hero’s head at the wall-hugging endpoint; this is not an entirely unobstructed silhouette claim |
+| A13 | Volume/near-plane/framing tests; desktop/390 px boss and shrine-return views; HD portrait Knife/Bone Throne at normal and .18/.98 pitch limits; new [door portrait and paired corner views](mechanics-implementation/a13-browser-followup/REVIEW.md) complete the named desktop subset | **Physical iPhone finger occlusion of warning/escape paths was skipped at the user’s request.** Ordinary inward user yaw gives the corner clearance; no forced orbit. Existing burial-niche decoration partly covers the hero’s head at the wall-hugging endpoint; this is not an entirely unobstructed silhouette claim |
 | A14 | Existing model/API/save/asset and fixture tests retain version-1 data, ownership/CAS/run-ID checks, concurrent saves, hero/quality/reset and restoration/build pruning | No schema migration; manual multi-session permutations are not an additional requirement |
-| A15 | Physical iPhone 17 Pro Max / iOS 27.0 identified; latest Mirroring Connect attempt ended in a timeout due to phone use; lock the phone before reconnecting; no gameplay measurement collected | **Unperformed:** five-minute physical iPhone Safari boss/hazard run with model/iOS, quality, p50/p95, memory trend, dropped simulation time and touch behavior |
+| A15 | Physical iPhone 17 Pro Max / iOS 27.0 identified; latest Mirroring Connect attempt ended in a timeout due to phone use; lock the phone before reconnecting; no gameplay measurement collected | **Skipped at the user’s request (“skip iphone checks”, 17 September 2026):** five-minute physical iPhone Safari boss/hazard run with model/iOS, quality, p50/p95, memory trend, dropped simulation time and touch behavior. No physical performance pass is claimed |
 
 ## Browser evidence and its limits
 
@@ -115,4 +115,4 @@ Version-1 saves need no migration: velocity, queues, hazards, action/death clock
 4. Revert P6 helpers with their engine/React callers while retaining one HP/event authority. The independent lab canvas CSS sizing fix can remain.
 5. For a complete rollback, restore baseline behavior with matching tests; rerun typecheck, verified build/tests and syntax checks. Review deliberate fixture deltas instead of blindly rewriting snapshots or protected hashes.
 
-Publication is separate. This receipt does not deploy the branch. Physical finger occlusion (A13) and the five-minute iPhone Safari run (A15) remain unperformed because the latest iPhone Mirroring connection attempt timed out due to phone use and requests that the user lock the phone before reconnecting. No phone readiness reply has been received.
+Publication is separate. This receipt does not deploy the branch. Physical iPhone finger occlusion (A13) and the five-minute Safari run (A15) were explicitly skipped by the user on 17 September 2026. Prior connection failures remain historical evidence only; no further iPhone handoff or test is required for this implementation. The unchanged runtime and all unwaived checks are covered above.

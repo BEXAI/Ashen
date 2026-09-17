@@ -4,7 +4,7 @@
   "branch": "codex/physics-battle-update",
   "implementationRevision": "bc9ab699057c23be2339413cb31a1338db92fb65",
   "verifiedAt": "2026-09-17T13:10:17.346985+00:00",
-  "implementation": "P1-P6 integrated; P7 automated and bounded desktop visual checks passed; physical A13 touch and A15 five-minute Safari evidence remain unperformed",
+  "implementation": "P1-P6 integrated; P7 automated and desktop visual verification completed. Physical iPhone checks explicitly skipped by user request.",
   "packages": {
     "P0": "baseline verified and captured",
     "P1": "implemented",
@@ -13,7 +13,7 @@
     "P4": "implemented",
     "P5": "implemented",
     "P6": "implemented",
-    "P7": "399 tests, verified production build, typecheck, syntax and lint pass; physical device acceptance incomplete"
+    "P7": "complete: 399 tests, verified production build, typecheck, syntax and lint pass; physical iPhone acceptance skipped at user request"
   },
   "checks": {
     "typecheck": "pass",
@@ -37,7 +37,7 @@
     "lintErrors": 208,
     "lintWarnings": 29
   },
-  "deviceEvidence": "Physical iPhone 17 Pro Max / iOS 27.0 identified. Fresh Mirroring connection ended with an explicit timeout due to phone use; it requests locking the phone before reconnecting. Awaiting readiness; no phone gameplay evidence.",
+  "deviceEvidence": "No physical gameplay evidence collected. User instructed \"skip iphone checks\"; prior Mirroring connection failures are historical and no further phone handoff is required.",
   "published": false,
   "followUpFixes": [
     "Canonical spider bounds remove 0.002043-unit mobile/HD contact drift; all 16 tier comparisons pass",
@@ -53,10 +53,18 @@
     "A8": "All32 mobile/HD deliveries plus3 procedural fallbacks:35 sheets,286 runtime-deformed sampled poses; offline neutral materials, not continuous browser/PBR review",
     "A9": "46 inspected browser screenshots from normal simulation plus slower selected-frame review; representative center/west preparations and visible inward-view escape; outward corner crop and later boss occlusion retained as limits",
     "A11": "Low+tab-scoped Chromium reduced-motion emulation: readable -27,HP140\u2192113,warning geometry and damage-free walking escape; Game red-overlay suppression verified through actual JSX rendering",
-    "A13": "Named representative desktop/390px door,corner,pitch,boss,throne,respawn subset recorded; physical finger occlusion unverified"
+    "A13": "Named representative desktop/390px door, corner, pitch, boss, throne and respawn checks recorded; physical iPhone finger occlusion explicitly skipped at user request"
   },
-  "remainingAcceptance": [
-    "A13 physical touch/finger occlusion",
-    "A15 five-minute physical iPhone Safari boss/hazard run"
-  ]
+  "remainingAcceptance": [],
+  "status": "complete with user-requested iPhone waiver",
+  "completedAt": "2026-09-17T13:21:37.371551+00:00",
+  "skippedAcceptance": {
+    "requestedAt": "2026-09-17T13:21:37.371551+00:00",
+    "userInstruction": "skip iphone checks",
+    "scope": [
+      "A13 physical iPhone touch/finger-occlusion review",
+      "A15 five-minute physical iPhone Safari performance run"
+    ],
+    "disposition": "skipped at user request; not passed or device-certified"
+  }
 }

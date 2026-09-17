@@ -6,9 +6,19 @@
   "build": "24A5430a",
   "reality": "physical",
   "evidence": "xcrun devicectl device info details; xcrun xctrace list devices; iPhone Mirroring accessibility state",
-  "status": "A fresh Connect attempt changed Unlock Your iPhone to iPhone in Use, then ended with an explicit connection timeout due to phone use. Awaiting the user to lock the phone before reconnecting; no physical gameplay or performance run performed.",
+  "status": "Physical iPhone checks skipped at user request. No gameplay or performance certification is claimed. Prior connection state is retained for provenance.",
   "privacy": "Device identifiers, serial numbers and account/device names intentionally omitted.",
   "latestMirroringState": "Timed Out \u2014 iPhone Mirroring timed out due to iPhone use while connecting. Lock the iPhone before connecting.",
   "phoneGameplayTested": false,
-  "latestMirroringCheckedAt": "2026-09-17T13:15:35.617261+00:00"
+  "latestMirroringCheckedAt": "2026-09-17T13:15:35.617261+00:00",
+  "userWaiver": {
+    "requestedAt": "2026-09-17T13:21:37.371551+00:00",
+    "userInstruction": "skip iphone checks",
+    "scope": [
+      "A13 physical iPhone touch/finger-occlusion review",
+      "A15 five-minute physical iPhone Safari performance run"
+    ],
+    "disposition": "skipped at user request; not passed or device-certified"
+  },
+  "furtherAttemptsRequired": false
 }
