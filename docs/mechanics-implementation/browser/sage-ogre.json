@@ -1,0 +1,127 @@
+{
+  "diagnostics": {
+    "characterSources": {
+      "ash-knight": {
+        "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+        "tier": "low",
+        "url": "/assets/characters/v9/ash-knight-low.glb"
+      },
+      "sage": {
+        "bytes": 3616028,
+        "sha256": "a197d091d6a3691c4383fc02aa10917cdc6d50a35f292e4581171b671dd60a42",
+        "textureCap": 1024,
+        "tier": "low",
+        "url": "/assets/roster/recovered-2026-09-17/sage.mobile.glb"
+      }
+    },
+    "graphics": {
+      "brightness": 1,
+      "impactShake": false,
+      "version": 1
+    },
+    "loading": {
+      "characters": 0,
+      "roster": 0,
+      "surfaces": false,
+      "uploadWarmup": false
+    },
+    "mechanics": {
+      "bodyPairs": {
+        "invalidBodies": [],
+        "iterations": 0,
+        "unresolved": []
+      },
+      "bossPattern": null,
+      "droppedTime": 0,
+      "gameTime": 9.05,
+      "hazard": null,
+      "hitStop": 0,
+      "pendingCommands": 0,
+      "recentContacts": [
+        {
+          "actionId": 1,
+          "attackerId": "hero",
+          "direction": {
+            "x": 1.1194661986238943,
+            "z": -7.21738897484639
+          },
+          "healthDelta": 26,
+          "id": "1:w6",
+          "interrupted": true,
+          "kind": "ranged",
+          "lethal": false,
+          "outcome": "damaged",
+          "point": {
+            "x": 0,
+            "y": 1.55,
+            "z": -16.638833333333334
+          },
+          "stagger": 0.16,
+          "targetId": "w6",
+          "tick": 11,
+          "time": 0.17
+        },
+        {
+          "actionId": 2,
+          "attackerId": "hero",
+          "direction": {
+            "x": 1.1265479244431935,
+            "z": -5.959452855155346
+          },
+          "healthDelta": 30,
+          "id": "2:w6",
+          "interrupted": true,
+          "kind": "ranged",
+          "lethal": false,
+          "outcome": "damaged",
+          "point": {
+            "x": 0.006400407311549924,
+            "y": 1.55,
+            "z": -15.542217426537334
+          },
+          "stagger": 0.22,
+          "targetId": "w6",
+          "tick": 49,
+          "time": 0.8133333333333335
+        },
+        {
+          "actionId": 3,
+          "attackerId": "hero",
+          "direction": {
+            "x": 1.1340094550424935,
+            "z": -4.88123346972837
+          },
+          "healthDelta": 24,
+          "id": "3:w6",
+          "interrupted": true,
+          "kind": "ranged",
+          "lethal": true,
+          "outcome": "damaged",
+          "point": {
+            "x": 0.0131000942391459,
+            "y": 1.55,
+            "z": -14.69600688847283
+          },
+          "stagger": 0.14,
+          "targetId": "w6",
+          "tick": 86,
+          "time": 1.4166666666666667
+        }
+      ],
+      "terminal": null,
+      "tick": 543
+    }
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "text": "Warden vanquished · +28 embers",
+      "type": "notice"
+    },
+    {
+      "sequence": 2,
+      "type": "milestone"
+    }
+  ],
+  "hud": "HP 140.0 / 140Stamina 13.3Mana 100.0XZ 0.007, -12.590Boss —Dodge CD 0.00State paused"
+}

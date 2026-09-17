@@ -1,0 +1,485 @@
+
+> site-creator-vinext-starter@0.1.0 test
+> npm run build && node --test tests/*.test.mjs
+
+
+> site-creator-vinext-starter@0.1.0 prebuild
+> node scripts/restore-visual-assets.mjs
+
+Verified 99 large visual assets; restored 0.
+
+> site-creator-vinext-starter@0.1.0 build
+> bash scripts/build-verified.sh
+
+Running bounded vinext build...
+
+  vinext build  (Vite 8.2.2)
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - JSON import "./.openai/hosting.json" without import attributes (vite.config.ts:3:27). Add `with { type: 'json' }`
+  - import "./build/sites-vite-plugin" without a file extension (vite.config.ts:4:23). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+[1/5] analyze client references...
+transforming...
+✓ 154 modules transformed.
+rendering chunks...
+✓ built in 25.17s
+[33m[PLUGIN_TIMINGS] [0mPlugin hooks ran for 25.2s of this 25.2s build (100%).
+The slowest hooks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - vite:css transform (100%, 25.0s, 1 call)
+5 hooks are listed without a time. Their calls overlapped, so the time inside one call includes work from other calls. To find their cost, profile the build with `node --cpu-prof`:
+  - rsc:virtual-client-package resolveId (432 calls)
+  - rsc:use-client transform (154 calls)
+  - rsc:react-server-dom-webpack-alias resolveId (3 calls)
+  … and 2 more
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+[2/5] analyze server references...
+transforming...
+✓ 382 modules transformed.
+rendering chunks...
+✓ built in 272ms
+[3/5] build rsc environment...
+transforming...
+✓ 160 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 3.77s
+[33m[PLUGIN_TIMINGS] [0mPlugin hooks ran for 3.7s of this 3.8s build (98%).
+The slowest hooks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - vite:css transform (96%, 3.6s, 1 call)
+Additional hook time came from the hooks below and from hooks under 1s.
+5 hooks are listed without a time. Their calls overlapped, so the time inside one call includes work from other calls. To find their cost, profile the build with `node --cpu-prof`:
+  - rsc:virtual-client-package resolveId (443 calls)
+  - rsc:use-client transform (160 calls)
+  - rsc:react-server-dom-webpack-alias resolveId (3 calls)
+  … and 2 more
+See https://rolldown.rs/reference/InputOptions.checks#plugintimings for more details.
+
+[4/5] build client environment...
+transforming...
+✓ 2180 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.12s
+[5/5] build ssr environment...
+transforming...
+✓ 388 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 429ms
+[0m
+  Route (app)
+  ┌ ? /
+  ├ λ /api/progress
+  ├ ? /mechanics-lab
+  └ ? /visual-lab
+
+  λ API  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+Kept 9 active character files; omitted 34 legacy files (142.8 MiB) from dist/client.
+Environment prune: keep 29 family files; omitted 40 legacy files (22.38 MiB).
+✔ Dodge integrates exactly to 5.25 across render rates and a hitch crossing both phase boundaries (27.59325ms)
+✔ Dodge speed is continuous at deceleration start and zero beyond the action (0.289875ms)
+✔ Protection is half-open and independent of one-second spawn protection (0.111459ms)
+✔ Dodge accepts windup/recovery/cast cancellation but rejects committed contact and unavailable resources (0.123333ms)
+✔ Strike admission respects the selected strike cost and never starts inside another action (0.076291ms)
+✔ Dodge direction normalizes analog/diagonal intent once and falls back to facing (0.08425ms)
+✔ Prior held strike survives dodge; new presses during dodge are ignored and release/cancel clears intent (0.043583ms)
+✔ Tick commands are ordered by target time then sequence and consumed only once (0.744583ms)
+✔ placements frame all four passages, retain the three progression gates, and reuse wall footprints (1.126459ms)
+✔ both actual quantized variants preserve physical bounds and anchors at every module LOD (129.967542ms)
+✔ nine allocated batches share one material/atlas and never alter BVH, gates, lights, or colliders (2.742375ms)
+✔ bad compressed contract falls back to PNG before touching original fixtures; exact visibility is restored (4.802042ms)
+✔ late non-abortable parse cannot replace a newer generation or resurrect a disposed loader (5.98625ms)
+✔ manifest failures retry with a cooldown instead of per-frame requests and recover without a region exit (2.840875ms)
+✔ residual budget coarsens then yields modules, keeping combined prop draw and triangle totals bounded (3.861375ms)
+✔ frustum and distance bounds suppress submissions and unloading restores fallbacks (4.009708ms)
+✔ LOD hysteresis withstands threshold jitter and recovers from reduced demand (0.207833ms)
+✔ SHA-256 mismatch rejects the download before any decode or scene mutation (3.999125ms)
+✔ disposal during parsing closes a late result once without installing decoration or changing fallback (8.589791ms)
+✔ Stored blocks reconstruct exact master and runtime asset bytes (296.217709ms)
+✔ Restoring assets cannot overwrite an artist’s local edits (6.418792ms)
+✔ one spike and a cold upload cannot lower a healthy 60 FPS profile (2.243542ms)
+✔ sustained overload stages optional effects and shadow detail before resolution and 30 FPS (2.877458ms)
+✔ a GPU/scheduler-limited 30 FPS workload cannot masquerade as 60 FPS headroom (4.204458ms)
+✔ recovery uses a bounded 60 FPS probe before restoring visual quality gradually (7.489291ms)
+✔ pause/loading reset evidence without undoing the chosen visual stage (1.927209ms)
+✔ intentional hit pause does not skew timings or starve adaptation in repeated combat (1.155542ms)
+✔ borderline windows do not oscillate around a threshold, and minimum overload is reported (6.55375ms)
+Full slam sampled mesh minimum Y: -0.06769598222155704 {
+  t: 1.1500000000000001,
+  index: 21092,
+  p: [ -0.16342340604755873, -0.06769598222155704, 1.4562103118838827 ],
+  weights: [
+    [ 'RightHand', 1 ],
+    [ 'headfront', 0 ],
+    [ 'Spine01', 0 ],
+    [ 'LeftUpLeg', 0 ]
+  ]
+}
+Fallback full-mesh minimum Y: -0.04482880158478675
+✔ actual GLB reaches conservative corridor at committed impact without socket or bone length edits (80.350375ms)
+✔ hips, feet, wings and tail keep the native pose, with finite motion through instantaneous impact (993.316417ms)
+✔ native sweep contacts the normal hero capsule using only the original rendered socket (24.643458ms)
+✔ restoration survives repeated mixer samples, render interpolation and locomotion/reaction switches (25.530834ms)
+✔ clones, side-effect-free reach checks, and swapped tiers retain independent native state (22.1005ms)
+✔ unsupported or unreachable points fail safely and target selection locks a physical floor point (13.07375ms)
+✔ slam target hook precedes all target gates and remains immutable through the warning (0.365417ms)
+✔ default targeting stays compatible; rejected candidate skips slam without a hidden hazard (0.128334ms)
+✔ staged adapters typecheck against real Actor/Strike APIs (774.790708ms)
+✔ fallback visible blade tip reaches same corridor without altering its original collision marker or joint lengths (8.946958ms)
+✔ fallback full mesh stays above native foot tolerance throughout slam and keeps hips/feet unchanged (56.659083ms)
+✔ fallback restores native pose, isolates clones and safely handles roster arrival (17.737042ms)
+✔ frame-start restoration preserves the displayed slam when blending into a hit (10.291833ms)
+✔ ash-knight: loaded Low geometry plants feet with bounded hip-only corrections at 20/30/60/120 FPS (715.081667ms)
+✔ ash-knight: all strike contacts and body roots remain exact at 20/30/60/120 FPS (568.613709ms)
+✔ ash-knight: installation/reset in every initial windup preserves sampled arms and removes presentation history (222.570583ms)
+✔ ash-knight: extra nonmonotonic collision samples never advance presentation or leak between instances (8.919666ms)
+✔ crypt-warden: loaded Low geometry plants feet with bounded hip-only corrections at 20/30/60/120 FPS (286.807917ms)
+✔ crypt-warden: all strike contacts and body roots remain exact at 20/30/60/120 FPS (321.267334ms)
+✔ crypt-warden: installation/reset in every initial windup preserves sampled arms and removes presentation history (259.43ms)
+✔ crypt-warden: extra nonmonotonic collision samples never advance presentation or leak between instances (7.615584ms)
+✔ ember-sovereign: loaded Low geometry plants feet with bounded hip-only corrections at 20/30/60/120 FPS (197.843334ms)
+✔ ember-sovereign: all strike contacts and body roots remain exact at 20/30/60/120 FPS (259.9245ms)
+✔ ember-sovereign: installation/reset in every initial windup preserves sampled arms and removes presentation history (198.32975ms)
+✔ ember-sovereign: extra nonmonotonic collision samples never advance presentation or leak between instances (5.993125ms)
+✔ all Low archetypes: 200 repeated idle and forward samples do not accumulate foot or cape offsets (60.969417ms)
+✔ presentation cannot move active weapon contacts at 20/30/60/120 FPS (367.1915ms)
+✔ extra nonmonotonic collision samples never advance the presentation transition (10.45775ms)
+✔ foot correction leaves actor/root and weapon unchanged; reset removes transition history (6.99675ms)
+✔ mid-windup model installation and reset preserve the sampled arm pose (10.97825ms)
+✔ All three skins have finite geometry, usable bounds and bounded mesh cost (115.714ms)
+✔ Walking and striking preserve independent joints and never change another actor (104.742625ms)
+✔ Every referenced material has shipped color and relief assets from the Higgsfield image (67.704834ms)
+✔ Exact-time lethal trades admit both actors before either dies and latch death before reward callback (2.830459ms)
+✔ Earlier lethal contacts reject later source contacts without consuming their hit set (0.143042ms)
+✔ Windup interruption cancels later contacts but preserves a simultaneous trade (0.139166ms)
+✔ Interruption reads candidate-time phase: hero active continues, enemy windup stops, king resists (0.126834ms)
+✔ Protection uses contact-time half-open boundary and consumes an evaded geometric contact (0.093792ms)
+✔ Shield rejection causes zero HP, interruption or death and cannot replay later in the action (0.070209ms)
+✔ Actual HP loss includes hero armor/minimum damage and clamps overkill, not the nominal hit (0.09375ms)
+✔ Several simultaneous attackers cannot overdraw HP or issue the same death twice (0.0715ms)
+✔ Action hit sets deduplicate and enforce target cap in deterministic time/action/target order (7.147584ms)
+✔ Absent source requires explicit permission, which does not authorize a dead source (0.183333ms)
+✔ Invalid or nonpositive candidate damage/time cannot mutate HP or hit sets (0.108333ms)
+✔ Presentation event vectors are copied and cannot move the source contact (0.068ms)
+✔ Directional cues reuse one 17-triangle mesh and stop exactly at the active boundary (0.993708ms)
+✔ Reduced motion uses a stable terminal arrow and side/backhand point in opposite directions (1.293417ms)
+✔ Contact point is on the clipped blade at capsule height, including degenerate segments (0.158334ms)
+✔ Rotation impulse is bounded, render-only, optional, and equal at equal times at 30/60/120 Hz (1.536792ms)
+✔ Lifecycle reset removes camera impulse and pooled contact particles (1.659833ms)
+✔ Reduced-motion contact flashes stay stationary and expire without hiding accepted impact feedback (0.406958ms)
+✔ Trails reject duplicate time samples and reset across teleport or disable transitions (0.666667ms)
+✔ Proposed follow response has equal elapsed-time behavior and monotonic wall response (0.235958ms)
+✔ A held chain cycles all four moves, charges distinct stamina, and resets after a gap (0.430042ms)
+✔ Only one recent queued tap survives recovery; cancelled or expired input cannot fire (0.085333ms)
+✔ Wind-up and recovery have no active damage window; large frame steps preserve contact (6.088ms)
+✔ Blade versus body capsules handles misses, crossings, parallel and degenerate segments (0.150333ms)
+✔ Four articulated trajectories are distinct, continuous, grounded and reach the front target (79.255083ms)
+✔ Every enemy strike reaches a player-height capsule at its approach distance (104.126583ms)
+✔ Weapon trails reuse fixed buffers, fade, reset and dispose without lingering in the scene (0.413292ms)
+✔ Completed engine corpse releases fade ownership and the nearby roster model once; later renders never resample it (1.885875ms)
+✔ Respawn removes the hero retirement marker so the living model remains eligible for streaming (1.315ms)
+✔ A fully retired procedural hero returns upright after the fade controller has been released (31.736334ms)
+✔ Gate obstruction uses progress authority when visible is stale in either direction (49.640292ms)
+✔ Enemy attack admission samples hero LOS from the same start-of-tick root as distance/facing (62.04425ms)
+✔ Missed hero and ordinary enemy attacks receive distinct action IDs at admission (21.330875ms)
+✔ Historical damage, stamina and target deduplication remain; reviewed hit-stop delta uses fixed opportunities (259.542375ms)
+✔ Shake and impact spawn only after an accepted hit; shielded bosses, dodge and dead targets are excluded (13.428625ms)
+✔ Reduced motion suppresses optional shake while preserving accepted stationary contact feedback (69.066041ms)
+✔ No impact occurs in windup; clipped wall obstruction prevents collision and contact feedback (33.662333ms)
+✔ Auto decisions change optional render work without changing combat clocks or asset tiers (0.320125ms)
+✔ Rendering profile override has no effect outside validation mode (0.100334ms)
+✔ Lab profile switch reconfigures unchanged Auto quality and false restores the detected device (1.677584ms)
+✔ Engine warning is harmless, exact tick-boundary pulse belongs to the next interval, and damage occurs once without melee freeze (90.131083ms)
+✔ Actual accepted melee freezes hazard warning and cooldowns while playtime counts admission; ordinary pause freezes both clocks (21.68825ms)
+✔ A real queued dodge evades the pulse at its inclusive protection boundary, which cannot replay after returning to the active disk (16.9795ms)
+✔ Earlier owner death cancels a later same-tick pulse; terminal presentation advances only finite corpse time (13.412792ms)
+✔ An actual melee contact and owner hazard at equal time trade lethally without reward-healing resurrection (155.045541ms)
+✔ Hazard pulse tests the moving hero at contact time rather than the later committed endpoint (17.495541ms)
+✔ Actual hazard entry/exit and pulse outcomes agree at 20/30/60/120 Hz and 100ms jitter (79.724917ms)
+✔ Public commands mutate only on one unfrozen tick; two frozen slots preserve queued edges and all gameplay timers (73.013417ms)
+✔ Same-tick dodge takes start priority over attack regardless of input ordering; dodge taps never replay (36.130209ms)
+✔ Existing held intent survives dodge but release clears it; resumed combo starts fresh side (17.367292ms)
+✔ Ordinary mutual lethal trade latches death before level-up rewards and pays one save/terminal event (82.702416ms)
+✔ King mutual lethal trade awards victory at zero HP, suppresses death overlay and survives shrine return (20.932458ms)
+✔ Earlier death removes later attacks independent of candidate insertion (68.398083ms)
+✔ Contact-time windup snapshot cancels later attack even when tick ends in active phase (31.762834ms)
+✔ Dodge and spawn immunity use contact timestamps on both sides of exact boundaries (121.403083ms)
+✔ Articulated contacts sample both moving roots at candidate time and restore the presentation root (7.882084ms)
+✔ Endpoint body projection cannot retroactively move a target through a blade or enter its contact path (13.37475ms)
+✔ Recoil is queued by contact and changes only the next unfrozen tick, not the committed motion path (8.497833ms)
+✔ Pause retains an in-flight action, clears captured edges/freeze and never charges them on resume (3.660291ms)
+✔ Respawn clears transient movement/actions and grants one-second protection without dodge travel (4.691792ms)
+✔ Reduced motion changes optional feedback only, never accepted melee hit stop (17.628667ms)
+✔ Sprinting preserves prior regeneration then drain, including the full-stamina cap (8.104125ms)
+✔ Full engine tick replay is invariant at 20/30/60/120 Hz and mixed frames including 100ms (410.776959ms)
+✔ Ordinary engine pause freezes resources, clocks and warnings; resume discards captured input and partial time (50.047958ms)
+✔ Death and mutual-victory continuation advances only death presentation, never gameplay resources, hazards or playtime (31.47275ms)
+✔ Real render loop retires the hero after finite terminal continuation and schedules no further paused work (439.522708ms)
+✔ Ordinary pause hides the terminal continuation; restoring its overlay resumes the same corpse ages without replay (81.313584ms)
+✔ Suspending the real loop freezes terminal age and restoration drops the hidden interval before continuing (5.542208ms)
+✔ active prop and DungeonAssets manifests bind actual exports, source records, atlases and active geometry (1246.720209ms)
+✔ hash, byte size and local URL binding reject stale or unapproved bytes before parsing (3.852959ms)
+✔ external GLB buffer/image references are rejected without any network read (1.564167ms)
+✔ fixture-removal zero accessors and embedded lights are rejected, including unused resources (0.926791ms)
+✔ actual embedded KTX2 mip chain and payload bounds are checked independently of validator support (0.884708ms)
+✔ PNG fallback pixel decoding rejects a truncated image and discrete mip storage includes small tails (1.209875ms)
+✔ decoded geometry catches out-of-range indices and nonfinite positions (0.614083ms)
+✔ active-scene draw counts exclude valid detached legacy meshes without pretending the bytes are gone (5.511458ms)
+✔ optional captured runtime budget validates all families, sum integrity and the combined cap (0.364ms)
+✔ Pool import/construction has no browser side effects and safely skips unavailable canvas (0.8485ms)
+✔ Only resolved positive HP loss creates a number; overkill displays clamped delta (0.591625ms)
+✔ Newest label replaces target, duplicate event cannot refresh it, lifetime is bounded (0.232ms)
+✔ Prolonged burst stays at eight global surfaces, evicts oldest, and disposes each owned resource once (1.765334ms)
+✔ Reduced motion suppresses label movement without changing lifetime or amount (0.101583ms)
+✔ Death plays finite clip, holds final pose three seconds, fades .75 seconds then completes (0.097375ms)
+✔ Death adapter never sinks root, uses grounded native reaction and isolates shared materials during fade (0.728792ms)
+✔ Procedural fallback rests its rendered bounds on the floor without moving actor root (0.6665ms)
+✔ Off-center wall missed by center ray is caught by the clearance bundle (0.3175ms)
+✔ Near-plane corners expand for landscape projection and final interpolation is checked separately (0.149041ms)
+✔ Encounter framing remains bounded and returns smoothly to hero without changing actor inputs (0.883375ms)
+✔ Framing exponential response is refresh independent; reduced motion transitions more gently (0.160708ms)
+{"routes":84,"contactRoutes":48,"minimumMovingMeanDriftReduction":0.9869813419393623,"report":"/var/folders/vz/gfw8qmj54mz9j5k1jsj5rhr00000gn/T/ashen-gait-qa-43woO1/stance-comparison.json"}
+✔ all Low rigs: 84 distance-calibrated stance routes preserve world roots and reduce sliding at 20/30/60/120 FPS (1704.183167ms)
+✔ all Low rigs: 48 translated strike routes preserve active contacts and reset cleanly at 20/30/60/120 FPS (213.116791ms)
+(node:23989) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Guest access needs no sign-in and writes still reject a foreign origin (57.924542ms)
+✔ Guests can start, save, and resume through the same browser session (20.395958ms)
+✔ Separate guest browsers cannot read or overwrite each other (6.072167ms)
+✔ Guest equipment purchases use the existing server-validated economy (3.293167ms)
+✔ Existing signed-in saves remain separate from guest cookies (2.948333ms)
+✔ Progress persists in SQL and is isolated by authenticated owner (2.881709ms)
+✔ Stale revision and wrong journey ID cannot overwrite a save (8.079875ms)
+✔ A new journey cannot silently replace an existing revision (2.884209ms)
+✔ Equipment prices are calculated by server and insufficient funds are rejected (3.064917ms)
+✔ Save validation rejects impossible fields, repeated rewards and malformed requests (11.910541ms)
+✔ September heroes survive save and resume while old journeys remain valid (1.986208ms)
+✔ Unknown hero IDs cannot create or corrupt a journey (2.766542ms)
+✔ Melee spends stamina on wind-up, damages only on contact and hits each target once (84.966709ms)
+✔ Holding strike starts one wind-up and cannot bypass recovery (24.641125ms)
+✔ Enemies behind the player cannot be silently acquired or damaged (33.359458ms)
+✔ Dodge cancels a wind-up without refunding stamina, but not an active blade (13.365875ms)
+✔ A normal tap release preserves one buffered strike while cancellation clears it (10.177834ms)
+✔ Pausing clears held attacks, sprint and movement; paused touches cannot restart them (29.229791ms)
+✔ Magic consumes mana and damage is limited to the area of effect (40.284875ms)
+✔ Dodge startup/recovery remain vulnerable; its active protection and death recovery event are explicit (14.676208ms)
+✔ Boss shield requires all shrines and victory is recorded exactly once (19.012667ms)
+✔ World generation has finite geometry and reachable shrine/checkpoint positions (515.856042ms)
+✔ 4K mode renders 3840 by 2160 independently of viewport CSS pixels (1.847208ms)
+✔ HD and performance output obey hardware and pixel-budget limits (1.242ms)
+✔ Dungeon rooms and passages join without collision seams (18.945959ms)
+✔ A chamber seal requires both all wardens and its shrine (3.307042ms)
+✔ Wall collision slides along the wall and retains character progress (1.043833ms)
+✔ Every dungeon objective can be reached through the connected floor plan (11.80275ms)
+✔ BVH camera and combat rays hit solid walls but pass through open doorways (261.683208ms)
+✔ A wall shortens camera distance without collapsing the camera onto the player (0.798833ms)
+✔ Changing graphics applies reflection and shadow settings to the existing world (204.634458ms)
+✔ A partially initialized renderer can be disposed once without leaking its context (2.536333ms)
+✔ Ranger and sage release one ranged hit per strike, after wind-up, stopping at the nearest target (42.351083ms)
+✔ Ranged strikes do not pass through walls, acquire targets behind, or hit beyond range (32.908833ms)
+✔ Changing wanderer preserves the active journey and clears an unfinished strike (4.315375ms)
+✔ Staff beams start at the evaluated crystal and aim down at a nearby target (10.082042ms)
+✔ visual preferences survive corrupt, blocked and version-mismatched storage (1.033083ms)
+✔ lighting holds each chamber and crosses every passage continuously (0.378667ms)
+✔ torch selection rejects sealed gates and room walls but keeps open passage sight lines (0.208875ms)
+✔ measurements separate pacing, CPU, loading and imposed pauses and reset without losing raw evidence (0.685834ms)
+✔ paused comparison teleports select the new room lights immediately without growing the pool (8.283375ms)
+✔ TypeScript modules satisfy the repository strict compiler settings without modifying its checkout (1063.422625ms)
+✔ Warning radius matches the ROOT center predicate; tangent hits and no hidden body inflation (0.147875ms)
+✔ Warning never hits, pulse is exact-time and once only, expiry removes the visual state (0.893166ms)
+✔ Missed or wall-blocked pulse cannot replay if hero enters or wall opens during VFX (0.13375ms)
+✔ Geometry emits candidate for central protection resolver once, without mutating hero health (0.091667ms)
+✔ Frame partitions sample moving hero at pulse time, including a hitch crossing expiry (0.41475ms)
+✔ One hazard slot, immutable placement and explicit cancellation/reset/disposal (0.128875ms)
+✔ Owner death before pulse removes warning; contact-time ownership is used across a large interval (0.078459ms)
+✔ Pause/hit-stop leave warning progress unchanged; invalid and backward clocks are rejected (0.309792ms)
+✔ Walk escape preserves source state, holds intent for reaction time and uses controller acceleration (2.372125ms)
+✔ Committed slow action can make placement unfair although nominal speed budget would pass (3.528917ms)
+✔ Sixteen deterministic candidates obey full collision; no escape by passing through a blocker (3.306ms)
+✔ Escape rejects tangent plus safety margin, invalid controller positions and short warning (0.208625ms)
+✔ Boss selects a deterministic sweep/slam/eruption cycle with neutral recovery and immutable aim (0.929ms)
+✔ Boss gates shield/death/encounter and does not drift locked floor placement (0.127375ms)
+✔ Invalid floor/escape/socket placements are suppressed and back off instead of rerolling every frame (0.152959ms)
+✔ Eruption cooldown is start-to-start game time and IDs cannot alias across reset (0.067833ms)
+✔ Boss pattern completion is frame-partition independent and no new action starts during recovery (0.11475ms)
+✔ Authoritative warning survives low quality, disabled particles and reduced motion without clock drift (3.634125ms)
+✔ Active marker and expiry use snapshot, with no rendering callback able to generate damage (2.528291ms)
+✔ Warning and eruption geometry obey floor-clipping callback and remain within drawn disk (3.544458ms)
+✔ Dispose releases pooled geometry/materials exactly once and ignores later render updates (7.768875ms)
+✔ A pulse on a half-open tick endpoint waits for the next corrected-root sample (0.090958ms)
+✔ Merged floor boundary keeps actual rooms/corridors joined for every movement size (16.587541ms)
+✔ Union construction removes touching and overlapping interior edges, not valid joins (0.502167ms)
+✔ Whole-circle validation rejects holes and concave gaps missed by simple center checks (0.379916ms)
+✔ A long sweep cannot cross a floor gap even when its endpoint lies in another legal room (1.008041ms)
+✔ Continuous circle sweep stops at a very thin obstacle from either side (1.048209ms)
+✔ All gate masks follow shrine+warden progression and their physical slabs block both directions (1.188541ms)
+✔ Throne uses the shared rendered proxy and blocks long sweeps while allowing tangential travel (2.186125ms)
+✔ Rounded obstacle corners allow a legal circle that a padded square would reject (0.137458ms)
+✔ Wall slide records time of impact instead of interpolating directly to its final root (0.212875ms)
+✔ Simultaneous corner contacts constrain both axes and tangency never traps outward motion (0.237375ms)
+✔ Concave room-mouth sweeps and sampled slide paths remain on the legal floor (1.840125ms)
+✔ Invalid starts fail closed and invalid numeric inputs are rejected (0.334083ms)
+✔ Seeded large-displacement sweeps preserve full circle clearance throughout their paths (28.361417ms)
+✔ Phase-local motion paths compose exact normalized times and preserve stationary gaps (5.171917ms)
+✔ Coincident stationary bodies separate deterministically regardless of caller array order (0.865125ms)
+✔ Crowd projections preserve earlier motion samples, are bounded and cannot generate an extra sweep (5.443791ms)
+✔ Pinned crowd remains inside walls and reports unresolved overlap instead of teleporting (0.377708ms)
+✔ Resistance weights, dead admission and invalid-body reports are explicit (0.771167ms)
+✔ Movement radii remain separate from hurt capsules and acceleration cannot boost diagonals (0.414125ms)
+✔ Legacy dungeonMove delegates to sweeps without changing the return shape or progression (2.165167ms)
+✔ Walk accelerates at 48, brakes at 64, caps at 5.4, and eventually stops without reversal (1.438334ms)
+✔ Sprint is capped at 8.6 and analog magnitude survives without a diagonal boost (4.931458ms)
+✔ Reversing input brakes existing velocity before building speed in the new direction (0.775792ms)
+✔ Sprint-to-attack clamps locomotion immediately in windup, active and recovery (2.918166ms)
+✔ Attack phase cap does not raise a slower actor's requested speed 0 (0.111083ms)
+✔ Attack phase cap does not raise a slower actor's requested speed 1 (0.0445ms)
+✔ A tick crossing windup-to-active splits its path and drops the cap before active travel (0.21ms)
+✔ Attack exit restores acceleration toward walk speed, not an instant full-speed jump (0.065375ms)
+✔ Authored strike travel is added once across active time, including speed-scaled boundaries (3.305292ms)
+✔ Dodge covers exactly 5.25 with fixed direction despite changing input and initial sprint velocity (0.601083ms)
+✔ Dodge ending within a tick contributes only its remaining envelope then resumes acceleration (0.082625ms)
+✔ Recoil decays at rate 12 and its integrated displacement is independent of partitioning (0.772209ms)
+✔ Locomotion cap does not clamp separately added recoil or authored lunge (0.122292ms)
+✔ Thin wall stops full dodge path and removes inward velocity/recoil without losing tangent slide (1.249125ms)
+✔ Wall blocking cancels inward locomotion/recoil and retains tangential velocity (0.584042ms)
+✔ Fixed simulation ticks give the same mixed motion under 20/30/60/120 Hz rendering (5.087917ms)
+✔ Escape uses the actual action-limited controller: ordinary walk escapes where committed overhead cannot (3.851209ms)
+✔ Escape respects real floor clearance and initial .20 seconds of held intent (7.523417ms)
+✔ All eight initial fixtures and six heroes produce schema-valid legal spawns with ordinary resources (10.554292ms)
+✔ Duel and native crowd fixtures select only their advertised living actors (1.204958ms)
+✔ Shielded boss uses only the disclosed post-start shrine replacement and preserves position/resources (0.267125ms)
+✔ Fixture reset creates isolated arrays and run IDs instead of sharing mutable progress (0.094792ms)
+✔ Production route refuses the lab before creating its component (229.684333ms)
+✔ Development route exposes the component; source has no save or benchmark invulnerability route (139.626042ms)
+✔ Restricted preferences still start touch devices on Auto and desktop on Ultra (0.41425ms)
+✔ Explicit graphics preferences, including 4K on iPhone, are retained (0.061666ms)
+✔ Mobile Auto uses lighter textures, lights, shadows and effects (0.091791ms)
+✔ Mobile texture paths select local 1K assets and preserve HD/4K sets (0.069542ms)
+✔ Auto output respects portrait, landscape, hardware and scale limits (0.743708ms)
+✔ Auto caps tablet fragment cost and reduces pixels quadratically under load (0.073875ms)
+✔ 120 Hz callbacks produce at most about 60 full renders per second (0.09175ms)
+✔ Pause renders once then stops scheduling GPU work; resume restarts (0.149167ms)
+✔ Backgrounding and lost contexts cancel pending frames until resumed (0.078875ms)
+✔ Concurrent save triggers share a write and one latest-state follow-up (0.163542ms)
+✔ Failed saves stop queued writes and can be explicitly retried (0.269917ms)
+✔ exported quantized sconce preserves physical size and both effect anchors on both fixture sides at every LOD (21.507625ms)
+✔ compressed decode failure uses the manifest PNG fallback and releases only owned resources (2.910958ms)
+✔ both load failures preserve fallback, avoid per-frame retries, and retry after returning to entry (4.585459ms)
+✔ leaving while a non-abortable parse runs cannot install its stale result over a newer load (3.765541ms)
+✔ disposal during parsing prevents scene mutations and closes late decoded resources once (1.198333ms)
+✔ missing middle LOD is rejected before fallback fixtures are hidden (1.226625ms)
+✔ LOD hysteresis resists pixel jitter in both travel directions and returns to full detail (0.081875ms)
+✔ full rollout shares ten mounts and submits only nearby visible fixtures while preserving effect ownership (1.355125ms)
+✔ mixed versions and exact GLB dependencies survive; only generated dungeon/prop legacy files are removed (192.444709ms)
+✔ missing external image prevents every removal, even when manifests and primary files exist (31.838708ms)
+✔ remote, encoded traversal and escaped external dependencies abort before mutation (142.360042ms)
+✔ both a stale hash and wrong declared size abort before deleting otherwise unneeded files (61.716333ms)
+✔ symlinked legacy entries and symlinked required resources are rejected before any mutation (64.911834ms)
+✔ changed active loader source or kept dependency invalidates a prepared plan before removal (117.992458ms)
+✔ data URI resources are embedded and do not become filesystem dependencies; dry run changes no assets (68.8915ms)
+✔ each loader constant is resolved and all assets in every selected prop manifest form its closure (62.447625ms)
+✔ standalone CLI dry run and explicit output work without deleting files (77.970167ms)
+✔ All 14 recovered originals are bound to active mobile/HD derivatives, without duplicate built-in equipment (958.642625ms)
+✔ one real rendered sample per second, no catch-up records or lazy context calls on skipped frames (1.507291ms)
+✔ state changes are actual frames, throttled and coalesced without fabricated intermediate snapshots (0.161083ms)
+✔ per-render counter high water retains brief peaks missed by periodic context samples (0.143208ms)
+✔ 600 retained records plus three prior windows stay bounded and preserve warmup/reset sequence (15.738ms)
+✔ history detaches mutable loader arrays, context objects, and exported previous windows (0.267666ms)
+✔ resource estimate deduplicates interleaved/shared buffers and textures, includes instancing and data types (1.131958ms)
+✔ FrameDiagnostics samples current completed-render counters and performs no per-frame scene traversal (1.030834ms)
+✔ sampling overhead is included when caller takes CPU finish timestamp after capture (0.16175ms)
+✔ active actor LOD summary excludes hidden groups and distinguishes procedural fallback from unselected imports (0.125708ms)
+✔ flame-style texture clones share estimated storage only for identical Source and upload/sampling parameters (0.641833ms)
+✔ Every mobile and HD roster model has identical sampled combat sockets and skeleton transforms (1502.913458ms)
+✔ All 16 screenshot characters have unique source IDs, portraits, weighted playable models, and a film (141.641875ms)
+✔ Decoded delivery models animate independent skeletons with finite sockets and reachable hero melee contact (492.625958ms)
+✔ Every imported melee enemy can contact the player at its AI approach distance (230.094417ms)
+✔ An obsolete HD failure cannot block the requested mobile tier (3.728958ms)
+✔ Roster transitions soften pose changes while active contact remains exact and repeatable (20.251875ms)
+✔ Roster residency survives the 36m visibility boundary and releases at 52m or death (63.265458ms)
+✔ The previous 15 Ashen imports are reachable journal media with verified display files (4.032667ms)
+✔ A hidden enemy finishing a download is discarded before model decoding (10.633875ms)
+✔ Performance textures shrink before upload, share their resized source and release decoded bitmaps (0.568ms)
+✔ Grounded attack poses meet the floor and equipped staff muzzles survive prop merging (175.271875ms)
+✔ actual quantized variants retain ground/effect anchors, physical matrices and two meshes at every LOD (62.510041ms)
+✔ body resources are shared; exactly one independently stateful ember material is cloned per shrine (5.075958ms)
+✔ asset loading is lazy and room visibility limits normal play to one imported shrine (4.962875ms)
+✔ compressed failure selects the recorded fallback and release disposes only owned resources once (2.808375ms)
+✔ both failures keep original geometry and avoid retrying every frame, then retry after return (3.274ms)
+✔ stale non-abortable parse cannot replace a newer successful generation (66.293292ms)
+✔ dispose during parse closes the late result without hiding fallback or changing world effects (8.272ms)
+✔ disposed manifest continuation cannot start an asset parse (2.250792ms)
+✔ malformed LOD and wrong source bindings are rejected before replacing world geometry (11.145708ms)
+✔ embedded lights and duplicate LOD markers are never mounted (8.261875ms)
+✔ download hash rejection happens before GLB decoding (6.258459ms)
+✔ LOD hysteresis caps LOD0 around nine metres and prevents jitter at either boundary (0.298958ms)
+✔ import budget coarsens actual geometry, limits simultaneous shrines and restores static landmarks when culled (4.747292ms)
+✔ Normal frame partitions and sub-100ms hitches reproduce identical tick-stamped combat traces (3.140416ms)
+✔ 250ms foreground stall drops overload while preserving an earlier fractional remainder (0.111ms)
+✔ Hit stop starts on the next opportunity, consumes frame budget, and never repeats simulation callbacks (0.070417ms)
+✔ Held pose survives a zero-tick render and the last frozen opportunity (0.064583ms)
+✔ Lifecycle reset discards fractional time and freeze without reusing tick IDs (0.338125ms)
+✔ Commands captured during hit stop execute once on the next unfrozen tick (0.218458ms)
+✔ Negative elapsed is harmless; nonfinite elapsed is rejected without poisoning diagnostics (0.496208ms)
+✔ Refinement changes only the documented dodge cape channel, preserving all contact tracks (1.356292ms)
+✔ The active release replaces Sovereign and retains the other two character variants (0.415625ms)
+✔ Sovereign low KTX2 preserves rig and combat while bounding mobile costs (308.059458ms)
+✔ Sovereign low PNG fallback preserves rig and combat while bounding mobile costs (143.373333ms)
+✔ Sovereign mobile KTX2 preserves rig and combat while bounding mobile costs (132.899875ms)
+✔ Sovereign mobile PNG fallback preserves rig and combat while bounding mobile costs (178.399083ms)
+✔ Sovereign hd KTX2 preserves rig and combat while bounding mobile costs (115.985208ms)
+✔ Sovereign hd PNG fallback preserves rig and combat while bounding mobile costs (140.790667ms)
+✔ Sovereign high KTX2 preserves rig and combat while bounding mobile costs (124.089875ms)
+✔ Sovereign high PNG fallback preserves rig and combat while bounding mobile costs (109.576333ms)
+✔ Missing locomotion clips reject a replacement before disposing the current actor (11.3805ms)
+✔ Terminal presentation stays paced while paused and stops at its finite owner deadline (0.502625ms)
+✔ Ordinary pause cancels the presentation exception and still draws exactly once (0.086875ms)
+✔ Hidden/context suspension cancels terminal RAF and resume discards the hidden interval (0.648792ms)
+✔ Terminal rendering at 120Hz callbacks respects the chosen 30/60FPS pacing (0.182083ms)
+✔ Ending presentation externally cancels pending paused work without affecting normal play (0.061292ms)
+✔ Dispose from a terminal draw prevents any continuation or later resurrection (0.05325ms)
+✔ Bone Throne has checked source identity and matching render/collision placement (5.679542ms)
+✔ Players and enemies cannot enter or tunnel through the relic and can slide past it (1.471625ms)
+✔ Throne streams once, uses verified fallback, fits the prop budget and releases distant GPU resources (9.02875ms)
+✔ Unverified fallback bytes cannot appear in the scene (2.430417ms)
+✔ Failed manifests recover on a later approach and the collision fallback blocks camera and combat rays (3.263875ms)
+✔ Movement and combat keep independent fingers without stealing a gesture (0.363375ms)
+✔ A resting thumb stays still and partial deflection gives analog movement (0.115042ms)
+✔ Dragging outside the pad stays bounded across portrait and landscape sizes (0.638375ms)
+✔ Every runtime asset and separate fallback matches its manifest and has valid glTF structure (1169.386333ms)
+✔ Compressed rigs preserve all four weapon paths and independently cloned skeletons (115.164917ms)
+✔ Enemy retiming preserves active hits, planted roots and committed approach distances (22.394291ms)
+✔ LOD hysteresis holds close-combat detail and reduces far meshes (0.129542ms)
+✔ Unsupported compression cannot silently allocate 4K RGBA character textures (0.08125ms)
+✔ Skinned geometry remains finite and grounded through all committed strike poses (230.96475ms)
+✔ All chamber bakes ship matching geometry and non-overlapping continuous UV1 charts (224.607666ms)
+✔ Surface switching coalesces requests, shares maps, and disposes stale completions (1.299583ms)
+✔ Repeated impacts reuse one bounded particle draw, fade and expire cleanly (1.566875ms)
+✔ 4K masters contain actual crevice occlusion and separate material channels (432.929125ms)
+✔ Tier allocation estimates match image dimensions and PNG fallbacks stay capped (28.867083ms)
+✔ Asset installation preserves authored normal strength and applies the reviewed reflection gain (14.176792ms)
+✔ Unchanged strike balance, controls and save boundaries retain their approved baseline (2.649083ms)
+✔ Decoder failure uses real PNG fallback rigs; tier changes coalesce and disposal releases instances (53.548875ms)
+✔ Room streaming retains geometry on failure and releases loaded maps across repeated traversal (227.068542ms)
+ℹ tests 370
+ℹ suites 0
+ℹ pass 370
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3935.736208

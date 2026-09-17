@@ -1,0 +1,22 @@
+## A8 — roster, contacts and pose restoration
+
+The staged imported/fallback boss adapter passes **12/12 tests**, including strict TypeScript against the real Actor/Strike APIs. The tests decode the current mobile Ember Dragon GLB and use the actual procedural Ember Sovereign fallback. Across four headings, two uniform scales and the1.25–1.65m slam corridor, the rendered contact reaches the committed floor point without bone scaling, socket relocation, joint translation or actor-root displacement. Native sweep contacts the existing hero capsule at3.2m. Repeated samples, interpolation, locomotion/hit transitions, independent clones and roster arrival/tier replacement are covered.
+
+The fallback's unchanged `bladeSegment` endpoint stops about24cm short of the vertical sword's visible end. Slam therefore grounds a measured vertex of the **existing sword geometry**; `surfacePoint` reports that physical point and `tip` remains the original collision marker. This avoids burying the sword or extending an invisible hitbox. Both physical slam points are3.5cm above floor at pulse; `grounded` requires≤5mm target error and no reach clamp.
+
+At79 sampled times across the1.95s slam, all mesh vertices stayed finite. Imported hips/feet match native poses and its hip-weighted wings/tail retain native placement. The lowest imported claw/chain vertex is−6.77cm; fallback minimum is−4.48cm on the existing boot. These are bounded observed tolerances, not a claim of zero intersection. Reviewed four-frame clay sheets show the actual meshes in anticipation, descent, impact and recovery.
+
+The prior roster acceptance covers six heroes/ten enemies, all16 source identities and32 variant hashes, twelve clips, clone isolation, real AI approach-distance contact, staff handedness/muzzles, equipment policy, grounding and streaming/tier safeguards. This is prior evidence from `docs/ROSTER_RELEASE.md`, `docs/RECOVERED_ASSET_RELEASE.md` and the roster suite—not a claim that this subtask reran that whole suite. The boss pose tests decode mobile geometry; they do not establish a new exhaustive HD/fallback visual pass for all16 characters or physical-device performance.
+
+## A9 — boss pattern presentation
+
+Sweep uses0.80s windup/0.20s active/0.65s recovery. Slam uses1.10s preparation and0.85s recovery with a finite native scaffold at its instantaneous pulse. Eruption uses1.00/0.35/0.70s. The optional slam-target hook locks a proven reachable point1.5m ahead before LOS, legal-floor, physical-reach and escape checks; the visible radius1.4m disk remains there. Eruption remains hero-root targeted. Tests cover target immutability, rejection and default-controller compatibility. Both imported and procedural boss rigs now support the grounded slam; unsupported skins, nonuniform scaling, uneven target floor and out-of-corridor placements reject safely.
+
+This adapter evidence alone does **not** close full A9: root must append integrated shield/cancellation/pulse tests and normal/slow browser evidence at center and near the wall/throne, including a visible walking escape route, hitstop clock agreement and final material/camera readability. The imported/fallback clay sheets are pose evidence, not a gameplay/device performance measurement.
+
+## Final read-only review findings
+
+1. **Impact floor argument:** the first integration passed owner floor as `groundY`, bypassing uneven-target-floor rejection and overriding the target's measured Y. Root confirmed the reach predicate, pulse and rendered pose now use target floor.
+2. **Frame-start restoration order:** `restoreBossPose(actor); visual.beginFrame()` overwrites the saved displayed slam pose with its native scaffold before an interruption blend. An actual-GLB repro measured10.47rad aggregate bone change for slam→hit at1/60s versus0.91rad with `visual.beginFrame(); restoreBossPose(actor)`. Use the latter order at frame start, keeping restoration before the next native sampler. Root confirmed this ordering is fixed. Additive regression: `transition-order-test.snippet.mjs`; a negative control retains the old ordering and exposes the snap. This affects visible interruption continuity; contact calculations remained exact.
+
+No additional nonfinite-pose, socket-drift, clone-coupling or ground-reach defect was found within the tested models/scales. The reach gate is intentionally specific to the current recovered Dragon and known fallback; any future geometry/rig replacement needs its own corridor tests.

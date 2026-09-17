@@ -1,0 +1,128 @@
+{
+  "warningUnchangedDuringPause": true,
+  "before": {
+    "diagnostics": {
+      "characterSources": {
+        "ash-knight": {
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low",
+          "url": "/assets/characters/v9/ash-knight-low.glb"
+        },
+        "ember-dragon": {
+          "bytes": 3350040,
+          "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+          "textureCap": 1024,
+          "tier": "low",
+          "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb"
+        },
+        "lion-knight": {
+          "bytes": 3021932,
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "textureCap": 1024,
+          "tier": "low",
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb"
+        }
+      },
+      "graphics": {
+        "brightness": 1,
+        "impactShake": false,
+        "version": 1
+      },
+      "loading": {
+        "characters": 0,
+        "roster": 0,
+        "surfaces": false,
+        "uploadWarmup": false
+      },
+      "mechanics": {
+        "bodyPairs": {
+          "invalidBodies": [],
+          "iterations": 0,
+          "unresolved": []
+        },
+        "bossPattern": "eruption",
+        "droppedTime": 0,
+        "gameTime": 0.03333333333333333,
+        "hazard": {
+          "actionId": "1",
+          "activeEndsAt": 1.35,
+          "activeProgress": 0,
+          "center": {
+            "x": 0,
+            "z": -62.5
+          },
+          "damageMultiplier": 1,
+          "gameTime": 0.03333333333333333,
+          "id": "1:floor",
+          "kind": "eruption",
+          "ownerId": "king",
+          "phase": "warning",
+          "pulseEmitted": false,
+          "radius": 1.2,
+          "startedAt": 0,
+          "warningEndsAt": 1,
+          "warningProgress": 0.03333333333333333
+        },
+        "hitStop": 0,
+        "pendingCommands": 0,
+        "recentContacts": [],
+        "terminal": null,
+        "tick": 2
+      }
+    },
+    "hud": "HP 140.0 / 140Stamina 100.0Mana 100.0XZ 0.000, -62.500Boss 620.0 / 620Dodge CD 0.00State paused"
+  },
+  "after": {
+    "diagnostics": {
+      "characterSources": {
+        "ash-knight": {
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low",
+          "url": "/assets/characters/v9/ash-knight-low.glb"
+        },
+        "ember-dragon": {
+          "bytes": 3350040,
+          "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+          "textureCap": 1024,
+          "tier": "low",
+          "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb"
+        },
+        "lion-knight": {
+          "bytes": 3021932,
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "textureCap": 1024,
+          "tier": "low",
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb"
+        }
+      },
+      "graphics": {
+        "brightness": 1,
+        "impactShake": false,
+        "version": 1
+      },
+      "loading": {
+        "characters": 0,
+        "roster": 0,
+        "surfaces": false,
+        "uploadWarmup": false
+      },
+      "mechanics": {
+        "bodyPairs": {
+          "invalidBodies": [],
+          "iterations": 1,
+          "unresolved": []
+        },
+        "bossPattern": "sweep",
+        "droppedTime": 0,
+        "gameTime": 3.2333333333333334,
+        "hazard": null,
+        "hitStop": 0,
+        "pendingCommands": 0,
+        "recentContacts": [],
+        "terminal": null,
+        "tick": 194
+      }
+    },
+    "hud": "HP 140.0 / 140Stamina 100.0Mana 100.0XZ 0.000, -67.643Boss 620.0 / 620Dodge CD 0.00State paused"
+  }
+}

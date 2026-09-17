@@ -1,0 +1,205 @@
+{
+  "method": "Actual stepSimulation with real fixed clock and tick-stamped commands; no renderer, ordinary procedural actor contact sockets; authoritative numbers rounded only to 1e-9 for comparison.",
+  "rates": [
+    "20 Hz",
+    "30 Hz",
+    "60 Hz",
+    "120 Hz",
+    "jitter incl 100ms"
+  ],
+  "seconds": 5,
+  "ticks": 290,
+  "admittedSeconds": 4.999999999999988,
+  "frozenOpportunities": 10,
+  "droppedSeconds": 0,
+  "candidateCount": 6,
+  "traceSha256": "00e68a06552c2dc82cef7972ec3a32033a2c27fdf91e2423c20bbe8e28543941",
+  "candidateSha256": "f7ecb3994498d1e6fa131473470003c93b487526f0ff79f9daaf7b46ba8e51d8",
+  "final": {
+    "tick": 290,
+    "time": 4.833333333,
+    "hero": {
+      "x": -1.798925765,
+      "z": 22.950466355,
+      "hp": 144,
+      "mana": 64,
+      "stamina": 78.9,
+      "dodge": 0,
+      "dodgeCd": 0,
+      "cast": 0.25,
+      "attack": null
+    },
+    "enemies": [
+      {
+        "id": "w1",
+        "x": 0.000446188,
+        "z": 23.916830383,
+        "hp": 0,
+        "dead": true,
+        "cool": 0.55,
+        "stagger": 0.22,
+        "attack": null
+      },
+      {
+        "id": "w2",
+        "x": 0.235534998,
+        "z": 22.789019315,
+        "hp": 38,
+        "dead": false,
+        "cool": 0.3,
+        "stagger": 0,
+        "attack": null
+      }
+    ],
+    "progress": {
+      "xp": 215,
+      "souls": 28,
+      "potions": 2,
+      "defeated": [
+        "w1"
+      ],
+      "won": false
+    },
+    "events": [
+      {
+        "tick": 14,
+        "id": "1:w1",
+        "actionId": 1,
+        "attackerId": "hero",
+        "targetId": "w1",
+        "time": 0.216666667,
+        "kind": "melee",
+        "outcome": "damaged",
+        "healthDelta": 26,
+        "point": {
+          "x": -0.413767778,
+          "y": 1.407451684,
+          "z": 21.096741557
+        },
+        "direction": {
+          "x": 0,
+          "z": 1.4825
+        },
+        "stagger": 0.16,
+        "interrupted": true,
+        "lethal": false
+      },
+      {
+        "tick": 70,
+        "id": "4:w1",
+        "actionId": 4,
+        "attackerId": "hero",
+        "targetId": "w1",
+        "time": 1.153333333,
+        "kind": "melee",
+        "outcome": "damaged",
+        "healthDelta": 26,
+        "point": {
+          "x": -0.510911054,
+          "y": 1.468107643,
+          "z": 23.526599818
+        },
+        "direction": {
+          "x": 0,
+          "z": 0.750026148
+        },
+        "stagger": 0.16,
+        "interrupted": true,
+        "lethal": false
+      },
+      {
+        "tick": 80,
+        "id": "2:hero",
+        "actionId": 2,
+        "attackerId": "w2",
+        "targetId": "hero",
+        "time": 1.316666667,
+        "kind": "melee",
+        "outcome": "damaged",
+        "healthDelta": 14,
+        "point": {
+          "x": -0.16842413,
+          "y": 1.462037632,
+          "z": 22.572675981
+        },
+        "direction": {
+          "x": -0.956240138,
+          "z": 0.384064989
+        },
+        "stagger": 0.16,
+        "interrupted": false,
+        "lethal": false
+      },
+      {
+        "tick": 111,
+        "id": "5:w1",
+        "actionId": 5,
+        "attackerId": "hero",
+        "targetId": "w1",
+        "time": 1.833333333,
+        "kind": "melee",
+        "outcome": "damaged",
+        "healthDelta": 28,
+        "point": {
+          "x": -0.182644314,
+          "y": 2.583822526,
+          "z": 23.393327254
+        },
+        "direction": {
+          "x": 0.087937399,
+          "z": 1.061879101
+        },
+        "stagger": 0.22,
+        "interrupted": true,
+        "lethal": true
+      },
+      {
+        "tick": 138,
+        "id": "7:w2",
+        "actionId": 7,
+        "attackerId": "hero",
+        "targetId": "w2",
+        "time": 2.283333333,
+        "kind": "spell",
+        "outcome": "damaged",
+        "healthDelta": 42,
+        "point": {
+          "x": 0.895435103,
+          "y": 1.55,
+          "z": 22.717060642
+        },
+        "direction": {
+          "x": 0.96137247,
+          "z": -0.22509684
+        },
+        "stagger": 0,
+        "interrupted": false,
+        "lethal": false
+      },
+      {
+        "tick": 214,
+        "id": "8:hero",
+        "actionId": 8,
+        "attackerId": "w2",
+        "targetId": "hero",
+        "time": 3.558333333,
+        "kind": "melee",
+        "outcome": "damaged",
+        "healthDelta": 16,
+        "point": {
+          "x": -1.102920927,
+          "y": 1.742839195,
+          "z": 22.978174964
+        },
+        "direction": {
+          "x": -2.536557078,
+          "z": 0.211481952
+        },
+        "stagger": 0.22,
+        "interrupted": true,
+        "lethal": false
+      }
+    ],
+    "terminal": null
+  }
+}

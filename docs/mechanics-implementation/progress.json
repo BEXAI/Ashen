@@ -1,0 +1,43 @@
+{
+  "plan": "docs/PHYSICS_BATTLE_VIDEO_UPDATE_PLAN.md",
+  "baseline": "459759d98c7c51fab23177f0ee199fef7a16dca5",
+  "branch": "codex/physics-battle-update",
+  "implementationRevision": "c0c0a9cf5909a043b288bd7ab123063ce2bf6c84",
+  "verifiedAt": "2026-09-17T10:35:12.316568+00:00",
+  "implementation": "P1-P6 integrated; P7 automated and selected browser verification passed; remaining manual/device acceptance in release matrix",
+  "packages": {
+    "P0": "baseline verified and captured",
+    "P1": "implemented",
+    "P2": "implemented",
+    "P3": "implemented",
+    "P4": "implemented",
+    "P5": "implemented",
+    "P6": "implemented",
+    "P7": "automated checks passed; manual/device acceptance incomplete"
+  },
+  "checks": {
+    "typecheck": "pass",
+    "tests": {
+      "passed": 370,
+      "failed": 0,
+      "verifiedProductionBuild": "pass"
+    },
+    "lint": {
+      "errors": 0,
+      "preExistingWarnings": 29
+    },
+    "syntax": {
+      "sourceFiles": 125,
+      "compiledModules": 22
+    }
+  },
+  "baselineChecks": {
+    "tests": 210,
+    "typecheck": "pass",
+    "lintErrors": 208,
+    "lintWarnings": 29
+  },
+  "deviceEvidence": "Physical iPhone 17 Pro Max / iOS 27.0 connected; Mirroring reports iPhone in Use. Awaiting user readiness; no device gameplay evidence.",
+  "published": false,
+  "followUpFix": "Canonical spider bounds remove 0.002043-unit mobile/HD contact drift; all 16 tier comparisons pass"
+}

@@ -1,0 +1,116 @@
+{
+  "characterSources": {
+    "ash-knight": {
+      "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+      "tier": "low",
+      "url": "/assets/characters/v9/ash-knight-low.glb"
+    },
+    "ember-dragon": {
+      "bytes": 3350040,
+      "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+      "textureCap": 1024,
+      "tier": "low",
+      "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb"
+    },
+    "lion-knight": {
+      "bytes": 3021932,
+      "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+      "textureCap": 1024,
+      "tier": "low",
+      "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb"
+    }
+  },
+  "graphics": {
+    "brightness": 1,
+    "impactShake": false,
+    "version": 1
+  },
+  "loading": {
+    "characters": 0,
+    "roster": 0,
+    "surfaces": false,
+    "uploadWarmup": false
+  },
+  "mechanics": {
+    "bodyPairs": {
+      "invalidBodies": [],
+      "iterations": 0,
+      "unresolved": []
+    },
+    "bossPattern": "slam",
+    "droppedTime": 0,
+    "gameTime": 6,
+    "hazard": {
+      "actionId": "3",
+      "activeEndsAt": 7.299999999999999,
+      "activeProgress": 0,
+      "center": {
+        "x": 0,
+        "z": -63.87333333333281
+      },
+      "damageMultiplier": 1.25,
+      "gameTime": 6,
+      "id": "3:floor",
+      "kind": "slam",
+      "ownerId": "king",
+      "phase": "warning",
+      "pulseEmitted": false,
+      "radius": 1.4,
+      "startedAt": 5.85,
+      "warningEndsAt": 6.949999999999999,
+      "warningProgress": 0.1363636363636367
+    },
+    "hitStop": 0,
+    "pendingCommands": 0,
+    "recentContacts": [
+      {
+        "actionId": 1,
+        "attackerId": "king",
+        "direction": {
+          "x": 0,
+          "z": 6.5
+        },
+        "healthDelta": 27,
+        "id": "1:hero",
+        "interrupted": false,
+        "kind": "hazard",
+        "lethal": false,
+        "outcome": "damaged",
+        "point": {
+          "x": 0,
+          "y": 0.2,
+          "z": -62.5
+        },
+        "stagger": 0,
+        "targetId": "hero",
+        "tick": 61,
+        "time": 1
+      },
+      {
+        "actionId": 2,
+        "attackerId": "king",
+        "direction": {
+          "x": 0,
+          "z": 3.080624994999191
+        },
+        "healthDelta": 27,
+        "id": "2:hero",
+        "interrupted": false,
+        "kind": "melee",
+        "lethal": false,
+        "outcome": "damaged",
+        "point": {
+          "x": -0.2931942664262651,
+          "y": 2.797131911656982,
+          "z": -62.34826948582701
+        },
+        "stagger": 0,
+        "targetId": "hero",
+        "tick": 284,
+        "time": 4.726041666610417
+      }
+    ],
+    "terminal": null,
+    "tick": 360
+  }
+}

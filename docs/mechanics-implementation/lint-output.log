@@ -1,0 +1,73 @@
+
+> site-creator-vinext-starter@0.1.0 lint
+> bash scripts/sites-env.sh -- eslint . --ignore-pattern dist --ignore-pattern .next
+
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/2026-09-08/tools/build-runtime-assets.cjs
+  27:95  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/2026-09-08/tools/normalize-retarget-glb.cjs
+  114:10  warning  'frameValueSlots' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/build-dragon.cjs
+  11:339  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  42:16   warning  'discard' is assigned a value but never used                           @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/build-recovered.cjs
+  11:339  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+  42:16   warning  'discard' is assigned a value but never used                           @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/fit-recovered-rig.cjs
+  50:116  warning  'hand' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  51:13   warning  'ri' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/normalize-retarget-glb.cjs
+  115:10  warning  'frameValueSlots' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/package-ranger.cjs
+  17:8  warning  'style' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/package-reaper.cjs
+  17:8  warning  'style' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/qa-maximum-reach.mjs
+  4:43  warning  'travelBetween' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/ranger-pipeline/normalize-retarget-glb.cjs
+  115:10  warning  'frameValueSlots' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/reaper-pipeline/normalize-retarget-glb.cjs
+  115:10  warning  'frameValueSlots' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/higgsfield/recovered-2026-09-17/tools/spider-pipeline/normalize-retarget-glb.cjs
+  114:10  warning  'frameValueSlots' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/sovereign-v11/scripts/derive_sole_proxies.mjs
+  19:151  warning  'hipWorld' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/sovereign-v11/scripts/measure_deformation.mjs
+  22:54  warning  'bi' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/assets-source/sovereign-v11/scripts/rig_refined_sovereign.mjs
+   57:24  warning  'pos' is defined but never used           @typescript-eslint/no-unused-vars
+   81:13  warning  'z' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  119:7   warning  'vec' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/scripts/prune-environment-build.mjs
+  57:39  warning  'data' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/scripts/sovereign/rig_mobile_sovereign.mjs
+  40:24  warning  'pos' is defined but never used           @typescript-eslint/no-unused-vars
+  57:13  warning  'z' is assigned a value but never used    @typescript-eslint/no-unused-vars
+  79:7   warning  'vec' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/tests/architecture-assets.test.mjs
+  14:98   warning  'ROOMS' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  92:143  warning  'requests' is defined but never used        @typescript-eslint/no-unused-vars
+
+/Users/nathaniel/Documents/ChatGPT/Knight/Ashen/tests/game.test.mjs
+  12:148  warning  'ROOMS' is assigned a value but never used      @typescript-eslint/no-unused-vars
+  12:154  warning  'CORRIDORS' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  12:164  warning  'GATES' is assigned a value but never used      @typescript-eslint/no-unused-vars
+
+✖ 29 problems (0 errors, 29 warnings)

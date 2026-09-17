@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-09-17T10:35:12.316568+00:00",
+  "device": "iPhone 17 Pro Max",
+  "platform": "iOS",
+  "version": "27.0",
+  "build": "24A5430a",
+  "reality": "physical",
+  "evidence": "xcrun devicectl device info details; xcrun xctrace list devices; iPhone Mirroring accessibility state",
+  "status": "Mirroring cannot connect while phone is in use. Requested user lock the phone and confirm readiness. No performance run performed.",
+  "privacy": "Device identifiers, serial numbers and account/device names intentionally omitted."
+}
