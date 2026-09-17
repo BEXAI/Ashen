@@ -37,7 +37,7 @@
     "lintErrors": 208,
     "lintWarnings": 29
   },
-  "deviceEvidence": "Physical iPhone 17 Pro Max / iOS 27.0 identified. Mirroring now asks the user to unlock the iPhone and follow the on-phone prompt. Awaiting readiness; no phone gameplay evidence.",
+  "deviceEvidence": "Physical iPhone 17 Pro Max / iOS 27.0 identified. Fresh Mirroring connection ended with an explicit timeout due to phone use; it requests locking the phone before reconnecting. Awaiting readiness; no phone gameplay evidence.",
   "published": false,
   "followUpFixes": [
     "Canonical spider bounds remove 0.002043-unit mobile/HD contact drift; all 16 tier comparisons pass",

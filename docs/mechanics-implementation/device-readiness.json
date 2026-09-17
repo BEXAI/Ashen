@@ -6,9 +6,9 @@
   "build": "24A5430a",
   "reality": "physical",
   "evidence": "xcrun devicectl device info details; xcrun xctrace list devices; iPhone Mirroring accessibility state",
-  "status": "Mirroring asks the user to unlock the iPhone and follow its on-phone prompt. Awaiting readiness; no physical gameplay or performance run performed.",
+  "status": "A fresh Connect attempt changed Unlock Your iPhone to iPhone in Use, then ended with an explicit connection timeout due to phone use. Awaiting the user to lock the phone before reconnecting; no physical gameplay or performance run performed.",
   "privacy": "Device identifiers, serial numbers and account/device names intentionally omitted.",
-  "latestMirroringState": "Unlock Your iPhone \u2014 follow the instructions on the iPhone to unlock and use it on this Mac",
+  "latestMirroringState": "Timed Out \u2014 iPhone Mirroring timed out due to iPhone use while connecting. Lock the iPhone before connecting.",
   "phoneGameplayTested": false,
-  "latestMirroringCheckedAt": "2026-09-17T13:02:20Z"
+  "latestMirroringCheckedAt": "2026-09-17T13:15:35.617261+00:00"
 }
