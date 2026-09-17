@@ -865,5 +865,17 @@
   ],
   "equipment": "embedded",
   "contactSockets": "embedded",
-  "contentVersion": "recovered-september9-v1"
+  "contentVersion": "recovered-september9-v1",
+  "bounds": {
+    "min": [
+      -0.9999998955496475,
+      5.4542839750603334e-08,
+      -0.8890521849488582
+    ],
+    "max": [
+      0.9999999291738922,
+      0.9417008602515775,
+      0.8890525404613262
+    ]
+  }
 }

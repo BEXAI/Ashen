@@ -56,3 +56,15 @@ test('Hazard pulse tests the moving hero at contact time rather than the later c
  const f=fixture(),{g,m}=f;g.p.z=21.16;g.keys.add('s');m.velocity.set('hero',{x:0,z:5.4});startHazard(f,.005,.35,{x:0,z:20});advance(g);
  assert.ok(g.p.z>21.2,'committed endpoint is outside the disk');assert.equal(g.p.health,113,'hero was still inside at the earlier pulse');assert.equal(pulses(m).length,1);near(pulses(m)[0].point.z,21.187);near(pulses(m)[0].time,.005);assert.equal(m.clock.frozenRemaining,0);
 });
+
+test('Actual hazard entry/exit and pulse outcomes agree at 20/30/60/120 Hz and 100ms jitter',()=>{
+ const schedule=(pattern)=>{const frames=[];let remaining=2,index=0;while(remaining>1e-10){const dt=Math.min(remaining,pattern[index++%pattern.length]);frames.push(dt);remaining-=dt;}return frames;};
+ const replay=(frames)=>{
+  const f=fixture(),{g,m}=f;startHazard(f,1);const trace=[],step=g.stepSimulation.bind(g);
+  g.stepSimulation=(dt,tick)=>{g.keys.clear();if(tick.tick<=25)g.keys.add('s');else if(tick.tick<=50)g.keys.add('w');step(dt,tick);trace.push({tick:tick.tick,x:g.p.x,z:g.p.z,health:g.p.health,hazard:m.hazards.snapshot(),events:pulses(m).slice()});};
+  for(const dt of frames)g.advanceFrameTime(dt);
+  return {trace,hp:g.p.health,pulses:pulses(m),playtime:g.p.playtime,dropped:m.clock.totalDroppedTime};
+ };
+ const expected=replay(schedule([1/60]));assert.equal(expected.hp,113);assert.equal(expected.pulses.length,1);assert.ok(expected.trace.some(t=>Math.abs(t.z-20)>1.2),'trace must actually leave the disk');assert.ok(Math.abs(expected.pulses[0].point.z-20)<1.2,'trace must re-enter before its pulse');
+ for(const [name,pattern] of [['20Hz',[1/20]],['30Hz',[1/30]],['120Hz',[1/120]],['jitter',[.1,1/120,.033,.017,.08]]]){const actual=replay(schedule(pattern));assert.deepEqual(actual.trace,expected.trace,name);near(actual.playtime,2,name);assert.equal(actual.dropped,0);}
+});

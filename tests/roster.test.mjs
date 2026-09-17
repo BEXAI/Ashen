@@ -11,6 +11,15 @@ const{T,GLTFLoader,MeshoptDecoder,installRosterVisual,limitRosterTextures,Roster
 globalThis.self=globalThis;
 const manifest=JSON.parse(await fs.readFile(root+'/public'+ROSTER_MANIFEST_URL,'utf8'));
 function withoutTextures(bytes){const len=bytes.readUInt32LE(12),doc=JSON.parse(bytes.subarray(20,20+len)),bin=bytes.subarray(28+len);doc.materials=doc.materials.map(m=>({name:m.name,pbrMetallicRoughness:{baseColorFactor:[.5,.5,.5,1]}}));delete doc.images;delete doc.textures;const txt=Buffer.from(JSON.stringify(doc)),j=Buffer.alloc(Math.ceil(txt.length/4)*4,32);txt.copy(j);const out=Buffer.alloc(28+j.length+bin.length);out.writeUInt32LE(0x46546c67,0);out.writeUInt32LE(2,4);out.writeUInt32LE(out.length,8);out.writeUInt32LE(j.length,12);out.writeUInt32LE(0x4e4f534a,16);j.copy(out,20);out.writeUInt32LE(bin.length,20+j.length);out.writeUInt32LE(0x004e4942,24+j.length);bin.copy(out,28+j.length);return out.buffer.slice(out.byteOffset,out.byteOffset+out.byteLength);}
+test('Every mobile and HD roster model has identical sampled combat sockets and skeleton transforms',async()=>{
+ for(const[id,model] of Object.entries(manifest.characters)){
+  const actors=[];
+  for(const tier of ['mobile','hd']){const gltf=await new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).parseAsync(withoutTextures(await fs.readFile(root+'/public'+model.variants[tier].url)),'');const actor=knight(true,id==='ember-dragon');actor.group.userData.visualId=id;installRosterVisual(actor,gltf,model,id);actors.push(actor);}
+  const sample=(actor,strike,age)=>{actor.visual.beginFrame();actor.visual.strike(strike,age);const a=new T.Vector3(),b=new T.Vector3();actor.visual.segment(a,b);actor.group.updateMatrixWorld(true);const values=[...a.toArray(),...b.toArray()];actor.group.traverse(node=>{if(node.isBone)values.push(...node.matrixWorld.elements);});return values;};
+  for(const strike of STRIKES)for(const age of [0,strike.windup*.5,strike.windup,strike.windup+strike.active*.5,strike.windup+strike.active,strike.windup+strike.active+strike.recovery]){const a=sample(actors[0],strike,age),b=sample(actors[1],strike,age);assert.equal(a.length,b.length,id);a.forEach((value,index)=>assert.ok(Number.isFinite(value)&&Math.abs(value-b[index])<1e-5,`${id}/${strike.id}/${age}: mobile and HD differ at ${index}`));}
+  for(const actor of actors)actor.visual.dispose();
+ }
+});
 test('All 16 screenshot characters have unique source IDs, portraits, weighted playable models, and a film',async()=>{
  assert.equal(HERO_IDS.length,6);assert.equal(Object.keys(ENEMY_ROSTER).length,10);assert.equal(Object.keys(manifest.characters).length,16);assert.equal(new Set(Object.values(ROSTER).map(r=>r.sourceId)).size,16);
  for(const[id,entry]of Object.entries(ROSTER)){const model=manifest.characters[id];assert.equal(model.sourceAssetId,entry.sourceId);assert.ok((await fs.stat(`${base}/portraits/${id}.webp`)).size>1000);for(const v of Object.values(model.variants)){const bytes=await fs.readFile(root+'/public'+v.url);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),v.sha256);}}
