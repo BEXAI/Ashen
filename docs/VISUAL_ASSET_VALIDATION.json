@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0.0",
+  "historical_note": "This report records v8 measurements, not the current release. The superseded v8 packages were removed on 2026-09-17; retain their historical paths below as provenance, not live links. Current integration priorities are in docs/ASSET_UPDATE_PLAN.md.",
   "date": "2026-09-08",
   "asset_version": "visual-v8",
   "baseline_source_sha": "3101c905c1ea1734dc266d34e37e4300b21bf343",

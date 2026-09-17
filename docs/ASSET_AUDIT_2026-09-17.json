@@ -1,0 +1,1955 @@
+{
+  "schemaVersion": 1,
+  "auditedOn": "2026-09-17",
+  "scope": "Current Ashen source/GitHub trees, specific higgsfield 2 directory, available 3D Jutsu Ashen projects and 75 official CLI generation records. Audit and plan only for new assets; no new gameplay asset activated.",
+  "baselines": {
+    "site": "089cdc2dca2b6da4881a46fbbcb3a702fa889c2f",
+    "github": "a4504e0436355ceb02de46e084e758ec20cebd23"
+  },
+  "targetDirectory": {
+    "path": "assets-source/higgsfield 2/",
+    "empty": true,
+    "tracked": false,
+    "preserved": true
+  },
+  "canonicalHiggsfieldComparisonBeforeSyntheticFixtureCleanup": {
+    "canonicalLogicalFiles": 243,
+    "currentLogicalFiles": 226,
+    "samePathDifferentBytes": 0,
+    "canonicalOnlyFiles": 17,
+    "canonicalGlbs": 41,
+    "samePathChangedGlbs": [],
+    "canonicalOnlyGlbs": []
+  },
+  "remoteGenerations": {
+    "listCount": 75,
+    "completeness": "CLI returned 75 items for requested size 100; no pagination flag was exposed. This audit covers exactly that returned list, not an independently proved exhaustive account history.",
+    "classificationCounts": {
+      "preserved-animation-donor-used-by-active-roster": 15,
+      "preserved-original-used-by-active-roster": 14,
+      "completed-remote-output-not-imported-in-audited-trees": 14
+    },
+    "availabilitySummary": {
+      "allMissingOutputHeadRequestsSuccessful": true,
+      "knownContentBytes": 60956536,
+      "checkedCount": 14,
+      "contentNotDownloaded": true
+    }
+  },
+  "unimportedProviderModels": [
+    {
+      "jobId": "7c89f8f0-6932-4b2c-9f0b-cbeac6b72d57",
+      "jobType": "image_to_3d",
+      "createdAt": "2026-09-09T02:35:59.398748Z",
+      "resultUrlSha256": "635f1b1e766f616070e9bafb735876bafe65abc06039ce42fc1b9c41855b4713",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "frost-mage"
+      ],
+      "inputSourceAssetIds": [
+        "6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "frost-mage": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 8989360,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "9aa73b17-3fb2-4585-8f6d-c3f6d8019dff",
+      "jobType": "image_to_3d",
+      "createdAt": "2026-09-09T02:35:58.190816Z",
+      "resultUrlSha256": "169a855a081c9b3a10307158ee21e551f2fed404786d559ddc0d6076cde816ef",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "dusk-rogue"
+      ],
+      "inputSourceAssetIds": [
+        "853d2fdc-06d5-4cfc-888a-ccd2f3d9f202"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "dusk-rogue": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 8091428,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "bcadeacb-2cef-46b1-bf39-5d1fe4b79e85",
+      "jobType": "image_to_3d",
+      "createdAt": "2026-09-09T02:35:51.38145Z",
+      "resultUrlSha256": "fb4c13dacf0b6f55d80eaadbec5a70ace7c6799168752d5094483ebcc0097260",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "ember-dragon"
+      ],
+      "inputSourceAssetIds": [
+        "5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "ember-dragon": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 9711732,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "303045a4-0142-4fa0-a885-40c6487b680f",
+      "jobType": "image_to_3d",
+      "createdAt": "2026-09-09T02:35:31.701196Z",
+      "resultUrlSha256": "554297e263c7b2bf4aba7d343e36ac410a827e95ae8c71119c466ec7adb693f8",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "lion-knight"
+      ],
+      "inputSourceAssetIds": [
+        "db95c2d3-580c-43c5-ab3b-58ee75def5cb"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "lion-knight": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 8761360,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "800410e3-f234-45ad-86cb-c0cc717ecacd",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:29:48.845687Z",
+      "resultUrlSha256": "3e8d4da1916058ee4ea888faba4a86d85b40d46bfd2055aed1e174014e1b8991",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "ogre"
+      ],
+      "inputSourceAssetIds": [
+        "e4f73d18-4dda-4d66-8bc5-1f163c44cf9d"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "ogre": "locally-authored"
+      },
+      "priority": "high: compare provider original to locally authored current model",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2784968,
+        "contentBytesInspected": true
+      },
+      "contentSha256": "62c060be802cddc98fcb5a8da15d217439212d5a97334c2bae1a8d2c28960f6f"
+    },
+    {
+      "jobId": "17726e3d-90b4-4c8a-b725-f7775da1b1e9",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:29:46.911011Z",
+      "resultUrlSha256": "dcff8705e5d5bd6f45efe514b8a1254c510fffded456ab634a9f73835625469f",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "ranger"
+      ],
+      "inputSourceAssetIds": [
+        "0beed7ce-bd60-4a35-8f57-489368a80bb4"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "ranger": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2391832,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "e9ad3f40-e0d2-4d1e-8912-9fce46a05e44",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:29:44.766678Z",
+      "resultUrlSha256": "bbc0017d0bccca85f21e5054efc923670f6676297b3683d30c4b4907c0d58240",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "sage"
+      ],
+      "inputSourceAssetIds": [
+        "880f9069-e695-4dc2-aaed-b5ae3ef026eb"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "sage": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2401736,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "526c4d8d-3183-426e-9a6d-abb0618143df",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:29:42.509314Z",
+      "resultUrlSha256": "500b835f2e2f9b68bca72f386f5b9d0794d8cae957a48d1a675fc112cfef6766",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "silver-knight"
+      ],
+      "inputSourceAssetIds": [
+        "5cbfe6bf-e3d1-4d07-849a-203e77d1b94b"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "silver-knight": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2588848,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "23b3fa3f-f993-4d66-9067-65e4ca0f80ac",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:27.940885Z",
+      "resultUrlSha256": "daed59305c7dc627126d2b7f0730792a2fc1d9a42bb1b68db89248aa506729ac",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "lich"
+      ],
+      "inputSourceAssetIds": [
+        "3e9a9a70-5514-4bc1-b84a-8f09917ecefe"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "lich": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2469452,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "84462d2a-4be9-4d59-b8a8-dff36f474d0f",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:26.149525Z",
+      "resultUrlSha256": "5001b90a7414620b99eab0e126160f4b0300dd3ff90a02add8fa14865655d5b3",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "reaper"
+      ],
+      "inputSourceAssetIds": [
+        "ae17a6dd-ffae-472e-b762-c9cb6ed2e584"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "reaper": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2577964,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "67d5e2fe-bf89-47a9-b8fb-22c46c754faf",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:24.111659Z",
+      "resultUrlSha256": "43b5b9e61d6324f85d145645ade69a2068d67b2d0c896dd7df2124ab9c46bdb9",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "spider"
+      ],
+      "inputSourceAssetIds": [
+        "c4010a07-000c-439c-b8da-2a200549f97a"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "spider": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2391248,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "84df53a6-19c6-4479-8010-e897c91e90b3",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:19.368512Z",
+      "resultUrlSha256": "465bfd19265980a0dad32feaa1b97fdb07a4ca21a9d38b77a35f23de6ee2c965",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "goblin"
+      ],
+      "inputSourceAssetIds": [
+        "2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "goblin": "locally-authored"
+      },
+      "priority": "high: compare provider original to locally authored current model",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2575956,
+        "contentBytesInspected": true
+      },
+      "contentSha256": "bc0c51c8a981bc840ffa5aef19ef039875ffd9ddd4c4366b73b79898bc775842"
+    },
+    {
+      "jobId": "b87d0e28-e495-4503-a5f6-2d1cb5fe3674",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:17.356834Z",
+      "resultUrlSha256": "25ac1790af8a811244a0ecc95bc1d55e48739a94c473e114f192e54fc9bd42a8",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "skeleton-warrior"
+      ],
+      "inputSourceAssetIds": [
+        "4bbdba2a-302d-428e-bc0c-3566bd84bde8"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "skeleton-warrior": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2721244,
+        "contentBytesInspected": false
+      }
+    },
+    {
+      "jobId": "412993f8-70c2-4dc3-8811-5d334052a0cc",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:15.511455Z",
+      "resultUrlSha256": "dafcbe869f79b26cfd3c30083faea193fcae4daf61ceeec10d734967785bc114",
+      "recordedReceiptCount": 0,
+      "classification": "completed-remote-output-not-imported-in-audited-trees",
+      "charactersFromExactInputAssetId": [
+        "knife-rogue"
+      ],
+      "inputSourceAssetIds": [
+        "3e01be62-ba68-4862-84c2-91f017008f6b"
+      ],
+      "localJobIdOrResultFilenameMatches": [],
+      "activeModelKind": {
+        "knife-rogue": "provider-generated-meshy-v7"
+      },
+      "priority": "review: alternate original predating current reconstruction",
+      "nextStep": "Retrieve existing output without creating a job; preserve separate original with job receipt; inspect mesh/texture/rig/animation and compare against current character before deciding replacement.",
+      "availability": {
+        "method": "HEAD",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "contentLength": 2499408,
+        "contentBytesInspected": false
+      }
+    }
+  ],
+  "fullyInspectedRecoveredModels": [
+    {
+      "character": "ogre",
+      "jobId": "800410e3-f234-45ad-86cb-c0cc717ecacd",
+      "createdAt": "2026-09-09T00:29:48.845687Z",
+      "bytes": 2784968,
+      "sha256": "62c060be802cddc98fcb5a8da15d217439212d5a97334c2bae1a8d2c28960f6f",
+      "meshes": 1,
+      "triangles": 56716,
+      "skins": 0,
+      "animations": [],
+      "images": 3,
+      "materials": 1,
+      "externalUris": [],
+      "extensions": []
+    },
+    {
+      "character": "goblin",
+      "jobId": "84df53a6-19c6-4479-8010-e897c91e90b3",
+      "createdAt": "2026-09-09T00:27:19.368512Z",
+      "bytes": 2575956,
+      "sha256": "bc0c51c8a981bc840ffa5aef19ef039875ffd9ddd4c4366b73b79898bc775842",
+      "meshes": 1,
+      "triangles": 57286,
+      "skins": 0,
+      "animations": [],
+      "images": 3,
+      "materials": 1,
+      "externalUris": [],
+      "extensions": []
+    }
+  ],
+  "remoteSceneAudit": {
+    "checkedAt": "2026-09-17",
+    "scope": "Read-only remote Ashen 3D Jutsu inventory; all six Ashen projects from one complete ten-project listing.",
+    "projects": [
+      {
+        "name": "Ashen Realm \u2014 crypt relics and ossuary props",
+        "ok": true,
+        "exists": true,
+        "project": {
+          "projectId": "02765069-6a15-4d44-852b-025f53032fdf",
+          "revision": 1,
+          "sceneSequence": 1,
+          "appliedSceneSequence": 1,
+          "activeOperationId": null,
+          "artifacts": {
+            "projectId": "02765069-6a15-4d44-852b-025f53032fdf",
+            "revision": 1,
+            "blend": {
+              "size": 1121857,
+              "etag": "6d2bd29a23ec1f5ece79d2fe5032cee2"
+            },
+            "glb": {
+              "size": 376016,
+              "etag": "390a7ee41e923de047c1a578a32d6d22"
+            },
+            "generated": []
+          },
+          "createdAt": "2026-09-17T03:53:21.071Z",
+          "updatedAt": "2026-09-17T03:54:09.620Z"
+        },
+        "projectUrl": "https://higgsfield.ai/3d-jutsu/02765069-6a15-4d44-852b-025f53032fdf"
+      },
+      {
+        "name": "Ashen Realm \u2014 arch pillar and trim kit",
+        "ok": true,
+        "exists": true,
+        "project": {
+          "projectId": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+          "revision": 1,
+          "sceneSequence": 0,
+          "appliedSceneSequence": 0,
+          "activeOperationId": null,
+          "artifacts": {
+            "projectId": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+            "revision": 1,
+            "blend": {
+              "size": 1406322,
+              "etag": "0fc730636b0ea3b923a2cc007081117e"
+            },
+            "glb": {
+              "size": 660968,
+              "etag": "34cda7e26035a667bb3929450da778f8"
+            },
+            "generated": [
+              {
+                "size": 517166,
+                "etag": "44f2781ad1697d7699203c89deb7d9b1",
+                "id": "59f51723c7d8bc8d375476acf4cf495d",
+                "name": "architecture-source-review.png",
+                "mediaType": "image/png",
+                "width": 768,
+                "height": 640
+              }
+            ]
+          },
+          "createdAt": "2026-09-09T22:53:22.759Z",
+          "updatedAt": "2026-09-09T22:53:58.357Z"
+        },
+        "projectUrl": "https://higgsfield.ai/3d-jutsu/1d6dfef7-341a-43ea-bb7f-c5b7f36b4292"
+      },
+      {
+        "name": "Ashen Realm \u2014 Ember Shrine A02",
+        "ok": true,
+        "exists": true,
+        "project": {
+          "projectId": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+          "revision": 1,
+          "sceneSequence": 0,
+          "appliedSceneSequence": 0,
+          "activeOperationId": null,
+          "artifacts": {
+            "projectId": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+            "revision": 1,
+            "blend": {
+              "size": 1215694,
+              "etag": "7d73dce7a58a807015cfc49a0b21f7d1"
+            },
+            "glb": {
+              "size": 471572,
+              "etag": "c36f1d8ad9dbc0ff72ea2a28a84e9a27"
+            },
+            "generated": [
+              {
+                "size": 683261,
+                "etag": "aabe4aed14a0f7f62d567e94fa6a0bb3",
+                "id": "9832a65c1649cce7c47370fbf27f6fda",
+                "name": "ember-shrine-source-review.png",
+                "mediaType": "image/png",
+                "width": 768,
+                "height": 768
+              }
+            ]
+          },
+          "createdAt": "2026-09-09T22:28:09.067Z",
+          "updatedAt": "2026-09-09T22:28:59.646Z"
+        },
+        "projectUrl": "https://higgsfield.ai/3d-jutsu/02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59"
+      },
+      {
+        "name": "Ashen Realm \u2014 torch sconce pilot",
+        "ok": true,
+        "exists": true,
+        "project": {
+          "projectId": "21434c15-bdde-4abd-bcb9-62098cae463a",
+          "revision": 1,
+          "sceneSequence": 0,
+          "appliedSceneSequence": 0,
+          "activeOperationId": null,
+          "artifacts": {
+            "projectId": "21434c15-bdde-4abd-bcb9-62098cae463a",
+            "revision": 1,
+            "blend": {
+              "size": 899924,
+              "etag": "22a4558d18f6b387b1ae8dc791773881"
+            },
+            "glb": {
+              "size": 377208,
+              "etag": "a6cb197222978821b5cecab68edcf6af"
+            },
+            "generated": [
+              {
+                "size": 369702,
+                "etag": "eca5b10f99fe8a1c22c19863a7f9bb4c",
+                "id": "eecaf46934d9cb1191b37ec891d5f606",
+                "name": "sconce-source-review.png",
+                "mediaType": "image/png",
+                "width": 512,
+                "height": 640
+              }
+            ]
+          },
+          "createdAt": "2026-09-09T21:56:03.055Z",
+          "updatedAt": "2026-09-09T21:57:11.099Z"
+        },
+        "projectUrl": "https://higgsfield.ai/3d-jutsu/21434c15-bdde-4abd-bcb9-62098cae463a"
+      },
+      {
+        "name": "Ashen Realm \u2014 character asset atelier",
+        "ok": true,
+        "exists": false,
+        "project": {
+          "projectId": "0798b772-30ef-4e4d-bbc9-0d99646617ce",
+          "revision": 0,
+          "sceneSequence": 0,
+          "appliedSceneSequence": 0,
+          "activeOperationId": null,
+          "artifacts": null
+        },
+        "projectUrl": "https://higgsfield.ai/3d-jutsu/0798b772-30ef-4e4d-bbc9-0d99646617ce"
+      },
+      {
+        "name": "Ashen Realm \u2014 production character assets",
+        "ok": true,
+        "exists": false,
+        "project": {
+          "projectId": "851c7dca-e58c-447b-9d11-6ee15f8406a2",
+          "revision": 0,
+          "sceneSequence": 0,
+          "appliedSceneSequence": 0,
+          "activeOperationId": null,
+          "artifacts": null
+        },
+        "projectUrl": "https://higgsfield.ai/3d-jutsu/851c7dca-e58c-447b-9d11-6ee15f8406a2"
+      }
+    ],
+    "newCandidate": {
+      "projectId": "02765069-6a15-4d44-852b-025f53032fdf",
+      "projectUrl": "https://higgsfield.ai/3d-jutsu/02765069-6a15-4d44-852b-025f53032fdf",
+      "revision": 1,
+      "meshes": [
+        {
+          "name": "dun_bone_throne",
+          "vertices": 9296,
+          "triangles": 6120,
+          "dimensions": [
+            0.88,
+            0.9601,
+            1.7347
+          ],
+          "materials": [
+            "lowpoly"
+          ],
+          "parent": "BoneThrone",
+          "hiddenRender": false
+        }
+      ],
+      "armatures": [],
+      "actions": [],
+      "materials": [
+        {
+          "name": "lowpoly",
+          "nodes": true
+        }
+      ],
+      "collections": [],
+      "glb": {
+        "bytes": 376016,
+        "sha256": "5055af6df7d4dbcb64ae4a631d311da019a7f94cc8991c064a6cda73f2793857",
+        "textures": 0,
+        "images": 0,
+        "primitives": 1,
+        "rootTranslation": [
+          -6,
+          0,
+          0
+        ],
+        "meshTranslation": [
+          0,
+          -0.8673511147499084,
+          0
+        ]
+      },
+      "provenance": {
+        "sceneProperties": {},
+        "objects": [
+          {
+            "name": "BoneThrone",
+            "properties": {
+              "hf_id": "a6a3a32a-21c6-49e9-b96f-fd088d9e71de",
+              "hf_asset": "65b31468-5c24-440c-9a95-99db1b195b67"
+            },
+            "modifiers": []
+          },
+          {
+            "name": "dun_bone_throne",
+            "properties": {
+              "hf_asset_child": "True"
+            },
+            "modifiers": []
+          }
+        ],
+        "images": []
+      },
+      "reviewLimitations": [
+        "Not visually reviewed in the runtime.",
+        "Export has one untextured material and needs placement normalization.",
+        "Catalog source reference recorded; catalog listing exposes no redistribution license metadata."
+      ]
+    }
+  },
+  "cleanup": {
+    "trackedFilesRemovedPerCheckout": 59,
+    "trackedBytesRemovedPerCheckout": 51980888,
+    "untrackedCopiesRemovedFromGithubCheckout": 144,
+    "untrackedBytesRemovedFromGithubCheckout": 30274052,
+    "trackedRemoved": [
+      {
+        "path": "public/assets/characters/v8/ash-knight-high-fallback.glb",
+        "bytes": 4530144,
+        "sha256": "5d46a06e84260d43b17169f9c6b8177ed4d0a6df3bcbc0d0bb6d1d7b27af1739",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ash-knight-high.glb",
+        "bytes": 1501248,
+        "sha256": "8522891e9fe42c897841f7d91305473866034419f8ddd06640b975acb9d7c566",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ash-knight-low-fallback.glb",
+        "bytes": 2114084,
+        "sha256": "e9184808910218907a49ef08b63dff62a66de76fc43cf84671c914ebf22b3dc5",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ash-knight-low.glb",
+        "bytes": 550480,
+        "sha256": "d239031aad7a20794543dd67b786c5171e5161539ca6a92b8783116dc569dbb9",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ash-knight-mobile-fallback.glb",
+        "bytes": 2388788,
+        "sha256": "ba1b097505ee4872e5f419ef0caa92d93becd6e7350131e8ebc4dd4df2dd1c09",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ash-knight-mobile.glb",
+        "bytes": 701332,
+        "sha256": "eaf4f5285f51fdf33ee6b8f991300a92d3cc9f805be0288022e37278af493d45",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/crypt-warden-high-fallback.glb",
+        "bytes": 3111536,
+        "sha256": "03fb4464fd427e458c64f0bd2513631a89426c1ed62d0aef4a4e060b71319adb",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/crypt-warden-high.glb",
+        "bytes": 989656,
+        "sha256": "3221d4acf8f23d30c51c0ebf70e98525376049c5b647c6cd62d936899fd3815e",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/crypt-warden-low-fallback.glb",
+        "bytes": 2495544,
+        "sha256": "867d9c263ad6f3a6b7d2903a2bfcb537fcd08baffd9003115215a919379e3d20",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/crypt-warden-low.glb",
+        "bytes": 692180,
+        "sha256": "0ee7fcaa0962aec38fa305bedb504eb9db7c23bc99226401959786c232d6b99e",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/crypt-warden-mobile-fallback.glb",
+        "bytes": 3111536,
+        "sha256": "03fb4464fd427e458c64f0bd2513631a89426c1ed62d0aef4a4e060b71319adb",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/crypt-warden-mobile.glb",
+        "bytes": 989656,
+        "sha256": "3221d4acf8f23d30c51c0ebf70e98525376049c5b647c6cd62d936899fd3815e",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ember-sovereign-high-fallback.glb",
+        "bytes": 5095396,
+        "sha256": "de3a5d2f7007906ed332ecbbe63153a1c95f2d2175da7deaf2ddf0bcdc8cb01d",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ember-sovereign-high.glb",
+        "bytes": 1737572,
+        "sha256": "5695da5266271b03184daf73ec7b79bab9c8aea6f8107e19f1e1f966032cf3c8",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ember-sovereign-low-fallback.glb",
+        "bytes": 2301540,
+        "sha256": "05d792ae3efe5ed8610ea0960d01da66e15b38cf07104819f447fb2b0001ecc6",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ember-sovereign-low.glb",
+        "bytes": 601272,
+        "sha256": "cf2e8ad7d6bb70f14e3c2ed5b8e62aed74cd58c5add23c09e1bf7a12a9689178",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ember-sovereign-mobile-fallback.glb",
+        "bytes": 2674848,
+        "sha256": "68d98e65a0e2d37ae4e603e1726836490a420920c32b40cd4e66cab0936bada4",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/ember-sovereign-mobile.glb",
+        "bytes": 802380,
+        "sha256": "9f65d3273a3b4a4ae86e685d745b5748db9ed7e57e790fb7ebda01bd55d9cf17",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/characters/v8/manifest.json",
+        "bytes": 11816,
+        "sha256": "a1c590ca82d5525999b2377738aa12558c92f93c1c6ac26a5500a0aee593e758",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/cinder-indirect.png",
+        "bytes": 47442,
+        "sha256": "46f9b02fa5669e03e1182820b962345907f26bdabceeb8768673f805e82ea2bf",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/cinder.glb",
+        "bytes": 1142180,
+        "sha256": "e2c7856e1fd4c9952d8c70674139e6c17529113f89a9de68b78ae3aa866e4a16",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/crown-indirect.png",
+        "bytes": 52114,
+        "sha256": "962c4a8b2d3a0515b8d5f52fe8a48c98024ff6d25ae41f5d6ae41c6f9a2013e0",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/crown.glb",
+        "bytes": 999556,
+        "sha256": "87544ca5f2f3fc57b204bcb3c3994321f46e4477e35853d03dd60280dc9934c9",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/dusk-indirect.png",
+        "bytes": 45217,
+        "sha256": "f37795512d919fe59ea949a84a1fd89dabdd33bfe175cd3d3ba3f3ca8f945c9f",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/dusk.glb",
+        "bytes": 1144836,
+        "sha256": "fde0061fb1c7d52c119a2360f4d0ff21f077b1c513be3f4cc473e06a42d418b4",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/entry-indirect.png",
+        "bytes": 53082,
+        "sha256": "6b5a422f18ca1e8af0d947f026473c7bc3b8b8965e4ad83e7b1ac043192a991d",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/entry.glb",
+        "bytes": 1058512,
+        "sha256": "901163ad1edd43906be0e1964e28b7b2adf7117a165340f267516b9021f66997",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/manifest.json",
+        "bytes": 4615,
+        "sha256": "86106e3e4149b0b0e7fe2ba8da9dbf0ac5a42fae62ee5100824b96f6217bea9d",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-0-indirect.png",
+        "bytes": 6754,
+        "sha256": "57cadba6f190e3856392aeca58fa9a87d566bf447497285fa131326786557912",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-0.glb",
+        "bytes": 5180,
+        "sha256": "2bb841fdac8a91bf9f7066e726b6b9609408bb902e9054e0e6ae4bfb3372d503",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-1-indirect.png",
+        "bytes": 6500,
+        "sha256": "ccb473feec905e5282006d4f09626811cf5bf63432b8e6ea0cfa9e4e77acec2e",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-1.glb",
+        "bytes": 5164,
+        "sha256": "4cbe6e7c1f90e5beca16ee7ed41b9603ca8ad56a1f3cd2a19eb2e9daaea72897",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-2-indirect.png",
+        "bytes": 6592,
+        "sha256": "5b1940a02a1b2ad06360edcc8f6ee95f6daaaf4136e59df2e5d938be12d3b114",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-2.glb",
+        "bytes": 5200,
+        "sha256": "7522837a4be3ac715c1b9bc8c4435e5939eb3f511e21388417994c731cd744ba",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-3-indirect.png",
+        "bytes": 6636,
+        "sha256": "2492eaf2d3ccd57075fa18af389314203c7067e46b8f435b2cf5c2c4da40f2cf",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-3.glb",
+        "bytes": 5236,
+        "sha256": "80dc4ce7376310bc3f4376e0c86ea8fc5dceb7d282f00dfae0491d67076a0e5e",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/throne-indirect.png",
+        "bytes": 46065,
+        "sha256": "4c082d7a8dfba6436a5253c476b4ed4e360a4d2729de4987d9ab9cd488efa07d",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/dungeon/v8/throne.glb",
+        "bytes": 1183220,
+        "sha256": "17cb150f4ee827914309dde17624fa9d774180ed833d8fd5ff8619b1855754c7",
+        "reason": "Superseded version 8 package; no runtime, regression-test input, authoring-input, retained-manifest, retained-GLB external URI or restoration-registry dependency."
+      },
+      {
+        "path": "public/assets/props/v1/manifest.json",
+        "bytes": 5357,
+        "sha256": "af80b3e0e2d245b0bf6a0beaae4d3d4e8349703b7edeed75da80b998f5b01b02",
+        "reason": "Superseded generated prop manifest; runtime/tests read props v2, which retains both v1 sconce GLBs; authoring writes but does not read this v1 manifest."
+      },
+      {
+        "path": "assets-source/blocks/978469d8e875d1415df39749922a95543ea537a5559356ff4914210afa439e06-1.part",
+        "bytes": 1774720,
+        "sha256": "05226256c1d752cd3e18784c162ab744240c27bd11b67b58d4ff132de031ee2a",
+        "reason": "Unreferenced packed block; absent from restoration manifest."
+      },
+      {
+        "path": "assets-source/blocks/978469d8e875d1415df39749922a95543ea537a5559356ff4914210afa439e06-0.part",
+        "bytes": 3145728,
+        "sha256": "3afb7bd1aac1f31a809b74f1e231dc2ec049a12d7b84e407fab2f89686bab162",
+        "reason": "Unreferenced packed block; absent from restoration manifest."
+      },
+      {
+        "path": "public/assets/sky-lighting.hdr",
+        "bytes": 1173154,
+        "sha256": "206c67e3a1b992282821cf06662bdd69bbb4915c1c4444a66338a40d6a7d4e34",
+        "reason": "Unused original terrain/sky image; current terrain uses assets/4k WebP maps and sky is procedural."
+      },
+      {
+        "path": "public/assets/ground-diff.jpg",
+        "bytes": 843188,
+        "sha256": "d570c10b1d5302f4fde9e0e94f4cbab0d5e112fc3fe2b3b91c38a98bd3ddaf4b",
+        "reason": "Unused original terrain/sky image; current terrain uses assets/4k WebP maps and sky is procedural."
+      },
+      {
+        "path": "public/assets/ground-normal.jpg",
+        "bytes": 993692,
+        "sha256": "f4f9d9671c660f4e509e96d5da3091887dfd557e1353e313fa2d1dc789499ffd",
+        "reason": "Unused original terrain/sky image; current terrain uses assets/4k WebP maps and sky is procedural."
+      },
+      {
+        "path": "public/assets/rock-diff.jpg",
+        "bytes": 859211,
+        "sha256": "20f653a42fb24f42aa40641663070d578678da49af18cc1049dbdd4ed8679f3c",
+        "reason": "Unused original terrain/sky image; current terrain uses assets/4k WebP maps and sky is procedural."
+      },
+      {
+        "path": "public/assets/rock-normal.jpg",
+        "bytes": 802497,
+        "sha256": "5915fea28a97357c78a04fb31c2516f1f7ed1b3a9cef4ae25aa93e4655e6c595",
+        "reason": "Unused original terrain/sky image; current terrain uses assets/4k WebP maps and sky is procedural."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/fallback/fixture.hd2048.glb",
+        "bytes": 4520,
+        "sha256": "2dcfc753061cc5376109df8824aa4c96809cf3b10b6fe8871c803290fb4290c8",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/fallback/fixture.hd2048.validation.json",
+        "bytes": 2857,
+        "sha256": "d8b3b1e668156ab44a82eed94f83d79e9cc10b78ae3c6bae13c3f76ed67bb5ce",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/fallback/fixture.mobile1024.glb",
+        "bytes": 4312,
+        "sha256": "829c1af58bda2e46fd8b77c7fd4358108b0c9e1d989473a1f0af4388733ec063",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/fallback/fixture.mobile1024.validation.json",
+        "bytes": 2863,
+        "sha256": "ab4363bd4d403d68a1df9684abfcb2e9c6abef19683f80d2387221f5ae165a00",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/fallback/fixture.report.json",
+        "bytes": 59194,
+        "sha256": "ffdf9e69f7ebe2738570c60c15ead696fd7374d5224ebacb980ea48a50a620c5",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/fallback/fixture.source.validation.json",
+        "bytes": 1287,
+        "sha256": "409a8710e9e8c6a617a632419c5fc1dddfc244b5bb366fa9edbabdb767b234df",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/fixture.glb",
+        "bytes": 5480,
+        "sha256": "76cd804e6bb71923fd58aba7dcf0e216cba38c451ba529939dd459c0414389b7",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/output/fixture.hd2048.glb",
+        "bytes": 4640,
+        "sha256": "51b5daa94db38502f594c9bc80d013957540f83c8b0ade797d4a1cff057a72de",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/output/fixture.hd2048.validation.json",
+        "bytes": 3538,
+        "sha256": "d781a619069309406560606693b57e0ff039eb7fe90677a4b00f33ee287e46f4",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/output/fixture.mobile1024.glb",
+        "bytes": 4640,
+        "sha256": "ef4956faebfe10f6ad74f43dee5e6c7e6a946db876d10ac3bfbc5bf3db03e13b",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/output/fixture.mobile1024.validation.json",
+        "bytes": 3546,
+        "sha256": "6e58c1845f02da947dc4875cf1fee9fa5ea382ab4f3d28bd08755448ae1c7fca",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/output/fixture.report.json",
+        "bytes": 60068,
+        "sha256": "f0712f0dee72a104561d3ce16b0d1f9f31b9d0855e35083e15df45dfb288c3d3",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      },
+      {
+        "path": "assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/output/fixture.source.validation.json",
+        "bytes": 1287,
+        "sha256": "409a8710e9e8c6a617a632419c5fc1dddfc244b5bb366fa9edbabdb767b234df",
+        "reason": "Generated synthetic two-bone optimizer fixture; reproducibly created by retained test script."
+      }
+    ],
+    "untrackedRemoved": [
+      {
+        "path": "docs/visual-upgrade/arch-cinder-diagnostics 2.json",
+        "canonical": "docs/visual-upgrade/arch-cinder-diagnostics.json",
+        "bytes": 6484,
+        "sha256": "2350931a153b286c637299f432c0c685a1f855fb10caf7c5dfa6217dfff867e5"
+      },
+      {
+        "path": "docs/visual-upgrade/arch-entry-diagnostics 2.json",
+        "canonical": "docs/visual-upgrade/arch-entry-diagnostics.json",
+        "bytes": 6447,
+        "sha256": "6081a31e40c01b678d2655e912ab518769e89c35fac8afdb3845066456eeabf1"
+      },
+      {
+        "path": "docs/visual-upgrade/asset-reproducibility 2.json",
+        "canonical": "docs/visual-upgrade/asset-reproducibility.json",
+        "bytes": 311,
+        "sha256": "db75b5ad60d309f2cebef1572073909d39a7e4ff958fd542b8225ef2a0199b96"
+      },
+      {
+        "path": "docs/visual-upgrade/automated-validation 2.json",
+        "canonical": "docs/visual-upgrade/automated-validation.json",
+        "bytes": 1673,
+        "sha256": "49fa7346ad73162b3134f6bb805c483ebe6a9bb71f85534988344c3fc0e0fbc3"
+      },
+      {
+        "path": "docs/visual-upgrade/baseline 2.json",
+        "canonical": "docs/visual-upgrade/baseline.json",
+        "bytes": 1272,
+        "sha256": "5509a8e630612f7dcc589f4ba79c0535e337426ee32913708f23f061f51af1da"
+      },
+      {
+        "path": "docs/visual-upgrade/behavioral-contracts 2.md",
+        "canonical": "docs/visual-upgrade/behavioral-contracts.md",
+        "bytes": 1542,
+        "sha256": "8c00fe585b2d13b3e7a783dba42cedac5c33f380d56ac1a755cdf91dfe09bd69"
+      },
+      {
+        "path": "docs/visual-upgrade/character-low-qa 2.json",
+        "canonical": "docs/visual-upgrade/character-low-qa.json",
+        "bytes": 4160,
+        "sha256": "3446af3fe6c17ef9f2bf281f6001e1a1d5d6782db69b356c6cf7c77c2f299399"
+      },
+      {
+        "path": "docs/visual-upgrade/desktop-runtime-results 2.json",
+        "canonical": "docs/visual-upgrade/desktop-runtime-results.json",
+        "bytes": 7738,
+        "sha256": "8b23ec88a40f8ff7f4ad1accb56159263e35d6c81760f73ee25b508a0e673727"
+      },
+      {
+        "path": "docs/visual-upgrade/device-results 2.json",
+        "canonical": "docs/visual-upgrade/device-results.json",
+        "bytes": 367,
+        "sha256": "b85e1e71c180e4d8246c7d628aa3f9333effe9f03577e7026bf0f05ccc28b18b"
+      },
+      {
+        "path": "docs/visual-upgrade/environment-verification 2.json",
+        "canonical": "docs/visual-upgrade/environment-verification.json",
+        "bytes": 166711,
+        "sha256": "52d9ca195c5ead152b87d596fdda869295013b828e7743379ef11eda91d449cb"
+      },
+      {
+        "path": "docs/visual-upgrade/final-boss-mobile-budget-auto 2.json",
+        "canonical": "docs/visual-upgrade/final-boss-mobile-budget-auto.json",
+        "bytes": 4067952,
+        "sha256": "9c77d49e599a1e92f47b95c5ba4d95f80fb177a17371d8b2cd5c7b09259d895d"
+      },
+      {
+        "path": "docs/visual-upgrade/final-combat-mobile-budget-auto 2.json",
+        "canonical": "docs/visual-upgrade/final-combat-mobile-budget-auto.json",
+        "bytes": 2007194,
+        "sha256": "340670338a91a78fb1a2f9fb64850dad6051cdd881db0718e63bf3e3da996a85"
+      },
+      {
+        "path": "docs/visual-upgrade/gait-calibration-summary 2.json",
+        "canonical": "docs/visual-upgrade/gait-calibration-summary.json",
+        "bytes": 2516,
+        "sha256": "c257e1beb9e0573a264b2fa30d0bdc153c4d13a0b7e5c97d355498d5df5d457a"
+      },
+      {
+        "path": "docs/visual-upgrade/implementation-report 2.md",
+        "canonical": "docs/visual-upgrade/implementation-report.md",
+        "bytes": 3273,
+        "sha256": "4c8de58cff9ae0d5883aeeeaa8323a52b508ef23f177c7d9d2f860483d4b415e"
+      },
+      {
+        "path": "docs/visual-upgrade/lighting-calibration 2.json",
+        "canonical": "docs/visual-upgrade/lighting-calibration.json",
+        "bytes": 2812,
+        "sha256": "6e1bec927926044dfadb8c127f3402065d2361dc747bef44a2a5f51bc5e4ab4a"
+      },
+      {
+        "path": "docs/visual-upgrade/material-spec 2.json",
+        "canonical": "docs/visual-upgrade/material-spec.json",
+        "bytes": 2543,
+        "sha256": "f13b9729c9faf3ddd216fd8a86cbf3116a7570f3b92c206570340c1573bc643a"
+      },
+      {
+        "path": "docs/visual-upgrade/measurement-protocol 2.json",
+        "canonical": "docs/visual-upgrade/measurement-protocol.json",
+        "bytes": 1266,
+        "sha256": "8c4f74064be37ac402d479eee811fad0e5c4d1db2c4d0e845e2cee13ee8beb49"
+      },
+      {
+        "path": "docs/visual-upgrade/presentation-cpu 2.json",
+        "canonical": "docs/visual-upgrade/presentation-cpu.json",
+        "bytes": 1259,
+        "sha256": "f6776708f72b66d4c927422a8516c02890177aa2813aaf225af2ca3a3259374d"
+      },
+      {
+        "path": "docs/visual-upgrade/quality-swap-history 2.json",
+        "canonical": "docs/visual-upgrade/quality-swap-history.json",
+        "bytes": 76794,
+        "sha256": "5bd678a681da9bd90867cecff3ce681d6f02c0f282f2a383b68113ee99b60d9f"
+      },
+      {
+        "path": "docs/visual-upgrade/reference-boss-low-after-feedback 2.json",
+        "canonical": "docs/visual-upgrade/reference-boss-low-after-feedback.json",
+        "bytes": 1304903,
+        "sha256": "85679d699ac0f34e920d37179ee08570c01821e33178d2e5a9d1af7ab047a747"
+      },
+      {
+        "path": "docs/visual-upgrade/reference-combat-low-before-feedback 2.json",
+        "canonical": "docs/visual-upgrade/reference-combat-low-before-feedback.json",
+        "bytes": 1262412,
+        "sha256": "f20a5f43a0a76315e3c848ed8dbd76aec94ebbd8def737aaa44669c7cdb24b60"
+      },
+      {
+        "path": "docs/visual-upgrade/reference-slice-review 2.json",
+        "canonical": "docs/visual-upgrade/reference-slice-review.json",
+        "bytes": 1828,
+        "sha256": "b46b49888e5001d3b7bf3a669a4a91a5463d7cd1fd53e6d26292c34eee29e124"
+      },
+      {
+        "path": "docs/visual-upgrade/release-readiness 2.json",
+        "canonical": "docs/visual-upgrade/release-readiness.json",
+        "bytes": 3209,
+        "sha256": "9b66ecdd197529646195c7e781e0496c2f2cb97c1d4f318216b0c22d7a003d83"
+      },
+      {
+        "path": "docs/visual-upgrade/release-record 2.json",
+        "canonical": "docs/visual-upgrade/release-record.json",
+        "bytes": 2135,
+        "sha256": "8e3c8aba59b341f2194dd6da4b462b55753b4550a16375ed9a4924bad29b0e0c"
+      },
+      {
+        "path": "docs/visual-upgrade/sconce-low-diagnostics 2.json",
+        "canonical": "docs/visual-upgrade/sconce-low-diagnostics.json",
+        "bytes": 5386,
+        "sha256": "5fe0aca01a19ce2b271108aa594b445fa548e8c4da045c68f923cd24de2f3ccb"
+      },
+      {
+        "path": "docs/visual-upgrade/sconce-rollout-dusk 2.json",
+        "canonical": "docs/visual-upgrade/sconce-rollout-dusk.json",
+        "bytes": 5513,
+        "sha256": "ddc4c248ac445c3d5d314c3f031dd297ac4e931b776acecce8ebee57d8aef8f6"
+      },
+      {
+        "path": "docs/visual-upgrade/shrine-cinder-diagnostics 2.json",
+        "canonical": "docs/visual-upgrade/shrine-cinder-diagnostics.json",
+        "bytes": 6515,
+        "sha256": "6f4f0826aa5029a39b4573d8871e9e15a9e31c27dd914c174633f053518bd013"
+      },
+      {
+        "path": "docs/visual-upgrade/stance-comparison 2.json",
+        "canonical": "docs/visual-upgrade/stance-comparison.json",
+        "bytes": 104713,
+        "sha256": "5754c50e1aea87fb86d1f7103a0038ba70f59654cf8f9408861dde914da0d134"
+      },
+      {
+        "path": "docs/visual-upgrade/visual-review 2.json",
+        "canonical": "docs/visual-upgrade/visual-review.json",
+        "bytes": 9865,
+        "sha256": "816f4c14909318c02647ca7b41711c4fa8e9af7ae6a4780f8836ed146d2bf639"
+      },
+      {
+        "path": "docs/visual-upgrade/water-final-diagnostics 2.json",
+        "canonical": "docs/visual-upgrade/water-final-diagnostics.json",
+        "bytes": 6658,
+        "sha256": "69117a03e3e9b70eff539945721324ded8ada8898f5e4aa2545a146e7307d5b8"
+      },
+      {
+        "path": "public/assets/ashen-archive/ash-knight-character-reference--cf54ea08 2.webp",
+        "canonical": "public/assets/ashen-archive/ash-knight-character-reference--cf54ea08.webp",
+        "bytes": 78662,
+        "sha256": "66dd4355d509738546e6597d0ba9dba827e0feb18ea78baa5615883caaf22fc0"
+      },
+      {
+        "path": "public/assets/ashen-archive/ash-knight-photoreal-reference--681ce391 2.webp",
+        "canonical": "public/assets/ashen-archive/ash-knight-photoreal-reference--681ce391.webp",
+        "bytes": 82646,
+        "sha256": "4b147775c5727277f9c14dd27acf91637f20beaa432ebaa640d5e9c5e4405729"
+      },
+      {
+        "path": "public/assets/ashen-archive/ashen-realm-character-design-sheet--a4887158 2.webp",
+        "canonical": "public/assets/ashen-archive/ashen-realm-character-design-sheet--a4887158.webp",
+        "bytes": 108968,
+        "sha256": "7d9dd28c1d938fedb8eb0d8f135e300c7e67b37becfc1c55d28d225ded3be1fa"
+      },
+      {
+        "path": "public/assets/ashen-archive/ashen-realm-gameplay-trailer--97671044 2.mp4",
+        "canonical": "public/assets/ashen-archive/ashen-realm-gameplay-trailer--97671044.mp4",
+        "bytes": 3661715,
+        "sha256": "37ccb38b76c84ab650e7d9f9aed7a210923bf1d1eda0f56b7c25a54d1cd204c5"
+      },
+      {
+        "path": "public/assets/ashen-archive/crypt-warden-character-reference--c21de7ae 2.webp",
+        "canonical": "public/assets/ashen-archive/crypt-warden-character-reference--c21de7ae.webp",
+        "bytes": 65062,
+        "sha256": "59114bcb95847d689248313a8a6cc60d3e152b8398ebb94b239d18620b035286"
+      },
+      {
+        "path": "public/assets/ashen-archive/crypt-warden-photoreal-reference--52bc1c7f 2.webp",
+        "canonical": "public/assets/ashen-archive/crypt-warden-photoreal-reference--52bc1c7f.webp",
+        "bytes": 58412,
+        "sha256": "e3f59e5ff79f88e26161149a89ad3634a0919a561dc043d18be3eb449d7f82c0"
+      },
+      {
+        "path": "public/assets/ashen-archive/crypt-warden-reconstruction-reference--70f171b8 2.webp",
+        "canonical": "public/assets/ashen-archive/crypt-warden-reconstruction-reference--70f171b8.webp",
+        "bytes": 66852,
+        "sha256": "71f2e8bf3eae6696e44d5c041456cb50c547e76dbf6fa9b88dc572cf4bb7c802"
+      },
+      {
+        "path": "public/assets/ashen-archive/crypt-warden-skin-albedo--167484ba 2.webp",
+        "canonical": "public/assets/ashen-archive/crypt-warden-skin-albedo--167484ba.webp",
+        "bytes": 477786,
+        "sha256": "d08161d7795dd23fa456d81eab164d974c4edddcf4576f0b0fa6f843feb80f56"
+      },
+      {
+        "path": "public/assets/ashen-archive/ember-sovereign-character-reference--ae5cf226 2.webp",
+        "canonical": "public/assets/ashen-archive/ember-sovereign-character-reference--ae5cf226.webp",
+        "bytes": 77548,
+        "sha256": "4179768b69f79dbeca11b6e30ea1be3ce62ce3ffaf3fc3075fbdb662dbd2423e"
+      },
+      {
+        "path": "public/assets/ashen-archive/ember-sovereign-hero-key-art--82393442 2.webp",
+        "canonical": "public/assets/ashen-archive/ember-sovereign-hero-key-art--82393442.webp",
+        "bytes": 77384,
+        "sha256": "0797f1c1b598492477d5f0b9e5daf5fe860207ea7671780a2647032327ba32b3"
+      },
+      {
+        "path": "public/assets/ashen-archive/ember-sovereign-obsidian-albedo--7f30eae7 2.webp",
+        "canonical": "public/assets/ashen-archive/ember-sovereign-obsidian-albedo--7f30eae7.webp",
+        "bytes": 103386,
+        "sha256": "eaf1231b9855a71b2502d291087737f866c86ff54f7ef212011f307bede7576f"
+      },
+      {
+        "path": "public/assets/ashen-archive/ember-sovereign-photoreal-reference--3d191db7 2.webp",
+        "canonical": "public/assets/ashen-archive/ember-sovereign-photoreal-reference--3d191db7.webp",
+        "bytes": 67240,
+        "sha256": "795537e33f593e63ddbaa0f5becd97d5419d2a7f304c57562349e2653d04adb2"
+      },
+      {
+        "path": "public/assets/ashen-archive/ember-sovereign-reconstruction-reference--ad79d944 2.webp",
+        "canonical": "public/assets/ashen-archive/ember-sovereign-reconstruction-reference--ad79d944.webp",
+        "bytes": 84242,
+        "sha256": "aac070d8676811b693ec24946ea3d063465d2cd41c16920fbeb5bd251fa390b8"
+      },
+      {
+        "path": "public/assets/ashen-archive/manifest 2.json",
+        "canonical": "public/assets/ashen-archive/manifest.json",
+        "bytes": 14752,
+        "sha256": "1a1c8e096df6308cdb3f1e61da52a51e52ce2e5cbb5f32084d56fd2cd627263e"
+      },
+      {
+        "path": "public/assets/ashen-archive/torch-flame-atlas--0268dca9 2.webp",
+        "canonical": "public/assets/ashen-archive/torch-flame-atlas--0268dca9.webp",
+        "bytes": 46272,
+        "sha256": "cbe2f976063dd080efe2ec9e8224e41c6236d35e6be73289eb4907a4a6a0b82a"
+      },
+      {
+        "path": "public/assets/ashen-archive/weathered-forged-steel-albedo--f578dfc0 2.webp",
+        "canonical": "public/assets/ashen-archive/weathered-forged-steel-albedo--f578dfc0.webp",
+        "bytes": 332946,
+        "sha256": "48ecf10915123de3182d963b8492d6318e2202b1b8544c8fdfb654021977c7d9"
+      },
+      {
+        "path": "public/assets/decoders/LICENSE-meshoptimizer 2.txt",
+        "canonical": "public/assets/decoders/LICENSE-meshoptimizer.txt",
+        "bytes": 1079,
+        "sha256": "d1bc307ff896c7fc65e3ff4823cc478194f7a5bc6436f99534ebede4d9e2017a"
+      },
+      {
+        "path": "public/assets/dungeon/v10/entry 2.glb",
+        "canonical": "public/assets/dungeon/v10/entry.glb",
+        "bytes": 519992,
+        "sha256": "2311acf53d16587ead9c66d7e60533643b89692721a66ec81e757d1a8c1c8db3"
+      },
+      {
+        "path": "public/assets/dungeon/v10/manifest 2.json",
+        "canonical": "public/assets/dungeon/v10/manifest.json",
+        "bytes": 7699,
+        "sha256": "e37cc65e4ffe4846b74819f4ff2337486603e7d653ae3be384d15b78cc56340c"
+      },
+      {
+        "path": "public/assets/dungeon/v11/cinder-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/cinder-indirect.png",
+        "bytes": 140412,
+        "sha256": "f382cb2bcbdb6fec801615082b71d421d704e5a8db56a6304d9248360d8cc784"
+      },
+      {
+        "path": "public/assets/dungeon/v11/crown-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/crown-indirect.png",
+        "bytes": 138657,
+        "sha256": "4f0020b1ccf45033e817d5c1d95f98e68dbe160d314b67c98932afddf9fed871"
+      },
+      {
+        "path": "public/assets/dungeon/v11/dusk-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/dusk-indirect.png",
+        "bytes": 156645,
+        "sha256": "3c92c67162da5040191becfda0044b1d1b21cbba19ac5f32c7cee177ffd0c9c5"
+      },
+      {
+        "path": "public/assets/dungeon/v11/entry-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/entry-indirect.png",
+        "bytes": 147824,
+        "sha256": "0d8520019be6fc79a654c44878665d3aca230880347a528667a77eabfddd7214"
+      },
+      {
+        "path": "public/assets/dungeon/v11/manifest 2.json",
+        "canonical": "public/assets/dungeon/v11/manifest.json",
+        "bytes": 8128,
+        "sha256": "2ba01ae1e8622690d353fc37b7eda0bd5e6e0c2090f4dab43da1330132feddfa"
+      },
+      {
+        "path": "public/assets/dungeon/v11/passage-0-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/passage-0-indirect.png",
+        "bytes": 3353,
+        "sha256": "6a1a5c975f495f67cb54f3e3e81f75ec078e0ea6a1e013fdb0e16407e88d57be"
+      },
+      {
+        "path": "public/assets/dungeon/v11/passage-1-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/passage-1-indirect.png",
+        "bytes": 3459,
+        "sha256": "a8d57ca2fff7aef6ae81cc0cce3ec9e1664c439e674cc9689eb8e6c9a04a4eef"
+      },
+      {
+        "path": "public/assets/dungeon/v11/passage-2-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/passage-2-indirect.png",
+        "bytes": 3362,
+        "sha256": "1ba4695749a13cd4666c9cacbe0dfa5f0ce0654204de9711217dca97fb25e6ce"
+      },
+      {
+        "path": "public/assets/dungeon/v11/passage-3-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/passage-3-indirect.png",
+        "bytes": 3369,
+        "sha256": "f4a44e27897ad111c26e21f2e57a46406cb9f32972097df8bde2427658d6de32"
+      },
+      {
+        "path": "public/assets/dungeon/v11/throne-indirect 2.png",
+        "canonical": "public/assets/dungeon/v11/throne-indirect.png",
+        "bytes": 146070,
+        "sha256": "f4e99a5a5cd008c23065518e99adee8f9f13341a2327c1c060d0a9c93276b157"
+      },
+      {
+        "path": "public/assets/dungeon/v12/cinder 2.glb",
+        "canonical": "public/assets/dungeon/v12/cinder.glb",
+        "bytes": 562832,
+        "sha256": "c5b38545c606607249a9bc72952d7c5d47e5379f76290a5cd7a31bd91ab7a067"
+      },
+      {
+        "path": "public/assets/dungeon/v12/crown 2.glb",
+        "canonical": "public/assets/dungeon/v12/crown.glb",
+        "bytes": 523488,
+        "sha256": "51ea00b8c3599301d54df31e6a48c2b0ca49282dd3c708ae9a7718350d118781"
+      },
+      {
+        "path": "public/assets/dungeon/v12/dusk 2.glb",
+        "canonical": "public/assets/dungeon/v12/dusk.glb",
+        "bytes": 731676,
+        "sha256": "4b72f539bdc403067d7e4be5e48168efc27a0f83d50808178ff8d21367ce22c4"
+      },
+      {
+        "path": "public/assets/dungeon/v12/manifest 2.json",
+        "canonical": "public/assets/dungeon/v12/manifest.json",
+        "bytes": 8271,
+        "sha256": "32dc6234f76008103a7fcbf281ae7f8c763e2e87a6cd3aa9397ef7f1e0ea6c21"
+      },
+      {
+        "path": "public/assets/dungeon/v12/throne 2.glb",
+        "canonical": "public/assets/dungeon/v12/throne.glb",
+        "bytes": 557588,
+        "sha256": "0047446cfec2ac57b61e10983edd1baacb688b61e0fd3c2660a0e0c61635e080"
+      },
+      {
+        "path": "public/assets/dungeon/v13/cinder 2.glb",
+        "canonical": "public/assets/dungeon/v13/cinder.glb",
+        "bytes": 565288,
+        "sha256": "9c133c7ab109f4ff4a218933a534302d2ecdbfcf36a2dbff78cc46f44bc5b1ef"
+      },
+      {
+        "path": "public/assets/dungeon/v13/crown 2.glb",
+        "canonical": "public/assets/dungeon/v13/crown.glb",
+        "bytes": 522204,
+        "sha256": "265bd25cd37813d6ac42e00558a72937aac6e14ee78ca086f5deee1fe4b6eceb"
+      },
+      {
+        "path": "public/assets/dungeon/v13/dusk 2.glb",
+        "canonical": "public/assets/dungeon/v13/dusk.glb",
+        "bytes": 733896,
+        "sha256": "162ed35726aa9c4b698d1f7d510c3e7438b00934e1597083677099a30fb6e26f"
+      },
+      {
+        "path": "public/assets/dungeon/v13/entry 2.glb",
+        "canonical": "public/assets/dungeon/v13/entry.glb",
+        "bytes": 521892,
+        "sha256": "c860db655a6d23b66adfc262b2a659a5009d43ecdbe9ff885b79bf7ced5baed4"
+      },
+      {
+        "path": "public/assets/dungeon/v13/manifest 2.json",
+        "canonical": "public/assets/dungeon/v13/manifest.json",
+        "bytes": 8491,
+        "sha256": "86fe42a1519d35d9177d717e52cdce01ecf57137ed9017e06195f15e25d9f07d"
+      },
+      {
+        "path": "public/assets/dungeon/v9/cinder 2.glb",
+        "canonical": "public/assets/dungeon/v9/cinder.glb",
+        "bytes": 562968,
+        "sha256": "68d4acc7d7b5c1160874d20c6a85955636ad43df69caaff4575ca570cb6bb227"
+      },
+      {
+        "path": "public/assets/dungeon/v9/cinder-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/cinder-indirect.png",
+        "bytes": 137010,
+        "sha256": "254e7e90254f2d05d3fe4d0d0fcd1e061af9cdf923d636790a87c5f0894d1a4c"
+      },
+      {
+        "path": "public/assets/dungeon/v9/crown 2.glb",
+        "canonical": "public/assets/dungeon/v9/crown.glb",
+        "bytes": 523624,
+        "sha256": "d7e13e50865fde0a0a8ac599c57e4fc30f667ac302c663bb8100d3d4480829e8"
+      },
+      {
+        "path": "public/assets/dungeon/v9/crown-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/crown-indirect.png",
+        "bytes": 135235,
+        "sha256": "2ab87d4b76397290b3feb412e8a7a1d009925acfa4bda0d25250ca2fb5368cd6"
+      },
+      {
+        "path": "public/assets/dungeon/v9/dusk 2.glb",
+        "canonical": "public/assets/dungeon/v9/dusk.glb",
+        "bytes": 731812,
+        "sha256": "d102829b27ed04bd2c45fd6c2cdc559edac23ea1bbb8605cc9933428ef424a53"
+      },
+      {
+        "path": "public/assets/dungeon/v9/dusk-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/dusk-indirect.png",
+        "bytes": 153291,
+        "sha256": "70ea808cbddeabccd2eda2c401e60968467d62fe1aab31796ff4d8e00898a536"
+      },
+      {
+        "path": "public/assets/dungeon/v9/entry 2.glb",
+        "canonical": "public/assets/dungeon/v9/entry.glb",
+        "bytes": 519992,
+        "sha256": "3177efecfd238857f78eea3e7109e8fec16a64afe2f639a55cd455327b350507"
+      },
+      {
+        "path": "public/assets/dungeon/v9/entry-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/entry-indirect.png",
+        "bytes": 143587,
+        "sha256": "ac44c6df9b1d8683e7042bad87c3aa9e959599a599fd330562d4cedc11b248f7"
+      },
+      {
+        "path": "public/assets/dungeon/v9/manifest 2.json",
+        "canonical": "public/assets/dungeon/v9/manifest.json",
+        "bytes": 7540,
+        "sha256": "3a2a9c6bf06df61520b6e45c9c6a62dd1a1666f29cec1cd3b419f4ef4d5f96dd"
+      },
+      {
+        "path": "public/assets/dungeon/v9/passage-0 2.glb",
+        "canonical": "public/assets/dungeon/v9/passage-0.glb",
+        "bytes": 6312,
+        "sha256": "149b54f741b2da7c8eeeff060635ff163d8d2dee83eaa31bfe413bde967502b7"
+      },
+      {
+        "path": "public/assets/dungeon/v9/passage-0-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/passage-0-indirect.png",
+        "bytes": 3084,
+        "sha256": "bfb2525946812b8145e97077a9e3704762d1c3595af52ded779c9bd552b03126"
+      },
+      {
+        "path": "public/assets/dungeon/v9/passage-1 2.glb",
+        "canonical": "public/assets/dungeon/v9/passage-1.glb",
+        "bytes": 6292,
+        "sha256": "d25566a8b8af5bcd7933a96edf9459de4edc6a2f3b4ddb9ba419d131669b8194"
+      },
+      {
+        "path": "public/assets/dungeon/v9/passage-1-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/passage-1-indirect.png",
+        "bytes": 3259,
+        "sha256": "d0df9c673e1d6ded228cc662a59b84f3bfc6247fa66e5ad37817d4a0a37e63d0"
+      },
+      {
+        "path": "public/assets/dungeon/v9/passage-2 2.glb",
+        "canonical": "public/assets/dungeon/v9/passage-2.glb",
+        "bytes": 6260,
+        "sha256": "0e29153200fb617d141d0f66783be80b98e8a1006ecc7c8943d65b87b8033c10"
+      },
+      {
+        "path": "public/assets/dungeon/v9/passage-2-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/passage-2-indirect.png",
+        "bytes": 3196,
+        "sha256": "7f4b76d6c7826e88c1a45e38fd5c6263f75e05b67627604feb81775be1361c22"
+      },
+      {
+        "path": "public/assets/dungeon/v9/passage-3 2.glb",
+        "canonical": "public/assets/dungeon/v9/passage-3.glb",
+        "bytes": 6284,
+        "sha256": "a8e1642fef21c4a09b6b8ccea28f9c7d5c1adf6e22729698cc604b014eab6f14"
+      },
+      {
+        "path": "public/assets/dungeon/v9/passage-3-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/passage-3-indirect.png",
+        "bytes": 3196,
+        "sha256": "cebf57a3e1b441d5c6a2f88de0a00dc84b5367b68a4f653b5cf1408b57d36e38"
+      },
+      {
+        "path": "public/assets/dungeon/v9/throne 2.glb",
+        "canonical": "public/assets/dungeon/v9/throne.glb",
+        "bytes": 557684,
+        "sha256": "aa6f549ed5e600ce19e899583ead89e8ab4a27f7d00d6731a75c0ca77a567b69"
+      },
+      {
+        "path": "public/assets/dungeon/v9/throne-indirect 2.png",
+        "canonical": "public/assets/dungeon/v9/throne-indirect.png",
+        "bytes": 142998,
+        "sha256": "6ea8afe658189a87fe23d130edbc4ae0fbe07f812e88e77e52aacd1c22429a60"
+      },
+      {
+        "path": "scripts/bake-dungeon 2.mjs",
+        "canonical": "scripts/bake-dungeon.mjs",
+        "bytes": 9628,
+        "sha256": "ccc45231cd4b2b367f20bac32450fda95020ae82660353c06f9bc7a0a7398124"
+      },
+      {
+        "path": "scripts/build-character-assets 2.mjs",
+        "canonical": "scripts/build-character-assets.mjs",
+        "bytes": 21348,
+        "sha256": "efb56f9c28b8035cf10e5f7855b8189fe12230659435d4bf2924627accca7b0f"
+      },
+      {
+        "path": "scripts/derive-gait-cache 2.mjs",
+        "canonical": "scripts/derive-gait-cache.mjs",
+        "bytes": 5418,
+        "sha256": "9e5781cb5ae8738fe126c6279411882f4e288f86b93852b8833d0946a9997c0f"
+      },
+      {
+        "path": "scripts/pack-roster-assets 2.mjs",
+        "canonical": "scripts/pack-roster-assets.mjs",
+        "bytes": 1861,
+        "sha256": "41cc840d4a10e62a66c2f8ea5cf2b8f1c0d770b28674a6c8fb9f266d5c8d725c"
+      },
+      {
+        "path": "scripts/pack-visual-assets 2.mjs",
+        "canonical": "scripts/pack-visual-assets.mjs",
+        "bytes": 1716,
+        "sha256": "5b34789853565280993219ef40f0ee7dfd7977c7656aa72333b20078fb793450"
+      },
+      {
+        "path": "scripts/package-prop-assets 2.mjs",
+        "canonical": "scripts/package-prop-assets.mjs",
+        "bytes": 3283,
+        "sha256": "1341fea2ac1abfc793eb2c7abba7a4a2bf87eb5dd9e6c8b80a9ee7f346cea735"
+      },
+      {
+        "path": "scripts/package-sovereign-mobile 2.mjs",
+        "canonical": "scripts/package-sovereign-mobile.mjs",
+        "bytes": 7048,
+        "sha256": "ceb673445425dae2c6c932f4236e1a102d4a04d7636245629d3db221dcd34251"
+      },
+      {
+        "path": "scripts/prepare-arch-rollout 2.mjs",
+        "canonical": "scripts/prepare-arch-rollout.mjs",
+        "bytes": 5580,
+        "sha256": "49e176451d3c2e1617a7b13dfbb8c7ee42681a0c4a8e6ee769ae81ee5cffb66a"
+      },
+      {
+        "path": "scripts/prepare-fixture-rollout 2.mjs",
+        "canonical": "scripts/prepare-fixture-rollout.mjs",
+        "bytes": 4422,
+        "sha256": "4bc1e6d04c808a1401ba1cc3ca6832404820648ef7e360f075d15ec4d8d9e745"
+      },
+      {
+        "path": "scripts/prune-character-build 2.mjs",
+        "canonical": "scripts/prune-character-build.mjs",
+        "bytes": 2540,
+        "sha256": "709302413a30f33e781901e9653586dea3db03f292733a0db84e01f0d79e9d6c"
+      },
+      {
+        "path": "scripts/restore-visual-assets 2.mjs",
+        "canonical": "scripts/restore-visual-assets.mjs",
+        "bytes": 1870,
+        "sha256": "c5e0f7ebe71464316f5a6113f03306871f6d05f14c851328889d207bb3793e5a"
+      },
+      {
+        "path": "scripts/run-bounded 2.mjs",
+        "canonical": "scripts/run-bounded.mjs",
+        "bytes": 1365,
+        "sha256": "caa3e8897817ea55432e305b5d3d4e0cb5f646b358789baac7b26b83dd6fce0b"
+      },
+      {
+        "path": "scripts/sovereign/build_mobile_sovereign 2.py",
+        "canonical": "scripts/sovereign/build_mobile_sovereign.py",
+        "bytes": 11807,
+        "sha256": "26eb7b348cfb0e49eab0af03e8ab113de02dd34d11305b8c5a77867df7daba41"
+      },
+      {
+        "path": "scripts/sovereign/graft_far_lod 2.mjs",
+        "canonical": "scripts/sovereign/graft_far_lod.mjs",
+        "bytes": 2943,
+        "sha256": "87b574c04525b65ca3bf91d128df4acd221c2147df0cd596b6587a4d8a93c8e6"
+      },
+      {
+        "path": "scripts/sovereign/reduce_far_lod 2.py",
+        "canonical": "scripts/sovereign/reduce_far_lod.py",
+        "bytes": 1088,
+        "sha256": "cfa18cc3116befcf4780c41f9a520201a6d9bdecd9165839936a034b3d37ab34"
+      },
+      {
+        "path": "scripts/sovereign/render_rig 2.py",
+        "canonical": "scripts/sovereign/render_rig.py",
+        "bytes": 3248,
+        "sha256": "dc0981a621122175d2cc42d5236412b9e760d6cab1aff19838764762400de650"
+      },
+      {
+        "path": "scripts/sovereign/rig_mobile_sovereign 2.mjs",
+        "canonical": "scripts/sovereign/rig_mobile_sovereign.mjs",
+        "bytes": 9489,
+        "sha256": "4a8121a9923e016da9de4cf129964cd9fe6a5b4af8026a2451d605587b95e23f"
+      },
+      {
+        "path": "scripts/sync-september-roster 2.mjs",
+        "canonical": "scripts/sync-september-roster.mjs",
+        "bytes": 2081,
+        "sha256": "8f5ca6129e013aef2b1fbe1fff37abc2114e5caf4c7a54e9ec26a201447f81ad"
+      },
+      {
+        "path": "scripts/verify-environment 2.mjs",
+        "canonical": "scripts/verify-environment.mjs",
+        "bytes": 23368,
+        "sha256": "069c1c8c4839f977458a9ba37744bbb938e910f3f9b2f07619b1a23b01de4cf9"
+      },
+      {
+        "path": "tests/architecture-assets.test 2.mjs",
+        "canonical": "tests/architecture-assets.test.mjs",
+        "bytes": 15438,
+        "sha256": "0aa0ed8da84faee3f3cb250ca66b347c2c0995ca4c22d866ff1c096e56a49e5a"
+      },
+      {
+        "path": "tests/asset-storage.test 2.mjs",
+        "canonical": "tests/asset-storage.test.mjs",
+        "bytes": 1539,
+        "sha256": "436a2fa2ec0158c66ad59e8b8300639ee458ecb449c2cf5fae9f67bfb4850ec5"
+      },
+      {
+        "path": "tests/auto-controller.test 2.mjs",
+        "canonical": "tests/auto-controller.test.mjs",
+        "bytes": 5412,
+        "sha256": "b8dee4af4269575302f0d95b435cf612859e57d679873fd9c343aff1dfc632eb"
+      },
+      {
+        "path": "tests/character-low-presentation.test 2.mjs",
+        "canonical": "tests/character-low-presentation.test.mjs",
+        "bytes": 13883,
+        "sha256": "4921427e301f5cbfee61601fa80788290fc4bc111170be70d1b3dd8a561baf10"
+      },
+      {
+        "path": "tests/character-presentation.test 2.mjs",
+        "canonical": "tests/character-presentation.test.mjs",
+        "bytes": 4730,
+        "sha256": "28ef688c45a2dca75c76eb9ec075836392770d224d237efda770d6248e52ce56"
+      },
+      {
+        "path": "tests/combat-feedback.test 2.mjs",
+        "canonical": "tests/combat-feedback.test.mjs",
+        "bytes": 6597,
+        "sha256": "0d590960562a4c4e379b8b4a779be193bd0d27dd40a88a6267a36d31996e0800"
+      },
+      {
+        "path": "tests/engine-feedback.test 2.mjs",
+        "canonical": "tests/engine-feedback.test.mjs",
+        "bytes": 11593,
+        "sha256": "bd023daa8394fc564c647d1f69b5a856d67dbcba9990b308211101fd86211ef1"
+      },
+      {
+        "path": "tests/environment-assets.test 2.mjs",
+        "canonical": "tests/environment-assets.test.mjs",
+        "bytes": 7554,
+        "sha256": "2ceac61450086bcda50b2a79159713f3d5fe02541889bd1ff4e316de1a9b3a66"
+      },
+      {
+        "path": "tests/fixtures/combat-baseline 2.json",
+        "canonical": "tests/fixtures/combat-baseline.json",
+        "bytes": 1919,
+        "sha256": "d634057d899ce8aea1466fd373fceda5032a5ee00ff99e140c37fb0e8499033a"
+      },
+      {
+        "path": "tests/gait-contact.test 2.mjs",
+        "canonical": "tests/gait-contact.test.mjs",
+        "bytes": 10460,
+        "sha256": "5f10cd82010b8da7c0e485e909bb0892dcb33bcd2c8aaa52c43f1525e9b9aa9d"
+      },
+      {
+        "path": "tests/graphics-preferences.test 2.mjs",
+        "canonical": "tests/graphics-preferences.test.mjs",
+        "bytes": 5027,
+        "sha256": "7aa41631f8c286d87f1e036aefe82556a456d5aeb246f9d57e23074d974f5b84"
+      },
+      {
+        "path": "tests/prop-assets.test 2.mjs",
+        "canonical": "tests/prop-assets.test.mjs",
+        "bytes": 13841,
+        "sha256": "e872669486c51c51a684d371b9272c20184f8c19b9a65e96bcfa375a1242a58e"
+      },
+      {
+        "path": "tests/prune-environment-build.test 2.mjs",
+        "canonical": "tests/prune-environment-build.test.mjs",
+        "bytes": 9735,
+        "sha256": "708240209cea0251c9515a61664610285d422bcbf39eb3bd1a2483e9345a8947"
+      },
+      {
+        "path": "tests/render-history.test 2.mjs",
+        "canonical": "tests/render-history.test.mjs",
+        "bytes": 11650,
+        "sha256": "ddae6a04548b60861109f5600ff34adac465cb286e8fd5499190f797686aba7c"
+      },
+      {
+        "path": "tests/roster.test 2.mjs",
+        "canonical": "tests/roster.test.mjs",
+        "bytes": 15006,
+        "sha256": "48356165ccf2e1349c716aa90257fe9bd41dff52f827fe9a1caa81d2d1778d78"
+      },
+      {
+        "path": "tests/shrine-assets.test 2.mjs",
+        "canonical": "tests/shrine-assets.test.mjs",
+        "bytes": 18392,
+        "sha256": "24fa27d16d5f792c1c8befd9fca80cb564125e2ae46c278ce09ded095cb2b30b"
+      },
+      {
+        "path": "tests/sovereign-mobile.test 2.mjs",
+        "canonical": "tests/sovereign-mobile.test.mjs",
+        "bytes": 9759,
+        "sha256": "7887d290ef9a9446d0fb5195589a0c37d182ed73b300934f6eb164af1f3d474f"
+      },
+      {
+        "path": "tests/visual-assets.test 2.mjs",
+        "canonical": "tests/visual-assets.test.mjs",
+        "bytes": 18690,
+        "sha256": "dda457e4ea3c91f52ee4f38bf343247ebafa8a99daea6b106578de467397b4c0"
+      },
+      {
+        "path": "public/assets/dungeon/v8/cinder 2.glb",
+        "canonical": "public/assets/dungeon/v8/cinder.glb",
+        "bytes": 1142180,
+        "sha256": "e2c7856e1fd4c9952d8c70674139e6c17529113f89a9de68b78ae3aa866e4a16"
+      },
+      {
+        "path": "public/assets/dungeon/v8/cinder-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/cinder-indirect.png",
+        "bytes": 47442,
+        "sha256": "46f9b02fa5669e03e1182820b962345907f26bdabceeb8768673f805e82ea2bf"
+      },
+      {
+        "path": "public/assets/dungeon/v8/crown 2.glb",
+        "canonical": "public/assets/dungeon/v8/crown.glb",
+        "bytes": 999556,
+        "sha256": "87544ca5f2f3fc57b204bcb3c3994321f46e4477e35853d03dd60280dc9934c9"
+      },
+      {
+        "path": "public/assets/dungeon/v8/crown-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/crown-indirect.png",
+        "bytes": 52114,
+        "sha256": "962c4a8b2d3a0515b8d5f52fe8a48c98024ff6d25ae41f5d6ae41c6f9a2013e0"
+      },
+      {
+        "path": "public/assets/dungeon/v8/dusk 2.glb",
+        "canonical": "public/assets/dungeon/v8/dusk.glb",
+        "bytes": 1144836,
+        "sha256": "fde0061fb1c7d52c119a2360f4d0ff21f077b1c513be3f4cc473e06a42d418b4"
+      },
+      {
+        "path": "public/assets/dungeon/v8/dusk-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/dusk-indirect.png",
+        "bytes": 45217,
+        "sha256": "f37795512d919fe59ea949a84a1fd89dabdd33bfe175cd3d3ba3f3ca8f945c9f"
+      },
+      {
+        "path": "public/assets/dungeon/v8/entry 2.glb",
+        "canonical": "public/assets/dungeon/v8/entry.glb",
+        "bytes": 1058512,
+        "sha256": "901163ad1edd43906be0e1964e28b7b2adf7117a165340f267516b9021f66997"
+      },
+      {
+        "path": "public/assets/dungeon/v8/entry-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/entry-indirect.png",
+        "bytes": 53082,
+        "sha256": "6b5a422f18ca1e8af0d947f026473c7bc3b8b8965e4ad83e7b1ac043192a991d"
+      },
+      {
+        "path": "public/assets/dungeon/v8/manifest 2.json",
+        "canonical": "public/assets/dungeon/v8/manifest.json",
+        "bytes": 4615,
+        "sha256": "86106e3e4149b0b0e7fe2ba8da9dbf0ac5a42fae62ee5100824b96f6217bea9d"
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-0 2.glb",
+        "canonical": "public/assets/dungeon/v8/passage-0.glb",
+        "bytes": 5180,
+        "sha256": "2bb841fdac8a91bf9f7066e726b6b9609408bb902e9054e0e6ae4bfb3372d503"
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-0-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/passage-0-indirect.png",
+        "bytes": 6754,
+        "sha256": "57cadba6f190e3856392aeca58fa9a87d566bf447497285fa131326786557912"
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-1 2.glb",
+        "canonical": "public/assets/dungeon/v8/passage-1.glb",
+        "bytes": 5164,
+        "sha256": "4cbe6e7c1f90e5beca16ee7ed41b9603ca8ad56a1f3cd2a19eb2e9daaea72897"
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-1-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/passage-1-indirect.png",
+        "bytes": 6500,
+        "sha256": "ccb473feec905e5282006d4f09626811cf5bf63432b8e6ea0cfa9e4e77acec2e"
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-2 2.glb",
+        "canonical": "public/assets/dungeon/v8/passage-2.glb",
+        "bytes": 5200,
+        "sha256": "7522837a4be3ac715c1b9bc8c4435e5939eb3f511e21388417994c731cd744ba"
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-2-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/passage-2-indirect.png",
+        "bytes": 6592,
+        "sha256": "5b1940a02a1b2ad06360edcc8f6ee95f6daaaf4136e59df2e5d938be12d3b114"
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-3 2.glb",
+        "canonical": "public/assets/dungeon/v8/passage-3.glb",
+        "bytes": 5236,
+        "sha256": "80dc4ce7376310bc3f4376e0c86ea8fc5dceb7d282f00dfae0491d67076a0e5e"
+      },
+      {
+        "path": "public/assets/dungeon/v8/passage-3-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/passage-3-indirect.png",
+        "bytes": 6636,
+        "sha256": "2492eaf2d3ccd57075fa18af389314203c7067e46b8f435b2cf5c2c4da40f2cf"
+      },
+      {
+        "path": "public/assets/dungeon/v8/throne 2.glb",
+        "canonical": "public/assets/dungeon/v8/throne.glb",
+        "bytes": 1183220,
+        "sha256": "17cb150f4ee827914309dde17624fa9d774180ed833d8fd5ff8619b1855754c7"
+      },
+      {
+        "path": "public/assets/dungeon/v8/throne-indirect 2.png",
+        "canonical": "public/assets/dungeon/v8/throne-indirect.png",
+        "bytes": 46065,
+        "sha256": "4c082d7a8dfba6436a5253c476b4ed4e360a4d2729de4987d9ab9cd488efa07d"
+      }
+    ],
+    "preserved": [
+      "All unique/source original assets, native animation donors, Blender masters and source ZIPs",
+      "Current 16-character roster and 15-item Artwork gallery",
+      "Source/rebuild/regression dependencies across character v9-v11, dungeon v9-v13 and props v1-v2",
+      "Two differing untracked diagnostic JSONs in docs/visual-upgrade",
+      "Older game checkout: tracked snapshot recoverable from source history, ignored files not fully certified redundant"
+    ],
+    "historyPolicy": "Normal tracked deletions; no Git history rewrite."
+  },
+  "validation": {
+    "typecheck": "passed",
+    "syntax": "90 source files and 19 compiled modules passed",
+    "productionBuild": "passed",
+    "regressions": {
+      "passed": 204,
+      "failed": 0
+    },
+    "deletedSyntheticFixture": "Regenerated and passed in a temporary directory using retained scripts.",
+    "notClaimed": [
+      "Visual superiority of recovered meshes",
+      "Physical iPhone performance",
+      "All 14 provider models fully parsed: only ogre and goblin inspected beyond HEAD availability",
+      "New mesh integration"
+    ]
+  }
+}

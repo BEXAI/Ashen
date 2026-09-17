@@ -41,7 +41,7 @@ Output respects aspect ratio and hardware texture/renderbuffer limits. Desktop F
 
 Wall geometry is merged, masonry edging is instanced, light selection runs four times per second, and distant wardens skip animation. Safari viewport changes resize buffers after a short debounce. If WebGL is interrupted, the recovery dialog can rebuild the renderer in Performance mode from the current character snapshot. Level, loot, position and completed objectives are retained; surviving enemies restart at their spawn with full health, as when loading a save. WebGL 2 is required. The 4K label describes rendering resolution, not ray-traced Unreal Engine output.
 
-The cinematic title illustration depicts the keep above the dungeon. It is not a gameplay screenshot. Existing Poly Haven terrain/sky assets and the Three.js water-normal asset remain included. Third-party notices are in public/THIRD_PARTY_NOTICES.txt.
+The cinematic title illustration depicts the keep above the dungeon. It is not a gameplay screenshot. Current Poly Haven terrain texture derivatives and the Three.js water-normal asset remain included; unused original terrain JPEGs and the old sky HDR were removed. Third-party notices are in public/THIRD_PARTY_NOTICES.txt.
 
 ## Saves and backend
 
@@ -70,3 +70,7 @@ Use the configured Sites install/build scripts. npm run typecheck checks TypeScr
 ## Earlier source import
 
 The original fifteen Ashen-related Higgsfield sources remain unchanged in [the September 17 source import](assets-source/higgsfield/2026-09-17/README.md). Optimized display copies are now available from **Journal → Artwork**, separately from the screenshot-matched September 8 playable roster.
+
+## Asset audit and next update
+
+The [September 17 audit](docs/ASSET_AUDIT_2026-09-17.json) records removed obsolete files and preserved sources. The [asset update plan](docs/ASSET_UPDATE_PLAN.md) covers fourteen recovered cloud character meshes, the Bone Throne, and optional source studies. These candidates are not activated by the cleanup.

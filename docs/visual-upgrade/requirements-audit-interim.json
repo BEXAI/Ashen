@@ -1,4 +1,5 @@
 {
+  "historical_note": "Historical implementation record. The generated props/v1/manifest.json was superseded by props/v2/manifest.json and removed on 2026-09-17. The v1 sconce GLBs remain active through v2.",
   "created_at_utc": "2026-09-09T23:06:03.185887+00:00",
   "scope": "Read-only requirement/evidence audit P01-P24. No Site writes/tools or new generations; integration was changing concurrently. Passing suite was inspected, not rerun by this task.",
   "plan": "/Users/nathaniel/Documents/ChatGPT/Knight/plans/ashen-realm-full-stack-update-plan.json",

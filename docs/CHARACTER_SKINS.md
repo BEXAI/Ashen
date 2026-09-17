@@ -1,3 +1,5 @@
+> Historical character pipeline notes. The September 8 roster is now active; the legacy Ash Knight remains the Keeper. The superseded v8 package was removed during the September 17 cleanup. Retained v9–v11 packages support rebuilding and regression tests. See `docs/ASSET_UPDATE_PLAN.md` for current integration priorities.
+
 # Character assets: visual-v8
 
 Ash Knight, Crypt Warden, and Ember Sovereign use skeletal GLBs with three mesh
@@ -48,7 +50,7 @@ stale completions, frees instance skeletons and releases cache-owned resources.
 ## Authoring and provenance
 
 - `assets-source/characters/`: editable uncompressed GLBs and PNG masters.
-- `public/assets/characters/v8/manifest.json`: hashes, sizes, bones, LODs and clips.
+- `public/assets/characters/v9/manifest.json`: retained baseline hashes, sizes, bones, LODs and clips; the Keeper loader selects `public/assets/characters/v11/manifest.json`.
 - `scripts/build-character-assets.mjs`: repeatable source-to-runtime pipeline.
 - `assets-source/references/`: references, prompts, jobs, prepared 3D requests
   and the unavailable-action record.
