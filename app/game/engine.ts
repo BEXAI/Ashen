@@ -411,7 +411,9 @@ export class GameEngine {
     if(hero){this.flash=.75;this.regen=0;this.sound.tone(48,.28,'sawtooth',.3);}else if(enemy){enemy.hit=.2;this.sound.tone(enemy.id==='king'?72:95,.12,'triangle',.28);}
     const color=hero?'#ffbb85':event.targetId==='king'?'#f38538':'#c9b79b';
     this.acceptedContact(event.point.x,event.point.y,event.point.z,-event.direction.x,-event.direction.z,color,hero?1:.55);
-    this.damageNumbers?.emit(event);
+    // Floor hazards keep their true spark/contact point; label above the 2.65m hero instead of behind its legs.
+    const numberAnchor=hero&&event.kind==='hazard'?{x:event.point.x,y:height(event.point.x,event.point.z)+2.8,z:event.point.z}:undefined;
+    this.damageNumbers?.emit(event,numberAnchor);
     if(event.kind==='melee')m.clock.requestHitStop();
     if(event.targetId!=='king'&&!event.lethal){
      const rosterId=hero?this.p.hero??DEFAULT_HERO:ENEMY_ROSTER[enemy!.id],weight=resistanceWeight(rosterId);

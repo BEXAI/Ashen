@@ -7,8 +7,8 @@ import {pathToFileURL} from 'node:url';
 const root=process.env.GAME_ROOT||process.cwd();
 const {build}=await import(pathToFileURL(path.join(root,'node_modules/esbuild/lib/main.js')));
 const out=path.join(await mkdtemp(path.join(os.tmpdir(),'ashen-engine-hazards-')),'engine.mjs');
-await build({stdin:{contents:`export {GameEngine} from './app/game/engine';export {knight} from './app/game/world';export {newProgress,maxHealth} from './app/game/model';export {AttackSequence,STRIKES,createSwing} from './app/game/combat';export * as T from 'three';`,resolveDir:root},bundle:true,format:'esm',platform:'node',outfile:out,logLevel:'silent'});
-const {GameEngine,knight,newProgress,maxHealth,AttackSequence,STRIKES,createSwing,T}=await import(pathToFileURL(out));
+await build({stdin:{contents:`export {GameEngine} from './app/game/engine';export {DamageNumbers} from './app/game/damage-numbers';export {knight} from './app/game/world';export {newProgress,maxHealth} from './app/game/model';export {AttackSequence,STRIKES,createSwing} from './app/game/combat';export * as T from 'three';`,resolveDir:root},bundle:true,format:'esm',platform:'node',outfile:out,logLevel:'silent'});
+const {GameEngine,DamageNumbers,knight,newProgress,maxHealth,AttackSequence,STRIKES,createSwing,T}=await import(pathToFileURL(out));
 const STEP=1/60;
 function fixture(){
  const g=Object.create(GameEngine.prototype),hero=knight();
@@ -67,4 +67,26 @@ test('Actual hazard entry/exit and pulse outcomes agree at 20/30/60/120 Hz and 1
  };
  const expected=replay(schedule([1/60]));assert.equal(expected.hp,113);assert.equal(expected.pulses.length,1);assert.ok(expected.trace.some(t=>Math.abs(t.z-20)>1.2),'trace must actually leave the disk');assert.ok(Math.abs(expected.pulses[0].point.z-20)<1.2,'trace must re-enter before its pulse');
  for(const [name,pattern] of [['20Hz',[1/20]],['30Hz',[1/30]],['120Hz',[1/120]],['jitter',[.1,1/120,.033,.017,.08]]]){const actual=replay(schedule(pattern));assert.deepEqual(actual.trace,expected.trace,name);near(actual.playtime,2,name);assert.equal(actual.dropped,0);}
+});
+
+
+test('Low reduced-motion floor pulse raises only its damage label while preserving exact contact, amount and depth occlusion',()=>{
+ const f=fixture(),{g,m}=f,labels=[],contacts=[];g.reducedMotion=true;g.quality='low';
+ const context={clearRect(){},strokeText(){},fillText(text){labels.push(text);}};
+ g.damageNumbers=new DamageNumbers(g.world.scene,{createCanvas:()=>({width:0,height:0,getContext:()=>context})});
+ g.impacts.contact=(...args)=>contacts.push(args);
+ try{
+  startHazard(f);advance(g,4);
+  assert.equal(g.p.health,113);assert.equal(pulses(m).length,1);
+  const resolved=pulses(m)[0],before=structuredClone(resolved);Object.freeze(resolved.point);Object.freeze(resolved);
+  assert.deepEqual(resolved.point,{x:0,y:.2,z:20});assert.equal(resolved.healthDelta,27);
+  assert.deepEqual(contacts[0].slice(0,3),[0,.2,20],'sparks retain the authoritative floor contact');
+  const sprite=g.world.scene.getObjectByName('resolved damage number');assert.ok(sprite);
+  near(sprite.position.y,3.05);assert.ok(sprite.position.y-sprite.scale.y/2>2.65);
+  assert.equal(sprite.position.x,resolved.point.x);assert.equal(sprite.position.z,resolved.point.z);
+  assert.equal(sprite.material.depthTest,true);assert.equal(sprite.material.depthWrite,false);
+  g.damageNumbers.update(.5,g.reducedMotion);near(sprite.position.y,3.05);
+  assert.deepEqual(labels,['−27']);assert.deepEqual(resolved,before);assert.equal(g.p.health,113);
+  g.damageNumbers.update(.15,g.reducedMotion);assert.equal(g.damageNumbers.activeCount,0);
+ }finally{g.damageNumbers.dispose();}
 });

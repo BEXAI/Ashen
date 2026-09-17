@@ -36,7 +36,8 @@ export class DamageNumbers {
     this.createCanvas = options.createCanvas ?? (() => typeof document === 'undefined' ? null : document.createElement('canvas'));
   }
 
-  emit(event: DamageNumberEvent): boolean {
+  /** An optional visual anchor never replaces the resolved contact in the event. */
+  emit(event: DamageNumberEvent, presentationAnchor?: DamageNumberEvent['point']): boolean {
     if (this.disposed || event.outcome !== 'damaged' || !Number.isFinite(event.healthDelta) || event.healthDelta <= 0 ||
         ![event.point.x, event.point.y, event.point.z].every(Number.isFinite)) return false;
     if (this.slots.some(s => s.sprite.visible && s.eventId === event.id)) return false;
@@ -56,8 +57,10 @@ export class DamageNumbers {
     ctx.strokeText(label, 128, 64, 240); ctx.fillText(label, 128, 64, 240);
     slot.texture.needsUpdate = true;
     slot.targetId = event.targetId; slot.eventId = event.id; slot.serial = ++this.serial; slot.age = 0;
-    slot.baseY = event.point.y + .25;
-    slot.sprite.position.set(event.point.x, slot.baseY, event.point.z);
+    const anchor = presentationAnchor && [presentationAnchor.x, presentationAnchor.y, presentationAnchor.z].every(Number.isFinite)
+      ? presentationAnchor : event.point;
+    slot.baseY = anchor.y + .25;
+    slot.sprite.position.set(anchor.x, slot.baseY, anchor.z);
     slot.sprite.material.opacity = 1; slot.sprite.visible = true;
     return true;
   }

@@ -81,6 +81,32 @@ test('Reduced motion suppresses label movement without changing lifetime or amou
   numbers.dispose();
 });
 
+test('A floor-hazard visual anchor clears the hero under reduced motion without changing its immutable resolved event', () => {
+  const factory = surfaceFactory(), scene = new T.Group(), numbers = new DamageNumbers(scene, factory);
+  const resolved = Object.freeze(event('hero', { kind: 'hazard', healthDelta: 27, point: Object.freeze({ x: -2, y: .2, z: 4 }) }));
+  const before = structuredClone(resolved), anchor = Object.freeze({ x: -2, y: 2.8, z: 4 });
+  assert.equal(numbers.emit(resolved, anchor), true);
+  const sprite = scene.children[0];
+  assert.deepEqual(sprite.position.toArray(), [-2, 3.05, 4]);
+  assert.ok(sprite.position.y - sprite.scale.y / 2 > 2.65, 'even the label bottom clears the standing hero');
+  assert.equal(sprite.material.depthTest, true, 'world depth continues to occlude the number');
+  assert.equal(sprite.material.depthWrite, false);
+  numbers.update(.5, true);
+  assert.deepEqual(sprite.position.toArray(), [-2, 3.05, 4]);
+  assert.equal(factory.surfaces[0].context.labels.at(-1), '−27');
+  assert.deepEqual(resolved, before, 'presentation cannot move the resolved floor contact or alter HP loss');
+  numbers.update(.15, true); assert.equal(numbers.activeCount, 0);
+  numbers.dispose();
+});
+
+test('An invalid optional visual anchor preserves valid feedback at the original contact', () => {
+  const factory = surfaceFactory(), scene = new T.Group(), numbers = new DamageNumbers(scene, factory);
+  assert.equal(numbers.emit(event('target', { healthDelta: 7 }), { x: 1, y: NaN, z: 3 }), true);
+  assert.deepEqual(scene.children[0].position.toArray(), [1, 2.25, 3]);
+  assert.equal(factory.surfaces[0].context.labels.at(-1), '−7');
+  numbers.dispose();
+});
+
 test('Death plays finite clip, holds final pose three seconds, fades .75 seconds then completes', () => {
   assert.deepEqual(sampleDeathPresentation(.4), { poseTime: .4, opacity: 1, complete: false });
   assert.deepEqual(sampleDeathPresentation(.8), { poseTime: .8, opacity: 1, complete: false });
