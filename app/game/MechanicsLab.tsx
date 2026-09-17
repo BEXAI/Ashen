@@ -114,7 +114,7 @@ export default function MechanicsLab() {
           if (!live || !game) return;
           const diagnostics = game.diagnostics();
           setReport(JSON.stringify({ mechanics: diagnostics.mechanics, loading: diagnostics.loading,
-            graphics: diagnostics.graphics, characterSources: diagnostics.characterSources }, null, 2));
+            graphics: diagnostics.graphics, camera: diagnostics.camera, characterSources: diagnostics.characterSources }, null, 2));
         };
         refresh(); timer = setInterval(refresh, 250);
       } catch (reason) {

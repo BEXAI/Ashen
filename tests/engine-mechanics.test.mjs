@@ -26,6 +26,24 @@ function close(actual,expected,message){assert.ok(Math.abs(actual-expected)<1e-8
 function candidate(attackerId,targetId,time,damage=20,extras={}){return {actionId:attackerId==='hero'?1:2,attackerId,targetId,time,damage,stagger:.2,kind:'melee',point:{x:0,y:1,z:21},direction:{x:0,z:attackerId==='hero'?1:-1},hits:new Set(),targetLimit:1,...extras};}
 function batch(g,candidates,{start=0,end=STEP,windows=[]}={}){const m=g.mechanicsState();m.tickStart=start;m.tickEnd=end;m.collecting=true;m.windows=new Map(windows);m.dodgeStartRemaining=g.dodgeTime;m.spawnStartRemaining=m.spawnRemaining;m.candidates.push(...candidates);g.time=end;try{g.flushContacts();}finally{m.collecting=false;}return m.eventTrace;}
 
+test('Roster installation runs on unfrozen ticks before command admission and before a held combo restarts',()=>{
+ const g=fixture(),boundaries=[];let pending=true,installed=0;
+ g.roster={flushPendingInstalls(){boundaries.push({swing:g.combat.swing,commands:g.mechanicsState().commands.size});if(pending&&g.canInstallRosterVisual()){pending=false;installed++;}}};
+ g.attack();g.mechanicsState().clock.requestHitStop();frame(g,2*STEP);assert.equal(boundaries.length,0);assert.equal(installed,0);
+ frame(g);assert.equal(installed,1);assert.equal(boundaries[0].swing,null);assert.equal(boundaries[0].commands,1);assert.ok(g.combat.swing);
+ const old=g.combat.swing;pending=true;g.attackHeld=true;old.elapsed=old.strike.windup+old.strike.active+old.strike.recovery-STEP/2;
+ frame(g);assert.equal(installed,1,'current action must retain its rig through its final tick');assert.equal(g.combat.swing,null);
+ frame(g);assert.equal(installed,2,'pending rig installs at the boundary before held input begins another action');assert.ok(g.combat.swing);assert.notEqual(g.combat.swing,old);
+ pending=true;g.pause(true);frame(g);assert.equal(installed,2,'ordinary pause never commits a pending model');
+});
+
+test('Engine roster guards reject hero actions, enemy swings/stagger and dead actors',()=>{
+ const g=fixture(),e=enemy(g);assert.equal(g.canInstallRosterVisual(),true);assert.equal(g.canInstallRosterVisual(e),true);
+ for(const key of ['dodgeTime','attackAnim']){g[key]=.1;assert.equal(g.canInstallRosterVisual(),false,key);g[key]=0;}
+ g.combat.swing=createSwing(STRIKES[0],0);assert.equal(g.canInstallRosterVisual(),false);g.combat.cancel();g.p.health=0;assert.equal(g.canInstallRosterVisual(),false);
+ e.swing=createSwing(STRIKES[0],0);assert.equal(g.canInstallRosterVisual(e),false);e.swing=null;e.stagger=.1;assert.equal(g.canInstallRosterVisual(e),false);e.stagger=0;e.dead=true;assert.equal(g.canInstallRosterVisual(e),false);
+});
+
 test('Public commands mutate only on one unfrozen tick; two frozen slots preserve queued edges and all gameplay timers',()=>{
  const g=fixture(),m=g.mechanicsState();g.castCd=1;g.p.mana=50;g.attack();g.setAttackHeld(true);g.setAttackHeld(false);assert.equal(m.commands.size,3);assert.equal(g.combat.swing,null);assert.equal(g.stamina,100);
  m.clock.requestHitStop();const first=frame(g,2*STEP);assert.equal(first.frozenOpportunities,2);assert.equal(first.ticks,0);assert.equal(m.commands.size,3);assert.equal(g.castCd,1);assert.equal(g.p.mana,50);assert.equal(g.stamina,100);
