@@ -17,8 +17,11 @@ test('Bone Throne has checked source identity and matching render/collision plac
 });
 test('Players and enemies cannot enter or tunnel through the relic and can slide past it',()=>{
  const p=newProgress();p.won=true;assert.equal(walkable(-11,-77),false);
- assert.deepEqual(dungeonMove(-13,-77,-9,-77,p),{x:-13,z:-77});assert.deepEqual(dungeonMove(-11,-75,-11,-79,p),{x:-11,z:-75});
- assert.deepEqual(dungeonMove(-12.5,-77,-12,-76.5,p),{x:-12.5,z:-76.5});assert.deepEqual(dungeonMove(0,-75,0,-80,p),{x:0,z:-80});
+ // Sweeps now approach the first valid contact instead of discarding an entire axis.
+ const across=dungeonMove(-13,-77,-9,-77,p),down=dungeonMove(-11,-75,-11,-79,p),slide=dungeonMove(-12.5,-77,-12,-76.5,p);
+ assert.ok(Math.abs(across.x-(BONE_THRONE.x-BONE_THRONE.halfWidth-.45))<1e-4);assert.equal(across.z,-77);assert.ok(walkable(across.x,across.z));
+ assert.ok(Math.abs(down.z-(BONE_THRONE.z+BONE_THRONE.halfDepth+.45))<1e-4);assert.equal(down.x,-11);assert.ok(walkable(down.x,down.z));
+ assert.ok(slide.x>-12.5&&slide.x<-12);assert.ok(Math.abs(slide.z+76.5)<1e-5);assert.ok(walkable(slide.x,slide.z));assert.deepEqual(dungeonMove(0,-75,0,-80,p),{x:0,z:-80});
 });
 test('Throne streams once, uses verified fallback, fits the prop budget and releases distant GPU resources',async()=>{
  const previous=globalThis.fetch,calls=[];globalThis.fetch=async url=>{calls.push(url);if(url===THRONE_MANIFEST_URL)return{ok:true,json:async()=>manifest};if(url.endsWith('/bone-throne.glb'))return{ok:false};const b=await fs.readFile(root+'/public'+url);return{ok:true,arrayBuffer:async()=>b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength)};};

@@ -3,6 +3,8 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type PointerEvent, type RefObject } from 'react';
 import { FlaskConical, Sparkles, Sword, Zap } from 'lucide-react';
 import type { GameEngine, Hud } from './engine';
+import { DODGE_RULES } from './action-rules';
+import { STRIKES } from './combat';
 import { PointerOwner, stickPosition } from './touch-input';
 
 type EngineRef = RefObject<GameEngine | null>;
@@ -118,7 +120,7 @@ function ActionButton({ action, engine, active, hud }: { action: Action; engine:
   });
   const { label, aria, Icon } = actions[action];
   const cooldown = action === 'spell' ? hud.castCd : action === 'dodge' ? hud.dodgeCd : 0;
-  const unavailable = cooldown > 0 || (action === 'spell' && hud.p.mana < 25) || (action === 'heal' && (hud.p.potions === 0 || hud.p.health >= hud.healthMax)) || (action === 'dodge' && hud.stamina < 25) || (action === 'strike' && hud.stamina < 8);
+  const unavailable = cooldown > 0 || (action === 'spell' && hud.p.mana < 25) || (action === 'heal' && (hud.p.potions === 0 || hud.p.health >= hud.healthMax)) || (action === 'dodge' && hud.stamina < DODGE_RULES.staminaCost) || (action === 'strike' && hud.stamina < STRIKES[0].stamina);
 
   function activate(hold: boolean) {
     const game = engine.current;

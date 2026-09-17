@@ -1,13 +1,13 @@
 import { test, beforeEach, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
 import { DatabaseSync } from 'node:sqlite';
-import { build } from 'esbuild';
 import { mkdir, readFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import path from 'node:path';
-const root=process.cwd();
+const root=process.env.GAME_ROOT||process.cwd();
+const {build}=await import(pathToFileURL(path.join(root,'node_modules/esbuild/lib/main.js')));
 await mkdir('.sites-runtime/tests',{recursive:true});
-const outfile=path.join(root,'.sites-runtime/tests/game.mjs');
+const outfile=path.join(root,'.sites-runtime/tests/game-mechanics-staged.mjs');
 await build({stdin:{contents:'export { GET,PUT,POST } from "./app/api/progress/route"; export * from "./app/game/model"; export { GameEngine, stopCameraAtWall } from "./app/game/engine"; export * as THREE from "three"; export { createWorld, knight } from "./app/game/world"; export * from "./app/game/combat"; export { renderResolution, surfaceAsset } from "./app/game/graphics"; export * from "./app/game/dungeon";export {FrameDiagnostics} from "./app/game/visual-bench";export {AutoController} from "./app/game/auto-controller";',resolveDir:root},bundle:true,format:'esm',platform:'node',outfile,logLevel:'silent',plugins:[{name:'test-d1',setup(b){b.onResolve({filter:/^@\/db\/game$/},()=>({path:'db',namespace:'test'}));b.onLoad({filter:/.*/,namespace:'test'},()=>({contents:'export function gameDb(){return globalThis.__gameTestDb}',loader:'js'}));}}]});
 const {GET,PUT,POST,newProgress,progressSchema,GameEngine,stopCameraAtWall,THREE:T,createWorld,knight,AttackSequence,renderResolution,surfaceAsset,ROOMS,CORRIDORS,GATES,gateOpen,walkable,dungeonMove,validDungeonSpawn,FrameDiagnostics,AutoController}=await import(pathToFileURL(outfile).href);
 let sql;
@@ -31,15 +31,17 @@ test('September heroes survive save and resume while old journeys remain valid',
 test('Unknown hero IDs cannot create or corrupt a journey',async()=>{assert.equal((await POST(req('POST',{action:'new',revision:0,name:'Invalid',hero:'spider'}))).status,400);assert.equal((await(await GET(req('GET'))).json()).state,null);const a=await create();assert.equal((await PUT(req('PUT',{state:{...a.state,hero:'unknown'},revision:a.revision}))).status,400);assert.equal((await(await GET(req('GET'))).json()).state.hero,'lion-knight');});
 function game(){const g=Object.create(GameEngine.prototype);g.p=newProgress();g.p.x=0;g.p.z=0;g.paused=false;g.combat=new AttackSequence();g.facing=0;g.attackAnim=0;g.bladeBase=new T.Vector3();g.bladeTip=new T.Vector3();g.bladeOrigin=new T.Vector3();g.castCd=0;g.dodgeCd=0;g.dodgeTime=0;g.stamina=100;g.time=0;g.enemies=[];g.effects=[];g.keys=new Set();g.world={scene:new T.Scene(),hero:knight()};g.actorList=[g.world.hero];g.metrics=new FrameDiagnostics();g.adaptive=new AutoController();g.sound={tone(){},suspend(){}};g.events=[];g.event=e=>g.events.push(e);g.onHud=()=>{};g.emit=()=>{};return g;}
 function enemy(id='w1',x=0){return {id,x,z:2,hp:80,max:80,dead:false,hit:0,cool:0,swing:null,stagger:0,ring:{visible:true},actor:knight(true,id==='king')};}
+// Drain only the commands explicitly issued by a legacy unit fixture. Runtime queue stays intact.
+function drain(g){g.drainCommands(g.mechanicsState().clock.nextTick);}
 function contact(g){const s=g.combat.swing;g.world.hero.group.rotation.y=s.facing;g.resolveMelee(g.world.hero,s,s.strike.windup,s.strike.windup+s.strike.active,null);}
-test('Melee spends stamina on wind-up, damages only on contact and hits each target once',()=>{const g=game(),e=enemy(),far=enemy('w2',20);g.enemies=[e,far];g.attack();assert.equal(e.hp,80);assert.equal(g.stamina,92);g.resolveMelee(g.world.hero,g.combat.swing,0,.16,null);assert.equal(e.hp,80);contact(g);assert.equal(e.hp,54);assert.equal(far.hp,80);contact(g);g.attack();assert.equal(e.hp,54);assert.equal(g.stamina,92);});
-test('Holding strike starts one wind-up and cannot bypass recovery',()=>{const g=game(),e=enemy();g.enemies=[e];g.setAttackHeld(true);assert.equal(g.attackHeld,true);assert.equal(e.hp,80);contact(g);assert.equal(e.hp,54);g.setAttackHeld(true);assert.equal(e.hp,54);g.setAttackHeld(false);assert.equal(g.attackHeld,false);g.setAttackHeld(true);assert.equal(e.hp,54);assert.equal(g.stamina,92);});
-test('Enemies behind the player cannot be silently acquired or damaged',()=>{const g=game(),e=enemy();e.z=-2;g.enemies=[e];g.attack();assert.equal(g.combat.swing.facing,0);contact(g);assert.equal(e.hp,80);});
-test('Dodge cancels a wind-up without refunding stamina, but not an active blade',()=>{const g=game();g.attack();assert.equal(g.stamina,92);g.dodge();assert.equal(g.combat.swing,null);assert.equal(g.stamina,67);g.dodgeTime=0;g.dodgeCd=0;g.attack();g.combat.swing.elapsed=.2;g.dodge();assert.notEqual(g.combat.swing,null);assert.equal(g.dodgeTime,0);});
-test('A normal tap release preserves one buffered strike while cancellation clears it',()=>{const g=game();g.attack();g.time=.5;g.setAttackHeld(true);g.setAttackHeld(false);g.combat.finish(.58);g.time=.59;g.startPlayerSwing();assert.equal(g.combat.swing.strike.id,'diagonal');g.time=1.1;g.setAttackHeld(true);g.setAttackHeld(false,true);g.combat.finish(1.2);g.time=1.21;g.startPlayerSwing();assert.equal(g.combat.swing,null);});
-test('Pausing clears held attacks, sprint and movement; paused touches cannot restart them',()=>{const g=game();g.setStick(1,0,true);g.setAttackHeld(true);g.pause(true);assert.equal(g.attackHeld,false);assert.equal(g.touchSprint,false);assert.deepEqual(g.stick,{x:0,y:0});g.setStick(1,1,true);g.setAttackHeld(true);assert.equal(g.attackHeld,false);assert.deepEqual(g.stick,{x:0,y:0});g.pause(false);assert.equal(g.attackHeld,false);assert.equal(g.touchSprint,false);});
-test('Magic consumes mana and damage is limited to the area of effect',()=>{const g=game(),near=enemy(),far=enemy('w2',20);g.enemies=[near,far];g.cast();assert.equal(g.p.mana,75);assert.equal(near.hp,38);assert.equal(far.hp,80);g.castCd=0;g.p.mana=10;g.cast();assert.equal(near.hp,38);});
-test('Dodging grants temporary protection and death emits a recovery event',()=>{const g=game();g.dodge();assert.equal(g.stamina,75);g.hitPlayer(30);assert.equal(g.p.health,140);g.dodgeTime=0;g.hitPlayer(30);assert.equal(g.p.health,110);g.hitPlayer(200);assert.equal(g.p.health,0);assert.ok(g.events.some(e=>e.type==='death'));});
+test('Melee spends stamina on wind-up, damages only on contact and hits each target once',()=>{const g=game(),e=enemy(),far=enemy('w2',20);g.enemies=[e,far];g.attack();drain(g);assert.equal(e.hp,80);assert.equal(g.stamina,92);g.resolveMelee(g.world.hero,g.combat.swing,0,.16,null);assert.equal(e.hp,80);contact(g);assert.equal(e.hp,54);assert.equal(far.hp,80);contact(g);g.attack();drain(g);assert.equal(e.hp,54);assert.equal(g.stamina,92);});
+test('Holding strike starts one wind-up and cannot bypass recovery',()=>{const g=game(),e=enemy();g.enemies=[e];g.setAttackHeld(true);drain(g);assert.equal(g.attackHeld,true);assert.equal(e.hp,80);contact(g);assert.equal(e.hp,54);g.setAttackHeld(true);drain(g);assert.equal(e.hp,54);g.setAttackHeld(false);drain(g);assert.equal(g.attackHeld,false);g.setAttackHeld(true);drain(g);assert.equal(e.hp,54);assert.equal(g.stamina,92);});
+test('Enemies behind the player cannot be silently acquired or damaged',()=>{const g=game(),e=enemy();e.z=-2;g.enemies=[e];g.attack();drain(g);assert.equal(g.combat.swing.facing,0);contact(g);assert.equal(e.hp,80);});
+test('Dodge cancels a wind-up without refunding stamina, but not an active blade',()=>{const g=game();g.attack();drain(g);assert.equal(g.stamina,92);g.dodge();drain(g);assert.equal(g.combat.swing,null);assert.equal(g.stamina,67);g.dodgeTime=0;g.dodgeCd=0;g.attack();drain(g);g.combat.swing.elapsed=.2;g.dodge();drain(g);assert.notEqual(g.combat.swing,null);assert.equal(g.dodgeTime,0);});
+test('A normal tap release preserves one buffered strike while cancellation clears it',()=>{const g=game();g.attack();drain(g);g.time=.5;g.setAttackHeld(true);drain(g);g.setAttackHeld(false);drain(g);g.combat.finish(.58);g.time=.59;g.startPlayerSwing();assert.equal(g.combat.swing.strike.id,'diagonal');g.time=1.1;g.setAttackHeld(true);drain(g);g.setAttackHeld(false,true);drain(g);g.combat.finish(1.2);g.time=1.21;g.startPlayerSwing();assert.equal(g.combat.swing,null);});
+test('Pausing clears held attacks, sprint and movement; paused touches cannot restart them',()=>{const g=game();g.setStick(1,0,true);g.setAttackHeld(true);drain(g);g.pause(true);assert.equal(g.attackHeld,false);assert.equal(g.touchSprint,false);assert.deepEqual(g.stick,{x:0,y:0});g.setStick(1,1,true);g.setAttackHeld(true);drain(g);assert.equal(g.attackHeld,false);assert.deepEqual(g.stick,{x:0,y:0});g.pause(false);assert.equal(g.attackHeld,false);assert.equal(g.touchSprint,false);});
+test('Magic consumes mana and damage is limited to the area of effect',()=>{const g=game(),near=enemy(),far=enemy('w2',20);g.enemies=[near,far];g.cast();drain(g);assert.equal(g.p.mana,75);assert.equal(near.hp,38);assert.equal(far.hp,80);g.castCd=0;g.p.mana=10;g.cast();drain(g);assert.equal(near.hp,38);});
+test('Dodge startup/recovery remain vulnerable; its active protection and death recovery event are explicit',()=>{const g=game();g.dodge();drain(g);assert.equal(g.stamina,75);g.hitPlayer(10);assert.equal(g.p.health,130);g.dodgeTime=.39;g.hitPlayer(30);assert.equal(g.p.health,130);g.dodgeTime=.15;g.hitPlayer(30);assert.equal(g.p.health,100);g.dodgeTime=0;g.hitPlayer(200);assert.equal(g.p.health,0);assert.ok(g.events.some(e=>e.type==='death'));});
 test('Boss shield requires all shrines and victory is recorded exactly once',()=>{const g=game(),e=enemy('king');g.enemies=[e];g.hurtEnemy(e,100);assert.equal(e.hp,80);g.p.shrines=['cinder','dusk','crown'];g.hurtEnemy(e,100);assert.equal(e.dead,true);assert.equal(g.p.won,true);assert.deepEqual(g.p.defeated,['king']);assert.ok(g.events.some(e=>e.type==='victory'));});
 
 test('World generation has finite geometry and reachable shrine/checkpoint positions',()=>{const original=T.TextureLoader.prototype.load;T.TextureLoader.prototype.load=function(){return new T.Texture()};try{const w=createWorld(newProgress(),'low');let meshes=0;w.scene.traverse(o=>{if(!o.isMesh)return;meshes++;const materials=Array.isArray(o.material)?o.material:[o.material];if(materials.some(m=>m.vertexColors))assert.ok(o.geometry.attributes.color,'Shared vertex-color materials require color attributes on unbatched fallback geometry');const a=o.geometry.attributes.position.array;for(let i=0;i<a.length;i++)assert.ok(Number.isFinite(a[i]));});assert.ok(meshes>100);for(const point of [{x:0,z:51},...w.shrines.map(s=>({x:s.group.position.x,z:s.group.position.z}))])assert.ok(!w.colliders.some(c=>Math.hypot(c.x-point.x,c.z-point.z)<c.r+.6),'objective intersects a collider');}finally{T.TextureLoader.prototype.load=original;}});
@@ -56,13 +58,13 @@ test('Dungeon rooms and passages join without collision seams',()=>{
 function WORLD_POINTS(){return [{x:0,z:51},{x:11,z:12},{x:-13,z:-16},{x:11,z:-42},{x:-12,z:26},{x:14,z:-5},{x:-12,z:-31},{x:12,z:-60},{x:0,z:-69}];}
 test('A chamber seal requires both all wardens and its shrine',()=>{
  const p=newProgress();p.shrines=['cinder'];p.defeated=['w1','w2'];
- assert.equal(gateOpen(0,p),false);assert.equal(dungeonMove(0,6,0,4,p).z,6);
+ assert.equal(gateOpen(0,p),false);assert.ok(Math.abs(dungeonMove(0,6,0,4,p).z-5.6)<2e-6,'the swept circle stops at the closed seal surface');
  p.defeated.push('w3');assert.equal(gateOpen(0,p),true);assert.equal(dungeonMove(0,6,0,4,p).z,4);
  assert.equal(gateOpen(1,p),false);
 });
 test('Wall collision slides along the wall and retains character progress',()=>{
  const p=newProgress();const next=dungeonMove(15,20,16,19,p);
- assert.equal(next.x,15);assert.equal(next.z,19);
+ assert.ok(Math.abs(next.x-15.55)<2e-6);assert.ok(Math.abs(next.z-19)<2e-6);
  p.x=70;p.z=30;p.souls=80;assert.equal(validDungeonSpawn(p),false);assert.equal(p.souls,80);
 });
 test('Every dungeon objective can be reached through the connected floor plan',()=>{
@@ -81,7 +83,7 @@ test('BVH camera and combat rays hit solid walls but pass through open doorways'
   const hit=ray.intersectObject(w.architecture)[0];assert.ok(hit);assert.ok(hit.distance>15&&hit.distance<17);
   ray.set(new T.Vector3(0,1.5,45),new T.Vector3(0,0,-1));ray.far=20;assert.equal(ray.intersectObject(w.architecture).length,0);
   const g=game();g.world=w;g.sightRay=ray;g.p.x=2;g.p.z=35;
-  const e=enemy('w1',4);e.z=35;g.enemies=[e];g.attack();contact(g);assert.equal(e.hp,80,'damage crossed a corridor wall');
+  const e=enemy('w1',4);e.z=35;g.enemies=[e];g.attack();drain(g);contact(g);assert.equal(e.hp,80,'damage crossed a corridor wall');
  }finally{T.TextureLoader.prototype.load=original;}
 });
 
@@ -112,19 +114,19 @@ test('A partially initialized renderer can be disposed once without leaking its 
 });
 
 test('Ranger and sage release one ranged hit per strike, after wind-up, stopping at the nearest target',()=>{
- for(const hero of ['ranger','sage']){const g=game();g.p.hero=hero;const near=enemy(),far=enemy('w2');near.z=6;far.z=10;g.enemies=[near,far];g.attack();g.resolveMelee(g.world.hero,g.combat.swing,0,.16,null);assert.equal(near.hp,80);contact(g);assert.equal(near.hp,54);assert.equal(far.hp,80);contact(g);assert.equal(near.hp,54);assert.equal(g.effects.length,1);}
+ for(const hero of ['ranger','sage']){const g=game();g.p.hero=hero;const near=enemy(),far=enemy('w2');near.z=6;far.z=10;g.enemies=[near,far];g.attack();drain(g);g.resolveMelee(g.world.hero,g.combat.swing,0,.16,null);assert.equal(near.hp,80);contact(g);assert.equal(near.hp,54);assert.equal(far.hp,80);contact(g);assert.equal(near.hp,54);assert.equal(g.effects.length,1);}
 });
 test('Ranged strikes do not pass through walls, acquire targets behind, or hit beyond range',()=>{
- for(const obstruction of [true,false]){const g=game();g.p.hero='ranger';const target=enemy();target.z=obstruction?6:15;g.enemies=[target];if(obstruction)g.obstruction=()=>3;g.attack();contact(g);assert.equal(target.hp,80);}
- const g=game();g.p.hero='sage';const target=enemy();target.z=-4;g.enemies=[target];g.attack();contact(g);assert.equal(target.hp,80);
+ for(const obstruction of [true,false]){const g=game();g.p.hero='ranger';const target=enemy();target.z=obstruction?6:15;g.enemies=[target];if(obstruction)g.obstruction=()=>3;g.attack();drain(g);contact(g);assert.equal(target.hp,80);}
+ const g=game();g.p.hero='sage';const target=enemy();target.z=-4;g.enemies=[target];g.attack();drain(g);contact(g);assert.equal(target.hp,80);
 });
 test('Changing wanderer preserves the active journey and clears an unfinished strike',()=>{
- const g=game();g.p.souls=123;g.p.x=4;g.p.potions=2;g.p.defeated=['w1'];const before=g.snapshot();let chosen;g.roster={setHero:id=>{chosen=id;}};g.attack();g.chooseHero('sage');assert.equal(chosen,'sage');assert.equal(g.combat.swing,null);assert.deepEqual({...g.snapshot(),hero:before.hero},before);
+ const g=game();g.p.souls=123;g.p.x=4;g.p.potions=2;g.p.defeated=['w1'];const before=g.snapshot();let chosen;g.roster={setHero:id=>{chosen=id;}};g.attack();drain(g);g.chooseHero('sage');assert.equal(chosen,'sage');assert.equal(g.combat.swing,null);assert.deepEqual({...g.snapshot(),hero:before.hero},before);
 });
 
 test('Staff beams start at the evaluated crystal and aim down at a nearby target',()=>{
  const g=game();g.p.hero='sage';const target=enemy();target.z=6;g.enemies=[target];
  const origin=new T.Vector3(-.4,3.1,-1.1);g.world.hero.visual={strike:()=>{},muzzle:out=>{out.copy(origin);return true;}};
- g.attack();contact(g);assert.equal(target.hp,54);assert.equal(g.effects.length,1);
+ g.attack();drain(g);contact(g);assert.equal(target.hp,54);assert.equal(g.effects.length,1);
  const mesh=g.effects[0].mesh,axis=new T.Vector3(0,1,0).applyQuaternion(mesh.quaternion),start=mesh.position.clone().addScaledVector(axis,-mesh.geometry.parameters.height/2);assert.ok(start.distanceTo(origin)<1e-7);
 });

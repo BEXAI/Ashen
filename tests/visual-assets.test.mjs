@@ -141,11 +141,13 @@ test('Asset installation preserves authored normal strength and applies the revi
  const actor=knight();installActorVisual(actor,template);assert.equal(material.normalScale.x,.82);assert.ok(Math.abs(material.envMapIntensity-.6)<1e-8);actor.visual.dispose();
 });
 
-test('Protected gameplay, controls and saves retain their approved source baseline',async()=>{
+test('Unchanged strike balance, controls and save boundaries retain their approved baseline',async()=>{
  const plan=JSON.parse(await readFile('docs/VISUAL_ASSETS_4K_UPDATE.json'));
- // Mobile pacing is intentionally editable under the visual-upgrade plan.
- // Its pause, cadence, resolution and save-queue contracts run in mobile-runtime.test.mjs.
- for(const [path,expected]of Object.entries(plan.scope.protected_sha256)){if(path==='app/game/mobile-runtime.ts')continue;assert.equal(hash(await readFile(path)),expected,path);}
+ // The user-authorized PHYSICS_BATTLE_VIDEO_UPDATE_PLAN transfers these gameplay
+ // files from the old visual-only SHA freeze to behavioral collision/lifecycle
+ // contracts. Keep the historical hashes and all other protected files intact.
+ const mechanicsOwned=new Set(['app/game/dungeon.ts','app/game/mobile-runtime.ts','app/game/TouchControls.tsx']);
+ for(const [path,expected]of Object.entries(plan.scope.protected_sha256)){if(mechanicsOwned.has(path))continue;assert.equal(hash(await readFile(path)),expected,path);}
 });
 test('Decoder failure uses real PNG fallback rigs; tier changes coalesce and disposal releases instances',async()=>{
  const originalFetch=globalThis.fetch,originalParse=GLTFLoader.prototype.parseAsync,calls=[];let errors=0;

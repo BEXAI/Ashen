@@ -1,0 +1,60 @@
+{
+  "base": "combat-baseline.json",
+  "method": "Explicit reviewed behavioral deltas; the historical capture remains byte-for-byte unchanged. Not a regenerated recording.",
+  "unchanged": [
+    "health",
+    "stamina",
+    "enemy hp",
+    "one consumed target per action",
+    "facing"
+  ],
+  "changes": [
+    {
+      "contract": "input admission",
+      "before": "public attack/cast/dodge/held edges mutate immediately",
+      "after": "enqueue; one drain on the next unfrozen simulation tick",
+      "fixture": "explicit drainCommands(clock.nextTick) after each intended fixture command; frozen/catch-up tests use the real clock"
+    },
+    {
+      "contract": "hit stop",
+      "before": {
+        "seconds": 0.035,
+        "shieldedContactAlsoPaused": true
+      },
+      "after": {
+        "fixedOpportunities": 2,
+        "nominalSeconds": 0.03333333333333333,
+        "shieldedContactAlsoPauses": false
+      },
+      "reason": "accepted damage only; maximum request; frozen slots consume fixed opportunity budget"
+    },
+    {
+      "contract": "dodge immunity",
+      "before": "entire dodgeTime > 0",
+      "after": "half-open age [0.05,0.30); startup and recovery vulnerable"
+    },
+    {
+      "contract": "closed gate endpoint",
+      "before": {
+        "z": 6
+      },
+      "after": {
+        "z": 5.600001
+      },
+      "reason": "continuous circle sweep against gate face"
+    },
+    {
+      "contract": "wall slide endpoint",
+      "before": {
+        "x": 15,
+        "z": 19
+      },
+      "after": {
+        "x": 15.549999292893219,
+        "z": 19.000000707106782
+      },
+      "tolerance": 2e-06,
+      "reason": "continuous circle reaches wall clearance then slides"
+    }
+  ]
+}

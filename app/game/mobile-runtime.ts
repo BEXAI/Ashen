@@ -34,12 +34,13 @@ export class FramePacer {
   }
 }
 
-/** Pause draws once; hidden/lost contexts schedule no animation work at all. */
+/** Ordinary pause draws once. A finite presentation owner may opt into paused draws. */
 export class RenderLoop {
   private handle: number | null = null;
   private paused = false;
   private suspended = false;
   private stopped = false;
+  private presenting = false;
   private pacer = new FramePacer(60);
   private lastRaf = 0;
   constructor(private draw: (now: number, rafInterval: number) => void,
@@ -52,11 +53,18 @@ export class RenderLoop {
     this.handle = null;
     if (this.stopped || this.suspended) return;
     const rafInterval=this.lastRaf?now-this.lastRaf:0;this.lastRaf=now;
-    if (!this.paused && !this.pacer.ready(now)) { this.invalidate(); return; }
+    if ((!this.paused || this.presenting) && !this.pacer.ready(now)) { this.invalidate(); return; }
     this.draw(now,rafInterval);
-    if (!this.paused) this.invalidate();
+    if (!this.paused || this.presenting) this.invalidate();
   };
-  pause(value: boolean) { this.paused = value; this.pacer.reset();this.lastRaf=0; this.invalidate(); }
+  pause(value: boolean) { this.paused = value; this.presenting=false; this.pacer.reset();this.lastRaf=0; this.invalidate(); }
+  /** Call after pause(true), then clear from the final terminal-animation draw. */
+  setPresentationActive(value:boolean) {
+    if(this.stopped||this.presenting===value)return;
+    this.presenting=value;this.pacer.reset();this.lastRaf=0;
+    if(value)this.invalidate();
+    else if(this.paused&&this.handle!==null){this.cancel(this.handle);this.handle=null;}
+  }
   setFps(fps:number) { this.pacer = new FramePacer(fps <= 30 ? 30 : 60); this.invalidate(); }
   suspend(value: boolean) {
     this.suspended = value; this.pacer.reset();this.lastRaf=0;

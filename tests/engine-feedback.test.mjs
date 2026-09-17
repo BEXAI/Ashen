@@ -1,7 +1,7 @@
 import os from 'node:os';
 import assert from 'node:assert/strict';import test from 'node:test';import path from 'node:path';import fs from 'node:fs';import {pathToFileURL} from 'node:url';
 const game=process.env.GAME_ROOT||process.cwd(),proposal=process.env.PROPOSAL_ROOT||game;
-const outputDir=path.join(os.tmpdir(),'ashen-feedback-tests');
+const outputDir=path.join(os.tmpdir(),'ashen-feedback-mechanics-staged-tests');
 fs.mkdirSync(outputDir,{recursive:true});
 const {build}=await import(pathToFileURL(path.join(game,'node_modules/esbuild/lib/main.js')));
 const mods=[];
@@ -11,22 +11,23 @@ for(const [name,entry] of [['proposal',proposal]]){
  mods.push(await import(pathToFileURL(out)));
 }
 function fixture(m){const {GameEngine,newProgress,AttackSequence,knight,T}=m,g=Object.create(GameEngine.prototype);Object.assign(g,{p:newProgress(),paused:false,combat:new AttackSequence(),facing:0,yaw:0,attackAnim:0,bladeBase:new T.Vector3(),bladeTip:new T.Vector3(),bladeOrigin:new T.Vector3(),contactPosition:new T.Vector3(),castCd:0,dodgeCd:0,dodgeTime:0,stamina:100,time:0,enemies:[],effects:[],keys:new Set(),actorList:[],world:{scene:new T.Scene(),hero:knight()},sound:{tone(){},suspend(){}},events:[],onHud(){},emit(){},reducedMotion:false,graphics:{version:1,brightness:1,impactShake:false},quality:'auto',hitPause:0});g.p.x=g.p.z=0;g.event=e=>g.events.push(e);g.contacts=[];g.kicks=[];g.impacts={contact(...args){g.contacts.push(args);},burst(){},reset(){}};g.cameraImpact={trigger(...args){if(args[2])g.kicks.push(args);},reset(){}};return g;}
+function drain(g){g.drainCommands(g.mechanicsState().clock.nextTick);}
 function enemy(m,id='w1'){return {id,x:0,z:2,hp:80,max:80,dead:false,hit:0,cool:0,swing:null,stagger:0,ring:{visible:true},actor:m.knight(true,id==='king')};}
-function sweep(m,frames,blocked=false){const g=fixture(m),e=enemy(m,blocked?'king':'w1');g.enemies=[e];g.attack();const swing=g.combat.swing;g.world.hero.group.rotation.y=swing.facing;for(let i=0;i<frames;i++)g.resolveMelee(g.world.hero,swing,i*.58/frames,(i+1)*.58/frames,null);return {health:g.p.health,stamina:g.stamina,hp:e.hp,hits:[...swing.hits],pause:g.hitPause,facing:g.facing,contacts:g.contacts,kicks:g.kicks};}
-test('Proposal preserves baseline damage, stamina, target deduplication and hit-pause against recorded 30/60/120 Hz fixtures',()=>{
- const baseline=JSON.parse(fs.readFileSync(new URL('./fixtures/combat-baseline.json',import.meta.url),'utf8'));for(const {samples:n,blocked,expected:a} of baseline.cases){const b=sweep(mods[0],n,blocked);for(const key of ['health','stamina','hp','hits','pause','facing'])assert.deepEqual(b[key],a[key]);assert.equal(b.contacts.length,blocked?0:1);assert.equal(b.kicks.length,0);}
+function sweep(m,frames,blocked=false){const g=fixture(m),e=enemy(m,blocked?'king':'w1');g.enemies=[e];g.attack();drain(g);const swing=g.combat.swing;g.world.hero.group.rotation.y=swing.facing;for(let i=0;i<frames;i++)g.resolveMelee(g.world.hero,swing,i*.58/frames,(i+1)*.58/frames,null);return {health:g.p.health,stamina:g.stamina,hp:e.hp,hits:[...swing.hits],frozenOpportunities:g.mechanicsState().clock.frozenRemaining,facing:g.facing,contacts:g.contacts,kicks:g.kicks};}
+test('Historical damage, stamina and target deduplication remain; reviewed hit-stop delta uses fixed opportunities',()=>{
+ const baseline=JSON.parse(fs.readFileSync(new URL('./fixtures/combat-baseline.json',import.meta.url),'utf8'));for(const {samples:n,blocked,expected:a} of baseline.cases){const b=sweep(mods[0],n,blocked);for(const key of ['health','stamina','hp','hits','facing'])assert.deepEqual(b[key],a[key]);assert.equal(a.pause,.035,'retain the original historical capture');assert.equal(b.frozenOpportunities,blocked?0:2,'only accepted damage freezes two fixed opportunities');assert.equal(b.contacts.length,blocked?0:1);assert.equal(b.kicks.length,0);}
 });
 test('Shake and impact spawn only after an accepted hit; shielded bosses, dodge and dead targets are excluded',()=>{
- const m=mods[0],g=fixture(m),e=enemy(m);g.graphics.impactShake=true;const point=new m.T.Vector3(.2,1.1,2);
+ const m=mods[0],g=fixture(m),e=enemy(m);g.graphics.impactShake=true;const point=new m.T.Vector3(.2,1.1,2);g.enemies=[e];
  assert.equal(g.hurtEnemy(e,10,0,point),true);assert.equal(e.hp,70);assert.equal(g.contacts.length,1);assert.deepEqual(g.contacts[0].slice(0,3),point.toArray());assert.equal(g.kicks.length,1);
- const boss=enemy(m,'king');assert.equal(g.hurtEnemy(boss,10,0,point),false);e.dead=true;assert.equal(g.hurtEnemy(e,10,0,point),false);g.dodgeTime=.2;assert.equal(g.hitPlayer(10,point),false);assert.equal(g.contacts.length,1);assert.equal(g.kicks.length,1);
+ const boss=enemy(m,'king');g.enemies.push(boss);assert.equal(g.hurtEnemy(boss,10,0,point),false);e.dead=true;assert.equal(g.hurtEnemy(e,10,0,point),false);g.dodgeTime=.2;assert.equal(g.hitPlayer(10,point),false);assert.equal(g.contacts.length,1);assert.equal(g.kicks.length,1);
  g.dodgeTime=0;assert.equal(g.hitPlayer(10,point),true);assert.equal(g.contacts.length,2);assert.equal(g.kicks.length,2);
 });
 test('Reduced motion suppresses optional shake while preserving accepted stationary contact feedback',()=>{
- const m=mods[0],g=fixture(m),e=enemy(m);g.graphics.impactShake=true;g.reducedMotion=true;g.hurtEnemy(e,10,0,new m.T.Vector3(0,1,2));assert.equal(g.kicks.length,0);assert.equal(g.contacts.length,1);assert.equal(g.contacts[0].at(-1),true);
+ const m=mods[0],g=fixture(m),e=enemy(m);g.graphics.impactShake=true;g.reducedMotion=true;g.enemies=[e];g.hurtEnemy(e,10,0,new m.T.Vector3(0,1,2));assert.equal(g.kicks.length,0);assert.equal(g.contacts.length,1);assert.equal(g.contacts[0].at(-1),true);
 });
 test('No impact occurs in windup; clipped wall obstruction prevents collision and contact feedback',()=>{
- const m=mods[0],g=fixture(m),e=enemy(m);g.enemies=[e];g.attack();const swing=g.combat.swing;g.resolveMelee(g.world.hero,swing,0,.16,null);assert.equal(e.hp,80);assert.equal(g.contacts.length,0);g.obstruction=()=>0;g.resolveMelee(g.world.hero,swing,.17,.33,null);assert.equal(e.hp,80);assert.equal(g.contacts.length,0);
+ const m=mods[0],g=fixture(m),e=enemy(m);g.enemies=[e];g.attack();drain(g);const swing=g.combat.swing;g.resolveMelee(g.world.hero,swing,0,.16,null);assert.equal(e.hp,80);assert.equal(g.contacts.length,0);g.obstruction=()=>0;g.resolveMelee(g.world.hero,swing,.17,.33,null);assert.equal(e.hp,80);assert.equal(g.contacts.length,0);
 });
 
 

@@ -1,0 +1,31 @@
+.mechanics-lab { max-width:none; }
+.mechanics-lab > header,.mechanics-lab > p,.mechanics-lab-toolbar,.mechanics-lab-controls,.mechanics-lab-hud,.mechanics-lab > details { max-width:1040px; }
+.mechanics-lab-kicker { color:#edc68d;font-size:12px;text-transform:uppercase;letter-spacing:.12em; }
+.mechanics-lab-toolbar,.mechanics-lab-controls { display:flex;gap:8px 12px;align-items:center;flex-wrap:wrap;margin:12px 0; }
+.mechanics-lab-controls { padding:10px;border:1px solid #384650;border-radius:8px; }
+.mechanics-lab-controls legend { padding:0 6px;color:#c5d1d9;font-size:14px; }
+.mechanics-lab button[aria-pressed=true] { background:#715127;border-color:#f7c37b; }
+.mechanics-lab button:disabled,.mechanics-lab fieldset:disabled { opacity:.55; }
+.mechanics-lab button:disabled { cursor:not-allowed; }
+.mechanics-lab-mode { border-left:3px solid #eab879;padding-left:12px; }
+.mechanics-lab .mechanics-lab-caption { font-size:13px;color:#bdc9d1; }
+.mechanics-lab-stage { position:relative;width:960px;max-width:100%; }
+.mechanics-lab-canvas { width:100%;height:min(560px,64dvh);min-height:280px; }
+.mechanics-lab-canvas canvas { display:block;touch-action:none; }
+.mechanics-lab-terminal { position:absolute;left:12px;right:12px;bottom:12px;display:grid;gap:4px;padding:12px;background:#14171fec;border:1px solid #dda96b;border-radius:8px;pointer-events:none; }
+.mechanics-lab-terminal strong { font-size:20px; }.mechanics-lab-terminal span { font-size:13px; }
+.mechanics-lab-hud { display:flex;gap:8px 18px;flex-wrap:wrap;padding:10px 12px;background:#1b242d;border:1px solid #3d4d5a;border-radius:8px;margin-top:10px;font-size:14px;font-variant-numeric:tabular-nums; }
+.mechanics-lab-hud span { display:flex;gap:8px; }.mechanics-lab-hud strong { color:#ffe0ad; }
+.mechanics-lab .mechanics-lab-error { color:#ffd0c9; }
+.mechanics-lab pre { max-height:460px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;padding:12px;background:#0b1016;border:1px solid #33404b;border-radius:6px;font:12px/1.45 ui-monospace,SFMono-Regular,monospace; }
+.mechanics-lab--portrait > header,.mechanics-lab--portrait > p,.mechanics-lab--portrait .mechanics-lab-toolbar,.mechanics-lab--portrait .mechanics-lab-controls,.mechanics-lab--portrait .mechanics-lab-hud,.mechanics-lab--portrait > details,.mechanics-lab--portrait .mechanics-lab-stage { width:390px;max-width:100%; }
+.mechanics-lab--portrait .mechanics-lab-toolbar label { flex:1 1 100%; }
+.mechanics-lab--portrait .mechanics-lab-toolbar select { max-width:100%; }
+.mechanics-lab--portrait .mechanics-lab-canvas { height:min(650px,72dvh);min-height:320px; }
+.mechanics-lab--portrait .mechanics-lab-controls button { flex:1 1 42%; }
+@media(max-width:600px) {
+  .mechanics-lab select { max-width:100%; }
+  .mechanics-lab-toolbar label { align-items:flex-start; }
+  .mechanics-lab-controls button { flex:1 1 42%; }
+  .mechanics-lab-canvas { height:64dvh;min-height:320px; }
+}
