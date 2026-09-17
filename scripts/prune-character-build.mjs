@@ -1,9 +1,9 @@
-import {access, readFile, readdir, rm, stat} from 'node:fs/promises';
+import {access, readFile, readdir, rm, stat, writeFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {relative, resolve, sep} from 'node:path';
 
 // Source assets remain available for editing and regression tests. Production
-// ships the active manifest and its complete variant/fallback dependency set.
+// ships the Keeper dependency set. The September roster supplies hero/enemies.
 const root=fileURLToPath(new URL('../',import.meta.url));
 const client=resolve(root,'dist/client');
 const characterRoot=resolve(client,'assets/characters');
@@ -18,6 +18,13 @@ const resolveAsset=url=>{
 };
 const manifestPath=resolveAsset(manifestUrl);
 const manifest=JSON.parse(await readFile(manifestPath,'utf8'));
+// GameEngine registers only the Keeper with the legacy loader; the sixteen
+// September characters use their own manifest. Preserve historical assets in
+// public/assets for authoring and regression tests, but omit unused deploy bytes.
+if(!manifest.characters['ash-knight'])throw new Error('Missing Keeper character');
+manifest.characters={'ash-knight':manifest.characters['ash-knight']};
+manifest.version+='-keeper-only';
+await writeFile(manifestPath,JSON.stringify(manifest,null,2)+'\n');
 const keep=new Set([manifestPath]);
 for(const character of Object.values(manifest.characters)){
   for(const variant of Object.values(character.variants)){
