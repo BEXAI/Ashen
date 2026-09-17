@@ -55,3 +55,44 @@ THE SOFTWARE.
 Poly Haven textures: CC0 1.0
 https://polyhaven.com/license
 monastery_stone_floor; stone_tile_wall; rocky_terrain_02; rock_boulder_dry; kloppenheim_06_puresky.
+
+
+Basis Universal transcoder, distributed with Three.js r180
+https://github.com/BinomialLLC/basis_universal
+Apache License 2.0. Full license:
+/assets/decoders/three-r180/LICENSE-Basis-Universal.txt
+The matching JavaScript and WebAssembly decoder files are versioned locally.
+
+meshoptimizer / Meshopt decoder and asset build tooling
+https://github.com/zeux/meshoptimizer
+MIT License. Full license:
+/assets/decoders/LICENSE-meshoptimizer.txt
+The runtime decoder is bundled from the installed Three.js version.
+
+Higgsfield asset provenance (original user-requested design assets)
+Historical character/reference-image and flame-atlas job records remain in
+assets-source/references/. Runtime character geometry is a locally authored
+rig retrofit; no Meshy model or external catalog character is represented as
+part of this release candidate.
+
+The integrated A01 sconce, A02 shrine and A03 arch/pillar/trim kit were authored
+as original bpy geometry and procedural appearance in user-owned Higgsfield
+3D Jutsu projects, committed at revision 1, then baked and optimized locally.
+These three props used no external catalog models or third-party texture packs.
+Their original editable sources, operation receipts and historical rights-review
+records are preserved in assets-source/props/v1/sconce and
+assets-source/props/v2/{shrine,architecture}. Exact current runtime URLs,
+checksums, source/recipe mappings and limitations are recorded in
+assets-source/props/v2/release-ledger.json. That ledger is provenance evidence,
+not a grant of rights to unrelated catalog assets or a claim of exclusive copyright.
+
+Project/revision records:
+A01: 21434c15-bdde-4abd-bcb9-62098cae463a / 1
+A02: 02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59 / 1
+A03: 1d6dfef7-341a-43ea-bb7f-c5b7f36b4292 / 1
+
+Ember Sovereign v10/v11 anatomical foundation
+Body Male - Realistic by Dan Ulrich, Blender Human Base Meshes 1.4.1.
+CC0-1.0 (public domain). Original fitted armor, crown, garments and surface fields.
+Source: https://www.blender.org/download/demo-files/
+License: https://creativecommons.org/publicdomain/zero/1.0/

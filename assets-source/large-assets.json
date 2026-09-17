@@ -1,0 +1,1955 @@
+{
+  "version": 1,
+  "encoding": "raw byte ranges; exact SHA-256 reconstruction",
+  "chunkBytes": 3145728,
+  "assets": [
+    {
+      "path": "assets-source/characters/ash-knight-base.png",
+      "bytes": 11833619,
+      "sha256": "89fc5f5d7bd45533b3645e303045bf70856b0e91422731cbc54c54e1f9bb9a7e",
+      "parts": [
+        {
+          "path": "assets-source/blocks/89fc5f5d7bd45533b3645e303045bf70856b0e91422731cbc54c54e1f9bb9a7e-0.part",
+          "sha256": "29d5323bec704649cd4c4b71d43721b6153dcf70ee9c6f78c7bb6d7d50f9d564"
+        },
+        {
+          "path": "assets-source/blocks/89fc5f5d7bd45533b3645e303045bf70856b0e91422731cbc54c54e1f9bb9a7e-1.part",
+          "sha256": "86a988dd5a470ed43a758b17da7fe6a94416ff68c6f57c861f0fe570074153fe"
+        },
+        {
+          "path": "assets-source/blocks/89fc5f5d7bd45533b3645e303045bf70856b0e91422731cbc54c54e1f9bb9a7e-2.part",
+          "sha256": "2faa11487d6ac443113c77a7bb5215b73487756a5d8531612d4bedd0b75224b4"
+        },
+        {
+          "path": "assets-source/blocks/89fc5f5d7bd45533b3645e303045bf70856b0e91422731cbc54c54e1f9bb9a7e-3.part",
+          "sha256": "79208223454f2beb2ac0933e70f5bb4c4952d571a8cb266498d699cbdd95fb19"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ash-knight-normal.png",
+      "bytes": 25392501,
+      "sha256": "80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db",
+      "parts": [
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-0.part",
+          "sha256": "ab538f59d98aaf401ec1fc54bb5b5d71b98a37e7d10e280bc47c805f3600c8a6"
+        },
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-1.part",
+          "sha256": "16d13063412c8f85f58174587931a00850df554e81d102b457f0541b0aeb6c4b"
+        },
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-2.part",
+          "sha256": "19ec12c2acf7f26844c306768a3c4b57bd5944d1882e666b4b4d775763aaf90e"
+        },
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-3.part",
+          "sha256": "d293200cf248adb9a507a5ddcd3c34193224a811b74c592593f790297a8e41b3"
+        },
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-4.part",
+          "sha256": "7699f40cd3bbadf47342a2bb54e52a2725545cf343c40a956c40924c599aec60"
+        },
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-5.part",
+          "sha256": "a6525b8b3937a691ccd6897eefd793ac2d07fa99cbc13d010140d611d25db834"
+        },
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-6.part",
+          "sha256": "05158c85bede6c572dc811965cb67ede67c83d8dddbf3dbf580fea14237e1b41"
+        },
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-7.part",
+          "sha256": "d29ca1a35ea398799174dd1f8743457cccd87dec0d0484c83904f8eef06f73f3"
+        },
+        {
+          "path": "assets-source/blocks/80891fed4ddebdbba7bed3bf978ea7e9ebebc67c6cf521f1b2f476bbb73070db-8.part",
+          "sha256": "5ff4ce31d092ec182ca3d7e30e640b3e906cb9ca883c453938607bdb0a7b5464"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ash-knight-orm.png",
+      "bytes": 17135428,
+      "sha256": "2d6840c44fc5f351d220debcd9e822ae1e030e4a7eba8fced76f1e0133a9b903",
+      "parts": [
+        {
+          "path": "assets-source/blocks/2d6840c44fc5f351d220debcd9e822ae1e030e4a7eba8fced76f1e0133a9b903-0.part",
+          "sha256": "ab5f8109a76c1d6299d6616dbe7acd956afd7d7f3b0d7add6264b1b639b30e13"
+        },
+        {
+          "path": "assets-source/blocks/2d6840c44fc5f351d220debcd9e822ae1e030e4a7eba8fced76f1e0133a9b903-1.part",
+          "sha256": "7c1917bc7ae4457106d9a60be3ab133dc8e7bd07d420880f6d93544764beca66"
+        },
+        {
+          "path": "assets-source/blocks/2d6840c44fc5f351d220debcd9e822ae1e030e4a7eba8fced76f1e0133a9b903-2.part",
+          "sha256": "332be2b96bb365ddbe9bcad51a7e24063523e4767a7058d77c811198e8d5a4cc"
+        },
+        {
+          "path": "assets-source/blocks/2d6840c44fc5f351d220debcd9e822ae1e030e4a7eba8fced76f1e0133a9b903-3.part",
+          "sha256": "d45bff749166a9862754444e8a32e88d5dedcebd17f38dfd899134e2e73a6249"
+        },
+        {
+          "path": "assets-source/blocks/2d6840c44fc5f351d220debcd9e822ae1e030e4a7eba8fced76f1e0133a9b903-4.part",
+          "sha256": "dfcc825ad15c8cd9eba7c63c6f5cb03168823576a4de53d70439652b96167872"
+        },
+        {
+          "path": "assets-source/blocks/2d6840c44fc5f351d220debcd9e822ae1e030e4a7eba8fced76f1e0133a9b903-5.part",
+          "sha256": "42de38fbba2d0d672c124a0f733f4e28d8baeb7b34f10db4e907b7df264b4871"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ash-knight.bin",
+      "bytes": 5753000,
+      "sha256": "999a6fe846e853287a83873ec9accacc38146b88be06d5c8fad5611e1a56cb03",
+      "parts": [
+        {
+          "path": "assets-source/blocks/999a6fe846e853287a83873ec9accacc38146b88be06d5c8fad5611e1a56cb03-0.part",
+          "sha256": "95dee537a35c7acb344e65ae70066f357b9f216c10294f60f3125edec41ed68c"
+        },
+        {
+          "path": "assets-source/blocks/999a6fe846e853287a83873ec9accacc38146b88be06d5c8fad5611e1a56cb03-1.part",
+          "sha256": "5902742e1da84174a33df16cbdc679364cdb4fb3344f0b395b3c20aa05e62737"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ash-knight.glb",
+      "bytes": 7717024,
+      "sha256": "b416ce76baa4515f066667ff8a46177657baf276fa4e52fa0b6edeb7e981a269",
+      "parts": [
+        {
+          "path": "assets-source/blocks/b416ce76baa4515f066667ff8a46177657baf276fa4e52fa0b6edeb7e981a269-0.part",
+          "sha256": "0fe4adc669ca4a5e54472affa55d1ef0ef200a0c1352c82918dd9dcad512e444"
+        },
+        {
+          "path": "assets-source/blocks/b416ce76baa4515f066667ff8a46177657baf276fa4e52fa0b6edeb7e981a269-1.part",
+          "sha256": "ce497909e6e770feaf33104a5e728171bbfa384c4ec0760b1e8f558f290ef863"
+        },
+        {
+          "path": "assets-source/blocks/b416ce76baa4515f066667ff8a46177657baf276fa4e52fa0b6edeb7e981a269-2.part",
+          "sha256": "355901575190fca6eba36e42dfe7539b7a5e4b6b504051e762ea7aee88845bcb"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/crypt-warden-base.png",
+      "bytes": 13924997,
+      "sha256": "9dd055049a8e9bfe675c4f8acc4e40a338d5523039f0cc9fdffa9085c640cac7",
+      "parts": [
+        {
+          "path": "assets-source/blocks/9dd055049a8e9bfe675c4f8acc4e40a338d5523039f0cc9fdffa9085c640cac7-0.part",
+          "sha256": "51616f60f8a1892027b9dbf6fbf91051b7a4fbaef083a3cd2d6b754d7fb50855"
+        },
+        {
+          "path": "assets-source/blocks/9dd055049a8e9bfe675c4f8acc4e40a338d5523039f0cc9fdffa9085c640cac7-1.part",
+          "sha256": "308bb32a353ab8a16b41fd134ff805f9ed691724efcd45c02e7cc30b62e990de"
+        },
+        {
+          "path": "assets-source/blocks/9dd055049a8e9bfe675c4f8acc4e40a338d5523039f0cc9fdffa9085c640cac7-2.part",
+          "sha256": "5f42f47e5e1dd4c0a13972762b6a8083320c89f939d3cdf4975c6f83b9db5a17"
+        },
+        {
+          "path": "assets-source/blocks/9dd055049a8e9bfe675c4f8acc4e40a338d5523039f0cc9fdffa9085c640cac7-3.part",
+          "sha256": "09ada3c1c820f8ec147e49d7343a23baef989a95a482f9f01225f5881aa9ea8f"
+        },
+        {
+          "path": "assets-source/blocks/9dd055049a8e9bfe675c4f8acc4e40a338d5523039f0cc9fdffa9085c640cac7-4.part",
+          "sha256": "26bc8ab72c1ba41ee67e21727b5c52838c66205ee8e4849efcf5ef3ec8fb669e"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/crypt-warden-normal.png",
+      "bytes": 26188531,
+      "sha256": "5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0",
+      "parts": [
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-0.part",
+          "sha256": "f73fd63d8a62964b19c369e63fe596b4da7c36e498f0ba671fae9926794a3db8"
+        },
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-1.part",
+          "sha256": "d1e0b4f4f53809959c795cf3e84d774775169971bd4b35b5e639c9d12b9e37a1"
+        },
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-2.part",
+          "sha256": "72ab639170c3e5c008434781230bed7b7e7d11ff15a2d4eb8fe11240ff55ce9d"
+        },
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-3.part",
+          "sha256": "980331fe1ba21cf5b6ef388993983ed1985ff357a3e3c28e28889b332f7f48ac"
+        },
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-4.part",
+          "sha256": "626bd905e3e3a34802ccfe8f390b21875c1c9a9cf65996c6f2d8a4c940f6564f"
+        },
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-5.part",
+          "sha256": "8108fc4a016d317362c0c4f5d495784d97e6a1a50946f0f4a4e6d3c7e19c2ebd"
+        },
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-6.part",
+          "sha256": "fb32a8f5c1c81bb16b3d1aaaf41872091f32269998dd3b38e240f44542eaa2ee"
+        },
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-7.part",
+          "sha256": "f298f06ebb4b771e4df02b3a8ef067c7205d992730bd09ea0ebeda2f2e126b27"
+        },
+        {
+          "path": "assets-source/blocks/5efd1f98d1e087891425b3898668dfed3cbe31954f8e51d09942ad9709a451c0-8.part",
+          "sha256": "3b331876605bbf50ac0942f4431ef8da82e95e3c70c77661163c9faa07fa1d00"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/crypt-warden-orm.png",
+      "bytes": 16866618,
+      "sha256": "312d00e77532091bcc666d6d48a5cbacb7046a09e3456a34bbfe4fe854f0fb80",
+      "parts": [
+        {
+          "path": "assets-source/blocks/312d00e77532091bcc666d6d48a5cbacb7046a09e3456a34bbfe4fe854f0fb80-0.part",
+          "sha256": "38300dcb5bc317751ee057a24ec4a53ec638f5aa062ed5aa873c7aa666abf4fa"
+        },
+        {
+          "path": "assets-source/blocks/312d00e77532091bcc666d6d48a5cbacb7046a09e3456a34bbfe4fe854f0fb80-1.part",
+          "sha256": "dfa105865d11cde7c94ecead119266ed053527523b841d090449d7e76a6554b5"
+        },
+        {
+          "path": "assets-source/blocks/312d00e77532091bcc666d6d48a5cbacb7046a09e3456a34bbfe4fe854f0fb80-2.part",
+          "sha256": "1b840deb99d3f6dc33432e228cd7bf0ee89e902bb3651f276a707f701152952c"
+        },
+        {
+          "path": "assets-source/blocks/312d00e77532091bcc666d6d48a5cbacb7046a09e3456a34bbfe4fe854f0fb80-3.part",
+          "sha256": "5fbb8e2114ea764009ab08b2fbb4abf3b23ccdf0b1a0da0fe3fb67a15f69ade5"
+        },
+        {
+          "path": "assets-source/blocks/312d00e77532091bcc666d6d48a5cbacb7046a09e3456a34bbfe4fe854f0fb80-4.part",
+          "sha256": "da3e9143626fa0a1c1ef7f97979ff7326f3d538e2a7039a946c3563f734d01e6"
+        },
+        {
+          "path": "assets-source/blocks/312d00e77532091bcc666d6d48a5cbacb7046a09e3456a34bbfe4fe854f0fb80-5.part",
+          "sha256": "41adca47df96ed4ee9552749de22493de31c1892d733f35268d3b48efb2f5abf"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/crypt-warden.bin",
+      "bytes": 5938624,
+      "sha256": "aadae257d2fda03d30952eb8793936f3ab476bf69898fc54123b0337e6069e41",
+      "parts": [
+        {
+          "path": "assets-source/blocks/aadae257d2fda03d30952eb8793936f3ab476bf69898fc54123b0337e6069e41-0.part",
+          "sha256": "a528ac96be8362fe09c05bd15220eed4a4673ae6cd273dccccc3a83f16a44f4b"
+        },
+        {
+          "path": "assets-source/blocks/aadae257d2fda03d30952eb8793936f3ab476bf69898fc54123b0337e6069e41-1.part",
+          "sha256": "3ae778118698199e61ce63c6ed56d9fd5eb69a97deed621e973d97a8eebecc18"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/crypt-warden.glb",
+      "bytes": 7864036,
+      "sha256": "19bd6b31a0df22273b7fcf4f916f653850bb5626753648f2eca2112738a662e8",
+      "parts": [
+        {
+          "path": "assets-source/blocks/19bd6b31a0df22273b7fcf4f916f653850bb5626753648f2eca2112738a662e8-0.part",
+          "sha256": "2cded26a45a87b228bfe91743bdeb81314138d7f1882a56f5487fdbbe13ee7b8"
+        },
+        {
+          "path": "assets-source/blocks/19bd6b31a0df22273b7fcf4f916f653850bb5626753648f2eca2112738a662e8-1.part",
+          "sha256": "f913ffd8028883d521ac0439361db842b7dcc1fa2c27845590a3782105f57fb4"
+        },
+        {
+          "path": "assets-source/blocks/19bd6b31a0df22273b7fcf4f916f653850bb5626753648f2eca2112738a662e8-2.part",
+          "sha256": "a51e3738c969f93fbaf6439a29a87fb56b985b3717458e096b9454789b21ee5e"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ember-sovereign-base.png",
+      "bytes": 10161277,
+      "sha256": "0b92622cd926673af1035043d26ae3c7d589aa1fdee020d8af1c874bfbe58ba9",
+      "parts": [
+        {
+          "path": "assets-source/blocks/0b92622cd926673af1035043d26ae3c7d589aa1fdee020d8af1c874bfbe58ba9-0.part",
+          "sha256": "732b8c5439c5238451251458fd722035a67c0dcc15b96cc40fb9d999e4c1d1fd"
+        },
+        {
+          "path": "assets-source/blocks/0b92622cd926673af1035043d26ae3c7d589aa1fdee020d8af1c874bfbe58ba9-1.part",
+          "sha256": "296e7cb7204556da1fb4c0b9ae909536d4bef8ae4a2b3a09499386ef03b41369"
+        },
+        {
+          "path": "assets-source/blocks/0b92622cd926673af1035043d26ae3c7d589aa1fdee020d8af1c874bfbe58ba9-2.part",
+          "sha256": "83a332404be81cae02070ae0c0cecde7e1d1ec60ec0a43a6913b96bea8d81669"
+        },
+        {
+          "path": "assets-source/blocks/0b92622cd926673af1035043d26ae3c7d589aa1fdee020d8af1c874bfbe58ba9-3.part",
+          "sha256": "2e1c284a6d4dc0f358bdda6e8bfd9b02b3296708cfbdf76d9dc22217a7558815"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ember-sovereign-normal.png",
+      "bytes": 24349742,
+      "sha256": "154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117",
+      "parts": [
+        {
+          "path": "assets-source/blocks/154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117-0.part",
+          "sha256": "795844086196dad73b597d7d3d369d6cd78ba5e78e8e85139c96ffd4993c4642"
+        },
+        {
+          "path": "assets-source/blocks/154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117-1.part",
+          "sha256": "978ec685f57e0b5ba6367afc3b0e60dea4e96cc254fe15604dbdf204104dea47"
+        },
+        {
+          "path": "assets-source/blocks/154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117-2.part",
+          "sha256": "42f3289170c973ba03c1f1d1ba1b649aa9f25f85eb4e71f958af5ee0976c27c8"
+        },
+        {
+          "path": "assets-source/blocks/154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117-3.part",
+          "sha256": "5ba26f58fc8efb928e4246aebaa8f606ac2e84bf2e1ecb1a7cd9a0edca96c02d"
+        },
+        {
+          "path": "assets-source/blocks/154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117-4.part",
+          "sha256": "c6013299c2b39f5d95a0060c5091d1a00463dad1085a1a3d8c1f2a26ce2de6fb"
+        },
+        {
+          "path": "assets-source/blocks/154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117-5.part",
+          "sha256": "4341a5238353827d1102440c2c1bb81b00e746ed250c3bfdf3788e57f43c1086"
+        },
+        {
+          "path": "assets-source/blocks/154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117-6.part",
+          "sha256": "4fd1f8dc4ac8512ec3d5a75218431fede282114850ee4985eb0210bddc951c7d"
+        },
+        {
+          "path": "assets-source/blocks/154f0dd98807135259db5eaaabb036060a266cc76db43637899c721b11976117-7.part",
+          "sha256": "e006a2e28f4d9ddaec623d4fd22774f958bb97fce5d9931c96121f92b83318f2"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ember-sovereign-orm.png",
+      "bytes": 16973612,
+      "sha256": "c462a2feee2cd52c4ceed5e0709230c57361ac7a37177bbe19dee99716351b97",
+      "parts": [
+        {
+          "path": "assets-source/blocks/c462a2feee2cd52c4ceed5e0709230c57361ac7a37177bbe19dee99716351b97-0.part",
+          "sha256": "5f503048d6cb7a5406b55bc670e7f0ace100003c9d78c9c5f6b0f146926abe5b"
+        },
+        {
+          "path": "assets-source/blocks/c462a2feee2cd52c4ceed5e0709230c57361ac7a37177bbe19dee99716351b97-1.part",
+          "sha256": "ba006ad225e52ac742a43b349bdb20e11eff4e696cf42bd6d7ece4845ff95beb"
+        },
+        {
+          "path": "assets-source/blocks/c462a2feee2cd52c4ceed5e0709230c57361ac7a37177bbe19dee99716351b97-2.part",
+          "sha256": "99924594bd3e7a87acfe98db32546ecf345764077b637a814817d378d85eb58c"
+        },
+        {
+          "path": "assets-source/blocks/c462a2feee2cd52c4ceed5e0709230c57361ac7a37177bbe19dee99716351b97-3.part",
+          "sha256": "9dad7438466f6194c987f9d3bcf673e546d365ca2abb82ba6762211b72708bbd"
+        },
+        {
+          "path": "assets-source/blocks/c462a2feee2cd52c4ceed5e0709230c57361ac7a37177bbe19dee99716351b97-4.part",
+          "sha256": "bc151cb2dd9c79979f4bf973873dadf3ef4bea91bc0d29adcf2ecb6f2be46b2f"
+        },
+        {
+          "path": "assets-source/blocks/c462a2feee2cd52c4ceed5e0709230c57361ac7a37177bbe19dee99716351b97-5.part",
+          "sha256": "224fbbf5507686183540f40062f01fb040627b96e04b05d63bf068bfa80dbfe6"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ember-sovereign.bin",
+      "bytes": 6210528,
+      "sha256": "dda1ef27d5abcd9ea826c1bd5438ab1847cbd2b57d66842d7fcc89f5be9e7d46",
+      "parts": [
+        {
+          "path": "assets-source/blocks/dda1ef27d5abcd9ea826c1bd5438ab1847cbd2b57d66842d7fcc89f5be9e7d46-0.part",
+          "sha256": "6c4db12002c683226e7d76cf6d2c08e1fdc8c06a231fbeb2359ca26ee070a870"
+        },
+        {
+          "path": "assets-source/blocks/dda1ef27d5abcd9ea826c1bd5438ab1847cbd2b57d66842d7fcc89f5be9e7d46-1.part",
+          "sha256": "52360bfd69823bc1fb82b99f2f8b46adad414794d447816b0388ce4a01d47768"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/characters/ember-sovereign.glb",
+      "bytes": 8421632,
+      "sha256": "d759743b9b702d3c99a792e7147afff04fbdcb1151e74eee703d5c8ca3004e2a",
+      "parts": [
+        {
+          "path": "assets-source/blocks/d759743b9b702d3c99a792e7147afff04fbdcb1151e74eee703d5c8ca3004e2a-0.part",
+          "sha256": "951ececdf303863febd833b2b839975ccf95b55d08da1be1c4467cea7d93010e"
+        },
+        {
+          "path": "assets-source/blocks/d759743b9b702d3c99a792e7147afff04fbdcb1151e74eee703d5c8ca3004e2a-1.part",
+          "sha256": "16df1ecb931bae3adfdc8e6e6161f81625e917a80157af2e83c25cf94cba8d64"
+        },
+        {
+          "path": "assets-source/blocks/d759743b9b702d3c99a792e7147afff04fbdcb1151e74eee703d5c8ca3004e2a-2.part",
+          "sha256": "c5eb3c116eb760a2936c9ac5bf82ba8cf40a8efb65d5c0e98a73b9090cac808c"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/materials/hide.png",
+      "bytes": 29499031,
+      "sha256": "a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4",
+      "parts": [
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-0.part",
+          "sha256": "3dc5acae43d18556524d4efd7e35d35f636a66e3329a82f1a9007d914f0bc592"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-1.part",
+          "sha256": "f1a83b08d951e96fa826634db7243865f6432a1e68b500f226aa37a2008118d9"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-2.part",
+          "sha256": "3f4543b7b775556f51bd9d51729258a8c5dca23ab0dca31296c6b1ff725eaa04"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-3.part",
+          "sha256": "31b8e062ce0cfdea28761e0f97181d7438af561c5cf573b1717e82be0d8c1fd4"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-4.part",
+          "sha256": "2c1e5d0626822008461acdd531052d32e3959089a440bf02c14bfe2ec64a1e76"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-5.part",
+          "sha256": "608fc5509237a3fe2b3a0a53e799ac02ec2f8e719fdbcbfefa283db688fa37b3"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-6.part",
+          "sha256": "9d0077a0255296ba8375053f83a623b432c41d26a80070ca96fb52bf66cb6cd0"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-7.part",
+          "sha256": "a4ce3fe864ea133fc455d5613f216d07ce5682cffcba81ef915d6a6b577c515f"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-8.part",
+          "sha256": "d0e991cad3030b44ed30c1faa8213f8e076c3f6fa86e5d0c56b6564c3c1824ae"
+        },
+        {
+          "path": "assets-source/blocks/a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4-9.part",
+          "sha256": "5295d608ef1b7e50210dc3049b1f92d0c5793ee4e42d6238104085f21840602c"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/materials/obsidian.png",
+      "bytes": 19604893,
+      "sha256": "0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d",
+      "parts": [
+        {
+          "path": "assets-source/blocks/0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d-0.part",
+          "sha256": "b278d5335a980fcb4a915dce42a1c8e4309c1f14431c790bd77e3ddf84f3672d"
+        },
+        {
+          "path": "assets-source/blocks/0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d-1.part",
+          "sha256": "0842e159d66bf8b4a034163d2ddf64a3012f345bc2634b8b6a7c871675dfac01"
+        },
+        {
+          "path": "assets-source/blocks/0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d-2.part",
+          "sha256": "3e045d7a2b8ac03b40df146ad1d39d83319271e31538a6430e2fe5ba84d88388"
+        },
+        {
+          "path": "assets-source/blocks/0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d-3.part",
+          "sha256": "ef87a4a63f6fa30259f16219e47207b16616cb82b7d25619089246eb305e580e"
+        },
+        {
+          "path": "assets-source/blocks/0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d-4.part",
+          "sha256": "71276edc31db01195c9a5a582fa11fc579bca1dad4314cbfa7d15b8ccba4e29a"
+        },
+        {
+          "path": "assets-source/blocks/0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d-5.part",
+          "sha256": "444efc80d19bad68274f315c8e1eba2d837f78f1d3b83090e053e4da971b7e72"
+        },
+        {
+          "path": "assets-source/blocks/0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d-6.part",
+          "sha256": "041ff2de270c465399eed17db08933642a8ff4db056891a5e5033eee1894f309"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/materials/steel.png",
+      "bytes": 27405779,
+      "sha256": "d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400",
+      "parts": [
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-0.part",
+          "sha256": "ccd841491baf45a9c431e4e0678db7662aec01d4a7e446d22ca8fde382c9c620"
+        },
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-1.part",
+          "sha256": "05c8dc02b614d80f02451dd938344aa18629451014ae7f51b400df4bfce03084"
+        },
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-2.part",
+          "sha256": "fe44b7f121d54930404e58a2e59f06fa7021e01643cf48619a3c703f8ec02c0e"
+        },
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-3.part",
+          "sha256": "72dac37cef0ad4ed99158add1f468741ba8a8c42991079da4c0b494ff85471e4"
+        },
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-4.part",
+          "sha256": "61fd307831a928c54fe666af4957d34f1f98144b55184582cc4da97a730b638a"
+        },
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-5.part",
+          "sha256": "c536b12654141fcf55d15721d746b96db42f82d608b86b56366839534a031bce"
+        },
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-6.part",
+          "sha256": "804c726d0dab425df4526caf23d208a309f0614acbad719f0a11ee366fce1fb9"
+        },
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-7.part",
+          "sha256": "f21a2a31c21eb6e6a5a9882cb1d7c621ea883b27ac3effde84293c8401da815a"
+        },
+        {
+          "path": "assets-source/blocks/d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400-8.part",
+          "sha256": "049324a47330048f344985ad55e856e35034ec36d029a024722b69155a05a8ce"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/sovereign-v10/ember-sovereign-rigged-master.glb",
+      "bytes": 11243076,
+      "sha256": "f3f66e881e656b14e4683de653143c7663b1af65e88b13244870a8266c122516",
+      "parts": [
+        {
+          "path": "assets-source/blocks/f3f66e881e656b14e4683de653143c7663b1af65e88b13244870a8266c122516-0.part",
+          "sha256": "0bb48480edb385526cf848b42bfc626d1b78c7a0197645217a2c6ed80b56e880"
+        },
+        {
+          "path": "assets-source/blocks/f3f66e881e656b14e4683de653143c7663b1af65e88b13244870a8266c122516-1.part",
+          "sha256": "da948d4580a538e8d9eb3ca6c548fc597a135dba285e23a0bf5e8605d07fc831"
+        },
+        {
+          "path": "assets-source/blocks/f3f66e881e656b14e4683de653143c7663b1af65e88b13244870a8266c122516-2.part",
+          "sha256": "f7c60d573c9e5797c0fa7abd241d554ac871219af93e9de542c877903921aa99"
+        },
+        {
+          "path": "assets-source/blocks/f3f66e881e656b14e4683de653143c7663b1af65e88b13244870a8266c122516-3.part",
+          "sha256": "e15c01c8e34a4fcb6b32ae918d2341670a0d3bd2250103f0d6aa9c4efcf64fa9"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/sovereign-v11/ember-sovereign-rigged-master.glb",
+      "bytes": 11254352,
+      "sha256": "776a3cf088b531c3d89748500f380b95bec6df1e51d62b9de193d2d90bd3fba1",
+      "parts": [
+        {
+          "path": "assets-source/blocks/776a3cf088b531c3d89748500f380b95bec6df1e51d62b9de193d2d90bd3fba1-0.part",
+          "sha256": "4c7fea2446091461cf10631590d1a049ff56c484cdabc8e5d69e5bf833b598c0"
+        },
+        {
+          "path": "assets-source/blocks/776a3cf088b531c3d89748500f380b95bec6df1e51d62b9de193d2d90bd3fba1-1.part",
+          "sha256": "47a43dc5686e8f5bf25d1b2ecabd2bf8fed76b45a9c83eec80987942b17df54f"
+        },
+        {
+          "path": "assets-source/blocks/776a3cf088b531c3d89748500f380b95bec6df1e51d62b9de193d2d90bd3fba1-2.part",
+          "sha256": "28ec17f0f4a8c8e2a0390938684d2442e779e34481e0c1e4daf4d83864bd6dff"
+        },
+        {
+          "path": "assets-source/blocks/776a3cf088b531c3d89748500f380b95bec6df1e51d62b9de193d2d90bd3fba1-3.part",
+          "sha256": "9bb3daf8b1065892d43ddcb5b02a98d9ca7004c57e4868f803897cfa8e57e938"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/sovereign-v11/sovereign-refined-rig.blend",
+      "bytes": 8737620,
+      "sha256": "1eeb5d207aca0bc07ef4ddcc6ec102e213c0c2ed26e80e2dbd6cc93672f2d3fa",
+      "parts": [
+        {
+          "path": "assets-source/blocks/1eeb5d207aca0bc07ef4ddcc6ec102e213c0c2ed26e80e2dbd6cc93672f2d3fa-0.part",
+          "sha256": "cf626e4d7364b42e62d6205326e7f681b3aa254ec53f5cb1075fb22125bdb08e"
+        },
+        {
+          "path": "assets-source/blocks/1eeb5d207aca0bc07ef4ddcc6ec102e213c0c2ed26e80e2dbd6cc93672f2d3fa-1.part",
+          "sha256": "68603fe277cccf50659732e7eaac5e2d358efa7cc95a07b9fd0139ac0c808f90"
+        },
+        {
+          "path": "assets-source/blocks/1eeb5d207aca0bc07ef4ddcc6ec102e213c0c2ed26e80e2dbd6cc93672f2d3fa-2.part",
+          "sha256": "a565da86035e7e684e8dc896551f934b29486c3b30696b849ff4d57eaae47f41"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/sovereign-v11/sovereign-static-atlas.glb",
+      "bytes": 5311772,
+      "sha256": "e42648aaddcbf63ff0db16e3b03e3e0070013aea83030332a061668458efe6b4",
+      "parts": [
+        {
+          "path": "assets-source/blocks/e42648aaddcbf63ff0db16e3b03e3e0070013aea83030332a061668458efe6b4-0.part",
+          "sha256": "8d74e6967307519e02ff576e054c30b95c3452180c33a69c89b6c3f82121b3fe"
+        },
+        {
+          "path": "assets-source/blocks/e42648aaddcbf63ff0db16e3b03e3e0070013aea83030332a061668458efe6b4-1.part",
+          "sha256": "c29484c483a00c4a19aa1b8cc9edb3570df219e4530ecc229c92a05e405aab69"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/props/v2/shrine/shrine-baked-workfile.blend",
+      "bytes": 5162121,
+      "sha256": "f5b3aa7650d5df4c6df0c1b753f42e4dcafff3b1b4488d532ff99814eb447b55",
+      "parts": [
+        {
+          "path": "assets-source/blocks/f5b3aa7650d5df4c6df0c1b753f42e4dcafff3b1b4488d532ff99814eb447b55-0.part",
+          "sha256": "1e9885ff43b1f48e1fab35169344bdc51cf58ca9f9a686ceff909eb954538294"
+        },
+        {
+          "path": "assets-source/blocks/f5b3aa7650d5df4c6df0c1b753f42e4dcafff3b1b4488d532ff99814eb447b55-1.part",
+          "sha256": "6741c599975d288423146d3626ae2040d62d93f83f5e4b9fb00ea7d5ed316364"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/props/v2/shrine/shrine-combined-baked.glb",
+      "bytes": 4495640,
+      "sha256": "b60f9964d1bf8665c9b7043a0c34f59805d7d676f7306f65ac976966deca4297",
+      "parts": [
+        {
+          "path": "assets-source/blocks/b60f9964d1bf8665c9b7043a0c34f59805d7d676f7306f65ac976966deca4297-0.part",
+          "sha256": "7eb865545ee9bef56a9317d1824e4d78e54a28f609073cac56af56165fce1898"
+        },
+        {
+          "path": "assets-source/blocks/b60f9964d1bf8665c9b7043a0c34f59805d7d676f7306f65ac976966deca4297-1.part",
+          "sha256": "19b34b1ce364b335da3b0d0e5f686e26740002312056ada09673191a7b8297d5"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ash-knight-hd-fallback.glb",
+      "bytes": 11873048,
+      "sha256": "fcc56d3d5b25aac806b82ff2acdb2f529c594340569d893c1dcd2c6382df1cb9",
+      "parts": [
+        {
+          "path": "assets-source/blocks/fcc56d3d5b25aac806b82ff2acdb2f529c594340569d893c1dcd2c6382df1cb9-0.part",
+          "sha256": "7a7faf5d9b8b194fe14e485d9c716acfc3f50f6d24c3e31c0467604fd51b51bb"
+        },
+        {
+          "path": "assets-source/blocks/fcc56d3d5b25aac806b82ff2acdb2f529c594340569d893c1dcd2c6382df1cb9-1.part",
+          "sha256": "f96b357b1972a0009fbfbbf68a8ee3fffc710e4367afd1d2d0896f208da08e30"
+        },
+        {
+          "path": "assets-source/blocks/fcc56d3d5b25aac806b82ff2acdb2f529c594340569d893c1dcd2c6382df1cb9-2.part",
+          "sha256": "5f54af09c95a84ffd9bd42cc180473658c496448972bfa6528b44548f5bf843d"
+        },
+        {
+          "path": "assets-source/blocks/fcc56d3d5b25aac806b82ff2acdb2f529c594340569d893c1dcd2c6382df1cb9-3.part",
+          "sha256": "a4204512b4c6ec8df48a559a562116bd99d1f0d62e0b07c3829f601a148feb6f"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ash-knight-high-fallback.glb",
+      "bytes": 11892336,
+      "sha256": "2f5986539bcc5d2f4571338299fcfbba95f46e1ed6b0dc0038d3d5af98cdc3ea",
+      "parts": [
+        {
+          "path": "assets-source/blocks/2f5986539bcc5d2f4571338299fcfbba95f46e1ed6b0dc0038d3d5af98cdc3ea-0.part",
+          "sha256": "3b5ade628863660005fe2277f04971a2247d7e8aad7fdb880dd54b5bdf4932fe"
+        },
+        {
+          "path": "assets-source/blocks/2f5986539bcc5d2f4571338299fcfbba95f46e1ed6b0dc0038d3d5af98cdc3ea-1.part",
+          "sha256": "d2c8a5b46057a643d4bf71c66cef6a69bcfc4f5c18c3d7382b485b7219dc4337"
+        },
+        {
+          "path": "assets-source/blocks/2f5986539bcc5d2f4571338299fcfbba95f46e1ed6b0dc0038d3d5af98cdc3ea-2.part",
+          "sha256": "af0426b24c84a8aa5651e249f9550ff3bfeb06daf97d0b758f73a603d83471dd"
+        },
+        {
+          "path": "assets-source/blocks/2f5986539bcc5d2f4571338299fcfbba95f46e1ed6b0dc0038d3d5af98cdc3ea-3.part",
+          "sha256": "b37a7901ffb407eed7545d4e77910d5024c373f5e6d707f2e7f3c086e993826c"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ash-knight-high.glb",
+      "bytes": 5621752,
+      "sha256": "592232af7ace4e25fdfe2a085f46e4029f8bb8efa1e7e515cc494310e59bb5db",
+      "parts": [
+        {
+          "path": "assets-source/blocks/592232af7ace4e25fdfe2a085f46e4029f8bb8efa1e7e515cc494310e59bb5db-0.part",
+          "sha256": "d72e83b16ff35f99e9f8f1921313c6ab4c9cd4304a8a6057a4e4dfc37eeae1c1"
+        },
+        {
+          "path": "assets-source/blocks/592232af7ace4e25fdfe2a085f46e4029f8bb8efa1e7e515cc494310e59bb5db-1.part",
+          "sha256": "26f7bb7514271a65ba685dae76474135b27ff1ed7967a74e1fd31d980bb6c7d7"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ash-knight-low-fallback.glb",
+      "bytes": 6664072,
+      "sha256": "57282dd49458649cb2c075dde23da678249f5ade8b0dbd38a175240208308550",
+      "parts": [
+        {
+          "path": "assets-source/blocks/57282dd49458649cb2c075dde23da678249f5ade8b0dbd38a175240208308550-0.part",
+          "sha256": "53c13da0d32a88d709bb5c9fc91ab31e224b2f9790ac93b6af4a47cc921a7f67"
+        },
+        {
+          "path": "assets-source/blocks/57282dd49458649cb2c075dde23da678249f5ade8b0dbd38a175240208308550-1.part",
+          "sha256": "b79f0f8c6fb4a75a4ade54a884623defe3bf0caab65737f90ea8cf2df4ec4261"
+        },
+        {
+          "path": "assets-source/blocks/57282dd49458649cb2c075dde23da678249f5ade8b0dbd38a175240208308550-2.part",
+          "sha256": "fc61a0ba5479d3fc8ba77165365729e273ef49da9d8aee1962331a6b4894af72"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ash-knight-mobile-fallback.glb",
+      "bytes": 8579016,
+      "sha256": "9c17b3609800f4bc11904c0e613fd1245ab3e1b29aaec13ac6b035b0b9bea58c",
+      "parts": [
+        {
+          "path": "assets-source/blocks/9c17b3609800f4bc11904c0e613fd1245ab3e1b29aaec13ac6b035b0b9bea58c-0.part",
+          "sha256": "551548c47b62b46cbcf0a78bc835aa29f0d6f0669a950b43d25a2abb4ceec7ca"
+        },
+        {
+          "path": "assets-source/blocks/9c17b3609800f4bc11904c0e613fd1245ab3e1b29aaec13ac6b035b0b9bea58c-1.part",
+          "sha256": "b84a93fe9b647a46c894d613c405099c73a2e02de29b7cffd2a4f5688c2ef098"
+        },
+        {
+          "path": "assets-source/blocks/9c17b3609800f4bc11904c0e613fd1245ab3e1b29aaec13ac6b035b0b9bea58c-2.part",
+          "sha256": "6d68447a92a944514aec31f23016ac3e129544ce7a0a4a19bbfd9ca853da7d8f"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/crypt-warden-hd-fallback.glb",
+      "bytes": 12121856,
+      "sha256": "39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297",
+      "parts": [
+        {
+          "path": "assets-source/blocks/39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297-0.part",
+          "sha256": "b6511659ea5acb447d8c82f4c7dcc357801f26e8f588400a8cb3849e22099dc9"
+        },
+        {
+          "path": "assets-source/blocks/39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297-1.part",
+          "sha256": "d9d9c14f6dfd2bd672ea39a971031f4737bf629805354e28b0f5bb38acc9d397"
+        },
+        {
+          "path": "assets-source/blocks/39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297-2.part",
+          "sha256": "6548e5f8a8d5fb921fdfb78d8d493901013d9a04891dd13d94548a3d17868d8d"
+        },
+        {
+          "path": "assets-source/blocks/39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297-3.part",
+          "sha256": "0e954fbfba262de244804ae00a6fd4aa96625e20134605b08a41caf616e1be55"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/crypt-warden-hd.glb",
+      "bytes": 4282368,
+      "sha256": "56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133",
+      "parts": [
+        {
+          "path": "assets-source/blocks/56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133-0.part",
+          "sha256": "1d805cb89ec6f60e1b4f0f956ebce62732e09efce6d9eb649ec30f1630a65188"
+        },
+        {
+          "path": "assets-source/blocks/56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133-1.part",
+          "sha256": "f5a8b3703b07b07284c699f2604e36207a9642a068c9e52ce0f81fd689d2b9cc"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/crypt-warden-high-fallback.glb",
+      "bytes": 12121856,
+      "sha256": "39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297",
+      "parts": [
+        {
+          "path": "assets-source/blocks/39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297-0.part",
+          "sha256": "b6511659ea5acb447d8c82f4c7dcc357801f26e8f588400a8cb3849e22099dc9"
+        },
+        {
+          "path": "assets-source/blocks/39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297-1.part",
+          "sha256": "d9d9c14f6dfd2bd672ea39a971031f4737bf629805354e28b0f5bb38acc9d397"
+        },
+        {
+          "path": "assets-source/blocks/39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297-2.part",
+          "sha256": "6548e5f8a8d5fb921fdfb78d8d493901013d9a04891dd13d94548a3d17868d8d"
+        },
+        {
+          "path": "assets-source/blocks/39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297-3.part",
+          "sha256": "0e954fbfba262de244804ae00a6fd4aa96625e20134605b08a41caf616e1be55"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/crypt-warden-high.glb",
+      "bytes": 4282368,
+      "sha256": "56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133",
+      "parts": [
+        {
+          "path": "assets-source/blocks/56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133-0.part",
+          "sha256": "1d805cb89ec6f60e1b4f0f956ebce62732e09efce6d9eb649ec30f1630a65188"
+        },
+        {
+          "path": "assets-source/blocks/56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133-1.part",
+          "sha256": "f5a8b3703b07b07284c699f2604e36207a9642a068c9e52ce0f81fd689d2b9cc"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/crypt-warden-low-fallback.glb",
+      "bytes": 6840788,
+      "sha256": "21f70c4661a2462f157726c036bb6efe76ea896d83f8756973aa23f5a324e6ec",
+      "parts": [
+        {
+          "path": "assets-source/blocks/21f70c4661a2462f157726c036bb6efe76ea896d83f8756973aa23f5a324e6ec-0.part",
+          "sha256": "eb28b99ae89fffdf14281682a36d92eda87ec3e0a9c973f2c3380d2036463cf9"
+        },
+        {
+          "path": "assets-source/blocks/21f70c4661a2462f157726c036bb6efe76ea896d83f8756973aa23f5a324e6ec-1.part",
+          "sha256": "8694d9e7c75c4d9f73c761922a4cc265ce7b86ada5ebd4b2ccc1132a890e2ad5"
+        },
+        {
+          "path": "assets-source/blocks/21f70c4661a2462f157726c036bb6efe76ea896d83f8756973aa23f5a324e6ec-2.part",
+          "sha256": "88d90d2f987dda57c1625894ee52b005b31e1a3e48deb8c6b18e50a4d9a94bc0"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/crypt-warden-mobile-fallback.glb",
+      "bytes": 8836052,
+      "sha256": "388137c3a7566edec33a1b5b570519f2ceccfa68567e0439eaafcdb6d97d4bf8",
+      "parts": [
+        {
+          "path": "assets-source/blocks/388137c3a7566edec33a1b5b570519f2ceccfa68567e0439eaafcdb6d97d4bf8-0.part",
+          "sha256": "bd36d76d8588ab806b171dcd3bf8f9a8f00b42a9f53d095bc9d959f0e52bed9b"
+        },
+        {
+          "path": "assets-source/blocks/388137c3a7566edec33a1b5b570519f2ceccfa68567e0439eaafcdb6d97d4bf8-1.part",
+          "sha256": "1f866b96d263478d51ba71170e336fff7bc85c4c87e9a1329ba0be54fd76ed2e"
+        },
+        {
+          "path": "assets-source/blocks/388137c3a7566edec33a1b5b570519f2ceccfa68567e0439eaafcdb6d97d4bf8-2.part",
+          "sha256": "92e1027a5e8068acb97482f74cd405a75eea846c4df3c724bc67752ab240c910"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ember-sovereign-hd-fallback.glb",
+      "bytes": 12868132,
+      "sha256": "b486944a56aec6b2c9e13fbd6677609e64309e5a69766761ccc2a71dddbcad7d",
+      "parts": [
+        {
+          "path": "assets-source/blocks/b486944a56aec6b2c9e13fbd6677609e64309e5a69766761ccc2a71dddbcad7d-0.part",
+          "sha256": "05a1315fbc450f6a7e441c556716b44a30ae947be97b98f40859bf9402cc8b2f"
+        },
+        {
+          "path": "assets-source/blocks/b486944a56aec6b2c9e13fbd6677609e64309e5a69766761ccc2a71dddbcad7d-1.part",
+          "sha256": "2792ac778b41d4c42c8d3f6ee7d52b048d7744946c65ce03e729576dc97cd3a9"
+        },
+        {
+          "path": "assets-source/blocks/b486944a56aec6b2c9e13fbd6677609e64309e5a69766761ccc2a71dddbcad7d-2.part",
+          "sha256": "d8f690818b48f69c12cb3d9add95ef5c0b7a47d3e8f5968fdd062f77ae33aa64"
+        },
+        {
+          "path": "assets-source/blocks/b486944a56aec6b2c9e13fbd6677609e64309e5a69766761ccc2a71dddbcad7d-3.part",
+          "sha256": "b8d309bb46bb71d1682d65bec230234b53733e00749f8a4498cfe25531781912"
+        },
+        {
+          "path": "assets-source/blocks/b486944a56aec6b2c9e13fbd6677609e64309e5a69766761ccc2a71dddbcad7d-4.part",
+          "sha256": "90ce708669d4bfc6e4d2697186a010e8fd822ba940f1dbf89d885b5184e8b0a0"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ember-sovereign-hd.glb",
+      "bytes": 4344944,
+      "sha256": "48742ff9fc8adfd6d40d6fef7ac396ff7412b0b7d8ec56fd9308f19acd3ba994",
+      "parts": [
+        {
+          "path": "assets-source/blocks/48742ff9fc8adfd6d40d6fef7ac396ff7412b0b7d8ec56fd9308f19acd3ba994-0.part",
+          "sha256": "8167e33b876765dd53607b703f32dea9eff8266015d4b2e785d91ea306bb9159"
+        },
+        {
+          "path": "assets-source/blocks/48742ff9fc8adfd6d40d6fef7ac396ff7412b0b7d8ec56fd9308f19acd3ba994-1.part",
+          "sha256": "793d451e0c576f104a226ab7e978ab90723c8ef01913191d148e0ca24539cbb6"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ember-sovereign-high-fallback.glb",
+      "bytes": 12890076,
+      "sha256": "6ddf4eed13f3ebb4d8dc2861af97f9f0a123f265698f8fb1b3abdaa9ba7ad71c",
+      "parts": [
+        {
+          "path": "assets-source/blocks/6ddf4eed13f3ebb4d8dc2861af97f9f0a123f265698f8fb1b3abdaa9ba7ad71c-0.part",
+          "sha256": "a679409b5c42d2b0f5530b13ce6b8c7cc8b4b489ef571d88678cbff8050a46fd"
+        },
+        {
+          "path": "assets-source/blocks/6ddf4eed13f3ebb4d8dc2861af97f9f0a123f265698f8fb1b3abdaa9ba7ad71c-1.part",
+          "sha256": "79e656a85d50a517c30e01366d190b3d80c2973ba4ce89d3d6d04f06ab2e4bf7"
+        },
+        {
+          "path": "assets-source/blocks/6ddf4eed13f3ebb4d8dc2861af97f9f0a123f265698f8fb1b3abdaa9ba7ad71c-2.part",
+          "sha256": "158b04e379cef3166a71430842f647d6e5801da396c60501b8c7e5661df09094"
+        },
+        {
+          "path": "assets-source/blocks/6ddf4eed13f3ebb4d8dc2861af97f9f0a123f265698f8fb1b3abdaa9ba7ad71c-3.part",
+          "sha256": "f5af135c4e8dba8f701744f09a7fe7abd3c0817d2cd3dcd0bf40df9359ed3345"
+        },
+        {
+          "path": "assets-source/blocks/6ddf4eed13f3ebb4d8dc2861af97f9f0a123f265698f8fb1b3abdaa9ba7ad71c-4.part",
+          "sha256": "aa815617b1b16be97d868129a1ef729d4fc23a5af2953efab665a92f7e31b5eb"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ember-sovereign-high.glb",
+      "bytes": 5466804,
+      "sha256": "7a89acc6aada97eb28e81a3de9be5ead635e9e400a43bc53fa10a6cfad0db461",
+      "parts": [
+        {
+          "path": "assets-source/blocks/7a89acc6aada97eb28e81a3de9be5ead635e9e400a43bc53fa10a6cfad0db461-0.part",
+          "sha256": "7687e0dcde12439e536d0f44cdcca7973043804eefc03fca0b5336ca05b2919e"
+        },
+        {
+          "path": "assets-source/blocks/7a89acc6aada97eb28e81a3de9be5ead635e9e400a43bc53fa10a6cfad0db461-1.part",
+          "sha256": "47d2e34dcd1fd4fb77dae1c668ccfaa907b962c546ff6aaaa882d33d6d8ece7a"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ember-sovereign-low-fallback.glb",
+      "bytes": 7168416,
+      "sha256": "15ea145c8d7578235daf18bab2019f3dc8ccadf79cc16390fe61075d48345f0f",
+      "parts": [
+        {
+          "path": "assets-source/blocks/15ea145c8d7578235daf18bab2019f3dc8ccadf79cc16390fe61075d48345f0f-0.part",
+          "sha256": "b441a50aec8eee1ec4204945fa29fb2b2e19ea5d9df81616b73e423771a3cc48"
+        },
+        {
+          "path": "assets-source/blocks/15ea145c8d7578235daf18bab2019f3dc8ccadf79cc16390fe61075d48345f0f-1.part",
+          "sha256": "f30ccf99e18629a07f988f51d68be171d40cd4df6831254b2418131db90c7d77"
+        },
+        {
+          "path": "assets-source/blocks/15ea145c8d7578235daf18bab2019f3dc8ccadf79cc16390fe61075d48345f0f-2.part",
+          "sha256": "4247375cc5db81739a925262bbc7076a6077c101a6e3faaa5c56d0d1540e664f"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/characters/v9/ember-sovereign-mobile-fallback.glb",
+      "bytes": 9176488,
+      "sha256": "91c6795f72c8e3f76535aca5b79b3162a8cbfd2fa67407eb3d544d7ad349570e",
+      "parts": [
+        {
+          "path": "assets-source/blocks/91c6795f72c8e3f76535aca5b79b3162a8cbfd2fa67407eb3d544d7ad349570e-0.part",
+          "sha256": "ff0192575c1f713df622e8a01d621cd317a85aaff9acb7fc1a3712c70776adee"
+        },
+        {
+          "path": "assets-source/blocks/91c6795f72c8e3f76535aca5b79b3162a8cbfd2fa67407eb3d544d7ad349570e-1.part",
+          "sha256": "9cf5a77ca581cb7d6d5975ef79342269fd3c9dd7c8a6780c8ca019476aa3e899"
+        },
+        {
+          "path": "assets-source/blocks/91c6795f72c8e3f76535aca5b79b3162a8cbfd2fa67407eb3d544d7ad349570e-2.part",
+          "sha256": "7cf06ace495b9a8f07fc297150b10f1598c990f97c42afa3fa07e23a6f28178b"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002155_2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae.png",
+      "bytes": 5696269,
+      "sha256": "62e75a2a00795c2a77471c294cf2b775e45c10ba420544552fea45366db4df90",
+      "parts": [
+        {
+          "path": "assets-source/blocks/62e75a2a00795c2a77471c294cf2b775e45c10ba420544552fea45366db4df90-0.part",
+          "sha256": "d4f49c20db9de96b12ae961d1dd280f4370970850bac687e08aaf264aa1a3e8a"
+        },
+        {
+          "path": "assets-source/blocks/62e75a2a00795c2a77471c294cf2b775e45c10ba420544552fea45366db4df90-1.part",
+          "sha256": "450e0da5a3215f8575c237c1027d4b7c0ef455d3c3eede93c255e7bce3d1fddf"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002155_3e01be62-ba68-4862-84c2-91f017008f6b.png",
+      "bytes": 5099615,
+      "sha256": "0bde5d642935f9ab3e976fc58c99b07e47c19cf671eb0f6f686c992b28730010",
+      "parts": [
+        {
+          "path": "assets-source/blocks/0bde5d642935f9ab3e976fc58c99b07e47c19cf671eb0f6f686c992b28730010-0.part",
+          "sha256": "32d234d5f94c6d118e0f709bc98909d84feb6ec89745e8282343c1e4b4ffb28d"
+        },
+        {
+          "path": "assets-source/blocks/0bde5d642935f9ab3e976fc58c99b07e47c19cf671eb0f6f686c992b28730010-1.part",
+          "sha256": "7ce35098f5a793baf9452cb844fbc046db857433f93c2aeab37174dcf309dd98"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002155_3e9a9a70-5514-4bc1-b84a-8f09917ecefe.png",
+      "bytes": 5305087,
+      "sha256": "689b224f0f6d5b95dba10b0e9a8f8785bf3928d4b8f5b5862de367e068a14265",
+      "parts": [
+        {
+          "path": "assets-source/blocks/689b224f0f6d5b95dba10b0e9a8f8785bf3928d4b8f5b5862de367e068a14265-0.part",
+          "sha256": "9b1c495f94fc159faab41b2d815f8362591ee76af140aa1648dec0aad5b5f773"
+        },
+        {
+          "path": "assets-source/blocks/689b224f0f6d5b95dba10b0e9a8f8785bf3928d4b8f5b5862de367e068a14265-1.part",
+          "sha256": "24f565277da671557bbd49aa7d96bb8d4be32722ef87070777180e82b0880ac2"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002155_4bbdba2a-302d-428e-bc0c-3566bd84bde8.png",
+      "bytes": 4996783,
+      "sha256": "50b4729d6e53af88ebaa7bc5475bd2f5f05356950e56d95263744f7d06e0dc29",
+      "parts": [
+        {
+          "path": "assets-source/blocks/50b4729d6e53af88ebaa7bc5475bd2f5f05356950e56d95263744f7d06e0dc29-0.part",
+          "sha256": "0fbbf837630eb17912f523c4f02af5c0661abde3591b8902ba97beda3dab8e36"
+        },
+        {
+          "path": "assets-source/blocks/50b4729d6e53af88ebaa7bc5475bd2f5f05356950e56d95263744f7d06e0dc29-1.part",
+          "sha256": "d59033f9c84273ac68ab8ff13fe016e474d13f8313fd4a7149411d0b5e529406"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002155_c4010a07-000c-439c-b8da-2a200549f97a.png",
+      "bytes": 5559711,
+      "sha256": "97dae7906bf3e6afbce529e45f6c5771e54a9ca3c7b291db1f6c2571843c1cb9",
+      "parts": [
+        {
+          "path": "assets-source/blocks/97dae7906bf3e6afbce529e45f6c5771e54a9ca3c7b291db1f6c2571843c1cb9-0.part",
+          "sha256": "8fa184e6d7eea35e98f5066fa33e28f60a089fcdb71a2008f8e389ba71cafb01"
+        },
+        {
+          "path": "assets-source/blocks/97dae7906bf3e6afbce529e45f6c5771e54a9ca3c7b291db1f6c2571843c1cb9-1.part",
+          "sha256": "d41d58dafa4e7a46207d8949f7d0057cc397fcc6d999c859b1a35599ad169b70"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002156_ae17a6dd-ffae-472e-b762-c9cb6ed2e584.png",
+      "bytes": 5028505,
+      "sha256": "d4a145073a3e8c2b3b5f63ab97ac3556cb1c559137a9e8d8d52325c1abc8d718",
+      "parts": [
+        {
+          "path": "assets-source/blocks/d4a145073a3e8c2b3b5f63ab97ac3556cb1c559137a9e8d8d52325c1abc8d718-0.part",
+          "sha256": "475d0a7486c4131f9eb0edf2dd175e3fb6eb1e882e2f1bdfe618f33936a1f31a"
+        },
+        {
+          "path": "assets-source/blocks/d4a145073a3e8c2b3b5f63ab97ac3556cb1c559137a9e8d8d52325c1abc8d718-1.part",
+          "sha256": "9a42e66ccbe431f2879f9e052afbfdc1ce8f0984b9b3de115e25d09660ef2f9d"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002300_0beed7ce-bd60-4a35-8f57-489368a80bb4.png",
+      "bytes": 5224721,
+      "sha256": "562931e229f121950bf4a6a2ec75be543d3034a657ffae264ebf108928c21da6",
+      "parts": [
+        {
+          "path": "assets-source/blocks/562931e229f121950bf4a6a2ec75be543d3034a657ffae264ebf108928c21da6-0.part",
+          "sha256": "8db985d512fa7ffb1b22baf4bd8fbba4da9fa478e3b24a1e77cfa71c9c6c8d47"
+        },
+        {
+          "path": "assets-source/blocks/562931e229f121950bf4a6a2ec75be543d3034a657ffae264ebf108928c21da6-1.part",
+          "sha256": "8e5bc3a3e4ce92a70842a57ca6d52ba7eaff6116ccdf31b4538d89f2929f23f9"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002300_5cbfe6bf-e3d1-4d07-849a-203e77d1b94b.png",
+      "bytes": 5368416,
+      "sha256": "82502d1790b6a565af104e7079e047fe21eef4054983c12a3c50c087f21bfeae",
+      "parts": [
+        {
+          "path": "assets-source/blocks/82502d1790b6a565af104e7079e047fe21eef4054983c12a3c50c087f21bfeae-0.part",
+          "sha256": "a513ddfef9939ef06d23718aa120415ff8957b16714557ba13351767b2e7caea"
+        },
+        {
+          "path": "assets-source/blocks/82502d1790b6a565af104e7079e047fe21eef4054983c12a3c50c087f21bfeae-1.part",
+          "sha256": "34675701d411cb3a73cee7154e5b65f36d98f1c37c703d518c00ace015b0336a"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002300_880f9069-e695-4dc2-aaed-b5ae3ef026eb.png",
+      "bytes": 5513477,
+      "sha256": "1accab245cfc271c01d1a93fa784d1a1008064f45b26c46812f72aad74b11aaf",
+      "parts": [
+        {
+          "path": "assets-source/blocks/1accab245cfc271c01d1a93fa784d1a1008064f45b26c46812f72aad74b11aaf-0.part",
+          "sha256": "460de2419ad62cfedc988c87a8c6fd6629007c5d325159a92e0f5179943baa7a"
+        },
+        {
+          "path": "assets-source/blocks/1accab245cfc271c01d1a93fa784d1a1008064f45b26c46812f72aad74b11aaf-1.part",
+          "sha256": "44717287ddd144f431bf0851705f7dba3ef5db35804bf02d51eaf3e867020a51"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_002300_e4f73d18-4dda-4d66-8bc5-1f163c44cf9d.png",
+      "bytes": 6268530,
+      "sha256": "a0456fa19e3cc329b16e472aee4b1bb8e25baf73d8760ba99e45fd516ef42cdb",
+      "parts": [
+        {
+          "path": "assets-source/blocks/a0456fa19e3cc329b16e472aee4b1bb8e25baf73d8760ba99e45fd516ef42cdb-0.part",
+          "sha256": "d4d9ca2f3b3e49a7ff691c1c5621b0217722cb61c18879928484dba2384812e0"
+        },
+        {
+          "path": "assets-source/blocks/a0456fa19e3cc329b16e472aee4b1bb8e25baf73d8760ba99e45fd516ef42cdb-1.part",
+          "sha256": "363bcd47c9d59f4872c5ec91dd3736aa9a3de348df0fbdd42f0d87b8d7a330f4"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/hf_20260909_032153_cd11e563-5606-4af2-8658-45398c183f8b.mp4",
+      "bytes": 6979808,
+      "sha256": "5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a",
+      "parts": [
+        {
+          "path": "assets-source/blocks/5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a-0.part",
+          "sha256": "6a006e16695ba13e13e5122a7728d5902aef530565c8d27380e47262a888cc82"
+        },
+        {
+          "path": "assets-source/blocks/5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a-1.part",
+          "sha256": "82c0b3a108cca08aed5832de900e7593b750f71917b0d8113dc5df285fe782e6"
+        },
+        {
+          "path": "assets-source/blocks/5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a-2.part",
+          "sha256": "9cb2e0a2626ec458bc5a537502671fbf3e15a242653d7a1ba341e1cfa4983498"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/backhand.glb",
+      "bytes": 5963780,
+      "sha256": "4c063ce0410a1ec406ac771833df2ae96128d4162073eb3459050e7e45df1a87",
+      "parts": [
+        {
+          "path": "assets-source/blocks/4c063ce0410a1ec406ac771833df2ae96128d4162073eb3459050e7e45df1a87-0.part",
+          "sha256": "5c786baab121fff1e1c363334ac600deb2f294110f05640845ab6e59c25ee308"
+        },
+        {
+          "path": "assets-source/blocks/4c063ce0410a1ec406ac771833df2ae96128d4162073eb3459050e7e45df1a87-1.part",
+          "sha256": "56e31ef180ddada2658235f580404d35d5c6a46a7a125bd378242445da9464e3"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/backward.glb",
+      "bytes": 5939212,
+      "sha256": "a3ba24b435f948c8d143705d8464c93a38a2c3d85d244b0e2a5eccdbf8dba7bd",
+      "parts": [
+        {
+          "path": "assets-source/blocks/a3ba24b435f948c8d143705d8464c93a38a2c3d85d244b0e2a5eccdbf8dba7bd-0.part",
+          "sha256": "da53dc0e0b6e56aea91fc69d36b04d43ffe8a119b8aa6ab9a01250a74b080f67"
+        },
+        {
+          "path": "assets-source/blocks/a3ba24b435f948c8d143705d8464c93a38a2c3d85d244b0e2a5eccdbf8dba7bd-1.part",
+          "sha256": "2fc0561c9e76b1f90d6f2eb04a57801ba2792161d7d431cbeb273c108391e281"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/bow.glb",
+      "bytes": 5991144,
+      "sha256": "9ebc9008255e930e78dad1927b94657dd27e3d7d95dc04bdd53fa8538ef58e23",
+      "parts": [
+        {
+          "path": "assets-source/blocks/9ebc9008255e930e78dad1927b94657dd27e3d7d95dc04bdd53fa8538ef58e23-0.part",
+          "sha256": "28134422e1f6665241bc6419b18cbf43f718c158f5020f37cbd2e2b3a376a1b1"
+        },
+        {
+          "path": "assets-source/blocks/9ebc9008255e930e78dad1927b94657dd27e3d7d95dc04bdd53fa8538ef58e23-1.part",
+          "sha256": "945814779325744ff3f0ef3dcc23843097904579dc2100907ff8573d9922c023"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/claws.glb",
+      "bytes": 5962776,
+      "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+      "parts": [
+        {
+          "path": "assets-source/blocks/e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3-0.part",
+          "sha256": "17d23206cf614c93d38f6ebcc3d1fabbbc2fa6475b14b3d4c90b52cb169eeec4"
+        },
+        {
+          "path": "assets-source/blocks/e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3-1.part",
+          "sha256": "c710e4f443a9cf1e372cc165284cf11f0512cda46aead35e0ca667d6ed3efa59"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/club.glb",
+      "bytes": 5949608,
+      "sha256": "b7fd0686ea2b72439ff7229f9bee5f2111a48ed7b9c42b31973476d2894dd378",
+      "parts": [
+        {
+          "path": "assets-source/blocks/b7fd0686ea2b72439ff7229f9bee5f2111a48ed7b9c42b31973476d2894dd378-0.part",
+          "sha256": "3a778e8508322ef2687530df98373a08101e4a3c3f8691958b676d75267fa9e2"
+        },
+        {
+          "path": "assets-source/blocks/b7fd0686ea2b72439ff7229f9bee5f2111a48ed7b9c42b31973476d2894dd378-1.part",
+          "sha256": "619de3bba3eee688c7b49dc758599952edd70aa4eadd2415e0fa5fdae817aa5f"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/death.glb",
+      "bytes": 5961984,
+      "sha256": "bb8b981dba526e72365c4609bec9fa4f16a7aa8de23e4ca054fffe295f5c4f7b",
+      "parts": [
+        {
+          "path": "assets-source/blocks/bb8b981dba526e72365c4609bec9fa4f16a7aa8de23e4ca054fffe295f5c4f7b-0.part",
+          "sha256": "b923efcb76ec2f7132e85586ba98d9f092deb102fd051aa6205d7f4840b78464"
+        },
+        {
+          "path": "assets-source/blocks/bb8b981dba526e72365c4609bec9fa4f16a7aa8de23e4ca054fffe295f5c4f7b-1.part",
+          "sha256": "8f7fd5d61cf6cceb878744f747ffdbbf9f0040908ba5f6cc6663d8e04c0bc4f9"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/diagonal.glb",
+      "bytes": 5964364,
+      "sha256": "b2c102682878a09daa9e4f928428266397596a2d96b3c5347522a89e8feeb57e",
+      "parts": [
+        {
+          "path": "assets-source/blocks/b2c102682878a09daa9e4f928428266397596a2d96b3c5347522a89e8feeb57e-0.part",
+          "sha256": "24e9de6efe90f0b89c32de6d4617dc1b56080c292643c4ff4d2764de28594090"
+        },
+        {
+          "path": "assets-source/blocks/b2c102682878a09daa9e4f928428266397596a2d96b3c5347522a89e8feeb57e-1.part",
+          "sha256": "794f47c4cff39d561c059670e163fb2209b2ac829c920fdda25878a5ee63e660"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/dodge.glb",
+      "bytes": 5958212,
+      "sha256": "8e3ae386c8b5211c5f5498bac4c0ef8bf1fd4bf4e81faf8e2ea38a0a754830f4",
+      "parts": [
+        {
+          "path": "assets-source/blocks/8e3ae386c8b5211c5f5498bac4c0ef8bf1fd4bf4e81faf8e2ea38a0a754830f4-0.part",
+          "sha256": "7587dc7664a11d057a38f2fcc369104a2fe560870ae4f11ffa209d0898cdae2d"
+        },
+        {
+          "path": "assets-source/blocks/8e3ae386c8b5211c5f5498bac4c0ef8bf1fd4bf4e81faf8e2ea38a0a754830f4-1.part",
+          "sha256": "3d556aa8712e3186b75fe1b96c305f4b52301ad153a296692a12b108781b3b4f"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/forward.glb",
+      "bytes": 5948536,
+      "sha256": "7ff799368c9fbac1bd1d9c02330f0f4804c2fb9584bef19fb9bb03b5fb63069c",
+      "parts": [
+        {
+          "path": "assets-source/blocks/7ff799368c9fbac1bd1d9c02330f0f4804c2fb9584bef19fb9bb03b5fb63069c-0.part",
+          "sha256": "137991b002555d7fca235635678cc6ea30be3e492590ad47f5f148f9d47edf87"
+        },
+        {
+          "path": "assets-source/blocks/7ff799368c9fbac1bd1d9c02330f0f4804c2fb9584bef19fb9bb03b5fb63069c-1.part",
+          "sha256": "87332e20fb5215a7e5e3b145a409d46205558a319321b89a888282e353cd4da4"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/hit.glb",
+      "bytes": 5947272,
+      "sha256": "1c9268a5cdc8eca78710c9c62f46fa13bfcdc8bce86e24ce1f058585d46aeb32",
+      "parts": [
+        {
+          "path": "assets-source/blocks/1c9268a5cdc8eca78710c9c62f46fa13bfcdc8bce86e24ce1f058585d46aeb32-0.part",
+          "sha256": "4ef12359d447704015692cdf4c32ee518ab8b4b46555a9c6fe896263bb9610d3"
+        },
+        {
+          "path": "assets-source/blocks/1c9268a5cdc8eca78710c9c62f46fa13bfcdc8bce86e24ce1f058585d46aeb32-1.part",
+          "sha256": "6f39c6c6a4aab50cb6c5972fe3822b616ee1815e6934f70c6188127e39cc0aba"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/idle.glb",
+      "bytes": 6900588,
+      "sha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7",
+      "parts": [
+        {
+          "path": "assets-source/blocks/2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7-0.part",
+          "sha256": "5fcd47799de405cd7f4aa3f48d54ef851b4e439a524c94e7dceadbc745d8b695"
+        },
+        {
+          "path": "assets-source/blocks/2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7-1.part",
+          "sha256": "bdbb273cb7e1554e94880f34521ef35cafbdb02a199eda12ea460e7bd0442531"
+        },
+        {
+          "path": "assets-source/blocks/2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7-2.part",
+          "sha256": "cfde47da3907afb26f9dd288de04858e099ef799cb27c81306fd1097a9071e99"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/overhead.glb",
+      "bytes": 5956768,
+      "sha256": "5a26819992c5850056252607cd3eeab5978c7c8db45d9bbbf85857d9ecafdf0a",
+      "parts": [
+        {
+          "path": "assets-source/blocks/5a26819992c5850056252607cd3eeab5978c7c8db45d9bbbf85857d9ecafdf0a-0.part",
+          "sha256": "2a22d0811c557e73117870aab73e615d21764ffd380ca90b0b4f5f6974322cf1"
+        },
+        {
+          "path": "assets-source/blocks/5a26819992c5850056252607cd3eeab5978c7c8db45d9bbbf85857d9ecafdf0a-1.part",
+          "sha256": "72330726ae3e70e21e748ac52f83ed0a3ed801dbb96b87f58b71f492124f5085"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/side.glb",
+      "bytes": 5945912,
+      "sha256": "0a44220201d462982f6a78c9491b2a8ef079274a4e286c747aac8deab0f77df2",
+      "parts": [
+        {
+          "path": "assets-source/blocks/0a44220201d462982f6a78c9491b2a8ef079274a4e286c747aac8deab0f77df2-0.part",
+          "sha256": "c3fac35652883a13298e89f03172ecbb19fdcacf2c609d7198dd8697c3e4ac28"
+        },
+        {
+          "path": "assets-source/blocks/0a44220201d462982f6a78c9491b2a8ef079274a4e286c747aac8deab0f77df2-1.part",
+          "sha256": "51d7069d9560e512aa2a94c87e42a201018b6b7b84e6328eff84c4c6c3a49f63"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/staff.glb",
+      "bytes": 5969428,
+      "sha256": "36cd1b4926d52d494aeae05acdc723b414f062598f055a9c34b9c437c2b6bd29",
+      "parts": [
+        {
+          "path": "assets-source/blocks/36cd1b4926d52d494aeae05acdc723b414f062598f055a9c34b9c437c2b6bd29-0.part",
+          "sha256": "e3b7bf4e31e6db9018d9028c3b3556ec7d0b55dc9d20a48157ba33e5f77b6e20"
+        },
+        {
+          "path": "assets-source/blocks/36cd1b4926d52d494aeae05acdc723b414f062598f055a9c34b9c437c2b6bd29-1.part",
+          "sha256": "0b66e9994fc028118c3be95e163beb9cd1cfbf4f572945ff52db39699380e734"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/strafe_left.glb",
+      "bytes": 5942220,
+      "sha256": "11e39d55aa0b4ac01f63bc27682041cd51d461b186aa280d9fb8814bb1f83345",
+      "parts": [
+        {
+          "path": "assets-source/blocks/11e39d55aa0b4ac01f63bc27682041cd51d461b186aa280d9fb8814bb1f83345-0.part",
+          "sha256": "8f2f6cc6ede32d0633e85919b8b5af120d8b430c10fd623085f75e7912c44508"
+        },
+        {
+          "path": "assets-source/blocks/11e39d55aa0b4ac01f63bc27682041cd51d461b186aa280d9fb8814bb1f83345-1.part",
+          "sha256": "52458a6b74dc2ec1436ceb24831b4bbf61908b5da2594271306e859263207890"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/animations/strafe_right.glb",
+      "bytes": 5943436,
+      "sha256": "08088a2b52bd132a0f6b8a2d7cdb6de72221ef53a80d47f46060a3d1ac9af368",
+      "parts": [
+        {
+          "path": "assets-source/blocks/08088a2b52bd132a0f6b8a2d7cdb6de72221ef53a80d47f46060a3d1ac9af368-0.part",
+          "sha256": "06f22383347c9a5ee9a774d070322ab25bbf433b8631ee0b016a9901cdc32f1a"
+        },
+        {
+          "path": "assets-source/blocks/08088a2b52bd132a0f6b8a2d7cdb6de72221ef53a80d47f46060a3d1ac9af368-1.part",
+          "sha256": "366f6c305140f07594f2d5593f1abdd9e531e8528bc1fb910ce6385e1cbe9899"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/dusk-rogue-original.glb",
+      "bytes": 6576644,
+      "sha256": "4417bba96464876f18b94ab363a7a6ea40aef660fa297048cd353764ac29f82f",
+      "parts": [
+        {
+          "path": "assets-source/blocks/4417bba96464876f18b94ab363a7a6ea40aef660fa297048cd353764ac29f82f-0.part",
+          "sha256": "7566fb08b0fcdf2e1903623257535b37514dbb98418ad551056340114d1656d7"
+        },
+        {
+          "path": "assets-source/blocks/4417bba96464876f18b94ab363a7a6ea40aef660fa297048cd353764ac29f82f-1.part",
+          "sha256": "7758462a557022a4ddf639457754353af37b6c6d55bd8988e8209e964742e4e2"
+        },
+        {
+          "path": "assets-source/blocks/4417bba96464876f18b94ab363a7a6ea40aef660fa297048cd353764ac29f82f-2.part",
+          "sha256": "5f4f147016e5310c517527f88ffc8be1a215fd374c04a71335631247a2726bee"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/ember-dragon-original.glb",
+      "bytes": 7478836,
+      "sha256": "0dd511958cec4311d6d547ba54f94af2ce2122a399f018ced90e18de30e1feb5",
+      "parts": [
+        {
+          "path": "assets-source/blocks/0dd511958cec4311d6d547ba54f94af2ce2122a399f018ced90e18de30e1feb5-0.part",
+          "sha256": "d95df85fd9578409badc68f69e61461575444bf9f6efd01ba87fcc9413757a32"
+        },
+        {
+          "path": "assets-source/blocks/0dd511958cec4311d6d547ba54f94af2ce2122a399f018ced90e18de30e1feb5-1.part",
+          "sha256": "8540e4b83cceff98bc867bca479a006766bd0c2dc33a5f9b17028cae2e6985b2"
+        },
+        {
+          "path": "assets-source/blocks/0dd511958cec4311d6d547ba54f94af2ce2122a399f018ced90e18de30e1feb5-2.part",
+          "sha256": "a40e96cc5fd73150750ab831d62191b4a9b25ba99bbc30ec4a5bc5c47b482b5e"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/frost-mage-original.glb",
+      "bytes": 6543952,
+      "sha256": "5ab95761b8c9abf7d3253123ebd42a3cb492d8560538152fd92dd8f2efd2d3ab",
+      "parts": [
+        {
+          "path": "assets-source/blocks/5ab95761b8c9abf7d3253123ebd42a3cb492d8560538152fd92dd8f2efd2d3ab-0.part",
+          "sha256": "cd659cf4eadf5b0db6bf0a6066d5c7a2e9a7c789549100ee21548ab19d12e45f"
+        },
+        {
+          "path": "assets-source/blocks/5ab95761b8c9abf7d3253123ebd42a3cb492d8560538152fd92dd8f2efd2d3ab-1.part",
+          "sha256": "47c1430d93e21b9fe7105167e1f6f25b90c5932127e3835443536c401ea685ef"
+        },
+        {
+          "path": "assets-source/blocks/5ab95761b8c9abf7d3253123ebd42a3cb492d8560538152fd92dd8f2efd2d3ab-2.part",
+          "sha256": "f630f4a43a53cbc5809347dc521538284940737e9891afb864ac8d01f40fd564"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/golem-original.glb",
+      "bytes": 7828276,
+      "sha256": "b6399d9587b7f9376e6db452df29a2662c9433b8a1b8c14f48a8f4fda360b114",
+      "parts": [
+        {
+          "path": "assets-source/blocks/b6399d9587b7f9376e6db452df29a2662c9433b8a1b8c14f48a8f4fda360b114-0.part",
+          "sha256": "6f182cbff481a02bff281e5d94c8de9bd0080cd646e423ccd774d55c63634da7"
+        },
+        {
+          "path": "assets-source/blocks/b6399d9587b7f9376e6db452df29a2662c9433b8a1b8c14f48a8f4fda360b114-1.part",
+          "sha256": "6033010a51632a8c52f1616b9a8d1e155af37983628e8a46cd7de982736819b9"
+        },
+        {
+          "path": "assets-source/blocks/b6399d9587b7f9376e6db452df29a2662c9433b8a1b8c14f48a8f4fda360b114-2.part",
+          "sha256": "1224ae13fc54d79b28c9d094bc9be1d1e80776ea1810e453dd47087851993102"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/knife-rogue-original.glb",
+      "bytes": 6498160,
+      "sha256": "b07c6573bd2904e36da7195b6bf754164cb19424850c6e8249f85a5ac17c76af",
+      "parts": [
+        {
+          "path": "assets-source/blocks/b07c6573bd2904e36da7195b6bf754164cb19424850c6e8249f85a5ac17c76af-0.part",
+          "sha256": "21c47ee63a6d3387aed3af7bc01dd167a57f5b990703d355d05bc55b70036339"
+        },
+        {
+          "path": "assets-source/blocks/b07c6573bd2904e36da7195b6bf754164cb19424850c6e8249f85a5ac17c76af-1.part",
+          "sha256": "b3e55a808cfb9ef0e93b3fb7fbbdfd7ba0bc6a8852c4b6be17acdebb74ff9265"
+        },
+        {
+          "path": "assets-source/blocks/b07c6573bd2904e36da7195b6bf754164cb19424850c6e8249f85a5ac17c76af-2.part",
+          "sha256": "c04dc28d02315b6da3b613d249365baf311fed3645d0daff260db9edab0491a4"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/lich-original.glb",
+      "bytes": 6978464,
+      "sha256": "35f0fe25d2082a4e470fec7334f4797157d8afff4391a348b8cbbda308d177bd",
+      "parts": [
+        {
+          "path": "assets-source/blocks/35f0fe25d2082a4e470fec7334f4797157d8afff4391a348b8cbbda308d177bd-0.part",
+          "sha256": "e43251a58a6a7f3dfce44ebbd4c1fd07566f6239288343583f971fce269c1132"
+        },
+        {
+          "path": "assets-source/blocks/35f0fe25d2082a4e470fec7334f4797157d8afff4391a348b8cbbda308d177bd-1.part",
+          "sha256": "d833d7f0db73c20d479d9a7320eb95da472b4358c0ffb01eeaa38d1a7fbb1f79"
+        },
+        {
+          "path": "assets-source/blocks/35f0fe25d2082a4e470fec7334f4797157d8afff4391a348b8cbbda308d177bd-2.part",
+          "sha256": "9e0f20eb94e7aea200499504e4a9765fc81f8914d8c1a694dec839d47a729ce1"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/lion-knight-original.glb",
+      "bytes": 6761660,
+      "sha256": "47bc1eec06aad04fe3fb6928251150c0593d73db3a513ec756716aae7d4859f4",
+      "parts": [
+        {
+          "path": "assets-source/blocks/47bc1eec06aad04fe3fb6928251150c0593d73db3a513ec756716aae7d4859f4-0.part",
+          "sha256": "e1a81c7ab0ef0bb8a97deefbe52bc410fa38c11dfb20065563ae1fcfe2a87636"
+        },
+        {
+          "path": "assets-source/blocks/47bc1eec06aad04fe3fb6928251150c0593d73db3a513ec756716aae7d4859f4-1.part",
+          "sha256": "da3bc5a5ad138b204c02354043420e2ce177890cedf8ce78734aebf4cfe9add0"
+        },
+        {
+          "path": "assets-source/blocks/47bc1eec06aad04fe3fb6928251150c0593d73db3a513ec756716aae7d4859f4-2.part",
+          "sha256": "0539937424f703a848493bd0a39fecacc7ca76d848c10635a24848146b08b705"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/ranger-original.glb",
+      "bytes": 6756744,
+      "sha256": "5bdd7a49727fa31561a002f88d50cb48c4cb441ac264ac7efea918f703470f3d",
+      "parts": [
+        {
+          "path": "assets-source/blocks/5bdd7a49727fa31561a002f88d50cb48c4cb441ac264ac7efea918f703470f3d-0.part",
+          "sha256": "d0ad6173cbc88a95ebc5d3e579d94a3eb28f985d31f98fc73cd8a35d93ff0b69"
+        },
+        {
+          "path": "assets-source/blocks/5bdd7a49727fa31561a002f88d50cb48c4cb441ac264ac7efea918f703470f3d-1.part",
+          "sha256": "4c5ba61c929e451cc680bf9919249c73dd4fee8b4d802fbdfa5a5ff0146805f3"
+        },
+        {
+          "path": "assets-source/blocks/5bdd7a49727fa31561a002f88d50cb48c4cb441ac264ac7efea918f703470f3d-2.part",
+          "sha256": "3a3437a11b0f01060ccba964325764788ec9ba54e9dc85db5c89486bedb12c65"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/reaper-equipment-repaired.glb",
+      "bytes": 6386676,
+      "sha256": "2bbeab91ba91e6d90b287be63173506323054ac03ceedbccd06fb157bd487369",
+      "parts": [
+        {
+          "path": "assets-source/blocks/2bbeab91ba91e6d90b287be63173506323054ac03ceedbccd06fb157bd487369-0.part",
+          "sha256": "b58ca6a6c3d618c3d7384280ee3cbf36854b9563d9bb289d114e5865f3a967f2"
+        },
+        {
+          "path": "assets-source/blocks/2bbeab91ba91e6d90b287be63173506323054ac03ceedbccd06fb157bd487369-1.part",
+          "sha256": "43fa7eb206b814301ccfab457cffc1aaabc823fdea0054ef9f5428867c92c569"
+        },
+        {
+          "path": "assets-source/blocks/2bbeab91ba91e6d90b287be63173506323054ac03ceedbccd06fb157bd487369-2.part",
+          "sha256": "e7151740f3bbb7c5fa587b3d2ab9b6cec3df583542ced718d65a306b5d8bf622"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/reaper-original.glb",
+      "bytes": 6386480,
+      "sha256": "9a2deaab189ccaf71ec8a23f78901decc516b373ae04f6743c23cd66351b4f25",
+      "parts": [
+        {
+          "path": "assets-source/blocks/9a2deaab189ccaf71ec8a23f78901decc516b373ae04f6743c23cd66351b4f25-0.part",
+          "sha256": "bab5fc4a555794adf5d40bed6a1e3a501e335c4b5414d546a631f5b7018b6c4f"
+        },
+        {
+          "path": "assets-source/blocks/9a2deaab189ccaf71ec8a23f78901decc516b373ae04f6743c23cd66351b4f25-1.part",
+          "sha256": "e20b1f550ffae9f97e6e20b00c46dac35274544df71db1741baf29d11d5d0e0e"
+        },
+        {
+          "path": "assets-source/blocks/9a2deaab189ccaf71ec8a23f78901decc516b373ae04f6743c23cd66351b4f25-2.part",
+          "sha256": "920f78e3912dd9b725548ff2c954064294929937b5105d4d51bf08781bc7a8d2"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/sage-original.glb",
+      "bytes": 7379272,
+      "sha256": "9512f203b12361450778798eeab6cac911b13304b87cfc63d7b3bbb51193e064",
+      "parts": [
+        {
+          "path": "assets-source/blocks/9512f203b12361450778798eeab6cac911b13304b87cfc63d7b3bbb51193e064-0.part",
+          "sha256": "1128cf1b06963dd3c43ea5b3ea0f96f971ec71910e09b764e42f3595c257df81"
+        },
+        {
+          "path": "assets-source/blocks/9512f203b12361450778798eeab6cac911b13304b87cfc63d7b3bbb51193e064-1.part",
+          "sha256": "fcef1e7759da6bcd0523ee4ab39550f9e9f35692315c737bb076df670b9cf8fb"
+        },
+        {
+          "path": "assets-source/blocks/9512f203b12361450778798eeab6cac911b13304b87cfc63d7b3bbb51193e064-2.part",
+          "sha256": "a04998fb0d0e903e402105207d790e0219ec2d65f3d082460cdc1333fcce23b2"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/shrouded-skeleton-original.glb",
+      "bytes": 6277884,
+      "sha256": "c4a9dbc801d944f059361b1475d967db4b7f46dce780045ded3ede9f6d62b840",
+      "parts": [
+        {
+          "path": "assets-source/blocks/c4a9dbc801d944f059361b1475d967db4b7f46dce780045ded3ede9f6d62b840-0.part",
+          "sha256": "1be56756a7e1cb1d3b7a0f63983866ee749d10735395fdfe9a0b83210d9764ae"
+        },
+        {
+          "path": "assets-source/blocks/c4a9dbc801d944f059361b1475d967db4b7f46dce780045ded3ede9f6d62b840-1.part",
+          "sha256": "75e213da8769612a0322b108bd6af335cf1d7b6a245297a4846ea2080b1d02da"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/silver-knight-original.glb",
+      "bytes": 6900588,
+      "sha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7",
+      "parts": [
+        {
+          "path": "assets-source/blocks/2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7-0.part",
+          "sha256": "5fcd47799de405cd7f4aa3f48d54ef851b4e439a524c94e7dceadbc745d8b695"
+        },
+        {
+          "path": "assets-source/blocks/2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7-1.part",
+          "sha256": "bdbb273cb7e1554e94880f34521ef35cafbdb02a199eda12ea460e7bd0442531"
+        },
+        {
+          "path": "assets-source/blocks/2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7-2.part",
+          "sha256": "cfde47da3907afb26f9dd288de04858e099ef799cb27c81306fd1097a9071e99"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/skeleton-warrior-original.glb",
+      "bytes": 7333976,
+      "sha256": "38d564469545ac331e994275319977f1e48d14c7f61bb1f20fe6fafe284a8f8f",
+      "parts": [
+        {
+          "path": "assets-source/blocks/38d564469545ac331e994275319977f1e48d14c7f61bb1f20fe6fafe284a8f8f-0.part",
+          "sha256": "c3635dc18f44f34990a57e04aba541e0d2e6080e83836decb768dbe00f12998a"
+        },
+        {
+          "path": "assets-source/blocks/38d564469545ac331e994275319977f1e48d14c7f61bb1f20fe6fafe284a8f8f-1.part",
+          "sha256": "a32ffe0af1e1fd276b1c71b4547bc46641de65e993f3f72862da93964edf7ff8"
+        },
+        {
+          "path": "assets-source/blocks/38d564469545ac331e994275319977f1e48d14c7f61bb1f20fe6fafe284a8f8f-2.part",
+          "sha256": "9429067d5a2401c829c192e72b316384ca79b98539c7826dda03d51dae07f5ec"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/spider-original.glb",
+      "bytes": 13717524,
+      "sha256": "7bacb1818b2a1225c65341ca71da43c11693d757b425e8bf88ed0ef8a13787cc",
+      "parts": [
+        {
+          "path": "assets-source/blocks/7bacb1818b2a1225c65341ca71da43c11693d757b425e8bf88ed0ef8a13787cc-0.part",
+          "sha256": "00af57fb91a24b7aedff24c7c318baceda02c9e0d4cd790cda767790b4bc1c63"
+        },
+        {
+          "path": "assets-source/blocks/7bacb1818b2a1225c65341ca71da43c11693d757b425e8bf88ed0ef8a13787cc-1.part",
+          "sha256": "aeaddde5a5ee5919a3af31d1244ec06fe299d8735b3cb3da0f657ed2d1a3f50b"
+        },
+        {
+          "path": "assets-source/blocks/7bacb1818b2a1225c65341ca71da43c11693d757b425e8bf88ed0ef8a13787cc-2.part",
+          "sha256": "7e84c1380687b6796d67a248747b8001b85a2eb2c9ff48ccff1148026dfb6c5c"
+        },
+        {
+          "path": "assets-source/blocks/7bacb1818b2a1225c65341ca71da43c11693d757b425e8bf88ed0ef8a13787cc-3.part",
+          "sha256": "0b56ceb3f1966176f28b524319bd48a531c077f9d132f88d1f3bfd4f3f09038c"
+        },
+        {
+          "path": "assets-source/blocks/7bacb1818b2a1225c65341ca71da43c11693d757b425e8bf88ed0ef8a13787cc-4.part",
+          "sha256": "e9e5b4ed771be10a167f249edeabdc8f305bd5382aac8a1df59519539264e1da"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/2026-09-08/models/spider-rigged.glb",
+      "bytes": 14656240,
+      "sha256": "748c084ee8b0a0299841489afd8394769020cd3c2c9d91ad58ede329b1636769",
+      "parts": [
+        {
+          "path": "assets-source/blocks/748c084ee8b0a0299841489afd8394769020cd3c2c9d91ad58ede329b1636769-0.part",
+          "sha256": "d20ec28b75eb1225ad29895ef265920ab0a5c01714b2e74bb21e98d221d985b2"
+        },
+        {
+          "path": "assets-source/blocks/748c084ee8b0a0299841489afd8394769020cd3c2c9d91ad58ede329b1636769-1.part",
+          "sha256": "393a18eb171bd3be6cf8a9c788b39c6c7667d724fc08769c5a219fdbc7310fde"
+        },
+        {
+          "path": "assets-source/blocks/748c084ee8b0a0299841489afd8394769020cd3c2c9d91ad58ede329b1636769-2.part",
+          "sha256": "87ed4440d4dab4d403221d3e3c5f88ec07d0c68df79d13e1cd7e75bd0ff83bb0"
+        },
+        {
+          "path": "assets-source/blocks/748c084ee8b0a0299841489afd8394769020cd3c2c9d91ad58ede329b1636769-3.part",
+          "sha256": "39e92b39b8592648a8b4efc045da5d246082138b4cbeada4955a2c57cc519278"
+        },
+        {
+          "path": "assets-source/blocks/748c084ee8b0a0299841489afd8394769020cd3c2c9d91ad58ede329b1636769-4.part",
+          "sha256": "a242e871d32c46c1bd3de024c689a1147983bc4bb92888eb43b012e20bfea73f"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/crown-film.mp4",
+      "bytes": 6979808,
+      "sha256": "5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a",
+      "parts": [
+        {
+          "path": "assets-source/blocks/5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a-0.part",
+          "sha256": "6a006e16695ba13e13e5122a7728d5902aef530565c8d27380e47262a888cc82"
+        },
+        {
+          "path": "assets-source/blocks/5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a-1.part",
+          "sha256": "82c0b3a108cca08aed5832de900e7593b750f71917b0d8113dc5df285fe782e6"
+        },
+        {
+          "path": "assets-source/blocks/5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a-2.part",
+          "sha256": "9cb2e0a2626ec458bc5a537502671fbf3e15a242653d7a1ba341e1cfa4983498"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/dusk-rogue-hd.glb",
+      "bytes": 5077724,
+      "sha256": "5164c4f0d561795e3ff40c2857dae512aedd3be5506cbe9a805cafc4c0a297f2",
+      "parts": [
+        {
+          "path": "assets-source/blocks/5164c4f0d561795e3ff40c2857dae512aedd3be5506cbe9a805cafc4c0a297f2-0.part",
+          "sha256": "6baff0acd8c6dd0230bd58a1f62c2345d01d0c9076abc1ae72104209eb27e9cf"
+        },
+        {
+          "path": "assets-source/blocks/5164c4f0d561795e3ff40c2857dae512aedd3be5506cbe9a805cafc4c0a297f2-1.part",
+          "sha256": "a2ccbcf90c44d8bae986416a879ee40d902306a88e05c8e6ebcc315bd955d19a"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/ember-dragon-hd.glb",
+      "bytes": 5792324,
+      "sha256": "9082f72f111363cda5593f96096ddebaec7bc16d2fcb5bb62f3c79ea85dd1e3e",
+      "parts": [
+        {
+          "path": "assets-source/blocks/9082f72f111363cda5593f96096ddebaec7bc16d2fcb5bb62f3c79ea85dd1e3e-0.part",
+          "sha256": "b2243d261be18ce1ed9ae7a39ce92df67bb27645c6d72ef5532d84d6e3f97620"
+        },
+        {
+          "path": "assets-source/blocks/9082f72f111363cda5593f96096ddebaec7bc16d2fcb5bb62f3c79ea85dd1e3e-1.part",
+          "sha256": "1f2eecb07f5a971eb55ae65621b4b8ffd05804fe16f50facfabfc653dea1ec54"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/frost-mage-hd.glb",
+      "bytes": 5027676,
+      "sha256": "2b530c7329a038e8cacab4995ed5a38c4604c7445cd32faf96d77314beb666be",
+      "parts": [
+        {
+          "path": "assets-source/blocks/2b530c7329a038e8cacab4995ed5a38c4604c7445cd32faf96d77314beb666be-0.part",
+          "sha256": "561e9af81f018526ccff86ecaa7133f2613df0e83aca4209e7c39bc2ff5a1afb"
+        },
+        {
+          "path": "assets-source/blocks/2b530c7329a038e8cacab4995ed5a38c4604c7445cd32faf96d77314beb666be-1.part",
+          "sha256": "86450422ec5ea28304a56ad04cc6df9750fbc2ae103c17c1a9d2fb04b303003b"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/golem-hd.glb",
+      "bytes": 6104460,
+      "sha256": "ee0568d9149267d9ab61bcb7c76fd744ab47ac43b1c5947919f9e3b44d6398aa",
+      "parts": [
+        {
+          "path": "assets-source/blocks/ee0568d9149267d9ab61bcb7c76fd744ab47ac43b1c5947919f9e3b44d6398aa-0.part",
+          "sha256": "6e93a310e2e16811319df852bb1b5a8ede186b50fce341d5a7d9c02e456294b1"
+        },
+        {
+          "path": "assets-source/blocks/ee0568d9149267d9ab61bcb7c76fd744ab47ac43b1c5947919f9e3b44d6398aa-1.part",
+          "sha256": "de8bf171e1c5bef5d5a08fefabca9c1fcdd2cfe29d3bfabb6545b1fff5a9c02e"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/knife-rogue-hd.glb",
+      "bytes": 5083880,
+      "sha256": "38423629a4a0f91ac2c69e2a98c44bbea2a884957e59177981dc4041b5ee971c",
+      "parts": [
+        {
+          "path": "assets-source/blocks/38423629a4a0f91ac2c69e2a98c44bbea2a884957e59177981dc4041b5ee971c-0.part",
+          "sha256": "3a777a7d4ea5111c82de0fa0d4a965a4a11e5a705cbb5e42a5a9fd3c2dee2ef6"
+        },
+        {
+          "path": "assets-source/blocks/38423629a4a0f91ac2c69e2a98c44bbea2a884957e59177981dc4041b5ee971c-1.part",
+          "sha256": "bd7e640ff2c224bc220531ae500a8dff792bebb6c2607513e9afd5e484c0dcf1"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/lich-hd.glb",
+      "bytes": 5527112,
+      "sha256": "3a7375e5b9808d8589489c04b869f707bf66c72ea69573d3ce6a413940111649",
+      "parts": [
+        {
+          "path": "assets-source/blocks/3a7375e5b9808d8589489c04b869f707bf66c72ea69573d3ce6a413940111649-0.part",
+          "sha256": "8a2fe70ec8bd3370ed0f0802256455b1e9299c60ad5c3e04a3e6512fde3e07d3"
+        },
+        {
+          "path": "assets-source/blocks/3a7375e5b9808d8589489c04b869f707bf66c72ea69573d3ce6a413940111649-1.part",
+          "sha256": "b2ffd03b0b4ef2fd2aa5b24683faec9227f36774b59d6d59fa84510afca434a0"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/lion-knight-hd.glb",
+      "bytes": 5326216,
+      "sha256": "7f46025d9023e1728a206fa13b36d0c10be7ae8da36c5f4cf0965ef0f7c46807",
+      "parts": [
+        {
+          "path": "assets-source/blocks/7f46025d9023e1728a206fa13b36d0c10be7ae8da36c5f4cf0965ef0f7c46807-0.part",
+          "sha256": "0753bf51b21c15036ae1402c243667ce2f3d1530adc317385ad94f3d92c9d471"
+        },
+        {
+          "path": "assets-source/blocks/7f46025d9023e1728a206fa13b36d0c10be7ae8da36c5f4cf0965ef0f7c46807-1.part",
+          "sha256": "65ee34be467df21c4d427c0665a59953357b65c050b6461ef77b9b75b3c159f8"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/ranger-hd.glb",
+      "bytes": 5507164,
+      "sha256": "37a91a1d20fa3ae42e99b087711b77524cb79771871d39ad2ea1a0d91c8910c9",
+      "parts": [
+        {
+          "path": "assets-source/blocks/37a91a1d20fa3ae42e99b087711b77524cb79771871d39ad2ea1a0d91c8910c9-0.part",
+          "sha256": "82fa0a11c8d1ba2bab019e58643a5e7ae78b41911a64de56fce2ddab9ce2308f"
+        },
+        {
+          "path": "assets-source/blocks/37a91a1d20fa3ae42e99b087711b77524cb79771871d39ad2ea1a0d91c8910c9-1.part",
+          "sha256": "35a03317b65f9328a4c8b98f161ab475908053146fdc564597550d1d3ddd6486"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/reaper-hd.glb",
+      "bytes": 4925104,
+      "sha256": "b6ee82da35480aef0a5ecfddca4c4944906fe1ee3305314f3d0f6dbe4aa21053",
+      "parts": [
+        {
+          "path": "assets-source/blocks/b6ee82da35480aef0a5ecfddca4c4944906fe1ee3305314f3d0f6dbe4aa21053-0.part",
+          "sha256": "d8eb229653cc3502dc77cc00751be7cfb94006999cbd8dc6b5687ce37d21aec6"
+        },
+        {
+          "path": "assets-source/blocks/b6ee82da35480aef0a5ecfddca4c4944906fe1ee3305314f3d0f6dbe4aa21053-1.part",
+          "sha256": "5b66e9cd08316ead06291249bba3ac0ababb2f7d56900b9f64f1fc6926a0c272"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/sage-hd.glb",
+      "bytes": 5828228,
+      "sha256": "3e05d4d4d1c82f18f0d21f3aedd4b36438980ba72e8a93dada5c5ec249cba8bc",
+      "parts": [
+        {
+          "path": "assets-source/blocks/3e05d4d4d1c82f18f0d21f3aedd4b36438980ba72e8a93dada5c5ec249cba8bc-0.part",
+          "sha256": "37ab86425e09eacb155444e7d7ecfd8b0e2276484c38b13809e4320da031068e"
+        },
+        {
+          "path": "assets-source/blocks/3e05d4d4d1c82f18f0d21f3aedd4b36438980ba72e8a93dada5c5ec249cba8bc-1.part",
+          "sha256": "a04b7f04b448ae7ca4f41b1797d694c7983275ff828f92528caf2bf50d1e86f6"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/shrouded-skeleton-hd.glb",
+      "bytes": 4868236,
+      "sha256": "8fd67a0d7308d1e6143ead61107dd58a467bb170f0dedf858f62732a50d38667",
+      "parts": [
+        {
+          "path": "assets-source/blocks/8fd67a0d7308d1e6143ead61107dd58a467bb170f0dedf858f62732a50d38667-0.part",
+          "sha256": "c11c21832e0e83077ef3d0a0e20150997cfd40dd20118874555b75fae485f3cf"
+        },
+        {
+          "path": "assets-source/blocks/8fd67a0d7308d1e6143ead61107dd58a467bb170f0dedf858f62732a50d38667-1.part",
+          "sha256": "f356c783b5ab3534bb5c640bf514c7c007d4172de5da380a8ae704056b92033f"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/silver-knight-hd.glb",
+      "bytes": 5508188,
+      "sha256": "614dd12ea71c06de75418921dc97bf2615e7075308bbff21278a1b234996f0b7",
+      "parts": [
+        {
+          "path": "assets-source/blocks/614dd12ea71c06de75418921dc97bf2615e7075308bbff21278a1b234996f0b7-0.part",
+          "sha256": "53a68c566d3ae33fae4b628205a0980f7579e2cdf7d0d0101fa1b4d461fa8d9a"
+        },
+        {
+          "path": "assets-source/blocks/614dd12ea71c06de75418921dc97bf2615e7075308bbff21278a1b234996f0b7-1.part",
+          "sha256": "5e5522a8dfbae0383ec5de081d9916b9ffabec20ab30cc5a3c22c4c3a3521711"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/skeleton-warrior-hd.glb",
+      "bytes": 5718772,
+      "sha256": "9f8e62327bc80d2d08a6bdacd0784de3e9cfccea7636f98a60cf33efdaa79473",
+      "parts": [
+        {
+          "path": "assets-source/blocks/9f8e62327bc80d2d08a6bdacd0784de3e9cfccea7636f98a60cf33efdaa79473-0.part",
+          "sha256": "3cede2d8a92aefe5e2a2cba344a996438e000071a855c2fdaa8652f1fe2a6a0f"
+        },
+        {
+          "path": "assets-source/blocks/9f8e62327bc80d2d08a6bdacd0784de3e9cfccea7636f98a60cf33efdaa79473-1.part",
+          "sha256": "a552f2a71ac96d3533b671cafa11c60574e98da1ff54e570059b8ff6ac94e74d"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/spider-hd.glb",
+      "bytes": 14611304,
+      "sha256": "2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a",
+      "parts": [
+        {
+          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-0.part",
+          "sha256": "9dad267c00286b8e6d84f5231a95b40d204b72ff9c4481f84241bab4a0956220"
+        },
+        {
+          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-1.part",
+          "sha256": "521be86fea98d36f166078e827e83a76583c3d74bea83f5ad52694e80916526a"
+        },
+        {
+          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-2.part",
+          "sha256": "9bb3b5e1008a9b6d37e2c7f16e43d6a6ac1d01bd323c0a131ef4aef15a936295"
+        },
+        {
+          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-3.part",
+          "sha256": "89a461221f6313e41e6c7e9b54964c4217e5519bb9d2b8d1296e483d1e5b9488"
+        },
+        {
+          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-4.part",
+          "sha256": "467079d9b8bf775bb138de1a7cdf62166a4137a16205e331c3df5975e6fbbee6"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/september-8/models/spider-mobile.glb",
+      "bytes": 5395044,
+      "sha256": "bbb49260d1848c08431e79d6a6bcbf53b8af61fa675dcfc0a4804bfb344c22d0",
+      "parts": [
+        {
+          "path": "assets-source/blocks/bbb49260d1848c08431e79d6a6bcbf53b8af61fa675dcfc0a4804bfb344c22d0-0.part",
+          "sha256": "72e9fc9e7397dfdcedfe11ebfdc94cd9bbc72deadff34e7c489c7ff3bd686e41"
+        },
+        {
+          "path": "assets-source/blocks/bbb49260d1848c08431e79d6a6bcbf53b8af61fa675dcfc0a4804bfb344c22d0-1.part",
+          "sha256": "8cc44a70a59e1d5a7094a77cd025a4d041b2442f14efcc49c6d24487f638972f"
+        }
+      ]
+    }
+  ]
+}

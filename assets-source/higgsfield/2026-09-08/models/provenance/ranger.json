@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "ranger",
+  "originalArtwork": {
+    "assetId": "0beed7ce-bd60-4a35-8f57-489368a80bb4",
+    "filename": "hf_20260909_002300_0beed7ce-bd60-4a35-8f57-489368a80bb4.png",
+    "sha256": "562931e229f121950bf4a6a2ec75be543d3034a657ffae264ebf108928c21da6",
+    "bytes": 5224721,
+    "screenshot": {
+      "row": 2,
+      "column": 4,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "1dd952a1-1b91-42fc-86d5-748626c4fc85",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043231_1dd952a1-1b91-42fc-86d5-748626c4fc85.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "8bcfd5e5-a4f1-465d-b3e8-c8b493639de8",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/8bcfd5e5-a4f1-465d-b3e8-c8b493639de8_resize.jpg"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ranger-original.glb",
+    "bytes": 6756744,
+    "sha256": "5bdd7a49727fa31561a002f88d50cb48c4cb441ac264ac7efea918f703470f3d"
+  },
+  "attackStyle": "bow",
+  "attackAliasPolicy": "Four canonical strike names alias genuine bow action; original timing preserved",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

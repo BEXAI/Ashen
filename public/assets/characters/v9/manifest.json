@@ -1,0 +1,584 @@
+{
+  "version": "visual-v9",
+  "status": "authored_reconstructions_pending_rendered_art_review",
+  "method": "Detailed articulated geometry with area-weighted xatlas UVs, 4K source atlases, geometric hemisphere AO, authored microstructure and Higgsfield diffuse material imagery. This is not a completed premium anatomical sculpt.",
+  "sourceJob": "a4887158-9444-42f8-9573-ce2581d8495e",
+  "sources": "assets-source/characters",
+  "characters": {
+    "ash-knight": {
+      "status": "detailed_authored_reconstruction",
+      "uv": {
+        "width": 1370,
+        "height": 1382,
+        "charts": 873,
+        "padding": 5,
+        "utilization": 0.8315664529800415
+      },
+      "geometricAO": {
+        "min": 0.20000000298023224,
+        "max": 1,
+        "samples": 32,
+        "radius": 0.42
+      },
+      "masterTextureSize": 4096,
+      "tangentBasis": "MikkTSpace",
+      "bounds": {
+        "min": [
+          -0.708408699631691,
+          -2.1457672083613488e-8,
+          -0.40643682575598794
+        ],
+        "height": 2.66
+      },
+      "bones": [
+        "body",
+        "left_leg",
+        "left_knee",
+        "right_leg",
+        "right_knee",
+        "torso",
+        "left_arm",
+        "left_elbow",
+        "left_wrist",
+        "right_arm",
+        "right_elbow",
+        "right_wrist",
+        "weapon",
+        "cape_upper",
+        "cape_lower"
+      ],
+      "boneCount": 15,
+      "weightsPerVertex": 2,
+      "triangles": [
+        21384,
+        11760,
+        8420
+      ],
+      "materialDrawsPerLod": 1,
+      "sockets": [
+        "weapon",
+        "WeaponBase",
+        "WeaponTip"
+      ],
+      "clips": [
+        {
+          "name": "side",
+          "duration": 0.5800000000000001
+        },
+        {
+          "name": "diagonal",
+          "duration": 0.68
+        },
+        {
+          "name": "backhand",
+          "duration": 0.56
+        },
+        {
+          "name": "overhead",
+          "duration": 0.91
+        },
+        {
+          "name": "idle",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "forward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "backward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_left",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_right",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "turn",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "dodge",
+          "duration": 0.5
+        },
+        {
+          "name": "hit",
+          "duration": 0.3
+        },
+        {
+          "name": "death",
+          "duration": 0.8
+        }
+      ],
+      "variants": {
+        "low": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "fallback": "/assets/characters/v9/ash-knight-low-fallback.glb",
+          "bytes": 1259788,
+          "fallbackBytes": 6664072,
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "fallbackSha256": "57282dd49458649cb2c075dde23da678249f5ade8b0dbd38a175240208308550",
+          "textureSize": 512,
+          "textureSizes": {
+            "base": 512,
+            "normal": 256,
+            "orm": 256,
+            "emissive": 128
+          },
+          "estimatedRgba8MipMiB": 2.083333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "mobile": {
+          "url": "/assets/characters/v9/ash-knight-mobile.glb",
+          "fallback": "/assets/characters/v9/ash-knight-mobile-fallback.glb",
+          "bytes": 1891412,
+          "fallbackBytes": 8579016,
+          "sha256": "0e65ea5c70b1392323825b8500bf8e3d4dd8ca22f3dbbca7695e794b91c4445c",
+          "fallbackSha256": "9c17b3609800f4bc11904c0e613fd1245ab3e1b29aaec13ac6b035b0b9bea58c",
+          "textureSize": 1024,
+          "textureSizes": {
+            "base": 1024,
+            "normal": 512,
+            "orm": 512,
+            "emissive": 256
+          },
+          "estimatedRgba8MipMiB": 8.333333333333332,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "hd": {
+          "url": "/assets/characters/v9/ash-knight-hd.glb",
+          "fallback": "/assets/characters/v9/ash-knight-hd-fallback.glb",
+          "bytes": 4183568,
+          "fallbackBytes": 11873048,
+          "sha256": "d7d25f0789d91577ca5464417ddc42fff5ae2f8518b210e44aa1be990b122222",
+          "fallbackSha256": "fcc56d3d5b25aac806b82ff2acdb2f529c594340569d893c1dcd2c6382df1cb9",
+          "textureSize": 2048,
+          "textureSizes": {
+            "base": 2048,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 33.33333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "high": {
+          "url": "/assets/characters/v9/ash-knight-high.glb",
+          "fallback": "/assets/characters/v9/ash-knight-high-fallback.glb",
+          "bytes": 5621752,
+          "fallbackBytes": 11892336,
+          "sha256": "592232af7ace4e25fdfe2a085f46e4029f8bb8efa1e7e515cc494310e59bb5db",
+          "fallbackSha256": "2f5986539bcc5d2f4571338299fcfbba95f46e1ed6b0dc0038d3d5af98cdc3ea",
+          "textureSize": 4096,
+          "textureSizes": {
+            "base": 4096,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 97.33333333333331,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        }
+      }
+    },
+    "crypt-warden": {
+      "status": "detailed_authored_reconstruction",
+      "uv": {
+        "width": 1402,
+        "height": 1398,
+        "charts": 695,
+        "padding": 5,
+        "utilization": 0.7913118004798889
+      },
+      "geometricAO": {
+        "min": 0.20000000298023224,
+        "max": 1,
+        "samples": 32,
+        "radius": 0.42
+      },
+      "masterTextureSize": 4096,
+      "tangentBasis": "MikkTSpace",
+      "bounds": {
+        "min": [
+          -0.69871994972229,
+          -2.1457672083613488e-8,
+          -0.2199999988079071
+        ],
+        "height": 2.66
+      },
+      "bones": [
+        "body",
+        "left_leg",
+        "left_knee",
+        "right_leg",
+        "right_knee",
+        "torso",
+        "left_arm",
+        "left_elbow",
+        "left_wrist",
+        "right_arm",
+        "right_elbow",
+        "right_wrist",
+        "weapon"
+      ],
+      "boneCount": 13,
+      "weightsPerVertex": 1,
+      "triangles": [
+        31572,
+        17364,
+        8524
+      ],
+      "materialDrawsPerLod": 1,
+      "sockets": [
+        "weapon",
+        "WeaponBase",
+        "WeaponTip"
+      ],
+      "clips": [
+        {
+          "name": "side",
+          "duration": 0.5800000000000001
+        },
+        {
+          "name": "diagonal",
+          "duration": 0.68
+        },
+        {
+          "name": "backhand",
+          "duration": 0.56
+        },
+        {
+          "name": "overhead",
+          "duration": 0.91
+        },
+        {
+          "name": "idle",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "forward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "backward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_left",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_right",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "turn",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "dodge",
+          "duration": 0.5
+        },
+        {
+          "name": "hit",
+          "duration": 0.3
+        },
+        {
+          "name": "death",
+          "duration": 0.8
+        }
+      ],
+      "variants": {
+        "low": {
+          "url": "/assets/characters/v9/crypt-warden-low.glb",
+          "fallback": "/assets/characters/v9/crypt-warden-low-fallback.glb",
+          "bytes": 1337428,
+          "fallbackBytes": 6840788,
+          "sha256": "3388cc02230a15735886db93f577adfc557b70449b2deb766bf30b9aca043643",
+          "fallbackSha256": "21f70c4661a2462f157726c036bb6efe76ea896d83f8756973aa23f5a324e6ec",
+          "textureSize": 512,
+          "textureSizes": {
+            "base": 512,
+            "normal": 256,
+            "orm": 256,
+            "emissive": 128
+          },
+          "estimatedRgba8MipMiB": 2.083333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "mobile": {
+          "url": "/assets/characters/v9/crypt-warden-mobile.glb",
+          "fallback": "/assets/characters/v9/crypt-warden-mobile-fallback.glb",
+          "bytes": 1976072,
+          "fallbackBytes": 8836052,
+          "sha256": "220537d31f944b4f02840ca69451ff00b2f144d7f2ecf7d1895d5fb38502a715",
+          "fallbackSha256": "388137c3a7566edec33a1b5b570519f2ceccfa68567e0439eaafcdb6d97d4bf8",
+          "textureSize": 1024,
+          "textureSizes": {
+            "base": 1024,
+            "normal": 512,
+            "orm": 512,
+            "emissive": 256
+          },
+          "estimatedRgba8MipMiB": 8.333333333333332,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "hd": {
+          "url": "/assets/characters/v9/crypt-warden-hd.glb",
+          "fallback": "/assets/characters/v9/crypt-warden-hd-fallback.glb",
+          "bytes": 4282368,
+          "fallbackBytes": 12121856,
+          "sha256": "56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133",
+          "fallbackSha256": "39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297",
+          "textureSize": 2048,
+          "textureSizes": {
+            "base": 2048,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 33.33333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "high": {
+          "url": "/assets/characters/v9/crypt-warden-high.glb",
+          "fallback": "/assets/characters/v9/crypt-warden-high-fallback.glb",
+          "bytes": 4282368,
+          "fallbackBytes": 12121856,
+          "sha256": "56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133",
+          "fallbackSha256": "39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297",
+          "textureSize": 2048,
+          "textureSizes": {
+            "base": 2048,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 33.33333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        }
+      }
+    },
+    "ember-sovereign": {
+      "status": "detailed_authored_reconstruction",
+      "uv": {
+        "width": 1422,
+        "height": 1422,
+        "charts": 1018,
+        "padding": 5,
+        "utilization": 0.8239529132843018
+      },
+      "geometricAO": {
+        "min": 0.20000000298023224,
+        "max": 1,
+        "samples": 32,
+        "radius": 0.42
+      },
+      "masterTextureSize": 4096,
+      "tangentBasis": "MikkTSpace",
+      "bounds": {
+        "min": [
+          -0.751627893447876,
+          -0.0022657595031332356,
+          -0.40643682575598794
+        ],
+        "height": 2.95
+      },
+      "bones": [
+        "body",
+        "left_leg",
+        "left_knee",
+        "right_leg",
+        "right_knee",
+        "torso",
+        "left_arm",
+        "left_elbow",
+        "left_wrist",
+        "right_arm",
+        "right_elbow",
+        "right_wrist",
+        "weapon",
+        "cape_upper",
+        "cape_lower"
+      ],
+      "boneCount": 15,
+      "weightsPerVertex": 2,
+      "triangles": [
+        22552,
+        12402,
+        8938
+      ],
+      "materialDrawsPerLod": 1,
+      "sockets": [
+        "weapon",
+        "WeaponBase",
+        "WeaponTip"
+      ],
+      "clips": [
+        {
+          "name": "side",
+          "duration": 0.5800000000000001
+        },
+        {
+          "name": "diagonal",
+          "duration": 0.68
+        },
+        {
+          "name": "backhand",
+          "duration": 0.56
+        },
+        {
+          "name": "overhead",
+          "duration": 0.91
+        },
+        {
+          "name": "idle",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "forward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "backward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_left",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_right",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "turn",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "dodge",
+          "duration": 0.5
+        },
+        {
+          "name": "hit",
+          "duration": 0.3
+        },
+        {
+          "name": "death",
+          "duration": 0.8
+        }
+      ],
+      "variants": {
+        "low": {
+          "url": "/assets/characters/v9/ember-sovereign-low.glb",
+          "fallback": "/assets/characters/v9/ember-sovereign-low-fallback.glb",
+          "bytes": 1330972,
+          "fallbackBytes": 7168416,
+          "sha256": "ecf63816c6eda6766f8e2e7863abd60c45f269e723de1e233595b92dadd50c6d",
+          "fallbackSha256": "15ea145c8d7578235daf18bab2019f3dc8ccadf79cc16390fe61075d48345f0f",
+          "textureSize": 512,
+          "textureSizes": {
+            "base": 512,
+            "normal": 256,
+            "orm": 256,
+            "emissive": 128
+          },
+          "estimatedRgba8MipMiB": 2.083333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "mobile": {
+          "url": "/assets/characters/v9/ember-sovereign-mobile.glb",
+          "fallback": "/assets/characters/v9/ember-sovereign-mobile-fallback.glb",
+          "bytes": 1985960,
+          "fallbackBytes": 9176488,
+          "sha256": "7aa45cb367a85e36a5419c825baf7b29bfd154b671c681038efc8be7ec29a2f9",
+          "fallbackSha256": "91c6795f72c8e3f76535aca5b79b3162a8cbfd2fa67407eb3d544d7ad349570e",
+          "textureSize": 1024,
+          "textureSizes": {
+            "base": 1024,
+            "normal": 512,
+            "orm": 512,
+            "emissive": 256
+          },
+          "estimatedRgba8MipMiB": 8.333333333333332,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "hd": {
+          "url": "/assets/characters/v9/ember-sovereign-hd.glb",
+          "fallback": "/assets/characters/v9/ember-sovereign-hd-fallback.glb",
+          "bytes": 4344944,
+          "fallbackBytes": 12868132,
+          "sha256": "48742ff9fc8adfd6d40d6fef7ac396ff7412b0b7d8ec56fd9308f19acd3ba994",
+          "fallbackSha256": "b486944a56aec6b2c9e13fbd6677609e64309e5a69766761ccc2a71dddbcad7d",
+          "textureSize": 2048,
+          "textureSizes": {
+            "base": 2048,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 33.33333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "high": {
+          "url": "/assets/characters/v9/ember-sovereign-high.glb",
+          "fallback": "/assets/characters/v9/ember-sovereign-high-fallback.glb",
+          "bytes": 5466804,
+          "fallbackBytes": 12890076,
+          "sha256": "7a89acc6aada97eb28e81a3de9be5ead635e9e400a43bc53fa10a6cfad0db461",
+          "fallbackSha256": "6ddf4eed13f3ebb4d8dc2861af97f9f0a123f265698f8fb1b3abdaa9ba7ad71c",
+          "textureSize": 4096,
+          "textureSizes": {
+            "base": 4096,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 97.33333333333331,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        }
+      }
+    }
+  },
+  "license": "Original project-authored geometry and material fields; user-requested Higgsfield design and material generation. No external character model used."
+}

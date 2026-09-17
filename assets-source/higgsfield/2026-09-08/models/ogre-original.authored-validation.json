@@ -1,0 +1,55 @@
+{
+  "model": "references/higgsfield-september-8-2026/models/ogre-original.glb",
+  "bytes": 1552580,
+  "bones": 24,
+  "skinCount": 1,
+  "meshes": [
+    {
+      "name": "Ogre authored reference character",
+      "vertices": 17894,
+      "heldEquipment": false
+    },
+    {
+      "name": "OgreHeldClub",
+      "vertices": 2170,
+      "heldEquipment": true
+    }
+  ],
+  "vertices": 20064,
+  "triangles": 37140,
+  "weightsSumRange": [
+    1,
+    1.0000001192092896
+  ],
+  "maxInfluences": 4,
+  "unweightedVertices": 0,
+  "finite": true,
+  "restBounds": {
+    "min": [
+      -0.9006326274961806,
+      -0.00044394015247864785,
+      -0.3445386929319664
+    ],
+    "max": [
+      0.8680889983639549,
+      2.2753054789505898,
+      0.3828832111238673
+    ]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "tracks": 72
+    }
+  ],
+  "contactBaseExportedRightHandLocal": [
+    0.13234095673253565,
+    0.29219966746481624,
+    -0.07671644027023672
+  ],
+  "contactTipExportedRightHandLocal": [
+    0.5089825974172797,
+    0.7484848742854365,
+    -0.160299459544665
+  ]
+}

@@ -34,6 +34,7 @@ const keys: Record<StrikeId, readonly [Pose, Pose, Pose]> = {
 const ease = (v: number) => { const t = T.MathUtils.clamp(v, 0, 1); return t * t * (3 - 2 * t); };
 
 export function applyStrikePose(actor: Actor, strike: Strike, elapsed: number) {
+  if(actor.visual){actor.visual.strike(strike,elapsed);return;}
   const [wind, contact, follow] = keys[strike.id];
   let a = guard, b = wind, blend = elapsed / strike.windup;
   if (elapsed >= strike.windup + strike.active + strike.recovery * .45) {
@@ -60,6 +61,7 @@ export function applyStrikePose(actor: Actor, strike: Strike, elapsed: number) {
 }
 
 export function bladeSegment(actor: Actor, base: T.Vector3, tip: T.Vector3) {
+  if(actor.visual){actor.visual.segment(base,tip);return;}
   actor.group.updateMatrixWorld(true);
   base.set(0, -.28, .015); tip.set(0, actor.group.userData.skin === 'crypt-warden' ? -1.18 : -1.43, .015);
   actor.sword.localToWorld(base); actor.sword.localToWorld(tip);
@@ -85,20 +87,23 @@ export class WeaponTrail {
     geometry.setAttribute('position', new T.BufferAttribute(this.positions, 3).setUsage(T.DynamicDrawUsage));
     geometry.setAttribute('color', new T.BufferAttribute(this.colors, 3).setUsage(T.DynamicDrawUsage));
     geometry.setIndex(indices); geometry.setDrawRange(0, 0);
-    this.mesh = new T.Mesh(geometry, new T.MeshBasicMaterial({ color, vertexColors: true, transparent: true, opacity: .26, blending: T.AdditiveBlending, depthWrite: false, side: T.DoubleSide, toneMapped: false }));
+    this.mesh = new T.Mesh(geometry, new T.MeshBasicMaterial({ color, vertexColors: true, transparent: true, opacity: .22, blending: T.AdditiveBlending, depthWrite: false, side: T.DoubleSide, toneMapped: false }));
     this.mesh.name = 'weapon motion trail'; this.mesh.frustumCulled = false; this.mesh.visible = false; scene.add(this.mesh);
   }
   reset() { this.count = 0; this.mesh.visible = false; this.mesh.geometry.setDrawRange(0, 0); }
   sample(base: T.Vector3, tip: T.Vector3, now: number) {
+    if (this.count && now <= this.times[0] + 1e-6) return;
+    if (this.count && (now - this.times[0] > .18 || Math.hypot(base.x-this.positions[0],base.y-this.positions[1],base.z-this.positions[2]) > 2.5)) this.reset();
     this.positions.copyWithin(6, 0, 66); this.times.copyWithin(1, 0, 11);
     base.toArray(this.positions, 0); tip.toArray(this.positions, 3); this.times[0] = now;
     this.count = Math.min(12, this.count + 1); this.mesh.geometry.attributes.position.needsUpdate = true;
     this.mesh.geometry.setDrawRange(0, Math.max(0, this.count - 1) * 6);
   }
   update(now: number, hidden = false) {
-    this.mesh.visible = !hidden && this.count > 1 && now - this.times[0] < .12;
+    if (hidden) { this.reset(); return; }
+    this.mesh.visible = this.count > 1 && now - this.times[0] < .09;
     if (!this.mesh.visible) return;
-    for (let i = 0; i < this.count; i++) { const alpha = Math.max(0, 1 - (now - this.times[i]) / .12); this.colors.fill(alpha * alpha, i * 6, i * 6 + 6); }
+    for (let i = 0; i < this.count; i++) { const alpha = Math.max(0, 1 - (now - this.times[i]) / .09); this.colors.fill(alpha * alpha, i * 6, i * 6 + 6); }
     this.mesh.geometry.attributes.color.needsUpdate = true;
   }
   dispose() { this.mesh.removeFromParent(); this.mesh.geometry.dispose(); this.mesh.material.dispose(); }

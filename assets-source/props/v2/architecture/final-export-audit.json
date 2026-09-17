@@ -1,0 +1,1771 @@
+{
+  "variants": {
+    "compressed": {
+      "file": "/private/tmp/ashen-architecture-kit/architecture-kit.glb",
+      "bytes": 1013076,
+      "sha256": "bbec76f1153187abf396336642a0f2a29a33e401f81de3ebdf5155029b523f31",
+      "materials": 1,
+      "textures": [
+        {
+          "name": "kit_normal",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/ktx2"
+        },
+        {
+          "name": "kit_orm",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/ktx2"
+        },
+        {
+          "name": "kit_basecolor",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/ktx2"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Arch_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "ad7f5e7efe1d4731b3d2a551494c3074",
+            "module": "Arch",
+            "semantic_name": "Arch_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Arch_LOD0",
+          "extras": {
+            "module": "Arch",
+            "lod": 0
+          },
+          "translation": [
+            0,
+            4.440000057220459,
+            0.024500012397766113
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            4.440000057220459,
+            4.440000057220459,
+            4.440000057220459
+          ]
+        },
+        {
+          "name": "Arch_LOD1",
+          "extras": {
+            "module": "Arch",
+            "lod": 1
+          },
+          "translation": [
+            0,
+            4.4394097328186035,
+            0.024500012397766113
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            4.4394097328186035,
+            4.4394097328186035,
+            4.4394097328186035
+          ]
+        },
+        {
+          "name": "Arch_LOD2",
+          "extras": {
+            "module": "Arch",
+            "lod": 2
+          },
+          "translation": [
+            -0.0000069141387939453125,
+            4.440763219958171,
+            0.026825785636901855
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            4.435935273999348,
+            4.435935273999348,
+            4.435935273999348
+          ]
+        },
+        {
+          "name": "OpeningLeft_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "6fd9f5e723b345fe809efb77c66d10a0",
+            "module": "Arch",
+            "semantic_name": "OpeningLeft"
+          },
+          "translation": [
+            -3,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningRight_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "f782826c1b8f4e668e253ab43278e5bc",
+            "module": "Arch",
+            "semantic_name": "OpeningRight"
+          },
+          "translation": [
+            3,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningTop_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "2243cf8233854a1d96059c2a5c3b2c14",
+            "module": "Arch",
+            "semantic_name": "OpeningTop"
+          },
+          "translation": [
+            0,
+            6.800000190734863,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Pillar_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "5d57474c3cad4e49a811dd1d16b2b969",
+            "module": "Pillar",
+            "semantic_name": "Pillar_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Pillar_LOD0",
+          "extras": {
+            "module": "Pillar",
+            "lod": 0
+          },
+          "translation": [
+            0,
+            2.5999999046325684,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            2.5999999046325684,
+            2.5999999046325684,
+            2.5999999046325684
+          ]
+        },
+        {
+          "name": "Pillar_LOD1",
+          "extras": {
+            "module": "Pillar",
+            "lod": 1
+          },
+          "translation": [
+            0,
+            2.5999999046325684,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            2.5999999046325684,
+            2.5999999046325684,
+            2.5999999046325684
+          ]
+        },
+        {
+          "name": "Pillar_LOD2",
+          "extras": {
+            "module": "Pillar",
+            "lod": 2
+          },
+          "translation": [
+            0.00041775405406951904,
+            2.5990910266991705,
+            0.002205789089202881
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            2.5936441684607416,
+            2.5936441684607416,
+            2.5936441684607416
+          ]
+        },
+        {
+          "name": "Trim_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "de1f0c0b3b164c48843094f2d7351e47",
+            "module": "Trim",
+            "semantic_name": "Trim_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Trim_LOD0",
+          "extras": {
+            "module": "Trim",
+            "lod": 0
+          },
+          "translation": [
+            0,
+            0.17499995231628418,
+            0.034999996423721313
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Trim_LOD1",
+          "extras": {
+            "module": "Trim",
+            "lod": 1
+          },
+          "translation": [
+            0,
+            0.17499995231628418,
+            0.034999996423721313
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Trim_LOD2",
+          "extras": {
+            "module": "Trim",
+            "lod": 2
+          },
+          "translation": [
+            -0.0004152357578277588,
+            0.17390793678350747,
+            0.03473983705043793
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.9958485662937164,
+            0.9958485662937164,
+            0.9958485662937164
+          ]
+        },
+        {
+          "name": "AshenArchitectureKit",
+          "extras": {
+            "asset_id": "ashen_architecture_kit",
+            "metres_per_unit": 1,
+            "clearance_width": 6,
+            "clearance_height": 6.8
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "Arch_LOD0",
+          "module": "Arch",
+          "lod": 0,
+          "triangles": 5992,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -3.8801050336774145,
+              0,
+              -0.4497576309712212
+            ],
+            "max": [
+              3.8801050336774145,
+              8.880000114440918,
+              0.4987576557667534
+            ],
+            "size": [
+              7.760210067354829,
+              8.880000114440918,
+              0.9485152867379746
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Arch_LOD1",
+          "module": "Arch",
+          "lod": 1,
+          "triangles": 2992,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -3.880131087319315,
+              0,
+              -0.4496945755982394
+            ],
+            "max": [
+              3.880131087319315,
+              8.878819465637207,
+              0.4986946003937716
+            ],
+            "size": [
+              7.76026217463863,
+              8.878819465637207,
+              0.948389175992011
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Arch_LOD2",
+          "module": "Arch",
+          "lod": 2,
+          "triangles": 1192,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -3.875476718783081,
+              0.004827945958822966,
+              -0.4453731412013722
+            ],
+            "max": [
+              3.875462890505493,
+              8.87669849395752,
+              0.49902471247517594
+            ],
+            "size": [
+              7.750939609288574,
+              8.871870547998697,
+              0.9443978536765482
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Pillar_LOD0",
+          "module": "Pillar",
+          "lod": 0,
+          "triangles": 1192,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.35008391306005715,
+              0,
+              -0.45006254643622934
+            ],
+            "max": [
+              0.35008391306005715,
+              5.199999809265137,
+              0.45006254643622934
+            ],
+            "size": [
+              0.7001678261201143,
+              5.199999809265137,
+              0.9001250928724587
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Pillar_LOD1",
+          "module": "Pillar",
+          "lod": 1,
+          "triangles": 592,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.35008391306005715,
+              0,
+              -0.45006254643622934
+            ],
+            "max": [
+              0.35008391306005715,
+              5.199999809265137,
+              0.45006254643622934
+            ],
+            "size": [
+              0.7001678261201143,
+              5.199999809265137,
+              0.9001250928724587
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Pillar_LOD2",
+          "module": "Pillar",
+          "lod": 2,
+          "triangles": 232,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.3440611247307185,
+              0.005446858238428831,
+              -0.444540256834819
+            ],
+            "max": [
+              0.3448966328388575,
+              5.192735195159912,
+              0.4489518350132248
+            ],
+            "size": [
+              0.688957757569576,
+              5.187288336921483,
+              0.8934920918480438
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Trim_LOD0",
+          "module": "Trim",
+          "lod": 0,
+          "triangles": 592,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -1,
+              0.00006785599986827706,
+              -0.21503815171312368
+            ],
+            "max": [
+              1,
+              0.3499320486327001,
+              0.2850381445605663
+            ],
+            "size": [
+              2,
+              0.34986419263283186,
+              0.50007629627369
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Trim_LOD1",
+          "module": "Trim",
+          "lod": 1,
+          "triangles": 292,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -1,
+              0.00006785599986827706,
+              -0.21503815171312368
+            ],
+            "max": [
+              1,
+              0.3499320486327001,
+              0.2850381445605663
+            ],
+            "size": [
+              2,
+              0.34986419263283186,
+              0.50007629627369
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Trim_LOD2",
+          "module": "Trim",
+          "lod": 2,
+          "triangles": 112,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.9962638020515442,
+              0.0037137789037866575,
+              -0.21131228834138702
+            ],
+            "max": [
+              0.9954333305358887,
+              0.3441020946632283,
+              0.2807919624422629
+            ],
+            "size": [
+              1.9916971325874329,
+              0.3403883157594416,
+              0.49210425078364994
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        }
+      ],
+      "geometrySha256": "240ad3f279d872e263a1d89f09e7c6e589af4ff00edec47d4d70a429e7e11471",
+      "anchors": [
+        {
+          "name": "Arch_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "ad7f5e7efe1d4731b3d2a551494c3074",
+            "module": "Arch",
+            "semantic_name": "Arch_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningLeft_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "6fd9f5e723b345fe809efb77c66d10a0",
+            "module": "Arch",
+            "semantic_name": "OpeningLeft"
+          },
+          "translation": [
+            -3,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningRight_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "f782826c1b8f4e668e253ab43278e5bc",
+            "module": "Arch",
+            "semantic_name": "OpeningRight"
+          },
+          "translation": [
+            3,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningTop_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "2243cf8233854a1d96059c2a5c3b2c14",
+            "module": "Arch",
+            "semantic_name": "OpeningTop"
+          },
+          "translation": [
+            0,
+            6.800000190734863,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Pillar_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "5d57474c3cad4e49a811dd1d16b2b969",
+            "module": "Pillar",
+            "semantic_name": "Pillar_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Trim_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "de1f0c0b3b164c48843094f2d7351e47",
+            "module": "Trim",
+            "semantic_name": "Trim_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "ktxMipLevels": [
+        {
+          "name": "kit_normal",
+          "levels": 10
+        },
+        {
+          "name": "kit_orm",
+          "levels": 10
+        },
+        {
+          "name": "kit_basecolor",
+          "levels": 10
+        }
+      ],
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    "-fallback": {
+      "file": "/private/tmp/ashen-architecture-kit/architecture-kit-fallback.glb",
+      "bytes": 1108388,
+      "sha256": "d8cc29ab074cdcc116b74c79fdd51b756742eb492a860276fe350bd589446429",
+      "materials": 1,
+      "textures": [
+        {
+          "name": "kit_normal",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/png"
+        },
+        {
+          "name": "kit_orm",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/png"
+        },
+        {
+          "name": "kit_basecolor",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/png"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "Arch_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "ad7f5e7efe1d4731b3d2a551494c3074",
+            "module": "Arch",
+            "semantic_name": "Arch_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Arch_LOD0",
+          "extras": {
+            "module": "Arch",
+            "lod": 0
+          },
+          "translation": [
+            0,
+            4.440000057220459,
+            0.024500012397766113
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            4.440000057220459,
+            4.440000057220459,
+            4.440000057220459
+          ]
+        },
+        {
+          "name": "Arch_LOD1",
+          "extras": {
+            "module": "Arch",
+            "lod": 1
+          },
+          "translation": [
+            0,
+            4.4394097328186035,
+            0.024500012397766113
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            4.4394097328186035,
+            4.4394097328186035,
+            4.4394097328186035
+          ]
+        },
+        {
+          "name": "Arch_LOD2",
+          "extras": {
+            "module": "Arch",
+            "lod": 2
+          },
+          "translation": [
+            -0.0000069141387939453125,
+            4.440763219958171,
+            0.026825785636901855
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            4.435935273999348,
+            4.435935273999348,
+            4.435935273999348
+          ]
+        },
+        {
+          "name": "OpeningLeft_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "6fd9f5e723b345fe809efb77c66d10a0",
+            "module": "Arch",
+            "semantic_name": "OpeningLeft"
+          },
+          "translation": [
+            -3,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningRight_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "f782826c1b8f4e668e253ab43278e5bc",
+            "module": "Arch",
+            "semantic_name": "OpeningRight"
+          },
+          "translation": [
+            3,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningTop_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "2243cf8233854a1d96059c2a5c3b2c14",
+            "module": "Arch",
+            "semantic_name": "OpeningTop"
+          },
+          "translation": [
+            0,
+            6.800000190734863,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Pillar_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "5d57474c3cad4e49a811dd1d16b2b969",
+            "module": "Pillar",
+            "semantic_name": "Pillar_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Pillar_LOD0",
+          "extras": {
+            "module": "Pillar",
+            "lod": 0
+          },
+          "translation": [
+            0,
+            2.5999999046325684,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            2.5999999046325684,
+            2.5999999046325684,
+            2.5999999046325684
+          ]
+        },
+        {
+          "name": "Pillar_LOD1",
+          "extras": {
+            "module": "Pillar",
+            "lod": 1
+          },
+          "translation": [
+            0,
+            2.5999999046325684,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            2.5999999046325684,
+            2.5999999046325684,
+            2.5999999046325684
+          ]
+        },
+        {
+          "name": "Pillar_LOD2",
+          "extras": {
+            "module": "Pillar",
+            "lod": 2
+          },
+          "translation": [
+            0.00041775405406951904,
+            2.5990910266991705,
+            0.002205789089202881
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            2.5936441684607416,
+            2.5936441684607416,
+            2.5936441684607416
+          ]
+        },
+        {
+          "name": "Trim_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "de1f0c0b3b164c48843094f2d7351e47",
+            "module": "Trim",
+            "semantic_name": "Trim_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Trim_LOD0",
+          "extras": {
+            "module": "Trim",
+            "lod": 0
+          },
+          "translation": [
+            0,
+            0.17499995231628418,
+            0.034999996423721313
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Trim_LOD1",
+          "extras": {
+            "module": "Trim",
+            "lod": 1
+          },
+          "translation": [
+            0,
+            0.17499995231628418,
+            0.034999996423721313
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Trim_LOD2",
+          "extras": {
+            "module": "Trim",
+            "lod": 2
+          },
+          "translation": [
+            -0.0004152357578277588,
+            0.17390793678350747,
+            0.03473983705043793
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.9958485662937164,
+            0.9958485662937164,
+            0.9958485662937164
+          ]
+        },
+        {
+          "name": "AshenArchitectureKit",
+          "extras": {
+            "asset_id": "ashen_architecture_kit",
+            "metres_per_unit": 1,
+            "clearance_width": 6,
+            "clearance_height": 6.8
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "Arch_LOD0",
+          "module": "Arch",
+          "lod": 0,
+          "triangles": 5992,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -3.8801050336774145,
+              0,
+              -0.4497576309712212
+            ],
+            "max": [
+              3.8801050336774145,
+              8.880000114440918,
+              0.4987576557667534
+            ],
+            "size": [
+              7.760210067354829,
+              8.880000114440918,
+              0.9485152867379746
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Arch_LOD1",
+          "module": "Arch",
+          "lod": 1,
+          "triangles": 2992,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -3.880131087319315,
+              0,
+              -0.4496945755982394
+            ],
+            "max": [
+              3.880131087319315,
+              8.878819465637207,
+              0.4986946003937716
+            ],
+            "size": [
+              7.76026217463863,
+              8.878819465637207,
+              0.948389175992011
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Arch_LOD2",
+          "module": "Arch",
+          "lod": 2,
+          "triangles": 1192,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -3.875476718783081,
+              0.004827945958822966,
+              -0.4453731412013722
+            ],
+            "max": [
+              3.875462890505493,
+              8.87669849395752,
+              0.49902471247517594
+            ],
+            "size": [
+              7.750939609288574,
+              8.871870547998697,
+              0.9443978536765482
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Pillar_LOD0",
+          "module": "Pillar",
+          "lod": 0,
+          "triangles": 1192,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.35008391306005715,
+              0,
+              -0.45006254643622934
+            ],
+            "max": [
+              0.35008391306005715,
+              5.199999809265137,
+              0.45006254643622934
+            ],
+            "size": [
+              0.7001678261201143,
+              5.199999809265137,
+              0.9001250928724587
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Pillar_LOD1",
+          "module": "Pillar",
+          "lod": 1,
+          "triangles": 592,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.35008391306005715,
+              0,
+              -0.45006254643622934
+            ],
+            "max": [
+              0.35008391306005715,
+              5.199999809265137,
+              0.45006254643622934
+            ],
+            "size": [
+              0.7001678261201143,
+              5.199999809265137,
+              0.9001250928724587
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Pillar_LOD2",
+          "module": "Pillar",
+          "lod": 2,
+          "triangles": 232,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.3440611247307185,
+              0.005446858238428831,
+              -0.444540256834819
+            ],
+            "max": [
+              0.3448966328388575,
+              5.192735195159912,
+              0.4489518350132248
+            ],
+            "size": [
+              0.688957757569576,
+              5.187288336921483,
+              0.8934920918480438
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Trim_LOD0",
+          "module": "Trim",
+          "lod": 0,
+          "triangles": 592,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -1,
+              0.00006785599986827706,
+              -0.21503815171312368
+            ],
+            "max": [
+              1,
+              0.3499320486327001,
+              0.2850381445605663
+            ],
+            "size": [
+              2,
+              0.34986419263283186,
+              0.50007629627369
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Trim_LOD1",
+          "module": "Trim",
+          "lod": 1,
+          "triangles": 292,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -1,
+              0.00006785599986827706,
+              -0.21503815171312368
+            ],
+            "max": [
+              1,
+              0.3499320486327001,
+              0.2850381445605663
+            ],
+            "size": [
+              2,
+              0.34986419263283186,
+              0.50007629627369
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        },
+        {
+          "name": "Trim_LOD2",
+          "module": "Trim",
+          "lod": 2,
+          "triangles": 112,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.9962638020515442,
+              0.0037137789037866575,
+              -0.21131228834138702
+            ],
+            "max": [
+              0.9954333305358887,
+              0.3441020946632283,
+              0.2807919624422629
+            ],
+            "size": [
+              1.9916971325874329,
+              0.3403883157594416,
+              0.49210425078364994
+            ]
+          },
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TANGENT",
+            "TEXCOORD_0"
+          ],
+          "keepoutIntersections": 0,
+          "degenerateTriangles": 0
+        }
+      ],
+      "geometrySha256": "240ad3f279d872e263a1d89f09e7c6e589af4ff00edec47d4d70a429e7e11471",
+      "anchors": [
+        {
+          "name": "Arch_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "ad7f5e7efe1d4731b3d2a551494c3074",
+            "module": "Arch",
+            "semantic_name": "Arch_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningLeft_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "6fd9f5e723b345fe809efb77c66d10a0",
+            "module": "Arch",
+            "semantic_name": "OpeningLeft"
+          },
+          "translation": [
+            -3,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningRight_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "f782826c1b8f4e668e253ab43278e5bc",
+            "module": "Arch",
+            "semantic_name": "OpeningRight"
+          },
+          "translation": [
+            3,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "OpeningTop_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "2243cf8233854a1d96059c2a5c3b2c14",
+            "module": "Arch",
+            "semantic_name": "OpeningTop"
+          },
+          "translation": [
+            0,
+            6.800000190734863,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Pillar_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "5d57474c3cad4e49a811dd1d16b2b969",
+            "module": "Pillar",
+            "semantic_name": "Pillar_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Trim_Ground_Runtime",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "de1f0c0b3b164c48843094f2d7351e47",
+            "module": "Trim",
+            "semantic_name": "Trim_Ground"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "ktxMipLevels": [],
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  },
+  "geometryEqual": true,
+  "materialsAndAnchorsEqual": true,
+  "textureMeanAbsoluteError8Bit": {
+    "kit_normal": 0.24707412719726562,
+    "kit_orm": 0.6256179809570312,
+    "kit_basecolor": 1.6568667093912761
+  },
+  "mobileTextureRgbaMipBytes": 4194304,
+  "clearanceMethod": "Sutherland-Hodgman clipping of every decoded Arch triangle after full world matrix against interior 6 × 6.8 m gate box through kit depth; 0.1 mm boundary tolerance.",
+  "cloudRaw": {
+    "bytes": 660968,
+    "sha256": "aa877eab6c0fedb7218ae81a9cc1080988c940930f53aa25602fe3361364facd",
+    "meshCount": 118,
+    "primitiveCount": 118,
+    "materials": 2,
+    "textures": 0,
+    "triangles": 11404
+  }
+}

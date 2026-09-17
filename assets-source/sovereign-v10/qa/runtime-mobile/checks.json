@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "geometryEqual": true,
+    "materialsEqual": true,
+    "skinsEqual": true,
+    "animationsEqual": true,
+    "animationDataEqual": true,
+    "inverseBindDataEqual": true,
+    "decoded_gltf_zero_errors": true,
+    "emissive_images_exactly_equal": true,
+    "final_source_hashes_match": true
+  },
+  "render": {
+    "meanRGBerror_0_255": 0.5355162210338681,
+    "p99RGBerror_0_255": 7.0,
+    "maxRGBerror_0_255": 71.0
+  },
+  "rgba8MipFootprintBytes": 10332832,
+  "rgba8MipFootprintMiB": 9.854156494140625,
+  "nearLodRestBoundsErrorVsMaster": 0.00010885988380948675
+}

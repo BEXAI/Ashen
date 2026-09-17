@@ -1,0 +1,31 @@
+{
+  "content": [
+    {
+      "text": "Submitted 0/3 image generations.\n- index 1: submission_failed — model \"image_to_3d\" is a 3d model; use generate_3d instead.\n- index 2: submission_failed — model \"image_to_3d\" is a 3d model; use generate_3d instead.\n- index 3: submission_failed — model \"image_to_3d\" is a 3d model; use generate_3d instead.",
+      "type": "text"
+    }
+  ],
+  "isError": true,
+  "structuredContent": {
+    "error_code": "INVALID_ARGUMENT",
+    "failed_count": 3,
+    "jobs": [
+      {
+        "error": "model \"image_to_3d\" is a 3d model; use generate_3d instead.",
+        "index": 1,
+        "status": "submission_failed"
+      },
+      {
+        "error": "model \"image_to_3d\" is a 3d model; use generate_3d instead.",
+        "index": 2,
+        "status": "submission_failed"
+      },
+      {
+        "error": "model \"image_to_3d\" is a 3d model; use generate_3d instead.",
+        "index": 3,
+        "status": "submission_failed"
+      }
+    ],
+    "submitted_count": 0
+  }
+}

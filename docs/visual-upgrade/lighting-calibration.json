@@ -1,0 +1,54 @@
+{
+  "status": "desktop_visual_calibration_reviewed; physical display calibration pending",
+  "environment": "Local in-app Chromium on macOS, 747x918 browser viewport, DPR 1; actual display brightness, color profile and ambient room light unknown",
+  "settings": {
+    "brightness": 1,
+    "quality": "low for static matrix; Auto mobile budget measured separately",
+    "tone_mapping": "ACESFilmic",
+    "output": "sRGB",
+    "base_exposure": 1.35
+  },
+  "implementation": [
+    "Five room profiles hold within chambers and smoothly blend across the four passages.",
+    "Fixed three-light pool ranks reachable torches against walls and closed gates; benchmark state/view changes reset selection immediately.",
+    "Neutral environment reflection fill preserves dark armor material response.",
+    "Static floor indirect rebake preserves UV1 charts and removes measured boundary discontinuities; gates and shrine glow remain dynamic.",
+    "Fallback meshes using shared vertex-color materials receive neutral vertex colors when missing, preventing unintended black geometry."
+  ],
+  "profiles_source": "app/game/lighting-profiles.ts",
+  "bake_provenance": [
+    "assets-source/dungeon-v11/report.json",
+    "assets-source/dungeon-v13/arch-removal.json"
+  ],
+  "observations": {
+    "paths": "Floors, walls, door frames and all four connecting routes are distinguishable at default brightness in reviewed desktop frames.",
+    "enemies": "Bone Wardens contrast with dark floors; Sovereign armor remains dark with a readable crown, cape and glowing eyes.",
+    "flames": "Orange/yellow torch flames retain tapered silhouettes; shrine bowls have bright warm or cool centers.",
+    "states": "All three gate pairs and all three shrine states reviewed; lit shrines shift surrounding fill to cool cyan.",
+    "limitations": [
+      "Performance water is a flat opaque blue-gray surface; reflections belong to higher profiles.",
+      "The ornamental arch frames the existing rectangular collision opening; structural lintels and gameplay footprint remain unchanged.",
+      "Ambient fill is deliberately brighter; deeply metallic Sovereign details remain subdued at distance.",
+      "Some very bright shrine bowl interiors lose subtle surface detail; surrounding masonry stays readable."
+    ]
+  },
+  "matched_comparisons": [
+    [
+      "sconce-dusk-low-before.png",
+      "sconce-dusk-low-after.png"
+    ],
+    [
+      "sconce-cinder-low-before.png",
+      "sconce-cinder-low-after.png"
+    ],
+    [
+      "shrine-cinder-low-dormant-before.png",
+      "shrine-cinder-low-dormant-after.png"
+    ],
+    [
+      "arch-entry-low-before.png",
+      "arch-entry-low-after.png"
+    ]
+  ],
+  "physical_phone_status": "iPhone 17 Safari offered; no results received. Do not infer device performance or outdoor readability."
+}

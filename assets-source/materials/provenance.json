@@ -1,0 +1,152 @@
+{
+  "completion_metadata_file": "generation-results.json",
+  "created_at": "2026-09-08T04:42:03.272Z",
+  "purpose": "Ashen Realm material generation; asset-only output, outside Site checkout",
+  "requested_model": "nano_banana_pro",
+  "model_parameters": {
+    "aspect_ratios": [
+      "1:1",
+      "3:2",
+      "2:3",
+      "4:3",
+      "3:4",
+      "4:5",
+      "5:4",
+      "9:16",
+      "16:9",
+      "21:9"
+    ],
+    "description": "Ultimate quality, text and diagrams",
+    "id": "nano_banana_pro",
+    "medias": [
+      {
+        "name": "medias",
+        "roles": [
+          "image_references"
+        ],
+        "type": "image"
+      }
+    ],
+    "name": "Nano Banana Pro",
+    "output_type": "image",
+    "parameters": [
+      {
+        "default": "2k",
+        "description": "Output resolution.",
+        "name": "resolution",
+        "options": [
+          "1k",
+          "2k",
+          "4k"
+        ],
+        "required": "optional",
+        "type": "string"
+      }
+    ],
+    "provider_name": "Google",
+    "supports_unlim": true,
+    "tags": [
+      "quality",
+      "text-rendering",
+      "diagrams",
+      "photorealistic",
+      "versatile",
+      "4k",
+      "text-to-image",
+      "image-to-image",
+      "unlim"
+    ]
+  },
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "model": "nano_banana_pro",
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: weathered forged dark silver steel. Worn satin metal with tiny mostly longitudinal abrasions of varied lengths, subtle dark oxidation pits and rubbed-wear variation implied only through pigment. Restrained dark silver, gunmetal and soft graphite palette. Random gentle forge mottling, convincing fine scratch grain, minimal coarse damage. It should read as dark medieval forged steel in engine lighting. Avoid chrome, mirror shine, photographed objects, bolts, panels, bevels, embossed patterns, bright rim light, gradients, and rusty orange.",
+        "resolution": "4k"
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "model": "nano_banana_pro",
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: Crypt Warden skin, an undead humanoid's corpse-gray desaturated taupe leathery scar tissue. Organic pore detail, fine dry irregular leathery creases, restrained subtle blue-gray veins below the skin color, subtle irregular healed scars distributed organically. Muted cool gray-taupe palette, aged and dead without gore. This is a close surface swatch, entirely unrecognizable as any particular face or body part. No recognizable face, eyes, mouth, ears, limbs, body, blood, wounds, sores, hair, clothing, orange skin tones or fleshy wet highlights.",
+        "resolution": "4k"
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "model": "nano_banana_pro",
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: Ember Sovereign obsidian. Near-black dark charcoal fractured volcanic glass with an irregular angular fracture network, charcoal seams, and only small restrained ember-orange fissures. Broad quiet near-black regions dominate, while occasional narrow dim orange pigment-colored fissures provide accents. Rich microscopic volcanic texture and sharp fractured visual structure without baked height shading. No specular highlights, reflections, external light, yellow-white lava, flame, large bright glowing areas, smoke, raised rocks, rubble, individual isolated stones or 3D perspective. Orange fissures remain restrained so game engine emission can be controlled separately.",
+        "resolution": "4k"
+      }
+    }
+  ],
+  "submission": {
+    "failed_count": 0,
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "f578dfc0-0ed2-432d-ac86-611d08bc29cd",
+        "status": "pending"
+      },
+      {
+        "index": 2,
+        "job_id": "167484ba-7836-447d-a008-66fad885ea89",
+        "status": "pending"
+      },
+      {
+        "index": 3,
+        "job_id": "7f30eae7-5931-41d5-b9ff-833b44abf467",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 3
+  },
+  "initial_wait": {
+    "all_terminal": false,
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "f578dfc0-0ed2-432d-ac86-611d08bc29cd",
+        "model": "nano_banana_2",
+        "status": "in_progress",
+        "type": "image"
+      },
+      {
+        "index": 2,
+        "job_id": "167484ba-7836-447d-a008-66fad885ea89",
+        "model": "nano_banana_2",
+        "status": "in_progress",
+        "type": "image"
+      },
+      {
+        "index": 3,
+        "job_id": "7f30eae7-5931-41d5-b9ff-833b44abf467",
+        "model": "nano_banana_2",
+        "status": "in_progress",
+        "type": "image"
+      }
+    ],
+    "poll_after_seconds": 10,
+    "summary": {
+      "active": 3,
+      "completed": 0,
+      "errors": 0,
+      "failed": 0,
+      "total": 3
+    },
+    "timed_out": true
+  },
+  "limitations": [
+    "Higgsfield accepted nano_banana_pro but jobs_wait initially reports nano_banana_2 for all three jobs; actual model mapping cannot be independently verified.",
+    "Seamless tiling is requested in prompts and will be inspected; exact edge continuity is not guaranteed by image generation."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Pre-distance P12 runtime adapter and presentation fixture. Never used by production. Captured before applying integration.patch on 2026-09-09. Shared rig/combat modules and GLB input remain current so only stance/gait implementation is compared.",
+  "files": {
+    "character-assets.ts.fixture": "31fd57852eea63d317c0e9136387dca95dbb5b435ab07264b6a9c44bc83a7a6c",
+    "character-presentation.ts.fixture": "4bd1e77e6c17759e4de9f841d7670a590d93a582e5766cae1d41f034444b0f27"
+  }
+}

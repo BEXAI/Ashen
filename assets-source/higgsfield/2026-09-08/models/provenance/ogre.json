@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "slug": "ogre",
+  "originalArtwork": {
+    "assetId": "e4f73d18-4dda-4d66-8bc5-1f163c44cf9d",
+    "filename": "hf_20260909_002300_e4f73d18-4dda-4d66-8bc5-1f163c44cf9d.png",
+    "sha256": "a0456fa19e3cc329b16e472aee4b1bb8e25baf73d8760ba99e45fd516ef42cdb",
+    "bytes": 6268530,
+    "screenshot": {
+      "row": 2,
+      "column": 5,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "d5bfaf41-d8c2-4817-87e9-5139cfd0614f",
+    "jobType": "image_to_3d",
+    "status": "nsfw",
+    "producedModel": false,
+    "resultURL": null,
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "5ba0648d-8dea-4638-b3ec-ef8e2a480abe",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/5ba0648d-8dea-4638-b3ec-ef8e2a480abe_resize.jpg"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ogre-original.glb",
+    "bytes": 1552580,
+    "sha256": "3991ecffb5eee3ba9493cf64b2a222a12343a76de8c8c5844e4739508ee866c0",
+    "kind": "locally-authored"
+  },
+  "attackStyle": "club",
+  "attackAliasPolicy": "Four canonical strike names alias genuine club action; original timing preserved",
+  "clipTimePolicy": "Native durations; runtime maps contact phases",
+  "derivation": {
+    "metadataPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ogre-local-authorship.json",
+    "asset": "ogre",
+    "authorship": "Locally authored reference-guided interpretation",
+    "method": "Continuous voxel-union anatomical sculpt; explicit facial and garment meshes; hand-authored normalized 24-joint skin; vertex-painted surfaces",
+    "sourceImage": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/hf_20260909_002300_e4f73d18-4dda-4d66-8bc5-1f163c44cf9d.png",
+    "sourceImageSha256": "a0456fa19e3cc329b16e472aee4b1bb8e25baf73d8760ba99e45fd516ef42cdb",
+    "sourceImagePreserved": true,
+    "isProviderReconstruction": false,
+    "isExactSourceDerivedTopology": false,
+    "limitations": [
+      "Stylized interpretation of one frontal photograph; unseen rear surfaces invented.",
+      "Mesh and facial proportions are authored approximations, not photogrammetry."
+    ],
+    "referenceFeatures": [
+      "grey-green moss-mottled bulky anatomy",
+      "broad pig nose",
+      "curved ivory jaw tusks",
+      "ragged hide loincloth",
+      "rusted shoulder pauldron",
+      "diagonal leather strap",
+      "wooden club with iron spikes",
+      "bare broad feet"
+    ],
+    "boneNames": [
+      "Hips",
+      "Spine02",
+      "Spine01",
+      "Spine",
+      "neck",
+      "Head",
+      "head_end",
+      "headfront",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand",
+      "RightUpLeg",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase",
+      "LeftUpLeg",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase"
+    ],
+    "bones": 24,
+    "verticesBeforeJoin": 26328,
+    "triangles": 33500,
+    "maxSkinInfluences": 4,
+    "unweightedVertices": 0,
+    "animationNames": [
+      "idle"
+    ],
+    "heldWeapon": true,
+    "contactBaseBlender": [
+      -0.6377999782562256,
+      -0.1340000033378601,
+      0.6496000289916992
+    ],
+    "contactTipBlender": [
+      -0.28299376368522644,
+      -0.2446208894252777,
+      0.18171466886997223
+    ],
+    "contactBaseRightHandLocal": [
+      0.13234108686447144,
+      0.2921994924545288,
+      -0.07671645283699036
+    ],
+    "contactTipRightHandLocal": [
+      0.5089827179908752,
+      0.7484846115112305,
+      -0.16029943525791168
+    ],
+    "heldEquipmentNode": "OgreHeldClub",
+    "heldEquipmentTriangles": 3640,
+    "totalProductionTriangles": 37140,
+    "optimization": {
+      "method": "Upstream detail tessellation reduced; moderate body edge collapse with interpolated skin weights, renormalized to four influences. Held weapon geometry and all bind transforms retained.",
+      "trianglesBeforeFinalCollapse": 51936,
+      "trianglesAfterFinalCollapse": 37140,
+      "highDetailModel": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ogre-authored-high-detail.glb",
+      "targetMaxTriangles": 40000
+    },
+    "contactBaseExportedRightHandLocal": [
+      0.13234095673253565,
+      0.29219966746481624,
+      -0.07671644027023672
+    ],
+    "contactTipExportedRightHandLocal": [
+      0.5089825974172797,
+      0.7484848742854365,
+      -0.160299459544665
+    ]
+  }
+}

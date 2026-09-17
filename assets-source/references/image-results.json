@@ -1,0 +1,193 @@
+{
+  "manifest": [
+    {
+      "index": 1,
+      "job_id": "cf54ea08-3569-43c7-a1c9-7ae5a632bd5c",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_cf54ea08-3569-43c7-a1c9-7ae5a632bd5c.png",
+      "status": "completed",
+      "type": "image",
+      "name": "ash-knight",
+      "local_path": "/workspace/scratch/363234819217/character-production/references/ash-knight.png"
+    },
+    {
+      "index": 2,
+      "job_id": "c21de7ae-8c13-41c2-be52-494c35b20e2e",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_c21de7ae-8c13-41c2-be52-494c35b20e2e.png",
+      "status": "completed",
+      "type": "image",
+      "name": "crypt-warden",
+      "local_path": "/workspace/scratch/363234819217/character-production/references/crypt-warden.png"
+    },
+    {
+      "index": 3,
+      "job_id": "ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd.png",
+      "status": "completed",
+      "type": "image",
+      "name": "ember-sovereign",
+      "local_path": "/workspace/scratch/363234819217/character-production/references/ember-sovereign.png"
+    },
+    {
+      "index": 4,
+      "job_id": "0268dca9-28c5-47df-b46c-6e10b6e44658",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_0268dca9-28c5-47df-b46c-6e10b6e44658.png",
+      "status": "completed",
+      "type": "image",
+      "name": "flame-atlas",
+      "local_path": "/workspace/scratch/363234819217/character-production/references/flame-atlas.png"
+    }
+  ],
+  "results": {
+    "all_found": true,
+    "items": [
+      {
+        "createdAt": 1788838553.210165,
+        "id": "cf54ea08-3569-43c7-a1c9-7ae5a632bd5c",
+        "model": "nano_banana_2",
+        "params": {
+          "application": null,
+          "aspect_ratio": "2:3",
+          "batch_size": 1,
+          "height": 2528,
+          "input_image": null,
+          "input_images": [
+            {
+              "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+              "type": "image_job",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png"
+            }
+          ],
+          "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: ASH KNIGHT from LEFT panel of triptych. Enclosed angular medieval steel helmet with narrow visor slit and lower vertical breathing slits. Layered battered dark steel cuirass and segmented steel arm and leg armor, chainmail visible at neck and joints, rough brown leather belts and straps, worn oxblood dark red fabric tunic/skirt and a short tattered oxblood cape falling behind shoulders. Asymmetric practical pauldrons preserved. Steel gauntlets, sturdy armored boots. Human proportions. Render all materials clearly, especially oxblood cloth, chainmail and steel scuffing. Keep cape behind body so legs and arms remain individually readable.",
+          "resolution": "2k",
+          "surface": null,
+          "width": 1696
+        },
+        "results": {
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_cf54ea08-3569-43c7-a1c9-7ae5a632bd5c_min.webp",
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_cf54ea08-3569-43c7-a1c9-7ae5a632bd5c.png"
+        },
+        "status": "completed",
+        "type": "image"
+      },
+      {
+        "createdAt": 1788838553.150934,
+        "id": "c21de7ae-8c13-41c2-be52-494c35b20e2e",
+        "model": "nano_banana_2",
+        "params": {
+          "application": null,
+          "aspect_ratio": "2:3",
+          "batch_size": 1,
+          "height": 2528,
+          "input_image": null,
+          "input_images": [
+            {
+              "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+              "type": "image_job",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png"
+            }
+          ],
+          "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: CRYPT WARDEN from CENTER panel of triptych. Tall lean muscular undead humanoid with corpse-grey wrinkled hide, bald narrow male head, pointed ears, deeply sunken face and faint amber eyes. Bone ivory organic plates over both shoulders, rib-cage motif around chest leaving grey torso visible, bone forearm guards and bone pelvis armor, long bare grey legs, clearly separated long bony clawed fingers and five-toed feet. Closed mouth, no gore. Preserve unsettling natural anatomy and bone plate silhouette; full complete humanoid body, no weapon.",
+          "resolution": "2k",
+          "surface": null,
+          "width": 1696
+        },
+        "results": {
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_c21de7ae-8c13-41c2-be52-494c35b20e2e_min.webp",
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_c21de7ae-8c13-41c2-be52-494c35b20e2e.png"
+        },
+        "status": "completed",
+        "type": "image"
+      },
+      {
+        "createdAt": 1788838553.052554,
+        "id": "ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd",
+        "model": "nano_banana_2",
+        "params": {
+          "application": null,
+          "aspect_ratio": "2:3",
+          "batch_size": 1,
+          "height": 2528,
+          "input_image": null,
+          "input_images": [
+            {
+              "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+              "type": "image_job",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png"
+            }
+          ],
+          "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: EMBER SOVEREIGN from RIGHT panel of triptych. Massive regal humanoid in layered angular black volcanic plate armor, crown with tall jagged narrow dark metal prongs fused around a closed menacing black helmet, armored shoulders, angular segmented black cuirass, strong armored legs and pointed heavy armored boots. Sparse narrow ember-orange seams recessed between plates, rendered mostly as flat orange-red material with only very restrained glow, black torn cloth tabard hanging in front. Thick black gauntlets with clearly separated fingers. Maintain sovereign crown, monumental shoulders and coherent full volumetric armor. No sword or other prop.",
+          "resolution": "2k",
+          "surface": null,
+          "width": 1696
+        },
+        "results": {
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd_min.webp",
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd.png"
+        },
+        "status": "completed",
+        "type": "image"
+      },
+      {
+        "createdAt": 1788838553.409327,
+        "id": "0268dca9-28c5-47df-b46c-6e10b6e44658",
+        "model": "nano_banana_2",
+        "params": {
+          "application": null,
+          "aspect_ratio": "1:1",
+          "batch_size": 1,
+          "height": 1024,
+          "input_image": null,
+          "input_images": [],
+          "prompt": "Create a production sprite atlas for a 3D game torch fire effect. Exactly 4 columns by 4 rows, 16 equally sized square frames covering the full square canvas edge to edge. Each frame shows one isolated small flame only: bright white-yellow core, amber and orange tongues, a little faint wispy grey smoke above. Pure pitch black background in every cell, no outlines, no dividers, no text, no numbers, no torch or holder. Flame bases stay at identical centered x and fixed lower y within every cell. Smooth consecutive animation progression from top-left across each row, then next row: flame rising, curling and rolling gently through 16 stages which loop seamlessly. Every flame fits fully inside its own square with generous dark margin, does not touch neighboring cells. Physically realistic volumetric flame texture with feathered dissipating edges suitable for additive blending. The atlas fills a 1024x1024 image; 4x4 exact regular layout.",
+          "resolution": "1k",
+          "surface": null,
+          "width": 1024
+        },
+        "results": {
+          "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_0268dca9-28c5-47df-b46c-6e10b6e44658_min.webp",
+          "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_0268dca9-28c5-47df-b46c-6e10b6e44658.png"
+        },
+        "status": "completed",
+        "type": "image"
+      }
+    ],
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "cf54ea08-3569-43c7-a1c9-7ae5a632bd5c",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_cf54ea08-3569-43c7-a1c9-7ae5a632bd5c.png",
+        "status": "completed",
+        "type": "image"
+      },
+      {
+        "index": 2,
+        "job_id": "c21de7ae-8c13-41c2-be52-494c35b20e2e",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_c21de7ae-8c13-41c2-be52-494c35b20e2e.png",
+        "status": "completed",
+        "type": "image"
+      },
+      {
+        "index": 3,
+        "job_id": "ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd.png",
+        "status": "completed",
+        "type": "image"
+      },
+      {
+        "index": 4,
+        "job_id": "0268dca9-28c5-47df-b46c-6e10b6e44658",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_0268dca9-28c5-47df-b46c-6e10b6e44658.png",
+        "status": "completed",
+        "type": "image"
+      }
+    ]
+  }
+}

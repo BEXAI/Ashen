@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-17T04:17:33.490843Z",
+  "purpose": "Preserved source artwork and screenshot cross-reference for playable 3D character/enemy conversion.",
+  "original_files_modified": false,
+  "archive": {
+    "source_path": "/Users/nathaniel/Downloads/archive.zip",
+    "bytes": 73297256,
+    "sha256": "16b9c39f60ba83d4ff70948f2dc98e7f7e3d2ef0a9a06a9cc3d9397b93c71a84",
+    "entry_count": 17,
+    "crc_validation_passed": true
+  },
+  "source_screenshot": {
+    "filename": "source-screenshot.png",
+    "original_path": "/var/folders/vz/gfw8qmj54mz9j5k1jsj5rhr00000gn/T/codex-clipboard-f22c22d6-6802-45e2-920d-488f1585dab2.png",
+    "bytes": 1373101,
+    "sha256": "5c5e609cef9416c02bb6efd5b8ca4193da7a13fff69481bc2c437a361ce458fe",
+    "dimensions": {
+      "width": 1752,
+      "height": 1134
+    },
+    "visible_heading": "All assets",
+    "visible_date_heading": "September 8, 2026",
+    "visible_thumbnail_count": 17,
+    "sidebar_badge_27_meaning": "Unconfirmed because its label is outside the screenshot crop"
+  },
+  "counts": {
+    "original_files": 17,
+    "png_images": 16,
+    "mp4_videos": 1,
+    "original_total_bytes": 73292285
+  },
+  "date_interpretation": "All filename prefixes contain UTC September 9, 2026; interpreted as UTC and converted to America/New_York, all fall on September 8, 2026, consistent with the screenshot date heading. The filename itself has no explicit timezone marker.",
+  "mapping_basis": "Row/column ID order supplied by the coordinating task and individually verified against full PNG originals and first video frame. Partial screenshot columns were matched by their visible wing/chain or scythe/cloth details.",
+  "assets": [
+    {
+      "screenshot_order": 1,
+      "asset_id": "cd11e563-5606-4af2-8658-45398c183f8b",
+      "asset_id_short": "cd11e563",
+      "filename": "hf_20260909_032153_cd11e563-5606-4af2-8658-45398c183f8b.mp4",
+      "bytes": 6979808,
+      "sha256": "5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a",
+      "media_type": "video/mp4",
+      "descriptive_label": "Crowned armored figure video",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Rear view of jagged crown/helmet, silver shoulder plates and black cape in an outdoor courtyard. First decoded frame visually matches screenshot video thumbnail.",
+      "screenshot": {
+        "row": 1,
+        "column": 1,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T03:21:53Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T23:21:53-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "ffprobe_passed": true,
+        "full_video_and_audio_decode_passed": true,
+        "decode_command": "ffmpeg -v error -xerror -i ORIGINAL.mp4 -f null -",
+        "decode_exit_code": 0,
+        "decode_stderr": ""
+      },
+      "dimensions": {
+        "width": 854,
+        "height": 480
+      },
+      "video": {
+        "codec": "h264",
+        "frame_rate": "24/1",
+        "frame_count": 193,
+        "duration_seconds": 8.042,
+        "audio": [
+          {
+            "codec": "aac",
+            "channels": 2,
+            "sample_rate_hz": 32000
+          }
+        ]
+      }
+    },
+    {
+      "screenshot_order": 2,
+      "asset_id": "496924e4-b505-4aab-8808-2cded9eb400a",
+      "asset_id_short": "496924e4",
+      "filename": "hf_20260909_023557_496924e4-b505-4aab-8808-2cded9eb400a.png",
+      "bytes": 3425163,
+      "sha256": "5b42fe845f747eac1b857caa84a8e08e0a7f4bb424c6161d297653ae8b90eca5",
+      "media_type": "image/png",
+      "descriptive_label": "Moss-covered stone golem",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Large muscular gray humanoid with cracked stone skin, moss patches, clenched hands and a dark background.",
+      "screenshot": {
+        "row": 1,
+        "column": 2,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T02:35:57Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T22:35:57-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1344,
+        "height": 2016
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 3,
+      "asset_id": "a732cfc0-9551-4032-ba6e-72459f309878",
+      "asset_id_short": "a732cfc0",
+      "filename": "hf_20260909_023556_a732cfc0-9551-4032-ba6e-72459f309878.png",
+      "bytes": 3758823,
+      "sha256": "00691bd5f48225aab4f599a20cf9b2aeb5bce0042c97d1e283b86d8546453826",
+      "media_type": "image/png",
+      "descriptive_label": "Gray-shrouded skeleton",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Skull and exposed rib cage wrapped in a loose gray hooded shroud, with bare arm and long leg bones; dark background.",
+      "screenshot": {
+        "row": 1,
+        "column": 3,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T02:35:56Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T22:35:56-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1344,
+        "height": 2016
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 4,
+      "asset_id": "db95c2d3-580c-43c5-ab3b-58ee75def5cb",
+      "asset_id_short": "db95c2d3",
+      "filename": "hf_20260909_023256_db95c2d3-580c-43c5-ab3b-58ee75def5cb.png",
+      "bytes": 1437282,
+      "sha256": "faac96203fb4585a9ff6581aab8d1b4fc3135eaf3e89f1b4503eb1c7c3481348",
+      "media_type": "image/png",
+      "descriptive_label": "Lion-surcoat knight",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Bearded helmeted knight in steel armor, burgundy surcoat with gold lion, torn hem and sword; dark background.",
+      "screenshot": {
+        "row": 1,
+        "column": 4,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T02:32:56Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T22:32:56-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 832,
+        "height": 1248
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 5,
+      "asset_id": "6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7",
+      "asset_id_short": "6017ddf3",
+      "filename": "hf_20260909_023256_6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7.png",
+      "bytes": 1260943,
+      "sha256": "a8c1ddac5168dfa7a32a7fe9f162aedbfe33cc7e40fee23e95e9368618c5184b",
+      "media_type": "image/png",
+      "descriptive_label": "Blue-crystal necromancer",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Hooded long-haired figure with bone-like rib and shoulder armor, blue skull crystal staff and blue hand effects; dark background.",
+      "screenshot": {
+        "row": 1,
+        "column": 5,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T02:32:56Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T22:32:56-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 832,
+        "height": 1248
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 6,
+      "asset_id": "5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd",
+      "asset_id_short": "5a3ddbf0",
+      "filename": "hf_20260909_023256_5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd.png",
+      "bytes": 1234551,
+      "sha256": "6c41d87ff64578b5a1f7d1b3e17b3257e1857fe2adad1e95a4d822fc01ac6c18",
+      "media_type": "image/png",
+      "descriptive_label": "Chained ember dragon",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Upright black-scaled dragon with large ragged reddish wing membranes, chains, tail and orange glowing mouth/ribs; dark background. Screenshot shows only left wing edge and chains.",
+      "screenshot": {
+        "row": 1,
+        "column": 6,
+        "right_edge_partial": true,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T02:32:56Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T22:32:56-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 832,
+        "height": 1248
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 7,
+      "asset_id": "853d2fdc-06d5-4cfc-888a-ccd2f3d9f202",
+      "asset_id_short": "853d2fdc",
+      "filename": "hf_20260909_023256_853d2fdc-06d5-4cfc-888a-ccd2f3d9f202.png",
+      "bytes": 1134601,
+      "sha256": "935786186aa5d78ba8400bba624faaccc774dc34a8edca13f3640c3881c6c09b",
+      "media_type": "image/png",
+      "descriptive_label": "Hooded armored ranger",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Dark hood, fitted black armor, silver segmented shoulder plates, crossed chest straps, back quiver and paired hip blades; dark background.",
+      "screenshot": {
+        "row": 2,
+        "column": 1,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T02:32:56Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T22:32:56-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 832,
+        "height": 1248
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 8,
+      "asset_id": "880f9069-e695-4dc2-aaed-b5ae3ef026eb",
+      "asset_id_short": "880f9069",
+      "filename": "hf_20260909_002300_880f9069-e695-4dc2-aaed-b5ae3ef026eb.png",
+      "bytes": 5513477,
+      "sha256": "1accab245cfc271c01d1a93fa784d1a1008064f45b26c46812f72aad74b11aaf",
+      "media_type": "image/png",
+      "descriptive_label": "Amber-staff wizard",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Long gray hair and braided beard, navy robe, dark leather vest, potions and book on belt, staff with amber crystal; white background.",
+      "screenshot": {
+        "row": 2,
+        "column": 2,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:23:00Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:23:00-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 9,
+      "asset_id": "5cbfe6bf-e3d1-4d07-849a-203e77d1b94b",
+      "asset_id_short": "5cbfe6bf",
+      "filename": "hf_20260909_002300_5cbfe6bf-e3d1-4d07-849a-203e77d1b94b.png",
+      "bytes": 5368416,
+      "sha256": "82502d1790b6a565af104e7079e047fe21eef4054983c12a3c50c087f21bfeae",
+      "media_type": "image/png",
+      "descriptive_label": "Red-cape plate knight",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Bareheaded bearded knight in steel plate over burgundy quilted panels, torn red cape and hip sword; white background.",
+      "screenshot": {
+        "row": 2,
+        "column": 3,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:23:00Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:23:00-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGBA",
+      "has_alpha_channel": true
+    },
+    {
+      "screenshot_order": 10,
+      "asset_id": "0beed7ce-bd60-4a35-8f57-489368a80bb4",
+      "asset_id_short": "0beed7ce",
+      "filename": "hf_20260909_002300_0beed7ce-bd60-4a35-8f57-489368a80bb4.png",
+      "bytes": 5224721,
+      "sha256": "562931e229f121950bf4a6a2ec75be543d3034a657ffae264ebf108928c21da6",
+      "media_type": "image/png",
+      "descriptive_label": "Green-cape archer",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Red-haired archer with green cape, brown leather chest armor, back quiver and wooden bow; white background.",
+      "screenshot": {
+        "row": 2,
+        "column": 4,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:23:00Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:23:00-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 11,
+      "asset_id": "e4f73d18-4dda-4d66-8bc5-1f163c44cf9d",
+      "asset_id_short": "e4f73d18",
+      "filename": "hf_20260909_002300_e4f73d18-4dda-4d66-8bc5-1f163c44cf9d.png",
+      "bytes": 6268530,
+      "sha256": "a0456fa19e3cc329b16e472aee4b1bb8e25baf73d8760ba99e45fd516ef42cdb",
+      "media_type": "image/png",
+      "descriptive_label": "Club-wielding troll",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Large gray-green tusked humanoid with rusty shoulder plate, ragged loincloth and spiked wooden club; white background.",
+      "screenshot": {
+        "row": 2,
+        "column": 5,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:23:00Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:23:00-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 12,
+      "asset_id": "ae17a6dd-ffae-472e-b762-c9cb6ed2e584",
+      "asset_id_short": "ae17a6dd",
+      "filename": "hf_20260909_002156_ae17a6dd-ffae-472e-b762-c9cb6ed2e584.png",
+      "bytes": 5028505,
+      "sha256": "d4a145073a3e8c2b3b5f63ab97ac3556cb1c559137a9e8d8d52325c1abc8d718",
+      "media_type": "image/png",
+      "descriptive_label": "Scythe-wielding reaper",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Floating skull-faced figure in tattered black hooded robes with pale blue eye glow and a long scythe; white background. Screenshot shows scythe blade and trailing cloth at right edge.",
+      "screenshot": {
+        "row": 2,
+        "column": 6,
+        "right_edge_partial": true,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:21:56Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:21:56-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 13,
+      "asset_id": "4bbdba2a-302d-428e-bc0c-3566bd84bde8",
+      "asset_id_short": "4bbdba2a",
+      "filename": "hf_20260909_002155_4bbdba2a-302d-428e-bc0c-3566bd84bde8.png",
+      "bytes": 4996783,
+      "sha256": "50b4729d6e53af88ebaa7bc5475bd2f5f05356950e56d95263744f7d06e0dc29",
+      "media_type": "image/png",
+      "descriptive_label": "Skeleton shield warrior",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Skeleton with glowing blue eyes, rusty helmet and mail, long sword and distressed red-and-white round shield; white background.",
+      "screenshot": {
+        "row": 3,
+        "column": 1,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:21:55Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:21:55-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 14,
+      "asset_id": "c4010a07-000c-439c-b8da-2a200549f97a",
+      "asset_id_short": "c4010a07",
+      "filename": "hf_20260909_002155_c4010a07-000c-439c-b8da-2a200549f97a.png",
+      "bytes": 5559711,
+      "sha256": "97dae7906bf3e6afbce529e45f6c5771e54a9ca3c7b291db1f6c2571843c1cb9",
+      "media_type": "image/png",
+      "descriptive_label": "Mottled black spider",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Large black-gray hairy spider with pale abdomen markings, multiple glossy eyes and prominent fangs; pale background.",
+      "screenshot": {
+        "row": 3,
+        "column": 2,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:21:55Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:21:55-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 2048,
+        "height": 2048
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 15,
+      "asset_id": "3e01be62-ba68-4862-84c2-91f017008f6b",
+      "asset_id_short": "3e01be62",
+      "filename": "hf_20260909_002155_3e01be62-ba68-4862-84c2-91f017008f6b.png",
+      "bytes": 5099615,
+      "sha256": "0bde5d642935f9ab3e976fc58c99b07e47c19cf671eb0f6f686c992b28730010",
+      "media_type": "image/png",
+      "descriptive_label": "Knife-bandolier rogue",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Black braided hair, sleeveless dark leather vest, gray cape, diagonal throwing-knife bandolier and paired hip knives; white background.",
+      "screenshot": {
+        "row": 3,
+        "column": 3,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:21:55Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:21:55-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    },
+    {
+      "screenshot_order": 16,
+      "asset_id": "3e9a9a70-5514-4bc1-b84a-8f09917ecefe",
+      "asset_id_short": "3e9a9a70",
+      "filename": "hf_20260909_002155_3e9a9a70-5514-4bc1-b84a-8f09917ecefe.png",
+      "bytes": 5305087,
+      "sha256": "689b224f0f6d5b95dba10b0e9a8f8785bf3928d4b8f5b5862de367e068a14265",
+      "media_type": "image/png",
+      "descriptive_label": "Purple-staff crowned lich",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Skeletal figure with purple eyes, tall spiked crown, black and purple gold-trimmed robes, skull shoulder and purple crystal staff; white background.",
+      "screenshot": {
+        "row": 3,
+        "column": 4,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:21:55Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:21:55-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGBA",
+      "has_alpha_channel": true
+    },
+    {
+      "screenshot_order": 17,
+      "asset_id": "2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae",
+      "asset_id_short": "2cfd6662",
+      "filename": "hf_20260909_002155_2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae.png",
+      "bytes": 5696269,
+      "sha256": "62e75a2a00795c2a77471c294cf2b775e45c10ba420544552fea45366db4df90",
+      "media_type": "image/png",
+      "descriptive_label": "Cleaver-wielding goblin",
+      "label_basis": "Visual description, not a supplied title or character identity",
+      "visible_traits": "Small yellow-green goblin with large pointed ears, yellow eyes, bone necklace, patched rags, boots and broad cleaver; white background.",
+      "screenshot": {
+        "row": 3,
+        "column": 5,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "filename_timestamp_utc": "2026-09-09T00:21:55Z",
+      "timestamp_basis": "Parsed hf_YYYYMMDD_HHMMSS filename prefix, interpreted as UTC; not filesystem or ZIP modification time",
+      "america_new_york_timestamp": "2026-09-08T20:21:55-04:00",
+      "america_new_york_date": "2026-09-08",
+      "validation": {
+        "archive_bytes_match": true,
+        "png_structure_valid": true,
+        "full_pixel_decode_passed": true,
+        "decoder": "Pillow 12.2.0"
+      },
+      "dimensions": {
+        "width": 1792,
+        "height": 2400
+      },
+      "image_mode": "RGB",
+      "has_alpha_channel": false
+    }
+  ]
+}

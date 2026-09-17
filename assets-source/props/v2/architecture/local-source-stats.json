@@ -1,0 +1,96 @@
+{
+  "asset": "AshenArchitectureKit",
+  "modules": {
+    "Arch": {
+      "parts": 92,
+      "evaluated_triangles": 9316,
+      "local_bounds_blender": [
+        [
+          -3.880000114440918,
+          -0.49900001287460327,
+          0.0
+        ],
+        [
+          3.880000114440918,
+          0.44999998807907104,
+          8.880000114440918
+        ]
+      ],
+      "dimensions_gltf": [
+        7.760000228881836,
+        8.880000114440918,
+        0.9490000009536743
+      ]
+    },
+    "Pillar": {
+      "parts": 16,
+      "evaluated_triangles": 1470,
+      "local_bounds_blender": [
+        [
+          -0.3499999940395355,
+          -0.44999998807907104,
+          0.0
+        ],
+        [
+          0.3499999940395355,
+          0.44999998807907104,
+          5.199999809265137
+        ]
+      ],
+      "dimensions_gltf": [
+        0.699999988079071,
+        5.199999809265137,
+        0.8999999761581421
+      ]
+    },
+    "Trim": {
+      "parts": 10,
+      "evaluated_triangles": 618,
+      "local_bounds_blender": [
+        [
+          -1.0,
+          -0.2849999964237213,
+          0.0
+        ],
+        [
+          1.0,
+          0.2150000035762787,
+          0.3499999940395355
+        ]
+      ],
+      "dimensions_gltf": [
+        2.0,
+        0.3499999940395355,
+        0.5
+      ]
+    }
+  },
+  "clearance_metres": [
+    6,
+    6.8
+  ],
+  "runtime_lods": {
+    "Arch": [
+      6000,
+      3000,
+      1200
+    ],
+    "Pillar": [
+      1200,
+      600,
+      240
+    ],
+    "Trim": [
+      600,
+      300,
+      120
+    ]
+  },
+  "texture_target": [
+    1024,
+    512,
+    512
+  ],
+  "source": "Original geometry and procedural materials; real local PBR bake required",
+  "runtime_lights": false
+}

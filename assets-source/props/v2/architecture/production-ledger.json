@@ -1,0 +1,71 @@
+{
+  "asset": "A03 original arch/pillar/trim kit",
+  "workspace_id": "bdeb1056-93d9-4c2d-8b80-389d588bab2f",
+  "initial_shared_balance": 4113.5,
+  "authorized_total_credit_ceiling": 1000,
+  "max_authoring_attempts": 2,
+  "authoring_attempt": 1,
+  "operation_id": "36b5a389-5fc8-461c-8640-b3007ca9f709",
+  "code_sha256": "181b4667de2efc5f5f40c898ab2d7434bf7f6252ee4115af8ac85f9095ad9e23",
+  "ledger": [
+    {
+      "event": "before_create",
+      "credits": 4113.5,
+      "utc": "2026-09-09T22:33:16.037918+00:00"
+    },
+    {
+      "event": "after_create_before_authoring",
+      "credits": 4113.5,
+      "utc": "2026-09-09T22:33:25.990252+00:00"
+    },
+    {
+      "event": "after_authoring_succeeded",
+      "credits": 4113.5,
+      "utc": "2026-09-09T22:54:43.624388+00:00"
+    },
+    {
+      "event": "after_exports_and_local_qa",
+      "credits": 4113.5,
+      "utc": "2026-09-09T23:00:57.721204+00:00"
+    }
+  ],
+  "cost_note": "Direct connector create/run/export price unspecified; observed balance change is recorded and is not a guarantee that the operation is free.",
+  "project_id": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+  "project_url": "https://higgsfield.ai/3d-jutsu/1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+  "status": "succeeded",
+  "revision_after": 1,
+  "scene_sequence_after": 0,
+  "active_operation_id": null,
+  "observed_total_credit_delta": 0,
+  "files": {
+    "author_kit.py": {
+      "bytes": 9366,
+      "sha256": "181b4667de2efc5f5f40c898ab2d7434bf7f6252ee4115af8ac85f9095ad9e23"
+    },
+    "cloud-source.blend": {
+      "bytes": 1406322,
+      "sha256": "5175bbd64d1bbda60a8ab36dda5f59a65cbedeb3cf2070f0c68708f75ce8514f"
+    },
+    "cloud-source.glb": {
+      "bytes": 660968,
+      "sha256": "aa877eab6c0fedb7218ae81a9cc1080988c940930f53aa25602fe3361364facd"
+    },
+    "cloud-source-review.png": {
+      "bytes": 517166,
+      "sha256": "b18f975972971cf8b570222675326776bd2d23fa48388ea1de1f8df18c1010c1"
+    }
+  },
+  "portable_bake_source": "cloud-source.blend",
+  "runtime_texture_budget_bytes": 4194304,
+  "final_artifacts_frozen": true,
+  "visual_qa": [
+    "cloud-source-review.png",
+    "compressed-lod0-review.png",
+    "compressed-lod1-review.png",
+    "compressed-lod2-review.png",
+    "fallback-lod0-review.png"
+  ],
+  "tool_limitations": [
+    "scene_builder_3d_query_python and scene_builder_3d_show_scene absent from callable tools; no tool-search capability available."
+  ]
+}

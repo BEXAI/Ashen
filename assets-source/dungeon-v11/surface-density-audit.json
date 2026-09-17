@@ -1,0 +1,686 @@
+{
+  "uvDensity": [
+    {
+      "room": "entry",
+      "family": "wall",
+      "triangles": 22714,
+      "densityOutlierTriangles": 21792,
+      "areaFractionOutside3_5to4_5m": 0.16778244830148167,
+      "metresPerTileTriangleQuantiles": [
+        0.5200219933778315,
+        0.8379463942478894,
+        2.1051764415896814
+      ]
+    },
+    {
+      "room": "entry",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "cinder",
+      "family": "wall",
+      "triangles": 20328,
+      "densityOutlierTriangles": 19440,
+      "areaFractionOutside3_5to4_5m": 0.13580211577754148,
+      "metresPerTileTriangleQuantiles": [
+        0.5571832265800551,
+        0.9101812118733019,
+        3.9277104908588183
+      ]
+    },
+    {
+      "room": "cinder",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "dusk",
+      "family": "wall",
+      "triangles": 20328,
+      "densityOutlierTriangles": 19472,
+      "areaFractionOutside3_5to4_5m": 0.12471172591358018,
+      "metresPerTileTriangleQuantiles": [
+        0.5571806282771194,
+        0.910181865055821,
+        3.9254971102495273
+      ]
+    },
+    {
+      "room": "dusk",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "crown",
+      "family": "wall",
+      "triangles": 21864,
+      "densityOutlierTriangles": 21144,
+      "areaFractionOutside3_5to4_5m": 0.13457649895101328,
+      "metresPerTileTriangleQuantiles": [
+        0.4019198329877033,
+        0.910189374058954,
+        2.105204694212302
+      ]
+    },
+    {
+      "room": "crown",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "throne",
+      "family": "wall",
+      "triangles": 20826,
+      "densityOutlierTriangles": 20048,
+      "areaFractionOutside3_5to4_5m": 0.13606898424733038,
+      "metresPerTileTriangleQuantiles": [
+        0.5419512239164574,
+        0.9101479383856613,
+        2.1101064853753284
+      ]
+    },
+    {
+      "room": "throne",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "passage-0",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "passage-0",
+      "family": "wall",
+      "triangles": 24,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "passage-1",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "passage-1",
+      "family": "wall",
+      "triangles": 24,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "passage-2",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "passage-2",
+      "family": "wall",
+      "triangles": 24,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "passage-3",
+      "family": "floor",
+      "triangles": 2,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "room": "passage-3",
+      "family": "wall",
+      "triangles": 24,
+      "densityOutlierTriangles": 0,
+      "areaFractionOutside3_5to4_5m": 0,
+      "metresPerTileTriangleQuantiles": [
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "lightmapJoins": [
+    {
+      "a": "entry",
+      "b": "passage-0",
+      "x": -2,
+      "z": 38,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        10
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "entry",
+      "b": "passage-0",
+      "x": 0,
+      "z": 38,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        10
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "entry",
+      "b": "passage-0",
+      "x": 2,
+      "z": 38,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        9
+      ],
+      "maxChannelDelta8": 4
+    },
+    {
+      "a": "passage-0",
+      "b": "cinder",
+      "x": -2,
+      "z": 32,
+      "aRgb8": [
+        7,
+        8,
+        10
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "passage-0",
+      "b": "cinder",
+      "x": 0,
+      "z": 32,
+      "aRgb8": [
+        7,
+        8,
+        10
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "passage-0",
+      "b": "cinder",
+      "x": 2,
+      "z": 32,
+      "aRgb8": [
+        7,
+        8,
+        9
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 4
+    },
+    {
+      "a": "cinder",
+      "b": "passage-1",
+      "x": -2,
+      "z": 8,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        10
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "cinder",
+      "b": "passage-1",
+      "x": 0,
+      "z": 8,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        10
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "cinder",
+      "b": "passage-1",
+      "x": 2,
+      "z": 8,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        9
+      ],
+      "maxChannelDelta8": 4
+    },
+    {
+      "a": "passage-1",
+      "b": "dusk",
+      "x": -2,
+      "z": 2,
+      "aRgb8": [
+        7,
+        8,
+        10
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "passage-1",
+      "b": "dusk",
+      "x": 0,
+      "z": 2,
+      "aRgb8": [
+        7,
+        8,
+        10
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "passage-1",
+      "b": "dusk",
+      "x": 2,
+      "z": 2,
+      "aRgb8": [
+        7,
+        8,
+        9
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 4
+    },
+    {
+      "a": "dusk",
+      "b": "passage-2",
+      "x": -2,
+      "z": -22,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        10
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "dusk",
+      "b": "passage-2",
+      "x": 0,
+      "z": -22,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        10
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "dusk",
+      "b": "passage-2",
+      "x": 2,
+      "z": -22,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        9
+      ],
+      "maxChannelDelta8": 4
+    },
+    {
+      "a": "passage-2",
+      "b": "crown",
+      "x": -2,
+      "z": -28,
+      "aRgb8": [
+        7,
+        8,
+        10
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "passage-2",
+      "b": "crown",
+      "x": 0,
+      "z": -28,
+      "aRgb8": [
+        7,
+        8,
+        10
+      ],
+      "bRgb8": [
+        10,
+        12,
+        13
+      ],
+      "maxChannelDelta8": 4
+    },
+    {
+      "a": "passage-2",
+      "b": "crown",
+      "x": 2,
+      "z": -28,
+      "aRgb8": [
+        7,
+        8,
+        9
+      ],
+      "bRgb8": [
+        10,
+        12,
+        13
+      ],
+      "maxChannelDelta8": 4
+    },
+    {
+      "a": "crown",
+      "b": "passage-3",
+      "x": -2,
+      "z": -48,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        10
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "crown",
+      "b": "passage-3",
+      "x": 0,
+      "z": -48,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        10
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "crown",
+      "b": "passage-3",
+      "x": 2,
+      "z": -48,
+      "aRgb8": [
+        10,
+        11,
+        13
+      ],
+      "bRgb8": [
+        7,
+        8,
+        9
+      ],
+      "maxChannelDelta8": 4
+    },
+    {
+      "a": "passage-3",
+      "b": "throne",
+      "x": -2,
+      "z": -56,
+      "aRgb8": [
+        7,
+        8,
+        10
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "passage-3",
+      "b": "throne",
+      "x": 0,
+      "z": -56,
+      "aRgb8": [
+        7,
+        8,
+        10
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 3
+    },
+    {
+      "a": "passage-3",
+      "b": "throne",
+      "x": 2,
+      "z": -56,
+      "aRgb8": [
+        7,
+        8,
+        9
+      ],
+      "bRgb8": [
+        10,
+        11,
+        13
+      ],
+      "maxChannelDelta8": 4
+    }
+  ],
+  "bakePadding": [
+    {
+      "id": "entry",
+      "shippedPaddingPixels": 4.465116279069767,
+      "lightmap": "/assets/dungeon/v9/entry-indirect.png",
+      "size": 1024
+    },
+    {
+      "id": "cinder",
+      "shippedPaddingPixels": 4.478134110787172,
+      "lightmap": "/assets/dungeon/v9/cinder-indirect.png",
+      "size": 1024
+    },
+    {
+      "id": "dusk",
+      "shippedPaddingPixels": 4.351274787535411,
+      "lightmap": "/assets/dungeon/v9/dusk-indirect.png",
+      "size": 1024
+    },
+    {
+      "id": "crown",
+      "shippedPaddingPixels": 4.571428571428571,
+      "lightmap": "/assets/dungeon/v9/crown-indirect.png",
+      "size": 1024
+    },
+    {
+      "id": "throne",
+      "shippedPaddingPixels": 4.401146131805158,
+      "lightmap": "/assets/dungeon/v9/throne-indirect.png",
+      "size": 1024
+    },
+    {
+      "id": "passage-0",
+      "shippedPaddingPixels": 5.052631578947368,
+      "lightmap": "/assets/dungeon/v9/passage-0-indirect.png",
+      "size": 256
+    },
+    {
+      "id": "passage-1",
+      "shippedPaddingPixels": 5.12,
+      "lightmap": "/assets/dungeon/v9/passage-1-indirect.png",
+      "size": 256
+    },
+    {
+      "id": "passage-2",
+      "shippedPaddingPixels": 5.12,
+      "lightmap": "/assets/dungeon/v9/passage-2-indirect.png",
+      "size": 256
+    },
+    {
+      "id": "passage-3",
+      "shippedPaddingPixels": 5.12,
+      "lightmap": "/assets/dungeon/v9/passage-3-indirect.png",
+      "size": 256
+    }
+  ]
+}

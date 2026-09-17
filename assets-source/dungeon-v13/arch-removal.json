@@ -1,0 +1,38 @@
+[
+  {
+    "id": "entry",
+    "z": 38,
+    "source": "/assets/dungeon/v10/entry.glb",
+    "sourceSha256": "2311acf53d16587ead9c66d7e60533643b89692721a66ec81e757d1a8c1c8db3",
+    "removedTriangles": 984,
+    "matchToleranceMetres": 0.002,
+    "preserved": "All vertex attribute bytes and all nonmatched triangle indices; existing UV1 and v11 lightmaps"
+  },
+  {
+    "id": "cinder",
+    "z": 8,
+    "source": "/assets/dungeon/v12/cinder.glb",
+    "sourceSha256": "c5b38545c606607249a9bc72952d7c5d47e5379f76290a5cd7a31bd91ab7a067",
+    "removedTriangles": 984,
+    "matchToleranceMetres": 0.002,
+    "preserved": "All vertex attribute bytes and all nonmatched triangle indices; existing UV1 and v11 lightmaps"
+  },
+  {
+    "id": "dusk",
+    "z": -22,
+    "source": "/assets/dungeon/v12/dusk.glb",
+    "sourceSha256": "4b72f539bdc403067d7e4be5e48168efc27a0f83d50808178ff8d21367ce22c4",
+    "removedTriangles": 984,
+    "matchToleranceMetres": 0.002,
+    "preserved": "All vertex attribute bytes and all nonmatched triangle indices; existing UV1 and v11 lightmaps"
+  },
+  {
+    "id": "crown",
+    "z": -48,
+    "source": "/assets/dungeon/v12/crown.glb",
+    "sourceSha256": "51ea00b8c3599301d54df31e6a48c2b0ca49282dd3c708ae9a7718350d118781",
+    "removedTriangles": 3384,
+    "matchToleranceMetres": 0.002,
+    "preserved": "All vertex attribute bytes and all nonmatched triangle indices; existing UV1 and v11 lightmaps"
+  }
+]

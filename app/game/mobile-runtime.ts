@@ -41,7 +41,8 @@ export class RenderLoop {
   private suspended = false;
   private stopped = false;
   private pacer = new FramePacer(60);
-  constructor(private draw: (now: number) => void,
+  private lastRaf = 0;
+  constructor(private draw: (now: number, rafInterval: number) => void,
     private request: (cb: FrameRequestCallback) => number = cb => requestAnimationFrame(cb),
     private cancel: (id: number) => void = id => cancelAnimationFrame(id)) {}
   invalidate() {
@@ -50,37 +51,19 @@ export class RenderLoop {
   private tick = (now: number) => {
     this.handle = null;
     if (this.stopped || this.suspended) return;
+    const rafInterval=this.lastRaf?now-this.lastRaf:0;this.lastRaf=now;
     if (!this.paused && !this.pacer.ready(now)) { this.invalidate(); return; }
-    this.draw(now);
+    this.draw(now,rafInterval);
     if (!this.paused) this.invalidate();
   };
-  pause(value: boolean) { this.paused = value; this.pacer.reset(); this.invalidate(); }
+  pause(value: boolean) { this.paused = value; this.pacer.reset();this.lastRaf=0; this.invalidate(); }
+  setFps(fps:number) { this.pacer = new FramePacer(fps <= 30 ? 30 : 60); this.invalidate(); }
   suspend(value: boolean) {
-    this.suspended = value; this.pacer.reset();
+    this.suspended = value; this.pacer.reset();this.lastRaf=0;
     if (value && this.handle !== null) { this.cancel(this.handle); this.handle = null; }
     if (!value) this.invalidate();
   }
   dispose() { this.stopped = true; if (this.handle !== null) this.cancel(this.handle); this.handle = null; }
-}
-
-/** Slow adjustments only; one expensive frame never changes the quality. */
-export class AdaptiveResolution {
-  scale = 1;
-  private elapsed = 0;
-  private frames = 0;
-  sample(milliseconds: number) {
-    if (milliseconds <= 0 || milliseconds > 200) return false;
-    this.elapsed += milliseconds;
-    this.frames++;
-    if (this.elapsed < 3000) return false;
-    const average = this.elapsed / this.frames;
-    this.elapsed = 0; this.frames = 0;
-    const next = average > 25 ? Math.max(0.65, this.scale - 0.1) : average < 18 ? Math.min(1, this.scale + 0.05) : this.scale;
-    if (Math.abs(next - this.scale) < 0.001) return false;
-    this.scale = next;
-    return true;
-  }
-  resetSamples() { this.elapsed = 0; this.frames = 0; }
 }
 
 /** Several save triggers share one write and, if needed, one latest-state follow-up. */

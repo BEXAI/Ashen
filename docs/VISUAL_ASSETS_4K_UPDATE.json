@@ -1,0 +1,280 @@
+{
+  "schema_version": "1.0.0",
+  "document_type": "codex_visual_asset_update",
+  "title": "Ashen Realm — detailed materials and dungeon lighting",
+  "created_on": "2026-09-08",
+  "execution": {
+    "authorized": true,
+    "instruction": "Implement this visual-only update on the existing game. Carry forward the earlier CODEX_UPGRADE_INSTRUCTIONS.json. This document specifies the next visual asset pass; it does not waive unfinished premium sculpt, rendered inspection or physical-device gates in the earlier brief.",
+    "release": "Commit and push the verified source, then save a matching Site version. Do not change site visibility or deploy unless deployment is requested.",
+    "completion": "Track implemented, structurally tested, visually reviewed, device tested, saved and deployed separately. Never mark unavailable visual evidence as passed. Preserve functional fallbacks for unavailable external assets."
+  },
+  "project": {
+    "path": "/workspace/sites/ashen-realm",
+    "project_id": "appgprj_6a9d4c4f647481918c6449a0bbfcc828",
+    "url": "https://ashen-realm.optinuss.chatgpt.site",
+    "baseline_sha": "44d3e39e88869d96359514f34290e4f170b16b20",
+    "latest_saved_version": 8,
+    "last_confirmed_deployed_version": 7
+  },
+  "audit": {
+    "verified": [
+      "The live guest menu loads. The inspected browser has WebGL disabled; no rendered dungeon frame was obtained.",
+      "Ultra already targets a real 3840 by 2160 drawing buffer at 16:9, bounded by hardware limits. Increasing resolution alone does not solve asset quality.",
+      "The three characters are articulated authored reconstructions, not completed premium sculpts. They have independent skeleton instances, 13 clips, three LOD meshes and compressed plus PNG fallback GLBs.",
+      "The current 4 by 4 material atlas gives each family only 64 to 256 pixels per tile. Its occlusion channel is uniformly white.",
+      "Five rooms and four passages use 512 pixel lightmaps with one chart per triangle. Main room charts are approximately 3 to 4 pixels wide.",
+      "The current dungeon bake is a diffuse first-bounce patch approximation, not a full global illumination solution.",
+      "Existing stone sources include 4K Poly Haven materials. Existing iPhone Auto mode limits resolution, effects and light count.",
+      "The baseline passed 65 regression tests, typecheck, syntax check and production build; these do not establish visual quality."
+    ],
+    "inferences_to_verify": [
+      "Very small lightmap charts can produce weak gradients and seams.",
+      "Repeated tiny character material tiles lose close-up identity and wear detail.",
+      "Added geometric detail must be evaluated at real play distance before increasing runtime budgets."
+    ]
+  },
+  "scope": {
+    "allowed": [
+      "3D visual geometry",
+      "UV layouts",
+      "PBR textures",
+      "baked irradiance",
+      "visual set dressing",
+      "reflection and diffuse lighting assets",
+      "fire and contact effect presentation",
+      "asset manifests",
+      "asset binding and disposal",
+      "offline authoring scripts",
+      "development-only visual inspection"
+    ],
+    "protected": [
+      "combat timing and damage",
+      "weapon reach and collision",
+      "stamina and economy",
+      "enemy AI",
+      "quests and gates",
+      "room footprints and navigation",
+      "saved progress and API behavior",
+      "iPhone touch controls and safe areas",
+      "camera movement and collision",
+      "authentication",
+      "site visibility"
+    ],
+    "protected_sha256": {
+      "app/game/combat.ts": "58e5f245985fc2b8eb4ccc2dcc857230e5fb20413b75a2d60f107d2824c95f20",
+      "app/game/model.ts": "f8e3f69293942c1c2076363052bb5e25c0e603e4189b05ef2036960e528bbf07",
+      "app/game/dungeon.ts": "994bd1a81964eb730d996d6e15fafb2b0ab58050b23235ee393e39d94d477b19",
+      "app/game/TouchControls.tsx": "adcf3173469e59a8334b4dffb48bfe52d0d61020334fa210e07defa4a765232a",
+      "app/game/mobile.css": "ec4106a09f77bfb8008afea677641b5a51e4a894d2c8c2128f041ad012e0eac0",
+      "app/api/progress/route.ts": "68cd08ac7116e572851337bf78521dc87605683fc4f22f5527e75d60cdf6e0bd",
+      "app/game/mobile-runtime.ts": "dff067489d596bf18a4e304d30b33392c15acf6e1bf407789bf19c996263be9c"
+    },
+    "authorized_followup": {
+      "request": "Integrate September 8 references as playable characters and enemies",
+      "changes": {
+        "app/game/model.ts": "Optional hero ID, six valid hero choices, backward-compatible new-progress default.",
+        "app/api/progress/route.ts": "Validate and persist selected hero when starting a journey."
+      },
+      "validation": "tests/game.test.mjs verifies legacy saves, new hero persistence, invalid IDs, revision conflicts, economy, gates and combat; tests/roster.test.mjs verifies actual animated contact."
+    }
+  },
+  "art_direction": {
+    "thesis": "Weathered armor and ancient burial stone lit by restrained amber fire, with cool recesses, physical surface variation and readable silhouettes.",
+    "characters": {
+      "ash-knight": "Forged satin steel, shaped plate edges, rivets, chainmail, dark leather, oxblood pleated cloth; preserve weapon and silhouette scale.",
+      "crypt-warden": "Ash-gray organic skin, subtle veins and healed scars, worn ivory bone plating, readable eye sockets, pointed claws and bone mace.",
+      "ember-sovereign": "Dark fractured volcanic armor, layered crown and plates, ember fissures occupying a small surface fraction, blackened metal and greatsword."
+    },
+    "rooms": {
+      "entry": "Threshold: restrained carved border stones and damp cool entrance masonry.",
+      "cinder": "Cinder Crypt: soot-dark burial recesses and iron funerary reliefs.",
+      "dusk": "Ossuary: ordered bone and skull reliefs, pale mineral highlights and cold recesses.",
+      "crown": "Chapel: carved arches, oxblood hanging cloth and ceremonial wall ornament.",
+      "throne": "Hollow Throne: layered broken stone, pointed crown relief and restrained ember accents."
+    }
+  },
+  "work_packages": [
+    {
+      "id": "V01",
+      "name": "Character material coverage and surface baking",
+      "depends_on": [],
+      "tasks": [
+        "Replace the fixed material-slot grid with area-aware unique UV charts using xatlas through watlas, retaining a source material coordinate attribute during baking.",
+        "Create true 4096 pixel master atlases from high-detail source fields and generated diffuse material textures; do not merely enlarge the old 1024 pixel atlas.",
+        "Bake geometric occlusion from the actual model with deterministic hemisphere rays and use the result in the red ORM channel. Keep color separate from occlusion.",
+        "Keep roughness and metalness as independent authored channels and tangent normals derived from explicit surface height fields. Do not claim photographic albedo is a measured PBR scan.",
+        "Use MikkTSpace tangents consistently after UV changes and LOD simplification, with finite fallback tangents at degenerate UVs.",
+        "Add controlled bevels, cloth folds, rivets and silhouette detail in editable authoring geometry without changing skeleton pivots or weapon reach.",
+        "Retain source images, original generation job metadata and honest art-production status. Premium full-anatomy sculpt and deformation approval remain a distinct gate."
+      ],
+      "acceptance": [
+        "All three characters have nonconstant geometric AO",
+        "Texture manifests list real dimensions and formats",
+        "13 clip names and semantic nodes survive",
+        "Socket error remains below 0.04 metres",
+        "LOD triangles decrease",
+        "No source material override silently discards authored normal scale"
+      ]
+    },
+    {
+      "id": "V02",
+      "name": "Dungeon composition and contact detail",
+      "depends_on": [],
+      "tasks": [
+        "Add shallow modular wall reliefs, carved stone borders, burial skull details, banner folds and crown ornament that distinguish the existing five rooms.",
+        "Keep all additions on existing wall, ceiling and throne surfaces; do not add invisible obstacles to open combat lanes.",
+        "Preserve shared material batches and independent room streaming; use vertex tint where sufficient to vary age, soot and dampness.",
+        "Preserve Poly Haven texture scale and color/data conventions."
+      ],
+      "acceptance": [
+        "Nine chunks remain independently streamable",
+        "At most ten material batches per room",
+        "Protected dungeon and model files are byte-identical",
+        "New geometry has finite bounds"
+      ]
+    },
+    {
+      "id": "V03",
+      "name": "Continuous lightmaps and directional ambient assets",
+      "depends_on": [
+        "V02"
+      ],
+      "tasks": [
+        "Replace per-triangle UV1 grids with contiguous area-weighted charts, adequate padding and explicit edge dilation.",
+        "Bake at 1024 pixels for rooms with smaller passage maps; record chart count, utilization, map dimensions and hashes.",
+        "Sample static architecture visibility for indirect light and contact occlusion; exclude actors, moving gates and shrine activation states.",
+        "Keep a clear declaration of the actual offline approximation used. Do not label it path-traced GI or Cycles unless that renderer actually produced the asset.",
+        "Add directional low-order diffuse probe coefficients matched to room palette, with smooth room blending and conservative intensity.",
+        "Preserve the bounded torch pool, motivated shadow source, exposure, renderer and graphics defaults."
+      ],
+      "acceptance": [
+        "UV1 charts are non-overlapping within raster tolerance",
+        "Padding is valid at shipped map resolution",
+        "Irradiance is linear and does not include albedo",
+        "No permanent active-shrine light is baked",
+        "Lightmap ownership and disposal tests pass"
+      ]
+    },
+    {
+      "id": "V04",
+      "name": "Restrained fire and impact presentation",
+      "depends_on": [],
+      "tasks": [
+        "Remove frame-border leakage with explicit atlas UV bounds, mip-safe insets and a short crossfade between adjacent flame frames where affordable.",
+        "Use a rounded, soft-edged contact particle presentation with size and opacity following lifetime, rather than square points.",
+        "Retain fixed particle capacity, current impact timing, reduced-motion behavior and one pooled particle draw.",
+        "Do not add fullscreen haze, heavy motion blur, depth of field or camera shake."
+      ],
+      "acceptance": [
+        "No new gameplay clock",
+        "Repeated impacts expire and reuse existing buffers",
+        "Reduced motion remains honored",
+        "Shader compilation is separately identified as requiring a GPU"
+      ]
+    },
+    {
+      "id": "V05",
+      "name": "Mobile-safe quality variants",
+      "depends_on": [
+        "V01",
+        "V03",
+        "V04"
+      ],
+      "tasks": [
+        "Ship low 512 pixel and mobile 1024 pixel character atlases with a desktop HD 2048 pixel tier and Ultra 4096 pixel hero/boss color where useful; use smaller data maps and enemy variants as appropriate.",
+        "Encode color/emission as ETC1S and normal/ORM as UASTC with mipmaps. Keep PNG fallback GLBs capped at mobile-safe map sizes for decoder failures.",
+        "Keep one material draw per LOD unless a measured visual benefit warrants another, and share templates across monsters.",
+        "Keep replacements serialized and release superseded images, textures, geometry and skeletons.",
+        "Report compressed download bytes and worst-case RGBA8 mip allocation separately. Never treat transfer size as GPU memory.",
+        "Keep true 4K output available as explicit Ultra; preserve adaptive iPhone Auto and Performance controls."
+      ],
+      "acceptance": [
+        "No automatic Ultra on iPhone",
+        "Fallback memory remains bounded",
+        "All runtime map headers identify actual universal compression",
+        "Quality changes coalesce",
+        "No increase in simultaneous shader light count"
+      ]
+    },
+    {
+      "id": "V06",
+      "name": "Verification, evidence and save",
+      "depends_on": [
+        "V01",
+        "V02",
+        "V03",
+        "V04",
+        "V05"
+      ],
+      "tasks": [
+        "Run typecheck, source lint, syntax check, existing regression tests and production build.",
+        "Add only meaningful checks for the new UV layout, channel contents, source hashes, memory bounds and effect lifetime behavior.",
+        "Inspect exported texture masters. Compare neutral and dungeon character views plus entrance, Warden and boss scenes at identical camera, exposure and resolution when a supported WebGL environment is available.",
+        "Record browser and physical-device limitations explicitly; never substitute a concept image or offline texture preview for a rendered game frame.",
+        "Provide an implementation report mapping every package to evidence and remaining art or device gates.",
+        "Commit and push matching source, package a verified archive and save the next Site version."
+      ],
+      "acceptance": [
+        "Every protected source hash matches baseline",
+        "All structural checks pass",
+        "No missing runtime asset",
+        "Saved source SHA matches archive version",
+        "Unpassed visual and physical iPhone gates remain explicitly open"
+      ]
+    }
+  ],
+  "quality_targets": {
+    "status": "Proposed asset budgets; actual device performance must be measured.",
+    "character_material_draws_per_lod": 1,
+    "max_bones": 64,
+    "max_weights_per_vertex": 4,
+    "max_socket_deviation_metres": 0.04,
+    "max_room_material_batches": 10,
+    "asset_texture_rgba8_mip_estimate_mib": {
+      "low": 64,
+      "mobile": 96,
+      "desktop_hd": 160,
+      "ultra": 320
+    },
+    "budget_exclusions": [
+      "framebuffers",
+      "shadow targets",
+      "postprocessing",
+      "reflection targets",
+      "geometry",
+      "browser overhead"
+    ],
+    "memory_policy": "Account for one old/new character overlap during replacement. Lower fallback texture dimensions before increasing device defaults. 4096 square RGBA8 with full mipmaps alone is about 85.33 MiB."
+  },
+  "sources": [
+    {
+      "title": "Three.js color management",
+      "url": "https://threejs.org/manual/en/color-management.html"
+    },
+    {
+      "title": "KTX2Loader",
+      "url": "https://threejs.org/docs/pages/KTX2Loader.html"
+    },
+    {
+      "title": "glTF 2.0 specification",
+      "url": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html"
+    },
+    {
+      "title": "glTF Transform UV unwrap",
+      "url": "https://gltf-transform.dev/modules/functions/functions/unwrap"
+    },
+    {
+      "title": "watlas",
+      "url": "https://github.com/toji/watlas"
+    },
+    {
+      "title": "KTX Software",
+      "url": "https://github.com/KhronosGroup/KTX-Software"
+    },
+    {
+      "title": "Poly Haven asset license",
+      "url": "https://polyhaven.com/license"
+    }
+  ]
+}

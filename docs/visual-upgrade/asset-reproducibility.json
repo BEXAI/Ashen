@@ -1,0 +1,8 @@
+{
+  "method": "Reconstruct every packed source/runtime binary into a separate empty temporary root from tracked exact byte blocks; validate each block, full hash and size.",
+  "assets": 41,
+  "restored": 41,
+  "totalBytes": 472475825,
+  "status": "pass",
+  "sourceManifest": "assets-source/large-assets.json"
+}

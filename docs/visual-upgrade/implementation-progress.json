@@ -1,0 +1,236 @@
+{
+  "plan_path": "/Users/nathaniel/Documents/ChatGPT/Knight/plans/ashen-realm-full-stack-update-plan.json",
+  "plan_sha256": "d3ab3f0aecfb8b634576d210c1a0e43a600d9e978461a154667430f7d42b751c",
+  "current_steps": [
+    "P25",
+    "P26"
+  ],
+  "steps": {
+    "P01": {
+      "status": "complete",
+      "evidence": []
+    },
+    "P02": {
+      "status": "complete",
+      "evidence": [
+        "app/game/frame-measurements.ts",
+        "tests/graphics-preferences.test.mjs",
+        "tests/render-history.test.mjs",
+        "docs/visual-upgrade/desktop-runtime-results.json"
+      ]
+    },
+    "P03": {
+      "status": "complete",
+      "evidence": [
+        "app/game/graphics-preferences.ts",
+        "tests/graphics-preferences.test.mjs",
+        "Local browser persistence verified: brightness130%, impactshakeon survived reload; reset100%/off."
+      ]
+    },
+    "P04": {
+      "status": "complete",
+      "evidence": [
+        "app/game/lighting-profiles.ts",
+        "app/game/dungeon-lighting.ts",
+        "tests/graphics-preferences.test.mjs"
+      ]
+    },
+    "P05": {
+      "status": "complete_with_documented_limitations",
+      "evidence": [
+        "docs/visual-upgrade/screenshots/updated-local-game-entry.png",
+        "docs/visual-upgrade/lighting-calibration.json",
+        "docs/visual-upgrade/visual-review.json"
+      ]
+    },
+    "P06": {
+      "status": "complete",
+      "evidence": [
+        "assets-source/props/v1/sconce/production-ledger.json"
+      ]
+    },
+    "P07": {
+      "status": "complete",
+      "evidence": [
+        "assets-source/props/v1/sconce/production-ledger.json"
+      ]
+    },
+    "P08": {
+      "status": "complete",
+      "evidence": [
+        "public/assets/props/v1/manifest.json",
+        "scripts/package-prop-assets.mjs"
+      ]
+    },
+    "P09": {
+      "status": "complete",
+      "evidence": [
+        "tests/prop-assets.test.mjs",
+        "docs/visual-upgrade/screenshots/sconce-low-before.png",
+        "docs/visual-upgrade/screenshots/sconce-low-after.png",
+        "docs/visual-upgrade/sconce-low-diagnostics.json",
+        "app/game/prop-assets.ts",
+        "tests/prop-assets.test.mjs"
+      ]
+    },
+    "P10": {
+      "status": "complete",
+      "evidence": [
+        "public/assets/characters/v11/manifest.json",
+        "tests/sovereign-mobile.test.mjs"
+      ]
+    },
+    "P11": {
+      "status": "complete_with_documented_limitations",
+      "evidence": [
+        "app/game/character-presentation.ts",
+        "tests/character-presentation.test.mjs",
+        "tests/gait-contact.test.mjs",
+        "docs/visual-upgrade/stance-comparison.json"
+      ]
+    },
+    "P12": {
+      "status": "complete_with_documented_limitations",
+      "evidence": [
+        "app/game/foot-contact-cache.json",
+        "tests/character-presentation.test.mjs",
+        "app/game/gait-contact.ts",
+        "scripts/derive-gait-cache.mjs",
+        "docs/visual-upgrade/stance-comparison.json"
+      ]
+    },
+    "P13": {
+      "status": "complete",
+      "evidence": [
+        "docs/visual-upgrade/reference-slice-review.json"
+      ]
+    },
+    "P14": {
+      "status": "complete",
+      "evidence": [
+        "app/game/surface-uv.ts",
+        "assets-source/dungeon-v11/report.json",
+        "public/assets/dungeon/v11/manifest.json",
+        "docs/visual-upgrade/material-spec.json",
+        "assets-source/dungeon-v11/report.json"
+      ]
+    },
+    "P15": {
+      "status": "complete",
+      "evidence": [
+        "assets-source/props/v2/shrine/production-ledger.json",
+        "assets-source/props/v2/release-ledger.json",
+        "public/assets/props/v2/manifest.json"
+      ]
+    },
+    "P16": {
+      "status": "complete",
+      "evidence": [
+        "app/game/prop-assets.ts",
+        "public/assets/dungeon/v12/manifest.json",
+        "assets-source/dungeon-v12/validation.json",
+        "app/game/shrine-assets.ts",
+        "app/game/architecture-assets.ts",
+        "docs/visual-upgrade/environment-verification.json"
+      ]
+    },
+    "P17": {
+      "status": "complete",
+      "evidence": [
+        "app/game/combat-feedback.ts",
+        "tests/combat-feedback.test.mjs",
+        "tests/engine-feedback.test.mjs"
+      ]
+    },
+    "P18": {
+      "status": "complete_with_documented_limitations",
+      "evidence": [
+        "app/game/camera-feedback.ts",
+        "tests/engine-feedback.test.mjs"
+      ]
+    },
+    "P19": {
+      "status": "complete_with_documented_limitations",
+      "evidence": [
+        "app/game/auto-controller.ts",
+        "tests/auto-controller.test.mjs",
+        "docs/visual-upgrade/quality-swap-history.json"
+      ]
+    },
+    "P20": {
+      "status": "complete_with_documented_limitations",
+      "evidence": [
+        "app/game/character-assets.ts",
+        "app/game/prop-assets.ts",
+        "tests/auto-controller.test.mjs",
+        "docs/visual-upgrade/desktop-runtime-results.json",
+        "tests/auto-controller.test.mjs"
+      ]
+    },
+    "P21": {
+      "status": "complete",
+      "evidence": [
+        "tests/engine-feedback.test.mjs",
+        "tests/game.test.mjs",
+        "tests/mobile-runtime.test.mjs"
+      ]
+    },
+    "P22": {
+      "status": "complete",
+      "evidence": [
+        "docs/visual-upgrade/asset-reproducibility.json",
+        "scripts/prune-environment-build.mjs"
+      ]
+    },
+    "P23": {
+      "status": "complete",
+      "evidence": [
+        "tests/graphics-preferences.test.mjs",
+        "docs/visual-upgrade/automated-validation.json"
+      ]
+    },
+    "P24": {
+      "status": "complete_with_documented_limitations",
+      "evidence": [
+        "docs/visual-upgrade/device-results.json",
+        "docs/visual-upgrade/visual-review.json",
+        "docs/visual-upgrade/device-results.json"
+      ]
+    },
+    "P25": {
+      "status": "in_progress",
+      "evidence": []
+    },
+    "P26": {
+      "status": "not_started",
+      "evidence": []
+    }
+  },
+  "gates": {
+    "G01": "pass: source/asset versions and timing semantics recorded",
+    "G02": "pass: workspace, authored rights and 1000 credit ceiling resolved",
+    "G03": "pass: actual compressed and fallback assets, mounts, shared budgets and loader lifecycle checked",
+    "G04": "pass: reference sconce comparison, combat/boss desktop samples and actual character pose/contact tests reviewed before A02/A03 expansion; phone acceptance remains separate",
+    "G05": "pass:188 tests, TypeScript, production build, syntax, lint and exact dependency checks; built output169.58MiB before final archive",
+    "G06": "pending: iPhone17 Safari and broader physical-device evidence; limited-validation publication allowed by plan",
+    "G07": "pending",
+    "G08": "pending"
+  },
+  "higgsfield_budget": {
+    "authorized_total": 1000,
+    "starting_balance": 4113.5,
+    "workspace_id": "bdeb1056-93d9-4c2d-8b80-389d588bab2f",
+    "pilot_project_id": "21434c15-bdde-4abd-bcb9-62098cae463a",
+    "cost_quote": "Unavailable for direct scene operations; measure balance changes without assuming exclusive account usage.",
+    "usage_caveat": "Observed balance delta 0 for pilot; unpublished direct-scene cost not represented as a guaranteed free price.",
+    "observed_balance_debit": 0,
+    "confirmed_billed_usage": null
+  },
+  "pending_evidence": [
+    "Physical iPhone17 Safari measurements; OS/display/power unknown",
+    "Older iPhone/Android coverage and15-minute thermal soak",
+    "Terminal exact-source publication receipt"
+  ],
+  "source_baseline": "a10946e134fa7b915370f664100536c2f95f0c82",
+  "next_action": "Commit validated source, rebuild with exact source revision, push configured source branch, package/save/publish existing public Site; attach external terminal receipt."
+}

@@ -1,0 +1,181 @@
+{
+  "status": "Validated asset candidate ready for parent integration; no Site files changed",
+  "candidate": "/tmp/ashen-character-refinement/candidate/ember-sovereign-rigged-master.glb",
+  "editableSource": "/tmp/ashen-character-refinement/source/sovereign-refined-rig.blend",
+  "rebuildScript": "/tmp/ashen-character-refinement/scripts/rebuild_refinement.py",
+  "scope": [
+    "P10 sovereign shoulder underarmor and rigid plate weighting",
+    "P12 bounded cape rest clearance and isolated dodge lower-cape curve"
+  ],
+  "measured": {
+    "weaponSocketSamples": 484,
+    "maxWeaponBaseDeltaMetres": 0,
+    "maxWeaponTipDeltaMetres": 0,
+    "candidate": "/tmp/ashen-character-refinement/candidate/ember-sovereign-rigged-master.glb",
+    "bytes": 11254352,
+    "sha256": "776a3cf088b531c3d89748500f380b95bec6df1e51d62b9de193d2d90bd3fba1",
+    "baselineSha256": "f3f66e881e656b14e4683de653143c7663b1af65e88b13244870a8266c122516",
+    "rig": "15 original joint transforms and inverse bind matrices exact",
+    "sockets": "Exact names, hierarchy and transforms",
+    "clips": 13,
+    "channels": 390,
+    "unchangedChannels": 389,
+    "changedChannels": [
+      "dodge/cape_lower/rotation"
+    ],
+    "clipInputTimes": "All exact",
+    "allWeaponAncestorTracks": "Exact in every clip; independently sampled original/candidate sockets across four strikes",
+    "weaponGeometry": "204 triangles, all vertex attributes and indices exact in every LOD",
+    "textures": "All 8 original image bytes exact",
+    "geometry": [
+      {
+        "lod": 0,
+        "triangles": 23208,
+        "vertices": 33945,
+        "maxWeights": 2,
+        "primitives": 2
+      },
+      {
+        "lod": 1,
+        "triangles": 14413,
+        "vertices": 26032,
+        "maxWeights": 2,
+        "primitives": 2
+      },
+      {
+        "lod": 2,
+        "triangles": 7777,
+        "vertices": 11872,
+        "maxWeights": 3,
+        "primitives": 2
+      }
+    ],
+    "materials": 2,
+    "validation": {
+      "numErrors": 0,
+      "numWarnings": 3,
+      "numInfos": 0,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/16"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/17"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/18"
+        }
+      ],
+      "truncated": false
+    }
+  },
+  "deformation": {
+    "method": "Actual animated LOD0 triangles, BVH triangle/triangle intersections. Cape comparison excludes rest-space centers above1.92m to omit intentional shoulder attachment. Counts measure intersection severity, not physical penetration depth. Shoulder stretch covers anatomical underarmor edges >1cm with all triangle vertices in shoulder band.",
+    "samples": 20,
+    "finiteAll": true,
+    "maxShoulderEdgeStretchBefore": 7.641,
+    "maxShoulderEdgeStretchAfter": 2.9881,
+    "totalCapeTrianglePairsBefore": 2166,
+    "totalCapeTrianglePairsAfter": 30,
+    "remainingCapeIntersections": [
+      {
+        "pose": "side-contact",
+        "clip": "side",
+        "time": 0.25,
+        "before": {
+          "capeBodyIntersectingPairsBelowAttachment": 53,
+          "uniqueCapeTrianglesIntersectingBody": 17,
+          "shoulderUnderarmorMaxEdgeStretch": 3.8636,
+          "finite": true
+        },
+        "after": {
+          "capeBodyIntersectingPairsBelowAttachment": 12,
+          "uniqueCapeTrianglesIntersectingBody": 6,
+          "shoulderUnderarmorMaxEdgeStretch": 1.6804,
+          "finite": true
+        }
+      },
+      {
+        "pose": "backhand-contact",
+        "clip": "backhand",
+        "time": 0.22999999999999998,
+        "before": {
+          "capeBodyIntersectingPairsBelowAttachment": 56,
+          "uniqueCapeTrianglesIntersectingBody": 20,
+          "shoulderUnderarmorMaxEdgeStretch": 4.0245,
+          "finite": true
+        },
+        "after": {
+          "capeBodyIntersectingPairsBelowAttachment": 18,
+          "uniqueCapeTrianglesIntersectingBody": 8,
+          "shoulderUnderarmorMaxEdgeStretch": 1.7186,
+          "finite": true
+        }
+      }
+    ],
+    "report": "/tmp/ashen-character-refinement/deformation-comparison.json"
+  },
+  "authoredChanges": {
+    "shoulderUnderarmor": "Continuous torso/upper-arm blend over source y=1.29..1.61; replaces binary upper shoulder seam",
+    "pauldronUpperCapArmWeight": 0.84,
+    "pauldronSecondLameArmWeight": 0.96,
+    "pauldronDistalArmWeight": 1,
+    "capeMaxRestSetbackMetres": 0.2,
+    "capeRestSetbackFormula": "lower=1-smoothstep(1.45,2.12,mappedY); z-=.20*(.45*lower+.55*lower^2)",
+    "changedAnimationChannels": [
+      "dodge/cape_lower/rotation"
+    ],
+    "dodgeQuaternionFormula": "qNew=normalize(qOriginal * quat(localX, .18*sin(pi*t/duration)^2))",
+    "otherChannels": "389 channel outputs exact; all 390 input-time accessors and interpolation modes exact"
+  },
+  "evidence": {
+    "nearPoseCount": 22,
+    "nearImageCount": 66,
+    "nearDirectory": "/tmp/ashen-character-refinement/final-pose-qa",
+    "farPoseCount": 7,
+    "farImageCount": 21,
+    "farDirectory": "/tmp/ashen-character-refinement/final-far-qa",
+    "ashKnight": "Unchanged original geometry; seven key poses across three views reviewed",
+    "cryptWarden": "Unchanged original geometry; seven key poses across three views reviewed"
+  },
+  "limitations": [
+    "Small residual cape/body contacts in side and backhand contact samples; geometric pair counts do not measure penetration depth or certify continuous collision-free motion",
+    "Authored skin weights improve but do not eliminate underarmor stretching; practical mobile silhouette, not photorealistic reconstruction",
+    "Original coarse Ash Knight and Crypt Warden shoulders do not share sovereign anatomical cutoff, so their geometry was not changed",
+    "Shared foot planting, ground correction, secondary-motion resets and runtime device performance remain parent-owned work",
+    "Editable blend is an import of validated final GLB with all actions retained; authoritative reproducible source is annotated static atlas plus rig/reduction scripts",
+    "PNG master is 11.25 MB; parent performs compressed tier packaging with existing KTX2/meshopt pipeline"
+  ],
+  "sourceInputs": [
+    {
+      "path": "/tmp/ashen-character-refinement/source/sovereign-static-atlas.glb",
+      "bytes": 5311772,
+      "sha256": "e42648aaddcbf63ff0db16e3b03e3e0070013aea83030332a061668458efe6b4"
+    },
+    {
+      "path": "/tmp/ashen-character-refinement/source/geometry_budget.json",
+      "bytes": 33720,
+      "sha256": "98f3b582489b0a5d07f68d8765f62d04ab4704de38a7f2d60949b299c2807350"
+    },
+    {
+      "path": "/Users/nathaniel/Documents/ChatGPT/Knight/game/assets-source/characters/ember-sovereign.glb",
+      "bytes": 8421632,
+      "sha256": "d759743b9b702d3c99a792e7147afff04fbdcb1151e74eee703d5c8ca3004e2a"
+    },
+    {
+      "path": "/Users/nathaniel/Documents/ChatGPT/Knight/game/assets-source/sovereign-v10/ember-sovereign-rigged-master.glb",
+      "bytes": 11243076,
+      "sha256": "f3f66e881e656b14e4683de653143c7663b1af65e88b13244870a8266c122516"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Blender Human Base Meshes v1.4.1",
+  "official_license_page": "https://www.blender.org/download/demo-files/",
+  "official_download_url": "https://download.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip",
+  "downloaded_from_blender_mirror": "https://ftp.halifax.rwth-aachen.de/blender/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip",
+  "retrieved_utc": "2026-09-08",
+  "zip_sha256": "811f43accbb31a88266d932f8f5563b2d13586fca0ba2693aad1f5fe582b3515",
+  "zip_bytes": 50643039,
+  "license": "CC0-1.0",
+  "license_evidence": [
+    "Official demo page: asset bundle 49 MB - CC0",
+    "Embedded README: All provided assets are public domain under the CC0 license.",
+    "Per-asset metadata on Skeleton - Realistic, Body Male - Realistic and Skull - Realistic explicitly says CC0."
+  ],
+  "license_text_note": "The bundle also contains a Text datablock named License referring specifically to the unrelated Rain Rig under CC BY 4.0. This is distinct from the bundle README and per-asset CC0 metadata. No Rain Rig is selected for use.",
+  "recommended_assets": {
+    "Skeleton - Realistic": {
+      "author": "Paul Kotelevets",
+      "license": "CC0",
+      "description": "Realistic model of a full human skeleton."
+    },
+    "Skull - Realistic": {
+      "author": "Paul Kotelevets, Tonatiuh de San Juli\u00e1n",
+      "license": "CC0",
+      "description": "Realistic scan data model with multiresolution details"
+    },
+    "Body Male - Realistic": {
+      "author": "Dan Ulrich",
+      "license": "CC0",
+      "description": "Realistic scan data model with multiresolution details"
+    }
+  },
+  "local_blend": "human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend"
+}

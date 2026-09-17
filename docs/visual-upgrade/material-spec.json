@@ -1,0 +1,98 @@
+{
+  "record_type": "implemented material and projected texel-density contract, not a calibrated screenshot measurement",
+  "source_files": [
+    "app/game/world.ts",
+    "app/game/graphics.ts",
+    "app/game/surface-uv.ts",
+    "app/game/shrine-assets.ts"
+  ],
+  "world_material_tints_before_textures_and_lighting": {
+    "stone": {
+      "color": "#aaa399",
+      "roughness": 0.88,
+      "normal_scale": [
+        0.8,
+        0.8
+      ]
+    },
+    "floor": {
+      "color": "#9b9991",
+      "roughness": 0.82,
+      "normal_scale": [
+        1.1,
+        1.1
+      ]
+    },
+    "iron": {
+      "color": "#423e36",
+      "metalness": 0.85,
+      "roughness": 0.42,
+      "clearcoat": 0.16
+    },
+    "grout": {
+      "color": "#242626",
+      "roughness": 1
+    }
+  },
+  "shrine_emission": {
+    "dormant": {
+      "color": "#d08239",
+      "intensity": 0.55
+    },
+    "lit": {
+      "color": "#8cd6ec",
+      "intensity": 0.8
+    },
+    "off": {
+      "intensity": 0
+    },
+    "scope": "Only one cloned ember material per shrine; shared body atlas and world-owned flames/lights remain separate."
+  },
+  "masonry_uv0": {
+    "metres_per_projected_tile": 4,
+    "ground_projection": [
+      "x",
+      "z"
+    ],
+    "x_wall_projection": [
+      "z",
+      "y"
+    ],
+    "z_wall_projection": [
+      "x",
+      "y"
+    ],
+    "quantization_rule": "Apply loaded node world/normal matrices before projection. UV1 and all geometry/contact data stay unchanged.",
+    "planar_nominal_texels_per_metre": {
+      "1k": 256,
+      "2k": 512,
+      "4k": 1024
+    },
+    "caveat": "Nominal texels per projected planar metre, not uniform measured density on every curved/sloped triangle. Historical density audits are not a post-change guarantee."
+  },
+  "runtime_masonry_maps": {
+    "auto_touch_and_low": "1K wall/floor maps",
+    "medium": "2K wall/floor maps",
+    "high": "4K floor base color; 2K floor normal/ORM and all wall maps"
+  },
+  "atlas_props": {
+    "sconce": {
+      "basecolor": 512,
+      "normal": 256,
+      "orm": 256
+    },
+    "shrine": {
+      "basecolor": 1024,
+      "normal": 512,
+      "orm": 512,
+      "emissive": 256
+    },
+    "architecture": {
+      "basecolor": 512,
+      "normal": 512,
+      "orm": 512
+    },
+    "note": "UV-atlas assets are not governed by the 4 m tiling rule."
+  },
+  "lighting_and_color_caveat": "Palette values are material inputs; lightmaps, exposure, tone mapping and display transform determine final screen colors. Full lighting-calibration review is owned by the integrating task."
+}

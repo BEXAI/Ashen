@@ -1,0 +1,2731 @@
+{
+  "contactRows": [
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "strike": "side",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "strike": "diagonal",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "strike": "backhand",
+      "maximumSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "strike": "overhead",
+      "maximumSocketDeltaMetres": 0
+    }
+  ],
+  "method": "Actual Low GLBs and current/proposed runtime adapter at 20/30/60/120Hz. Root translated at engine speeds and rotated on curved/turn routes. Support leg selected from minimum AFTER-correction sole height, independent of candidate internal contact identity. World XZ motion of fixed sole-proxy centroid measured only on consecutive same-support samples after0.5s warmup. Exact root/body/weapon preservation asserted per frame. Sole centroid motion includes rolling; no physical-device claim.",
+  "rows": [
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.469560734422811,
+        "medianXZMetresPerSecond": 5.593194357965895,
+        "p95XZMetresPerSecond": 10.922767537569037,
+        "sameSupportMaxTravelMetres": 1.9476126728361465,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 2.5121479338940403e-15,
+        "maxHipDownModelMetres": 0.10777138479561876,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00008291899870967333,
+        "medianXZMetresPerSecond": 1.9860273225978185e-14,
+        "p95XZMetresPerSecond": 0.0007228082429907736,
+        "sameSupportMaxTravelMetres": 0.00005542802647282067,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00011996950311474757,
+        "maxHipDownModelMetres": 0.1581469079483684,
+        "samples": 35
+      },
+      "medianImprovement": 0.9999999999999964,
+      "meanImprovement": 0.9999848399162683
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.525188623099732,
+        "medianXZMetresPerSecond": 5.361161129566995,
+        "p95XZMetresPerSecond": 7.314258996326679,
+        "sameSupportMaxTravelMetres": 2.3057539674512175,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 3.972054645195637e-15,
+        "maxHipDownModelMetres": 0,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00005810809426657478,
+        "medianXZMetresPerSecond": 4.0761971022286885e-14,
+        "p95XZMetresPerSecond": 0.00024506122459396477,
+        "sameSupportMaxTravelMetres": 0.000048855531659781865,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.00012788452909250596,
+        "maxHipDownModelMetres": 0.028651224171412526,
+        "samples": 28
+      },
+      "medianImprovement": 0.9999999999999925,
+      "meanImprovement": 0.9999894830569179
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.992171132994648,
+        "medianXZMetresPerSecond": 6.1716683327328825,
+        "p95XZMetresPerSecond": 6.702585868510053,
+        "sameSupportMaxTravelMetres": 2.13301672306003,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 2.220446049250313e-15,
+        "maxHipDownModelMetres": 0.04244684808515098,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00011183365803343007,
+        "medianXZMetresPerSecond": 3.552713678800501e-14,
+        "p95XZMetresPerSecond": 0.0009769007766808639,
+        "sameSupportMaxTravelMetres": 0.00007453652843423007,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 0.00010227744506471305,
+        "maxHipDownModelMetres": 0.11802583220921514,
+        "samples": 29
+      },
+      "medianImprovement": 0.9999999999999942,
+      "meanImprovement": 0.9999813367049186
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.992171132994653,
+        "medianXZMetresPerSecond": 6.17166833273299,
+        "p95XZMetresPerSecond": 6.702585868510111,
+        "sameSupportMaxTravelMetres": 2.133016723060029,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.972054645195637e-15,
+        "maxHipDownModelMetres": 0.04244684808515098,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0001138391197079444,
+        "medianXZMetresPerSecond": 3.552713678800501e-14,
+        "p95XZMetresPerSecond": 0.0010114460103587992,
+        "sameSupportMaxTravelMetres": 0.00007732591691879973,
+        "minClearanceModelMetres": 0.003999999999999004,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00010203036480442747,
+        "maxHipDownModelMetres": 0.118064454038326,
+        "samples": 29
+      },
+      "medianImprovement": 0.9999999999999942,
+      "meanImprovement": 0.9999810020246116
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.21187914457865,
+        "medianXZMetresPerSecond": 5.497750016631773,
+        "p95XZMetresPerSecond": 10.189782575737116,
+        "sameSupportMaxTravelMetres": 1.9915761589762262,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 3.577025045835022e-15,
+        "maxHipDownModelMetres": 0.10777138479561876,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.050698923832842115,
+        "medianXZMetresPerSecond": 2.7755575615628914e-14,
+        "p95XZMetresPerSecond": 0.24740696094279294,
+        "sameSupportMaxTravelMetres": 0.023979945014391737,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.02482252996651765,
+        "maxHipDownModelMetres": 0.15814690794836883,
+        "samples": 35
+      },
+      "medianImprovement": 0.999999999999995,
+      "meanImprovement": 0.9902724291131004
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.1583191114227285,
+        "medianXZMetresPerSecond": 5.5382941144796405,
+        "p95XZMetresPerSecond": 10.091430728233298,
+        "sameSupportMaxTravelMetres": 2.222076333060546,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 3.636721891222372e-15,
+        "maxHipDownModelMetres": 0.10777138479561876,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0013093559674429295,
+        "medianXZMetresPerSecond": 3.8778423131653425e-14,
+        "p95XZMetresPerSecond": 0.010530691124088637,
+        "sameSupportMaxTravelMetres": 0.0007031303205828864,
+        "minClearanceModelMetres": 0.0039999999999997815,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.006361024556169773,
+        "maxHipDownModelMetres": 0.16612131817413056,
+        "samples": 35
+      },
+      "medianImprovement": 0.999999999999993,
+      "meanImprovement": 0.9997873841962794
+    },
+    {
+      "id": "ash-knight",
+      "fps": 20,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 0.5142984577988123,
+        "medianXZMetresPerSecond": 0.40767299073160523,
+        "p95XZMetresPerSecond": 1.0944745847770347,
+        "sameSupportMaxTravelMetres": 0.15625525690902387,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 9.155133597044475e-16,
+        "maxHipDownModelMetres": 0.01280975623936964,
+        "samples": 25
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.1865073726891806,
+        "medianXZMetresPerSecond": 1.8310267194088947e-14,
+        "p95XZMetresPerSecond": 0.7374248441442505,
+        "sameSupportMaxTravelMetres": 0.10353162788335801,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.12000000000000076,
+        "maxHipDownModelMetres": 0.01280975623936964,
+        "samples": 25
+      },
+      "medianImprovement": 0.999999999999955,
+      "meanImprovement": 0.6373557613074933
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.436499997967337,
+        "medianXZMetresPerSecond": 5.253128653933869,
+        "p95XZMetresPerSecond": 10.963788130885089,
+        "sameSupportMaxTravelMetres": 1.9390967219736412,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.552713678800501e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00001746972040183704,
+        "medianXZMetresPerSecond": 2.979040983896728e-14,
+        "p95XZMetresPerSecond": 0.00011354295081299002,
+        "sameSupportMaxTravelMetres": 0.00001914705093752949,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00016948782739225105,
+        "maxHipDownModelMetres": 0.13634693105101947,
+        "samples": 60
+      },
+      "medianImprovement": 0.9999999999999943,
+      "meanImprovement": 0.9999967865868834
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.094986307019571,
+        "medianXZMetresPerSecond": 5.160689898921381,
+        "p95XZMetresPerSecond": 7.285658563428088,
+        "sameSupportMaxTravelMetres": 2.3621618472265276,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.972054645195637e-15,
+        "maxHipDownModelMetres": 0,
+        "samples": 65
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00005848876365812694,
+        "medianXZMetresPerSecond": 5.3316719684500096e-14,
+        "p95XZMetresPerSecond": 0.00033262040811602475,
+        "sameSupportMaxTravelMetres": 0.000048554226432424104,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.0001275358102933866,
+        "maxHipDownModelMetres": 0.030089753963483012,
+        "samples": 52
+      },
+      "medianImprovement": 0.9999999999999897,
+      "meanImprovement": 0.9999885203295684
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.0323620073294535,
+        "medianXZMetresPerSecond": 6.011356276092132,
+        "p95XZMetresPerSecond": 6.751844071443901,
+        "sameSupportMaxTravelMetres": 2.026117186235459,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 3.66205343881779e-15,
+        "maxHipDownModelMetres": 0.0438335883613683,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00006532483687053465,
+        "medianXZMetresPerSecond": 2.1065000811460208e-14,
+        "p95XZMetresPerSecond": 0.00029165639794156094,
+        "sameSupportMaxTravelMetres": 0.0000698877024137337,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00013941850209770883,
+        "maxHipDownModelMetres": 0.14148195903081562,
+        "samples": 54
+      },
+      "medianImprovement": 0.9999999999999964,
+      "meanImprovement": 0.9999891709355654
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.032362007329447,
+        "medianXZMetresPerSecond": 6.011356276092174,
+        "p95XZMetresPerSecond": 6.751844071443842,
+        "sameSupportMaxTravelMetres": 2.0261171862354597,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 3.972054645195637e-15,
+        "maxHipDownModelMetres": 0.0438335883613683,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00006425246937792358,
+        "medianXZMetresPerSecond": 5.958081967793456e-14,
+        "p95XZMetresPerSecond": 0.0002992680995148512,
+        "sameSupportMaxTravelMetres": 0.00006720305824958617,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.00014082323898572863,
+        "maxHipDownModelMetres": 0.14149045655419767,
+        "samples": 54
+      },
+      "medianImprovement": 0.9999999999999901,
+      "meanImprovement": 0.9999893487046534
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.439212054229206,
+        "medianXZMetresPerSecond": 5.117447515414814,
+        "p95XZMetresPerSecond": 10.820448049574832,
+        "sameSupportMaxTravelMetres": 1.9024656368780257,
+        "minClearanceModelMetres": 0.0039999999999997815,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.2255036133261186e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.04436547386429379,
+        "medianXZMetresPerSecond": 5.3290705182007514e-14,
+        "p95XZMetresPerSecond": 0.4333358995066784,
+        "sameSupportMaxTravelMetres": 0.016142585072523447,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.02332471999630233,
+        "maxHipDownModelMetres": 0.13634693105101903,
+        "samples": 60
+      },
+      "medianImprovement": 0.9999999999999896,
+      "meanImprovement": 0.9918434005841347
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.190329319402292,
+        "medianXZMetresPerSecond": 5.297164426826016,
+        "p95XZMetresPerSecond": 10.129413378022743,
+        "sameSupportMaxTravelMetres": 2.1527736608294528,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 2.434909185329438e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0005524857796455922,
+        "medianXZMetresPerSecond": 3.9968028886505635e-14,
+        "p95XZMetresPerSecond": 0.007209059524851583,
+        "sameSupportMaxTravelMetres": 0.0003668472597560341,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.006361024556169773,
+        "maxHipDownModelMetres": 0.16612131817412412,
+        "samples": 60
+      },
+      "medianImprovement": 0.9999999999999925,
+      "meanImprovement": 0.9999107501796529
+    },
+    {
+      "id": "ash-knight",
+      "fps": 30,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 0.5287497849057746,
+        "medianXZMetresPerSecond": 0.4342697824098895,
+        "p95XZMetresPerSecond": 1.2826341338304212,
+        "sameSupportMaxTravelMetres": 0.13369964359742098,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 9.930136612989092e-16,
+        "maxHipDownModelMetres": 0.013058805978137134,
+        "samples": 38
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.07182304461923261,
+        "medianXZMetresPerSecond": 1.88411095042053e-14,
+        "p95XZMetresPerSecond": 0.6495562286497613,
+        "sameSupportMaxTravelMetres": 0.03442683341046885,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 0.12000000000000142,
+        "maxHipDownModelMetres": 0.013058805978137134,
+        "samples": 38
+      },
+      "medianImprovement": 0.9999999999999566,
+      "meanImprovement": 0.8641643993632417
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.265918619018334,
+        "medianXZMetresPerSecond": 4.998735240129926,
+        "p95XZMetresPerSecond": 11.006897353643557,
+        "sameSupportMaxTravelMetres": 1.82264390909345,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 2.5121479338940403e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 138
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.000002337966431975657,
+        "medianXZMetresPerSecond": 5.3290705182007514e-14,
+        "p95XZMetresPerSecond": 0.000002981844578718527,
+        "sameSupportMaxTravelMetres": 0.0000021754699748011876,
+        "minClearanceModelMetres": 0.003999999999999115,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00014925416565292094,
+        "maxHipDownModelMetres": 0.15814690794837394,
+        "samples": 135
+      },
+      "medianImprovement": 0.9999999999999893,
+      "meanImprovement": 0.9999995560192625
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.189372071391582,
+        "medianXZMetresPerSecond": 5.298916485219189,
+        "p95XZMetresPerSecond": 7.330389279585572,
+        "sameSupportMaxTravelMetres": 1.8024966623481633,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.972054645195637e-15,
+        "maxHipDownModelMetres": 0,
+        "samples": 132
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00001631373966379791,
+        "medianXZMetresPerSecond": 5.691449808321057e-14,
+        "p95XZMetresPerSecond": 0.00008803812754344983,
+        "sameSupportMaxTravelMetres": 0.000010434935632119987,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.0001379592471426073,
+        "maxHipDownModelMetres": 0.031585702864369125,
+        "samples": 127
+      },
+      "medianImprovement": 0.9999999999999892,
+      "meanImprovement": 0.9999968563172116
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.0463032137760875,
+        "medianXZMetresPerSecond": 6.013160421387393,
+        "p95XZMetresPerSecond": 6.7790483673375315,
+        "sameSupportMaxTravelMetres": 2.1354106885936277,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.972054645195637e-15,
+        "maxHipDownModelMetres": 0.0438335883613683,
+        "samples": 140
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00007252515941862838,
+        "medianXZMetresPerSecond": 3.3306690738754696e-14,
+        "p95XZMetresPerSecond": 0.00007255837125044756,
+        "sameSupportMaxTravelMetres": 0.0000568551597741967,
+        "minClearanceModelMetres": 0.003999999999999226,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.0001561979227063844,
+        "maxHipDownModelMetres": 0.14148195903081429,
+        "samples": 129
+      },
+      "medianImprovement": 0.9999999999999944,
+      "meanImprovement": 0.9999880050409558
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.046303213776085,
+        "medianXZMetresPerSecond": 6.013160421387176,
+        "p95XZMetresPerSecond": 6.779048367337336,
+        "sameSupportMaxTravelMetres": 2.135410688593626,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 5.0242958677880805e-15,
+        "maxHipDownModelMetres": 0.0438335883613683,
+        "samples": 140
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00007064096838992352,
+        "medianXZMetresPerSecond": 1.0658141036401503e-13,
+        "p95XZMetresPerSecond": 0.000072054476170528,
+        "sameSupportMaxTravelMetres": 0.00005994665718303406,
+        "minClearanceModelMetres": 0.003999999999999004,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.0001416431664877787,
+        "maxHipDownModelMetres": 0.14149045655419612,
+        "samples": 129
+      },
+      "medianImprovement": 0.9999999999999822,
+      "meanImprovement": 0.9999883166679057
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.352214871426227,
+        "medianXZMetresPerSecond": 5.3306913608818425,
+        "p95XZMetresPerSecond": 10.992008915223762,
+        "sameSupportMaxTravelMetres": 1.9756604289021498,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.8778423131653425e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 138
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.042357326298548464,
+        "medianXZMetresPerSecond": 6.661338147750939e-14,
+        "p95XZMetresPerSecond": 0.6654024234773929,
+        "sameSupportMaxTravelMetres": 0.015964904001255085,
+        "minClearanceModelMetres": 0.0039999999999994484,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.0230937699768512,
+        "maxHipDownModelMetres": 0.15814690794836883,
+        "samples": 135
+      },
+      "medianImprovement": 0.9999999999999875,
+      "meanImprovement": 0.9920860190937624
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.10806737454904,
+        "medianXZMetresPerSecond": 5.12412465244114,
+        "p95XZMetresPerSecond": 10.169355409671727,
+        "sameSupportMaxTravelMetres": 2.1436043003512832,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.855927796350635e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 138
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0000815533778844815,
+        "medianXZMetresPerSecond": 6.284293840013124e-14,
+        "p95XZMetresPerSecond": 0.00045760678083047536,
+        "sameSupportMaxTravelMetres": 0.000067216412044333,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.006494992588901372,
+        "maxHipDownModelMetres": 0.1661213181741128,
+        "samples": 135
+      },
+      "medianImprovement": 0.9999999999999878,
+      "meanImprovement": 0.9999866482517491
+    },
+    {
+      "id": "ash-knight",
+      "fps": 60,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 0.5643097583519735,
+        "medianXZMetresPerSecond": 0.4741783185391556,
+        "p95XZMetresPerSecond": 1.2720747020107404,
+        "sameSupportMaxTravelMetres": 0.05841939901577324,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 9.930136612989092e-16,
+        "maxHipDownModelMetres": 0.013058805978137134,
+        "samples": 83
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.1180202319741429,
+        "medianXZMetresPerSecond": 2.6645352591003757e-14,
+        "p95XZMetresPerSecond": 0.6647977745982666,
+        "sameSupportMaxTravelMetres": 0.04438900188857686,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 0.12000000000000079,
+        "maxHipDownModelMetres": 0.013058805978137134,
+        "samples": 83
+      },
+      "medianImprovement": 0.9999999999999438,
+      "meanImprovement": 0.7908591332554437
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.346779046536187,
+        "medianXZMetresPerSecond": 5.273336625059785,
+        "p95XZMetresPerSecond": 11.09197295238965,
+        "sameSupportMaxTravelMetres": 1.9180110624351916,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 2.5121479338940403e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 288
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.000004341522638953535,
+        "medianXZMetresPerSecond": 1.098616031645337e-13,
+        "p95XZMetresPerSecond": 3.3704001298336333e-13,
+        "sameSupportMaxTravelMetres": 0.000003081983386736281,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00018803078046951183,
+        "maxHipDownModelMetres": 0.15814690794837394,
+        "samples": 285
+      },
+      "medianImprovement": 0.9999999999999791,
+      "meanImprovement": 0.9999991880115858
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.283107207819058,
+        "medianXZMetresPerSecond": 5.307086852651688,
+        "p95XZMetresPerSecond": 7.31893449856236,
+        "sameSupportMaxTravelMetres": 1.8082456531898414,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.972054645195637e-15,
+        "maxHipDownModelMetres": 0,
+        "samples": 270
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.000013355472444637656,
+        "medianXZMetresPerSecond": 1.1166437517467072e-13,
+        "p95XZMetresPerSecond": 4.766465574234765e-13,
+        "sameSupportMaxTravelMetres": 0.000014569080468360623,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00014408051909346118,
+        "maxHipDownModelMetres": 0.0316357057045622,
+        "samples": 277
+      },
+      "medianImprovement": 0.9999999999999789,
+      "meanImprovement": 0.9999974720421299
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.034370876786103,
+        "medianXZMetresPerSecond": 5.997543043583482,
+        "p95XZMetresPerSecond": 6.754665964695631,
+        "sameSupportMaxTravelMetres": 2.2361775832150417,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 4.189529226675416e-15,
+        "maxHipDownModelMetres": 0.0438335883613683,
+        "samples": 282
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.000021769333777591738,
+        "medianXZMetresPerSecond": 7.993605777301127e-14,
+        "p95XZMetresPerSecond": 4.394464126581348e-13,
+        "sameSupportMaxTravelMetres": 0.0000363341577838398,
+        "minClearanceModelMetres": 0.003999999999999226,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00015619792270458462,
+        "maxHipDownModelMetres": 0.1425208173122383,
+        "samples": 279
+      },
+      "medianImprovement": 0.9999999999999867,
+      "meanImprovement": 0.999996392443517
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.034370876786124,
+        "medianXZMetresPerSecond": 5.99754304358364,
+        "p95XZMetresPerSecond": 6.754665964695505,
+        "sameSupportMaxTravelMetres": 2.236177583215048,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.972054645195637e-15,
+        "maxHipDownModelMetres": 0.0438335883613683,
+        "samples": 282
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.000019727790234900627,
+        "medianXZMetresPerSecond": 2.1316282072803006e-13,
+        "p95XZMetresPerSecond": 4.766465574234765e-13,
+        "sameSupportMaxTravelMetres": 0.000033903301585581836,
+        "minClearanceModelMetres": 0.003999999999999004,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.00014232374502677248,
+        "maxHipDownModelMetres": 0.1425626887534217,
+        "samples": 279
+      },
+      "medianImprovement": 0.9999999999999645,
+      "meanImprovement": 0.9999967307627194
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.335396479577262,
+        "medianXZMetresPerSecond": 5.257785095902561,
+        "p95XZMetresPerSecond": 11.024043815321985,
+        "sameSupportMaxTravelMetres": 1.865848218627244,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.563539207208429e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 284
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.039842652114520996,
+        "medianXZMetresPerSecond": 1.1916163935586912e-13,
+        "p95XZMetresPerSecond": 4.653410775798412e-13,
+        "sameSupportMaxTravelMetres": 0.015198315023682038,
+        "minClearanceModelMetres": 0.0039999999999994484,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.02419578536276009,
+        "maxHipDownModelMetres": 0.15814690794836928,
+        "samples": 285
+      },
+      "medianImprovement": 0.9999999999999774,
+      "meanImprovement": 0.9925323914976085
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 6.18077785868311,
+        "medianXZMetresPerSecond": 5.311190701903894,
+        "p95XZMetresPerSecond": 10.248255898383851,
+        "sameSupportMaxTravelMetres": 2.2332903972789704,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 3.794299872214038e-15,
+        "maxHipDownModelMetres": 0.11103367558257271,
+        "samples": 288
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00006669191595227032,
+        "medianXZMetresPerSecond": 1.3322676295501878e-13,
+        "p95XZMetresPerSecond": 4.766465574234765e-13,
+        "sameSupportMaxTravelMetres": 0.00003492090266542543,
+        "minClearanceModelMetres": 0.003999999999999226,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.006494992588902221,
+        "maxHipDownModelMetres": 0.1661213181741097,
+        "samples": 285
+      },
+      "medianImprovement": 0.9999999999999749,
+      "meanImprovement": 0.9999892097859724
+    },
+    {
+      "id": "ash-knight",
+      "fps": 120,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 0.5783292294776242,
+        "medianXZMetresPerSecond": 0.5067311075276482,
+        "p95XZMetresPerSecond": 1.0812031769927344,
+        "sameSupportMaxTravelMetres": 0.08466175642956603,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.1102230246251565e-15,
+        "maxHipDownModelMetres": 0.013058805978137134,
+        "samples": 146
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.09384191070764517,
+        "medianXZMetresPerSecond": 7.53644380168212e-14,
+        "p95XZMetresPerSecond": 0.6304959972387718,
+        "sameSupportMaxTravelMetres": 0.02117046230474843,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.12000000000000112,
+        "maxHipDownModelMetres": 0.013058805978137134,
+        "samples": 146
+      },
+      "medianImprovement": 0.9999999999998512,
+      "meanImprovement": 0.8377361787637677
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 2.925332670474029,
+        "medianXZMetresPerSecond": 2.4403080441703113,
+        "p95XZMetresPerSecond": 6.108953880093148,
+        "sameSupportMaxTravelMetres": 1.1807637352262388,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 1.3322676295501878e-15,
+        "maxHipDownModelMetres": 0.05071266994385515,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.007944827959991204,
+        "medianXZMetresPerSecond": 1.3322676295501878e-14,
+        "p95XZMetresPerSecond": 0.08279058161759285,
+        "sameSupportMaxTravelMetres": 0.004399221765287767,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.008974676256221685,
+        "maxHipDownModelMetres": 0.09302912286357357,
+        "samples": 42
+      },
+      "medianImprovement": 0.9999999999999946,
+      "meanImprovement": 0.9972841283864293
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 2.184480297175638,
+        "medianXZMetresPerSecond": 2.279754160957408,
+        "p95XZMetresPerSecond": 3.89340979269238,
+        "sameSupportMaxTravelMetres": 0.9769148540349463,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 2.094764613337708e-15,
+        "maxHipDownModelMetres": 0,
+        "samples": 38
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0022552608965985253,
+        "medianXZMetresPerSecond": 1.8971499361070186e-14,
+        "p95XZMetresPerSecond": 0.021805960079694195,
+        "sameSupportMaxTravelMetres": 0.0013424518974928371,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.005450148069641155,
+        "maxHipDownModelMetres": 0.016234432974878477,
+        "samples": 37
+      },
+      "medianImprovement": 0.9999999999999917,
+      "meanImprovement": 0.9989675984262644
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1126720818503664,
+        "medianXZMetresPerSecond": 3.3617373362525416,
+        "p95XZMetresPerSecond": 3.9536396243492753,
+        "sameSupportMaxTravelMetres": 1.1338548019655181,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 9.036560719766055e-16,
+        "maxHipDownModelMetres": 0.01632140520092662,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0024974293912080462,
+        "medianXZMetresPerSecond": 6.2803698347351005e-15,
+        "p95XZMetresPerSecond": 0.028172302803351593,
+        "sameSupportMaxTravelMetres": 0.0020377711496534995,
+        "minClearanceModelMetres": 0.0039999999999997815,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.0047178485259203925,
+        "maxHipDownModelMetres": 0.09438759798425278,
+        "samples": 38
+      },
+      "medianImprovement": 0.9999999999999981,
+      "meanImprovement": 0.9991976574063904
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1126720818503637,
+        "medianXZMetresPerSecond": 3.3617373362525935,
+        "p95XZMetresPerSecond": 3.953639624349282,
+        "sameSupportMaxTravelMetres": 1.133854801965518,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 1.9860273225978185e-15,
+        "maxHipDownModelMetres": 0.01632140520092662,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00312602970504302,
+        "medianXZMetresPerSecond": 1.9860273225978185e-14,
+        "p95XZMetresPerSecond": 0.03734390934411169,
+        "sameSupportMaxTravelMetres": 0.0019557240943770806,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 0.004622016794122421,
+        "maxHipDownModelMetres": 0.0950135235347318,
+        "samples": 38
+      },
+      "medianImprovement": 0.9999999999999941,
+      "meanImprovement": 0.9989957086314133
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 2.813526020751472,
+        "medianXZMetresPerSecond": 2.3501094559842435,
+        "p95XZMetresPerSecond": 6.154019415101057,
+        "sameSupportMaxTravelMetres": 0.8714218712136585,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.831026719408895e-15,
+        "maxHipDownModelMetres": 0.05071266994385515,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.03662833320887031,
+        "medianXZMetresPerSecond": 1.6011864169946884e-14,
+        "p95XZMetresPerSecond": 0.3834307897835598,
+        "sameSupportMaxTravelMetres": 0.019330866212380515,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.04042406883251987,
+        "maxHipDownModelMetres": 0.09302912286357445,
+        "samples": 42
+      },
+      "medianImprovement": 0.9999999999999932,
+      "meanImprovement": 0.9869813419393623
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.335852067239168,
+        "medianXZMetresPerSecond": 3.294206775528338,
+        "p95XZMetresPerSecond": 5.669633906429914,
+        "sameSupportMaxTravelMetres": 1.295338825628475,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 1.2560739669470201e-15,
+        "maxHipDownModelMetres": 0.05071266994385515,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.007974716186903196,
+        "medianXZMetresPerSecond": 1.7763568394002505e-14,
+        "p95XZMetresPerSecond": 0.08309724029099526,
+        "sameSupportMaxTravelMetres": 0.00441619508159454,
+        "minClearanceModelMetres": 0.003999999999999337,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.005745974399400245,
+        "maxHipDownModelMetres": 0.09940332819892195,
+        "samples": 42
+      },
+      "medianImprovement": 0.9999999999999946,
+      "meanImprovement": 0.9976093915359072
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 20,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 0.5800256291912644,
+        "medianXZMetresPerSecond": 0.6080582777104083,
+        "p95XZMetresPerSecond": 1.1119537766662462,
+        "sameSupportMaxTravelMetres": 0.16242316368797782,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 9.155133597044475e-16,
+        "maxHipDownModelMetres": 0.012810255220955913,
+        "samples": 28
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.05865003239363282,
+        "medianXZMetresPerSecond": 1.2560739669470201e-14,
+        "p95XZMetresPerSecond": 0.5987701667364135,
+        "sameSupportMaxTravelMetres": 0.030878200692738916,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.12000000000000081,
+        "maxHipDownModelMetres": 0.012810255220955913,
+        "samples": 28
+      },
+      "medianImprovement": 0.9999999999999793,
+      "meanImprovement": 0.8988837226461714
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.0314418116405393,
+        "medianXZMetresPerSecond": 2.280672369931254,
+        "p95XZMetresPerSecond": 6.685347514134949,
+        "sameSupportMaxTravelMetres": 1.1428053899187791,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.3322676295501878e-15,
+        "maxHipDownModelMetres": 0.05258370874110918,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.005806775597662906,
+        "medianXZMetresPerSecond": 1.3637707092083893e-14,
+        "p95XZMetresPerSecond": 0.06616071138860048,
+        "sameSupportMaxTravelMetres": 0.004231918496530042,
+        "minClearanceModelMetres": 0.003999999999999337,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.013157593848736904,
+        "maxHipDownModelMetres": 0.10633007802305694,
+        "samples": 66
+      },
+      "medianImprovement": 0.999999999999994,
+      "meanImprovement": 0.9980844838995869
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 2.304635663861201,
+        "medianXZMetresPerSecond": 2.3683132261331403,
+        "p95XZMetresPerSecond": 3.7696885069337087,
+        "sameSupportMaxTravelMetres": 0.7250670651028301,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 2.1556631856153973e-15,
+        "maxHipDownModelMetres": 0,
+        "samples": 59
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.002651208720513652,
+        "medianXZMetresPerSecond": 1.9984014443252818e-14,
+        "p95XZMetresPerSecond": 0.022064166906830284,
+        "sameSupportMaxTravelMetres": 0.0016488087269257022,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.005469832049338336,
+        "maxHipDownModelMetres": 0.016175789704090615,
+        "samples": 62
+      },
+      "medianImprovement": 0.9999999999999916,
+      "meanImprovement": 0.9988496191558227
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1225169406389646,
+        "medianXZMetresPerSecond": 3.14299978887103,
+        "p95XZMetresPerSecond": 3.926245760094977,
+        "sameSupportMaxTravelMetres": 1.1855398059922566,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 9.485749680535094e-16,
+        "maxHipDownModelMetres": 0.016943971402923808,
+        "samples": 65
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0017068232685611513,
+        "medianXZMetresPerSecond": 7.44760245974182e-15,
+        "p95XZMetresPerSecond": 0.017642414052217482,
+        "sameSupportMaxTravelMetres": 0.0009419624058546733,
+        "minClearanceModelMetres": 0.0039999999999997815,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.004717848525920958,
+        "maxHipDownModelMetres": 0.09534987272514428,
+        "samples": 63
+      },
+      "medianImprovement": 0.9999999999999977,
+      "meanImprovement": 0.9994533822230562
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.122516940638964,
+        "medianXZMetresPerSecond": 3.1429997888710175,
+        "p95XZMetresPerSecond": 3.926245760094982,
+        "sameSupportMaxTravelMetres": 1.1855398059922573,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 2.5121479338940403e-15,
+        "maxHipDownModelMetres": 0.016943971402923808,
+        "samples": 65
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0021774143303921593,
+        "medianXZMetresPerSecond": 2.6645352591003757e-14,
+        "p95XZMetresPerSecond": 0.017532782394881135,
+        "sameSupportMaxTravelMetres": 0.0019557240943766435,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.005061028161286336,
+        "maxHipDownModelMetres": 0.09631483202896418,
+        "samples": 63
+      },
+      "medianImprovement": 0.9999999999999916,
+      "meanImprovement": 0.999302673333152
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.0386805116352407,
+        "medianXZMetresPerSecond": 2.179965688835404,
+        "p95XZMetresPerSecond": 6.547106031847566,
+        "sameSupportMaxTravelMetres": 1.1280861410299923,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000448,
+        "maxHipXZModelMetres": 1.790180836524724e-15,
+        "maxHipDownModelMetres": 0.05258370874110896,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.032433546682832375,
+        "medianXZMetresPerSecond": 1.9984014443252818e-14,
+        "p95XZMetresPerSecond": 0.5236129605087751,
+        "sameSupportMaxTravelMetres": 0.018227803320163556,
+        "minClearanceModelMetres": 0.0039999999999997815,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.052667602886335735,
+        "maxHipDownModelMetres": 0.10633007802305716,
+        "samples": 66
+      },
+      "medianImprovement": 0.9999999999999908,
+      "meanImprovement": 0.9893264373932558
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.434052295204685,
+        "medianXZMetresPerSecond": 3.0207154555556115,
+        "p95XZMetresPerSecond": 6.223008927418297,
+        "sameSupportMaxTravelMetres": 1.2410308982618166,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.4217791915866692e-15,
+        "maxHipDownModelMetres": 0.05258370874110918,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.005806913280047114,
+        "medianXZMetresPerSecond": 2.6645352591003757e-14,
+        "p95XZMetresPerSecond": 0.06560317701980224,
+        "sameSupportMaxTravelMetres": 0.004248159369804192,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.010155940597532567,
+        "maxHipDownModelMetres": 0.10727841154558648,
+        "samples": 66
+      },
+      "medianImprovement": 0.9999999999999912,
+      "meanImprovement": 0.9983090201368932
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 30,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 0.5324534957252768,
+        "medianXZMetresPerSecond": 0.5031599225960101,
+        "p95XZMetresPerSecond": 1.010837946161931,
+        "sameSupportMaxTravelMetres": 0.11924127185316749,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 9.930136612989092e-16,
+        "maxHipDownModelMetres": 0.013059310902963528,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.1547335397929798,
+        "medianXZMetresPerSecond": 1.489520491948364e-14,
+        "p95XZMetresPerSecond": 0.7340769575781022,
+        "sameSupportMaxTravelMetres": 0.049333277601051204,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000115,
+        "maxHipXZModelMetres": 0.12000000000000084,
+        "maxHipDownModelMetres": 0.013059310902963528,
+        "samples": 42
+      },
+      "medianImprovement": 0.9999999999999704,
+      "meanImprovement": 0.7093952034586404
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1076539550124473,
+        "medianXZMetresPerSecond": 2.3853770502138025,
+        "p95XZMetresPerSecond": 6.842786908234651,
+        "sameSupportMaxTravelMetres": 1.1077510440273959,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.3322676295501878e-15,
+        "maxHipDownModelMetres": 0.05258370874110918,
+        "samples": 140
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0070996334961804615,
+        "medianXZMetresPerSecond": 2.6697343572326224e-14,
+        "p95XZMetresPerSecond": 7.53644380168212e-14,
+        "sameSupportMaxTravelMetres": 0.0043992217652889685,
+        "minClearanceModelMetres": 0.003999999999999115,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.015575918467768998,
+        "maxHipDownModelMetres": 0.10841488199859728,
+        "samples": 141
+      },
+      "medianImprovement": 0.9999999999999888,
+      "meanImprovement": 0.9977154362747728
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 2.317660073178175,
+        "medianXZMetresPerSecond": 2.2922058280141897,
+        "p95XZMetresPerSecond": 3.8162728867515443,
+        "sameSupportMaxTravelMetres": 0.6529245638283709,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 2.1556631856153973e-15,
+        "maxHipDownModelMetres": 0,
+        "samples": 118
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0033055113823381365,
+        "medianXZMetresPerSecond": 5.3290705182007514e-14,
+        "p95XZMetresPerSecond": 1.2748241934759966e-13,
+        "sameSupportMaxTravelMetres": 0.0016068078528734893,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.005469832049341267,
+        "maxHipDownModelMetres": 0.01623443297487759,
+        "samples": 137
+      },
+      "medianImprovement": 0.9999999999999768,
+      "meanImprovement": 0.9985737721331129
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.127527127719174,
+        "medianXZMetresPerSecond": 3.1167575453538263,
+        "p95XZMetresPerSecond": 3.987161776646218,
+        "sameSupportMaxTravelMetres": 1.0616117903871178,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 9.694605782913356e-16,
+        "maxHipDownModelMetres": 0.016943971402923808,
+        "samples": 134
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0034720762389245214,
+        "medianXZMetresPerSecond": 1.4988010832439613e-14,
+        "p95XZMetresPerSecond": 5.3705425095741715e-14,
+        "sameSupportMaxTravelMetres": 0.002026670570445514,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.005488604695148089,
+        "maxHipDownModelMetres": 0.09607594314962942,
+        "samples": 138
+      },
+      "medianImprovement": 0.9999999999999952,
+      "meanImprovement": 0.9988898333740572
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1275271277191683,
+        "medianXZMetresPerSecond": 3.116757545353781,
+        "p95XZMetresPerSecond": 3.9871617766461838,
+        "sameSupportMaxTravelMetres": 1.061611790387118,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.9860273225978185e-15,
+        "maxHipDownModelMetres": 0.016943971402923808,
+        "samples": 134
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00335437529602194,
+        "medianXZMetresPerSecond": 5.3290705182007514e-14,
+        "p95XZMetresPerSecond": 1.1916163935586912e-13,
+        "sameSupportMaxTravelMetres": 0.0019294591781547417,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.005766112503446705,
+        "maxHipDownModelMetres": 0.09631483202895974,
+        "samples": 138
+      },
+      "medianImprovement": 0.9999999999999829,
+      "meanImprovement": 0.998927467241997
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1270452632861834,
+        "medianXZMetresPerSecond": 2.425782449553998,
+        "p95XZMetresPerSecond": 6.734247120789789,
+        "sameSupportMaxTravelMetres": 1.1905840155458194,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.790180836524724e-15,
+        "maxHipDownModelMetres": 0.0525837087411094,
+        "samples": 138
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.02924782608645868,
+        "medianXZMetresPerSecond": 5.3290705182007514e-14,
+        "p95XZMetresPerSecond": 1.1916163935586912e-13,
+        "sameSupportMaxTravelMetres": 0.01725562018509901,
+        "minClearanceModelMetres": 0.003999999999999226,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.0570010045691136,
+        "maxHipDownModelMetres": 0.1084148819985975,
+        "samples": 141
+      },
+      "medianImprovement": 0.999999999999978,
+      "meanImprovement": 0.990646817163202
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.5033840304675583,
+        "medianXZMetresPerSecond": 3.1278993549604506,
+        "p95XZMetresPerSecond": 6.3748702435601015,
+        "sameSupportMaxTravelMetres": 1.2508930516372305,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.9173458420030423e-15,
+        "maxHipDownModelMetres": 0.05258370874110918,
+        "samples": 140
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.007126342124490242,
+        "medianXZMetresPerSecond": 3.9968028886505635e-14,
+        "p95XZMetresPerSecond": 1.1166437517467072e-13,
+        "sameSupportMaxTravelMetres": 0.0044161950815984514,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.012178190322295002,
+        "maxHipDownModelMetres": 0.1087354359631445,
+        "samples": 141
+      },
+      "medianImprovement": 0.9999999999999872,
+      "meanImprovement": 0.997965868981957
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 60,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 0.5639236642073269,
+        "medianXZMetresPerSecond": 0.5121751966976904,
+        "p95XZMetresPerSecond": 1.211260623169489,
+        "sameSupportMaxTravelMetres": 0.09146449110651242,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 9.930136612989092e-16,
+        "maxHipDownModelMetres": 0.013059310902963528,
+        "samples": 82
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.10153266756311881,
+        "medianXZMetresPerSecond": 2.979040983896728e-14,
+        "p95XZMetresPerSecond": 0.6743532184894799,
+        "sameSupportMaxTravelMetres": 0.0357406277314856,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.12000000000000068,
+        "maxHipDownModelMetres": 0.013059310902963528,
+        "samples": 82
+      },
+      "medianImprovement": 0.9999999999999418,
+      "meanImprovement": 0.8199531709565033
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1850015782002123,
+        "medianXZMetresPerSecond": 2.3874866417616034,
+        "p95XZMetresPerSecond": 6.9202975532793145,
+        "sameSupportMaxTravelMetres": 1.134352286238341,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.3322676295501878e-15,
+        "maxHipDownModelMetres": 0.05258370874110918,
+        "samples": 280
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.009001409490901287,
+        "medianXZMetresPerSecond": 5.3290705182007514e-14,
+        "p95XZMetresPerSecond": 1.3322676295501878e-13,
+        "sameSupportMaxTravelMetres": 0.005777934369907355,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.015575918467763544,
+        "maxHipDownModelMetres": 0.1084148819985995,
+        "samples": 291
+      },
+      "medianImprovement": 0.9999999999999777,
+      "meanImprovement": 0.9971738131772017
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 2.317556724046649,
+        "medianXZMetresPerSecond": 2.273311297798982,
+        "p95XZMetresPerSecond": 3.8808903261308725,
+        "sameSupportMaxTravelMetres": 0.6530082002881187,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 2.1556631856153973e-15,
+        "maxHipDownModelMetres": 0,
+        "samples": 246
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0035642913082871994,
+        "medianXZMetresPerSecond": 1.0658141036401503e-13,
+        "p95XZMetresPerSecond": 2.326705387899206e-13,
+        "sameSupportMaxTravelMetres": 0.001597439059112559,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.006055401431410371,
+        "maxHipDownModelMetres": 0.016263806503956868,
+        "samples": 287
+      },
+      "medianImprovement": 0.9999999999999531,
+      "meanImprovement": 0.9984620478664861
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1412485052220975,
+        "medianXZMetresPerSecond": 3.095582039330042,
+        "p95XZMetresPerSecond": 4.009008852934125,
+        "sameSupportMaxTravelMetres": 1.096048814558394,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 9.694605782913356e-16,
+        "maxHipDownModelMetres": 0.016943971402923808,
+        "samples": 282
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0038095591507392554,
+        "medianXZMetresPerSecond": 2.6852712547870858e-14,
+        "p95XZMetresPerSecond": 1.0741085019148343e-13,
+        "sameSupportMaxTravelMetres": 0.0020266705704509187,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.006055631223855841,
+        "maxHipDownModelMetres": 0.09657428053046369,
+        "samples": 288
+      },
+      "medianImprovement": 0.9999999999999913,
+      "meanImprovement": 0.9987872468082655
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.1412485052221326,
+        "medianXZMetresPerSecond": 3.095582039330202,
+        "p95XZMetresPerSecond": 4.00900885293407,
+        "sameSupportMaxTravelMetres": 1.0960488145584102,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.9860273225978185e-15,
+        "maxHipDownModelMetres": 0.016943971402923808,
+        "samples": 282
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.003681159111477266,
+        "medianXZMetresPerSecond": 1.0658141036401503e-13,
+        "p95XZMetresPerSecond": 2.3832327871173824e-13,
+        "sameSupportMaxTravelMetres": 0.0019294591781902199,
+        "minClearanceModelMetres": 0.0039999999999994484,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.006310035568664353,
+        "maxHipDownModelMetres": 0.09682233489331682,
+        "samples": 288
+      },
+      "medianImprovement": 0.9999999999999656,
+      "meanImprovement": 0.9988281222878873
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.178092655417062,
+        "medianXZMetresPerSecond": 2.44224107277313,
+        "p95XZMetresPerSecond": 6.87685617434444,
+        "sameSupportMaxTravelMetres": 1.1578494312494576,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.897149936107019e-15,
+        "maxHipDownModelMetres": 0.0525837087411094,
+        "samples": 280
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.029844244743963733,
+        "medianXZMetresPerSecond": 7.993605777301127e-14,
+        "p95XZMetresPerSecond": 2.1316282072803006e-13,
+        "sameSupportMaxTravelMetres": 0.018147210232525787,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000448,
+        "maxHipXZModelMetres": 0.05728751897071384,
+        "maxHipDownModelMetres": 0.10841488199859661,
+        "samples": 291
+      },
+      "medianImprovement": 0.9999999999999672,
+      "meanImprovement": 0.9906093849425396
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.5505634727111937,
+        "medianXZMetresPerSecond": 3.1693856361147676,
+        "p95XZMetresPerSecond": 6.449732953211611,
+        "sameSupportMaxTravelMetres": 1.270022230490716,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 1.9389211565826713e-15,
+        "maxHipDownModelMetres": 0.05258370874110918,
+        "samples": 280
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00903279417453343,
+        "medianXZMetresPerSecond": 7.53644380168212e-14,
+        "p95XZMetresPerSecond": 2.1687745727438531e-13,
+        "sameSupportMaxTravelMetres": 0.005798337119647952,
+        "minClearanceModelMetres": 0.0039999999999995595,
+        "maxSupportGapModelMetres": 0.004000000000000337,
+        "maxHipXZModelMetres": 0.012178190322297043,
+        "maxHipDownModelMetres": 0.10940680473387654,
+        "samples": 291
+      },
+      "medianImprovement": 0.9999999999999762,
+      "meanImprovement": 0.9974559547395907
+    },
+    {
+      "id": "crypt-warden",
+      "fps": 120,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 0.5158299813952067,
+        "medianXZMetresPerSecond": 0.45362600837845923,
+        "p95XZMetresPerSecond": 1.2313055488288336,
+        "sameSupportMaxTravelMetres": 0.06199540284884959,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 1.1102230246251565e-15,
+        "maxHipDownModelMetres": 0.013059310902963972,
+        "samples": 163
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.12440416364540245,
+        "medianXZMetresPerSecond": 5.958081967793456e-14,
+        "p95XZMetresPerSecond": 0.6884165188046066,
+        "sameSupportMaxTravelMetres": 0.044070764048934244,
+        "minClearanceModelMetres": 0.0039999999999996705,
+        "maxSupportGapModelMetres": 0.004000000000000226,
+        "maxHipXZModelMetres": 0.1200000000000011,
+        "maxHipDownModelMetres": 0.013059310902963972,
+        "samples": 163
+      },
+      "medianImprovement": 0.9999999999998687,
+      "meanImprovement": 0.758827194749486
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.942316945959744,
+        "medianXZMetresPerSecond": 5.770015469384513,
+        "p95XZMetresPerSecond": 9.266334191865221,
+        "sameSupportMaxTravelMetres": 1.9469728143644325,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 5.516742562771718e-16,
+        "maxHipDownModelMetres": 0.023331366995864578,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.004303803226133104,
+        "medianXZMetresPerSecond": 8.95090418262362e-15,
+        "p95XZMetresPerSecond": 3.202372833989377e-14,
+        "sameSupportMaxTravelMetres": 0.004842712741008088,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000731,
+        "maxHipXZModelMetres": 0.014446563093701618,
+        "maxHipDownModelMetres": 0.09050735597190594,
+        "samples": 45
+      },
+      "medianImprovement": 0.9999999999999984,
+      "meanImprovement": 0.9991291931955818
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 2.995810146510923,
+        "medianXZMetresPerSecond": 2.6793350037794506,
+        "p95XZMetresPerSecond": 6.722531783383692,
+        "sameSupportMaxTravelMetres": 0.9517607252542146,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.2523279021352376e-15,
+        "maxHipDownModelMetres": 0.0018601618530269784,
+        "samples": 28
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0030844272391865536,
+        "medianXZMetresPerSecond": 1.9860273225978185e-14,
+        "p95XZMetresPerSecond": 0.035392711347896275,
+        "sameSupportMaxTravelMetres": 0.002528478204058302,
+        "minClearanceModelMetres": 0.003999999999999744,
+        "maxSupportGapModelMetres": 0.004000000000000793,
+        "maxHipXZModelMetres": 0.005053433657776452,
+        "maxHipDownModelMetres": 0.001836355601498369,
+        "samples": 42
+      },
+      "medianImprovement": 0.9999999999999926,
+      "meanImprovement": 0.9989704196566732
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.329605928024309,
+        "medianXZMetresPerSecond": 4.976806158925205,
+        "p95XZMetresPerSecond": 6.243425097815652,
+        "sameSupportMaxTravelMetres": 1.6161133828510315,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 5.269860933630608e-16,
+        "maxHipDownModelMetres": 0.003946792126853844,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0026235372789056846,
+        "medianXZMetresPerSecond": 6.2803698347351005e-15,
+        "p95XZMetresPerSecond": 0.02180571220582774,
+        "sameSupportMaxTravelMetres": 0.002492809569836835,
+        "minClearanceModelMetres": 0.003999999999999744,
+        "maxSupportGapModelMetres": 0.0040000000000005465,
+        "maxHipXZModelMetres": 0.007034661331288645,
+        "maxHipDownModelMetres": 0.10495555117548935,
+        "samples": 43
+      },
+      "medianImprovement": 0.9999999999999988,
+      "meanImprovement": 0.999394047097468
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.329605928024312,
+        "medianXZMetresPerSecond": 4.976806158925191,
+        "p95XZMetresPerSecond": 6.243425097815664,
+        "sameSupportMaxTravelMetres": 1.6161133828510323,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 9.86864910777917e-16,
+        "maxHipDownModelMetres": 0.003946792126853844,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.003728344992924939,
+        "medianXZMetresPerSecond": 1.7763568394002505e-14,
+        "p95XZMetresPerSecond": 0.03632166977094708,
+        "sameSupportMaxTravelMetres": 0.0038146400183976356,
+        "minClearanceModelMetres": 0.003999999999999744,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.005211467786109546,
+        "maxHipDownModelMetres": 0.10375064579913489,
+        "samples": 43
+      },
+      "medianImprovement": 0.9999999999999964,
+      "meanImprovement": 0.9991388719770563
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.155617522010617,
+        "medianXZMetresPerSecond": 5.440769718433814,
+        "p95XZMetresPerSecond": 10.29779951121664,
+        "sameSupportMaxTravelMetres": 1.9717416241770684,
+        "minClearanceModelMetres": 0.003999999999999498,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.017237066338275e-15,
+        "maxHipDownModelMetres": 0.02333136699586507,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.06620702930465941,
+        "medianXZMetresPerSecond": 1.7763568394002505e-14,
+        "p95XZMetresPerSecond": 6.404745667978754e-14,
+        "sameSupportMaxTravelMetres": 0.07448379848022961,
+        "minClearanceModelMetres": 0.0039999999999991275,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.10075923719074911,
+        "maxHipDownModelMetres": 0.09050735597190693,
+        "samples": 45
+      },
+      "medianImprovement": 0.9999999999999968,
+      "meanImprovement": 0.9871582736651807
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.2677967488883874,
+        "medianXZMetresPerSecond": 5.519173251276477,
+        "p95XZMetresPerSecond": 8.729928767486598,
+        "sameSupportMaxTravelMetres": 2.0359033130071125,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.5603704304785337e-15,
+        "maxHipDownModelMetres": 0.023331366995864578,
+        "samples": 42
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0041285769861434595,
+        "medianXZMetresPerSecond": 1.8310267194088947e-14,
+        "p95XZMetresPerSecond": 6.060638241914241e-14,
+        "sameSupportMaxTravelMetres": 0.004645683042016793,
+        "minClearanceModelMetres": 0.003999999999999744,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.015483731283795635,
+        "maxHipDownModelMetres": 0.09256658958043025,
+        "samples": 45
+      },
+      "medianImprovement": 0.9999999999999967,
+      "meanImprovement": 0.9992162611461776
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 20,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 1.1152400533764004,
+        "medianXZMetresPerSecond": 1.2186766918975047,
+        "p95XZMetresPerSecond": 2.3350130315199253,
+        "sameSupportMaxTravelMetres": 0.2861106355486046,
+        "minClearanceModelMetres": 0.003999999999999375,
+        "maxSupportGapModelMetres": 0.004000000000000238,
+        "maxHipXZModelMetres": 6.167905692361981e-16,
+        "maxHipDownModelMetres": 0.0161067505508155,
+        "samples": 23
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.17069688011853873,
+        "medianXZMetresPerSecond": 9.930136612989092e-15,
+        "p95XZMetresPerSecond": 1.140198671646611,
+        "sameSupportMaxTravelMetres": 0.12615642171156524,
+        "minClearanceModelMetres": 0.0039999999999991275,
+        "maxSupportGapModelMetres": 0.004000000000000238,
+        "maxHipXZModelMetres": 0.1200000000000007,
+        "maxHipDownModelMetres": 0.0161067505508155,
+        "samples": 23
+      },
+      "medianImprovement": 0.9999999999999919,
+      "meanImprovement": 0.8469415803335325
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.201835066615685,
+        "medianXZMetresPerSecond": 5.037015638493831,
+        "p95XZMetresPerSecond": 10.475896838665461,
+        "sameSupportMaxTravelMetres": 1.8430137053610243,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 5.818790592604744e-16,
+        "maxHipDownModelMetres": 0.025248889586645517,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.006923653554046446,
+        "medianXZMetresPerSecond": 1.4541908674370036e-14,
+        "p95XZMetresPerSecond": 4.2130001622920416e-14,
+        "sameSupportMaxTravelMetres": 0.009337551190053795,
+        "minClearanceModelMetres": 0.003999999999999744,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.01603942466581155,
+        "maxHipDownModelMetres": 0.10611341838743756,
+        "samples": 70
+      },
+      "medianImprovement": 0.9999999999999971,
+      "meanImprovement": 0.9986689978699093
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.382603729284972,
+        "medianXZMetresPerSecond": 3.2479334180736585,
+        "p95XZMetresPerSecond": 7.44330045818958,
+        "sameSupportMaxTravelMetres": 1.4699280828022054,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.2523279021352376e-15,
+        "maxHipDownModelMetres": 0.0018601618530269784,
+        "samples": 46
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0028548259298733767,
+        "medianXZMetresPerSecond": 1.2490009027033011e-14,
+        "p95XZMetresPerSecond": 8.537174712481585e-14,
+        "sameSupportMaxTravelMetres": 0.002636153435019734,
+        "minClearanceModelMetres": 0.003999999999999744,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.005886594727589046,
+        "maxHipDownModelMetres": 0.0013868126703821106,
+        "samples": 67
+      },
+      "medianImprovement": 0.9999999999999961,
+      "meanImprovement": 0.9991560270849471
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.437939156495504,
+        "medianXZMetresPerSecond": 4.548547382042911,
+        "p95XZMetresPerSecond": 6.353533676768534,
+        "sameSupportMaxTravelMetres": 1.5209418100855283,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 5.269860933630608e-16,
+        "maxHipDownModelMetres": 0.004755707212153767,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0033322786834879083,
+        "medianXZMetresPerSecond": 9.42055475210265e-15,
+        "p95XZMetresPerSecond": 5.437897421441638e-14,
+        "sameSupportMaxTravelMetres": 0.003246739299284915,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.007034661331287179,
+        "maxHipDownModelMetres": 0.10495555117548812,
+        "samples": 68
+      },
+      "medianImprovement": 0.9999999999999979,
+      "meanImprovement": 0.9992491382675649
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.437939156495505,
+        "medianXZMetresPerSecond": 4.54854738204289,
+        "p95XZMetresPerSecond": 6.3535336767685555,
+        "sameSupportMaxTravelMetres": 1.5209418100855263,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.1033485125543436e-15,
+        "maxHipDownModelMetres": 0.004755707212153767,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.003925738299706226,
+        "medianXZMetresPerSecond": 2.6645352591003757e-14,
+        "p95XZMetresPerSecond": 1.1916163935586912e-13,
+        "sameSupportMaxTravelMetres": 0.0038367888787068085,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.005505708717917104,
+        "maxHipDownModelMetres": 0.10375064579913094,
+        "samples": 68
+      },
+      "medianImprovement": 0.9999999999999941,
+      "meanImprovement": 0.9991154141232512
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.210055847155527,
+        "medianXZMetresPerSecond": 4.71502310901954,
+        "p95XZMetresPerSecond": 10.166453432361596,
+        "sameSupportMaxTravelMetres": 1.8322889302913785,
+        "minClearanceModelMetres": 0.003999999999999375,
+        "maxSupportGapModelMetres": 0.004000000000000485,
+        "maxHipXZModelMetres": 1.973729821555834e-15,
+        "maxHipDownModelMetres": 0.025248889586645517,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.06445990619624098,
+        "medianXZMetresPerSecond": 2.7465400791133424e-14,
+        "p95XZMetresPerSecond": 9.090957362871363e-14,
+        "sameSupportMaxTravelMetres": 0.07591708616460453,
+        "minClearanceModelMetres": 0.003999999999999251,
+        "maxSupportGapModelMetres": 0.004000000000001102,
+        "maxHipXZModelMetres": 0.10434549558870528,
+        "maxHipDownModelMetres": 0.1061134183874341,
+        "samples": 70
+      },
+      "medianImprovement": 0.9999999999999942,
+      "meanImprovement": 0.9876277897805197
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.485036397937269,
+        "medianXZMetresPerSecond": 5.291005106837512,
+        "p95XZMetresPerSecond": 9.919204230124903,
+        "sameSupportMaxTravelMetres": 1.923004897254251,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.1322769728413025e-15,
+        "maxHipDownModelMetres": 0.025248889586645517,
+        "samples": 67
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0069287712488070394,
+        "medianXZMetresPerSecond": 2.6645352591003757e-14,
+        "p95XZMetresPerSecond": 1.1071657016922029e-13,
+        "sameSupportMaxTravelMetres": 0.00939333770841415,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.017075290925311706,
+        "maxHipDownModelMetres": 0.10839597852711257,
+        "samples": 70
+      },
+      "medianImprovement": 0.999999999999995,
+      "meanImprovement": 0.9987367866416689
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 30,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 1.0886985047986064,
+        "medianXZMetresPerSecond": 1.0072178278776145,
+        "p95XZMetresPerSecond": 2.139589852394364,
+        "sameSupportMaxTravelMetres": 0.4481304557623183,
+        "minClearanceModelMetres": 0.003999999999999375,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 5.516742562771718e-16,
+        "maxHipDownModelMetres": 0.016325267162881445,
+        "samples": 36
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.3141572737657081,
+        "medianXZMetresPerSecond": 2.401779625492033e-14,
+        "p95XZMetresPerSecond": 1.8080230683322012,
+        "sameSupportMaxTravelMetres": 0.18262886974127435,
+        "minClearanceModelMetres": 0.003999999999998881,
+        "maxSupportGapModelMetres": 0.004000000000000731,
+        "maxHipXZModelMetres": 0.12000000000000077,
+        "maxHipDownModelMetres": 0.016325267162881445,
+        "samples": 34
+      },
+      "medianImprovement": 0.9999999999999761,
+      "meanImprovement": 0.7114377650184954
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.401552998092541,
+        "medianXZMetresPerSecond": 5.214079571150249,
+        "p95XZMetresPerSecond": 10.600906762428002,
+        "sameSupportMaxTravelMetres": 1.9587052209717413,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 9.86864910777917e-16,
+        "maxHipDownModelMetres": 0.025248889586645517,
+        "samples": 142
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.007728914773201533,
+        "medianXZMetresPerSecond": 3.142146920006562e-14,
+        "p95XZMetresPerSecond": 1.098616031645337e-13,
+        "sameSupportMaxTravelMetres": 0.00934065951179255,
+        "minClearanceModelMetres": 0.003999999999999621,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.016039424665810913,
+        "maxHipDownModelMetres": 0.10613242684984117,
+        "samples": 145
+      },
+      "medianImprovement": 0.999999999999994,
+      "meanImprovement": 0.998569130993266
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.2660925302812163,
+        "medianXZMetresPerSecond": 3.0485161275299495,
+        "p95XZMetresPerSecond": 7.525411941468457,
+        "sameSupportMaxTravelMetres": 0.5853541442178212,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.2523279021352376e-15,
+        "maxHipDownModelMetres": 0.0018601618530269784,
+        "samples": 70
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.003066584821584056,
+        "medianXZMetresPerSecond": 5.493080158226685e-14,
+        "p95XZMetresPerSecond": 1.4162199163704848e-13,
+        "sameSupportMaxTravelMetres": 0.0026361534350232154,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000793,
+        "maxHipXZModelMetres": 0.006019901335260884,
+        "maxHipDownModelMetres": 0.001836355601501823,
+        "samples": 142
+      },
+      "medianImprovement": 0.999999999999982,
+      "meanImprovement": 0.9990610845243506
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.5165077613450535,
+        "medianXZMetresPerSecond": 4.62100391677513,
+        "p95XZMetresPerSecond": 6.406127054407943,
+        "sameSupportMaxTravelMetres": 1.624665375702672,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 9.873466608240758e-16,
+        "maxHipDownModelMetres": 0.004755707212153767,
+        "samples": 142
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.004113521553707575,
+        "medianXZMetresPerSecond": 2.6645352591003757e-14,
+        "p95XZMetresPerSecond": 7.304727555988314e-14,
+        "sameSupportMaxTravelMetres": 0.0037332992391563386,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.0040000000000005465,
+        "maxHipXZModelMetres": 0.007034661331287566,
+        "maxHipDownModelMetres": 0.10495555117548885,
+        "samples": 143
+      },
+      "medianImprovement": 0.9999999999999942,
+      "meanImprovement": 0.9990892251777106
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.51650776134506,
+        "medianXZMetresPerSecond": 4.6210039167752,
+        "p95XZMetresPerSecond": 6.406127054408142,
+        "sameSupportMaxTravelMetres": 1.6246653757026766,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.1033485125543436e-15,
+        "maxHipDownModelMetres": 0.004755707212153767,
+        "samples": 142
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0042240720676924625,
+        "medianXZMetresPerSecond": 5.958081967793456e-14,
+        "p95XZMetresPerSecond": 1.5987211554602254e-13,
+        "sameSupportMaxTravelMetres": 0.0038146400184184965,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.0040000000000008544,
+        "maxHipXZModelMetres": 0.0055057087179161985,
+        "maxHipDownModelMetres": 0.10564731539889004,
+        "samples": 143
+      },
+      "medianImprovement": 0.9999999999999871,
+      "meanImprovement": 0.9990647481880038
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.412677739438521,
+        "medianXZMetresPerSecond": 5.1315666860428335,
+        "p95XZMetresPerSecond": 10.61686460526644,
+        "sameSupportMaxTravelMetres": 1.8947003153420559,
+        "minClearanceModelMetres": 0.003999999999999375,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.0539721867261216e-15,
+        "maxHipDownModelMetres": 0.025248889586645517,
+        "samples": 142
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.06143938770626772,
+        "medianXZMetresPerSecond": 5.3705425095741715e-14,
+        "p95XZMetresPerSecond": 1.1916163935586912e-13,
+        "sameSupportMaxTravelMetres": 0.07423997701531684,
+        "minClearanceModelMetres": 0.0039999999999991275,
+        "maxSupportGapModelMetres": 0.004000000000001102,
+        "maxHipXZModelMetres": 0.10473900082497181,
+        "maxHipDownModelMetres": 0.10613242684983475,
+        "samples": 145
+      },
+      "medianImprovement": 0.9999999999999896,
+      "meanImprovement": 0.9886489847236608
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.657618657492311,
+        "medianXZMetresPerSecond": 5.693649521233164,
+        "p95XZMetresPerSecond": 10.042393752849827,
+        "sameSupportMaxTravelMetres": 2.0463001268240135,
+        "minClearanceModelMetres": 0.003999999999999867,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.3956377410522445e-15,
+        "maxHipDownModelMetres": 0.025248889586645517,
+        "samples": 142
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.007775116443478769,
+        "medianXZMetresPerSecond": 5.3290705182007514e-14,
+        "p95XZMetresPerSecond": 1.1916163935586912e-13,
+        "sameSupportMaxTravelMetres": 0.009396527029914257,
+        "minClearanceModelMetres": 0.003999999999999621,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.017075290925312337,
+        "maxHipDownModelMetres": 0.10841524975988115,
+        "samples": 145
+      },
+      "medianImprovement": 0.9999999999999907,
+      "meanImprovement": 0.9986257263145188
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 60,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 1.115362660357513,
+        "medianXZMetresPerSecond": 1.023371692076158,
+        "p95XZMetresPerSecond": 2.3669378396539864,
+        "sameSupportMaxTravelMetres": 0.20159734578143074,
+        "minClearanceModelMetres": 0.003999999999999375,
+        "maxSupportGapModelMetres": 0.004000000000000299,
+        "maxHipXZModelMetres": 5.516742562771718e-16,
+        "maxHipDownModelMetres": 0.016325267162881445,
+        "samples": 80
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.26883283744491476,
+        "medianXZMetresPerSecond": 3.76822190084106e-14,
+        "p95XZMetresPerSecond": 1.9136073618908758,
+        "sameSupportMaxTravelMetres": 0.09724406911363116,
+        "minClearanceModelMetres": 0.003999999999998881,
+        "maxSupportGapModelMetres": 0.004000000000000793,
+        "maxHipXZModelMetres": 0.12000000000000069,
+        "maxHipDownModelMetres": 0.016325267162881445,
+        "samples": 78
+      },
+      "medianImprovement": 0.9999999999999631,
+      "meanImprovement": 0.7589727117467386
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "mode": "forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.366325031884062,
+        "medianXZMetresPerSecond": 5.234819218378409,
+        "p95XZMetresPerSecond": 10.8050102392003,
+        "sameSupportMaxTravelMetres": 1.9992078931942001,
+        "minClearanceModelMetres": 0.003999999999999744,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 9.86864910777917e-16,
+        "maxHipDownModelMetres": 0.025248889586645517,
+        "samples": 288
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.008855089622777444,
+        "medianXZMetresPerSecond": 6.661338147750939e-14,
+        "p95XZMetresPerSecond": 1.9214237003936264e-13,
+        "sameSupportMaxTravelMetres": 0.010887076732469783,
+        "minClearanceModelMetres": 0.003999999999999621,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.016039424665814015,
+        "maxHipDownModelMetres": 0.10613242684983129,
+        "samples": 295
+      },
+      "medianImprovement": 0.9999999999999872,
+      "meanImprovement": 0.9983498782555725
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "mode": "backward",
+      "baseline": {
+        "meanXZMetresPerSecond": 3.0945711886800504,
+        "medianXZMetresPerSecond": 2.9043187042246723,
+        "p95XZMetresPerSecond": 7.125814279533827,
+        "sameSupportMaxTravelMetres": 0.2793113665180405,
+        "minClearanceModelMetres": 0.003999999999999621,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 2.0026706336550164e-15,
+        "maxHipDownModelMetres": 0.0018601618530269784,
+        "samples": 148
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0033885809782459924,
+        "medianXZMetresPerSecond": 1.1657341758564144e-13,
+        "p95XZMetresPerSecond": 3.2958480949360105e-13,
+        "sameSupportMaxTravelMetres": 0.0030563630927331093,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.006338302525233594,
+        "maxHipDownModelMetres": 0.0018363556015015762,
+        "samples": 292
+      },
+      "medianImprovement": 0.9999999999999598,
+      "meanImprovement": 0.998904991751154
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "mode": "strafe_left",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.544628470340663,
+        "medianXZMetresPerSecond": 4.674245033063178,
+        "p95XZMetresPerSecond": 6.443089146439998,
+        "sameSupportMaxTravelMetres": 1.662835151011269,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 6.167905692361981e-16,
+        "maxHipDownModelMetres": 0.004778780389811388,
+        "samples": 292
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.0045325459466439184,
+        "medianXZMetresPerSecond": 5.3290705182007514e-14,
+        "p95XZMetresPerSecond": 1.1770982220319775e-13,
+        "sameSupportMaxTravelMetres": 0.0038420542408984055,
+        "minClearanceModelMetres": 0.003999999999999621,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.007039836518625076,
+        "maxHipDownModelMetres": 0.10495555117548565,
+        "samples": 293
+      },
+      "medianImprovement": 0.9999999999999886,
+      "meanImprovement": 0.999002658638385
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "mode": "strafe_right",
+      "baseline": {
+        "meanXZMetresPerSecond": 4.544628470340671,
+        "medianXZMetresPerSecond": 4.674245033063338,
+        "p95XZMetresPerSecond": 6.443089146440013,
+        "sameSupportMaxTravelMetres": 1.662835151011269,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.3956377410522445e-15,
+        "maxHipDownModelMetres": 0.004778780389811388,
+        "samples": 292
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.004368025529794361,
+        "medianXZMetresPerSecond": 1.1916163935586912e-13,
+        "p95XZMetresPerSecond": 3.3704001298336333e-13,
+        "sameSupportMaxTravelMetres": 0.0038112405085513274,
+        "minClearanceModelMetres": 0.003999999999999683,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.005860542201237764,
+        "maxHipDownModelMetres": 0.10564731539889596,
+        "samples": 293
+      },
+      "medianImprovement": 0.9999999999999745,
+      "meanImprovement": 0.9990388597091487
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "mode": "curved_forward",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.352688745134525,
+        "medianXZMetresPerSecond": 5.15061337601206,
+        "p95XZMetresPerSecond": 10.66876335428193,
+        "sameSupportMaxTravelMetres": 1.9688175260735217,
+        "minClearanceModelMetres": 0.003999999999999375,
+        "maxSupportGapModelMetres": 0.004000000000000485,
+        "maxHipXZModelMetres": 1.1637581185209489e-15,
+        "maxHipDownModelMetres": 0.025248889586645763,
+        "samples": 286
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.06018805341979801,
+        "medianXZMetresPerSecond": 1.0741085019148343e-13,
+        "p95XZMetresPerSecond": 2.6645352591003757e-13,
+        "sameSupportMaxTravelMetres": 0.07398115199706581,
+        "minClearanceModelMetres": 0.003999999999998881,
+        "maxSupportGapModelMetres": 0.0040000000000008544,
+        "maxHipXZModelMetres": 0.10500001114959424,
+        "maxHipDownModelMetres": 0.10613242684983179,
+        "samples": 295
+      },
+      "medianImprovement": 0.9999999999999791,
+      "meanImprovement": 0.9887555476722782
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "mode": "diagonal",
+      "baseline": {
+        "meanXZMetresPerSecond": 5.641414840216892,
+        "medianXZMetresPerSecond": 5.624634584612935,
+        "p95XZMetresPerSecond": 10.243619860881708,
+        "sameSupportMaxTravelMetres": 2.09319463489733,
+        "minClearanceModelMetres": 0.003999999999999744,
+        "maxSupportGapModelMetres": 0.004000000000000361,
+        "maxHipXZModelMetres": 1.1637581185209489e-15,
+        "maxHipDownModelMetres": 0.025248889586645517,
+        "samples": 288
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.00892481603968622,
+        "medianXZMetresPerSecond": 1.098616031645337e-13,
+        "p95XZMetresPerSecond": 2.326705387899206e-13,
+        "sameSupportMaxTravelMetres": 0.010972808260632391,
+        "minClearanceModelMetres": 0.003999999999999621,
+        "maxSupportGapModelMetres": 0.004000000000000608,
+        "maxHipXZModelMetres": 0.017075290925312743,
+        "maxHipDownModelMetres": 0.1084152497598693,
+        "samples": 295
+      },
+      "medianImprovement": 0.9999999999999805,
+      "meanImprovement": 0.9984179826705771
+    },
+    {
+      "id": "ember-sovereign",
+      "fps": 120,
+      "mode": "turn",
+      "baseline": {
+        "meanXZMetresPerSecond": 1.1169965282576948,
+        "medianXZMetresPerSecond": 0.9763950775171518,
+        "p95XZMetresPerSecond": 2.410103450983902,
+        "sameSupportMaxTravelMetres": 0.15109991385390648,
+        "minClearanceModelMetres": 0.003999999999999375,
+        "maxSupportGapModelMetres": 0.004000000000000485,
+        "maxHipXZModelMetres": 6.167905692361981e-16,
+        "maxHipDownModelMetres": 0.01632526716288169,
+        "samples": 155
+      },
+      "candidate": {
+        "meanXZMetresPerSecond": 0.26739454857574396,
+        "medianXZMetresPerSecond": 7.53644380168212e-14,
+        "p95XZMetresPerSecond": 1.6370938086813411,
+        "sameSupportMaxTravelMetres": 0.06408564954462391,
+        "minClearanceModelMetres": 0.003999999999998943,
+        "maxSupportGapModelMetres": 0.004000000000000731,
+        "maxHipXZModelMetres": 0.12000000000000097,
+        "maxHipDownModelMetres": 0.016325267162881938,
+        "samples": 147
+      },
+      "medianImprovement": 0.9999999999999228,
+      "meanImprovement": 0.7606129098782166
+    }
+  ]
+}

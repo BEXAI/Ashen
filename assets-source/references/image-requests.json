@@ -1,0 +1,64 @@
+[
+  {
+    "index": 1,
+    "params": {
+      "aspect_ratio": "2:3",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "a4887158-9444-42f8-9573-ce2581d8495e"
+        }
+      ],
+      "model": "nano_banana_pro",
+      "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: ASH KNIGHT from LEFT panel of triptych. Enclosed angular medieval steel helmet with narrow visor slit and lower vertical breathing slits. Layered battered dark steel cuirass and segmented steel arm and leg armor, chainmail visible at neck and joints, rough brown leather belts and straps, worn oxblood dark red fabric tunic/skirt and a short tattered oxblood cape falling behind shoulders. Asymmetric practical pauldrons preserved. Steel gauntlets, sturdy armored boots. Human proportions. Render all materials clearly, especially oxblood cloth, chainmail and steel scuffing. Keep cape behind body so legs and arms remain individually readable.",
+      "resolution": "2k",
+      "use_unlim": false
+    }
+  },
+  {
+    "index": 2,
+    "params": {
+      "aspect_ratio": "2:3",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "a4887158-9444-42f8-9573-ce2581d8495e"
+        }
+      ],
+      "model": "nano_banana_pro",
+      "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: CRYPT WARDEN from CENTER panel of triptych. Tall lean muscular undead humanoid with corpse-grey wrinkled hide, bald narrow male head, pointed ears, deeply sunken face and faint amber eyes. Bone ivory organic plates over both shoulders, rib-cage motif around chest leaving grey torso visible, bone forearm guards and bone pelvis armor, long bare grey legs, clearly separated long bony clawed fingers and five-toed feet. Closed mouth, no gore. Preserve unsettling natural anatomy and bone plate silhouette; full complete humanoid body, no weapon.",
+      "resolution": "2k",
+      "use_unlim": false
+    }
+  },
+  {
+    "index": 3,
+    "params": {
+      "aspect_ratio": "2:3",
+      "count": 1,
+      "medias": [
+        {
+          "role": "image",
+          "value": "a4887158-9444-42f8-9573-ce2581d8495e"
+        }
+      ],
+      "model": "nano_banana_pro",
+      "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: EMBER SOVEREIGN from RIGHT panel of triptych. Massive regal humanoid in layered angular black volcanic plate armor, crown with tall jagged narrow dark metal prongs fused around a closed menacing black helmet, armored shoulders, angular segmented black cuirass, strong armored legs and pointed heavy armored boots. Sparse narrow ember-orange seams recessed between plates, rendered mostly as flat orange-red material with only very restrained glow, black torn cloth tabard hanging in front. Thick black gauntlets with clearly separated fingers. Maintain sovereign crown, monumental shoulders and coherent full volumetric armor. No sword or other prop.",
+      "resolution": "2k",
+      "use_unlim": false
+    }
+  },
+  {
+    "index": 4,
+    "params": {
+      "aspect_ratio": "1:1",
+      "count": 1,
+      "model": "nano_banana_pro",
+      "prompt": "Create a production sprite atlas for a 3D game torch fire effect. Exactly 4 columns by 4 rows, 16 equally sized square frames covering the full square canvas edge to edge. Each frame shows one isolated small flame only: bright white-yellow core, amber and orange tongues, a little faint wispy grey smoke above. Pure pitch black background in every cell, no outlines, no dividers, no text, no numbers, no torch or holder. Flame bases stay at identical centered x and fixed lower y within every cell. Smooth consecutive animation progression from top-left across each row, then next row: flame rising, curling and rolling gently through 16 stages which loop seamlessly. Every flame fits fully inside its own square with generous dark margin, does not touch neighboring cells. Physically realistic volumetric flame texture with feathered dissipating edges suitable for additive blending. The atlas fills a 1024x1024 image; 4x4 exact regular layout.",
+      "resolution": "1k",
+      "use_unlim": false
+    }
+  }
+]

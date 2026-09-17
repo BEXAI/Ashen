@@ -1,0 +1,35 @@
+{
+  "authorized_total": 1000,
+  "starting_balance": 4113.5,
+  "workspace_id": "bdeb1056-93d9-4c2d-8b80-389d588bab2f",
+  "pilot_project_id": "21434c15-bdde-4abd-bcb9-62098cae463a",
+  "cost_quote": "Unavailable for direct scene operations; measure balance changes without assuming exclusive account usage.",
+  "usage_note": "Observed balance checkpoints across all three successful scene operations remained 4113.5. This does not establish an invoice, quoted operation rate, exclusive account usage or a promise of free later jobs.",
+  "assets": [
+    {
+      "id": "A01",
+      "source_project": "21434c15-bdde-4abd-bcb9-62098cae463a",
+      "revision": 1,
+      "ledger": "sconce/production-ledger.json",
+      "observed_debit": 0
+    },
+    {
+      "id": "A02",
+      "source_project": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+      "revision": 1,
+      "ledger": "../v2/shrine/production-ledger.json",
+      "observed_debit": 0
+    },
+    {
+      "id": "A03",
+      "source_project": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+      "revision": 1,
+      "ledger": "../v2/architecture/production-ledger.json",
+      "observed_debit": 0
+    }
+  ],
+  "observed_balance_debit": 0,
+  "confirmed_billed_usage": null,
+  "release_ledger": "../v2/release-ledger.json",
+  "record_scope": "Historical shared authoring balance observations. Current source hashes/runtime locations are reconciled in the release ledger."
+}

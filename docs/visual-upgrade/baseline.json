@@ -1,0 +1,34 @@
+{
+  "source_revision": "a10946e134fa7b915370f664100536c2f95f0c82",
+  "branch": "codex/mobile-sovereign-update",
+  "clean_at_start": true,
+  "site_project_id": "appgprj_6a9d4c4f647481918c6449a0bbfcc828",
+  "published_version": 11,
+  "deployment_id": "appgdep_6aa1c90ecc308191b6ec0270e7f7e4cd",
+  "publication_status": "succeeded; rechecked2026-09-09",
+  "url": "https://ashen-realm.optinuss.chatgpt.site",
+  "character_manifest": "public/assets/characters/v10/manifest.json",
+  "dungeon_manifest": "public/assets/dungeon/v9/manifest.json",
+  "lighting_start": {
+    "exposure": 1.35,
+    "hemisphere": 0.95,
+    "environment": 0.65,
+    "ao": 0.3,
+    "fog_density": 0.014
+  },
+  "historical_test_result": {
+    "passed": 83,
+    "current_run_pending": true
+  },
+  "authorization": {
+    "implementation_and_publication": true,
+    "browser_and_screenshots": true,
+    "higgsfield_total_credits": 1000,
+    "phone_testing": "User can test on their phone; model/browser/results pending"
+  },
+  "screenshots": [
+    "screenshots/baseline-live-entry.png",
+    "screenshots/baseline-low-entrance.png"
+  ],
+  "visual_observation": "Published entrance floor visible; passage ahead substantially darker; simple fixtures. Desktop browser screenshot, not physicalphone evidence."
+}

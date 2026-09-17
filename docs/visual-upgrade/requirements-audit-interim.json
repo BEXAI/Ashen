@@ -1,0 +1,347 @@
+{
+  "created_at_utc": "2026-09-09T23:06:03.185887+00:00",
+  "scope": "Read-only requirement/evidence audit P01-P24. No Site writes/tools or new generations; integration was changing concurrently. Passing suite was inspected, not rerun by this task.",
+  "plan": "/Users/nathaniel/Documents/ChatGPT/Knight/plans/ashen-realm-full-stack-update-plan.json",
+  "plan_sha256": "d3ab3f0aecfb8b634576d210c1a0e43a600d9e978461a154667430f7d42b751c",
+  "source_hashes": {
+    "app/game/engine.ts": "345fe0e5778cf5b28e342179f8b3356202067eda2aafff9f72f64cdfe2368ad9",
+    "app/game/character-assets.ts": "ffbbe4efc886e26193fe4cd93a497e6e7da77134a0fe8b487cb0dd0534f30089",
+    "app/game/character-presentation.ts": "4bd1e77e6c17759e4de9f841d7670a590d93a582e5766cae1d41f034444b0f27",
+    "app/game/auto-controller.ts": "fbd158f736826f93ec0526d4fa795ea8dfb1c5132c6c70c00ff9859caa1c0485",
+    "app/game/frame-measurements.ts": "e96867cbe091c3d9c96e6882550ba4a98088a515389cbb3cd763979e5a135886",
+    "app/game/visual-bench.ts": "52ab669422b67c820c8c22e8cc316f2d9e4b535a7509126a9554813f2ea3add4",
+    "app/game/prop-assets.ts": "b674c6638cb94d175bda671d704db48d70917e7e41ea0c4381aef9bcd2017c42",
+    "app/game/shrine-assets.ts": "8b9b52706e1b62acc9164f2864d218714f5da0e52d3401823b215cbfc4ad1a4a",
+    "tests/character-low-presentation.test.mjs": "4921427e301f5cbfee61601fa80788290fc4bc111170be70d1b3dd8a561baf10"
+  },
+  "not_claimed": [
+    "Physical iPhone verified",
+    "Final integrated build passed",
+    "All proposed asset loaders already integrated"
+  ],
+  "priorities": [
+    {
+      "priority": 1,
+      "id": "GAP-STANCE",
+      "steps": [
+        "P11",
+        "P12"
+      ],
+      "action": "Fix distance-calibrated stance/gait with translated actor tests; root assigned outside-Site follow-up."
+    },
+    {
+      "priority": 2,
+      "id": "GAP-MEASURED-RUNTIME",
+      "steps": [
+        "P02",
+        "P19",
+        "P20"
+      ],
+      "action": "Collect actual Auto/controller and final prop budget threshold traversal evidence; add bounded resource/LOD high-water history rather than only final snapshot."
+    },
+    {
+      "priority": 3,
+      "id": "GAP-VISUAL-MATRIX",
+      "steps": [
+        "P05",
+        "P16",
+        "P17"
+      ],
+      "action": "Root completes final all-room/gate/shrine matched views and actual active combat sequence."
+    },
+    {
+      "priority": 4,
+      "id": "GAP-PACK-RELEASE",
+      "steps": [
+        "P22",
+        "P23"
+      ],
+      "action": "Freeze current source, verify exact asset closure/restore/archive, then final checks."
+    },
+    {
+      "priority": 5,
+      "id": "PENDING-PHYSICAL",
+      "steps": [
+        "P24"
+      ],
+      "action": "Keep device acceptance explicitly pending user tests."
+    }
+  ],
+  "rows": [
+    {
+      "step": "P01",
+      "assessment": "implemented",
+      "evidence": [
+        "docs/visual-upgrade/baseline.json",
+        "docs/visual-upgrade/behavioral-contracts.md"
+      ],
+      "gap": "No concrete behavioral-boundary gap identified by this read-only audit.",
+      "next_action": null
+    },
+    {
+      "step": "P02",
+      "assessment": "implemented_with_measurement_gaps",
+      "evidence": [
+        "app/game/frame-measurements.ts",
+        "app/game/visual-bench.ts",
+        "app/game/engine.ts:diagnostics/resetMeasurements",
+        "tests/graphics-preferences.test.mjs"
+      ],
+      "gap": "Timing classes and reset semantics are real. Draw/triangle/resource figures are only the final snapshot; no resource high-water/timeline records exist. Character replacement overlap is compressed download-byte sum, not decoded old/new resident texture/geometry estimates. PMREM scene.environment is not included in material-only asset texture collection; excluded driver/depth/GPU timing are correctly disclosed. All recorded samples say local-uncommitted, so exact current-source linkage is weak.",
+      "next_action": "Add a bounded low-frequency resource trace and per-asset resident/overlap estimates with explicit exclusions; attach source/asset hashes to final captures. GPU timers may remain explicitly unavailable."
+    },
+    {
+      "step": "P03",
+      "assessment": "implemented",
+      "evidence": [
+        "app/game/graphics-preferences.ts",
+        "app/game/Game.tsx",
+        "tests/graphics-preferences.test.mjs",
+        "docs/visual-upgrade/implementation-progress.json"
+      ],
+      "gap": "No concrete implementation gap identified; final accessibility/device exercise remains P24.",
+      "next_action": null
+    },
+    {
+      "step": "P04",
+      "assessment": "implemented",
+      "evidence": [
+        "app/game/lighting-profiles.ts",
+        "app/game/dungeon-lighting.ts",
+        "tests/graphics-preferences.test.mjs"
+      ],
+      "gap": "Spatial profile/gate torch selection and fixed pools are tested; visual calibration remains P05.",
+      "next_action": null
+    },
+    {
+      "step": "P05",
+      "assessment": "integration_visual_review_in_progress",
+      "evidence": [
+        "docs/visual-upgrade/screenshots",
+        "docs/visual-upgrade/reference-slice-review.json",
+        "assets-source/dungeon-v11/report.json"
+      ],
+      "gap": "Existing recorded calibration is a desktop reference slice. The required all-room/passage gate/shrine-state matrix with final A02/A03 and new indirect maps is not yet complete; root is actively doing it.",
+      "next_action": "Capture identical fixed views with new props off/on and gate/shrine closed/open, including floor/doorway contrast and flame clipping. Keep phone-brightness acceptance pending."
+    },
+    {
+      "step": "P06",
+      "assessment": "implemented",
+      "evidence": [
+        "assets-source/props/v1/sconce/production-ledger.json",
+        "/tmp/ashen-architecture-kit/production-ledger.json"
+      ],
+      "gap": "Explicit 1000-credit ceiling, serialized projects and balance observations retained; direct-operation costs unknown, correctly not called free.",
+      "next_action": null
+    },
+    {
+      "step": "P07",
+      "assessment": "implemented",
+      "evidence": [
+        "assets-source/props/v1/sconce",
+        "/tmp/ashen-sconce-pilot"
+      ],
+      "gap": "Actual committed source and downloaded/reimported portable derivative exist; unavailable scene display tools documented.",
+      "next_action": null
+    },
+    {
+      "step": "P08",
+      "assessment": "implemented",
+      "evidence": [
+        "public/assets/props/v1/manifest.json",
+        "scripts/package-prop-assets.mjs",
+        "tests/prop-assets.test.mjs"
+      ],
+      "gap": "Compressed/fallback geometry and actual dimensions validated. No pilot blocking gap found.",
+      "next_action": null
+    },
+    {
+      "step": "P09",
+      "assessment": "implemented_rollout_review_in_progress",
+      "evidence": [
+        "app/game/prop-assets.ts",
+        "public/assets/dungeon/v12/manifest.json",
+        "assets-source/dungeon-v12/validation.json",
+        "tests/prop-assets.test.mjs"
+      ],
+      "gap": "Fixture/duplicate-bake replacement and lifecycle tests exist. Full-room visual check is still in progress with root; not a missing-loader finding.",
+      "next_action": null
+    },
+    {
+      "step": "P10",
+      "assessment": "implemented_with_art_limits",
+      "evidence": [
+        "assets-source/sovereign-v11/qa",
+        "assets-source/sovereign-v11/scripts/verify_refinement.mjs",
+        "tests/sovereign-mobile.test.mjs",
+        "tests/character-low-presentation.test.mjs",
+        "/tmp/ashen-character-refinement/handoff-summary.json"
+      ],
+      "gap": "Sovereign deformation/source changes and preserved sockets are evidenced; Ash Knight/Warden use existing geometry with stated anatomical justification. Residual side/backhand cape intersections are documented; this is not continuous collision-free clothing.",
+      "next_action": null
+    },
+    {
+      "step": "P11",
+      "assessment": "implemented_with_transition_evidence_gap",
+      "evidence": [
+        "app/game/character-assets.ts:sample/locomotion",
+        "app/game/character-presentation.ts",
+        "tests/character-presentation.test.mjs",
+        "tests/character-low-presentation.test.mjs"
+      ],
+      "gap": "Phase-protected transitions, directional clip selection and actor-independent sampling exist. Tests prove contacts/reset and stationary support, but do not quantify visible pose continuity through translated forward/back/strafe/turn/reaction interruptions.",
+      "next_action": "Include translated/turned gait and interruption sequences in the P12 stance probe; inspect full-speed clips after calibration."
+    },
+    {
+      "step": "P12",
+      "assessment": "concrete_implementation_gap",
+      "evidence": [
+        "app/game/character-presentation.ts:groundFeet",
+        "app/game/engine.ts:gaitTime updates",
+        "tests/character-low-presentation.test.mjs",
+        "/tmp/ashen-foot-skating-probe.json"
+      ],
+      "gap": "Current foot correction only translates hip world Y. Existing tests keep actor position constant. A current-source, actual-Low-rig translated probe finds same-support centroid travel maxima 1.905m Knight, 1.151m Warden, 1.894m Sovereign over roughly0.342s. This proxy includes rolling and is not a foot-contact solver, but demonstrates substantial world-space motion despite Y-clearance pass.",
+      "next_action": "Root has assigned a bounded stance/gait calibration proposal with translated/turned all-three-rig tests outside Site. Preserve actor roots, speeds and active weapon-chain paths."
+    },
+    {
+      "step": "P13",
+      "assessment": "accepted_limited_reference_slice",
+      "evidence": [
+        "docs/visual-upgrade/reference-slice-review.json"
+      ],
+      "gap": "G04 explicitly accepted desktop slice for expansion, not final phone readiness. P12 world-space planting weakness was not established by that stationary pose evidence.",
+      "next_action": null
+    },
+    {
+      "step": "P14",
+      "assessment": "implemented_pending_final_visuals",
+      "evidence": [
+        "app/game/surface-uv.ts",
+        "assets-source/dungeon-v11/report.json",
+        "assets-source/dungeon-v11/surface-density-audit.json",
+        "public/assets/dungeon/v11/manifest.json",
+        "public/assets/dungeon/v12/manifest.json"
+      ],
+      "gap": "UV0 world scale and floor-only shared irradiance changes exist; UV1 and nonfloor preservation have offline evidence. Repeating stone scale and wall/contact appearance still need final runtime matrix review.",
+      "next_action": null
+    },
+    {
+      "step": "P15",
+      "assessment": "asset_production_complete_integration_in_progress",
+      "evidence": [
+        "assets-source/props/v2/shrine",
+        "/tmp/ashen-architecture-kit/README.md",
+        "/tmp/ashen-architecture-kit/final-export-audit.json"
+      ],
+      "gap": "A02/A03 original source/bake/LOD/provenance complete. Anchor names differ from draft plan but exact runtime contracts are documented and compatible; this is a naming adaptation, not a missing visual feature.",
+      "next_action": null
+    },
+    {
+      "step": "P16",
+      "assessment": "root_owned_in_progress",
+      "evidence": [
+        "app/game/shrine-assets.ts",
+        "app/game/prop-assets.ts",
+        "/tmp/ashen-architecture-runtime/architecture-assets.ts",
+        "/tmp/ashen-architecture-runtime/architecture-assets.test.mjs"
+      ],
+      "gap": "Shrine and architecture integration is explicitly ongoing. Do not report missing imports as a final failure while owner is integrating.",
+      "next_action": "Finish all-room placements, use exact existing flame/light/interaction positions, and verify budget-yield fallback geometry and gate clearance in runtime."
+    },
+    {
+      "step": "P17",
+      "assessment": "implemented_pending_full_speed_visuals",
+      "evidence": [
+        "app/game/combat-feedback.ts",
+        "app/game/effects.ts",
+        "tests/combat-feedback.test.mjs",
+        "tests/engine-feedback.test.mjs"
+      ],
+      "gap": "Directional phase cues and actual hit points/pools are implemented; current recorded benchmark windows show zero hit-pause-class samples and do not by themselves prove sustained active-combat visual/effect behavior.",
+      "next_action": "Capture an actual repeated attack/hit sequence, including reduced motion, as part of final review."
+    },
+    {
+      "step": "P18",
+      "assessment": "implemented_pending_device_motion_review",
+      "evidence": [
+        "app/game/camera-feedback.ts",
+        "app/game/engine.ts",
+        "tests/engine-feedback.test.mjs",
+        "tests/combat-feedback.test.mjs"
+      ],
+      "gap": "Bounded optional shake and collision-safe follow implemented. Physical touch/near-wall motion comfort evidence remains pending; source tests cannot establish comfort.",
+      "next_action": null
+    },
+    {
+      "step": "P19",
+      "assessment": "implemented_with_runtime_budget_evidence_gap",
+      "evidence": [
+        "app/game/character-assets.ts:selectActorLod/update/refresh",
+        "app/game/prop-assets.ts:update",
+        "/tmp/ashen-architecture-runtime/architecture-assets.test.mjs"
+      ],
+      "gap": "Close combat LOD0, hysteresis, shared materials, single decoded character replacement and prop budget arbitration are present/proposed. Scalar LOD tests and template tests do not establish an actual repeated moving threshold traversal with final props and quality swaps. Combined new-prop visible delta against equivalent baseline is not yet measured.",
+      "next_action": "Record per-second LOD/residency/draw/triangle counters through a deterministic passage route and tier swap; compare final props on/off at same fixed views. Keep <=10 draws, <=25k incremental triangles, <=16MiB shared texture upper bound distinct from total scene cost."
+    },
+    {
+      "step": "P20",
+      "assessment": "controller_implemented_not_device_calibrated",
+      "evidence": [
+        "app/game/auto-controller.ts",
+        "tests/auto-controller.test.mjs",
+        "tests/engine-feedback.test.mjs",
+        "docs/visual-upgrade/reference-combat-low-before-feedback.json",
+        "docs/visual-upgrade/reference-boss-low-after-feedback.json"
+      ],
+      "gap": "Target-aware staged control, cooldown and bounded60FPS probe are implemented and tested with synthetic sequences. Existing sustained captures are desktop low mode with coarsePointer:false and adaptive:null, so they do not exercise the actual mobile Auto controller or tune it from live sustained pressure. Before-combat/after-boss are different scenes, not matched before/after cost evidence.",
+      "next_action": "Run the actual Auto path in an authorized touch/coarse browser for integration evidence (label simulated); retain physical iPhone calibration pending. Capture boss/reference scene before/after at same path/settings and observed adaptation transitions."
+    },
+    {
+      "step": "P21",
+      "assessment": "source_contracts_covered_final_run_pending",
+      "evidence": [
+        "tests/game.test.mjs",
+        "tests/mobile-runtime.test.mjs",
+        "tests/graphics-preferences.test.mjs",
+        "app/game/Game.tsx",
+        "app/api/progress/route.ts"
+      ],
+      "gap": "Existing guest/account/revision/security checks and local preferences cover source behavior. Final current-state guest/account/context-loss and rapid-load-swap verification should run after integration. No DB schema extension identified.",
+      "next_action": null
+    },
+    {
+      "step": "P22",
+      "assessment": "partly_implemented_final_archive_pending",
+      "evidence": [
+        "scripts/pack-visual-assets.mjs",
+        "scripts/restore-visual-assets.mjs",
+        "scripts/prune-character-build.mjs",
+        "tests/asset-storage.test.mjs"
+      ],
+      "gap": "Packer now includes .blend and new source roots. Character pruning follows active URLs. Final A02/A03 exact block pack/restore, complete active dungeon/prop dependency closure, old asset pruning and expanded archive-size report are not yet recorded.",
+      "next_action": "After final integration, pack once, restore to a clean artifact location, verify active manifests/hashes and self-contained GLBs, prune only generated deployment output, measure expanded archive with headroom."
+    },
+    {
+      "step": "P23",
+      "assessment": "final_validation_pending",
+      "evidence": [
+        "tests/*",
+        "docs/visual-upgrade/implementation-progress.json"
+      ],
+      "gap": "Subsets pass per current artifacts, but no final exact-source full automated report exists while integration continues. Historical counts are not final evidence.",
+      "next_action": "Owner runs full required checks once final edits settle, retaining actual commands/results and source hash."
+    },
+    {
+      "step": "P24",
+      "assessment": "physical_devices_pending",
+      "evidence": [
+        "docs/visual-upgrade/device-results.json",
+        "docs/visual-upgrade/measurement-protocol.json",
+        "docs/visual-upgrade/screenshots"
+      ],
+      "gap": "iPhone17 Safari results are empty; OS version absent; older iPhone and midrange Android missing. Desktop low samples do not verify phones. No15-minute physical combat/traversal/thermal evidence.",
+      "next_action": "Keep G06 pending; prepare a labelled phone-test candidate and collect user device results. Do not block independent code completion on unavailable hardware."
+    }
+  ]
+}

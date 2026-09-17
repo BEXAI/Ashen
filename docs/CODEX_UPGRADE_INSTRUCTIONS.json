@@ -1,0 +1,1387 @@
+{
+  "schema_version": "1.0.0",
+  "document_type": "codex_implementation_brief",
+  "title": "Ashen Realm — Complete Visual and Asset Overhaul",
+  "created_on": "2026-09-07",
+  "instruction_to_codex": "When the user asks you to execute this brief, develop the required upgrade end to end in the existing Ashen Realm project. Inspect the actual source first, implement a playable reference encounter, then extend the validated asset and rendering standards to all five chambers and all three character archetypes. Deliver code, actual usable assets, validation evidence, and a reviewable build. Do not stop at another plan or present concept images, fallback geometry, or an untested build as the completed overhaul. Follow the executing environment's higher-priority instructions, available capabilities, project instructions, and applicable skills. Creating this JSON file does not itself execute these tasks or authorize publication.",
+  "objective": {
+    "outcome": "A materially more believable, cohesive, cinematic dark-fantasy browser RPG with improved character geometry, physical materials, room lighting, environment detail, animation presentation, effects, and sustained iPhone usability.",
+    "visual_thesis": "A torchlit burial fortress: cold stone, worn steel, porous bone, oxblood cloth, restrained embers, and darkness that preserves combat readability.",
+    "primary_platform": "Safari on iPhone",
+    "secondary_platforms": [
+      "Desktop browsers",
+      "Other supported touch browsers"
+    ],
+    "completion_scope": "All five existing dungeon chambers, Ash Knight player and Keeper presentation, Crypt Warden enemies, and Ember Sovereign boss presentation.",
+    "first_reviewable_result": "One finished chamber containing a rebuilt Ash Knight and one rebuilt Crypt Warden, with all four attacks working against actual weapon-contact checks.",
+    "success_definition": [
+      "Improved silhouettes, anatomy, material separation, lighting depth, and motion are visible at the same render resolution as the baseline.",
+      "The entire dungeon follows the reference encounter's visual standard.",
+      "Visual weapons, attack phases, damage, and reactions remain synchronized.",
+      "Measured device performance meets the agreed target profile or any shortfall is explicitly documented.",
+      "Guest progression, saves, equipment, dungeon gates, mobile controls, and renderer recovery remain functional.",
+      "Missing assets, unavailable device tests, and incomplete features are disclosed rather than presented as finished."
+    ]
+  },
+  "project": {
+    "name": "Ashen Realm",
+    "site_url": "https://ashen-realm.optinuss.chatgpt.site",
+    "site_project_id": "appgprj_6a9d4c4f647481918c6449a0bbfcc828",
+    "hosting_manifest": ".openai/hosting.json",
+    "checkout_path_hint": "/workspace/sites/ashen-realm",
+    "source_remote_hint": "https://git.chatgpt-team.site/410b4986-7c4a-4cd0-be56-01b1c7279e1c/appgprj_6a9d4c4f647481918c6449a0bbfcc828.git",
+    "branch_at_last_verified_release": "main",
+    "known_good_release": {
+      "version_number": 7,
+      "commit_sha": "3101c905c1ea1734dc266d34e37e4300b21bf343",
+      "saved_version_id": "appgprj_6a9d4c4f647481918c6449a0bbfcc828~appgver_b7ffff280a548191909cf4a6801f7745",
+      "publication_status_at_last_confirmation": "succeeded",
+      "access_mode_at_last_confirmation": "public",
+      "validation_at_that_release": {
+        "regression_tests_passed": 55,
+        "regression_tests_failed": 0,
+        "typescript": "passed",
+        "source_and_compiled_javascript_syntax": "passed",
+        "production_build": "passed",
+        "browser_visual_qa": "not_performed",
+        "physical_iphone_playtest": "not_performed"
+      },
+      "interpretation": "Historical verified baseline, not evidence of the current remote HEAD or of validation for the new overhaul. The combat document's original publication caveat predates the later successful deployment."
+    },
+    "existing_stack": {
+      "rendering": "Three.js WebGLRenderer",
+      "three_version_at_baseline": "0.180.0",
+      "three_mesh_bvh_version_at_baseline": "0.9.14",
+      "application": "Existing React/TypeScript application and Sites/Vinext hosting structure",
+      "persistence": "Existing progress API, guest session handling, and D1-backed progression",
+      "preserve_package_manager_and_lockfile": true
+    },
+    "recovery_instructions": [
+      "Use the established checkout if present. Inspect its status, applicable AGENTS.md files, manifest, package scripts, and current source before editing.",
+      "Verify that the manifest identifies the selected Ashen Realm Site. Reconcile a mismatch; never silently create a replacement Site.",
+      "If the checkout is unavailable, use the supported Sites source-recovery workflow and exact returned identifiers.",
+      "Treat paths and remote details here as recovery hints. Do not overwrite a newer implementation or force-reset to the historical commit.",
+      "Preserve unrelated user changes and use an isolated checkout when appropriate.",
+      "Use runtime-provided credentials through supported workflows; never place credentials in this brief, source files, logs, or remote URLs."
+    ]
+  },
+  "execution_policy": {
+    "mode_on_execution": "implement_required_scope",
+    "source_of_truth": "Current project source and supported runtime capabilities, reconciled with this brief.",
+    "progress": "Maintain a concise task plan and record completed work, evidence, blockers, and remaining acceptance gates.",
+    "scope_control": [
+      "Preserve the existing engine, hosting foundation, five-chamber layout, progression, and combat rules.",
+      "Avoid dependency or framework migrations unrelated to an identified upgrade need.",
+      "Do not perform paid purchases, hire external artists, or send messages to other people without specific authorization.",
+      "Do not change the Site audience or deploy this overhaul solely because a previous combat release was authorized for publication.",
+      "Technical stage gates are quality checks, not mandatory design interviews. Continue useful independent work when a gate depends on an unavailable device or asset.",
+      "If a genuine asset-production or access blocker remains, complete all feasible integration and validation work, preserve it, and report the exact missing deliverable.",
+      "Do not claim Unreal Engine feature parity, motion capture, measured physical materials, or device performance without corresponding evidence."
+    ],
+    "current_request_scope": "Export one self-contained JSON instruction file; do not modify or publish the game while performing this export.",
+    "default_future_delivery": "Verified implementation, durable source/assets, packaged reviewable build, and a saved Site version using the applicable workflow.",
+    "future_publication": "Publish only when the executing user's request authorizes deployment to the selected Site and audience. If already authorized, complete publication without asking for duplicate conversational permission.",
+    "full_rollout_rule": "The reference encounter is an early milestone, not the final scope. Expand to the complete required dungeon after the relevant gates pass; clearly label any unverified rollout if physical-device evidence is unavailable."
+  },
+  "observed_baseline": {
+    "evidence_type": "Source and asset inspection; not a new rendered-image audit or GPU benchmark.",
+    "character_construction": "Articulated groups containing spheres, cylinders, extruded plates, and merged static pieces per joint/material.",
+    "skin_source": {
+      "higgsfield_reference_id": "a4887158-9444-42f8-9573-ce2581d8495e",
+      "reference_path": "public/assets/skins/higgsfield-reference.webp",
+      "provenance_path": "public/assets/skins/provenance.json",
+      "material_families": [
+        "steel",
+        "hide",
+        "obsidian",
+        "bone",
+        "cloth",
+        "mail"
+      ],
+      "texture_dimension_px": 512,
+      "method": "Mirrored crops from generated concept artwork with luminance-derived relief, not measured PBR scans."
+    },
+    "models": [
+      {
+        "id": "ash-knight",
+        "meshes": 27,
+        "triangles": 9480
+      },
+      {
+        "id": "crypt-warden",
+        "meshes": 32,
+        "triangles": 15932
+      },
+      {
+        "id": "ember-sovereign",
+        "meshes": 31,
+        "triangles": 10024
+      }
+    ],
+    "model_count_caveat": "Counts exclude each actor's separate weapon trail and do not measure complete-frame draw cost.",
+    "environment": {
+      "floor_and_wall_max_texture_dimension_px": 4096,
+      "material_loading": "Surface texture quality tiers already exist.",
+      "lighting": [
+        "Generic RoomEnvironment processed through PMREM",
+        "Hemisphere fill",
+        "Player-relative directional light",
+        "Selected dynamic torch point lights"
+      ],
+      "geometry": "One globally merged structural BVH mesh plus separate ribs, pilasters, niches, and some instanced edging.",
+      "flames": "Stretched sphere meshes",
+      "impact_particles": "Individually allocated small meshes",
+      "rendering_features": [
+        "ACES tone mapping",
+        "Bloom",
+        "FXAA",
+        "Optional GTAO",
+        "Optional planar water reflection"
+      ]
+    },
+    "mobile_foundation": [
+      "Touch devices default to Auto unless an explicit saved preference overrides it.",
+      "Adaptive output resolution and quality-dependent textures, lights, shadows, AO, and reflections.",
+      "Safe-area-aware portrait and compact landscape controls.",
+      "Independent movement and combat pointer ownership.",
+      "Rendering suspension while paused or hidden.",
+      "Graphics-loss recovery and bounded save-request handling."
+    ],
+    "hypotheses_to_measure": [
+      "Asset construction and material authorship are stronger realism constraints than another global output-resolution increase.",
+      "Material/joint fragmentation and separate repeated scenery are candidates for draw-call reduction.",
+      "Generic environment lighting and a moving key light may reduce the visual plausibility of an enclosed crypt."
+    ]
+  },
+  "invariants": {
+    "gameplay": [
+      "Keep the solo five-chamber dungeon, chamber order, walkable routes, closed-gate rules, shrine checkpoints, equipment, loot, rewards, and boss unlock requirements.",
+      "Keep enemy IDs, boss encounter identity, save ownership, guest access, revision conflict handling, and progression schema.",
+      "Ember Sovereign remains the visual skin of the existing Hollow King encounter; do not rename saved gameplay IDs.",
+      "Do not alter balance values solely to accommodate an asset's exported scale.",
+      "Decorative rubble, chipped floors, and set dressing must not introduce accidental navigation obstacles or unsupported floor-height changes."
+    ],
+    "input_and_lifecycle": [
+      "Keep simultaneous movement and combat, hold-to-strike, joystick sprint outside melee, labeled touch controls, notch/home-indicator clearance, and compact landscape behavior.",
+      "Do not cancel valid gestures when Safari toolbars resize the viewport.",
+      "Preserve pointer cancellation, blur/orientation resets, pause/background suspension, renderer disposal, and recovery.",
+      "Honor explicit graphics preferences and reduced-motion preferences.",
+      "Keep the HUD readable and attacks visible; effects must not obscure control targets."
+    ],
+    "baseline_combat": {
+      "status": "Already implemented and published; preserve and adapt to new rigs.",
+      "units": {
+        "timing": "seconds",
+        "travel": "existing game world units",
+        "damage_multiplier": "equipment-based base melee damage"
+      },
+      "strike_order": [
+        "side",
+        "diagonal",
+        "backhand",
+        "overhead"
+      ],
+      "strikes": [
+        {
+          "id": "side",
+          "label": "Side cut",
+          "windup_s": 0.17,
+          "contact_s": 0.16,
+          "recovery_s": 0.25,
+          "stamina": 8,
+          "damage_multiplier": 1,
+          "max_targets": 2,
+          "warden_stagger_s": 0.16,
+          "forward_travel": 0.16
+        },
+        {
+          "id": "diagonal",
+          "label": "Diagonal cut",
+          "windup_s": 0.23,
+          "contact_s": 0.18,
+          "recovery_s": 0.27,
+          "stamina": 10,
+          "damage_multiplier": 1.15,
+          "max_targets": 2,
+          "warden_stagger_s": 0.22,
+          "forward_travel": 0.23
+        },
+        {
+          "id": "backhand",
+          "label": "Backhand",
+          "windup_s": 0.15,
+          "contact_s": 0.16,
+          "recovery_s": 0.25,
+          "stamina": 8,
+          "damage_multiplier": 0.95,
+          "max_targets": 2,
+          "warden_stagger_s": 0.14,
+          "forward_travel": 0.12
+        },
+        {
+          "id": "overhead",
+          "label": "Overhead strike",
+          "windup_s": 0.34,
+          "contact_s": 0.2,
+          "recovery_s": 0.37,
+          "stamina": 15,
+          "damage_multiplier": 1.55,
+          "max_targets": 1,
+          "warden_stagger_s": 0.42,
+          "forward_travel": 0.3
+        }
+      ],
+      "sequence": {
+        "buffered_inputs_max": 1,
+        "input_buffer_s": 0.2,
+        "combo_reset_gap_after_recovery_s": 0.8,
+        "stamina_regeneration_during_melee_per_s": 6,
+        "stamina_regeneration_otherwise_per_s": 18,
+        "movement_multiplier_windup_recovery": 0.45,
+        "movement_multiplier_contact": 0.25,
+        "sprint_during_melee": false,
+        "pay_full_stamina_on_start": true,
+        "cancellation_refunds_stamina": false
+      },
+      "dodge": {
+        "stamina": 25,
+        "may_cancel": [
+          "windup",
+          "recovery"
+        ],
+        "may_not_cancel": [
+          "contact"
+        ],
+        "preserve_existing_invulnerability_and_cooldown": true
+      },
+      "damage_authority": [
+        "Only the active contact window deals melee damage; pressing Attack alone never damages a target.",
+        "Sample the rendered weapon pose at intervals no larger than 1/120 second inside each frame's active interval.",
+        "Use weapon segment versus target capsule tests, once per target per swing and within the move's target limit.",
+        "Clip weapon reach at blocking geometry and retain line-of-sight and behind-player exclusions.",
+        "Keep aim assistance in the forward hemisphere and lock facing for the swing.",
+        "Keep animation and gameplay on one authoritative phase timeline."
+      ],
+      "enemy_rules": {
+        "warden_windup_s": 0.55,
+        "boss_windup_s": 0.8,
+        "warden_approach_distance": 2.1,
+        "boss_approach_distance": 3.65,
+        "strike_variants": "Cycle all four strike types with visible telegraphs.",
+        "interruption": "Wardens can be interrupted before or after active contact; committed active strikes retain momentum.",
+        "boss": "Preserve stagger resistance and the three-shrine shield requirement.",
+        "stale_swings": "Cancel when enemies leave the animation range so returning enemies do not resume invisible attacks.",
+        "knockback": "Remain constrained by dungeon collision."
+      },
+      "presentation": {
+        "impact_pause_s": 0.035,
+        "impact_pause_disabled_for_reduced_motion": true,
+        "trail_behavior": "A short, low-opacity ribbon follows the actual weapon and is hidden in Performance mode or for reduced motion.",
+        "existing_trail_vertices": 24,
+        "existing_trail_indices": 66,
+        "hits": "Retain sound, recoil, and readable contact feedback while upgrading their assets."
+      },
+      "cancellation_and_overlap": [
+        "Casting and melee must not overlap.",
+        "Normal Strike release stops continuous attacks but preserves one deliberately buffered tap.",
+        "Pointer cancellation, lost ownership, pause, and input reset clear held state and queued input.",
+        "Death and respawn clear the combat sequence and stale effects."
+      ],
+      "reconciliation": "Verify these values against current source before integration. If newer user-authored balance changes exist, preserve them and document the discrepancy rather than overwriting them."
+    }
+  },
+  "art_direction": {
+    "priorities": [
+      "Large forms, anatomy, armor construction, and weapon silhouettes before fine scratches.",
+      "Clearly different responses for steel, leather, chainmail, bone, soot, cloth, and damp stone.",
+      "Strong foreground, middle-ground, and background depth with clear chamber focal points.",
+      "Readable enemy and weapon silhouettes at moderate phone brightness.",
+      "Consistent world scale, texel density, wear direction, and material palette."
+    ],
+    "palette": {
+      "architecture": [
+        "Charcoal",
+        "Cool limestone",
+        "Restrained earthy variation"
+      ],
+      "player_identifier": "Oxblood cloth against worn steel",
+      "threat_identifier": "Amber eyes and restrained ember emission",
+      "lighting": "Warm torch sources with controlled cool environmental contrast",
+      "avoid": [
+        "Uniform orange surfaces",
+        "Uniform blue shadows",
+        "Uniform gloss",
+        "Indiscriminate dirt",
+        "Unmotivated neon effects"
+      ]
+    },
+    "wear_placement": [
+      "Soot above flames",
+      "Dampness near water",
+      "Abrasion along armor contact edges",
+      "Grime in recesses",
+      "Traffic wear on walking routes"
+    ],
+    "screen_space_priorities": [
+      "Player back",
+      "Shoulders",
+      "Cape",
+      "Gauntlets",
+      "Weapon",
+      "Enemy skull and attack silhouette"
+    ],
+    "preview_conditions": [
+      "Neutral material lighting",
+      "Final dungeon lighting",
+      "Normal gameplay distance",
+      "Close inspection",
+      "Moving camera",
+      "Attack slow playback"
+    ]
+  },
+  "requirements": [
+    {
+      "id": "R01",
+      "name": "Reproducible baseline and quality benchmark",
+      "priority": "required",
+      "tasks": [
+        "Record fixed entrance, close-character, Warden-combat, water, and boss camera positions.",
+        "Record resolution, quality profile, exposure, content state, frame pacing, and asset version for every comparison.",
+        "Add developer-facing counters or reports for main-pass and complete-frame draws/triangles, frame-time distributions, texture inventory, and loading behavior.",
+        "Keep diagnostic implementation details out of normal game flows.",
+        "Capture visual and device evidence using supported tooling when available; label unavailable measurements."
+      ],
+      "acceptance": [
+        "Before/after comparisons use identical camera, resolution, and exposure conditions.",
+        "The report distinguishes measured values, estimated allocation sizes, and proposed budgets.",
+        "No existing gameplay or production behavior changes merely to create the baseline."
+      ],
+      "source_files": [
+        "app/game/engine.ts",
+        "app/game/graphics.ts",
+        "app/game/mobile-runtime.ts"
+      ]
+    },
+    {
+      "id": "R02",
+      "name": "Complete rigged character assets",
+      "priority": "required",
+      "tasks": [
+        "Retain the existing Higgsfield character identities and obtain consistent front, side, and back references only where necessary.",
+        "Sculpt or adapt properly licensed base meshes; retopologize and author UVs for each asset.",
+        "Bake high-detail geometry to the game mesh and author model-specific material maps.",
+        "Rig and weight complete 3D volumes, including unseen sides, hands, armor, and weapon attachments.",
+        "Export optimized GLBs and explicit lower-detail variants.",
+        "Validate any generated 3D export against the same contract; a reference image, flat cutout, or textured primitive does not satisfy the finished asset requirement.",
+        "If manual art production is required and unavailable, document the missing deliverable and keep the integration and fallback functional."
+      ],
+      "acceptance": [
+        "All three archetypes pass 360-degree and neutral-light inspection.",
+        "Shoulders, elbows, hips, and knees deform without unacceptable collapse or armor clipping.",
+        "Weapon sockets, scale, bounds, clip inventory, and license/source records are supplied.",
+        "The Keeper receives the appropriate Ash Knight-derived presentation while preserving its role."
+      ],
+      "source_files": [
+        "app/game/character-skins.ts",
+        "public/assets/skins/provenance.json"
+      ]
+    },
+    {
+      "id": "R03",
+      "name": "Rig adapter and animation integration",
+      "priority": "required",
+      "tasks": [
+        "Introduce an adapter for pose evaluation, animation state, weapon base/tip sockets, bounds, and resource cleanup.",
+        "Retain the current procedural rig as a clearly identified failure fallback.",
+        "Map authored side, diagonal, backhand, and overhead clips to the existing phase timeline.",
+        "Evaluate weapon collision at the same subframe poses used to define the visible swing.",
+        "Use in-place animation initially; retain collision-aware root travel in gameplay code.",
+        "Share geometry and material assets while retaining independent skeletons and animation state.",
+        "Preserve named nodes and sockets through optimization.",
+        "Blend directional locomotion, turn-in-place, pelvis weight shifts, and modest cape motion without changing attack commitment."
+      ],
+      "acceptance": [
+        "No double root motion, wall-crossing lunge, duplicated damage clock, or cross-instance animation leakage.",
+        "All four moves reach the expected target capsules and obey their current stamina/timing rules.",
+        "Visual weapon contact agrees with damage at tested low and high frame rates.",
+        "Fallback loads, cancellation, death, respawn, and disposal remain correct."
+      ],
+      "source_files": [
+        "app/game/combat.ts",
+        "app/game/combat-animation.ts",
+        "app/game/engine.ts",
+        "app/game/world.ts"
+      ]
+    },
+    {
+      "id": "R04",
+      "name": "Physical material authoring and color management",
+      "priority": "required",
+      "tasks": [
+        "Replace concept-crop material swatches with authored base color, tangent-space normal, packed occlusion/roughness/metallic, and optional emissive maps.",
+        "Do not bake lighting or highlights into base color or infer final geometry from image brightness alone.",
+        "Use geometry for visible outlines, chipped profiles, and deep armor separation; normal maps for shallow surface detail.",
+        "Use sRGB for color/emissive maps and data color spaces for normals and material controls.",
+        "Verify packed-map channel conventions in the exporter and runtime.",
+        "Use MeshStandardMaterial by default; enable clearcoat or sheen only where its visual benefit justifies the per-pixel cost.",
+        "Size maps by screen coverage and UV usage, preserving suitable existing Poly Haven masonry.",
+        "Validate custom shaders, lightmaps, tone mapping, and output conversion as one pipeline."
+      ],
+      "acceptance": [
+        "Materials remain convincing under neutral and dungeon lighting.",
+        "Steel, cloth, bone, and damp stone remain visually distinguishable.",
+        "No incorrect map channel, inverted normal, double color conversion, severe seam, or accidental universal gloss.",
+        "Higher resolution is not used to mask inappropriate source materials."
+      ],
+      "source_files": [
+        "app/game/graphics.ts",
+        "app/game/character-skins.ts",
+        "app/game/world.ts",
+        "app/game/engine.ts"
+      ]
+    },
+    {
+      "id": "R05",
+      "name": "Motivated lighting, lightmaps, and probes",
+      "priority": "required",
+      "tasks": [
+        "Replace the generic studio-like environment with a coherent crypt environment.",
+        "Tune exposure, fill, torch contribution, shadow softness, and emissive intensity together.",
+        "Bake static indirect lighting for fixed architecture using an appropriate offline workflow such as Blender Cycles.",
+        "Provide a dedicated non-overlapping lightmap UV set and explicitly bind the correct texture channel after export.",
+        "Keep albedo and baked irradiance responsibilities separate to avoid double multiplication.",
+        "Exclude moving actors and state-changing gates from static shadow bakes.",
+        "Handle shrine activation without ghost colored lighting from the previous state.",
+        "Prototype one dominant dynamic shadow source near combat, motivated by an actual light source.",
+        "Fade and stabilize dynamic light selection rather than abruptly popping between nearest torches.",
+        "Add matched reflection environments and diffuse probe data for moving actors; implement room lookup and transitions explicitly.",
+        "Separate baked and dynamic contributions so the same illumination is not counted twice.",
+        "Keep modest readability fill where required without relying on an obvious player-following key light."
+      ],
+      "acceptance": [
+        "Room depth and material separation improve at unchanged output resolution.",
+        "Enemy wind-ups remain readable on a phone.",
+        "Gate and shrine state changes leave no visibly invalid baked shadows or lighting.",
+        "Room transitions do not cause objectionable light or reflection popping.",
+        "Shadow and probe features meet their selected quality-tier budgets."
+      ],
+      "source_files": [
+        "app/game/world.ts",
+        "app/game/engine.ts",
+        "app/game/graphics.ts"
+      ]
+    },
+    {
+      "id": "R06",
+      "name": "Modular dungeon architecture and set dressing",
+      "priority": "required",
+      "tasks": [
+        "Author a reusable architectural kit covering walls, corners, pillars, arches, vaults, floor slabs, broken edges, and burial alcoves.",
+        "Add a bounded shared prop kit emphasizing torches, braziers, sarcophagi, urns, chains, banners, rubble, and throne detail.",
+        "Use local stains, vertex tinting, and a small number of stone variants to reduce repetition.",
+        "Preserve material scale and wear direction across module seams.",
+        "Give all five existing chambers distinct focal arrangements through composition and lighting.",
+        "Keep existing walkable routes, combat lanes, interaction points, gates, and checkpoint positions intact.",
+        "Retain provenance and verify redistribution rights for every external asset."
+      ],
+      "acceptance": [
+        "Each chamber is visually identifiable without requiring many unique material sets.",
+        "Set dressing improves depth and history without hiding enemies or creating accidental collision.",
+        "No visible scale discontinuity, floating prop, severe repeating seam, or z-fighting at ordinary camera distances.",
+        "All existing objectives remain reachable."
+      ],
+      "source_files": [
+        "app/game/world.ts",
+        "app/game/dungeon.ts",
+        "app/game/model.ts"
+      ]
+    },
+    {
+      "id": "R07",
+      "name": "Fire, atmosphere, impacts, and trails",
+      "priority": "required",
+      "tasks": [
+        "Replace sphere flames with compact authored flame/smoke atlas assets and coordinated flicker.",
+        "Pool sparks and debris with bounded capacity, short lifetimes, and shared resources.",
+        "Use material-appropriate impact responses such as metal sparks, bone dust, and restrained ember bursts.",
+        "Add sparse dust and localized haze only where composition benefits.",
+        "Limit temporary impact marks and prevent z-fighting or unbounded accumulation.",
+        "Preserve narrow, short weapon trails attached to actual sampled weapon motion.",
+        "Profile screen coverage and transparent overdraw as well as particle count.",
+        "Respect reduced-motion settings and keep attack telegraphs and touch controls unobscured."
+      ],
+      "acceptance": [
+        "Effects respond at the correct contact moment and do not obscure attacks.",
+        "Repeated combat does not cause unbounded object or resource growth.",
+        "Effect quality scales down cleanly on Performance and Auto profiles.",
+        "Fire reads as rising flame rather than a stretched opaque sphere."
+      ],
+      "source_files": [
+        "app/game/engine.ts",
+        "app/game/combat-animation.ts",
+        "app/game/world.ts"
+      ]
+    },
+    {
+      "id": "R08",
+      "name": "Camera framing and restrained postprocessing",
+      "priority": "required",
+      "tasks": [
+        "Evaluate asset detail at actual play distance and test closer, better-composed character framing.",
+        "Retain wall-aware camera collision and visibility of incoming attacks.",
+        "Keep exposure stable and bloom concentrated on luminous surfaces.",
+        "Compare antialiasing and sharpening during motion, not only screenshots.",
+        "Keep costly AO and planar reflections optional and profile their complete cost.",
+        "Do not default to heavy depth of field, motion blur, film grain, chromatic aberration, or constant camera shake."
+      ],
+      "acceptance": [
+        "Framing improves appreciation of character assets without compromising navigation or combat awareness.",
+        "No camera-wall penetration or new corner-collapse behavior.",
+        "Postprocessing preserves material detail, readable blacks, stable edges, and visible telegraphs."
+      ],
+      "source_files": [
+        "app/game/engine.ts",
+        "app/game/graphics.ts",
+        "app/game/mobile-runtime.ts"
+      ]
+    },
+    {
+      "id": "R09",
+      "name": "Repeatable asset optimization and delivery",
+      "priority": "required",
+      "tasks": [
+        "Use GLTFLoader integration compatible with the installed Three.js version.",
+        "Use KTX2/Basis textures with hardware detection and a bounded worker count.",
+        "Test UASTC for normals and packed material maps; evaluate ETC1S where quality remains acceptable.",
+        "Ship a separately loadable lower-resolution fallback bundle where required compressed extensions prevent an embedded fallback.",
+        "Keep compatible decoder JavaScript/WASM files versioned with the game.",
+        "Use glTF Transform inspection and selected optimization stages rather than blindly flattening or joining all nodes.",
+        "Use Meshopt for transfer compression where suitable; use geometry simplification and batching for runtime cost reduction.",
+        "Preserve uncompressed editable masters and compress near the end of the pipeline.",
+        "Create an asset manifest containing versions, hashes, source/license data, geometry counts, texture dimensions and color spaces, rig sockets, and clip metadata.",
+        "Validate assets and handle warnings explicitly before packaging."
+      ],
+      "acceptance": [
+        "Compressed assets load with the expected decoders and preserve essential rig nodes.",
+        "Fallback paths are exercised and remain playable.",
+        "Optimization produces recorded size/resource changes without unacceptable visual damage.",
+        "No unversioned external decoder dependency or secret is included in shipped assets."
+      ],
+      "source_files": [
+        "app/game/graphics.ts",
+        "app/game/character-skins.ts",
+        "app/game/engine.ts",
+        "package.json"
+      ]
+    },
+    {
+      "id": "R10",
+      "name": "Room visibility, batching, streaming, and ownership",
+      "priority": "required",
+      "tasks": [
+        "Split visible architecture into room-sized render chunks while retaining a separate safe collision representation.",
+        "Instance repeated props within useful room/material batches.",
+        "Avoid global batches that defeat culling throughout the entire dungeon.",
+        "Cache shared character geometry/materials with independent rigs.",
+        "Load the first encounter first and prefetch adjacent rooms and the boss before arrival.",
+        "Avoid loading every texture-quality variant at startup.",
+        "Use explicit cancellation, versioned requests, ownership/reference counts, failed-load fallbacks, and disposal.",
+        "Budget old and new assets simultaneously during quality changes.",
+        "Account for decoded images, geometry, textures, shadows, reflections, and postprocessing targets.",
+        "Keep Safari input, background suspension, recovery, and saved-quality behavior intact."
+      ],
+      "acceptance": [
+        "No visible holes at doorways or through adjacent-room sight lines.",
+        "Repeated traversal and quality changes do not retain stale resources indefinitely.",
+        "Critical assets are ready before encounters without long main-thread stalls.",
+        "Measurements distinguish main-pass counts from complete-frame work and texture estimates from total GPU memory."
+      ],
+      "source_files": [
+        "app/game/world.ts",
+        "app/game/graphics.ts",
+        "app/game/engine.ts",
+        "app/game/mobile-runtime.ts"
+      ]
+    },
+    {
+      "id": "R11",
+      "name": "Visual, gameplay, and device validation",
+      "priority": "required",
+      "tasks": [
+        "Run applicable TypeScript, source/generated JavaScript syntax, and production-build checks.",
+        "Run the existing gameplay/save/mobile suite and add focused rig, asset, compression, and lifecycle checks.",
+        "Validate complete 3D assets using structural and animation validation plus visual inspection.",
+        "Compare fixed before/after views and slow-motion attacks at equivalent settings.",
+        "Test cold/warm loads, unavailable assets/decoders, rapid quality switching, repeated encounters, death/respawn, background/resume, and renderer recovery.",
+        "Measure representative older and recent iPhones in portrait and landscape during at least 15 minutes of combat.",
+        "Record frame-time distributions, stalls, resource stability, and signs of thermal degradation.",
+        "Record unavailable browser or physical-device checks as pending; do not synthesize evidence."
+      ],
+      "acceptance": [
+        "Automated checks pass or exact failures are reported with a concrete blocker.",
+        "Visual and numerical contact checks agree.",
+        "No regression in guest saves, economy, dungeon progression, controls, pause behavior, or recovery.",
+        "Device performance claims are supported by actual measurements.",
+        "Remaining incomplete assets and unverified quality gates are visible in the handoff."
+      ],
+      "source_files": [
+        "tests/combat.test.mjs",
+        "tests/game.test.mjs",
+        "tests/character-skins.test.mjs",
+        "app/game/TouchControls.tsx",
+        "app/game/mobile.css"
+      ]
+    },
+    {
+      "id": "R12",
+      "name": "Complete rollout and reviewable delivery",
+      "priority": "required",
+      "tasks": [
+        "Apply the validated standard to all three archetypes and all five existing chambers.",
+        "Keep source assets, optimized runtime assets, provenance, budgets, and validation reports durably available.",
+        "Update character asset documentation and create an implementation report with evidence and known limitations.",
+        "Commit the exact verified source and follow supported Sites packaging/version workflows.",
+        "Keep the known-good combat release available for rollback.",
+        "Publish only under the executing request's authorization and confirm a terminal successful deployment before claiming the update is live."
+      ],
+      "acceptance": [
+        "The result is a complete playable implementation, not just the prototype encounter.",
+        "All shipped references resolve and all claimed upgraded assets are actually installed.",
+        "The handoff distinguishes implemented, tested, pending, saved, and live states.",
+        "No unrelated source changes or audience changes are bundled into the release."
+      ],
+      "source_files": [
+        "docs/CHARACTER_SKINS.md",
+        "docs/COMBAT_DYNAMICS_PLAN.md",
+        ".openai/hosting.json"
+      ]
+    }
+  ],
+  "asset_contract": {
+    "delivery_format": "GLB/glTF 2.0 assets plus editable masters and source textures",
+    "archetypes": [
+      {
+        "id": "ash-knight",
+        "roles": [
+          "player",
+          "Keeper visual derivative"
+        ],
+        "near_view_triangles": {
+          "min": 20000,
+          "max": 35000
+        },
+        "material_primitives_target": {
+          "min": 4,
+          "max": 5
+        },
+        "emphasis": [
+          "Fitted plate",
+          "Layered oxblood cloth",
+          "Gauntlets",
+          "Convincing back and cape silhouette"
+        ]
+      },
+      {
+        "id": "crypt-warden",
+        "roles": [
+          "standard enemy"
+        ],
+        "near_view_triangles": {
+          "min": 12000,
+          "max": 20000
+        },
+        "material_primitives_target": {
+          "min": 3,
+          "max": 4
+        },
+        "emphasis": [
+          "Skull shape",
+          "Rib anatomy",
+          "Bone-to-skin transitions",
+          "Asymmetric wear",
+          "Claws and bone mace"
+        ]
+      },
+      {
+        "id": "ember-sovereign",
+        "roles": [
+          "Hollow King boss visual skin"
+        ],
+        "near_view_triangles": {
+          "min": 35000,
+          "max": 50000
+        },
+        "material_primitives_target": {
+          "min": 4,
+          "max": 6
+        },
+        "emphasis": [
+          "Crown silhouette",
+          "Layered volcanic armor",
+          "Fracture-specific emission",
+          "Greatsword"
+        ]
+      }
+    ],
+    "budget_interpretation": "Starting targets to validate, not mandatory minimum complexity or proof of frame-rate gains. Preserve quality with fewer triangles where possible.",
+    "max_initial_deform_bones": 64,
+    "max_vertex_weights": 4,
+    "lod_levels": 3,
+    "lod_selection": "Projected screen size with hysteresis; avoid conspicuous changes during close combat.",
+    "required_maps": [
+      {
+        "name": "base_color",
+        "color_space": "sRGB",
+        "content": "Surface color without painted lighting"
+      },
+      {
+        "name": "normal",
+        "color_space": "non-color data",
+        "content": "Validated tangent-space surface normals"
+      },
+      {
+        "name": "orm",
+        "color_space": "non-color data",
+        "content": "Occlusion, roughness, and metallic channels verified against exporter/runtime conventions"
+      }
+    ],
+    "optional_maps": [
+      {
+        "name": "emissive",
+        "color_space": "sRGB",
+        "usage": "Localized eyes, embers, or armor fractures"
+      }
+    ],
+    "required_deliverables": [
+      "Editable model master",
+      "Runtime GLB",
+      "Texture source files",
+      "Explicit LOD variants",
+      "Animation inventory",
+      "Named weapon sockets",
+      "Scale and bounds",
+      "Source/license records",
+      "Asset validation report"
+    ],
+    "required_socket_semantics": [
+      "Weapon attachment",
+      "Weapon collision segment base",
+      "Weapon collision segment tip"
+    ],
+    "initial_clip_inventory": [
+      "Idle/guard",
+      "Forward locomotion",
+      "Backward locomotion",
+      "Strafe left/right",
+      "Turn in place",
+      "Side cut",
+      "Diagonal cut",
+      "Backhand",
+      "Overhead strike",
+      "Dodge presentation",
+      "Hit reaction",
+      "Death presentation"
+    ],
+    "source_reuse": {
+      "higgsfield": "Use existing designs and available suitable assets first. Generate missing references only through available, authorized tools. Do not assume 3D conversion, rigging, or PBR reconstruction capabilities.",
+      "external_assets": "Use properly licensed models/materials and record the terms applicable to delivery in a browser game.",
+      "poly_haven": "Retain suitable existing CC0 masonry and its provenance.",
+      "fallback": "Keep procedural actors or a lower-resolution bundle for runtime failure, but do not count fallback-only actors as completed premium assets."
+    }
+  },
+  "environment_contract": {
+    "architectural_module_scope_cap": 8,
+    "architectural_modules": [
+      "Wall",
+      "Corner",
+      "Pillar",
+      "Arch",
+      "Vault section",
+      "Floor slab",
+      "Broken edge",
+      "Burial alcove"
+    ],
+    "prop_family_scope_cap_approximate": 12,
+    "priority_prop_families": [
+      "Torch and bracket",
+      "Brazier",
+      "Sarcophagus",
+      "Urn",
+      "Chains",
+      "Banners",
+      "Rubble",
+      "Throne"
+    ],
+    "scope_cap_note": "Do not manufacture filler to hit the cap; reuse assets where appropriate.",
+    "chamber_composition_roles": [
+      "Clear entrance",
+      "Compressed passage or chamber transition",
+      "Burial space",
+      "Ritual focal point",
+      "Throne silhouette"
+    ],
+    "room_identity_rule": "Apply these compositional ideas to the existing named rooms without renaming IDs, changing order, or adding chambers.",
+    "lighting_data": [
+      "Coherent crypt environment",
+      "Static indirect lightmaps with dedicated UVs",
+      "Diffuse probe data for moving actors",
+      "Reflection environment data",
+      "Bounded dynamic light selection"
+    ],
+    "effects": [
+      "Flame/smoke atlas",
+      "Pooled sparks/debris",
+      "Sparse dust",
+      "Localized haze",
+      "Bounded impact marks",
+      "Short weapon trails"
+    ]
+  },
+  "quality_budgets": {
+    "status": "Proposed starting targets; tune using evidence.",
+    "units": {
+      "texture_memory": "MiB, resident asset textures only",
+      "triangles_and_draws": "Main render pass unless explicitly stated",
+      "output": "Actual render pixels, separate from CSS pixels"
+    },
+    "profiles": [
+      {
+        "id": "performance",
+        "output_long_edge_max_px": 1280,
+        "typical_texture_dimensions_px": [
+          512,
+          1024
+        ],
+        "resident_asset_texture_target_max_mib": 64,
+        "visible_triangles_target_max": 120000,
+        "main_pass_material_draws_target_max": 100,
+        "shadow_casting_lights_target_max": 0,
+        "contact_shadow_strategy": "Inexpensive contact cue",
+        "ambient_occlusion_default": false,
+        "planar_reflection_default": false,
+        "target_fps": 30
+      },
+      {
+        "id": "iphone_auto",
+        "adaptive_output_long_edge_target_px": [
+          1280,
+          1600
+        ],
+        "typical_texture_dimensions_px": [
+          1024
+        ],
+        "selected_hero_texture_dimension_px": 2048,
+        "resident_asset_texture_target_max_mib": 96,
+        "visible_triangles_target_max": 250000,
+        "main_pass_material_draws_target_max": 150,
+        "shadow_casting_lights_target_max": 1,
+        "ambient_occlusion_default": false,
+        "planar_reflection_default": false,
+        "target_fps_minimum": 30,
+        "preferred_fps_when_sustained": 60
+      },
+      {
+        "id": "desktop_ultra",
+        "suggested_baseline_output_px": {
+          "width": 2560,
+          "height": 1440
+        },
+        "optional_output_px": {
+          "width": 3840,
+          "height": 2160
+        },
+        "typical_texture_dimensions_px": [
+          2048
+        ],
+        "selected_close_view_texture_dimension_px": 4096,
+        "resident_asset_texture_target_max_mib": 256,
+        "visible_triangles_target_max": 600000,
+        "main_pass_material_draws_target_max": 250,
+        "shadow_casting_lights_target_max": 2,
+        "ambient_occlusion": "Optional and measured",
+        "planar_reflection": "Optional and measured",
+        "target_fps": 60,
+        "resolution_policy": "Use a sustainable resolution and preserve explicit user selections."
+      }
+    ],
+    "caveats": [
+      "Do not treat these values as universal Safari limits or measured results.",
+      "Material primitive budgets do not include all shadow/reflection/postprocessing passes.",
+      "Texture estimates are not total GPU memory; include render targets, buffers, decode peaks, and overlapping quality swaps.",
+      "Browser counters do not expose a universally exact GPU-byte total.",
+      "Texture compression and mesh transfer compression solve different problems.",
+      "Map proposed profiles onto the existing UI carefully; do not silently overwrite an explicit 4K preference."
+    ],
+    "texture_sizing_example": {
+      "format": "Uncompressed RGBA8 plus approximately a full mip chain",
+      "dimension_px": 4096,
+      "estimated_one_texture_mib": 85.3333333333,
+      "estimated_six_textures_mib": 512,
+      "measured_current_game_allocation": false
+    },
+    "degradation_order": [
+      "Reduce distant asset detail",
+      "Reduce transparent effect coverage/count",
+      "Disable expensive optional passes",
+      "Reduce output resolution",
+      "Reassess secondary texture detail while preserving hero silhouettes and attack readability"
+    ]
+  },
+  "work_packages": [
+    {
+      "id": "P0",
+      "name": "Baseline",
+      "depends_on": [],
+      "requirement_ids": [
+        "R01"
+      ],
+      "relative_effort": "small",
+      "outputs": [
+        "Baseline view definitions",
+        "Initial source/device audit",
+        "Performance measurement method"
+      ],
+      "exit_gate": "Repeatable comparisons and known limitations are recorded."
+    },
+    {
+      "id": "P1",
+      "name": "One-chamber look development",
+      "depends_on": [
+        "P0"
+      ],
+      "requirement_ids": [
+        "R04",
+        "R05",
+        "R06",
+        "R08"
+      ],
+      "relative_effort": "medium",
+      "outputs": [
+        "Reference chamber",
+        "Material calibration",
+        "First lightmap/probe integration"
+      ],
+      "exit_gate": "Depth, material separation, and combat readability improve at equivalent resolution."
+    },
+    {
+      "id": "P2",
+      "name": "Playable character slice",
+      "depends_on": [
+        "P0",
+        "P1"
+      ],
+      "requirement_ids": [
+        "R02",
+        "R03",
+        "R09"
+      ],
+      "relative_effort": "large_and_art_dependent",
+      "outputs": [
+        "Rebuilt Knight",
+        "Rebuilt Warden",
+        "Rig adapter",
+        "Four integrated attacks",
+        "Working loader/fallback"
+      ],
+      "exit_gate": "Assets pass all-side and deformation inspection, and visible contact matches damage."
+    },
+    {
+      "id": "P3",
+      "name": "Mobile production pipeline",
+      "depends_on": [
+        "P2"
+      ],
+      "requirement_ids": [
+        "R09",
+        "R10",
+        "R11"
+      ],
+      "relative_effort": "medium",
+      "outputs": [
+        "Compressed assets",
+        "LOD/batching/streaming",
+        "Resource ownership",
+        "Device profile evidence"
+      ],
+      "exit_gate": "Reference encounter meets the selected measured budget or exact unresolved limits are documented.",
+      "overlap": "Introduce necessary compression and budget checks during P1/P2; do not postpone all optimization until the slice is oversized."
+    },
+    {
+      "id": "P4",
+      "name": "Complete dungeon rollout",
+      "depends_on": [
+        "P3"
+      ],
+      "requirement_ids": [
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R10",
+        "R12"
+      ],
+      "relative_effort": "large",
+      "outputs": [
+        "Ember Sovereign boss",
+        "All five rooms",
+        "Shared prop kit",
+        "Fire/impact effects",
+        "Camera polish"
+      ],
+      "exit_gate": "All required content follows the reference quality standard, including the worst-case boss encounter."
+    },
+    {
+      "id": "P5",
+      "name": "Release validation and handoff",
+      "depends_on": [
+        "P4"
+      ],
+      "requirement_ids": [
+        "R11",
+        "R12"
+      ],
+      "relative_effort": "medium",
+      "outputs": [
+        "Validation report",
+        "Durable sources/assets",
+        "Packaged build",
+        "Saved reviewable version",
+        "Rollback reference"
+      ],
+      "exit_gate": "All required automated checks pass, visual/device evidence is available or explicitly pending, and release state is accurately reported."
+    }
+  ],
+  "validation": {
+    "prior_test_count_is_not_a_completion_quota": true,
+    "source_checks": [
+      {
+        "name": "TypeScript",
+        "baseline_command": "npm run typecheck"
+      },
+      {
+        "name": "Source and compiled JavaScript syntax",
+        "baseline_command": "npm run check:syntax"
+      },
+      {
+        "name": "Regression suite",
+        "baseline_command": "node --test tests/*.test.mjs"
+      },
+      {
+        "name": "Production build",
+        "instruction": "Use the current applicable Sites build workflow; do not hardcode a stale plugin-cache path."
+      },
+      {
+        "name": "Diff integrity",
+        "baseline_command": "git diff --check"
+      }
+    ],
+    "assets": [
+      "Use Khronos glTF validation for structure, accessors, buffers, and animation; inspect unsupported-extension warnings.",
+      "Check finite bounds, scale, UV sets, texture channel/color-space assignment, sockets, skeleton independence, clips, and LOD references.",
+      "Validate actual loading of compressed and fallback bundles using pinned compatible decoders.",
+      "Verify all shipped asset paths and source/license records."
+    ],
+    "combat": [
+      "Preserve strike order, stamina costs, buffer expiry, one queued input, phase timing, dodge commitment, and cancellation.",
+      "Test contact and integrated travel at 20, 30, 60, and 120 FPS sampling conditions.",
+      "Check capsule crossings/misses, parallel and degenerate segments, no windup damage, no duplicate target damage, behind-player exclusions, and wall clipping.",
+      "Check each attack against normal and boss-height actors at expected approach distances.",
+      "Inspect grip, shoulders, knees, feet, cape, and weapon position during full-speed and slow playback.",
+      "Verify that sharing geometry does not share animation state between actors."
+    ],
+    "visual": [
+      "Capture entrance, character close-up, Warden combat, water, and boss views before/after under equivalent settings.",
+      "Inspect neutral and dungeon lighting, all sides of each actor, texture seams, material scale, highlights, and silhouettes.",
+      "Inspect camera movement and room transitions for aliasing, lighting pops, LOD pops, and missing geometry.",
+      "Inspect gates open/closed and shrines inactive/active for invalid baked lighting.",
+      "Keep attack telegraphs and touch controls readable at moderate phone brightness."
+    ],
+    "lifecycle": [
+      "Cold and warm asset loading",
+      "Asset/decoder load failures and playable fallback",
+      "Rapid graphics-quality changes",
+      "Repeated encounter traversal and cleanup",
+      "Pause, page hiding, and background/resume",
+      "Safari toolbar resizing and orientation changes",
+      "Multi-touch movement plus attacks",
+      "Death, respawn, and graphics recovery",
+      "Save ownership, revision conflicts, equipment purchase validation, and reachable dungeon objectives"
+    ],
+    "physical_devices": {
+      "required_for_device_ready_claim": true,
+      "classes": [
+        "Representative older iPhone",
+        "Recent iPhone"
+      ],
+      "browser": "Safari",
+      "orientations": [
+        "portrait",
+        "landscape"
+      ],
+      "minimum_combat_soak_minutes": 15,
+      "metrics": [
+        "Actual output resolution",
+        "Frame-time distribution",
+        "Stalls",
+        "Resource stability",
+        "Loading behavior",
+        "Thermal degradation observations"
+      ],
+      "limitation_policy": "If physical hardware or supported browser tooling is unavailable, record pending checks, deliver independently completed work, and never claim measured readiness."
+    },
+    "gate_evidence_format": {
+      "required_fields": [
+        "gate_id",
+        "status",
+        "source_revision",
+        "asset_versions",
+        "environment",
+        "method",
+        "result",
+        "evidence_location",
+        "limitations"
+      ],
+      "permitted_statuses": [
+        "passed",
+        "failed",
+        "pending",
+        "not_applicable_with_reason"
+      ]
+    }
+  },
+  "conditional_followups": [
+    {
+      "id": "C01",
+      "name": "Foot placement / IK",
+      "trigger": "Basic rig, clips, and mobile budget are stable.",
+      "tasks": [
+        "Prototype grounded feet and hand alignment where needed.",
+        "Keep the existing movement/collision contract and validate cost."
+      ],
+      "default_status": "after_core_visual_upgrade"
+    },
+    {
+      "id": "C02",
+      "name": "Combat balance tuning",
+      "trigger": "Playtest evidence identifies a specific issue.",
+      "tasks": [
+        "Propose targeted timing or stamina changes with before/after evidence.",
+        "Do not silently rebalance during asset integration."
+      ],
+      "default_status": "evidence_driven"
+    },
+    {
+      "id": "C03",
+      "name": "Explicit heavy-attack selection",
+      "trigger": "Separately requested mechanics expansion after core validation.",
+      "tasks": [
+        "Define accessible desktop/touch input.",
+        "Validate recovery, resource costs, and combo interaction."
+      ],
+      "default_status": "deferred"
+    },
+    {
+      "id": "C04",
+      "name": "Parry and block",
+      "trigger": "Separately requested mechanics expansion.",
+      "tasks": [
+        "Define timing, stamina, enemy responses, and accessible controls.",
+        "Run dedicated balance and mobile tests."
+      ],
+      "default_status": "deferred"
+    },
+    {
+      "id": "C05",
+      "name": "Enemy feints",
+      "trigger": "Separately requested mechanics expansion.",
+      "tasks": [
+        "Define fair telegraphs and counterplay.",
+        "Avoid visually misleading existing guaranteed contact windows."
+      ],
+      "default_status": "deferred"
+    },
+    {
+      "id": "C06",
+      "name": "Weapon-specific attack variants",
+      "trigger": "Additional weapon types are requested.",
+      "tasks": [
+        "Author reach, sockets, clips, and material responses per weapon.",
+        "Preserve one authoritative hit timeline and revalidate all contact cases."
+      ],
+      "default_status": "deferred"
+    }
+  ],
+  "not_default_upgrade_priorities": [
+    "WebGPU or framework rewrite",
+    "Path tracing",
+    "Full real-time global illumination",
+    "8K textures applied everywhere",
+    "Full physical cloth simulation on every enemy",
+    "Large new postprocessing stack",
+    "Default gameplay depth of field, heavy motion blur, film grain, chromatic aberration, or constant camera shake",
+    "Unrelated new quests, monetization, multiplayer, accounts, or dungeon layout changes"
+  ],
+  "risk_register": [
+    {
+      "risk": "Inconsistent generated references or unusable generated meshes",
+      "response": "Use consistent art direction, validate complete geometry, and identify manual art work explicitly."
+    },
+    {
+      "risk": "Concept lighting mistaken for albedo or surface height",
+      "response": "Author physical maps and inspect under neutral light."
+    },
+    {
+      "risk": "Rig replacement breaks weapon contact or doubles movement",
+      "response": "Use a rig adapter, a shared phase clock, in-place clips, and collision-aware root movement."
+    },
+    {
+      "risk": "Optimization removes sockets or flattens needed nodes",
+      "response": "Use selected transformations and validate names, hierarchy, animations, and sockets."
+    },
+    {
+      "risk": "Baked shadows contradict gate or shrine state",
+      "response": "Separate static/dynamic contributions and test all state changes."
+    },
+    {
+      "risk": "High-quality desktop assets exceed phone memory or thermal budget",
+      "response": "Compress textures, implement LOD/visibility, budget swap peaks, and perform sustained device tests."
+    },
+    {
+      "risk": "Transparent atmosphere reduces frame rate and attack readability",
+      "response": "Limit coverage, pool effects, test worst-case combat, and scale by quality tier."
+    },
+    {
+      "risk": "Asset streaming stalls combat or leaves missing content",
+      "response": "Prefetch required encounters, bound decoder concurrency, retain fallback, and record cold-load behavior."
+    },
+    {
+      "risk": "A reference slice is delivered as the whole overhaul",
+      "response": "Track complete coverage of all three archetypes and five chambers before claiming completion."
+    }
+  ],
+  "deliverables": [
+    {
+      "name": "Updated playable game",
+      "contents": "Integrated code and runtime assets for the complete required scope."
+    },
+    {
+      "name": "Editable and optimized asset collection",
+      "contents": "Masters, GLBs, map sources, LODs, rig/clip/socket metadata, and provenance."
+    },
+    {
+      "name": "Asset manifest",
+      "suggested_repo_path": "public/assets/manifest.json",
+      "contents": "Version/hash, asset identity, references, map dimensions/color spaces, geometry/material counts, rig sockets, and clip metadata."
+    },
+    {
+      "name": "Implementation report",
+      "suggested_repo_path": "docs/VISUAL_IMPLEMENTATION.md",
+      "contents": "What changed, why, source/asset versions, implemented versus pending work, and material limitations."
+    },
+    {
+      "name": "Validation evidence",
+      "suggested_repo_path": "docs/VISUAL_VALIDATION.md",
+      "contents": "Automated results, fixed-view comparisons, device measurements, lifecycle checks, and explicit unavailable tests."
+    },
+    {
+      "name": "Updated existing documentation",
+      "contents": "Character skin and combat documentation reconciled with the installed assets and preserved mechanics."
+    },
+    {
+      "name": "Reviewable release",
+      "contents": "Verified source commit and matching packaged/saved Site version using the supported workflow; deployment only if authorized."
+    }
+  ],
+  "handoff_format": {
+    "sections": [
+      "Implemented",
+      "Assets actually installed",
+      "Validation performed",
+      "Measured performance",
+      "Pending or blocked work",
+      "Saved/live release state"
+    ],
+    "include": [
+      "A concise user-facing change summary",
+      "Evidence locations",
+      "Exact known limitations",
+      "The game URL only with accurate publication status"
+    ],
+    "do_not_claim": [
+      "New visual assets are installed when only concepts exist",
+      "Physical-device testing from simulated viewport tests",
+      "GPU performance from file sizes alone",
+      "A live release from a saved but undeployed version"
+    ]
+  },
+  "source_material": {
+    "basis": "The recent visual-upgrade roadmap and combat-dynamics suggestions in this conversation, converted into a standalone implementation brief.",
+    "visual_roadmap": {
+      "title": "Ashen Realm — visual upgrade plan",
+      "original_file_name": "Ashen_Realm_Visual_Upgrade_Plan.md",
+      "original_library_file_id": "libfile_6eb90b8965cc81918b90b766ec95560b",
+      "role": "Primary source for the new visual overhaul.",
+      "reading_original_required_to_execute": false
+    },
+    "combat_roadmap": {
+      "title": "Ashen Realm — combat dynamics update",
+      "repo_path": "docs/COMBAT_DYNAMICS_PLAN.md",
+      "role": "Preserved published combat behavior and explicitly deferred mechanics.",
+      "reading_current_source_required": true
+    },
+    "external_references_verified_during_roadmap_research": [
+      {
+        "topic": "GLB loading, animation, and decoder integration",
+        "url": "https://threejs.org/docs/pages/GLTFLoader.html"
+      },
+      {
+        "topic": "Color spaces and rendering pipeline",
+        "url": "https://threejs.org/manual/en/color-management.html"
+      },
+      {
+        "topic": "Advanced material features and cost",
+        "url": "https://threejs.org/docs/pages/MeshPhysicalMaterial.html"
+      },
+      {
+        "topic": "Offline lightmap and normal baking",
+        "url": "https://docs.blender.org/manual/en/latest/render/cycles/baking.html"
+      },
+      {
+        "topic": "Diffuse light probe behavior",
+        "url": "https://threejs.org/docs/pages/LightProbe.html"
+      },
+      {
+        "topic": "Poly Haven asset license",
+        "url": "https://polyhaven.com/license"
+      },
+      {
+        "topic": "Texture memory and mipmaps",
+        "url": "https://threejs.org/manual/en/textures.html"
+      },
+      {
+        "topic": "KTX2 hardware detection and worker limits",
+        "url": "https://threejs.org/docs/pages/KTX2Loader.html"
+      },
+      {
+        "topic": "Basis texture compression and fallback limitations",
+        "url": "https://gltf-transform.dev/modules/extensions/classes/KHRTextureBasisu"
+      },
+      {
+        "topic": "Repeatable glTF optimization",
+        "url": "https://gltf-transform.dev/cli"
+      },
+      {
+        "topic": "Meshopt transfer compression and its limits",
+        "url": "https://gltf-transform.dev/modules/extensions/classes/EXTMeshoptCompression"
+      },
+      {
+        "topic": "glTF asset validation",
+        "url": "https://github.com/KhronosGroup/glTF-Validator"
+      }
+    ],
+    "reference_policy": "Use these as primary starting references. Check compatibility with the installed package versions and current official documentation before implementing version-sensitive APIs."
+  }
+}

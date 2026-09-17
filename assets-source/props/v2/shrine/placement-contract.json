@@ -1,0 +1,71 @@
+{
+  "root": "EmberShrine_Runtime",
+  "root_transform": "identity",
+  "axes": "glTF +Y up, metres",
+  "origin": "ground centre",
+  "anchors_gltf": {
+    "Ground": [
+      0,
+      0,
+      0
+    ],
+    "FlameOrigin": [
+      0,
+      1.9,
+      0
+    ],
+    "LightOrigin": [
+      0,
+      2.2,
+      0
+    ],
+    "EmberCore": [
+      0,
+      1.54,
+      0
+    ]
+  },
+  "anchor_tolerance": 1e-05,
+  "maximum_footprint_m": 3.6,
+  "lod_groups": [
+    {
+      "name": "EmberShrine_LOD0",
+      "extras": {
+        "lod": 0
+      },
+      "meshes": [
+        "EmberShrine_LOD0_body",
+        "EmberShrine_LOD0_ember"
+      ]
+    },
+    {
+      "name": "EmberShrine_LOD1",
+      "extras": {
+        "lod": 1
+      },
+      "meshes": [
+        "EmberShrine_LOD1_body",
+        "EmberShrine_LOD1_ember"
+      ]
+    },
+    {
+      "name": "EmberShrine_LOD2",
+      "extras": {
+        "lod": 2
+      },
+      "meshes": [
+        "EmberShrine_LOD2_body",
+        "EmberShrine_LOD2_ember"
+      ]
+    }
+  ],
+  "mesh_extras": {
+    "surface_role": "body or ember",
+    "lod_index": "0,1 or2"
+  },
+  "preserve_node_matrices": true,
+  "state_material": "Shrine_StateEmber",
+  "runtime_lights": 0,
+  "runtime_flames": 0,
+  "placement": "at existing shrine root [s.x,0,s.z], unit scale; preserve existing flame, light, interaction and checkpoint entities"
+}

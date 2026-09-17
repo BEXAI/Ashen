@@ -1,0 +1,1575 @@
+[
+  {
+    "name": "Sovereign v2 \u2022 anatomical padded body and hands",
+    "part_index": 0,
+    "before": 60064,
+    "target": 1210,
+    "after": 1210
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 00 00",
+    "part_index": 1,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 00 04",
+    "part_index": 2,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 00 05",
+    "part_index": 3,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 00",
+    "part_index": 4,
+    "before": 1152,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 01 00",
+    "part_index": 5,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 01 02",
+    "part_index": 6,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 01 03",
+    "part_index": 7,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 01 04",
+    "part_index": 8,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 01",
+    "part_index": 9,
+    "before": 960,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 02 02",
+    "part_index": 10,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 02 03",
+    "part_index": 11,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 02 04",
+    "part_index": 12,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 02 05",
+    "part_index": 13,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 02",
+    "part_index": 14,
+    "before": 1152,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 03 02",
+    "part_index": 15,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 03 03",
+    "part_index": 16,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 03",
+    "part_index": 17,
+    "before": 964,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 04 00",
+    "part_index": 18,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 04 01",
+    "part_index": 19,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 04 03",
+    "part_index": 20,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 04",
+    "part_index": 21,
+    "before": 832,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 05 00",
+    "part_index": 22,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 05 01",
+    "part_index": 23,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 05 02",
+    "part_index": 24,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 05 03",
+    "part_index": 25,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 05 04",
+    "part_index": 26,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 05 05",
+    "part_index": 27,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 05",
+    "part_index": 28,
+    "before": 1152,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 06 00",
+    "part_index": 29,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 06 01",
+    "part_index": 30,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 06 02",
+    "part_index": 31,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 06 03",
+    "part_index": 32,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 06 04",
+    "part_index": 33,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 06",
+    "part_index": 34,
+    "before": 960,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 07 01",
+    "part_index": 35,
+    "before": 256,
+    "target": 23,
+    "after": 24
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 07 02",
+    "part_index": 36,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 07 03",
+    "part_index": 37,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 07 04",
+    "part_index": 38,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 07 05",
+    "part_index": 39,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 07 06",
+    "part_index": 40,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 07",
+    "part_index": 41,
+    "before": 1392,
+    "target": 94,
+    "after": 92
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 08 00",
+    "part_index": 42,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 08 01",
+    "part_index": 43,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 08 02",
+    "part_index": 44,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 08 04",
+    "part_index": 45,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 08 05",
+    "part_index": 46,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 08",
+    "part_index": 47,
+    "before": 1212,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 09 00",
+    "part_index": 48,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 09 01",
+    "part_index": 49,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 09 02",
+    "part_index": 50,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 09 03",
+    "part_index": 51,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 09 04",
+    "part_index": 52,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 09 05",
+    "part_index": 53,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 09",
+    "part_index": 54,
+    "before": 1212,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 10 00",
+    "part_index": 55,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 10 01",
+    "part_index": 56,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 10 02",
+    "part_index": 57,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 10 03",
+    "part_index": 58,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 10 04",
+    "part_index": 59,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 10",
+    "part_index": 60,
+    "before": 960,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 11 01",
+    "part_index": 61,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 11 02",
+    "part_index": 62,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 11 03",
+    "part_index": 63,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 11",
+    "part_index": 64,
+    "before": 832,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 12 01",
+    "part_index": 65,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 12 02",
+    "part_index": 66,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 12 03",
+    "part_index": 67,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 12",
+    "part_index": 68,
+    "before": 960,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 13 00",
+    "part_index": 69,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 13 01",
+    "part_index": 70,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 13 02",
+    "part_index": 71,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 13 03",
+    "part_index": 72,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 13 04",
+    "part_index": 73,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 13 05",
+    "part_index": 74,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 13",
+    "part_index": 75,
+    "before": 1152,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 14 02",
+    "part_index": 76,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 14 03",
+    "part_index": 77,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 14 04",
+    "part_index": 78,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 14 05",
+    "part_index": 79,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 14",
+    "part_index": 80,
+    "before": 1152,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 15 01",
+    "part_index": 81,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 15 02",
+    "part_index": 82,
+    "before": 256,
+    "target": 23,
+    "after": 22
+  },
+  {
+    "name": "Sovereign v2 \u2022 inset molten fracture 15 03",
+    "part_index": 83,
+    "before": 256,
+    "target": 23,
+    "after": 23
+  },
+  {
+    "name": "Sovereign v2 \u2022 individual obsidian breastplate fracture 15",
+    "part_index": 84,
+    "before": 736,
+    "target": 94,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 left fitted collar flange",
+    "part_index": 85,
+    "before": 1120,
+    "target": 68,
+    "after": 68
+  },
+  {
+    "name": "Sovereign v2 \u2022 right fitted collar flange",
+    "part_index": 86,
+    "before": 1136,
+    "target": 69,
+    "after": 68
+  },
+  {
+    "name": "Sovereign v2 \u2022 overlapping abdominal lame 0",
+    "part_index": 87,
+    "before": 3188,
+    "target": 193,
+    "after": 192
+  },
+  {
+    "name": "Sovereign v2 \u2022 abdominal plate worn lower edge 0",
+    "part_index": 88,
+    "before": 880,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 overlapping abdominal lame 1",
+    "part_index": 89,
+    "before": 3188,
+    "target": 193,
+    "after": 192
+  },
+  {
+    "name": "Sovereign v2 \u2022 abdominal plate worn lower edge 1",
+    "part_index": 90,
+    "before": 880,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 overlapping abdominal lame 2",
+    "part_index": 91,
+    "before": 3448,
+    "target": 208,
+    "after": 208
+  },
+  {
+    "name": "Sovereign v2 \u2022 abdominal plate worn lower edge 2",
+    "part_index": 92,
+    "before": 880,
+    "target": 50,
+    "after": 52
+  },
+  {
+    "name": "Sovereign v2 \u2022 left shaped thigh cuisse",
+    "part_index": 93,
+    "before": 3464,
+    "target": 210,
+    "after": 210
+  },
+  {
+    "name": "Sovereign v2 \u2022 left shaped shin greave",
+    "part_index": 94,
+    "before": 6504,
+    "target": 242,
+    "after": 242
+  },
+  {
+    "name": "Sovereign v2 \u2022 left anatomical armored boot",
+    "before": 40462,
+    "after": 0,
+    "reason": "redundant inner boot beneath closed sabaton"
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pointed patella plate",
+    "part_index": 96,
+    "before": 1488,
+    "target": 90,
+    "after": 90
+  },
+  {
+    "name": "Sovereign v2 \u2022 left mobile knee lame 0",
+    "part_index": 97,
+    "before": 1576,
+    "target": 95,
+    "after": 94
+  },
+  {
+    "name": "Sovereign v2 \u2022 left mobile knee lame 1",
+    "part_index": 98,
+    "before": 2096,
+    "target": 127,
+    "after": 126
+  },
+  {
+    "name": "Sovereign v2 \u2022 left worn greave flute",
+    "part_index": 99,
+    "before": 528,
+    "target": 35,
+    "after": 34
+  },
+  {
+    "name": "Sovereign v2 \u2022 left closed shaped sabaton",
+    "part_index": 100,
+    "before": 15052,
+    "target": 275,
+    "after": 274
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sabaton end cap 0",
+    "part_index": 101,
+    "before": 64,
+    "target": 10,
+    "after": 10
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sabaton end cap 47",
+    "part_index": 102,
+    "before": 64,
+    "target": 10,
+    "after": 10
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sabaton overlapping ridge 0",
+    "part_index": 103,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sabaton overlapping ridge 1",
+    "part_index": 104,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sabaton overlapping ridge 2",
+    "part_index": 105,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sabaton overlapping ridge 3",
+    "part_index": 106,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sabaton overlapping ridge 4",
+    "part_index": 107,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sabaton overlapping ridge 5",
+    "part_index": 108,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right shaped thigh cuisse",
+    "part_index": 109,
+    "before": 3496,
+    "target": 212,
+    "after": 212
+  },
+  {
+    "name": "Sovereign v2 \u2022 right shaped shin greave",
+    "part_index": 110,
+    "before": 6332,
+    "target": 242,
+    "after": 242
+  },
+  {
+    "name": "Sovereign v2 \u2022 right anatomical armored boot",
+    "before": 40510,
+    "after": 0,
+    "reason": "redundant inner boot beneath closed sabaton"
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pointed patella plate",
+    "part_index": 112,
+    "before": 1334,
+    "target": 81,
+    "after": 80
+  },
+  {
+    "name": "Sovereign v2 \u2022 right mobile knee lame 0",
+    "part_index": 113,
+    "before": 1492,
+    "target": 90,
+    "after": 90
+  },
+  {
+    "name": "Sovereign v2 \u2022 right mobile knee lame 1",
+    "part_index": 114,
+    "before": 2002,
+    "target": 121,
+    "after": 120
+  },
+  {
+    "name": "Sovereign v2 \u2022 right worn greave flute",
+    "part_index": 115,
+    "before": 528,
+    "target": 35,
+    "after": 34
+  },
+  {
+    "name": "Sovereign v2 \u2022 right closed shaped sabaton",
+    "part_index": 116,
+    "before": 15052,
+    "target": 275,
+    "after": 274
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sabaton end cap 0",
+    "part_index": 117,
+    "before": 64,
+    "target": 10,
+    "after": 10
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sabaton end cap 47",
+    "part_index": 118,
+    "before": 64,
+    "target": 10,
+    "after": 10
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sabaton overlapping ridge 0",
+    "part_index": 119,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sabaton overlapping ridge 1",
+    "part_index": 120,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sabaton overlapping ridge 2",
+    "part_index": 121,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sabaton overlapping ridge 3",
+    "part_index": 122,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sabaton overlapping ridge 4",
+    "part_index": 123,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sabaton overlapping ridge 5",
+    "part_index": 124,
+    "before": 768,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left fitted upper arm shell",
+    "part_index": 125,
+    "before": 3376,
+    "target": 204,
+    "after": 204
+  },
+  {
+    "name": "Sovereign v2 \u2022 left fitted vambrace",
+    "part_index": 126,
+    "before": 5056,
+    "target": 242,
+    "after": 242
+  },
+  {
+    "name": "Sovereign v2 \u2022 left fitted hand and finger plates",
+    "part_index": 127,
+    "before": 17610,
+    "target": 302,
+    "after": 302
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rounded overlapping pauldron 0",
+    "part_index": 128,
+    "before": 6652,
+    "target": 226,
+    "after": 226
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rolled pauldron edge 0",
+    "part_index": 129,
+    "before": 1008,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pauldron rivet",
+    "part_index": 130,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pauldron rivet.001",
+    "part_index": 131,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rounded overlapping pauldron 1",
+    "part_index": 132,
+    "before": 6652,
+    "target": 226,
+    "after": 226
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rolled pauldron edge 1",
+    "part_index": 133,
+    "before": 1008,
+    "target": 50,
+    "after": 64
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pauldron rivet.002",
+    "part_index": 134,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pauldron rivet.003",
+    "part_index": 135,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rounded overlapping pauldron 2",
+    "part_index": 136,
+    "before": 6652,
+    "target": 226,
+    "after": 226
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rolled pauldron edge 2",
+    "part_index": 137,
+    "before": 1008,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pauldron rivet.004",
+    "part_index": 138,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pauldron rivet.005",
+    "part_index": 139,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rounded overlapping pauldron 3",
+    "part_index": 140,
+    "before": 6652,
+    "target": 226,
+    "after": 226
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rolled pauldron edge 3",
+    "part_index": 141,
+    "before": 1008,
+    "target": 50,
+    "after": 60
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pauldron rivet.006",
+    "part_index": 142,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left pauldron rivet.007",
+    "part_index": 143,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left articulated elbow cop",
+    "part_index": 144,
+    "before": 2206,
+    "target": 134,
+    "after": 134
+  },
+  {
+    "name": "Sovereign v2 \u2022 left seated closed arm strap 0",
+    "part_index": 145,
+    "before": 2908,
+    "target": 50,
+    "after": 48
+  },
+  {
+    "name": "Sovereign v2 \u2022 left strap stud 0",
+    "part_index": 146,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left seated closed arm strap 1",
+    "part_index": 147,
+    "before": 2908,
+    "target": 50,
+    "after": 48
+  },
+  {
+    "name": "Sovereign v2 \u2022 left strap stud 1",
+    "part_index": 148,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left seated closed arm strap 2",
+    "part_index": 149,
+    "before": 2908,
+    "target": 50,
+    "after": 48
+  },
+  {
+    "name": "Sovereign v2 \u2022 left strap stud 2",
+    "part_index": 150,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right fitted upper arm shell",
+    "part_index": 151,
+    "before": 3416,
+    "target": 207,
+    "after": 206
+  },
+  {
+    "name": "Sovereign v2 \u2022 right fitted vambrace",
+    "part_index": 152,
+    "before": 4892,
+    "target": 242,
+    "after": 242
+  },
+  {
+    "name": "Sovereign v2 \u2022 right fitted hand and finger plates",
+    "part_index": 153,
+    "before": 17954,
+    "target": 302,
+    "after": 302
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rounded overlapping pauldron 0",
+    "part_index": 154,
+    "before": 6652,
+    "target": 226,
+    "after": 226
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rolled pauldron edge 0",
+    "part_index": 155,
+    "before": 1008,
+    "target": 50,
+    "after": 60
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pauldron rivet",
+    "part_index": 156,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pauldron rivet.001",
+    "part_index": 157,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rounded overlapping pauldron 1",
+    "part_index": 158,
+    "before": 6652,
+    "target": 226,
+    "after": 226
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rolled pauldron edge 1",
+    "part_index": 159,
+    "before": 1008,
+    "target": 50,
+    "after": 54
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pauldron rivet.002",
+    "part_index": 160,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pauldron rivet.003",
+    "part_index": 161,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rounded overlapping pauldron 2",
+    "part_index": 162,
+    "before": 6652,
+    "target": 226,
+    "after": 226
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rolled pauldron edge 2",
+    "part_index": 163,
+    "before": 1008,
+    "target": 50,
+    "after": 60
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pauldron rivet.004",
+    "part_index": 164,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pauldron rivet.005",
+    "part_index": 165,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rounded overlapping pauldron 3",
+    "part_index": 166,
+    "before": 6652,
+    "target": 226,
+    "after": 226
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rolled pauldron edge 3",
+    "part_index": 167,
+    "before": 1008,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pauldron rivet.006",
+    "part_index": 168,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right pauldron rivet.007",
+    "part_index": 169,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right articulated elbow cop",
+    "part_index": 170,
+    "before": 2244,
+    "target": 136,
+    "after": 136
+  },
+  {
+    "name": "Sovereign v2 \u2022 right seated closed arm strap 0",
+    "part_index": 171,
+    "before": 2908,
+    "target": 50,
+    "after": 48
+  },
+  {
+    "name": "Sovereign v2 \u2022 right strap stud 0",
+    "part_index": 172,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right seated closed arm strap 1",
+    "part_index": 173,
+    "before": 2908,
+    "target": 50,
+    "after": 48
+  },
+  {
+    "name": "Sovereign v2 \u2022 right strap stud 1",
+    "part_index": 174,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right seated closed arm strap 2",
+    "part_index": 175,
+    "before": 2908,
+    "target": 50,
+    "after": 48
+  },
+  {
+    "name": "Sovereign v2 \u2022 right strap stud 2",
+    "part_index": 176,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 continuous padded high neck and clavicle gorget",
+    "part_index": 177,
+    "before": 37762,
+    "target": 330,
+    "after": 1336
+  },
+  {
+    "name": "Sovereign v2 \u2022 curved closed helmet dome",
+    "part_index": 178,
+    "before": 10820,
+    "target": 358,
+    "after": 358
+  },
+  {
+    "name": "Sovereign v2 \u2022 left sweeping cheek and jaw blade",
+    "part_index": 179,
+    "before": 1156,
+    "target": 88,
+    "after": 86
+  },
+  {
+    "name": "Sovereign v2 \u2022 left furrowed brow and temple",
+    "part_index": 180,
+    "before": 1218,
+    "target": 88,
+    "after": 88
+  },
+  {
+    "name": "Sovereign v2 \u2022 left narrow recessed amber eye",
+    "part_index": 181,
+    "before": 1024,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left subtle cheek scoring",
+    "part_index": 182,
+    "before": 32,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right sweeping cheek and jaw blade",
+    "part_index": 183,
+    "before": 1156,
+    "target": 88,
+    "after": 86
+  },
+  {
+    "name": "Sovereign v2 \u2022 right furrowed brow and temple",
+    "part_index": 184,
+    "before": 1218,
+    "target": 88,
+    "after": 88
+  },
+  {
+    "name": "Sovereign v2 \u2022 right narrow recessed amber eye",
+    "part_index": 185,
+    "before": 1024,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right subtle cheek scoring",
+    "part_index": 186,
+    "before": 32,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 long central nasal ridge",
+    "part_index": 187,
+    "before": 1366,
+    "target": 88,
+    "after": 88
+  },
+  {
+    "name": "Sovereign v2 \u2022 central towering crown blade",
+    "part_index": 188,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 left front crown blade",
+    "part_index": 189,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 left lateral crown blade",
+    "part_index": 190,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 left rear crown blade",
+    "part_index": 191,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 left inner rear crown blade",
+    "part_index": 192,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 left single shoulder defense",
+    "part_index": 193,
+    "before": 284,
+    "target": 61,
+    "after": 60
+  },
+  {
+    "name": "Sovereign v2 \u2022 right front crown blade",
+    "part_index": 194,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 right lateral crown blade",
+    "part_index": 195,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 right rear crown blade",
+    "part_index": 196,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 right inner rear crown blade",
+    "part_index": 197,
+    "before": 284,
+    "target": 74,
+    "after": 74
+  },
+  {
+    "name": "Sovereign v2 \u2022 right single shoulder defense",
+    "part_index": 198,
+    "before": 284,
+    "target": 61,
+    "after": 60
+  },
+  {
+    "name": "Sovereign v2 \u2022 left hanging hip tasset",
+    "part_index": 199,
+    "before": 1764,
+    "target": 107,
+    "after": 106
+  },
+  {
+    "name": "Sovereign v2 \u2022 left tasset suspension strap 0",
+    "part_index": 200,
+    "before": 1180,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left leather suspension rivet",
+    "part_index": 201,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left leather suspension rivet.001",
+    "part_index": 202,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left tasset suspension strap 1",
+    "part_index": 203,
+    "before": 6080,
+    "target": 50,
+    "after": 2150
+  },
+  {
+    "name": "Sovereign v2 \u2022 left leather suspension rivet.002",
+    "part_index": 204,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left leather suspension rivet.003",
+    "part_index": 205,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right hanging hip tasset",
+    "part_index": 206,
+    "before": 1708,
+    "target": 103,
+    "after": 102
+  },
+  {
+    "name": "Sovereign v2 \u2022 right tasset suspension strap 0",
+    "part_index": 207,
+    "before": 1180,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right leather suspension rivet",
+    "part_index": 208,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right leather suspension rivet.001",
+    "part_index": 209,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right tasset suspension strap 1",
+    "part_index": 210,
+    "before": 5928,
+    "target": 50,
+    "after": 2112
+  },
+  {
+    "name": "Sovereign v2 \u2022 right leather suspension rivet.002",
+    "part_index": 211,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 right leather suspension rivet.003",
+    "part_index": 212,
+    "before": 168,
+    "target": 13,
+    "after": 12
+  },
+  {
+    "name": "Sovereign v2 \u2022 left gathered oxblood drape",
+    "part_index": 213,
+    "before": 23612,
+    "target": 522,
+    "after": 522
+  },
+  {
+    "name": "Sovereign v2 \u2022 left drape sewn hem 0",
+    "part_index": 214,
+    "before": 1136,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left drape sewn hem 81",
+    "part_index": 215,
+    "before": 1136,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 left drape lower sewn hem",
+    "part_index": 216,
+    "before": 1296,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right gathered oxblood drape",
+    "part_index": 217,
+    "before": 23612,
+    "target": 522,
+    "after": 522
+  },
+  {
+    "name": "Sovereign v2 \u2022 right drape sewn hem 0",
+    "part_index": 218,
+    "before": 1136,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right drape sewn hem 81",
+    "part_index": 219,
+    "before": 1136,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 right drape lower sewn hem",
+    "part_index": 220,
+    "before": 1296,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 heavy floor length folded black oxblood cape",
+    "part_index": 221,
+    "before": 42236,
+    "target": 1265,
+    "after": 1264
+  },
+  {
+    "name": "Sovereign v2 \u2022 cape stitched selvage 0",
+    "part_index": 222,
+    "before": 1520,
+    "target": 50,
+    "after": 49
+  },
+  {
+    "name": "Sovereign v2 \u2022 cape stitched selvage 109",
+    "part_index": 223,
+    "before": 1520,
+    "target": 50,
+    "after": 50
+  },
+  {
+    "name": "Sovereign v2 \u2022 cape lower sewn hem",
+    "part_index": 224,
+    "before": 1744,
+    "target": 50,
+    "after": 152
+  }
+]

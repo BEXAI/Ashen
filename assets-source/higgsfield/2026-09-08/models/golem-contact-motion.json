@@ -1,0 +1,159 @@
+{
+  "input": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/golem-runtime.glb",
+  "method": "ContactTip world motion sampled at 120 Hz. Candidate interval is contiguous >=50% peak speed around fastest sample.",
+  "limitation": "Kinematic candidate, not observed collision or validated release timing. Equipment sockets are provisional; recovery can be faster than the active strike. Native duration is preserved.",
+  "clips": [
+    {
+      "name": "side",
+      "durationSeconds": 2.799999952316284,
+      "peakTipSpeedMetersPerSecond": 76.1169583904224,
+      "peakPhase": 0.3794642857142857,
+      "candidateActivePhase": [
+        0.36607142857142855,
+        0.39285714285714285
+      ],
+      "candidateActiveSeconds": [
+        1.024999982544354,
+        1.0999999812671115
+      ],
+      "localPeaks": [
+        {
+          "phase": 0.3794642857142857,
+          "seconds": 1.0624999819057328,
+          "speedMetersPerSecond": 76.1169583904224
+        }
+      ],
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+        "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "claws",
+          "actionId": 4,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:50.264848+00:00",
+          "jobId": "03c0cfd1-11a4-490a-b37e-ab5df4ea0a90",
+          "lastCheckedAt": "2026-09-17T04:38:27.748660+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043450_03c0cfd1-11a4-490a-b37e-ab5df4ea0a90.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+          "bytes": 5962776,
+          "downloadedAt": "2026-09-17T04:38:29.227123+00:00"
+        }
+      }
+    },
+    {
+      "name": "diagonal",
+      "durationSeconds": 2.799999952316284,
+      "peakTipSpeedMetersPerSecond": 76.1169583904224,
+      "peakPhase": 0.3794642857142857,
+      "candidateActivePhase": [
+        0.36607142857142855,
+        0.39285714285714285
+      ],
+      "candidateActiveSeconds": [
+        1.024999982544354,
+        1.0999999812671115
+      ],
+      "localPeaks": [
+        {
+          "phase": 0.3794642857142857,
+          "seconds": 1.0624999819057328,
+          "speedMetersPerSecond": 76.1169583904224
+        }
+      ],
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+        "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "claws",
+          "actionId": 4,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:50.264848+00:00",
+          "jobId": "03c0cfd1-11a4-490a-b37e-ab5df4ea0a90",
+          "lastCheckedAt": "2026-09-17T04:38:27.748660+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043450_03c0cfd1-11a4-490a-b37e-ab5df4ea0a90.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+          "bytes": 5962776,
+          "downloadedAt": "2026-09-17T04:38:29.227123+00:00"
+        }
+      }
+    },
+    {
+      "name": "backhand",
+      "durationSeconds": 2.799999952316284,
+      "peakTipSpeedMetersPerSecond": 76.1169583904224,
+      "peakPhase": 0.3794642857142857,
+      "candidateActivePhase": [
+        0.36607142857142855,
+        0.39285714285714285
+      ],
+      "candidateActiveSeconds": [
+        1.024999982544354,
+        1.0999999812671115
+      ],
+      "localPeaks": [
+        {
+          "phase": 0.3794642857142857,
+          "seconds": 1.0624999819057328,
+          "speedMetersPerSecond": 76.1169583904224
+        }
+      ],
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+        "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "claws",
+          "actionId": 4,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:50.264848+00:00",
+          "jobId": "03c0cfd1-11a4-490a-b37e-ab5df4ea0a90",
+          "lastCheckedAt": "2026-09-17T04:38:27.748660+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043450_03c0cfd1-11a4-490a-b37e-ab5df4ea0a90.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+          "bytes": 5962776,
+          "downloadedAt": "2026-09-17T04:38:29.227123+00:00"
+        }
+      }
+    },
+    {
+      "name": "overhead",
+      "durationSeconds": 2.799999952316284,
+      "peakTipSpeedMetersPerSecond": 76.1169583904224,
+      "peakPhase": 0.3794642857142857,
+      "candidateActivePhase": [
+        0.36607142857142855,
+        0.39285714285714285
+      ],
+      "candidateActiveSeconds": [
+        1.024999982544354,
+        1.0999999812671115
+      ],
+      "localPeaks": [
+        {
+          "phase": 0.3794642857142857,
+          "seconds": 1.0624999819057328,
+          "speedMetersPerSecond": 76.1169583904224
+        }
+      ],
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+        "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "claws",
+          "actionId": 4,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:50.264848+00:00",
+          "jobId": "03c0cfd1-11a4-490a-b37e-ab5df4ea0a90",
+          "lastCheckedAt": "2026-09-17T04:38:27.748660+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043450_03c0cfd1-11a4-490a-b37e-ab5df4ea0a90.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+          "bytes": 5962776,
+          "downloadedAt": "2026-09-17T04:38:29.227123+00:00"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "createdAtUTC": "2026-09-17T05:01:56.128Z",
+  "method": "Aggregate existing successful generation validation reports; no additional optimizer pass",
+  "models": 16,
+  "variants": 32,
+  "normalizedErrors": 0,
+  "compressedErrors": 0,
+  "decodedErrors": 0,
+  "groundingModels": 16,
+  "groundingSamples": 12480,
+  "sourceHashManifest": "runtime-assets.SHA256SUMS",
+  "spiderAnimationsNodesAndSkinsPreservation": "Verified by earlier complete integrity check; spider output unchanged",
+  "locallyAuthoredModels": [
+    "ogre",
+    "goblin"
+  ]
+}

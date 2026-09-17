@@ -1,0 +1,53 @@
+{
+  "axes": {
+    "up": "+Y",
+    "front": "glTF +Z outward from wall"
+  },
+  "metres_per_unit": 1,
+  "anchors_gltf": {
+    "Mount": [
+      0,
+      0,
+      0
+    ],
+    "FlameOrigin": [
+      0,
+      0.385,
+      0.265
+    ],
+    "LightOrigin": [
+      0,
+      0.685,
+      0.265
+    ]
+  },
+  "source_light_anchor_gltf": [
+    0,
+    1.085,
+    0.265
+  ],
+  "game_effect_contract": {
+    "flame_y": 3.4,
+    "light_y": 3.7,
+    "flame_x": "side*(room.width/2-1)",
+    "z": "room.z"
+  },
+  "placement": {
+    "rotation_y": "-side*Math.PI/2",
+    "root_x": "side*(room.width/2-0.735)",
+    "root_y": 3.015,
+    "root_z": "room.z",
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "wall_support": {
+    "separate_from_core_asset": true,
+    "projection_metres": 0.735,
+    "material": "Reuse existing dungeon stone to avoid another texture set",
+    "proposal": "Low-poly stone corbel or tapered masonry mounting block from wall plane to Mount; place as room adapter, preserve source brazier proportions and existing effect positions"
+  },
+  "validation": "Core bounds excludes the separate architectural support; root placement exactly preserves both existing flame and light anchors."
+}

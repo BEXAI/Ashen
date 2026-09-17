@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-08",
+  "asset_version": "visual-v8",
+  "baseline_source_sha": "3101c905c1ea1734dc266d34e37e4300b21bf343",
+  "overall_status": "functional_implementation_verified_art_and_device_acceptance_pending",
+  "checks": {
+    "typescript": { "status": "passed", "command": "npm run typecheck" },
+    "application_lint": {
+      "status": "passed", "errors": 0, "warnings": 0,
+      "command": "npx eslint app components hooks lib db worker scripts vite.config.ts eslint.config.mjs"
+    },
+    "regressions": {
+      "status": "passed", "passed": 65, "failed": 0, "skipped": 0,
+      "baseline_tests": 55, "added_asset_lifecycle_tests": 10,
+      "command": "ASHEN_TRACE_POSE=1 node --test tests/*.test.mjs"
+    },
+    "syntax": {
+      "status": "passed", "source_files": 39, "compiled_modules": 19,
+      "command": "npm run check:syntax"
+    },
+    "production_build": {
+      "status": "passed", "workflow": "Sites build-site.mjs",
+      "warnings": [
+        "Existing Vite config syntax is incompatible with a future native config loader default.",
+        "A minified client chunk exceeds 500 kB; actual load stalls require browser/device measurement.",
+        "Vinext static analysis cannot classify all application routes."
+      ]
+    },
+    "gltf": {
+      "status": "passed_with_reviewed_warnings",
+      "runtime_character_and_fallback_files": 18,
+      "room_files": 9,
+      "structural_errors": 0,
+      "hashes": "All runtime GLBs and room lightmaps match their versioned manifests.",
+      "reviewed_warnings": [
+        "Skinned LOD nodes under an identity root; CPU skin and socket tests cover the hierarchy.",
+        "Installed validator does not fully support Meshopt/KTX2 extensions and MIME types.",
+        "Room UV1 is bound to separate lightmaps at runtime; unused notices are expected.",
+        "Unused accessor information does not affect the active rig."
+      ]
+    },
+    "ktx2": {
+      "status": "passed", "files": 36, "validator": "KTX Software 4.4.2 ktx2check",
+      "encoding": "ETC1S/BasisLZ color and emissive; UASTC/Zstd normals and ORM",
+      "extra_regression": "Embedded KTX2 headers must identify universal compressed texture data.",
+      "gpu_transcoding": "not_verified"
+    },
+    "git_diff_whitespace": "passed"
+  },
+  "weapon_socket_error_metres": {
+    "threshold": 0.04,
+    "ash_knight_maximum": 0.008072449009079259,
+    "crypt_warden_maximum": 0.007200241707698323,
+    "ember_sovereign_maximum": 0.01453040821634304,
+    "method": "Numerical GLB clip samples against baseline strike poses; not rendered contact inspection."
+  },
+  "assets": {
+    "character_manifest": "public/assets/characters/v8/manifest.json",
+    "dungeon_manifest": "public/assets/dungeon/v8/manifest.json",
+    "character_master_status": "authored_reconstructions_not_premium_sculpts",
+    "archetypes": 3,
+    "lods_per_archetype": 3,
+    "clips_per_archetype": 13,
+    "static_room_chunks": 9,
+    "static_triangles_total": 109742,
+    "static_material_batches_total": 45,
+    "mobile_character_rgba8_texture_estimate_mib": 16,
+    "memory_caveat": "Estimate includes character material mipmaps only; excludes decoded images, geometry, replacements, render targets and driver memory. No GPU allocation total was measured."
+  },
+  "pending_acceptance": [
+    "Premium sculpt, retopology, organic weights and high-detail material baking for all three archetypes.",
+    "360-degree neutral-light and dungeon material/deformation review.",
+    "Room composition, prop clearance, UV seams and indirect-lightmap art review.",
+    "Equivalent-resolution before/after captures and rendered slow-motion attack checks.",
+    "GPU compression/transcoding and complete-frame profiling.",
+    "Fifteen-minute older/recent iPhone tests in portrait and landscape, including thermal and frame pacing observations.",
+    "Dedicated smoke/dust/haze/impact-mark art after combat visibility assessment."
+  ],
+  "capability_failures": {
+    "higgsfield_3d": "image_to_3d requires generate_3d, which was not exposed. No 3D job was submitted; requests and rejection are preserved in assets-source/references.",
+    "blender": "Available downloaded binary failed its version check, so manual sculpting/Cycles baking could not run.",
+    "browser": "The supported cloud browser could not create a WebGL context. VisualLab displays the failure; no rendered success is claimed.",
+    "physical_iphone": "Unavailable; no device results were synthesized."
+  },
+  "release": {
+    "delivery": "Save the verified source and matching packaged Site version.",
+    "deployment_in_this_execution": false,
+    "known_good_live_version": 7,
+    "saved_version_number_and_source_sha": "Use the exact Sites save response and final handoff; do not infer from the asset version."
+  }
+}

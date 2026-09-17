@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "golem",
+  "originalArtwork": {
+    "assetId": "496924e4-b505-4aab-8808-2cded9eb400a",
+    "filename": "hf_20260909_023557_496924e4-b505-4aab-8808-2cded9eb400a.png",
+    "sha256": "5b42fe845f747eac1b857caa84a8e08e0a7f4bb424c6161d297653ae8b90eca5",
+    "bytes": 3425163,
+    "screenshot": {
+      "row": 1,
+      "column": 2,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T02:35:57Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "d8839a17-0927-47d5-9b69-a34d94da07a3",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043158_d8839a17-0927-47d5-9b69-a34d94da07a3.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "54724561-965e-413c-8177-1a5491a40831",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/54724561-965e-413c-8177-1a5491a40831.png"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/golem-original.glb",
+    "bytes": 7828276,
+    "sha256": "b6399d9587b7f9376e6db452df29a2662c9433b8a1b8c14f48a8f4fda360b114"
+  },
+  "attackStyle": "claws",
+  "attackAliasPolicy": "Four canonical strike names alias genuine claws action; original timing preserved",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

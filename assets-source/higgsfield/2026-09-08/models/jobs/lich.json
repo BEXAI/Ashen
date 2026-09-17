@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-17T04:33:00.577022Z",
+  "display_name": "Meshy 7 Image to 3D",
+  "id": "dbd2781d-2dd0-4345-bfd5-3e1d65d12287",
+  "job_type": "meshy_v7_image_to_3d",
+  "min_result_url": null,
+  "params": {
+    "animation_action_id": 0,
+    "enable_animation": true,
+    "enable_pbr": true,
+    "enable_rigging": true,
+    "enable_safety_checker": true,
+    "folder_id": null,
+    "medias": [
+      {
+        "data": {
+          "id": "f162e7d7-bf6b-47d5-bbbb-953355f6e252",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/f162e7d7-bf6b-47d5-bbbb-953355f6e252_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "model_type": "standard",
+    "pose_mode": "a-pose",
+    "rigging_height_meters": 1.85,
+    "should_remesh": true,
+    "should_texture": true,
+    "symmetry_mode": "auto",
+    "target_polycount": 20000,
+    "topology": "triangle",
+    "ultra_mode": false
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043300_dbd2781d-2dd0-4345-bfd5-3e1d65d12287.glb",
+  "status": "completed"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "pending_physical_measurements",
+  "user_available_device": {
+    "model": "iPhone 17",
+    "browser": "Safari",
+    "os_version": "not supplied"
+  },
+  "results": [],
+  "missing_coverage": [
+    "Older iPhone Safari",
+    "Midrange Android Chrome"
+  ],
+  "claims": "Desktop/browser screenshots and timed samples are not physical-phone verification."
+}

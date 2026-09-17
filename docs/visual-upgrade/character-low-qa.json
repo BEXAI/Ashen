@@ -1,0 +1,166 @@
+{
+  "cacheInput": "/Users/nathaniel/Documents/ChatGPT/Knight/game/app/game/foot-contact-cache.json",
+  "cacheSha256": "b6d6b6fd47c9f3b3e690658f2757bdaf1526cdccc9150cfb7e78bd193c694661",
+  "manifest": "/assets/characters/v11/manifest.json",
+  "tier": "low",
+  "visibleLOD": 0,
+  "headlessMethod": "Original loaded Low GLB BIN, compression, geometry, skin, hierarchy and animation bytes retained. Only image/material JSON bindings removed for headless GLTFLoader.",
+  "assets": [
+    {
+      "id": "ash-knight",
+      "url": "/assets/characters/v9/ash-knight-low.glb",
+      "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+      "bytes": 1259788,
+      "clips": [
+        "side",
+        "diagonal",
+        "backhand",
+        "overhead",
+        "idle",
+        "forward",
+        "backward",
+        "strafe_left",
+        "strafe_right",
+        "turn",
+        "dodge",
+        "hit",
+        "death"
+      ]
+    },
+    {
+      "id": "crypt-warden",
+      "url": "/assets/characters/v9/crypt-warden-low.glb",
+      "sha256": "3388cc02230a15735886db93f577adfc557b70449b2deb766bf30b9aca043643",
+      "bytes": 1337428,
+      "clips": [
+        "side",
+        "diagonal",
+        "backhand",
+        "overhead",
+        "idle",
+        "forward",
+        "backward",
+        "strafe_left",
+        "strafe_right",
+        "turn",
+        "dodge",
+        "hit",
+        "death"
+      ]
+    },
+    {
+      "id": "ember-sovereign",
+      "url": "/assets/characters/v11/ember-sovereign-low.glb",
+      "sha256": "6873645de8c137be72af989785dd9ed372d29710421836068857e04147745f4d",
+      "bytes": 1850084,
+      "clips": [
+        "side",
+        "diagonal",
+        "backhand",
+        "overhead",
+        "idle",
+        "forward",
+        "backward",
+        "strafe_left",
+        "strafe_right",
+        "turn",
+        "dodge",
+        "hit",
+        "death"
+      ]
+    }
+  ],
+  "planting": [
+    {
+      "id": "ash-knight",
+      "frames": 990,
+      "rigidFootVertices": [
+        881,
+        875
+      ],
+      "maximumHipDownMetres": 0.11102670412733007,
+      "maximumHipUpMetres": 0.01401437941201511,
+      "maximumSupportGapMetres": 0.004000033100484024,
+      "minimumFootClearanceMetres": 0.003999948129854269,
+      "maximumBodyDelta": 0,
+      "maximumWeaponDelta": 0,
+      "maximumSampledHipDriftMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "frames": 990,
+      "rigidFootVertices": [
+        1058,
+        1042
+      ],
+      "maximumHipDownMetres": 0.10126104711366324,
+      "maximumHipUpMetres": 0.014015177642388466,
+      "maximumSupportGapMetres": 0.004000010678430921,
+      "minimumFootClearanceMetres": 0.003999957416600863,
+      "maximumBodyDelta": 0,
+      "maximumWeaponDelta": 0,
+      "maximumSampledHipDriftMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "frames": 990,
+      "rigidFootVertices": [
+        1039,
+        1084
+      ],
+      "maximumHipDownMetres": 0.07515202264742744,
+      "maximumHipUpMetres": 0.03202836083888691,
+      "maximumSupportGapMetres": 0.00494577929820112,
+      "minimumFootClearanceMetres": 0.003999976860039796,
+      "maximumBodyDelta": 0,
+      "maximumWeaponDelta": 0,
+      "maximumSampledHipDriftMetres": 0
+    }
+  ],
+  "weapon": [
+    {
+      "id": "ash-knight",
+      "activeSamples": 414,
+      "maxSocketDeltaMetres": 0
+    },
+    {
+      "id": "crypt-warden",
+      "activeSamples": 414,
+      "maxSocketDeltaMetres": 0
+    },
+    {
+      "id": "ember-sovereign",
+      "activeSamples": 448,
+      "maxSocketDeltaMetres": 0
+    }
+  ],
+  "windupReset": [
+    {
+      "id": "ash-knight",
+      "cases": 32
+    },
+    {
+      "id": "crypt-warden",
+      "cases": 32
+    },
+    {
+      "id": "ember-sovereign",
+      "cases": 32
+    }
+  ],
+  "nonmonotonic": [
+    {
+      "id": "ash-knight",
+      "passed": true
+    },
+    {
+      "id": "crypt-warden",
+      "passed": true
+    },
+    {
+      "id": "ember-sovereign",
+      "passed": true
+    }
+  ],
+  "limits": "Geometry support checks cover rigid knee-bound vertices in the bottom 0.28 model metres; no GPU texture/render validation or physical-device performance claims."
+}

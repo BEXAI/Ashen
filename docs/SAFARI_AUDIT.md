@@ -1,4 +1,20 @@
+> Historical Safari implementation audit. The counts/build/publication statements below describe the earlier implementation, not the current v11-character/v13-dungeon/v2-prop candidate. Current evidence and pending physical-device/build/deployment gates are in [RELEASE_PROVENANCE.md](RELEASE_PROVENANCE.md).
+
 # Safari on iPhone audit
+
+## Visual-v8 addendum — 2026-09-08
+
+Staged room/character loads, serialized quality changes, shared skeletal assets,
+bounded effects and 30 Hz Performance rendering are implemented. Auto retains
+adaptive output and its 60 Hz ceiling. New tests cover PNG fallback rigs,
+failed room loads, repeated traversal, independent skeletons and cleanup.
+
+The cloud browser could not create a WebGL context. Physical iPhone, GPU visual,
+frame pacing and thermal checks remain pending. See `VISUAL_UPGRADE_REPORT.md`
+and `VISUAL_ASSET_VALIDATION.json`. Advisory findings below describe the earlier
+audit; this update does not claim a fresh security audit.
+
+## Original Safari audit
 
 Date: 2026-09-07. Scope: the client game, touch controls, renderer lifecycle, graphics assets, progress API, schemas, dependency lockfile and production build.
 

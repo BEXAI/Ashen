@@ -1,0 +1,114 @@
+[
+  {
+    "name": "retained_weapon_base",
+    "size": [
+      256,
+      256
+    ],
+    "mime": "image/ktx2",
+    "meanRGBerror_0_255": 5.4421946207682295,
+    "p99RGBerror_0_255": 39.0,
+    "maxRGBerror_0_255": 255.0,
+    "compressedVariantBytes": 13827,
+    "fallbackBytes": 108751,
+    "decodedPixelsEqual": false
+  },
+  {
+    "name": "retained_weapon_normal",
+    "size": [
+      128,
+      128
+    ],
+    "mime": "image/ktx2",
+    "meanRGBerror_0_255": 4.01776123046875,
+    "p99RGBerror_0_255": 23.0,
+    "maxRGBerror_0_255": 104.0,
+    "compressedVariantBytes": 21543,
+    "fallbackBytes": 38590,
+    "decodedPixelsEqual": false
+  },
+  {
+    "name": "retained_weapon_orm",
+    "size": [
+      128,
+      128
+    ],
+    "mime": "image/ktx2",
+    "meanRGBerror_0_255": 6.729715983072917,
+    "p99RGBerror_0_255": 41.0,
+    "maxRGBerror_0_255": 183.0,
+    "compressedVariantBytes": 21664,
+    "fallbackBytes": 44887,
+    "decodedPixelsEqual": false
+  },
+  {
+    "name": "retained_weapon_emissive",
+    "size": [
+      64,
+      64
+    ],
+    "mime": "image/png",
+    "meanRGBerror_0_255": 0.0,
+    "p99RGBerror_0_255": 0.0,
+    "maxRGBerror_0_255": 0.0,
+    "compressedVariantBytes": 4143,
+    "fallbackBytes": 4143,
+    "decodedPixelsEqual": true
+  },
+  {
+    "name": "sovereign_v10_emissive",
+    "size": [
+      512,
+      512
+    ],
+    "mime": "image/png",
+    "meanRGBerror_0_255": 0.0,
+    "p99RGBerror_0_255": 0.0,
+    "maxRGBerror_0_255": 0.0,
+    "compressedVariantBytes": 6201,
+    "fallbackBytes": 6201,
+    "decodedPixelsEqual": true
+  },
+  {
+    "name": "sovereign_v10_normal",
+    "size": [
+      512,
+      512
+    ],
+    "mime": "image/ktx2",
+    "meanRGBerror_0_255": 0.31801732381184894,
+    "p99RGBerror_0_255": 5.0,
+    "maxRGBerror_0_255": 44.0,
+    "compressedVariantBytes": 182129,
+    "fallbackBytes": 179438,
+    "decodedPixelsEqual": false
+  },
+  {
+    "name": "sovereign_v10_base",
+    "size": [
+      1024,
+      1024
+    ],
+    "mime": "image/ktx2",
+    "meanRGBerror_0_255": 1.2931585311889648,
+    "p99RGBerror_0_255": 13.0,
+    "maxRGBerror_0_255": 83.0,
+    "compressedVariantBytes": 130649,
+    "fallbackBytes": 737077,
+    "decodedPixelsEqual": false
+  },
+  {
+    "name": "sovereign_v10_orm",
+    "size": [
+      512,
+      512
+    ],
+    "mime": "image/ktx2",
+    "meanRGBerror_0_255": 1.0587387084960938,
+    "p99RGBerror_0_255": 11.0,
+    "maxRGBerror_0_255": 71.0,
+    "compressedVariantBytes": 203368,
+    "fallbackBytes": 295913,
+    "decodedPixelsEqual": false
+  }
+]

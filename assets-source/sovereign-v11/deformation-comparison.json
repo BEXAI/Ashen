@@ -1,0 +1,345 @@
+{
+  "method": "Actual animated LOD0 triangles, BVH triangle/triangle intersections. Cape comparison excludes rest-space centers above1.92m to omit intentional shoulder attachment. Counts measure intersection severity, not physical penetration depth. Shoulder stretch covers anatomical underarmor edges >1cm with all triangle vertices in shoulder band.",
+  "rows": [
+    {
+      "pose": "neutral",
+      "clip": null,
+      "time": 0,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 175,
+        "uniqueCapeTrianglesIntersectingBody": 31,
+        "shoulderUnderarmorMaxEdgeStretch": 1,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1,
+        "finite": true
+      }
+    },
+    {
+      "pose": "idle",
+      "clip": "idle",
+      "time": 0.17,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 34,
+        "uniqueCapeTrianglesIntersectingBody": 8,
+        "shoulderUnderarmorMaxEdgeStretch": 1.5409,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.1364,
+        "finite": true
+      }
+    },
+    {
+      "pose": "walk",
+      "clip": "forward",
+      "time": 0.175,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 386,
+        "uniqueCapeTrianglesIntersectingBody": 48,
+        "shoulderUnderarmorMaxEdgeStretch": 2.3672,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.2468,
+        "finite": true
+      }
+    },
+    {
+      "pose": "walk-late",
+      "clip": "forward",
+      "time": 0.52,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 333,
+        "uniqueCapeTrianglesIntersectingBody": 50,
+        "shoulderUnderarmorMaxEdgeStretch": 2.241,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.2718,
+        "finite": true
+      }
+    },
+    {
+      "pose": "turn",
+      "clip": "turn",
+      "time": 0.175,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 22,
+        "uniqueCapeTrianglesIntersectingBody": 8,
+        "shoulderUnderarmorMaxEdgeStretch": 1.7079,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.1102,
+        "finite": true
+      }
+    },
+    {
+      "pose": "dodge",
+      "clip": "dodge",
+      "time": 0.25,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 623,
+        "uniqueCapeTrianglesIntersectingBody": 94,
+        "shoulderUnderarmorMaxEdgeStretch": 2.1866,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.2064,
+        "finite": true
+      }
+    },
+    {
+      "pose": "hit",
+      "clip": "hit",
+      "time": 0.15,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 34,
+        "uniqueCapeTrianglesIntersectingBody": 8,
+        "shoulderUnderarmorMaxEdgeStretch": 1.5409,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.1364,
+        "finite": true
+      }
+    },
+    {
+      "pose": "death",
+      "clip": "death",
+      "time": 0.8,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 118,
+        "uniqueCapeTrianglesIntersectingBody": 22,
+        "shoulderUnderarmorMaxEdgeStretch": 1,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1,
+        "finite": true
+      }
+    },
+    {
+      "pose": "side-windup",
+      "clip": "side",
+      "time": 0.17,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 90,
+        "uniqueCapeTrianglesIntersectingBody": 21,
+        "shoulderUnderarmorMaxEdgeStretch": 2.5841,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.4434,
+        "finite": true
+      }
+    },
+    {
+      "pose": "side-contact",
+      "clip": "side",
+      "time": 0.25,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 53,
+        "uniqueCapeTrianglesIntersectingBody": 17,
+        "shoulderUnderarmorMaxEdgeStretch": 3.8636,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 12,
+        "uniqueCapeTrianglesIntersectingBody": 6,
+        "shoulderUnderarmorMaxEdgeStretch": 1.6804,
+        "finite": true
+      }
+    },
+    {
+      "pose": "side-follow",
+      "clip": "side",
+      "time": 0.33,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 18,
+        "uniqueCapeTrianglesIntersectingBody": 9,
+        "shoulderUnderarmorMaxEdgeStretch": 4.9151,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 2.1584,
+        "finite": true
+      }
+    },
+    {
+      "pose": "diagonal-windup",
+      "clip": "diagonal",
+      "time": 0.23,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 31,
+        "uniqueCapeTrianglesIntersectingBody": 14,
+        "shoulderUnderarmorMaxEdgeStretch": 6.3697,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 2.5604,
+        "finite": true
+      }
+    },
+    {
+      "pose": "diagonal-contact",
+      "clip": "diagonal",
+      "time": 0.32,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 16,
+        "uniqueCapeTrianglesIntersectingBody": 8,
+        "shoulderUnderarmorMaxEdgeStretch": 5.2497,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 2.1579,
+        "finite": true
+      }
+    },
+    {
+      "pose": "diagonal-follow",
+      "clip": "diagonal",
+      "time": 0.41000000000000003,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 37,
+        "uniqueCapeTrianglesIntersectingBody": 14,
+        "shoulderUnderarmorMaxEdgeStretch": 3.7464,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.6021,
+        "finite": true
+      }
+    },
+    {
+      "pose": "backhand-windup",
+      "clip": "backhand",
+      "time": 0.15,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 20,
+        "uniqueCapeTrianglesIntersectingBody": 10,
+        "shoulderUnderarmorMaxEdgeStretch": 4.7172,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 2.1657,
+        "finite": true
+      }
+    },
+    {
+      "pose": "backhand-contact",
+      "clip": "backhand",
+      "time": 0.22999999999999998,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 56,
+        "uniqueCapeTrianglesIntersectingBody": 20,
+        "shoulderUnderarmorMaxEdgeStretch": 4.0245,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 18,
+        "uniqueCapeTrianglesIntersectingBody": 8,
+        "shoulderUnderarmorMaxEdgeStretch": 1.7186,
+        "finite": true
+      }
+    },
+    {
+      "pose": "backhand-follow",
+      "clip": "backhand",
+      "time": 0.31,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 53,
+        "uniqueCapeTrianglesIntersectingBody": 9,
+        "shoulderUnderarmorMaxEdgeStretch": 2.9375,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.5311,
+        "finite": true
+      }
+    },
+    {
+      "pose": "overhead-windup",
+      "clip": "overhead",
+      "time": 0.34,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 22,
+        "uniqueCapeTrianglesIntersectingBody": 11,
+        "shoulderUnderarmorMaxEdgeStretch": 7.641,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 2.9881,
+        "finite": true
+      }
+    },
+    {
+      "pose": "overhead-contact",
+      "clip": "overhead",
+      "time": 0.44000000000000006,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 20,
+        "uniqueCapeTrianglesIntersectingBody": 10,
+        "shoulderUnderarmorMaxEdgeStretch": 5.9754,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 2.37,
+        "finite": true
+      }
+    },
+    {
+      "pose": "overhead-follow",
+      "clip": "overhead",
+      "time": 0.54,
+      "before": {
+        "capeBodyIntersectingPairsBelowAttachment": 25,
+        "uniqueCapeTrianglesIntersectingBody": 11,
+        "shoulderUnderarmorMaxEdgeStretch": 3.6942,
+        "finite": true
+      },
+      "after": {
+        "capeBodyIntersectingPairsBelowAttachment": 0,
+        "uniqueCapeTrianglesIntersectingBody": 0,
+        "shoulderUnderarmorMaxEdgeStretch": 1.5846,
+        "finite": true
+      }
+    }
+  ]
+}

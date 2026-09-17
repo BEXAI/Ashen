@@ -1,0 +1,611 @@
+{
+  "variants": {
+    "compressed": {
+      "file": "/private/tmp/ashen-sconce-pilot/sconce-pilot.glb",
+      "bytes": 286656,
+      "sha256": "32a6e003db785687d9fbdc9a2dc1721cdaa7897e9ef54002f2671b0ceaff18a4",
+      "materials": 1,
+      "textures": [
+        {
+          "name": "sconce_normal",
+          "size": [
+            256,
+            256
+          ],
+          "mime": "image/ktx2"
+        },
+        {
+          "name": "sconce_orm",
+          "size": [
+            256,
+            256
+          ],
+          "mime": "image/ktx2"
+        },
+        {
+          "name": "sconce_basecolor",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/ktx2"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "AshenSconce_LOD0",
+          "extras": {
+            "lod": 0
+          },
+          "translation": [
+            1.4901161193847656e-8,
+            -0.09992656111717224,
+            0.23744235665071756
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.5489293038845062,
+            0.5489293038845062,
+            0.5489293038845062
+          ]
+        },
+        {
+          "name": "AshenSconce_LOD1",
+          "extras": {
+            "lod": 1
+          },
+          "translation": [
+            -0.0004816502332687378,
+            -0.09992952644824982,
+            0.23728032095823437
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.5489791482686996,
+            0.5489791482686996,
+            0.5489791482686996
+          ]
+        },
+        {
+          "name": "AshenSconce_LOD2",
+          "extras": {
+            "lod": 2
+          },
+          "translation": [
+            0,
+            -0.09999999403953552,
+            0.23299999977461994
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.5489999949932098,
+            0.5489999949932098,
+            0.5489999949932098
+          ]
+        },
+        {
+          "name": "FlameOrigin",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "8f82c65282ed4f15898f7cfd41fbac9c"
+          },
+          "translation": [
+            0,
+            0.38499999046325684,
+            0.26499998569488525
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "LightOrigin",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "02346fecc8544c20811e88f5e90c3274"
+          },
+          "translation": [
+            0,
+            0.6850000023841858,
+            0.26499998569488525
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Mount",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "8bfbefb659bf49bca3183e24b643c8ef"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "AshenSconce_Runtime",
+          "extras": {
+            "asset_id": "ashen_iron_sconce",
+            "metres_per_unit": 1,
+            "source_project_id": "21434c15-bdde-4abd-bcb9-62098cae463a",
+            "source_revision": 1
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "AshenSconce_LOD0",
+          "lod": 0,
+          "triangles": 1492,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.2957486935792329,
+              -0.6488558650016785,
+              0.003292605974923535
+            ],
+            "max": [
+              0.2957487233815553,
+              0.449002742767334,
+              0.4715921073265116
+            ],
+            "size": [
+              0.5914974169607882,
+              1.0978586077690125,
+              0.46829950135158804
+            ]
+          },
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TANGENT"
+          ]
+        },
+        {
+          "name": "AshenSconce_LOD1",
+          "lod": 1,
+          "triangles": 580,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.2973294711819311,
+              -0.6489086747169495,
+              0.0032433410038453514
+            ],
+            "max": [
+              0.2963661707153936,
+              0.44904962182044983,
+              0.47131730091262336
+            ],
+            "size": [
+              0.5936956418973247,
+              1.0979582965373993,
+              0.468073959908778
+            ]
+          },
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TANGENT"
+          ]
+        },
+        {
+          "name": "AshenSconce_LOD2",
+          "lod": 2,
+          "triangles": 188,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.28700735234332364,
+              -0.6489999890327454,
+              0.0029752513612229803
+            ],
+            "max": [
+              0.28700735234332364,
+              0.4490000009536743,
+              0.46302474818801687
+            ],
+            "size": [
+              0.5740147046866473,
+              1.0979999899864197,
+              0.46004949682679386
+            ]
+          },
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TANGENT"
+          ]
+        }
+      ],
+      "geometrySha256": "86b7dade5d9fc6674da231639d0dd4087347a31d5346e4a9c2075110872800a8",
+      "ktxMipLevels": [
+        {
+          "name": "sconce_normal",
+          "levels": 9
+        },
+        {
+          "name": "sconce_orm",
+          "levels": 9
+        },
+        {
+          "name": "sconce_basecolor",
+          "levels": 10
+        }
+      ],
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    "-fallback": {
+      "file": "/private/tmp/ashen-sconce-pilot/sconce-pilot-fallback.glb",
+      "bytes": 420092,
+      "sha256": "8206cff9188e6f35d6880725d17af02b5c01f2bd05fd6fb00d2f09ea764c8d9a",
+      "materials": 1,
+      "textures": [
+        {
+          "name": "sconce_normal",
+          "size": [
+            256,
+            256
+          ],
+          "mime": "image/png"
+        },
+        {
+          "name": "sconce_orm",
+          "size": [
+            256,
+            256
+          ],
+          "mime": "image/png"
+        },
+        {
+          "name": "sconce_basecolor",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/png"
+        }
+      ],
+      "nodes": [
+        {
+          "name": "AshenSconce_LOD0",
+          "extras": {
+            "lod": 0
+          },
+          "translation": [
+            1.4901161193847656e-8,
+            -0.09992656111717224,
+            0.23744235665071756
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.5489293038845062,
+            0.5489293038845062,
+            0.5489293038845062
+          ]
+        },
+        {
+          "name": "AshenSconce_LOD1",
+          "extras": {
+            "lod": 1
+          },
+          "translation": [
+            -0.0004816502332687378,
+            -0.09992952644824982,
+            0.23728032095823437
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.5489791482686996,
+            0.5489791482686996,
+            0.5489791482686996
+          ]
+        },
+        {
+          "name": "AshenSconce_LOD2",
+          "extras": {
+            "lod": 2
+          },
+          "translation": [
+            0,
+            -0.09999999403953552,
+            0.23299999977461994
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.5489999949932098,
+            0.5489999949932098,
+            0.5489999949932098
+          ]
+        },
+        {
+          "name": "FlameOrigin",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "8f82c65282ed4f15898f7cfd41fbac9c"
+          },
+          "translation": [
+            0,
+            0.38499999046325684,
+            0.26499998569488525
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "LightOrigin",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "02346fecc8544c20811e88f5e90c3274"
+          },
+          "translation": [
+            0,
+            0.6850000023841858,
+            0.26499998569488525
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Mount",
+          "extras": {
+            "semantic_anchor": true,
+            "hf_id": "8bfbefb659bf49bca3183e24b643c8ef"
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "AshenSconce_Runtime",
+          "extras": {
+            "asset_id": "ashen_iron_sconce",
+            "metres_per_unit": 1,
+            "source_project_id": "21434c15-bdde-4abd-bcb9-62098cae463a",
+            "source_revision": 1
+          },
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "AshenSconce_LOD0",
+          "lod": 0,
+          "triangles": 1492,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.2957486935792329,
+              -0.6488558650016785,
+              0.003292605974923535
+            ],
+            "max": [
+              0.2957487233815553,
+              0.449002742767334,
+              0.4715921073265116
+            ],
+            "size": [
+              0.5914974169607882,
+              1.0978586077690125,
+              0.46829950135158804
+            ]
+          },
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TANGENT"
+          ]
+        },
+        {
+          "name": "AshenSconce_LOD1",
+          "lod": 1,
+          "triangles": 580,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.2973294711819311,
+              -0.6489086747169495,
+              0.0032433410038453514
+            ],
+            "max": [
+              0.2963661707153936,
+              0.44904962182044983,
+              0.47131730091262336
+            ],
+            "size": [
+              0.5936956418973247,
+              1.0979582965373993,
+              0.468073959908778
+            ]
+          },
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TANGENT"
+          ]
+        },
+        {
+          "name": "AshenSconce_LOD2",
+          "lod": 2,
+          "triangles": 188,
+          "draws": 1,
+          "worldBounds": {
+            "min": [
+              -0.28700735234332364,
+              -0.6489999890327454,
+              0.0029752513612229803
+            ],
+            "max": [
+              0.28700735234332364,
+              0.4490000009536743,
+              0.46302474818801687
+            ],
+            "size": [
+              0.5740147046866473,
+              1.0979999899864197,
+              0.46004949682679386
+            ]
+          },
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0",
+            "TANGENT"
+          ]
+        }
+      ],
+      "geometrySha256": "86b7dade5d9fc6674da231639d0dd4087347a31d5346e4a9c2075110872800a8",
+      "ktxMipLevels": [],
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  },
+  "geometryEqual": true,
+  "materialsAndAnchorsEqual": true,
+  "textureMeanAbsoluteError8Bit": {
+    "sconce_normal": 0.8931121826171875,
+    "sconce_orm": 1.0398050944010417,
+    "sconce_basecolor": 1.5919596354166667
+  },
+  "mobileTextureRgbaMipBytes": 2097152
+}

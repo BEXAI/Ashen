@@ -1,0 +1,304 @@
+{
+  "variants": {
+    "compressed": {
+      "file": "/private/tmp/ashen-shrine/ember-shrine.glb",
+      "bytes": 940320,
+      "sha256": "115c44ab0f78481a1c41441ed494055ab84d61b2cb2b49cebcd2e8049efb05a3",
+      "materials": 2,
+      "textures": [
+        {
+          "name": "shrine_normal",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/ktx2"
+        },
+        {
+          "name": "shrine_orm",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/ktx2"
+        },
+        {
+          "name": "shrine_basecolor",
+          "size": [
+            1024,
+            1024
+          ],
+          "mime": "image/ktx2"
+        },
+        {
+          "name": "shrine_emissive",
+          "size": [
+            256,
+            256
+          ],
+          "mime": "image/png"
+        }
+      ],
+      "lods": [
+        {
+          "lod": 0,
+          "triangles": 5936,
+          "vertices": 15998,
+          "draws": 2,
+          "worldBounds": {
+            "min": [
+              -1.7200000286102295,
+              -0.00005688982938034659,
+              -1.7200000286102295
+            ],
+            "max": [
+              1.7200000286102295,
+              1.7760569127175638,
+              1.7200000286102295
+            ],
+            "size": [
+              3.440000057220459,
+              1.776113802546944,
+              3.440000057220459
+            ]
+          }
+        },
+        {
+          "lod": 1,
+          "triangles": 2944,
+          "vertices": 8464,
+          "draws": 2,
+          "worldBounds": {
+            "min": [
+              -1.7179844379425049,
+              0.00039517972436531323,
+              -1.7179844379425049
+            ],
+            "max": [
+              1.7179844379425049,
+              1.7761054047750795,
+              1.7179844379425049
+            ],
+            "size": [
+              3.4359688758850098,
+              1.7757102250507142,
+              3.4359688758850098
+            ]
+          }
+        },
+        {
+          "lod": 2,
+          "triangles": 1134,
+          "vertices": 3286,
+          "draws": 2,
+          "worldBounds": {
+            "min": [
+              -1.7307852506637573,
+              0.0013834455742127716,
+              -1.7307852506637573
+            ],
+            "max": [
+              1.7307852506637573,
+              1.7759572936927341,
+              1.7307852506637573
+            ],
+            "size": [
+              3.4615705013275146,
+              1.7745738481185214,
+              3.4615705013275146
+            ]
+          }
+        }
+      ],
+      "anchors": {
+        "Ground": [
+          0,
+          0,
+          0
+        ],
+        "FlameOrigin": [
+          0,
+          1.899999976158142,
+          0
+        ],
+        "LightOrigin": [
+          0,
+          2.200000047683716,
+          0
+        ],
+        "EmberCore": [
+          0,
+          1.5399999618530273,
+          0
+        ]
+      },
+      "geometrySha256": "00f1add258cf73eaeefa3445fe657753ddf90ead945d62c490b163b6abe750a3",
+      "emissiveMaskRange": [
+        0,
+        218
+      ],
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    },
+    "fallback": {
+      "file": "/private/tmp/ashen-shrine/ember-shrine-fallback.glb",
+      "bytes": 1512056,
+      "sha256": "cda732bca2c650ccf3886015eee6d27e6ab6c0f2b453feffcb593b2e95d5c50f",
+      "materials": 2,
+      "textures": [
+        {
+          "name": "shrine_normal",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/png"
+        },
+        {
+          "name": "shrine_orm",
+          "size": [
+            512,
+            512
+          ],
+          "mime": "image/png"
+        },
+        {
+          "name": "shrine_basecolor",
+          "size": [
+            1024,
+            1024
+          ],
+          "mime": "image/png"
+        },
+        {
+          "name": "shrine_emissive",
+          "size": [
+            256,
+            256
+          ],
+          "mime": "image/png"
+        }
+      ],
+      "lods": [
+        {
+          "lod": 0,
+          "triangles": 5936,
+          "vertices": 15998,
+          "draws": 2,
+          "worldBounds": {
+            "min": [
+              -1.7200000286102295,
+              -0.00005688982938034659,
+              -1.7200000286102295
+            ],
+            "max": [
+              1.7200000286102295,
+              1.7760569127175638,
+              1.7200000286102295
+            ],
+            "size": [
+              3.440000057220459,
+              1.776113802546944,
+              3.440000057220459
+            ]
+          }
+        },
+        {
+          "lod": 1,
+          "triangles": 2944,
+          "vertices": 8464,
+          "draws": 2,
+          "worldBounds": {
+            "min": [
+              -1.7179844379425049,
+              0.00039517972436531323,
+              -1.7179844379425049
+            ],
+            "max": [
+              1.7179844379425049,
+              1.7761054047750795,
+              1.7179844379425049
+            ],
+            "size": [
+              3.4359688758850098,
+              1.7757102250507142,
+              3.4359688758850098
+            ]
+          }
+        },
+        {
+          "lod": 2,
+          "triangles": 1134,
+          "vertices": 3286,
+          "draws": 2,
+          "worldBounds": {
+            "min": [
+              -1.7307852506637573,
+              0.0013834455742127716,
+              -1.7307852506637573
+            ],
+            "max": [
+              1.7307852506637573,
+              1.7759572936927341,
+              1.7307852506637573
+            ],
+            "size": [
+              3.4615705013275146,
+              1.7745738481185214,
+              3.4615705013275146
+            ]
+          }
+        }
+      ],
+      "anchors": {
+        "Ground": [
+          0,
+          0,
+          0
+        ],
+        "FlameOrigin": [
+          0,
+          1.899999976158142,
+          0
+        ],
+        "LightOrigin": [
+          0,
+          2.200000047683716,
+          0
+        ],
+        "EmberCore": [
+          0,
+          1.5399999618530273,
+          0
+        ]
+      },
+      "geometrySha256": "00f1add258cf73eaeefa3445fe657753ddf90ead945d62c490b163b6abe750a3",
+      "emissiveMaskRange": [
+        0,
+        218
+      ],
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 0,
+        "numHints": 0,
+        "messages": [],
+        "truncated": false
+      }
+    }
+  },
+  "geometryEqual": true,
+  "textureMeanAbsoluteError8Bit": {
+    "shrine_normal": 0.2299524943033854,
+    "shrine_orm": 0.34190622965494794,
+    "shrine_basecolor": 1.3624512354532878,
+    "shrine_emissive": 0
+  },
+  "mobileTextureRgbaMipBytes": 8738133.333333334
+}

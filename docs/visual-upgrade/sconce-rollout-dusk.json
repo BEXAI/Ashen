@@ -1,0 +1,233 @@
+{
+  "sourceRevision": "local-uncommitted",
+  "scenario": "sconce_dusk",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "coarsePointer": false,
+    "devicePixelRatio": 1,
+    "viewport": [
+      747,
+      918
+    ],
+    "hardwareClaim": "unverified browser environment"
+  },
+  "assetVersions": {
+    "characters": "visual-v11",
+    "dungeon": "visual-v12-fixtures"
+  },
+  "lights": {
+    "slots": 3,
+    "active": 3,
+    "sourceIndices": [
+      5,
+      12,
+      4
+    ],
+    "shadowKey": 5
+  },
+  "renderTargets": [
+    {
+      "width": 768,
+      "height": 1024,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 6291456,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 384,
+      "height": 384,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 1179648,
+      "depthBuffer": true,
+      "samples": 0
+    }
+  ],
+  "renderTargetCaveat": "Color attachments estimate only; depth/stencil, MSAA, driver storage and transient upload allocations are not measured.",
+  "quality": "low",
+  "exposure": 1.42425,
+  "output": [
+    698,
+    538
+  ],
+  "mainDraws": 20,
+  "mainTriangles": 170460,
+  "totalDraws": 21,
+  "totalTriangles": 170462,
+  "timing": {
+    "sequence": 9,
+    "reason": "resume",
+    "samplesRetained": 2180,
+    "steadyObservationDurationMs": 70700.80000000028,
+    "framePacerIntervalMs": {
+      "samples": 2121,
+      "p50": 33.3000000002794,
+      "p95": 34.3000000002794,
+      "p99": 35,
+      "stallsOver100Ms": 0
+    },
+    "rafIntervalBeforeRenderedFramesMs": {
+      "samples": 2121,
+      "p50": 8.300000000279397,
+      "p95": 9.399999999906868,
+      "p99": 10.100000000093132,
+      "stallsOver100Ms": 0
+    },
+    "cpuSubmissionMs": {
+      "samples": 2121,
+      "p50": 1.300000011920929,
+      "p95": 2.699999988079071,
+      "p99": 3,
+      "stallsOver100Ms": 0
+    },
+    "gpuTimeMs": null,
+    "gpuTimingStatus": "unavailable: no GPU timer query collected",
+    "classes": {
+      "steady": {
+        "samples": 2121,
+        "p50": 33.3000000002794,
+        "p95": 34.3000000002794,
+        "p99": 35,
+        "stallsOver100Ms": 0
+      },
+      "loading": {
+        "samples": 53,
+        "p50": 33.299999999813735,
+        "p95": 34.10000000009313,
+        "p99": 34.200000000186265,
+        "stallsOver100Ms": 0
+      },
+      "warmup": {
+        "samples": 6,
+        "p50": 33.299999999813735,
+        "p95": 33.60000000009313,
+        "p99": 33.60000000009313,
+        "stallsOver100Ms": 0
+      },
+      "paused": {
+        "samples": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "stallsOver100Ms": 0
+      },
+      "hit-pause": {
+        "samples": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "stallsOver100Ms": 0
+      }
+    },
+    "method": "rAF interval is the callback immediately preceding each rendered frame (skipped callbacks are not retained); paced interval is between rendered frames; performance.now around simulation and CPU render submission. CPU submission is not GPU execution."
+  },
+  "textures": 39,
+  "geometryBytes": 13186252,
+  "estimatedAssetTextureMiB": 106.54,
+  "gpuResources": {
+    "geometries": 28,
+    "textures": 33
+  },
+  "caveat": "Asset texture estimates exclude render targets (listed separately), decoded images and driver allocations; these are not total GPU memory. Desktop or resized browser results are not physical phone measurements.",
+  "characters": {
+    "ash-knight": "ready: compressed",
+    "crypt-warden": "ready: compressed"
+  },
+  "characterSources": {
+    "ash-knight": {
+      "url": "/assets/characters/v9/ash-knight-low.glb",
+      "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+      "tier": "low"
+    },
+    "crypt-warden": {
+      "url": "/assets/characters/v9/crypt-warden-low.glb",
+      "sha256": "3388cc02230a15735886db93f577adfc557b70449b2deb766bf30b9aca043643",
+      "tier": "low"
+    }
+  },
+  "characterLods": [
+    {
+      "skin": "ash-knight",
+      "lod": 0
+    },
+    {
+      "skin": "ash-knight",
+      "lod": 2
+    },
+    {
+      "skin": "crypt-warden",
+      "lod": 2
+    },
+    {
+      "skin": "crypt-warden",
+      "lod": 2
+    },
+    {
+      "skin": "crypt-warden",
+      "lod": 2
+    },
+    {
+      "skin": "crypt-warden",
+      "lod": 0
+    },
+    {
+      "skin": "crypt-warden",
+      "lod": 0
+    },
+    {
+      "skin": "crypt-warden",
+      "lod": 2
+    },
+    {
+      "skin": "crypt-warden",
+      "lod": 2
+    }
+  ],
+  "streaming": {
+    "version": "visual-v12-fixtures",
+    "loaded": [
+      "entry",
+      "cinder",
+      "passage-0",
+      "dusk",
+      "crown",
+      "passage-1",
+      "passage-2",
+      "passage-3"
+    ],
+    "pending": []
+  },
+  "props": {
+    "enabled": true,
+    "state": "ready: compressed",
+    "version": "props-v1",
+    "sourceProject": "21434c15-bdde-4abd-bcb9-62098cae463a",
+    "sourceRevision": 1,
+    "instances": 1,
+    "residentInstances": 10,
+    "draws": 2,
+    "visibleLods": [
+      1,
+      0,
+      0
+    ]
+  },
+  "transientAssetOverlap": {
+    "replacementLoads": 0,
+    "lastOldAndNewDownloadBytes": 0,
+    "allocationStatus": "Decoded images and upload peak unmeasured"
+  },
+  "loading": {
+    "characters": 0,
+    "surfaces": false,
+    "uploadWarmup": false
+  },
+  "graphics": {
+    "version": 1,
+    "brightness": 1,
+    "impactShake": false
+  },
+  "adaptive": null
+}

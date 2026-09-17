@@ -1,0 +1,637 @@
+{
+  "method": "Union of decoded actual Low and Mobile LOD0/1/2 rigid knee-bound foot geometry. Bone-local coordinates include each LOD skin inverse-bind dequantization. Greedy support extrema fitted to all grounded clip keys and a uniform 120Hz sweep; no fixed vertical offset added.",
+  "manifest": "public/assets/characters/v11/manifest.json",
+  "targetSupportOverestimateMetres": 0.0001,
+  "assets": [
+    {
+      "id": "ash-knight",
+      "sources": [
+        {
+          "tier": "low",
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744"
+        },
+        {
+          "tier": "mobile",
+          "url": "/assets/characters/v9/ash-knight-mobile.glb",
+          "sha256": "0e65ea5c70b1392323825b8500bf8e3d4dd8ca22f3dbbca7695e794b91c4445c"
+        }
+      ],
+      "poseSamples": 1681,
+      "legs": [
+        {
+          "side": "left",
+          "unionUniqueVertices": 571,
+          "cachePoints": 12,
+          "maximumUnionSupportOverestimateMetres": 0,
+          "variants": [
+            {
+              "tier": "low",
+              "lod": 0,
+              "footVertices": 571,
+              "maximumProxyAboveSurfaceMetres": 5.1870145845178683e-8,
+              "maximumProxyBelowSurfaceMetres": 3.4503498946847344e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.275
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 1,
+              "footVertices": 252,
+              "maximumProxyAboveSurfaceMetres": 5.1870145845178683e-8,
+              "maximumProxyBelowSurfaceMetres": 0.004363531716072733,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "strafe_left",
+                "time": 0.24166666666666664
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 2,
+              "footVertices": 166,
+              "maximumProxyAboveSurfaceMetres": 5.1870145845178683e-8,
+              "maximumProxyBelowSurfaceMetres": 0.011385985148028355,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.1745329201221466
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 0,
+              "footVertices": 571,
+              "maximumProxyAboveSurfaceMetres": 5.1870145845178683e-8,
+              "maximumProxyBelowSurfaceMetres": 3.4503498946847344e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.275
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 1,
+              "footVertices": 252,
+              "maximumProxyAboveSurfaceMetres": 5.1870145845178683e-8,
+              "maximumProxyBelowSurfaceMetres": 0.004363531716072733,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "strafe_left",
+                "time": 0.24166666666666664
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 2,
+              "footVertices": 166,
+              "maximumProxyAboveSurfaceMetres": 5.1870145845178683e-8,
+              "maximumProxyBelowSurfaceMetres": 0.011385985148028355,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.1745329201221466
+              }
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "unionUniqueVertices": 571,
+          "cachePoints": 12,
+          "maximumUnionSupportOverestimateMetres": 0,
+          "variants": [
+            {
+              "tier": "low",
+              "lod": 0,
+              "footVertices": 571,
+              "maximumProxyAboveSurfaceMetres": 5.1859274097232344e-8,
+              "maximumProxyBelowSurfaceMetres": 3.461148934125191e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37399911880493164
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.6250000000000002
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 1,
+              "footVertices": 255,
+              "maximumProxyAboveSurfaceMetres": 5.1859274097232344e-8,
+              "maximumProxyBelowSurfaceMetres": 0.00733873180996969,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37399911880493164
+              },
+              "worstBelow": {
+                "clip": "forward",
+                "time": 0.6416666666666668
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 2,
+              "footVertices": 167,
+              "maximumProxyAboveSurfaceMetres": 5.1859274097232344e-8,
+              "maximumProxyBelowSurfaceMetres": 0.00733873180996969,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37399911880493164
+              },
+              "worstBelow": {
+                "clip": "forward",
+                "time": 0.6416666666666668
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 0,
+              "footVertices": 571,
+              "maximumProxyAboveSurfaceMetres": 5.1859274097232344e-8,
+              "maximumProxyBelowSurfaceMetres": 3.461148934125191e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37399911880493164
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.6250000000000002
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 1,
+              "footVertices": 255,
+              "maximumProxyAboveSurfaceMetres": 5.1859274097232344e-8,
+              "maximumProxyBelowSurfaceMetres": 0.00733873180996969,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37399911880493164
+              },
+              "worstBelow": {
+                "clip": "forward",
+                "time": 0.6416666666666668
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 2,
+              "footVertices": 167,
+              "maximumProxyAboveSurfaceMetres": 5.1859274097232344e-8,
+              "maximumProxyBelowSurfaceMetres": 0.00733873180996969,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37399911880493164
+              },
+              "worstBelow": {
+                "clip": "forward",
+                "time": 0.6416666666666668
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypt-warden",
+      "sources": [
+        {
+          "tier": "low",
+          "url": "/assets/characters/v9/crypt-warden-low.glb",
+          "sha256": "3388cc02230a15735886db93f577adfc557b70449b2deb766bf30b9aca043643"
+        },
+        {
+          "tier": "mobile",
+          "url": "/assets/characters/v9/crypt-warden-mobile.glb",
+          "sha256": "220537d31f944b4f02840ca69451ff00b2f144d7f2ecf7d1895d5fb38502a715"
+        }
+      ],
+      "poseSamples": 1681,
+      "legs": [
+        {
+          "side": "left",
+          "unionUniqueVertices": 700,
+          "cachePoints": 10,
+          "maximumUnionSupportOverestimateMetres": 0,
+          "variants": [
+            {
+              "tier": "low",
+              "lod": 0,
+              "footVertices": 700,
+              "maximumProxyAboveSurfaceMetres": 4.256644881017735e-8,
+              "maximumProxyBelowSurfaceMetres": 3.1852525950171184e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.22499999999999998
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 1,
+              "footVertices": 390,
+              "maximumProxyAboveSurfaceMetres": 4.256644881017735e-8,
+              "maximumProxyBelowSurfaceMetres": 0.005161830784892518,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.10833333333333332
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 2,
+              "footVertices": 205,
+              "maximumProxyAboveSurfaceMetres": 4.256644881017735e-8,
+              "maximumProxyBelowSurfaceMetres": 0.010132895156518495,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.1745329201221466
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 0,
+              "footVertices": 700,
+              "maximumProxyAboveSurfaceMetres": 4.256644881017735e-8,
+              "maximumProxyBelowSurfaceMetres": 3.1852525950171184e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.22499999999999998
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 1,
+              "footVertices": 390,
+              "maximumProxyAboveSurfaceMetres": 4.256644881017735e-8,
+              "maximumProxyBelowSurfaceMetres": 0.005161830784892518,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.10833333333333332
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 2,
+              "footVertices": 205,
+              "maximumProxyAboveSurfaceMetres": 4.256644881017735e-8,
+              "maximumProxyBelowSurfaceMetres": 0.010132895156518495,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.025
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.1745329201221466
+              }
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "unionUniqueVertices": 700,
+          "cachePoints": 10,
+          "maximumUnionSupportOverestimateMetres": 0,
+          "variants": [
+            {
+              "tier": "low",
+              "lod": 0,
+              "footVertices": 700,
+              "maximumProxyAboveSurfaceMetres": 4.258339902918351e-8,
+              "maximumProxyBelowSurfaceMetres": 3.2410131245441676e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37500000000000033
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.4666666666666673
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 1,
+              "footVertices": 393,
+              "maximumProxyAboveSurfaceMetres": 4.258339902918351e-8,
+              "maximumProxyBelowSurfaceMetres": 0.0036282506123570535,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37500000000000033
+              },
+              "worstBelow": {
+                "clip": "forward",
+                "time": 0.3833333333333337
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 2,
+              "footVertices": 205,
+              "maximumProxyAboveSurfaceMetres": 4.258339902918351e-8,
+              "maximumProxyBelowSurfaceMetres": 0.008147553220304249,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37500000000000033
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.4583333333333339
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 0,
+              "footVertices": 700,
+              "maximumProxyAboveSurfaceMetres": 4.258339902918351e-8,
+              "maximumProxyBelowSurfaceMetres": 3.2410131245441676e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37500000000000033
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.4666666666666673
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 1,
+              "footVertices": 393,
+              "maximumProxyAboveSurfaceMetres": 4.258339902918351e-8,
+              "maximumProxyBelowSurfaceMetres": 0.0036282506123570535,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37500000000000033
+              },
+              "worstBelow": {
+                "clip": "forward",
+                "time": 0.3833333333333337
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 2,
+              "footVertices": 205,
+              "maximumProxyAboveSurfaceMetres": 4.258339902918351e-8,
+              "maximumProxyBelowSurfaceMetres": 0.008147553220304249,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.37500000000000033
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.4583333333333339
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ember-sovereign",
+      "sources": [
+        {
+          "tier": "low",
+          "url": "/assets/characters/v11/ember-sovereign-low.glb",
+          "sha256": "6873645de8c137be72af989785dd9ed372d29710421836068857e04147745f4d"
+        },
+        {
+          "tier": "mobile",
+          "url": "/assets/characters/v11/ember-sovereign-mobile.glb",
+          "sha256": "fb8feec5483f1d46b47d5f844d14ff05164469ccacfa9b653cbd58fd70281495"
+        }
+      ],
+      "poseSamples": 1681,
+      "legs": [
+        {
+          "side": "left",
+          "unionUniqueVertices": 623,
+          "cachePoints": 2,
+          "maximumUnionSupportOverestimateMetres": 0,
+          "variants": [
+            {
+              "tier": "low",
+              "lod": 0,
+              "footVertices": 405,
+              "maximumProxyAboveSurfaceMetres": 2.314362512745305e-8,
+              "maximumProxyBelowSurfaceMetres": 0.0020153815579611045,
+              "worstAbove": {
+                "clip": "forward",
+                "time": 0.1745329201221466
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.35737693309783936
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 1,
+              "footVertices": 239,
+              "maximumProxyAboveSurfaceMetres": 2.314362512745305e-8,
+              "maximumProxyBelowSurfaceMetres": 0.004009621221657822,
+              "worstAbove": {
+                "clip": "forward",
+                "time": 0.1745329201221466
+              },
+              "worstBelow": {
+                "clip": "turn",
+                "time": 0.3656880259513855
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 2,
+              "footVertices": 218,
+              "maximumProxyAboveSurfaceMetres": 1.9354177260844097e-8,
+              "maximumProxyBelowSurfaceMetres": 0.00007145679642739378,
+              "worstAbove": {
+                "clip": "backhand",
+                "time": 0.5416666666666672
+              },
+              "worstBelow": {
+                "clip": "overhead",
+                "time": 0.03309090808033943
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 0,
+              "footVertices": 405,
+              "maximumProxyAboveSurfaceMetres": 2.314362512745305e-8,
+              "maximumProxyBelowSurfaceMetres": 0.0020153815579611045,
+              "worstAbove": {
+                "clip": "forward",
+                "time": 0.1745329201221466
+              },
+              "worstBelow": {
+                "clip": "backward",
+                "time": 0.35737693309783936
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 1,
+              "footVertices": 239,
+              "maximumProxyAboveSurfaceMetres": 2.314362512745305e-8,
+              "maximumProxyBelowSurfaceMetres": 0.004009621221657822,
+              "worstAbove": {
+                "clip": "forward",
+                "time": 0.1745329201221466
+              },
+              "worstBelow": {
+                "clip": "turn",
+                "time": 0.3656880259513855
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 2,
+              "footVertices": 218,
+              "maximumProxyAboveSurfaceMetres": 1.9354177260844097e-8,
+              "maximumProxyBelowSurfaceMetres": 0.00007145679642739378,
+              "worstAbove": {
+                "clip": "backhand",
+                "time": 0.5416666666666672
+              },
+              "worstBelow": {
+                "clip": "overhead",
+                "time": 0.03309090808033943
+              }
+            }
+          ]
+        },
+        {
+          "side": "right",
+          "unionUniqueVertices": 612,
+          "cachePoints": 2,
+          "maximumUnionSupportOverestimateMetres": 0,
+          "variants": [
+            {
+              "tier": "low",
+              "lod": 0,
+              "footVertices": 406,
+              "maximumProxyAboveSurfaceMetres": 0,
+              "maximumProxyBelowSurfaceMetres": 0.0009459458108008745,
+              "worstAbove": null,
+              "worstBelow": {
+                "clip": "backhand",
+                "time": 0.5583333333333338
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 1,
+              "footVertices": 239,
+              "maximumProxyAboveSurfaceMetres": 0,
+              "maximumProxyBelowSurfaceMetres": 0.003481951174268083,
+              "worstAbove": null,
+              "worstBelow": {
+                "clip": "turn",
+                "time": 0.041666666666666664
+              }
+            },
+            {
+              "tier": "low",
+              "lod": 2,
+              "footVertices": 206,
+              "maximumProxyAboveSurfaceMetres": 1.4088775146525734e-8,
+              "maximumProxyBelowSurfaceMetres": 4.738520997804585e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.008333333333333333
+              },
+              "worstBelow": {
+                "clip": "diagonal",
+                "time": 0.675
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 0,
+              "footVertices": 406,
+              "maximumProxyAboveSurfaceMetres": 0,
+              "maximumProxyBelowSurfaceMetres": 0.0009459458108008745,
+              "worstAbove": null,
+              "worstBelow": {
+                "clip": "backhand",
+                "time": 0.5583333333333338
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 1,
+              "footVertices": 239,
+              "maximumProxyAboveSurfaceMetres": 0,
+              "maximumProxyBelowSurfaceMetres": 0.003481951174268083,
+              "worstAbove": null,
+              "worstBelow": {
+                "clip": "turn",
+                "time": 0.041666666666666664
+              }
+            },
+            {
+              "tier": "mobile",
+              "lod": 2,
+              "footVertices": 206,
+              "maximumProxyAboveSurfaceMetres": 1.4088775146525734e-8,
+              "maximumProxyBelowSurfaceMetres": 4.738520997804585e-8,
+              "worstAbove": {
+                "clip": "backward",
+                "time": 0.008333333333333333
+              },
+              "worstBelow": {
+                "clip": "diagonal",
+                "time": 0.675
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

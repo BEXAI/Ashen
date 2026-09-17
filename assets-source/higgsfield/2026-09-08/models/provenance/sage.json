@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "sage",
+  "originalArtwork": {
+    "assetId": "880f9069-e695-4dc2-aaed-b5ae3ef026eb",
+    "filename": "hf_20260909_002300_880f9069-e695-4dc2-aaed-b5ae3ef026eb.png",
+    "sha256": "1accab245cfc271c01d1a93fa784d1a1008064f45b26c46812f72aad74b11aaf",
+    "bytes": 5513477,
+    "screenshot": {
+      "row": 2,
+      "column": 2,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "beab98cc-6374-4fd2-985c-897f04d1c39b",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043227_beab98cc-6374-4fd2-985c-897f04d1c39b.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "35181c7f-6915-4a02-b531-2ba55c5fc35d",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/35181c7f-6915-4a02-b531-2ba55c5fc35d_resize.jpg"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/sage-original.glb",
+    "bytes": 7379272,
+    "sha256": "9512f203b12361450778798eeab6cac911b13304b87cfc63d7b3bbb51193e064"
+  },
+  "attackStyle": "staff",
+  "attackAliasPolicy": "Four canonical strike names alias genuine staff action; original timing preserved",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "dusk-rogue",
+  "originalArtwork": {
+    "assetId": "853d2fdc-06d5-4cfc-888a-ccd2f3d9f202",
+    "filename": "hf_20260909_023256_853d2fdc-06d5-4cfc-888a-ccd2f3d9f202.png",
+    "sha256": "935786186aa5d78ba8400bba624faaccc774dc34a8edca13f3640c3881c6c09b",
+    "bytes": 1134601,
+    "screenshot": {
+      "row": 2,
+      "column": 1,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "5bba53b3-04ae-4fb4-a1a3-6214ca9b582b",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043221_5bba53b3-04ae-4fb4-a1a3-6214ca9b582b.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "daf6745d-5cd5-4738-a127-a34cb681d873",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/daf6745d-5cd5-4738-a127-a34cb681d873.png"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/dusk-rogue-original.glb",
+    "bytes": 6576644,
+    "sha256": "4417bba96464876f18b94ab363a7a6ea40aef660fa297048cd353764ac29f82f"
+  },
+  "attackStyle": "blade",
+  "attackAliasPolicy": "Four distinct native sword clips",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

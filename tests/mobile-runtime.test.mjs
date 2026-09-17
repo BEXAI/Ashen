@@ -9,7 +9,7 @@ const root = process.cwd();
 await mkdir('.sites-runtime/tests', { recursive: true });
 const outfile = path.join(root, '.sites-runtime/tests/mobile-runtime.mjs');
 await build({ stdin: { contents: 'export * from "./app/game/mobile-runtime"; export { mobileAutoResolution, surfaceAsset, renderResolution } from "./app/game/graphics";', resolveDir: root }, bundle: true, format: 'esm', platform: 'node', outfile, logLevel: 'silent' });
-const { initialQuality, renderProfile, FramePacer, RenderLoop, AdaptiveResolution, SaveQueue, mobileAutoResolution, surfaceAsset, renderResolution } = await import(pathToFileURL(outfile).href);
+const { initialQuality, renderProfile, FramePacer, RenderLoop, SaveQueue, mobileAutoResolution, surfaceAsset, renderResolution } = await import(pathToFileURL(outfile).href);
 
 test('Restricted preferences still start touch devices on Auto and desktop on Ultra', () => {
   const blocked = () => { throw new Error('Storage blocked'); };
@@ -53,8 +53,8 @@ test('Auto output respects portrait, landscape, hardware and scale limits', () =
   for (const [w, h] of [[390, 844], [844, 390], [375, 280], [430, 932], [1024, 1366]]) {
     const out = mobileAutoResolution(w, h, 1);
     assert.ok(out.width <= 1600 && out.height <= 1600);
-    assert.ok(out.ratio <= 2);
-    assert.ok(out.width * out.height <= 1920 * 1080);
+    assert.ok(out.ratio <= 1.25);
+    assert.ok(out.width * out.height <= 800000);
     const small = mobileAutoResolution(w, h, .65, 1024);
     assert.ok(small.width <= 1024 && small.height <= 1024);
     assert.ok(small.width < out.width && small.height < out.height);
@@ -62,6 +62,17 @@ test('Auto output respects portrait, landscape, hardware and scale limits', () =
     assert.deepEqual(mobileAutoResolution(w, h, .1), mobileAutoResolution(w, h, .65));
   }
   assert.deepEqual(renderResolution(1920, 1080, 'high'), { ratio: 2, width: 3840, height: 2160 });
+});
+
+test('Auto caps tablet fragment cost and reduces pixels quadratically under load', () => {
+  for (const [w,h] of [[390,844],[844,390],[1024,1366],[2732,2048]]) {
+    const full=mobileAutoResolution(w,h,1),reduced=mobileAutoResolution(w,h,.65);
+    assert.ok(full.width*full.height<=800000);
+    assert.ok(Math.abs(full.width/full.height-w/h)<.01);
+    assert.ok(reduced.width*reduced.height<=full.width*full.height*.43);
+  }
+  const tiny=mobileAutoResolution(0,0,1);
+  assert.ok(Number.isFinite(tiny.ratio));assert.ok(tiny.width>=1&&tiny.height>=1);
 });
 
 test('120 Hz callbacks produce at most about 60 full renders per second', () => {
@@ -112,29 +123,6 @@ test('Backgrounding and lost contexts cancel pending frames until resumed', () =
   assert.equal(raf.pending.size, 0);
 });
 
-test('Sustained slow frames reduce Auto resolution, with a bounded floor', () => {
-  const adaptive = new AdaptiveResolution();
-  for (let i = 0; i < 80; i++) adaptive.sample(33);
-  assert.equal(adaptive.scale, 1);
-  for (let i = 0; i < 12; i++) adaptive.sample(33);
-  assert.ok(adaptive.scale < 1);
-  for (let i = 0; i < 1000; i++) adaptive.sample(33);
-  assert.equal(adaptive.scale, .65);
-  for (let i = 0; i < 190; i++) adaptive.sample(16.7);
-  assert.ok(adaptive.scale > .65 && adaptive.scale < 1);
-});
-
-test('One delayed frame and background gaps do not lower quality', () => {
-  const adaptive = new AdaptiveResolution();
-  assert.equal(adaptive.sample(10000), false);
-  adaptive.sample(100);
-  for (let i = 0; i < 190; i++) adaptive.sample(16.7);
-  assert.equal(adaptive.scale, 1);
-  for (let i = 0; i < 70; i++) adaptive.sample(33);
-  adaptive.resetSamples();
-  for (let i = 0; i < 30; i++) adaptive.sample(33);
-  assert.equal(adaptive.scale, 1);
-});
 
 function deferred() { let resolve; const promise = new Promise(r => { resolve = r; }); return { promise, resolve }; }
 

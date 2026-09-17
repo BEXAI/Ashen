@@ -1,6 +1,6 @@
 import { gameDb } from '@/db/game';
 import { playerIdentity } from './identity';
-import { newProgress, progressSchema, maxHealth, upgradeCost } from '@/app/game/model';
+import { newProgress, progressSchema, heroSchema, maxHealth, upgradeCost } from '@/app/game/model';
 
 export const dynamic='force-dynamic';
 function json(value:unknown,status=200,cookie?:string) { const headers=new Headers({'Cache-Control':'no-store'});if(cookie)headers.set('Set-Cookie',cookie);return Response.json(value,{status,headers}); }
@@ -42,7 +42,9 @@ export async function POST(request:Request) {
     const body=await payload(request); const db=gameDb();
     if(body.action==='new') {
       if(!Number.isInteger(body.revision)||body.revision<0) return reply({error:'Invalid revision.'},400);
-      const state=newProgress(typeof body.name==='string'?body.name.trim().slice(0,22)||'The Wanderer':'The Wanderer');
+      const hero=heroSchema.optional().safeParse(body.hero);
+      if(!hero.success)return reply({error:'Choose a valid wanderer.'},400);
+      const state=newProgress(typeof body.name==='string'?body.name.trim().slice(0,22)||'The Wanderer':'The Wanderer',hero.data);
       const now=new Date().toISOString(); let row;
       if(body.revision===0) row=await db.prepare('INSERT INTO game_saves (user_id, state, revision, updated_at) VALUES (?, ?, 1, ?) ON CONFLICT(user_id) DO NOTHING RETURNING revision').bind(user,JSON.stringify(state),now).first<{revision:number}>();
       else row=await db.prepare('UPDATE game_saves SET state = ?, revision = revision + 1, updated_at = ? WHERE user_id = ? AND revision = ? RETURNING revision').bind(JSON.stringify(state),now,user,body.revision).first<{revision:number}>();

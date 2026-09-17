@@ -1,0 +1,117 @@
+{
+  "ok": true,
+  "operation": {
+    "id": "9ab62b77-22eb-4ed8-9ca4-738d995312f1",
+    "projectId": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+    "access": "mutation",
+    "status": "succeeded",
+    "baseRevision": 0,
+    "headRevision": 1,
+    "headSceneSequence": 0,
+    "stale": true,
+    "sceneSequenceBefore": 0,
+    "sceneSequenceAfter": 0,
+    "revisionBefore": 0,
+    "revisionAfter": 1,
+    "createdAt": "2026-09-09T22:28:09.067Z",
+    "startedAt": "2026-09-09T22:28:09.102Z",
+    "finishedAt": "2026-09-09T22:28:59.646Z",
+    "result": {
+      "asset": "A02_ember_shrine",
+      "original_authorship": true,
+      "source_meshes": 63,
+      "evaluated_triangles": 8128,
+      "bounds_gltf_size": [
+        3.440000057220459,
+        1.7760000228881836,
+        3.440000057220459
+      ],
+      "bounds_blender_min": [
+        -1.7200000286102295,
+        -1.7200000286102295,
+        0
+      ],
+      "bounds_blender_max": [
+        1.7200000286102295,
+        1.7200000286102295,
+        1.7760000228881836
+      ],
+      "anchors_gltf": {
+        "Ground": [
+          0,
+          0,
+          0
+        ],
+        "FlameOrigin": [
+          0,
+          1.9,
+          0
+        ],
+        "LightOrigin": [
+          0,
+          2.2,
+          0
+        ],
+        "EmberCore": [
+          0,
+          1.54,
+          0
+        ]
+      },
+      "runtime_targets": {
+        "triangles": [
+          6000,
+          3000,
+          1200
+        ],
+        "materials": 2,
+        "basecolor": 1024,
+        "normal_orm": 512,
+        "emissive": 256
+      },
+      "bake_required": true
+    },
+    "output": {
+      "stdoutTail": "{\"asset\": \"A02_ember_shrine\", \"original_authorship\": true, \"source_meshes\": 63, \"evaluated_triangles\": 8128, \"bounds_gltf_size\": [3.440000057220459, 1.7760000228881836, 3.440000057220459], \"bounds_blender_min\": [-1.7200000286102295, -1.7200000286102295, 0.0], \"bounds_blender_max\": [1.7200000286102295, 1.7200000286102295, 1.7760000228881836], \"anchors_gltf\": {\"Ground\": [0, 0, 0], \"FlameOrigin\": [0, 1.9, 0], \"LightOrigin\": [0, 2.2, 0], \"EmberCore\": [0, 1.54, 0]}, \"runtime_targets\": {\"triangles\": [6000, 3000, 1200], \"materials\": 2, \"basecolor\": 1024, \"normal_orm\": 512, \"emissive\": 256}, \"bake_required\": true}\nInfo: Saved as \"session.blend\"\nINFO Draco is available, use library at /opt/blender/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.so\nINFO MeshOptimizer is available, use library at /opt/blender/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.so\n22:28:58 | INFO: Starting glTF 2.0 export\n22:28:58 | INFO: Extracting primitive: Carved capital and drip edge geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Carved eight-face altar drum geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Carved shoulder support 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Carved shoulder support 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Carved shoulder support 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Carved shoulder support 3 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Ember bed inset geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged bowl clasp 00 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged bowl clasp 01 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged bowl clasp 02 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged bowl clasp 03 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged bowl clasp 04 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged bowl clasp 05 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged bowl clasp 06 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged bowl clasp 07 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Forged upper offering rim geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Ground contact foundation geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Hollow offering bowl geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 00 stroke 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 00 stroke 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 00 stroke 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 01 stroke 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 01 stroke 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 01 stroke 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 02 stroke 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 02 stroke 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 02 stroke 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 03 stroke 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 03 stroke 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 03 stroke 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 04 stroke 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 04 stroke 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 04 stroke 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 05 stroke 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 05 stroke 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 05 stroke 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 06 stroke 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 06 stroke 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 06 stroke 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 07 stroke 0 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 07 stroke 1 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset ember rune 07 stroke 2 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Inset octagonal upper step geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Lower ember circuit geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Lower incised binding geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Octagonal altar foot geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Stone relief panel 00 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Stone relief panel 01 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Stone relief panel 02 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Stone relief panel 03 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Stone relief panel 04 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Stone relief panel 05 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Stone relief panel 06 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Stone relief panel 07 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Upper ember circuit geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Worn radial footing stone 00 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Worn radial footing stone 01 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Worn radial footing stone 02 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Worn radial footing stone 03 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Worn radial footing stone 04 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Worn radial footing stone 05 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Worn radial footing stone 06 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Extracting primitive: Worn radial footing stone 07 geometry\n22:28:58 | INFO: Primitives created: 1\n22:28:58 | INFO: Finished glTF 2.0 export in 0.5852560997009277 s\n\n",
+      "stderrTail": "",
+      "truncated": false
+    },
+    "error": null,
+    "artifacts": {
+      "projectId": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+      "revision": 1,
+      "blend": {
+        "size": 1215694,
+        "etag": "7d73dce7a58a807015cfc49a0b21f7d1"
+      },
+      "glb": {
+        "size": 471572,
+        "etag": "c36f1d8ad9dbc0ff72ea2a28a84e9a27"
+      },
+      "generated": [
+        {
+          "size": 683261,
+          "etag": "aabe4aed14a0f7f62d567e94fa6a0bb3",
+          "id": "9832a65c1649cce7c47370fbf27f6fda",
+          "name": "ember-shrine-source-review.png",
+          "mediaType": "image/png",
+          "width": 768,
+          "height": 768
+        }
+      ]
+    },
+    "generatedArtifacts": [
+      {
+        "size": 683261,
+        "etag": "aabe4aed14a0f7f62d567e94fa6a0bb3",
+        "id": "9832a65c1649cce7c47370fbf27f6fda",
+        "name": "ember-shrine-source-review.png",
+        "mediaType": "image/png",
+        "width": 768,
+        "height": 768
+      }
+    ]
+  },
+  "terminal": true,
+  "projectUrl": "https://higgsfield.ai/3d-jutsu/02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59"
+}

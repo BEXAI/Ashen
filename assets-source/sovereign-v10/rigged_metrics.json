@@ -1,0 +1,234 @@
+{
+  "bytes": 11243076,
+  "triangles": [
+    23208,
+    14241,
+    7777
+  ],
+  "materials": 2,
+  "meshes": 3,
+  "weaponTriangles": 204,
+  "bones": [
+    "body",
+    "left_leg",
+    "left_knee",
+    "right_leg",
+    "right_knee",
+    "torso",
+    "left_arm",
+    "left_elbow",
+    "left_wrist",
+    "right_arm",
+    "right_elbow",
+    "right_wrist",
+    "weapon",
+    "cape_upper",
+    "cape_lower"
+  ],
+  "clips": [
+    {
+      "name": "side",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "diagonal",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "backhand",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "overhead",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "idle",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "forward",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "backward",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "strafe_left",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "strafe_right",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "turn",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "dodge",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "hit",
+      "samplers": 30,
+      "channels": 30
+    },
+    {
+      "name": "death",
+      "samplers": 30,
+      "channels": 30
+    }
+  ],
+  "validation": {
+    "numErrors": 0,
+    "numWarnings": 3,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "severity": 1,
+        "pointer": "/nodes/16"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "severity": 1,
+        "pointer": "/nodes/17"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "severity": 1,
+        "pointer": "/nodes/18"
+      }
+    ],
+    "truncated": false
+  },
+  "weightedVertexCounts": {
+    "0": 6740.467910646472,
+    "1": 1611.4249199556518,
+    "2": 1634.828061914346,
+    "3": 1506.0668640465599,
+    "4": 1725.3498778320404,
+    "5": 10759.862365605062,
+    "6": 2268.6431297168756,
+    "7": 851.3566905667999,
+    "8": 795.0001797163243,
+    "9": 2288.260601237937,
+    "10": 871.3697010037342,
+    "11": 728.3696977583288,
+    "13": 585.4392407797271,
+    "14": 1154.5607592202718
+  },
+  "limits": "Semantic rigid-plate retrofit with blended underarmor/cape; not animator-authored weights. Existing animations retained exactly; runtime device frame rate must be measured.",
+  "textures": [
+    {
+      "name": "retained_weapon_base",
+      "width": 512,
+      "height": 512,
+      "bytes": 454910
+    },
+    {
+      "name": "retained_weapon_normal",
+      "width": 512,
+      "height": 512,
+      "bytes": 718317
+    },
+    {
+      "name": "retained_weapon_orm",
+      "width": 512,
+      "height": 512,
+      "bytes": 730138
+    },
+    {
+      "name": "retained_weapon_emissive",
+      "width": 512,
+      "height": 512,
+      "bytes": 236746
+    },
+    {
+      "name": "sovereign_v10_emissive",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 23647
+    },
+    {
+      "name": "sovereign_v10_normal",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 525681
+    },
+    {
+      "name": "sovereign_v10_base",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 2267625
+    },
+    {
+      "name": "sovereign_v10_orm",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 610588
+    }
+  ],
+  "bounds_y_up": {
+    "min": [
+      -0.6489874124526978,
+      -0.0022657595109194517,
+      -0.40099725127220154
+    ],
+    "max": [
+      0.7324401140213013,
+      2.9700000286102295,
+      1.173313856124878
+    ]
+  },
+  "qa": {
+    "finalGlbReimported": true,
+    "reviewImages": [
+      "rig-qa/rest-front.png",
+      "rig-qa/rest-quarter.png",
+      "rig-qa/forward.png",
+      "rig-qa/side.png",
+      "rig-qa/overhead.png",
+      "candidate-far-qa/rest-front.png",
+      "candidate-far-qa/rest-quarter.png",
+      "candidate-far-qa/side.png",
+      "candidate-far-qa/overhead.png"
+    ],
+    "poseTimesSeconds": {
+      "side": 0.25,
+      "overhead": 0.44
+    },
+    "notes": "Readable crown, cape, chest cracks and weapon tracking. Existing pragmatic joint openings visible; not exact reference reconstruction.",
+    "farLodNotes": "Direct LOD0 reduction retains recognizable crown, chest plates, cape and boots; thin emissive cracks lose visibility at far distance.",
+    "farReviewComplete": true,
+    "farReviewNotes": "Rest front/quarter and side/overhead reimport renders checked. Crown, cape, plates and boots remain readable; normal simplification/fading emissive channels suitable for far distance, not hero closeups."
+  },
+  "deliverable": "ember-sovereign-final-master.glb",
+  "maxWeightsPerVertex": [
+    2,
+    2,
+    3
+  ],
+  "exportedVertices": [
+    33945,
+    25850,
+    11914
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "reaper": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/reaper-equipment-repaired.glb"
+  },
+  "derivations": {
+    "reaper": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/reaper-equipment-repair.json",
+    "ogre": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ogre-local-authorship.json",
+    "goblin": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/goblin-local-authorship.json"
+  }
+}

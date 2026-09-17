@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "frost-mage",
+  "originalArtwork": {
+    "assetId": "6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7",
+    "filename": "hf_20260909_023256_6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7.png",
+    "sha256": "a8c1ddac5168dfa7a32a7fe9f162aedbfe33cc7e40fee23e95e9368618c5184b",
+    "bytes": 1260943,
+    "screenshot": {
+      "row": 1,
+      "column": 5,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "d5c241fb-6630-4036-8151-6e65273275da",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043213_d5c241fb-6630-4036-8151-6e65273275da.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "11fb32a4-3bd1-4859-a267-bc82eee58de5",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/11fb32a4-3bd1-4859-a267-bc82eee58de5.png"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/frost-mage-original.glb",
+    "bytes": 6543952,
+    "sha256": "5ab95761b8c9abf7d3253123ebd42a3cb492d8560538152fd92dd8f2efd2d3ab"
+  },
+  "attackStyle": "staff",
+  "attackAliasPolicy": "Four canonical strike names alias genuine staff action; original timing preserved",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

@@ -1,0 +1,31 @@
+{
+  "weights": [
+    {
+      "vertexCount": 23461,
+      "zeroWeightedVertices": 0,
+      "minSum": 0.9999999329447746,
+      "maxSum": 1.0000000894069672,
+      "allFinite": true
+    }
+  ],
+  "clips": [
+    "idle",
+    "forward",
+    "backward",
+    "strafe_left",
+    "strafe_right",
+    "dodge",
+    "hit",
+    "death",
+    "side",
+    "diagonal",
+    "backhand",
+    "overhead"
+  ],
+  "skinCount": 1,
+  "skinJoints": 50,
+  "contactNodes": [
+    "ContactBase",
+    "ContactTip"
+  ]
+}

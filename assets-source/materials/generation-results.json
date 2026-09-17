@@ -1,0 +1,260 @@
+{
+  "completed_at": "2026-09-08T04:44:34.469Z",
+  "created_at": "2026-09-08T04:42:03.272Z",
+  "final_wait": {
+    "all_terminal": true,
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "f578dfc0-0ed2-432d-ac86-611d08bc29cd",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_044118_f578dfc0-0ed2-432d-ac86-611d08bc29cd.png",
+        "status": "completed",
+        "type": "image"
+      },
+      {
+        "index": 2,
+        "job_id": "167484ba-7836-447d-a008-66fad885ea89",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_044118_167484ba-7836-447d-a008-66fad885ea89.png",
+        "status": "completed",
+        "type": "image"
+      },
+      {
+        "index": 3,
+        "job_id": "7f30eae7-5931-41d5-b9ff-833b44abf467",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_044118_7f30eae7-5931-41d5-b9ff-833b44abf467.png",
+        "status": "completed",
+        "type": "image"
+      }
+    ],
+    "summary": {
+      "active": 0,
+      "completed": 3,
+      "errors": 0,
+      "failed": 0,
+      "total": 3
+    }
+  },
+  "initial_wait": {
+    "all_terminal": false,
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "f578dfc0-0ed2-432d-ac86-611d08bc29cd",
+        "model": "nano_banana_2",
+        "status": "in_progress",
+        "type": "image"
+      },
+      {
+        "index": 2,
+        "job_id": "167484ba-7836-447d-a008-66fad885ea89",
+        "model": "nano_banana_2",
+        "status": "in_progress",
+        "type": "image"
+      },
+      {
+        "index": 3,
+        "job_id": "7f30eae7-5931-41d5-b9ff-833b44abf467",
+        "model": "nano_banana_2",
+        "status": "in_progress",
+        "type": "image"
+      }
+    ],
+    "poll_after_seconds": 10,
+    "summary": {
+      "active": 3,
+      "completed": 0,
+      "errors": 0,
+      "failed": 0,
+      "total": 3
+    },
+    "timed_out": true
+  },
+  "limitations": [
+    "Higgsfield accepted requested model nano_banana_pro, but completed job status and gallery metadata identify nano_banana_2. Submission disclosed no model adjustment. No extra generations were submitted.",
+    "All three returned and downloaded originals are 4096 by 4096 pixels, without resizing or postprocessing. Dimensions, byte sizes and SHA-256 hashes were measured from original result URLs in Higgsfield's sandbox.",
+    "Seamless tiling was requested. Opposing edge pixels do not match exactly; measured edge differences are included. Exact seamless edge continuity is not certified. Originals were preserved for material preparation.",
+    "Skin scars and obsidian fracture edges include limited tonal shaping despite the albedo-only prompt. These are generated color textures rather than physically measured albedo scans; no normal, roughness, metallic or emission maps are provided.",
+    "Only three images were generated, in one batch. No Site checkout or 3D Jutsu project was edited."
+  ],
+  "model_parameters": {
+    "aspect_ratios": [
+      "1:1",
+      "3:2",
+      "2:3",
+      "4:3",
+      "3:4",
+      "4:5",
+      "5:4",
+      "9:16",
+      "16:9",
+      "21:9"
+    ],
+    "description": "Ultimate quality, text and diagrams",
+    "id": "nano_banana_pro",
+    "medias": [
+      {
+        "name": "medias",
+        "roles": [
+          "image_references"
+        ],
+        "type": "image"
+      }
+    ],
+    "name": "Nano Banana Pro",
+    "output_type": "image",
+    "parameters": [
+      {
+        "default": "2k",
+        "description": "Output resolution.",
+        "name": "resolution",
+        "options": [
+          "1k",
+          "2k",
+          "4k"
+        ],
+        "required": "optional",
+        "type": "string"
+      }
+    ],
+    "provider_name": "Google",
+    "supports_unlim": true,
+    "tags": [
+      "quality",
+      "text-rendering",
+      "diagrams",
+      "photorealistic",
+      "versatile",
+      "4k",
+      "text-to-image",
+      "image-to-image",
+      "unlim"
+    ]
+  },
+  "outputs": [
+    {
+      "bytes": 27405779,
+      "height": 4096,
+      "index": 1,
+      "job_id": "f578dfc0-0ed2-432d-ac86-611d08bc29cd",
+      "local_path": "/workspace/scratch/363234819217/visual-v9-materials/weathered-forged-steel-albedo-4k.png",
+      "mean_absolute_edge_difference_rgb_0_255": {
+        "left_right": [
+          13.5927734375,
+          13.3896484375,
+          13.78759765625
+        ],
+        "top_bottom": [
+          13.37060546875,
+          13.189453125,
+          13.482177734375
+        ]
+      },
+      "sha256": "d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400",
+      "visual_inspection": "Flat worn gray steel, fine brushed scratches and restrained dark pits; no text, objects or strong directional lighting.",
+      "width": 4096
+    },
+    {
+      "bytes": 29499031,
+      "height": 4096,
+      "index": 2,
+      "job_id": "167484ba-7836-447d-a008-66fad885ea89",
+      "local_path": "/workspace/scratch/363234819217/visual-v9-materials/crypt-warden-skin-albedo-4k.png",
+      "mean_absolute_edge_difference_rgb_0_255": {
+        "left_right": [
+          15.450439453125,
+          15.002685546875,
+          15.1318359375
+        ],
+        "top_bottom": [
+          16.582763671875,
+          16.2646484375,
+          16.348388671875
+        ]
+      },
+      "sha256": "a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4",
+      "visual_inspection": "Desaturated gray-taupe leathery wrinkles, pores, subtle dark veins and healed scars; no identifiable face/body or blood. Scar regions contain some local tonal shading.",
+      "width": 4096
+    },
+    {
+      "bytes": 19604893,
+      "height": 4096,
+      "index": 3,
+      "job_id": "7f30eae7-5931-41d5-b9ff-833b44abf467",
+      "local_path": "/workspace/scratch/363234819217/visual-v9-materials/ember-sovereign-obsidian-albedo-4k.png",
+      "mean_absolute_edge_difference_rgb_0_255": {
+        "left_right": [
+          4.734130859375,
+          3.366943359375,
+          3.237060546875
+        ],
+        "top_bottom": [
+          4.578857421875,
+          3.39306640625,
+          3.2021484375
+        ]
+      },
+      "sha256": "0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d",
+      "visual_inspection": "Near-black angular fractured obsidian with restrained orange fissures and broad dark regions; no text or external scene. Some fracture edges contain local tonal shaping and dim glints.",
+      "width": 4096
+    }
+  ],
+  "purpose": "Ashen Realm material generation; asset-only output, outside Site checkout",
+  "reported_model": "nano_banana_2",
+  "requested_model": "nano_banana_pro",
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "model": "nano_banana_pro",
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: weathered forged dark silver steel. Worn satin metal with tiny mostly longitudinal abrasions of varied lengths, subtle dark oxidation pits and rubbed-wear variation implied only through pigment. Restrained dark silver, gunmetal and soft graphite palette. Random gentle forge mottling, convincing fine scratch grain, minimal coarse damage. It should read as dark medieval forged steel in engine lighting. Avoid chrome, mirror shine, photographed objects, bolts, panels, bevels, embossed patterns, bright rim light, gradients, and rusty orange.",
+        "resolution": "4k"
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "model": "nano_banana_pro",
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: Crypt Warden skin, an undead humanoid's corpse-gray desaturated taupe leathery scar tissue. Organic pore detail, fine dry irregular leathery creases, restrained subtle blue-gray veins below the skin color, subtle irregular healed scars distributed organically. Muted cool gray-taupe palette, aged and dead without gore. This is a close surface swatch, entirely unrecognizable as any particular face or body part. No recognizable face, eyes, mouth, ears, limbs, body, blood, wounds, sores, hair, clothing, orange skin tones or fleshy wet highlights.",
+        "resolution": "4k"
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "model": "nano_banana_pro",
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: Ember Sovereign obsidian. Near-black dark charcoal fractured volcanic glass with an irregular angular fracture network, charcoal seams, and only small restrained ember-orange fissures. Broad quiet near-black regions dominate, while occasional narrow dim orange pigment-colored fissures provide accents. Rich microscopic volcanic texture and sharp fractured visual structure without baked height shading. No specular highlights, reflections, external light, yellow-white lava, flame, large bright glowing areas, smoke, raised rocks, rubble, individual isolated stones or 3D perspective. Orange fissures remain restrained so game engine emission can be controlled separately.",
+        "resolution": "4k"
+      }
+    }
+  ],
+  "submission": {
+    "failed_count": 0,
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "f578dfc0-0ed2-432d-ac86-611d08bc29cd",
+        "status": "pending"
+      },
+      {
+        "index": 2,
+        "job_id": "167484ba-7836-447d-a008-66fad885ea89",
+        "status": "pending"
+      },
+      {
+        "index": 3,
+        "job_id": "7f30eae7-5931-41d5-b9ff-833b44abf467",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 3
+  }
+}

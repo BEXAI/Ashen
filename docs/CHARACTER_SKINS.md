@@ -1,38 +1,69 @@
-# Higgsfield character reconstruction
+# Character assets: visual-v8
 
-The Ash Knight, Crypt Warden and Ember Sovereign skins reconstruct the completed
-Higgsfield concept sheet `a4887158-9444-42f8-9573-ce2581d8495e` as full-volume,
-articulated Three.js models. They are not automatically recovered scans or
-Unreal Engine assets. Unseen sides are authored interpretations.
+Ash Knight, Crypt Warden, and Ember Sovereign use skeletal GLBs with three mesh
+LODs and one material per visible character. The Keeper shares the Knight.
+Enemy IDs, boss identity, progression, damage, stamina and attack timings remain.
 
-- Player and Keeper: Ash Knight, segmented plate, steel helmet and torn cloth.
-- Standard enemies: Crypt Warden, bare skull, exposed skin, ribs, bone plating,
-  claws and bone mace.
-- Hollow King: Ember Sovereign skin, layered obsidian armor, crown, spikes and
-  emissive greatsword. Its encounter identity and saved progression stay intact.
+These are authored reconstructions of the existing full-volume models and
+Higgsfield designs, **not new premium sculpts**. Anatomy, high-detail baking,
+deformation and all-side visual inspection remain open art gates.
 
-`app/game/character-skins.ts` contains the reusable models, material definitions,
-joint hierarchy, and scene-scoped texture loader. `world.ts` handles locomotion;
-`combat-animation.ts` adds articulated side, diagonal, backhand, and overhead
-strikes. The rig now separates the waist, elbows, wrists, and knees. Static
-pieces merge by material within each joint. Meshes per model: 27 / 32 / 31.
-Triangles remain 9,480 / 15,932 / 10,024. Each actor also has one reusable weapon
-trail mesh, hidden in Performance mode and for reduced-motion preferences.
+## Runtime contract
 
-`public/assets/skins/` contains six 512px color textures and six relief textures,
-plus the source reference and crop provenance. Material swatches are cropped
-from the actual generated image and mirrored to make their edges continuous.
-Relief is inferred from luminance, not measured surface geometry; baked lighting
-in the original image is not a physically accurate albedo capture. Reference
-art is retained for inspection and is not downloaded by the game.
+`app/game/character-assets.ts` shares template geometry/materials and clones
+independent skeletons. The adapter samples side, diagonal, backhand and overhead
+clips on the existing combat phase clock. Slower enemy phases map onto the same
+contact path. `WeaponBase` and `WeaponTip` drive collision. Root movement and
+wall collision stay in gameplay code. Other clips cover idle, forward/backward,
+strafe, turn, dodge, hit and death. Knight/boss cape bones add modest motion.
 
-The six texture pairs are shared across actors within a renderer. Approximately
-16 MiB of uncompressed RGBA GPU texture memory including mipmaps is the upper
-bound for these twelve 512px textures. No extra lights, postprocessing passes,
-or transparent armor layers are added. A failed texture request leaves the
-colored 3D geometry playable. Renderer teardown disposes texture resources;
-late load completions cannot reattach them.
+| Archetype | LOD0 / LOD1 / LOD2 triangles | Bones | Maximum weights |
+| --- | --- | --- | --- |
+| Ash Knight | 9,320 / 5,126 / 4,372 | 15 | 2 |
+| Crypt Warden | 15,652 / 8,608 / 5,678 | 13 | 1 |
+| Ember Sovereign | 10,024 / 5,512 / 4,470 | 15 | 2 |
 
-Validation: typecheck, syntax, production build, gameplay/mobile regression
-suite, and character geometry/asset tests. Physical iPhone and visual browser
-playtesting were not performed for this update.
+LOD selection uses projected height and hysteresis, retaining full detail inside
+seven metres. All LODs remain resident in the template. These draw figures
+exclude trails, rings, shadow passes and postprocessing.
+
+## Materials and delivery
+
+Atlases contain independent base color, tangent normal, ORM and emissive fields.
+Color/emission use sRGB; normal/ORM use linear data. ORM is R=neutral occlusion
+(1), G=roughness, B=metalness. Microstructure is analytic, not a high-to-low
+sculpt bake. Tangents are generated per LOD with stable bases at collapsed UV
+poles. Historical concept-crop textures are no longer requested by the renderer.
+
+Low/mobile/high use 256/512/1024-pixel maps; Warden high stays 512. Each tier has
+a Meshopt/KTX2 primary and separate PNG GLB fallback. ETC1S encodes color/emission;
+UASTC with Zstandard encodes normal/ORM. Matching Three r180 Basis decoders are
+local, with one transcoder worker. The build checks actual universal compression.
+
+Loads and replacements run sequentially. Knight/Warden load first; boss prefetch
+starts in the later chambers. A decoder failure uses the PNG bundle; a second
+failure preserves the current presentation. Disposal aborts fetches, rejects
+stale completions, frees instance skeletons and releases cache-owned resources.
+
+## Authoring and provenance
+
+- `assets-source/characters/`: editable uncompressed GLBs and PNG masters.
+- `public/assets/characters/v8/manifest.json`: hashes, sizes, bones, LODs and clips.
+- `scripts/build-character-assets.mjs`: repeatable source-to-runtime pipeline.
+- `assets-source/references/`: references, prompts, jobs, prepared 3D requests
+  and the unavailable-action record.
+- `public/assets/skins/provenance.json`: original design-sheet provenance.
+
+Rebuild after installing locked npm dependencies:
+
+```bash
+ASHEN_TOKTX=/absolute/path/to/KTX-Software-4.4.2/bin/toktx node scripts/build-character-assets.mjs
+node --test tests/visual-assets.test.mjs
+```
+
+Omitting `ASHEN_TOKTX` produces PNG-only development variants, which intentionally
+fail the compressed release contract. Do not save them as a compressed release.
+
+Higgsfield's image endpoint rejected `image_to_3d` and requested `generate_3d`,
+which was not exposed. No 3D job was submitted. The rigs keep integration usable
+while the sculpt/retopology/weighting pass is outstanding. See the visual report.

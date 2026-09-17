@@ -1,0 +1,32 @@
+{
+  "credits": 4113.5,
+  "subscription_plan_type": "ultimate",
+  "pricing_url": "https://higgsfield.ai/mcp-pricing",
+  "free_trial": {
+    "status": null,
+    "eligible": false,
+    "offered_kind": null,
+    "kind": null,
+    "trial_credits": null,
+    "ends_at": null,
+    "unlim_available": false,
+    "unlim_remaining": null,
+    "unlim_expires_at": null
+  },
+  "free_gens": [
+    {
+      "job_set_types": [
+        "hf_mult_motion_control",
+        "hf_mult_replace_object"
+      ],
+      "remaining": 1,
+      "parameters": {
+        "resolution": [
+          "480p",
+          "720p"
+        ]
+      },
+      "max_duration": 30
+    }
+  ]
+}

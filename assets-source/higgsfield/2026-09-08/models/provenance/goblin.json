@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "slug": "goblin",
+  "originalArtwork": {
+    "assetId": "2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae",
+    "filename": "hf_20260909_002155_2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae.png",
+    "sha256": "62e75a2a00795c2a77471c294cf2b775e45c10ba420544552fea45366db4df90",
+    "bytes": 5696269,
+    "screenshot": {
+      "row": 3,
+      "column": 5,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": true,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "c4e055e7-bd9f-4bdc-8c18-6df2fc92bb45",
+    "jobType": "image_to_3d",
+    "status": "nsfw",
+    "producedModel": false,
+    "resultURL": null,
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "07fcd192-89a0-4d7c-9fdf-370948bf005e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/07fcd192-89a0-4d7c-9fdf-370948bf005e_resize.jpg"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/goblin-original.glb",
+    "bytes": 1439452,
+    "sha256": "4b65d48891fdf12a02d7ca8f4dd31b3591225f53ace1b3b40c394a23358858e3",
+    "kind": "locally-authored"
+  },
+  "attackStyle": "blade",
+  "attackAliasPolicy": "Four distinct native sword clips",
+  "clipTimePolicy": "Native durations; runtime maps contact phases",
+  "derivation": {
+    "metadataPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/goblin-local-authorship.json",
+    "asset": "goblin",
+    "authorship": "Locally authored reference-guided interpretation",
+    "method": "Continuous voxel-union anatomical sculpt; explicit facial and garment meshes; hand-authored normalized 24-joint skin; vertex-painted surfaces",
+    "sourceImage": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/hf_20260909_002155_2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae.png",
+    "sourceImageSha256": "62e75a2a00795c2a77471c294cf2b775e45c10ba420544552fea45366db4df90",
+    "sourceImagePreserved": true,
+    "isProviderReconstruction": false,
+    "isExactSourceDerivedTopology": false,
+    "limitations": [
+      "Stylized interpretation of one frontal photograph; unseen rear surfaces invented.",
+      "Mesh and facial proportions are authored approximations, not photogrammetry."
+    ],
+    "referenceFeatures": [
+      "large pointed ears",
+      "yellow slit-pupil eyes",
+      "hooked nose and iron hoop",
+      "individual crooked teeth",
+      "pot belly",
+      "tooth necklace",
+      "ragged patchwork loincloth",
+      "rope-tied leather boots",
+      "solid cleaver with real circular hole"
+    ],
+    "boneNames": [
+      "Hips",
+      "Spine02",
+      "Spine01",
+      "Spine",
+      "neck",
+      "Head",
+      "head_end",
+      "headfront",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand",
+      "RightUpLeg",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase",
+      "LeftUpLeg",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase"
+    ],
+    "bones": 24,
+    "verticesBeforeJoin": 26895,
+    "triangles": 33500,
+    "maxSkinInfluences": 4,
+    "unweightedVertices": 0,
+    "animationNames": [
+      "idle"
+    ],
+    "heldWeapon": true,
+    "contactBaseBlender": [
+      -0.3190000057220459,
+      -0.10199999809265137,
+      0.414000004529953
+    ],
+    "contactTipBlender": [
+      -0.224,
+      -0.106,
+      0.316
+    ],
+    "contactBaseRightHandLocal": [
+      0.1317131221294403,
+      0.11537453532218933,
+      -0.05801186338067055
+    ],
+    "contactTipRightHandLocal": [
+      0.23622378706932068,
+      0.20323267579078674,
+      -0.05614988133311272
+    ],
+    "heldEquipmentNode": "GoblinHeldCleaver",
+    "heldEquipmentTriangles": 736,
+    "totalProductionTriangles": 34236,
+    "optimization": {
+      "method": "Upstream detail tessellation reduced; moderate body edge collapse with interpolated skin weights, renormalized to four influences. Held weapon geometry and all bind transforms retained.",
+      "trianglesBeforeFinalCollapse": 53090,
+      "trianglesAfterFinalCollapse": 34236,
+      "highDetailModel": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/goblin-authored-high-detail.glb",
+      "targetMaxTriangles": 40000
+    },
+    "contactBaseExportedRightHandLocal": [
+      0.1317131680051435,
+      0.11537442252626473,
+      -0.05801185200748363
+    ],
+    "contactTipExportedRightHandLocal": [
+      0.2362238430013923,
+      0.20323258718769371,
+      -0.0561498466384496
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "version": "props-v2",
+  "assets": {
+    "sconce": {
+      "asset_id": "A01",
+      "content_version": 1,
+      "source_project_id": "21434c15-bdde-4abd-bcb9-62098cae463a",
+      "source_revision": 1,
+      "source_hash": "d35d9a74d8c538519b4cf3f535266d891f4e9a04c04b898c518752120cc6043a",
+      "license_record": "Original authored output; no catalog inputs. See source production-ledger.json and THIRD_PARTY_NOTICES.txt.",
+      "units": "metres",
+      "bounds": [
+        [
+          0.5914967954158783,
+          1.0978586077690125,
+          0.46835682331584394
+        ],
+        [
+          0.5936438739299774,
+          1.0979582965373993,
+          0.46803990635089576
+        ],
+        [
+          0.5740000009536743,
+          1.0979999899864197,
+          0.4599999994970858
+        ]
+      ],
+      "pivot": "Mount",
+      "anchors": {
+        "Mount": [
+          0,
+          0,
+          0
+        ],
+        "FlameOrigin": [
+          0,
+          0.385,
+          0.265
+        ],
+        "LightOrigin": [
+          0,
+          0.685,
+          0.265
+        ]
+      },
+      "lods": [
+        0,
+        1,
+        2
+      ],
+      "triangles": [
+        1492,
+        580,
+        188
+      ],
+      "draw_primitives": [
+        1,
+        1,
+        1
+      ],
+      "texture_dimensions": {
+        "basecolor": [
+          512,
+          512,
+          "sRGB"
+        ],
+        "normal": [
+          256,
+          256,
+          "linear"
+        ],
+        "ORM": [
+          256,
+          256,
+          "linear"
+        ]
+      },
+      "color_spaces": {
+        "basecolor": "sRGB",
+        "normal": "linear",
+        "orm": "linear"
+      },
+      "compressed_url": "/assets/props/v1/sconce-pilot.glb",
+      "fallback_url": "/assets/props/v1/sconce-pilot-fallback.glb",
+      "sha256": "32a6e003db785687d9fbdc9a2dc1721cdaa7897e9ef54002f2671b0ceaff18a4",
+      "fallback_sha256": "8206cff9188e6f35d6880725d17af02b5c01f2bd05fd6fb00d2f09ea764c8d9a",
+      "download_bytes": 286656,
+      "fallback_bytes": 420092,
+      "estimated_texture_mib": 2,
+      "validation_report": "assets-source/props/v1/sconce/final-export-audit.json",
+      "validation": {
+        "compressed": {
+          "numErrors": 0,
+          "numWarnings": 6,
+          "numInfos": 5,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/2"
+            },
+            {
+              "code": "VALUE_NOT_IN_LIST",
+              "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+              "severity": 1,
+              "pointer": "/images/0/mimeType"
+            },
+            {
+              "code": "VALUE_NOT_IN_LIST",
+              "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+              "severity": 1,
+              "pointer": "/images/1/mimeType"
+            },
+            {
+              "code": "VALUE_NOT_IN_LIST",
+              "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+              "severity": 1,
+              "pointer": "/images/2/mimeType"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/images/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/images/1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/images/2"
+            },
+            {
+              "code": "IMAGE_UNRECOGNIZED_FORMAT",
+              "message": "Image format not recognized.",
+              "severity": 1,
+              "pointer": "/images/0"
+            },
+            {
+              "code": "IMAGE_UNRECOGNIZED_FORMAT",
+              "message": "Image format not recognized.",
+              "severity": 1,
+              "pointer": "/images/1"
+            },
+            {
+              "code": "IMAGE_UNRECOGNIZED_FORMAT",
+              "message": "Image format not recognized.",
+              "severity": 1,
+              "pointer": "/images/2"
+            }
+          ],
+          "truncated": false
+        },
+        "fallback": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 1,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    },
+    "shrine": {
+      "compressed_url": "/assets/props/v2/ember-shrine.glb",
+      "fallback_url": "/assets/props/v2/ember-shrine-fallback.glb",
+      "sha256": "115c44ab0f78481a1c41441ed494055ab84d61b2cb2b49cebcd2e8049efb05a3",
+      "fallback_sha256": "cda732bca2c650ccf3886015eee6d27e6ab6c0f2b453feffcb593b2e95d5c50f",
+      "source_project_id": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+      "source_revision": 1,
+      "asset_id": "A02",
+      "content_version": 1,
+      "units": "metres",
+      "anchors": {
+        "Ground": [
+          0,
+          0,
+          0
+        ],
+        "FlameOrigin": [
+          0,
+          1.9,
+          0
+        ],
+        "LightOrigin": [
+          0,
+          2.2,
+          0
+        ],
+        "EmberCore": [
+          0,
+          1.54,
+          0
+        ]
+      },
+      "triangles": [
+        5936,
+        2944,
+        1134
+      ],
+      "draw_primitives": [
+        2,
+        2,
+        2
+      ],
+      "estimated_texture_mib": 8.333334,
+      "texture_dimensions": {
+        "source_basecolor": [
+          2048,
+          2048,
+          "sRGB"
+        ],
+        "runtime_basecolor": [
+          1024,
+          1024,
+          "sRGB"
+        ],
+        "normal": [
+          512,
+          512,
+          "linear"
+        ],
+        "ORM": [
+          512,
+          512,
+          "linear"
+        ],
+        "emissive": [
+          256,
+          256,
+          "sRGB neutral intensity mask"
+        ]
+      },
+      "validation_report": "assets-source/props/v2/shrine/final-export-audit.json",
+      "download_bytes": 940320,
+      "fallback_bytes": 1512056
+    },
+    "architecture": {
+      "asset_id": "A03",
+      "content_version": 1,
+      "compressed_url": "/assets/props/v2/architecture-kit.glb",
+      "fallback_url": "/assets/props/v2/architecture-kit-fallback.glb",
+      "sha256": "bbec76f1153187abf396336642a0f2a29a33e401f81de3ebdf5155029b523f31",
+      "fallback_sha256": "d8cc29ab074cdcc116b74c79fdd51b756742eb492a860276fe350bd589446429",
+      "source_project_id": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+      "source_revision": 1,
+      "source_hash": "5175bbd64d1bbda60a8ab36dda5f59a65cbedeb3cf2070f0c68708f75ce8514f",
+      "units": "metres",
+      "modules": {
+        "Arch": {
+          "triangles": [
+            5992,
+            2992,
+            1192
+          ],
+          "draw_primitives": [
+            1,
+            1,
+            1
+          ]
+        },
+        "Pillar": {
+          "triangles": [
+            1192,
+            592,
+            232
+          ],
+          "draw_primitives": [
+            1,
+            1,
+            1
+          ]
+        },
+        "Trim": {
+          "triangles": [
+            592,
+            292,
+            112
+          ],
+          "draw_primitives": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "clearance": [
+        6,
+        6.8
+      ],
+      "estimated_texture_mib": 4,
+      "texture_dimensions": {
+        "basecolor": 512,
+        "normal": 512,
+        "orm": 512
+      },
+      "download_bytes": 1013076,
+      "fallback_bytes": 1108388,
+      "validation_report": "assets-source/props/v2/architecture/final-export-audit.json"
+    }
+  },
+  "shared_set_estimated_texture_mib": 14.333334
+}

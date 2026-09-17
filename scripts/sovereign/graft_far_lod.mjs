@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';import path from 'node:path';import {pathToFileURL} from 'node:url';
+const argv=process.argv.slice(2),arg=(n,d)=>argv.includes(n)?argv[argv.indexOf(n)+1]:d;
+const game=path.resolve(arg('--game',process.cwd())),master=arg('--master'),far=arg('--far');
+if(!master||!far)throw Error('Supply --master and --far');
+const imp=p=>import(pathToFileURL(path.join(game,'node_modules',p)));
+const [{NodeIO},{ALL_EXTENSIONS},{mergeDocuments,prune,dedup},{default:validator}]=await Promise.all([imp('@gltf-transform/core/dist/index.js'),imp('@gltf-transform/extensions/dist/index.js'),imp('@gltf-transform/functions/dist/index.js'),imp('gltf-validator/index.js')]);
+const io=new NodeIO().registerExtensions(ALL_EXTENSIONS),doc=await io.read(master),src=await io.read(far),scene=doc.getRoot().listScenes()[0],skin=doc.getRoot().listSkins()[0],buffer=doc.getRoot().listBuffers()[0],lod=doc.getRoot().listNodes().find(n=>n.getExtras().lod===2),old=lod.getMesh();
+const originalMat=old.listPrimitives()[0].getMaterial(),weapon=old.listPrimitives()[1],indexByName=new Map(skin.listJoints().map((n,i)=>[n.getName(),i]));
+const srcSkin=src.getRoot().listSkins()[0],jointMap=srcSkin.listJoints().map(n=>indexByName.get(n.getName())),srcMesh=src.getRoot().listMeshes()[0],srcPrim=srcMesh.listPrimitives().find(p=>p.getMaterial().getName().includes('mobile atlas'));
+if(jointMap.some(x=>x===undefined)||!srcPrim)throw Error('Invalid transfer skeleton/material');
+const mapping=mergeDocuments(doc,src),p=mapping.get(srcPrim),j=p.getAttribute('JOINTS_0'),a=j.getArray();for(let i=0;i<a.length;i++)a[i]=jointMap[a[i]];
+const ta=p.getAttribute('TANGENT'),na=p.getAttribute('NORMAL');for(let i=0;i<ta.getCount();i++){const t=ta.getElement(i,[]);if(Math.hypot(t[0],t[1],t[2])<.5){const n=na.getElement(i,[]),v=Math.abs(n[1])<.9?[n[2],0,-n[0]]:[0,-n[2],n[1]],len=Math.hypot(...v);ta.setElement(i,[...v.map(x=>x/len),t[3]<0?-1:1]);}}
+p.setMaterial(originalMat);lod.setMesh(doc.createMesh('Sovereign_LOD2').addPrimitive(p).addPrimitive(weapon));
+for(const s of doc.getRoot().listScenes())if(s!==scene)s.dispose();
+const importedNodes=src.getRoot().listNodes().map(n=>mapping.get(n));for(const n of importedNodes)n.dispose();
+await doc.transform(prune({keepLeaves:true,keepAttributes:true}),dedup());
+for(const a of doc.getRoot().listAccessors())a.setBuffer(buffer);for(const b of doc.getRoot().listBuffers())if(b!==buffer)b.dispose();
+const bytes=await io.writeBinary(doc);const report=await validator.validateBytes(new Uint8Array(bytes),{maxIssues:100});
+if(report.issues.numErrors)throw Error(JSON.stringify(report.issues));
+await fs.writeFile(master,bytes);console.log(JSON.stringify({bytes:bytes.length,lods:doc.getRoot().listNodes().filter(n=>Number.isInteger(n.getExtras().lod)).map(n=>({lod:n.getExtras().lod,triangles:n.getMesh().listPrimitives().reduce((s,p)=>s+p.getIndices().getCount()/3,0)})),validation:report.issues},null,2));

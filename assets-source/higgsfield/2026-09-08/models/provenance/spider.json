@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "slug": "spider",
+  "originalArtwork": {
+    "assetId": "c4010a07-000c-439c-b8da-2a200549f97a",
+    "filename": "hf_20260909_002155_c4010a07-000c-439c-b8da-2a200549f97a.png",
+    "sha256": "97dae7906bf3e6afbce529e45f6c5771e54a9ca3c7b291db1f6c2571843c1cb9",
+    "bytes": 5559711,
+    "screenshot": {
+      "row": 3,
+      "column": 2,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": true,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "b7a5a002-1e83-4615-8b11-f3f50b9a314f",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_042455_b7a5a002-1e83-4615-8b11-f3f50b9a314f.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "5f125e62-4666-485a-a84a-7202580015a5",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/5f125e62-4666-485a-a84a-7202580015a5.png"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/spider-original.glb",
+    "bytes": 13717524,
+    "sha256": "7bacb1818b2a1225c65341ca71da43c11693d757b425e8bf88ed0ef8a13787cc"
+  },
+  "locallyAuthoredRig": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/spider-rigged.glb",
+    "bytes": 14656240,
+    "sha256": "748c084ee8b0a0299841489afd8394769020cd3c2c9d91ad58ede329b1636769"
+  },
+  "attackStyle": "authored",
+  "attackAliasPolicy": "Original authored spider clips preserved",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

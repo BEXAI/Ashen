@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "lion-knight",
+  "originalArtwork": {
+    "assetId": "db95c2d3-580c-43c5-ab3b-58ee75def5cb",
+    "filename": "hf_20260909_023256_db95c2d3-580c-43c5-ab3b-58ee75def5cb.png",
+    "sha256": "faac96203fb4585a9ff6581aab8d1b4fc3135eaf3e89f1b4503eb1c7c3481348",
+    "bytes": 1437282,
+    "screenshot": {
+      "row": 1,
+      "column": 4,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "0f7084b7-687c-4fb0-8b5e-93a2f2043e06",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043210_0f7084b7-687c-4fb0-8b5e-93a2f2043e06.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "00e140d9-3519-49b7-a9c9-64a733538885",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/00e140d9-3519-49b7-a9c9-64a733538885.png"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/lion-knight-original.glb",
+    "bytes": 6761660,
+    "sha256": "47bc1eec06aad04fe3fb6928251150c0593d73db3a513ec756716aae7d4859f4"
+  },
+  "attackStyle": "blade",
+  "attackAliasPolicy": "Four distinct native sword clips",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

@@ -1,0 +1,602 @@
+{
+  "version": "visual-v11",
+  "status": "sovereign-deformation-update",
+  "method": "Continuous shoulder skinning, rigid plate attachment and cape clearance; active combat tracks and weapon retained; bounded dodge cape correction",
+  "sourceJob": "a4887158-9444-42f8-9573-ce2581d8495e",
+  "sources": "assets-source/characters",
+  "characters": {
+    "ash-knight": {
+      "status": "detailed_authored_reconstruction",
+      "uv": {
+        "width": 1370,
+        "height": 1382,
+        "charts": 873,
+        "padding": 5,
+        "utilization": 0.8315664529800415
+      },
+      "geometricAO": {
+        "min": 0.20000000298023224,
+        "max": 1,
+        "samples": 32,
+        "radius": 0.42
+      },
+      "masterTextureSize": 4096,
+      "tangentBasis": "MikkTSpace",
+      "bounds": {
+        "min": [
+          -0.708408699631691,
+          -2.1457672083613488e-8,
+          -0.40643682575598794
+        ],
+        "height": 2.66
+      },
+      "bones": [
+        "body",
+        "left_leg",
+        "left_knee",
+        "right_leg",
+        "right_knee",
+        "torso",
+        "left_arm",
+        "left_elbow",
+        "left_wrist",
+        "right_arm",
+        "right_elbow",
+        "right_wrist",
+        "weapon",
+        "cape_upper",
+        "cape_lower"
+      ],
+      "boneCount": 15,
+      "weightsPerVertex": 2,
+      "triangles": [
+        21384,
+        11760,
+        8420
+      ],
+      "materialDrawsPerLod": 1,
+      "sockets": [
+        "weapon",
+        "WeaponBase",
+        "WeaponTip"
+      ],
+      "clips": [
+        {
+          "name": "side",
+          "duration": 0.5800000000000001
+        },
+        {
+          "name": "diagonal",
+          "duration": 0.68
+        },
+        {
+          "name": "backhand",
+          "duration": 0.56
+        },
+        {
+          "name": "overhead",
+          "duration": 0.91
+        },
+        {
+          "name": "idle",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "forward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "backward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_left",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_right",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "turn",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "dodge",
+          "duration": 0.5
+        },
+        {
+          "name": "hit",
+          "duration": 0.3
+        },
+        {
+          "name": "death",
+          "duration": 0.8
+        }
+      ],
+      "variants": {
+        "low": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "fallback": "/assets/characters/v9/ash-knight-low-fallback.glb",
+          "bytes": 1259788,
+          "fallbackBytes": 6664072,
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "fallbackSha256": "57282dd49458649cb2c075dde23da678249f5ade8b0dbd38a175240208308550",
+          "textureSize": 512,
+          "textureSizes": {
+            "base": 512,
+            "normal": 256,
+            "orm": 256,
+            "emissive": 128
+          },
+          "estimatedRgba8MipMiB": 2.083333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "mobile": {
+          "url": "/assets/characters/v9/ash-knight-mobile.glb",
+          "fallback": "/assets/characters/v9/ash-knight-mobile-fallback.glb",
+          "bytes": 1891412,
+          "fallbackBytes": 8579016,
+          "sha256": "0e65ea5c70b1392323825b8500bf8e3d4dd8ca22f3dbbca7695e794b91c4445c",
+          "fallbackSha256": "9c17b3609800f4bc11904c0e613fd1245ab3e1b29aaec13ac6b035b0b9bea58c",
+          "textureSize": 1024,
+          "textureSizes": {
+            "base": 1024,
+            "normal": 512,
+            "orm": 512,
+            "emissive": 256
+          },
+          "estimatedRgba8MipMiB": 8.333333333333332,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "hd": {
+          "url": "/assets/characters/v9/ash-knight-hd.glb",
+          "fallback": "/assets/characters/v9/ash-knight-hd-fallback.glb",
+          "bytes": 4183568,
+          "fallbackBytes": 11873048,
+          "sha256": "d7d25f0789d91577ca5464417ddc42fff5ae2f8518b210e44aa1be990b122222",
+          "fallbackSha256": "fcc56d3d5b25aac806b82ff2acdb2f529c594340569d893c1dcd2c6382df1cb9",
+          "textureSize": 2048,
+          "textureSizes": {
+            "base": 2048,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 33.33333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "high": {
+          "url": "/assets/characters/v9/ash-knight-high.glb",
+          "fallback": "/assets/characters/v9/ash-knight-high-fallback.glb",
+          "bytes": 5621752,
+          "fallbackBytes": 11892336,
+          "sha256": "592232af7ace4e25fdfe2a085f46e4029f8bb8efa1e7e515cc494310e59bb5db",
+          "fallbackSha256": "2f5986539bcc5d2f4571338299fcfbba95f46e1ed6b0dc0038d3d5af98cdc3ea",
+          "textureSize": 4096,
+          "textureSizes": {
+            "base": 4096,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 97.33333333333331,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        }
+      }
+    },
+    "crypt-warden": {
+      "status": "detailed_authored_reconstruction",
+      "uv": {
+        "width": 1402,
+        "height": 1398,
+        "charts": 695,
+        "padding": 5,
+        "utilization": 0.7913118004798889
+      },
+      "geometricAO": {
+        "min": 0.20000000298023224,
+        "max": 1,
+        "samples": 32,
+        "radius": 0.42
+      },
+      "masterTextureSize": 4096,
+      "tangentBasis": "MikkTSpace",
+      "bounds": {
+        "min": [
+          -0.69871994972229,
+          -2.1457672083613488e-8,
+          -0.2199999988079071
+        ],
+        "height": 2.66
+      },
+      "bones": [
+        "body",
+        "left_leg",
+        "left_knee",
+        "right_leg",
+        "right_knee",
+        "torso",
+        "left_arm",
+        "left_elbow",
+        "left_wrist",
+        "right_arm",
+        "right_elbow",
+        "right_wrist",
+        "weapon"
+      ],
+      "boneCount": 13,
+      "weightsPerVertex": 1,
+      "triangles": [
+        31572,
+        17364,
+        8524
+      ],
+      "materialDrawsPerLod": 1,
+      "sockets": [
+        "weapon",
+        "WeaponBase",
+        "WeaponTip"
+      ],
+      "clips": [
+        {
+          "name": "side",
+          "duration": 0.5800000000000001
+        },
+        {
+          "name": "diagonal",
+          "duration": 0.68
+        },
+        {
+          "name": "backhand",
+          "duration": 0.56
+        },
+        {
+          "name": "overhead",
+          "duration": 0.91
+        },
+        {
+          "name": "idle",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "forward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "backward",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_left",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "strafe_right",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "turn",
+          "duration": 0.6981317007977318
+        },
+        {
+          "name": "dodge",
+          "duration": 0.5
+        },
+        {
+          "name": "hit",
+          "duration": 0.3
+        },
+        {
+          "name": "death",
+          "duration": 0.8
+        }
+      ],
+      "variants": {
+        "low": {
+          "url": "/assets/characters/v9/crypt-warden-low.glb",
+          "fallback": "/assets/characters/v9/crypt-warden-low-fallback.glb",
+          "bytes": 1337428,
+          "fallbackBytes": 6840788,
+          "sha256": "3388cc02230a15735886db93f577adfc557b70449b2deb766bf30b9aca043643",
+          "fallbackSha256": "21f70c4661a2462f157726c036bb6efe76ea896d83f8756973aa23f5a324e6ec",
+          "textureSize": 512,
+          "textureSizes": {
+            "base": 512,
+            "normal": 256,
+            "orm": 256,
+            "emissive": 128
+          },
+          "estimatedRgba8MipMiB": 2.083333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "mobile": {
+          "url": "/assets/characters/v9/crypt-warden-mobile.glb",
+          "fallback": "/assets/characters/v9/crypt-warden-mobile-fallback.glb",
+          "bytes": 1976072,
+          "fallbackBytes": 8836052,
+          "sha256": "220537d31f944b4f02840ca69451ff00b2f144d7f2ecf7d1895d5fb38502a715",
+          "fallbackSha256": "388137c3a7566edec33a1b5b570519f2ceccfa68567e0439eaafcdb6d97d4bf8",
+          "textureSize": 1024,
+          "textureSizes": {
+            "base": 1024,
+            "normal": 512,
+            "orm": 512,
+            "emissive": 256
+          },
+          "estimatedRgba8MipMiB": 8.333333333333332,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "hd": {
+          "url": "/assets/characters/v9/crypt-warden-hd.glb",
+          "fallback": "/assets/characters/v9/crypt-warden-hd-fallback.glb",
+          "bytes": 4282368,
+          "fallbackBytes": 12121856,
+          "sha256": "56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133",
+          "fallbackSha256": "39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297",
+          "textureSize": 2048,
+          "textureSizes": {
+            "base": 2048,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 33.33333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        },
+        "high": {
+          "url": "/assets/characters/v9/crypt-warden-high.glb",
+          "fallback": "/assets/characters/v9/crypt-warden-high-fallback.glb",
+          "bytes": 4282368,
+          "fallbackBytes": 12121856,
+          "sha256": "56d2393344aa02d58fd2ee54e013a809ada81e7d5f75d269c052c70b85f49133",
+          "fallbackSha256": "39b108d03d7757a90d952cfc33e963f5095c9f2b382ddf4c1bfa329af3439297",
+          "textureSize": 2048,
+          "textureSizes": {
+            "base": 2048,
+            "normal": 1024,
+            "orm": 1024,
+            "emissive": 512
+          },
+          "estimatedRgba8MipMiB": 33.33333333333333,
+          "fallbackMaxTextureSize": 1024,
+          "textureCompression": "KTX2: ETC1S color/emissive, UASTC normal/ORM",
+          "validationErrors": 0,
+          "validationWarnings": 3
+        }
+      }
+    },
+    "ember-sovereign": {
+      "status": "Blender anatomy and fitted armor retrofitted to the existing combat rig",
+      "source": "assets-source/sovereign-v11",
+      "masterSha256": "776a3cf088b531c3d89748500f380b95bec6df1e51d62b9de193d2d90bd3fba1",
+      "masterTextureSize": 2048,
+      "boneCount": 15,
+      "bones": [
+        "body",
+        "left_leg",
+        "left_knee",
+        "right_leg",
+        "right_knee",
+        "torso",
+        "left_arm",
+        "left_elbow",
+        "left_wrist",
+        "right_arm",
+        "right_elbow",
+        "right_wrist",
+        "weapon",
+        "cape_upper",
+        "cape_lower"
+      ],
+      "weightsPerVertex": 4,
+      "triangles": [
+        23208,
+        14413,
+        7777
+      ],
+      "materialDrawsPerLod": 2,
+      "sockets": [
+        "weapon",
+        "WeaponBase",
+        "WeaponTip"
+      ],
+      "clips": [
+        "side",
+        "diagonal",
+        "backhand",
+        "overhead",
+        "idle",
+        "forward",
+        "backward",
+        "strafe_left",
+        "strafe_right",
+        "turn",
+        "dodge",
+        "hit",
+        "death"
+      ],
+      "variants": {
+        "low": {
+          "url": "/assets/characters/v11/ember-sovereign-low.glb",
+          "fallback": "/assets/characters/v11/ember-sovereign-low-fallback.glb",
+          "sha256": "6873645de8c137be72af989785dd9ed372d29710421836068857e04147745f4d",
+          "fallbackSha256": "9398e26b742bb26cbbc3d4f9c1ac80fd81cbc7df4178d7178eee09b1633b2e2c",
+          "bytes": 1850084,
+          "fallbackBytes": 2223100,
+          "textureSizes": {
+            "weapon_base_0": 256,
+            "weapon_normal_1": 128,
+            "weapon_orm_2": 128,
+            "weapon_emissive_3": 64,
+            "body_emissive_4": 256,
+            "body_normal_5": 256,
+            "body_base_6": 512,
+            "body_orm_7": 256
+          },
+          "fallbackTextureSizes": {
+            "weapon_base_0": 256,
+            "weapon_normal_1": 128,
+            "weapon_orm_2": 128,
+            "weapon_emissive_3": 64,
+            "body_emissive_4": 256,
+            "body_normal_5": 256,
+            "body_base_6": 512,
+            "body_orm_7": 256
+          },
+          "estimatedRgba8MipMiB": 2.8541666666666665,
+          "fallbackRgba8MipMiB": 2.8541666666666665,
+          "textureCompression": "KTX2 ETC1S base color; UASTC normal/ORM with mipmaps; lossless PNG emission",
+          "validation": {
+            "errors": 0,
+            "warnings": 15
+          },
+          "fallbackValidation": {
+            "errors": 0,
+            "warnings": 3
+          }
+        },
+        "mobile": {
+          "url": "/assets/characters/v11/ember-sovereign-mobile.glb",
+          "fallback": "/assets/characters/v11/ember-sovereign-mobile-fallback.glb",
+          "sha256": "fb8feec5483f1d46b47d5f844d14ff05164469ccacfa9b653cbd58fd70281495",
+          "fallbackSha256": "3d513fc21f189c3812ddc5765ce9ace20cb92ce7176460e140d0871447013588",
+          "bytes": 2199588,
+          "fallbackBytes": 3030800,
+          "textureSizes": {
+            "weapon_base_0": 256,
+            "weapon_normal_1": 128,
+            "weapon_orm_2": 128,
+            "weapon_emissive_3": 64,
+            "body_emissive_4": 512,
+            "body_normal_5": 512,
+            "body_base_6": 1024,
+            "body_orm_7": 512
+          },
+          "fallbackTextureSizes": {
+            "weapon_base_0": 256,
+            "weapon_normal_1": 128,
+            "weapon_orm_2": 128,
+            "weapon_emissive_3": 64,
+            "body_emissive_4": 512,
+            "body_normal_5": 512,
+            "body_base_6": 1024,
+            "body_orm_7": 512
+          },
+          "estimatedRgba8MipMiB": 9.854166666666666,
+          "fallbackRgba8MipMiB": 9.854166666666666,
+          "textureCompression": "KTX2 ETC1S base color; UASTC normal/ORM with mipmaps; lossless PNG emission",
+          "validation": {
+            "errors": 0,
+            "warnings": 15
+          },
+          "fallbackValidation": {
+            "errors": 0,
+            "warnings": 3
+          }
+        },
+        "hd": {
+          "url": "/assets/characters/v11/ember-sovereign-hd.glb",
+          "fallback": "/assets/characters/v11/ember-sovereign-hd-fallback.glb",
+          "sha256": "092115c64921a3693f32e17ca1c62488c06f9eb2c79d4bce740ec2994b02306b",
+          "fallbackSha256": "3d513fc21f189c3812ddc5765ce9ace20cb92ce7176460e140d0871447013588",
+          "bytes": 3006120,
+          "fallbackBytes": 3030800,
+          "textureSizes": {
+            "weapon_base_0": 256,
+            "weapon_normal_1": 128,
+            "weapon_orm_2": 128,
+            "weapon_emissive_3": 64,
+            "body_emissive_4": 512,
+            "body_normal_5": 1024,
+            "body_base_6": 2048,
+            "body_orm_7": 1024
+          },
+          "fallbackTextureSizes": {
+            "weapon_base_0": 256,
+            "weapon_normal_1": 128,
+            "weapon_orm_2": 128,
+            "weapon_emissive_3": 64,
+            "body_emissive_4": 512,
+            "body_normal_5": 512,
+            "body_base_6": 1024,
+            "body_orm_7": 512
+          },
+          "estimatedRgba8MipMiB": 33.854166666666664,
+          "fallbackRgba8MipMiB": 9.854166666666666,
+          "textureCompression": "KTX2 ETC1S base color; UASTC normal/ORM with mipmaps; lossless PNG emission",
+          "validation": {
+            "errors": 0,
+            "warnings": 15
+          },
+          "fallbackValidation": {
+            "errors": 0,
+            "warnings": 3
+          }
+        },
+        "high": {
+          "url": "/assets/characters/v11/ember-sovereign-high.glb",
+          "fallback": "/assets/characters/v11/ember-sovereign-high-fallback.glb",
+          "sha256": "092115c64921a3693f32e17ca1c62488c06f9eb2c79d4bce740ec2994b02306b",
+          "fallbackSha256": "3d513fc21f189c3812ddc5765ce9ace20cb92ce7176460e140d0871447013588",
+          "bytes": 3006120,
+          "fallbackBytes": 3030800,
+          "textureSizes": {
+            "weapon_base_0": 256,
+            "weapon_normal_1": 128,
+            "weapon_orm_2": 128,
+            "weapon_emissive_3": 64,
+            "body_emissive_4": 512,
+            "body_normal_5": 1024,
+            "body_base_6": 2048,
+            "body_orm_7": 1024
+          },
+          "fallbackTextureSizes": {
+            "weapon_base_0": 256,
+            "weapon_normal_1": 128,
+            "weapon_orm_2": 128,
+            "weapon_emissive_3": 64,
+            "body_emissive_4": 512,
+            "body_normal_5": 512,
+            "body_base_6": 1024,
+            "body_orm_7": 512
+          },
+          "estimatedRgba8MipMiB": 33.854166666666664,
+          "fallbackRgba8MipMiB": 9.854166666666666,
+          "textureCompression": "KTX2 ETC1S base color; UASTC normal/ORM with mipmaps; lossless PNG emission",
+          "validation": {
+            "errors": 0,
+            "warnings": 15
+          },
+          "fallbackValidation": {
+            "errors": 0,
+            "warnings": 3
+          }
+        }
+      },
+      "limitations": "Procedural interpretation of the reference; practical skinning retrofit. No physical-phone frame-rate certification."
+    }
+  },
+  "license": "Sovereign anatomical foundation: Dan Ulrich, Blender Human Base Meshes 1.4.1, CC0. Original fitted armor and cloth. Other character and weapon provenance retained from visual-v9."
+}

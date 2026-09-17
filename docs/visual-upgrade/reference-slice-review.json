@@ -1,0 +1,42 @@
+{
+  "gate": "G04",
+  "decision": "accepted_for_asset_expansion",
+  "scope": "Desktop reference slice; not physical phone acceptance",
+  "evidence": {
+    "sconce": {
+      "before": "screenshots/sconce-low-before.png",
+      "after": "screenshots/sconce-low-after.png",
+      "diagnostics": "sconce-low-diagnostics.json",
+      "review": "Actual compressed GLB, detailed iron bracket and stone corbel replace the old cylinder fixture. Existing flame/light coordinates are unchanged; loader tests cover both sides and variants."
+    },
+    "combat": {
+      "raw": "reference-combat-low-before-feedback.json",
+      "steady_duration_seconds": 60.296,
+      "samples": 1809,
+      "paced_p95_ms": 34.8,
+      "cpu_p95_ms": 4.2,
+      "stalls_over_100ms": 0
+    },
+    "boss": {
+      "raw": "reference-boss-low-after-feedback.json",
+      "image": "screenshots/reference-boss-low-after-feedback.png",
+      "steady_duration_seconds": 60.135,
+      "samples": 1804,
+      "paced_p95_ms": 34.9,
+      "cpu_p95_ms": 3.9,
+      "stalls_over_100ms": 0,
+      "review": "Revised Sovereign is loaded from v11. Neutral environment reflection makes armor panels discernible. Combat motion and directional feedback render in the actual game."
+    },
+    "character": [
+      "tests/sovereign-mobile.test.mjs",
+      "tests/character-low-presentation.test.mjs",
+      "tests/character-presentation.test.mjs"
+    ]
+  },
+  "limits": [
+    "Desktop Chromium at low/30 FPS, not iPhone Safari.",
+    "Near planting QA shows 4.000\u20134.946 mm sole clearance; far LOD can hover up to 15.4 mm.",
+    "Some minor side/back hand-cape intersections remain; gross shoulder stretch and cape intersection counts improved in recorded source audit.",
+    "Visual gate authorizes expansion; final full-room and physical-device gate remains pending."
+  ]
+}

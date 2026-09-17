@@ -1,0 +1,463 @@
+{
+  "source": "/tmp/ashen-architecture-kit/cloud-source.blend",
+  "modules": {
+    "Arch": [
+      {
+        "lod": 0,
+        "triangles": 5992,
+        "vertices": 3182,
+        "bounds_blender": [
+          [
+            -3.880000114440918,
+            -0.49900001287460327,
+            0
+          ],
+          [
+            3.880000114440918,
+            0.44999998807907104,
+            8.880000114440918
+          ]
+        ],
+        "dimensions_gltf": [
+          7.760000228881836,
+          8.880000114440918,
+          0.9490000009536743
+        ]
+      },
+      {
+        "lod": 1,
+        "triangles": 2992,
+        "vertices": 1682,
+        "bounds_blender": [
+          [
+            -3.880000114440918,
+            -0.49900001287460327,
+            0
+          ],
+          [
+            3.880000114440918,
+            0.44999998807907104,
+            8.878819465637207
+          ]
+        ],
+        "dimensions_gltf": [
+          7.760000228881836,
+          8.878819465637207,
+          0.9490000009536743
+        ]
+      },
+      {
+        "lod": 2,
+        "triangles": 1192,
+        "vertices": 782,
+        "bounds_blender": [
+          [
+            -3.8756792545318604,
+            -0.49900001287460327,
+            0.004827945958822966
+          ],
+          [
+            3.8756654262542725,
+            0.44534844160079956,
+            8.87669849395752
+          ]
+        ],
+        "dimensions_gltf": [
+          7.751344680786133,
+          8.871870547998697,
+          0.9443484544754028
+        ]
+      }
+    ],
+    "Pillar": [
+      {
+        "lod": 0,
+        "triangles": 1192,
+        "vertices": 628,
+        "bounds_blender": [
+          [
+            -0.34999990463256836,
+            -0.44999998807907104,
+            0
+          ],
+          [
+            0.34999990463256836,
+            0.44999998807907104,
+            5.199999809265137
+          ]
+        ],
+        "dimensions_gltf": [
+          0.6999998092651367,
+          5.199999809265137,
+          0.8999999761581421
+        ]
+      },
+      {
+        "lod": 1,
+        "triangles": 592,
+        "vertices": 328,
+        "bounds_blender": [
+          [
+            -0.34999990463256836,
+            -0.44999998807907104,
+            0
+          ],
+          [
+            0.34999990463256836,
+            0.44999998807907104,
+            5.199999809265137
+          ]
+        ],
+        "dimensions_gltf": [
+          0.6999998092651367,
+          5.199999809265137,
+          0.8999999761581421
+        ]
+      },
+      {
+        "lod": 2,
+        "triangles": 232,
+        "vertices": 148,
+        "bounds_blender": [
+          [
+            -0.3440973162651062,
+            -0.4490000009536743,
+            0.005446858238428831
+          ],
+          [
+            0.34493282437324524,
+            0.44458842277526855,
+            5.192735195159912
+          ]
+        ],
+        "dimensions_gltf": [
+          0.6890301406383514,
+          5.187288336921483,
+          0.8935884237289429
+        ]
+      }
+    ],
+    "Trim": [
+      {
+        "lod": 0,
+        "triangles": 592,
+        "vertices": 316,
+        "bounds_blender": [
+          [
+            -1,
+            -0.2849999964237213,
+            0
+          ],
+          [
+            1,
+            0.2150000035762787,
+            0.34999990463256836
+          ]
+        ],
+        "dimensions_gltf": [
+          2,
+          0.34999990463256836,
+          0.5
+        ]
+      },
+      {
+        "lod": 1,
+        "triangles": 292,
+        "vertices": 166,
+        "bounds_blender": [
+          [
+            -1,
+            -0.2849999964237213,
+            0
+          ],
+          [
+            1,
+            0.2150000035762787,
+            0.34999990463256836
+          ]
+        ],
+        "dimensions_gltf": [
+          2,
+          0.34999990463256836,
+          0.5
+        ]
+      },
+      {
+        "lod": 2,
+        "triangles": 112,
+        "vertices": 76,
+        "bounds_blender": [
+          [
+            -0.9962638020515442,
+            -0.28076764941215515,
+            0.0037360810674726963
+          ],
+          [
+            0.9954333305358887,
+            0.2112879753112793,
+            0.34407979249954224
+          ]
+        ],
+        "dimensions_gltf": [
+          1.9916971325874329,
+          0.34034371143206954,
+          0.49205562472343445
+        ]
+      }
+    ]
+  },
+  "triangles_targets": {
+    "Arch": [
+      6000,
+      3000,
+      1200
+    ],
+    "Pillar": [
+      1200,
+      600,
+      240
+    ],
+    "Trim": [
+      600,
+      300,
+      120
+    ]
+  },
+  "material_count": 1,
+  "texture_sizes": {
+    "basecolor": 512,
+    "normal": 512,
+    "orm": 512
+  },
+  "source_basecolor_px": 2048,
+  "estimatedRgbaMipBytes": 4194304,
+  "root": "AshenArchitectureKit",
+  "up": "+Y",
+  "front": "+Z",
+  "units": "metres",
+  "module_pivots": "base centre; all runtime module nodes use native local coordinates",
+  "clearance": [
+    6,
+    6.8
+  ],
+  "review_layout_only": {
+    "Arch": [
+      0,
+      0,
+      0
+    ],
+    "Pillar": [
+      5.300000190734863,
+      0,
+      0
+    ],
+    "Trim": [
+      5.300000190734863,
+      0,
+      5.699999809265137
+    ]
+  },
+  "local_derivation": "Outward-normal repair, selected-to-active PBR bake, one shared atlas, nine LOD meshes, source review transforms removed. No lights or camera in runtime.",
+  "variants": [
+    {
+      "lod": "combined",
+      "file": "architecture-kit.glb",
+      "fallback": "architecture-kit-fallback.glb",
+      "bytes": 1013076,
+      "fallbackBytes": 1108388,
+      "sha256": "bbec76f1153187abf396336642a0f2a29a33e401f81de3ebdf5155029b523f31",
+      "fallbackSha256": "d8cc29ab074cdcc116b74c79fdd51b756742eb492a860276fe350bd589446429",
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "fallbackValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          }
+        ],
+        "truncated": false
+      }
+    }
+  ],
+  "mobileEstimatedRgba8MipBytes": 4194304,
+  "primary": {
+    "lod": "combined",
+    "file": "architecture-kit.glb",
+    "fallback": "architecture-kit-fallback.glb",
+    "bytes": 1013076,
+    "fallbackBytes": 1108388,
+    "sha256": "bbec76f1153187abf396336642a0f2a29a33e401f81de3ebdf5155029b523f31",
+    "fallbackSha256": "d8cc29ab074cdcc116b74c79fdd51b756742eb492a860276fe350bd589446429",
+    "validation": {
+      "numErrors": 0,
+      "numWarnings": 6,
+      "numInfos": 5,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/2"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/0/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/1/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/2/mimeType"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/1"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/2"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/0"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/1"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/2"
+        }
+      ],
+      "truncated": false
+    },
+    "fallbackValidation": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        }
+      ],
+      "truncated": false
+    }
+  },
+  "compression": "EXT_meshopt_compression; ETC1S base color, UASTC normal and ORM, complete mipmaps; PNG fallback with meshopt"
+}

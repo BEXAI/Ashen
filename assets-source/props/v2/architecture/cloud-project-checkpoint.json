@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "exists": true,
+  "project": {
+    "projectId": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+    "revision": 1,
+    "sceneSequence": 0,
+    "appliedSceneSequence": 0,
+    "activeOperationId": null,
+    "artifacts": {
+      "projectId": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+      "revision": 1,
+      "blend": {
+        "size": 1406322,
+        "etag": "0fc730636b0ea3b923a2cc007081117e"
+      },
+      "glb": {
+        "size": 660968,
+        "etag": "34cda7e26035a667bb3929450da778f8"
+      },
+      "generated": [
+        {
+          "size": 517166,
+          "etag": "44f2781ad1697d7699203c89deb7d9b1",
+          "id": "59f51723c7d8bc8d375476acf4cf495d",
+          "name": "architecture-source-review.png",
+          "mediaType": "image/png",
+          "width": 768,
+          "height": 640
+        }
+      ]
+    },
+    "createdAt": "2026-09-09T22:53:22.759Z",
+    "updatedAt": "2026-09-09T22:53:58.357Z"
+  },
+  "projectUrl": "https://higgsfield.ai/3d-jutsu/1d6dfef7-341a-43ea-bb7f-c5b7f36b4292"
+}

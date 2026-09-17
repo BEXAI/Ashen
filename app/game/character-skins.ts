@@ -2,13 +2,14 @@ import * as T from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 export type SkinId='ash-knight'|'crypt-warden'|'ember-sovereign';
-export type Actor={group:T.Group,body:T.Group,torso:T.Group,legs:T.Group[],knees:T.Group[],arms:T.Group[],elbows:T.Group[],wrists:T.Group[],sword:T.Group,cape:T.Mesh,eye:T.Mesh};
+export type ActorVisual={beginFrame:()=>void;present:(dt:number,ground:number,reducedMotion:boolean)=>void;resetPresentation:()=>void;strike:(strike:import('./combat').Strike,elapsed:number)=>void;locomotion:(time:number,moving:number)=>void;reaction:(kind:'hit'|'dodge'|'death',elapsed:number)=>void;lod:(distance:number,pixels:number)=>void;segment:(base:T.Vector3,tip:T.Vector3)=>void;dispose:()=>void};
+export type Actor={group:T.Group,body:T.Object3D,torso:T.Object3D,legs:T.Object3D[],knees:T.Object3D[],arms:T.Object3D[],elbows:T.Object3D[],wrists:T.Object3D[],sword:T.Object3D,cape:T.Mesh,eye:T.Mesh,visual?:ActorVisual};
 type Family='steel'|'hide'|'obsidian'|'bone'|'cloth'|'mail';
 export const SKIN_SOURCE='a4887158-9444-42f8-9573-ce2581d8495e';
 
 // These are articulated, full-volume reconstructions of the Higgsfield sheet.
 // Body parts are merged per joint/material to keep mobile draw calls bounded.
-export function knight(enemy=false,boss=false):Actor {
+export function knight(enemy=false,boss=false,authoringDetail=false):Actor {
  const id:SkinId=boss?'ember-sovereign':enemy?'crypt-warden':'ash-knight';
  const monster=enemy&&!boss;
  const group=new T.Group(),body=new T.Group();group.add(body);group.name=id;group.userData.skin=id;
@@ -27,17 +28,20 @@ export function knight(enemy=false,boss=false):Actor {
  function mesh(g:T.BufferGeometry,m:T.Material,x:number,y:number,z:number,sx=1,sy=1,sz=1,parent:T.Object3D=body){
   const o=new T.Mesh(g,m);o.position.set(x,y,z);o.scale.set(sx,sy,sz);o.castShadow=true;o.receiveShadow=true;parent.add(o);return o;
  }
- function oval(m:T.Material,x:number,y:number,z:number,sx:number,sy:number,sz:number,parent:T.Object3D=body){return mesh(new T.SphereGeometry(1,16,12),m,x,y,z,sx,sy,sz,parent);}
+ function oval(m:T.Material,x:number,y:number,z:number,sx:number,sy:number,sz:number,parent:T.Object3D=body){return mesh(new T.SphereGeometry(1,authoringDetail?24:16,authoringDetail?16:12),m,x,y,z,sx,sy,sz,parent);}
  function rod(m:T.Material,a:number[],b:number[],r:number,parent:T.Object3D=body,tip=r){
   const start=new T.Vector3(...a),end=new T.Vector3(...b),d=end.clone().sub(start);
-  const o=mesh(new T.CylinderGeometry(tip,r,d.length(),6),m,...start.clone().add(end).multiplyScalar(.5).toArray(),1,1,1,parent);
+  const o=mesh(new T.CylinderGeometry(tip,r,d.length(),authoringDetail?8:6),m,...start.clone().add(end).multiplyScalar(.5).toArray(),1,1,1,parent);
   o.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),d.normalize());return o;
  }
  function plate(m:T.Material,points:number[][],x:number,y:number,z:number,parent:T.Object3D=body,depth=.055){
   const s=new T.Shape(points.map(p=>new T.Vector2(p[0],p[1])));s.closePath();
-  const g=new T.ExtrudeGeometry(s,{depth,bevelEnabled:true,bevelSize:.022,bevelThickness:.014,bevelSegments:1,steps:1});
+  const g=new T.ExtrudeGeometry(s,{depth,bevelEnabled:true,bevelSize:.022,bevelThickness:.014,bevelSegments:authoringDetail?3:1,steps:1});
   g.computeBoundingBox();const box=g.boundingBox!,uv=g.attributes.uv,pos=g.attributes.position;
   for(let i=0;i<pos.count;i++)uv.setXY(i,(pos.getX(i)-box.min.x)/Math.max(.01,box.max.x-box.min.x),(pos.getY(i)-box.min.y)/Math.max(.01,box.max.y-box.min.y));
+  if(authoringDetail&&m===armor&&!monster){
+   for(const [px,py]of points.filter((_,i)=>i%2===0))mesh(new T.SphereGeometry(.012,6,4),trim,x+px*.8,y+py*.8,z+depth+.008,1,1,.45,parent);
+  }
   return mesh(g,m,x,y,z,1,1,1,parent);
  }
  // Anatomical torso, collar, pelvis and back remain fully modeled from every angle.
@@ -48,7 +52,11 @@ export function knight(enemy=false,boss=false):Actor {
    oval(armor,side*.17,1.78,.09,.23,.18,.18);
    for(let i=0;i<4;i++)oval(armor,side*.09,1.55-i*.105,.18,.11,.073,.065);
    for(let i=0;i<5;i++){
-    const y=1.91-i*.13;rod(bone,[side*.015,y,.245],[side*(.22+Math.sin(i*.7)*.08),y-.09,.25],.035);
+    const y=1.91-i*.13;
+    if(authoringDetail){
+     const curve=new T.CatmullRomCurve3([new T.Vector3(side*.015,y,.245),new T.Vector3(side*.17,y-.04,.31),new T.Vector3(side*(.22+Math.sin(i*.7)*.08),y-.09,.21)]);
+     mesh(new T.TubeGeometry(curve,8,.029,6,false),bone,0,0,0);
+    }else rod(bone,[side*.015,y,.245],[side*(.22+Math.sin(i*.7)*.08),y-.09,.25],.035);
    }
    rod(bone,[side*.26,1.0,.13],[side*.36,1.25,.03],.055,body,.008);
   }
@@ -148,7 +156,11 @@ export function knight(enemy=false,boss=false):Actor {
  }
  // Torn silhouette is geometry, not transparency: stable shadows and no alpha sorting.
  const capeGeometry=new T.PlaneGeometry(.79,1.5,10,14),pos=capeGeometry.attributes.position;
- for(let i=0;i<pos.count;i++){if(pos.getY(i)<-.73)pos.setY(i,pos.getY(i)+(.07+.13*(Math.sin(i*7.1)*.5+.5)));}
+ for(let i=0;i<pos.count;i++){
+  if(pos.getY(i)<-.73)pos.setY(i,pos.getY(i)+(.07+.13*(Math.sin(i*7.1)*.5+.5)));
+  if(authoringDetail)pos.setZ(i,Math.sin(pos.getX(i)*34)*.035*(1.05-pos.getY(i)*.4));
+ }
+ capeGeometry.computeVertexNormals();
  const cape=mesh(capeGeometry,cloth,0,1.48,-.285);cape.rotation.x=.12;cape.visible=!monster;
  if(!monster){
   for(const side of [-1,1])plate(armor,[[0,.14],[side*.26,.1],[side*.29,-.33],[side*.1,-.4],[0,-.25]],side*.08,1.02,.21);

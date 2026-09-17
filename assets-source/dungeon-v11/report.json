@@ -1,0 +1,899 @@
+{
+  "sourceManifest": "/Users/nathaniel/Documents/ChatGPT/Knight/game/public/assets/dungeon/v10/manifest.json",
+  "sourceManifestSha256": "e37cc65e4ffe4846b74819f4ff2337486603e7d653ae3be384d15b78cc56340c",
+  "method": "Floor texel world-position irradiance, one shared 54-panel fixed-torch field and 24-ray geometric visibility. Existing UV1 and room GLBs unchanged. Only floor-chart interiors and their original six-step owned padding updated. Non-floor interiors, non-floor padding and background remain exact.",
+  "units": "linear RGB8 irradiance",
+  "notPathTraced": true,
+  "panels": 54,
+  "fixedLights": 11,
+  "rooms": [
+    {
+      "id": "entry",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/entry-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/entry-indirect.png",
+      "oldLightmapSha256": "ac44c6df9b1d8683e7042bad87c3aa9e959599a599fd330562d4cedc11b248f7",
+      "newLightmapSha256": "0d8520019be6fc79a654c44878665d3aca230880347a528667a77eabfddd7214",
+      "newLightmapBytes": 147824,
+      "roomGlbSha256": "2311acf53d16587ead9c66d7e60533643b89692721a66ec81e757d1a8c1c8db3",
+      "uv1Hashes": [
+        "1d0597d69751ab76af6456d27f03671a3c15b2b3d7bb6224551ac951b5cd26dd",
+        "e32d6f3baebdeddf7ad8f899a455b078133cd34b5e9e1f71cd251d64d67a5771",
+        "175225a6caf7befbc9252a79cc6ded9c3f8b9346762edea4d14d336053936542",
+        "8ad93845a8940a49f3fc5e3181c176a0d19cbcf2d988bd9aef5aba8eb50aa572",
+        "85e4055729a572700283356b12160ce966f00e68af22fff7d8c4f7ffecd31105",
+        "206598587a017c1317c1ed476bcb0bb676bea02f9fcf8e4f08887019cb14ac75"
+      ],
+      "floorInteriorPixels": 53020,
+      "floorOwnedPaddingPixels": 4877,
+      "changedPixels": 56034,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 53020,
+      "seconds": 3.191
+    },
+    {
+      "id": "cinder",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/cinder-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/cinder-indirect.png",
+      "oldLightmapSha256": "254e7e90254f2d05d3fe4d0d0fcd1e061af9cdf923d636790a87c5f0894d1a4c",
+      "newLightmapSha256": "f382cb2bcbdb6fec801615082b71d421d704e5a8db56a6304d9248360d8cc784",
+      "newLightmapBytes": 140412,
+      "roomGlbSha256": "68d4acc7d7b5c1160874d20c6a85955636ad43df69caaff4575ca570cb6bb227",
+      "uv1Hashes": [
+        "a145011ec84df4673f3d288babb6df149e42ba177c8c8aa935d4b044625eb776",
+        "45f0d351e0b3be08cc861d2b43f416c87df76a19d6c85e7ecbe93299f9dac18b",
+        "4c624e0a3be7beece39efb69505cfb5f5ea5fdbb8b1caf65a20d0c258f544ca5",
+        "09147efd29c824d2fccf1c15aba9cd59856f426db523da8d4a2dd20958628638",
+        "94431a0e295fb7590825cb978ef40add3c601aa16654c20bba5790a1d437c4c0",
+        "eb16cb8d11160b183c13147445c8851f1cc8ea36fe5e9697b4495a2b576ad771",
+        "2b81d26c847e378a4a2e213ae2105a4136c2bb76f8f30099b2f468ff6cd70382",
+        "564fc42813767eb2a3b39425c98a1800651942d1e05f5281653b729795f08de1"
+      ],
+      "floorInteriorPixels": 64240,
+      "floorOwnedPaddingPixels": 5181,
+      "changedPixels": 66732,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 64240,
+      "seconds": 3.502
+    },
+    {
+      "id": "dusk",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/dusk-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/dusk-indirect.png",
+      "oldLightmapSha256": "70ea808cbddeabccd2eda2c401e60968467d62fe1aab31796ff4d8e00898a536",
+      "newLightmapSha256": "3c92c67162da5040191becfda0044b1d1b21cbba19ac5f32c7cee177ffd0c9c5",
+      "newLightmapBytes": 156645,
+      "roomGlbSha256": "d102829b27ed04bd2c45fd6c2cdc559edac23ea1bbb8605cc9933428ef424a53",
+      "uv1Hashes": [
+        "147fb6c718b99ca5598af7afbf8cab34b0b3a6fe14186455b9606c95acc667ed",
+        "398715209dfd06d03b4daeaf72a33fcf3a8e5b5b3d9f1669b21c07cbfe3dafaa",
+        "f48c9c7f5204c5cf0206a8fc87ff4d8d541131d2f10b2c9fb3094b87ec8f9de8",
+        "2698cbe0b2326de62ad0079ab4199be0320e2d2d4d47eecd3118aeb930865d13",
+        "4429f83c3be72e73d87ddebc705ef4323d2e4b094360b2454c3be40ee870d98b",
+        "fb8de68705cf9e68c56cdc760b697e48cde4677536a29c0abecf68347c620722",
+        "648dcdb17aaebd62556c5b54163669dbfad5cd71c6a4ce186654207e3818c711",
+        "eaa5b133bd0f419cc8fee2eff7ba9e5dcc83e245717aad598d45e67a95b2645c",
+        "32f010da045faf3ed1892b226ece622ee74dce064d753ac0ef22be4d929e76a2",
+        "c219e2c4183b34fb3e48fbf27879fde5d07c4f13bf96ae44ca30603f922f3afc"
+      ],
+      "floorInteriorPixels": 63481,
+      "floorOwnedPaddingPixels": 5273,
+      "changedPixels": 66209,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 63481,
+      "seconds": 3.731
+    },
+    {
+      "id": "crown",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/crown-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/crown-indirect.png",
+      "oldLightmapSha256": "2ab87d4b76397290b3feb412e8a7a1d009925acfa4bda0d25250ca2fb5368cd6",
+      "newLightmapSha256": "4f0020b1ccf45033e817d5c1d95f98e68dbe160d314b67c98932afddf9fed871",
+      "newLightmapBytes": 138657,
+      "roomGlbSha256": "d7e13e50865fde0a0a8ac599c57e4fc30f667ac302c663bb8100d3d4480829e8",
+      "uv1Hashes": [
+        "ab9e74d1a3d323697bc5f6224785b574d039e92e206d8e6bf50f8a75e725ac6e",
+        "ceed8bdfa14b7f02992b11e092dd68dc0e8645f6046c127ab9e6c074547f8669",
+        "50f8c02588390c02f88764d1188160ca57425042ad7ce11f682fbb9120f24783",
+        "070afaff31ada5b825e5c4464a4f91b747cf97606b60f8cbdf158db4adfea22e",
+        "f1b881b47e3e74b0ec1b94bb5febb5885894d650235bd40010d64958d7d54511",
+        "d8c6077c76d4d0bceaf20548c442350606fe4f5129d7ea43d9349509b1fa4022",
+        "29d1fd8f98be90033e4b812506235204c0188287a7b707ad06d97ccbe4223822"
+      ],
+      "floorInteriorPixels": 64000,
+      "floorOwnedPaddingPixels": 5278,
+      "changedPixels": 66856,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 64000,
+      "seconds": 3.529
+    },
+    {
+      "id": "throne",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/throne-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/throne-indirect.png",
+      "oldLightmapSha256": "6ea8afe658189a87fe23d130edbc4ae0fbe07f812e88e77e52aacd1c22429a60",
+      "newLightmapSha256": "f4e99a5a5cd008c23065518e99adee8f9f13341a2327c1c060d0a9c93276b157",
+      "newLightmapBytes": 146070,
+      "roomGlbSha256": "aa6f549ed5e600ce19e899583ead89e8ab4a27f7d00d6731a75c0ca77a567b69",
+      "uv1Hashes": [
+        "4c04abc4c5ad4d705d5625919c932768594d5fe0535ff0d5f34d3b18992118af",
+        "b856fb8e09aed96e4b712feb02b18f8126a055dcfe410f9187b8d35916e44858",
+        "7f8515aa76433a644e1b4693cf3bb78cc4e6602421b5f3756d170d5ee62153ff",
+        "5493f1e727ccce1d9f53b9008e567f5d30c8f38a78f95aa36704f8573ad2b62f",
+        "4411040fd666a984b6ff710aef71e09c81dbba45d245264a668d599063f51f39",
+        "88403f3e2530566a26147621e582719faece3751a2dd969054c3806c977c12a0",
+        "d0403242ba5c5b47e769982e7e2c9df24ebcafab2270fb8a25c45d74369b314b",
+        "ba1a2b6d0403ece85bea1109261a3df7587d249842c077b17a6e6e7d79451154",
+        "77a8fb4420f4b66ba1061dad017b216c8f72decb574f07d411d87cd0fe4d5520"
+      ],
+      "floorInteriorPixels": 65310,
+      "floorOwnedPaddingPixels": 5315,
+      "changedPixels": 66467,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 65310,
+      "seconds": 3.363
+    },
+    {
+      "id": "passage-0",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/passage-0-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/passage-0-indirect.png",
+      "oldLightmapSha256": "bfb2525946812b8145e97077a9e3704762d1c3595af52ded779c9bd552b03126",
+      "newLightmapSha256": "6a1a5c975f495f67cb54f3e3e81f75ec078e0ea6a1e013fdb0e16407e88d57be",
+      "newLightmapBytes": 3353,
+      "roomGlbSha256": "149b54f741b2da7c8eeeff060635ff163d8d2dee83eaa31bfe413bde967502b7",
+      "uv1Hashes": [
+        "3a43e4fea68df3eb3fba8d4b4d48f857772a437b9384625a3092ba06a2eff73b",
+        "1028b24bb824ec2ae3dea153884c90260f144b44c2fca937a8be9e26310823bb"
+      ],
+      "floorInteriorPixels": 4095,
+      "floorOwnedPaddingPixels": 1403,
+      "changedPixels": 5462,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 4095,
+      "seconds": 0.237
+    },
+    {
+      "id": "passage-1",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/passage-1-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/passage-1-indirect.png",
+      "oldLightmapSha256": "d0df9c673e1d6ded228cc662a59b84f3bfc6247fa66e5ad37817d4a0a37e63d0",
+      "newLightmapSha256": "a8d57ca2fff7aef6ae81cc0cce3ec9e1664c439e674cc9689eb8e6c9a04a4eef",
+      "newLightmapBytes": 3459,
+      "roomGlbSha256": "d25566a8b8af5bcd7933a96edf9459de4edc6a2f3b4ddb9ba419d131669b8194",
+      "uv1Hashes": [
+        "48d9f71779856b7f27104717015498af799189caa7adf79db919c6ac76a499b0",
+        "cf0e66922598cae2e60eb9914f3f70a8d369e90d803198113e849c425b3ad763"
+      ],
+      "floorInteriorPixels": 4160,
+      "floorOwnedPaddingPixels": 1129,
+      "changedPixels": 5282,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 4160,
+      "seconds": 0.264
+    },
+    {
+      "id": "passage-2",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/passage-2-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/passage-2-indirect.png",
+      "oldLightmapSha256": "7f4b76d6c7826e88c1a45e38fd5c6263f75e05b67627604feb81775be1361c22",
+      "newLightmapSha256": "1ba4695749a13cd4666c9cacbe0dfa5f0ce0654204de9711217dca97fb25e6ce",
+      "newLightmapBytes": 3362,
+      "roomGlbSha256": "0e29153200fb617d141d0f66783be80b98e8a1006ecc7c8943d65b87b8033c10",
+      "uv1Hashes": [
+        "898cbda62ffd95eee68f43ec0a023baed207d1a8bf412952a0ed9d5f1943f6ef",
+        "69919697e8427b6809e53cb262b58c6a530f985169c36a5d74b8e0273b3b274f"
+      ],
+      "floorInteriorPixels": 4224,
+      "floorOwnedPaddingPixels": 1073,
+      "changedPixels": 5271,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 4225,
+      "seconds": 0.263
+    },
+    {
+      "id": "passage-3",
+      "output": "/private/tmp/ashen-floor-rebake/lightmaps/passage-3-indirect.png",
+      "oldLightmap": "/assets/dungeon/v9/passage-3-indirect.png",
+      "oldLightmapSha256": "cebf57a3e1b441d5c6a2f88de0a00dc84b5367b68a4f653b5cf1408b57d36e38",
+      "newLightmapSha256": "f4a44e27897ad111c26e21f2e57a46406cb9f32972097df8bde2427658d6de32",
+      "newLightmapBytes": 3369,
+      "roomGlbSha256": "a8e1642fef21c4a09b6b8ccea28f9c7d5c1adf6e22729698cc604b014eab6f14",
+      "uv1Hashes": [
+        "ddb64018d62b3951dce13e84c53781b78d0ed7b92d049e62827f50ab16c4e66e",
+        "0ead2d5b43a0bc1f1ef660d1661c7c8bd28a01f0bbdfd16de9dd559f1d82f323"
+      ],
+      "floorInteriorPixels": 4218,
+      "floorOwnedPaddingPixels": 1445,
+      "changedPixels": 5612,
+      "protectedPixelsChanged": 0,
+      "alphaPixelsChanged": 0,
+      "texelSamples": 4218,
+      "seconds": 0.275
+    }
+  ],
+  "joins": [
+    {
+      "a": "entry",
+      "b": "passage-0",
+      "x": -2,
+      "z": 38,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        10
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "entry",
+      "b": "passage-0",
+      "x": 0,
+      "z": 38,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        10
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "entry",
+      "b": "passage-0",
+      "x": 2,
+      "z": 38,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        9
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-0",
+      "b": "cinder",
+      "x": -2,
+      "z": 32,
+      "oldA": [
+        7,
+        8,
+        10
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-0",
+      "b": "cinder",
+      "x": 0,
+      "z": 32,
+      "oldA": [
+        7,
+        8,
+        10
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-0",
+      "b": "cinder",
+      "x": 2,
+      "z": 32,
+      "oldA": [
+        7,
+        8,
+        9
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    },
+    {
+      "a": "cinder",
+      "b": "passage-1",
+      "x": -2,
+      "z": 8,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        10
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "cinder",
+      "b": "passage-1",
+      "x": 0,
+      "z": 8,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        10
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "cinder",
+      "b": "passage-1",
+      "x": 2,
+      "z": 8,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        9
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-1",
+      "b": "dusk",
+      "x": -2,
+      "z": 2,
+      "oldA": [
+        7,
+        8,
+        10
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-1",
+      "b": "dusk",
+      "x": 0,
+      "z": 2,
+      "oldA": [
+        7,
+        8,
+        10
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-1",
+      "b": "dusk",
+      "x": 2,
+      "z": 2,
+      "oldA": [
+        7,
+        8,
+        9
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    },
+    {
+      "a": "dusk",
+      "b": "passage-2",
+      "x": -2,
+      "z": -22,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        10
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "dusk",
+      "b": "passage-2",
+      "x": 0,
+      "z": -22,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        10
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "dusk",
+      "b": "passage-2",
+      "x": 2,
+      "z": -22,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        9
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-2",
+      "b": "crown",
+      "x": -2,
+      "z": -28,
+      "oldA": [
+        7,
+        8,
+        10
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-2",
+      "b": "crown",
+      "x": 0,
+      "z": -28,
+      "oldA": [
+        7,
+        8,
+        10
+      ],
+      "oldB": [
+        10,
+        12,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-2",
+      "b": "crown",
+      "x": 2,
+      "z": -28,
+      "oldA": [
+        7,
+        8,
+        9
+      ],
+      "oldB": [
+        10,
+        12,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    },
+    {
+      "a": "crown",
+      "b": "passage-3",
+      "x": -2,
+      "z": -48,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        10
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "crown",
+      "b": "passage-3",
+      "x": 0,
+      "z": -48,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        10
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "crown",
+      "b": "passage-3",
+      "x": 2,
+      "z": -48,
+      "oldA": [
+        10,
+        11,
+        13
+      ],
+      "oldB": [
+        7,
+        8,
+        9
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-3",
+      "b": "throne",
+      "x": -2,
+      "z": -56,
+      "oldA": [
+        7,
+        8,
+        10
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-3",
+      "b": "throne",
+      "x": 0,
+      "z": -56,
+      "oldA": [
+        7,
+        8,
+        10
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 3,
+      "newDelta": 0
+    },
+    {
+      "a": "passage-3",
+      "b": "throne",
+      "x": 2,
+      "z": -56,
+      "oldA": [
+        7,
+        8,
+        9
+      ],
+      "oldB": [
+        10,
+        11,
+        13
+      ],
+      "newA": [
+        11,
+        12,
+        14
+      ],
+      "newB": [
+        11,
+        12,
+        14
+      ],
+      "oldDelta": 4,
+      "newDelta": 0
+    }
+  ],
+  "maxJoinDeltaBefore": 4,
+  "maxJoinDeltaAfter": 0,
+  "outputManifestSha256": "2ba01ae1e8622690d353fc37b7eda0bd5e6e0c2090f4dab43da1330132feddfa",
+  "rebuildScriptSha256": "0f056157d1bddefedd208bc5de7020294472ce78b69952a284846a0115562b44"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "knife-rogue",
+  "originalArtwork": {
+    "assetId": "3e01be62-ba68-4862-84c2-91f017008f6b",
+    "filename": "hf_20260909_002155_3e01be62-ba68-4862-84c2-91f017008f6b.png",
+    "sha256": "0bde5d642935f9ab3e976fc58c99b07e47c19cf671eb0f6f686c992b28730010",
+    "bytes": 5099615,
+    "screenshot": {
+      "row": 3,
+      "column": 3,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": true,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "20de3bad-38a4-4094-8860-ed9a36da7e7b",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043253_20de3bad-38a4-4094-8860-ed9a36da7e7b.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "8450d184-81d6-4d89-a2a2-8362733d8c6e",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/8450d184-81d6-4d89-a2a2-8362733d8c6e_resize.jpg"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/knife-rogue-original.glb",
+    "bytes": 6498160,
+    "sha256": "b07c6573bd2904e36da7195b6bf754164cb19424850c6e8249f85a5ac17c76af"
+  },
+  "attackStyle": "blade",
+  "attackAliasPolicy": "Four distinct native sword clips",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

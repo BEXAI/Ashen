@@ -1,0 +1,220 @@
+{
+  "asset_id": "A02_ember_shrine",
+  "status": "reviewed ready for integration",
+  "recorded_at_utc": "2026-09-09T22:56:34.017568+00:00",
+  "workspace": {
+    "id": "bdeb1056-93d9-4c2d-8b80-389d588bab2f",
+    "selected": true,
+    "private": true,
+    "owned": true,
+    "plan": "ultimate"
+  },
+  "authorization": {
+    "total_higgsfield_credit_ceiling": 1000,
+    "scope": "shared across all authorized asset jobs",
+    "max_authoring_attempts_per_asset": 2,
+    "a02_authoring_attempts_used": 1,
+    "no_catalog_or_external_inputs": true
+  },
+  "credits": {
+    "before_project_creation": 4113.5,
+    "after_project_creation_before_authoring": 4113.5,
+    "after_terminal_authoring": 4113.5,
+    "after_terminal_checked_utc": "2026-09-09T22:31:12Z",
+    "observed_asset_debit": 0,
+    "prior_sconce_pilot_observed_debit": 0,
+    "interpretation": "Observed balance delta, not quoted operation price or promise of free subsequent jobs. Shared budget owner tracks other assets.",
+    "serialized_handoff": "A03 agent notified only after operation terminal and fresh after-balance checkpoint."
+  },
+  "cloud": {
+    "project_id": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+    "project_url": "https://higgsfield.ai/3d-jutsu/02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+    "revision": 1,
+    "scene_sequence": 0,
+    "active_operation_id_after_completion": null,
+    "operation_id": "9ab62b77-22eb-4ed8-9ca4-738d995312f1",
+    "status": "succeeded",
+    "created_at": "2026-09-09T22:28:09.067Z",
+    "started_at": "2026-09-09T22:28:09.102Z",
+    "finished_at": "2026-09-09T22:28:59.646Z",
+    "artifacts": {
+      "projectId": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+      "revision": 1,
+      "blend": {
+        "size": 1215694,
+        "etag": "7d73dce7a58a807015cfc49a0b21f7d1"
+      },
+      "glb": {
+        "size": 471572,
+        "etag": "c36f1d8ad9dbc0ff72ea2a28a84e9a27"
+      },
+      "generated": [
+        {
+          "size": 683261,
+          "etag": "aabe4aed14a0f7f62d567e94fa6a0bb3",
+          "id": "9832a65c1649cce7c47370fbf27f6fda",
+          "name": "ember-shrine-source-review.png",
+          "mediaType": "image/png",
+          "width": 768,
+          "height": 768
+        }
+      ]
+    },
+    "exact_operation_record": "cloud-operation.json"
+  },
+  "source": {
+    "authorship": "Original assistant-authored bpy geometry and procedural materials created in the user-owned Higgsfield project; no external mesh/texture/catalog/reference inputs.",
+    "author_code": {
+      "file": "author_shrine.py",
+      "bytes": 11631,
+      "sha256": "14cdf94069b96ebd611030f6cb7060a709749390afda21895afaaf71141b3bd6"
+    },
+    "committed_blend": {
+      "file": "cloud-source.blend",
+      "bytes": 1215694,
+      "sha256": "2e56d09f9cbd046bd3ae1ca03f2af5b872160c1ecd85d8f20620d00332683562"
+    },
+    "committed_glb": {
+      "file": "cloud-source.glb",
+      "bytes": 471572,
+      "sha256": "d827cba2b617c3f71f7841cfef99e460d14bac951c393e0374cd586f002a1467"
+    },
+    "committed_render": {
+      "file": "cloud-source-review.png",
+      "bytes": 683261,
+      "sha256": "ea26b1e297885c42aca41242d306c4a0719b988cda2c7495f38b25144fbc1a3e"
+    },
+    "mesh_parts": 63,
+    "evaluated_triangles": 8128,
+    "source_glb_limitation": "Procedural shader texture appearance is absent from raw cloud GLB. Runtime appearance comes from PBR bake of the committed blend, and actual GLB reimport was reviewed."
+  },
+  "rights": {
+    "checked_at": "2026-09-09",
+    "terms_url": "https://higgsfield.ai/terms-of-use-agreement",
+    "terms_section": "4.4 User Inputs and Outputs",
+    "help_url": "https://higgsfield.ai/creator-hub/help-center/account/who-owns-my-generations-and-can-i-use-them-commercially",
+    "summary": "Higgsfield does not claim ownership of inputs/outputs or restrict commercial use of outputs; exported rights survive subscription cancellation/account deletion. Terms do not guarantee uniqueness or exclusive copyright.",
+    "external_asset_licenses": []
+  },
+  "derivative": {
+    "primary": {
+      "file": "ember-shrine.glb",
+      "fallback": "ember-shrine-fallback.glb",
+      "bytes": 940320,
+      "fallbackBytes": 1512056,
+      "sha256": "115c44ab0f78481a1c41441ed494055ab84d61b2cb2b49cebcd2e8049efb05a3",
+      "fallbackSha256": "cda732bca2c650ccf3886015eee6d27e6ab6c0f2b453feffcb593b2e95d5c50f"
+    },
+    "baked_workfile": {
+      "file": "shrine-baked-workfile.blend",
+      "bytes": 5162121,
+      "sha256": "f5b3aa7650d5df4c6df0c1b753f42e4dcafff3b1b4488d532ff99814eb447b55"
+    },
+    "png_master": {
+      "file": "shrine-combined-baked.glb",
+      "bytes": 4495640,
+      "sha256": "b60f9964d1bf8665c9b7043a0c34f59805d7d676f7306f65ac976966deca4297"
+    },
+    "recipes": [
+      {
+        "file": "prepare_runtime.py",
+        "bytes": 10074,
+        "sha256": "72b6929f1fa8870ce81fed9a2846599ea970f3bb56c2d219a8b3f3386498d92a"
+      },
+      {
+        "file": "package_runtime.mjs",
+        "bytes": 5974,
+        "sha256": "f6a4ff1eb10b104477830468ada9a054582ec03c8969efc5956907273a876015"
+      },
+      {
+        "file": "validate_runtime.mjs",
+        "bytes": 6790,
+        "sha256": "416bd401bdbeacd7fcce72eb37a59d2926562e720f1bbfd95a997d714f7cbfc1"
+      },
+      {
+        "file": "render_runtime.py",
+        "bytes": 2050,
+        "sha256": "840819851322f6991fa4d55b1fafbc6bd4a48332b9060040950742123ac297a5"
+      },
+      {
+        "file": "finalize_ledger.py",
+        "bytes": 7327,
+        "sha256": "627a25dcbd93b4ef8d5546934db4baeb81b8b716a6960a996385302ebf9a951b"
+      }
+    ],
+    "tool_versions": {
+      "blender": "5.2.1 LTS",
+      "@gltf-transform/core": "4.5.0",
+      "@gltf-transform/functions": "4.5.0",
+      "@gltf-transform/extensions": "4.5.0",
+      "meshoptimizer": "0.22.0",
+      "sharp": "0.35.4",
+      "gltf-validator": "2.0.0-dev.3.10"
+    },
+    "runtime_materials": 2,
+    "shared_runtime_textures": 4,
+    "lod_triangles": [
+      5936,
+      2944,
+      1134
+    ],
+    "draws_per_selected_lod": 2,
+    "anchors": {
+      "Ground": [
+        0,
+        0,
+        0
+      ],
+      "FlameOrigin": [
+        0,
+        1.9,
+        0
+      ],
+      "LightOrigin": [
+        0,
+        2.2,
+        0
+      ],
+      "EmberCore": [
+        0,
+        1.54,
+        0
+      ]
+    },
+    "lights": 0,
+    "rgba8_mip_memory_estimate_bytes": 8738133.333333334
+  },
+  "validation": {
+    "geometry_equal_across_variants": true,
+    "geometry_sha256": "00f1add258cf73eaeefa3445fe657753ddf90ead945d62c490b163b6abe750a3",
+    "decoded_gltf_errors": 0,
+    "decoded_gltf_warnings": 0,
+    "encoded_compressed_errors": 0,
+    "encoded_compressed_warnings": 6,
+    "encoded_warning_explanation": "Installed glTF validator does not recognize KTX2 MIME/format (six warnings) or Meshopt/Basisu extensions (infos). Actual decoded derivatives both validate cleanly.",
+    "audit": "final-export-audit.json",
+    "runtime_manifest": "runtime-manifest.json",
+    "texture_mae_8bit": {
+      "shrine_normal": 0.2299524943033854,
+      "shrine_orm": 0.34190622965494794,
+      "shrine_basecolor": 1.3624512354532878,
+      "shrine_emissive": 0
+    }
+  },
+  "visual_qa": {
+    "reviewed": [
+      "cloud-source-review.png",
+      "cloud-glb-review.png",
+      "baked-lod0-review.png",
+      "fallback-lod0-review.png",
+      "compressed-lod0-review.png",
+      "compressed-lod1-review.png",
+      "compressed-lod2-review.png",
+      "compressed-cyan-review.png",
+      "compressed-off-review.png"
+    ],
+    "result": "Portable compressed and PNG exports preserve layered stone and forged rim; lower LODs retain silhouette, with coarse LOD2 reserved for distance. Cyan/off tests preserve stone and control only emissive surfaces.",
+    "connector_limitation": "query_python and show_scene were not exposed. No claim to have used them. Actual source download, remote generated preview, operation metadata and local actual-export reimports were inspected.",
+    "integration_qa": "Game/browser/mobile performance validation belongs to integrating task; this package makes no phone performance claim."
+  }
+}

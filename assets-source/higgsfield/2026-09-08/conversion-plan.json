@@ -1,0 +1,781 @@
+{
+  "sourceDate": "2026-09-08",
+  "timezone": "America/New_York",
+  "sourceCount": 17,
+  "heroCount": 6,
+  "enemyCount": 10,
+  "items": [
+    {
+      "id": "crown-film",
+      "role": "video",
+      "enemySlot": null,
+      "sourceAssetId": "cd11e563-5606-4af2-8658-45398c183f8b",
+      "sourceFile": "hf_20260909_032153_cd11e563-5606-4af2-8658-45398c183f8b.mp4",
+      "sourceSha256": "5ac12633110ddcb26717caf176a2d55c73d88bb7a47f5bd363bd4156d5f31d5a",
+      "screenshot": {
+        "row": 1,
+        "column": 1,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "original",
+      "generationJobId": null,
+      "rig": null
+    },
+    {
+      "id": "golem",
+      "role": "enemy",
+      "enemySlot": "w7",
+      "sourceAssetId": "496924e4-b505-4aab-8808-2cded9eb400a",
+      "sourceFile": "hf_20260909_023557_496924e4-b505-4aab-8808-2cded9eb400a.png",
+      "sourceSha256": "5b42fe845f747eac1b857caa84a8e08e0a7f4bb424c6161d297653ae8b90eca5",
+      "screenshot": {
+        "row": 1,
+        "column": 2,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "d8839a17-0927-47d5-9b69-a34d94da07a3",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043158_d8839a17-0927-47d5-9b69-a34d94da07a3.glb",
+      "modelCheckedAt": "2026-09-17T04:40:41.287949+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/54724561-965e-413c-8177-1a5491a40831.png"
+      ],
+      "modelFile": "models/golem-original.glb",
+      "modelBytes": 7828276,
+      "modelSha256": "b6399d9587b7f9376e6db452df29a2662c9433b8a1b8c14f48a8f4fda360b114",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "496924e4-b505-4aab-8808-2cded9eb400a",
+      "runtimeManifestEntry": "golem",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/golem.json"
+    },
+    {
+      "id": "shrouded-skeleton",
+      "role": "enemy",
+      "enemySlot": "w3",
+      "sourceAssetId": "a732cfc0-9551-4032-ba6e-72459f309878",
+      "sourceFile": "hf_20260909_023556_a732cfc0-9551-4032-ba6e-72459f309878.png",
+      "sourceSha256": "00691bd5f48225aab4f599a20cf9b2aeb5bce0042c97d1e283b86d8546453826",
+      "screenshot": {
+        "row": 1,
+        "column": 3,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "f7eb414a-4da6-4cc1-86e2-ad1ca13b8419",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043203_f7eb414a-4da6-4cc1-86e2-ad1ca13b8419.glb",
+      "modelCheckedAt": "2026-09-17T04:41:42.712717+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/bc73d694-d690-407f-9591-d2a140e984c9.png"
+      ],
+      "modelFile": "models/shrouded-skeleton-original.glb",
+      "modelBytes": 6277884,
+      "modelSha256": "c4a9dbc801d944f059361b1475d967db4b7f46dce780045ded3ede9f6d62b840",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "a732cfc0-9551-4032-ba6e-72459f309878",
+      "runtimeManifestEntry": "shrouded-skeleton",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/shrouded-skeleton.json"
+    },
+    {
+      "id": "lion-knight",
+      "role": "hero",
+      "enemySlot": null,
+      "sourceAssetId": "db95c2d3-580c-43c5-ab3b-58ee75def5cb",
+      "sourceFile": "hf_20260909_023256_db95c2d3-580c-43c5-ab3b-58ee75def5cb.png",
+      "sourceSha256": "faac96203fb4585a9ff6581aab8d1b4fc3135eaf3e89f1b4503eb1c7c3481348",
+      "screenshot": {
+        "row": 1,
+        "column": 4,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "0f7084b7-687c-4fb0-8b5e-93a2f2043e06",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043210_0f7084b7-687c-4fb0-8b5e-93a2f2043e06.glb",
+      "modelCheckedAt": "2026-09-17T04:42:39.657414+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/00e140d9-3519-49b7-a9c9-64a733538885.png"
+      ],
+      "modelFile": "models/lion-knight-original.glb",
+      "modelBytes": 6761660,
+      "modelSha256": "47bc1eec06aad04fe3fb6928251150c0593d73db3a513ec756716aae7d4859f4",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "db95c2d3-580c-43c5-ab3b-58ee75def5cb",
+      "runtimeManifestEntry": "lion-knight",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/lion-knight.json"
+    },
+    {
+      "id": "frost-mage",
+      "role": "enemy",
+      "enemySlot": "w5",
+      "sourceAssetId": "6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7",
+      "sourceFile": "hf_20260909_023256_6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7.png",
+      "sourceSha256": "a8c1ddac5168dfa7a32a7fe9f162aedbfe33cc7e40fee23e95e9368618c5184b",
+      "screenshot": {
+        "row": 1,
+        "column": 5,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "d5c241fb-6630-4036-8151-6e65273275da",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043213_d5c241fb-6630-4036-8151-6e65273275da.glb",
+      "modelCheckedAt": "2026-09-17T04:39:36.627914+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/11fb32a4-3bd1-4859-a267-bc82eee58de5.png"
+      ],
+      "modelFile": "models/frost-mage-original.glb",
+      "modelBytes": 6543952,
+      "modelSha256": "5ab95761b8c9abf7d3253123ebd42a3cb492d8560538152fd92dd8f2efd2d3ab",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7",
+      "runtimeManifestEntry": "frost-mage",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/frost-mage.json"
+    },
+    {
+      "id": "ember-dragon",
+      "role": "enemy",
+      "enemySlot": "king",
+      "sourceAssetId": "5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd",
+      "sourceFile": "hf_20260909_023256_5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd.png",
+      "sourceSha256": "6c41d87ff64578b5a1f7d1b3e17b3257e1857fe2adad1e95a4d822fc01ac6c18",
+      "screenshot": {
+        "row": 1,
+        "column": 6,
+        "right_edge_partial": true,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "f9bf0f8b-0b14-4126-8401-4d80ada54da8",
+      "rig": "custom-dragon",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043218_f9bf0f8b-0b14-4126-8401-4d80ada54da8.glb",
+      "modelCheckedAt": "2026-09-17T04:40:42.942196+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/492f6f18-c5a6-4c94-b576-e659bf6a95e7.png"
+      ],
+      "modelFile": "models/ember-dragon-original.glb",
+      "modelBytes": 7478836,
+      "modelSha256": "0dd511958cec4311d6d547ba54f94af2ce2122a399f018ced90e18de30e1feb5",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd",
+      "runtimeManifestEntry": "ember-dragon",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/ember-dragon.json"
+    },
+    {
+      "id": "dusk-rogue",
+      "role": "hero",
+      "enemySlot": null,
+      "sourceAssetId": "853d2fdc-06d5-4cfc-888a-ccd2f3d9f202",
+      "sourceFile": "hf_20260909_023256_853d2fdc-06d5-4cfc-888a-ccd2f3d9f202.png",
+      "sourceSha256": "935786186aa5d78ba8400bba624faaccc774dc34a8edca13f3640c3881c6c09b",
+      "screenshot": {
+        "row": 2,
+        "column": 1,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "5bba53b3-04ae-4fb4-a1a3-6214ca9b582b",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043221_5bba53b3-04ae-4fb4-a1a3-6214ca9b582b.glb",
+      "modelCheckedAt": "2026-09-17T04:39:41.596854+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/daf6745d-5cd5-4738-a127-a34cb681d873.png"
+      ],
+      "modelFile": "models/dusk-rogue-original.glb",
+      "modelBytes": 6576644,
+      "modelSha256": "4417bba96464876f18b94ab363a7a6ea40aef660fa297048cd353764ac29f82f",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "853d2fdc-06d5-4cfc-888a-ccd2f3d9f202",
+      "runtimeManifestEntry": "dusk-rogue",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/dusk-rogue.json"
+    },
+    {
+      "id": "sage",
+      "role": "hero",
+      "enemySlot": null,
+      "sourceAssetId": "880f9069-e695-4dc2-aaed-b5ae3ef026eb",
+      "sourceFile": "hf_20260909_002300_880f9069-e695-4dc2-aaed-b5ae3ef026eb.png",
+      "sourceSha256": "1accab245cfc271c01d1a93fa784d1a1008064f45b26c46812f72aad74b11aaf",
+      "screenshot": {
+        "row": 2,
+        "column": 2,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "beab98cc-6374-4fd2-985c-897f04d1c39b",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043227_beab98cc-6374-4fd2-985c-897f04d1c39b.glb",
+      "modelCheckedAt": "2026-09-17T04:39:40.013155+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/35181c7f-6915-4a02-b531-2ba55c5fc35d_resize.jpg"
+      ],
+      "modelFile": "models/sage-original.glb",
+      "modelBytes": 7379272,
+      "modelSha256": "9512f203b12361450778798eeab6cac911b13304b87cfc63d7b3bbb51193e064",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "880f9069-e695-4dc2-aaed-b5ae3ef026eb",
+      "runtimeManifestEntry": "sage",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/sage.json"
+    },
+    {
+      "id": "silver-knight",
+      "role": "hero",
+      "enemySlot": null,
+      "sourceAssetId": "5cbfe6bf-e3d1-4d07-849a-203e77d1b94b",
+      "sourceFile": "hf_20260909_002300_5cbfe6bf-e3d1-4d07-849a-203e77d1b94b.png",
+      "sourceSha256": "82502d1790b6a565af104e7079e047fe21eef4054983c12a3c50c087f21bfeae",
+      "screenshot": {
+        "row": 2,
+        "column": 3,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "60ad1d52-343d-4473-ac0d-06b18555869f",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_041949_60ad1d52-343d-4473-ac0d-06b18555869f.glb",
+      "modelCheckedAt": "2026-09-17T04:34:27.878842+00:00",
+      "modelFile": "models/silver-knight-original.glb",
+      "modelBytes": 6900588,
+      "modelSha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/f14eeff1-762c-4ec6-bc53-33c98425ba93_resize.jpg"
+      ],
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "5cbfe6bf-e3d1-4d07-849a-203e77d1b94b",
+      "runtimeManifestEntry": "silver-knight",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/silver-knight.json"
+    },
+    {
+      "id": "ranger",
+      "role": "hero",
+      "enemySlot": null,
+      "sourceAssetId": "0beed7ce-bd60-4a35-8f57-489368a80bb4",
+      "sourceFile": "hf_20260909_002300_0beed7ce-bd60-4a35-8f57-489368a80bb4.png",
+      "sourceSha256": "562931e229f121950bf4a6a2ec75be543d3034a657ffae264ebf108928c21da6",
+      "screenshot": {
+        "row": 2,
+        "column": 4,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "1dd952a1-1b91-42fc-86d5-748626c4fc85",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043231_1dd952a1-1b91-42fc-86d5-748626c4fc85.glb",
+      "modelCheckedAt": "2026-09-17T04:39:38.454879+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/8bcfd5e5-a4f1-465d-b3e8-c8b493639de8_resize.jpg"
+      ],
+      "modelFile": "models/ranger-original.glb",
+      "modelBytes": 6756744,
+      "modelSha256": "5bdd7a49727fa31561a002f88d50cb48c4cb441ac264ac7efea918f703470f3d",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "0beed7ce-bd60-4a35-8f57-489368a80bb4",
+      "runtimeManifestEntry": "ranger",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/ranger.json"
+    },
+    {
+      "id": "ogre",
+      "role": "enemy",
+      "enemySlot": "w6",
+      "sourceAssetId": "e4f73d18-4dda-4d66-8bc5-1f163c44cf9d",
+      "sourceFile": "hf_20260909_002300_e4f73d18-4dda-4d66-8bc5-1f163c44cf9d.png",
+      "sourceSha256": "a0456fa19e3cc329b16e472aee4b1bb8e25baf73d8760ba99e45fd516ef42cdb",
+      "screenshot": {
+        "row": 2,
+        "column": 5,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "nsfw",
+      "generationJobId": "d5bfaf41-d8c2-4817-87e9-5139cfd0614f",
+      "rig": "humanoid",
+      "modelSourceUrl": null,
+      "modelAttempts": [
+        {
+          "generationJobId": "87ff28d2-bf0a-445f-bf80-2ed2456329b4",
+          "status": "nsfw",
+          "checkedAt": "2026-09-17T04:34:28.321275+00:00",
+          "jobReceipt": "models/jobs/ogre-87ff28d2-bf0a-445f-bf80-2ed2456329b4.json",
+          "jobType": "meshy_v7_image_to_3d",
+          "inputUrls": [
+            "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/f2e768dc-e2c2-4622-95d3-124f09857d2c_resize.jpg"
+          ]
+        }
+      ],
+      "modelCheckedAt": "2026-09-17T04:38:13.278797+00:00",
+      "modelJobType": "image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/5ba0648d-8dea-4638-b3ec-ef8e2a480abe_resize.jpg"
+      ],
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "e4f73d18-4dda-4d66-8bc5-1f163c44cf9d",
+      "runtimeManifestEntry": "ogre",
+      "derivation": "locally-authored-reference-interpretation",
+      "runtimeProvenanceFile": "models/provenance/ogre.json"
+    },
+    {
+      "id": "reaper",
+      "role": "enemy",
+      "enemySlot": "w8",
+      "sourceAssetId": "ae17a6dd-ffae-472e-b762-c9cb6ed2e584",
+      "sourceFile": "hf_20260909_002156_ae17a6dd-ffae-472e-b762-c9cb6ed2e584.png",
+      "sourceSha256": "d4a145073a3e8c2b3b5f63ab97ac3556cb1c559137a9e8d8d52325c1abc8d718",
+      "screenshot": {
+        "row": 2,
+        "column": 6,
+        "right_edge_partial": true,
+        "bottom_edge_clipped": false,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "05dba8cc-9889-4cf2-bb4a-62d1d1e41b5f",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043242_05dba8cc-9889-4cf2-bb4a-62d1d1e41b5f.glb",
+      "modelCheckedAt": "2026-09-17T04:39:45.047097+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/27086686-1069-45e0-895c-3ecd9f8ef7cd_resize.jpg"
+      ],
+      "modelFile": "models/reaper-original.glb",
+      "modelBytes": 6386480,
+      "modelSha256": "9a2deaab189ccaf71ec8a23f78901decc516b373ae04f6743c23cd66351b4f25",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "ae17a6dd-ffae-472e-b762-c9cb6ed2e584",
+      "runtimeManifestEntry": "reaper",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/reaper.json"
+    },
+    {
+      "id": "skeleton-warrior",
+      "role": "enemy",
+      "enemySlot": "w2",
+      "sourceAssetId": "4bbdba2a-302d-428e-bc0c-3566bd84bde8",
+      "sourceFile": "hf_20260909_002155_4bbdba2a-302d-428e-bc0c-3566bd84bde8.png",
+      "sourceSha256": "50b4729d6e53af88ebaa7bc5475bd2f5f05356950e56d95263744f7d06e0dc29",
+      "screenshot": {
+        "row": 3,
+        "column": 1,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "778bc606-5107-4fb5-85d7-59922b0f2b6f",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043248_778bc606-5107-4fb5-85d7-59922b0f2b6f.glb",
+      "modelCheckedAt": "2026-09-17T04:39:43.471493+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/8837e33d-560b-44bd-aa8b-c6d9c716bdc3_resize.jpg"
+      ],
+      "modelFile": "models/skeleton-warrior-original.glb",
+      "modelBytes": 7333976,
+      "modelSha256": "38d564469545ac331e994275319977f1e48d14c7f61bb1f20fe6fafe284a8f8f",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "4bbdba2a-302d-428e-bc0c-3566bd84bde8",
+      "runtimeManifestEntry": "skeleton-warrior",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/skeleton-warrior.json"
+    },
+    {
+      "id": "spider",
+      "role": "enemy",
+      "enemySlot": "w4",
+      "sourceAssetId": "c4010a07-000c-439c-b8da-2a200549f97a",
+      "sourceFile": "hf_20260909_002155_c4010a07-000c-439c-b8da-2a200549f97a.png",
+      "sourceSha256": "97dae7906bf3e6afbce529e45f6c5771e54a9ca3c7b291db1f6c2571843c1cb9",
+      "screenshot": {
+        "row": 3,
+        "column": 2,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "b7a5a002-1e83-4615-8b11-f3f50b9a314f",
+      "rig": "custom-arachnid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_042455_b7a5a002-1e83-4615-8b11-f3f50b9a314f.glb",
+      "modelCheckedAt": "2026-09-17T04:34:28.592595+00:00",
+      "modelFile": "models/spider-original.glb",
+      "modelBytes": 13717524,
+      "modelSha256": "7bacb1818b2a1225c65341ca71da43c11693d757b425e8bf88ed0ef8a13787cc",
+      "modelStructure": {
+        "nodes": 1,
+        "meshes": 1,
+        "skins": 0,
+        "jointCounts": [],
+        "animations": 0,
+        "clips": []
+      },
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/5f125e62-4666-485a-a84a-7202580015a5.png"
+      ],
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "c4010a07-000c-439c-b8da-2a200549f97a",
+      "runtimeManifestEntry": "spider",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/spider.json"
+    },
+    {
+      "id": "knife-rogue",
+      "role": "hero",
+      "enemySlot": null,
+      "sourceAssetId": "3e01be62-ba68-4862-84c2-91f017008f6b",
+      "sourceFile": "hf_20260909_002155_3e01be62-ba68-4862-84c2-91f017008f6b.png",
+      "sourceSha256": "0bde5d642935f9ab3e976fc58c99b07e47c19cf671eb0f6f686c992b28730010",
+      "screenshot": {
+        "row": 3,
+        "column": 3,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "20de3bad-38a4-4094-8860-ed9a36da7e7b",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043253_20de3bad-38a4-4094-8860-ed9a36da7e7b.glb",
+      "modelCheckedAt": "2026-09-17T04:40:45.779619+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/8450d184-81d6-4d89-a2a2-8362733d8c6e_resize.jpg"
+      ],
+      "modelFile": "models/knife-rogue-original.glb",
+      "modelBytes": 6498160,
+      "modelSha256": "b07c6573bd2904e36da7195b6bf754164cb19424850c6e8249f85a5ac17c76af",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "3e01be62-ba68-4862-84c2-91f017008f6b",
+      "runtimeManifestEntry": "knife-rogue",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/knife-rogue.json"
+    },
+    {
+      "id": "lich",
+      "role": "enemy",
+      "enemySlot": "w9",
+      "sourceAssetId": "3e9a9a70-5514-4bc1-b84a-8f09917ecefe",
+      "sourceFile": "hf_20260909_002155_3e9a9a70-5514-4bc1-b84a-8f09917ecefe.png",
+      "sourceSha256": "689b224f0f6d5b95dba10b0e9a8f8785bf3928d4b8f5b5862de367e068a14265",
+      "screenshot": {
+        "row": 3,
+        "column": 4,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "modelStatus": "downloaded",
+      "generationJobId": "dbd2781d-2dd0-4345-bfd5-3e1d65d12287",
+      "rig": "humanoid",
+      "modelSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043300_dbd2781d-2dd0-4345-bfd5-3e1d65d12287.glb",
+      "modelCheckedAt": "2026-09-17T04:40:44.866789+00:00",
+      "modelJobType": "meshy_v7_image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/f162e7d7-bf6b-47d5-bbbb-953355f6e252_resize.jpg"
+      ],
+      "modelFile": "models/lich-original.glb",
+      "modelBytes": 6978464,
+      "modelSha256": "35f0fe25d2082a4e470fec7334f4797157d8afff4391a348b8cbbda308d177bd",
+      "modelStructure": {
+        "nodes": 26,
+        "meshes": 1,
+        "skins": 1,
+        "jointCounts": [
+          24
+        ],
+        "animations": 1,
+        "clips": [
+          {
+            "name": "Armature|Idle|baselayer",
+            "channels": 72,
+            "duration": 4.033333333333333
+          }
+        ]
+      },
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "3e9a9a70-5514-4bc1-b84a-8f09917ecefe",
+      "runtimeManifestEntry": "lich",
+      "derivation": "higgsfield-image-to-3d",
+      "runtimeProvenanceFile": "models/provenance/lich.json"
+    },
+    {
+      "id": "goblin",
+      "role": "enemy",
+      "enemySlot": "w1",
+      "sourceAssetId": "2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae",
+      "sourceFile": "hf_20260909_002155_2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae.png",
+      "sourceSha256": "62e75a2a00795c2a77471c294cf2b775e45c10ba420544552fea45366db4df90",
+      "screenshot": {
+        "row": 3,
+        "column": 5,
+        "right_edge_partial": false,
+        "bottom_edge_clipped": true,
+        "visually_matched": true
+      },
+      "modelStatus": "nsfw",
+      "generationJobId": "c4e055e7-bd9f-4bdc-8c18-6df2fc92bb45",
+      "rig": "humanoid",
+      "modelSourceUrl": null,
+      "modelAttempts": [
+        {
+          "generationJobId": "f24bcf60-6c1f-4763-87ed-12790b3e93be",
+          "status": "nsfw",
+          "checkedAt": "2026-09-17T04:34:30.741463+00:00",
+          "jobReceipt": "models/jobs/goblin-f24bcf60-6c1f-4763-87ed-12790b3e93be.json",
+          "jobType": "meshy_v7_image_to_3d",
+          "inputUrls": [
+            "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/2db89806-c8d9-4377-aaae-5cffe316e324_resize.jpg"
+          ]
+        }
+      ],
+      "modelJobType": "image_to_3d",
+      "modelInputUrls": [
+        "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/07fcd192-89a0-4d7c-9fdf-370948bf005e_resize.jpg"
+      ],
+      "modelCheckedAt": "2026-09-17T04:38:41.304676+00:00",
+      "runtimeStatus": "ready",
+      "runtimeSourceAssetId": "2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae",
+      "runtimeManifestEntry": "goblin",
+      "derivation": "locally-authored-reference-interpretation",
+      "runtimeProvenanceFile": "models/provenance/goblin.json"
+    }
+  ],
+  "integration": {
+    "runtimeCharacters": 16,
+    "playableHeroes": 6,
+    "enemyCharacters": 10,
+    "videoMenu": "Crown film",
+    "sourceOriginalsUnmodified": true,
+    "formerGameBase": "e1e7bcd2c40544a6eb12686e3ce2b66750219646"
+  }
+}

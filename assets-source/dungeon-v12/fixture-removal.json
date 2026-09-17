@@ -1,0 +1,46 @@
+[
+  {
+    "id": "cinder",
+    "source": "/assets/dungeon/v9/cinder.glb",
+    "sourceSha256": "68d4acc7d7b5c1160874d20c6a85955636ad43df69caaff4575ca570cb6bb227",
+    "removedTriangles": 144,
+    "removedPerSide": [
+      72,
+      72
+    ],
+    "preserved": "Every position, normal, UV0, UV1 and vertex-color array byte-identical after decoding"
+  },
+  {
+    "id": "dusk",
+    "source": "/assets/dungeon/v9/dusk.glb",
+    "sourceSha256": "d102829b27ed04bd2c45fd6c2cdc559edac23ea1bbb8605cc9933428ef424a53",
+    "removedTriangles": 144,
+    "removedPerSide": [
+      72,
+      72
+    ],
+    "preserved": "Every position, normal, UV0, UV1 and vertex-color array byte-identical after decoding"
+  },
+  {
+    "id": "crown",
+    "source": "/assets/dungeon/v9/crown.glb",
+    "sourceSha256": "d7e13e50865fde0a0a8ac599c57e4fc30f667ac302c663bb8100d3d4480829e8",
+    "removedTriangles": 144,
+    "removedPerSide": [
+      72,
+      72
+    ],
+    "preserved": "Every position, normal, UV0, UV1 and vertex-color array byte-identical after decoding"
+  },
+  {
+    "id": "throne",
+    "source": "/assets/dungeon/v9/throne.glb",
+    "sourceSha256": "aa6f549ed5e600ce19e899583ead89e8ab4a27f7d00d6731a75c0ca77a567b69",
+    "removedTriangles": 144,
+    "removedPerSide": [
+      72,
+      72
+    ],
+    "preserved": "Every position, normal, UV0, UV1 and vertex-color array byte-identical after decoding"
+  }
+]

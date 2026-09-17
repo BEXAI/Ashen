@@ -1,0 +1,149 @@
+{
+  "workspace_id": "bdeb1056-93d9-4c2d-8b80-389d588bab2f",
+  "project_id": "21434c15-bdde-4abd-bcb9-62098cae463a",
+  "project_name": "Ashen Realm \u2014 torch sconce pilot",
+  "project_url": "https://higgsfield.ai/3d-jutsu/21434c15-bdde-4abd-bcb9-62098cae463a",
+  "user_total_credit_ceiling": 1000,
+  "attempt_limit_per_asset": 2,
+  "direct_operation_credit_rate": "not published or exposed; do not label free",
+  "events": [
+    {
+      "action": "workspace_select",
+      "status": "succeeded",
+      "balance_before_project_creation": 4113.5
+    },
+    {
+      "action": "create_project",
+      "status": "succeeded",
+      "balance_after": 4113.5
+    },
+    {
+      "action": "run_python",
+      "operation_id": "84214dd5-f7bf-4d10-ac8c-255a35559496",
+      "code_sha256": "7e2aecaf48869e47adac92882579d4be22835d13d5f28b5267abfcff1bf45c5b",
+      "revision_guard": 0,
+      "sequence_guard": 0,
+      "balance_before": 4113.5,
+      "status": "succeeded",
+      "timestamp": "2026-09-09T21:55:51.377549+00:00",
+      "validation_note": "waitSeconds 10 rejected before dispatch; project reread confirmed no operation; same request dispatched with waitSeconds 8",
+      "revision_after": 1,
+      "scene_sequence_after": 0,
+      "balance_after": 4113.5,
+      "observed_credit_delta": 0
+    }
+  ],
+  "operation_id": "84214dd5-f7bf-4d10-ac8c-255a35559496",
+  "license_sources": [
+    "https://higgsfield.ai/terms-of-use-agreement",
+    "https://higgsfield.ai/creator-hub/help-center/account/who-owns-my-generations-and-can-i-use-them-commercially"
+  ],
+  "source_policy": "Original geometry authored from code; no catalog models, external textures, or third-party imagery.",
+  "author_code_sha256": "7e2aecaf48869e47adac92882579d4be22835d13d5f28b5267abfcff1bf45c5b",
+  "pricing_caveat": "Observed balance difference is zero; not a statement that direct operations are free or no delayed billing exists.",
+  "committed_revision": 1,
+  "generated_artifact_id": "eecaf46934d9cb1191b37ec891d5f606",
+  "source_files": {
+    "author_sconce.py": {
+      "bytes": 11004,
+      "sha256": "7e2aecaf48869e47adac92882579d4be22835d13d5f28b5267abfcff1bf45c5b"
+    },
+    "cloud-source.blend": {
+      "bytes": 899924,
+      "sha256": "d35d9a74d8c538519b4cf3f535266d891f4e9a04c04b898c518752120cc6043a"
+    },
+    "cloud-source.glb": {
+      "bytes": 377208,
+      "sha256": "140b0ff10e90dfc708c273f3b6eea6e486fd0cc3dd8d58830e70c39612fc6927"
+    },
+    "cloud-source-review.png": {
+      "bytes": 369702,
+      "sha256": "8e8fe70c8935e76931af70ac6520d3d9e5e28ee021e84164e58e8da5f3c67904"
+    }
+  },
+  "delivery_limitation": "scene_builder_3d_show_scene and query_python advertised by tool documentation were not exposed in available tools. Source preview retrieved and visually inspected; project URL and committed files available.",
+  "source_provenance": {
+    "creator": "Original bpy source authored for Ashen Realm through Codex, executed in user-owned isolated Higgsfield 3D Jutsu project",
+    "third_party_catalog_assets": [],
+    "third_party_textures": [],
+    "cloud_revision": 1,
+    "successful_cloud_authoring_attempts": 1,
+    "local_derivative": "Portable PBR bake and outward-normal repair of downloaded cloud-source.blend; distance meshes and runtime light-anchor adjustment authored locally",
+    "rights_basis": "Higgsfield terms 4.2/4.4 permit commercial output use; original code and geometry did not incorporate catalog content",
+    "rights_caveat": "Output permissions do not establish copyright exclusivity or license rights to unrelated catalog assets",
+    "official_sources": [
+      "https://higgsfield.ai/terms-of-use-agreement",
+      "https://higgsfield.ai/creator-hub/help-center/account/who-owns-my-generations-and-can-i-use-them-commercially"
+    ]
+  },
+  "final_project_state": {
+    "revision": 1,
+    "scene_sequence": 0,
+    "active_operation_id": null
+  },
+  "final_balance": 4113.5,
+  "observed_total_credit_delta": 0,
+  "runtime_files": {
+    "sconce-pilot.glb": {
+      "bytes": 286656,
+      "sha256": "32a6e003db785687d9fbdc9a2dc1721cdaa7897e9ef54002f2671b0ceaff18a4"
+    },
+    "sconce-pilot-fallback.glb": {
+      "bytes": 420092,
+      "sha256": "8206cff9188e6f35d6880725d17af02b5c01f2bd05fd6fb00d2f09ea764c8d9a"
+    },
+    "sconce-combined-baked.glb": {
+      "bytes": 756540,
+      "sha256": "f69e5639eb6398628d7f15c88c1ea9954d5cb6e3afb4e4261e4e3c3d666a884f"
+    },
+    "sconce-baked-workfile.blend": {
+      "bytes": 1545898,
+      "sha256": "5e400f3282cec7c3beb4e31f18425ba63dea7b2597ce18a16e5e3f1d3d449d6c"
+    },
+    "prepare_runtime.py": {
+      "bytes": 10388,
+      "sha256": "6736189146f648da6e4b957802753c7bd0f2631b0845219a9a376080d008b61f"
+    },
+    "far_proxy.py": {
+      "bytes": 3671,
+      "sha256": "85cd47ea1f8112cbc4e20ddc6aac415e1965ddf0393debc28f30a767538de956"
+    },
+    "package_runtime.mjs": {
+      "bytes": 4775,
+      "sha256": "0ee38142e9e2595e13a9b26430e1bda2a25fb55d39864dab2a5bc181fbc7895e"
+    },
+    "validate_runtime.mjs": {
+      "bytes": 4653,
+      "sha256": "1fdd90c3bd1dacf056c37569168a1b1927a43231c32ba8bd1edb23cd90958451"
+    },
+    "render_runtime.py": {
+      "bytes": 1512,
+      "sha256": "e8e28cb2569e61ea21e846d94826492f7e8c1683bd6bacf888cac16eec9e3f04"
+    },
+    "placement-contract.json": {
+      "bytes": 1195,
+      "sha256": "187e7b702d45622607c3f03598d68aad72808e192e388f73d674be11d0d75652"
+    },
+    "runtime-manifest.json": {
+      "bytes": 19158,
+      "sha256": "8c1e1495316035cf93d40199d94055c8e8aa0d9d9120ec3529814e577004a0d1"
+    },
+    "compressed-lod0-review.png": {
+      "bytes": 550910,
+      "sha256": "b471ad61b2348e86b821120a42dcd40a5d9e4ad002786cecdfd6f1d9d57eb1f7"
+    },
+    "compressed-lod1-review.png": {
+      "bytes": 548699,
+      "sha256": "79c961d0cf94d98379a2fa853eeba1b8489759df76c7014bb68803d5fe8ef44e"
+    },
+    "compressed-lod2-review.png": {
+      "bytes": 516534,
+      "sha256": "d141106e3dc7c079c12840d3830ae9b22f618cdb4f044b20de4e7e85f13c245e"
+    },
+    "fallback-lod0-review.png": {
+      "bytes": 545267,
+      "sha256": "e0fa5722396452bf870e2f666a5ea3f472fbbdca31b8bef2e89f42d1b38d7573"
+    }
+  },
+  "final_visual_qa": "Actual combined compressed LOD0/1/2 and PNG fallback LOD0 were decoded, imported into Blender, rendered with fixed review camera, and inspected. Shared material, visible vents/straps, no missing textures. Far LOD visibly simplifies backplate and trim; use only at small screen size."
+}

@@ -1,0 +1,78 @@
+{
+  "author_kit.py": {
+    "bytes": 9366,
+    "sha256": "181b4667de2efc5f5f40c898ab2d7434bf7f6252ee4115af8ac85f9095ad9e23"
+  },
+  "cloud-source.blend": {
+    "bytes": 1406322,
+    "sha256": "5175bbd64d1bbda60a8ab36dda5f59a65cbedeb3cf2070f0c68708f75ce8514f"
+  },
+  "cloud-source.glb": {
+    "bytes": 660968,
+    "sha256": "aa877eab6c0fedb7218ae81a9cc1080988c940930f53aa25602fe3361364facd"
+  },
+  "cloud-source-review.png": {
+    "bytes": 517166,
+    "sha256": "b18f975972971cf8b570222675326776bd2d23fa48388ea1de1f8df18c1010c1"
+  },
+  "prepare_runtime.py": {
+    "bytes": 10383,
+    "sha256": "7a8d94f6e396b3b3876afea83db0812aae0dc3fe6543b78d1144362d2216fb8e"
+  },
+  "package_runtime.mjs": {
+    "bytes": 4685,
+    "sha256": "830f80ca2736165554053b25b36ac1ac62afe27d37c02c124037208f771ce1e1"
+  },
+  "validate_runtime.mjs": {
+    "bytes": 8070,
+    "sha256": "ac5e60d17c4f4f3a2cf285e7c3b617bc264f9c379a2759342b4b8618befbb1ca"
+  },
+  "render_runtime.py": {
+    "bytes": 1509,
+    "sha256": "77b87ebd339a6a180e750a1134b3e633e5f843e313ea8a13202f3b0038bae542"
+  },
+  "architecture-kit-baked.glb": {
+    "bytes": 2620476,
+    "sha256": "b9b50befd8d1e63f2a94118ab76e49417f00824e049449f3e96fb98181894834"
+  },
+  "architecture-kit.glb": {
+    "bytes": 1013076,
+    "sha256": "bbec76f1153187abf396336642a0f2a29a33e401f81de3ebdf5155029b523f31"
+  },
+  "architecture-kit-fallback.glb": {
+    "bytes": 1108388,
+    "sha256": "d8cc29ab074cdcc116b74c79fdd51b756742eb492a860276fe350bd589446429"
+  },
+  "textures/kit_basecolor_source.png": {
+    "bytes": 1318287,
+    "sha256": "2e44abe3f698e6a2b94d28ff7a6d74dbc80698137abcfc2d0a8bd37ce603c3fb"
+  },
+  "textures/kit_basecolor.png": {
+    "bytes": 200063,
+    "sha256": "aa48f8b34b800f49c362272dd2f1b33fc08fb6d43f21dd925591f6274562d6f8"
+  },
+  "textures/kit_normal.png": {
+    "bytes": 199079,
+    "sha256": "0b8270a6eb63f2826adbcee4c16cc6ff6b91f2b9660a505a00599c3562329a9f"
+  },
+  "textures/kit_orm.png": {
+    "bytes": 313590,
+    "sha256": "85a267c1db76e7a9ebde0b6cb46b6540f8cb60de735e9e924ea8930cfb8365fc"
+  },
+  "compressed-lod0-review.png": {
+    "bytes": 738609,
+    "sha256": "cac9e9a1c8982cd64062da38e0a6ccce81dfe938e1876e21572d937c0a9a5bee"
+  },
+  "compressed-lod1-review.png": {
+    "bytes": 738664,
+    "sha256": "a64da1816580e8238afc4275d1efd8470e1378e829f52ef124fbdf8ae1ff0053"
+  },
+  "compressed-lod2-review.png": {
+    "bytes": 737575,
+    "sha256": "00266d6a4cdc57afc1d1b5ed1d1384017e1cd3a548183a7dedad1f28ffa65c24"
+  },
+  "fallback-lod0-review.png": {
+    "bytes": 732729,
+    "sha256": "dfab31c973d3b7d1714b52ebc7ca0063419ef109d2f62e5f5d568e2f001f8d3b"
+  }
+}

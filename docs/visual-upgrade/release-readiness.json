@@ -1,0 +1,67 @@
+{
+  "record_type": "release candidate readiness snapshot",
+  "source_base_head": "a10946e134fa7b915370f664100536c2f95f0c82",
+  "implementation_state": "Integrated source passed required checks; limited-validation candidate ready for exact release packaging",
+  "assets": {
+    "characters": "/assets/characters/v11/manifest.json",
+    "dungeon": "/assets/dungeon/v13/manifest.json",
+    "props": "/assets/props/v2/manifest.json"
+  },
+  "gates": {
+    "G01": "pass: source/asset versions and timing semantics recorded",
+    "G02": "pass: workspace, authored rights and 1000 credit ceiling resolved",
+    "G03": "pass: actual compressed and fallback assets, mounts, shared budgets and loader lifecycle checked",
+    "G04": "pass: reference sconce comparison, combat/boss desktop samples and actual character pose/contact tests reviewed before A02/A03 expansion; phone acceptance remains separate",
+    "G05": "pass:188 tests, TypeScript, production build, syntax, lint and exact dependency checks; built output169.58MiB before final archive",
+    "G06": "pending: iPhone17 Safari and broader physical-device evidence; limited-validation publication allowed by plan",
+    "G07": "pending",
+    "G08": "pending"
+  },
+  "device_results": {
+    "status": "pending_physical_measurements",
+    "user_available_device": {
+      "model": "iPhone 17",
+      "browser": "Safari",
+      "os_version": "not supplied"
+    },
+    "results": [],
+    "missing_coverage": [
+      "Older iPhone Safari",
+      "Midrange Android Chrome"
+    ],
+    "claims": "Desktop/browser screenshots and timed samples are not physical-phone verification."
+  },
+  "observed_evidence": [
+    "docs/visual-upgrade/reference-slice-review.json",
+    "docs/visual-upgrade/environment-verification.json",
+    "assets-source/props/v2/release-ledger.json",
+    "assets-source/dungeon-v13/arch-removal.json"
+  ],
+  "pending": [
+    "Physical-device evidence remains pending",
+    "Exact-source archive, saved version and terminal publication receipt"
+  ],
+  "pushed_source_sha": null,
+  "archive_sha256": null,
+  "saved_version_id": null,
+  "deployment_id": null,
+  "deployment_status": "pending",
+  "warning": "Do not copy historical baseline or prior published-version identifiers into these pending current-release fields.",
+  "previous_live_rollback": {
+    "scope": "previous live release; not the new candidate",
+    "access": "public",
+    "saved_version_id": "appgprj_6a9d4c4f647481918c6449a0bbfcc828~appgver_0b5af51a63c48191ba020920a6d0e313",
+    "deployment_id": "appgdep_6aa1c90ecc308191b6ec0270e7f7e4cd",
+    "deployment_status": "succeeded",
+    "source_sha": "a10946e134fa7b915370f664100536c2f95f0c82",
+    "verification": "Reconfirmed by integrating owner on 2026-09-09; source task retained live access/rollback reference."
+  },
+  "clean_source_reconstruction": {
+    "status": "passed",
+    "packed_assets": 41,
+    "evidence_owner": "Integrating task report; this docs task did not rerun restoration.",
+    "scope": "Exact source asset reconstruction; not final production build/archive/publication acceptance."
+  },
+  "current_automated_validation": "automated-validation.json",
+  "current_browser_validation": "visual-review.json"
+}

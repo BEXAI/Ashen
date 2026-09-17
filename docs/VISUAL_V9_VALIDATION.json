@@ -1,0 +1,44 @@
+{
+  "asset_version": "visual-v9",
+  "date": "2026-09-08",
+  "baseline_commit": "44d3e39e88869d96359514f34290e4f170b16b20",
+  "checks": {
+    "typecheck": "passed",
+    "application_and_changed_source_lint": "passed",
+    "syntax": {"status": "passed", "source_files": 43, "compiled_modules": 19},
+    "production_build": "passed",
+    "production_assets_match_source_sha256": "passed",
+    "gameplay_and_mobile_tests": {"passed": 55, "failed": 0},
+    "visual_asset_tests": {"passed": 15, "failed": 0},
+    "asset_storage_tests": {"passed": 2, "failed": 0},
+    "total_tests_passed": 72,
+    "formal_ktx_payload_validation": {"passed": 48, "failed": 0},
+    "gltf_structural_errors": 0,
+    "room_uv_interior_overlaps": 0,
+    "protected_source_hashes": {"matching": 7, "changed": 0},
+    "weapon_socket_max_error_metres": {
+      "ash-knight": 0.008072449009079259,
+      "crypt-warden": 0.007200241707698323,
+      "ember-sovereign": 0.01453040821634304
+    }
+  },
+  "warnings_reviewed": [
+    "Three non-root skinned mesh warnings per character correspond to three LOD meshes below an identity root; instance and world-bound tests pass.",
+    "Unused authoring accessors are informational glTF notices.",
+    "The production build retains existing Vite chunk-size and future native-config-loader warnings."
+  ],
+  "visual_evidence": {
+    "generated_material_images_inspected": true,
+    "master_atlas_inspected": true,
+    "rendered_game_comparison": "unavailable: browser WebGL is disabled",
+    "gpu_shader_compilation": "unverified",
+    "physical_iphone": "not tested",
+    "premium_anatomical_sculpt_approval": "open",
+    "full_360_degree_deformation_review": "open"
+  },
+  "release_intent": "Save a review version; no deployment or audience change requested for this update.",
+  "runtime_manifests": [
+    "public/assets/characters/v9/manifest.json",
+    "public/assets/dungeon/v9/manifest.json"
+  ]
+}

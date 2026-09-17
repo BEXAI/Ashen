@@ -1,0 +1,5007 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-09T23:26:30.896Z",
+  "gameRoot": "/Users/nathaniel/Documents/ChatGPT/Knight/game",
+  "pass": true,
+  "errors": [],
+  "props": {
+    "manifest": "/assets/props/v2/manifest.json",
+    "manifestSha256": "d6e9ca838d37857982ba1cbe1e77ad58a8c1f4d944a6df39d98c1e5761bec897",
+    "version": "props-v2",
+    "assets": {
+      "sconce": {
+        "sourceProject": "21434c15-bdde-4abd-bcb9-62098cae463a",
+        "sourceRevision": 1,
+        "sourceRuntimeManifest": "assets-source/props/v1/sconce/runtime-manifest.json",
+        "sourceRuntimeManifestSha256": "8c1e1495316035cf93d40199d94055c8e8aa0d9d9120ec3529814e577004a0d1",
+        "sourceEstimatedMipBytes": 2097152,
+        "variants": {
+          "compressed": {
+            "url": "/assets/props/v1/sconce-pilot.glb",
+            "bytes": 286656,
+            "sha256": "32a6e003db785687d9fbdc9a2dc1721cdaa7897e9ef54002f2671b0ceaff18a4",
+            "selfContained": true,
+            "lights": 0,
+            "images": [
+              {
+                "index": 0,
+                "name": "sconce_normal",
+                "role": "normal",
+                "mime": "image/ktx2",
+                "width": 256,
+                "height": 256,
+                "storedMipLevels": 9,
+                "rgba8FullMipBytes": 349524,
+                "embeddedBytes": 66959,
+                "sha256": "f922f14d89479414543bb17c9943c01df2ab9c6675b7feb0a617bcb52e8474ba"
+              },
+              {
+                "index": 1,
+                "name": "sconce_orm",
+                "role": "orm",
+                "mime": "image/ktx2",
+                "width": 256,
+                "height": 256,
+                "storedMipLevels": 9,
+                "rgba8FullMipBytes": 349524,
+                "embeddedBytes": 67548,
+                "sha256": "641a2918145f5d87b94df4e44d126359f9e93230306a297041a5dee1ed78fc9b"
+              },
+              {
+                "index": 2,
+                "name": "sconce_basecolor",
+                "role": "basecolor",
+                "mime": "image/ktx2",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 10,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 38567,
+                "sha256": "0989da4078a4cc44545f973d0a0614bce1ddeb9ea6f3167018f52912e69a04e4"
+              }
+            ],
+            "rgba8FullMipBytes": 2097148,
+            "geometry": [
+              {
+                "name": "AshenSconce_LOD0",
+                "extras": {
+                  "lod": 0
+                },
+                "triangles": 1492,
+                "vertices": 4424,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.2957486935792329,
+                    -0.6488558650016785,
+                    0.003292605974923535
+                  ],
+                  "max": [
+                    0.2957487233815553,
+                    0.449002742767334,
+                    0.4715921073265116
+                  ]
+                }
+              },
+              {
+                "name": "AshenSconce_LOD1",
+                "extras": {
+                  "lod": 1
+                },
+                "triangles": 580,
+                "vertices": 1740,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.2973294711819311,
+                    -0.6489086747169495,
+                    0.0032433410038453514
+                  ],
+                  "max": [
+                    0.2963661707153936,
+                    0.44904962182044983,
+                    0.47131730091262336
+                  ]
+                }
+              },
+              {
+                "name": "AshenSconce_LOD2",
+                "extras": {
+                  "lod": 2
+                },
+                "triangles": 188,
+                "vertices": 564,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.28700735234332364,
+                    -0.6489999890327454,
+                    0.0029752513612229803
+                  ],
+                  "max": [
+                    0.28700735234332364,
+                    0.4490000009536743,
+                    0.46302474818801687
+                  ]
+                }
+              }
+            ],
+            "activeScene": {
+              "triangles": 2260,
+              "draws": 3
+            },
+            "allGeometry": {
+              "triangles": 2260,
+              "draws": 3
+            },
+            "geometrySha256": "5eb44d85b454f4cf4c3f8ede09704de92d3c2b0214fba383bc516f08325d04c8",
+            "materialCount": 1,
+            "accessors": 15,
+            "accessorScalars": 87516,
+            "rawValidation": {
+              "numErrors": 0,
+              "numWarnings": 6,
+              "numInfos": 5,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/0"
+                },
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/2"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/0/mimeType"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/1/mimeType"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/2/mimeType"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/1"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/2"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/0"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/1"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/2"
+                }
+              ],
+              "truncated": false
+            },
+            "decodedGeometryValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 6,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+                }
+              ],
+              "truncated": false
+            },
+            "warnings": [
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/0/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/1/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/2/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/0"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/1"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/2"
+              }
+            ],
+            "lods": [
+              {
+                "module": "asset",
+                "lod": 0,
+                "triangles": 1492,
+                "draws": 1
+              },
+              {
+                "module": "asset",
+                "lod": 1,
+                "triangles": 580,
+                "draws": 1
+              },
+              {
+                "module": "asset",
+                "lod": 2,
+                "triangles": 188,
+                "draws": 1
+              }
+            ]
+          },
+          "fallback": {
+            "url": "/assets/props/v1/sconce-pilot-fallback.glb",
+            "bytes": 420092,
+            "sha256": "8206cff9188e6f35d6880725d17af02b5c01f2bd05fd6fb00d2f09ea764c8d9a",
+            "selfContained": true,
+            "lights": 0,
+            "images": [
+              {
+                "index": 0,
+                "name": "sconce_normal",
+                "role": "normal",
+                "mime": "image/png",
+                "width": 256,
+                "height": 256,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 349524,
+                "embeddedBytes": 81497,
+                "sha256": "d99720661315796616b51648e31feed54875229d3c606f3304ecd5f0de030089"
+              },
+              {
+                "index": 1,
+                "name": "sconce_orm",
+                "role": "orm",
+                "mime": "image/png",
+                "width": 256,
+                "height": 256,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 349524,
+                "embeddedBytes": 78546,
+                "sha256": "e746f14d7e50e7c9ee33f5e611927abb25bccbf607c7eb2919359c84806baa52"
+              },
+              {
+                "index": 2,
+                "name": "sconce_basecolor",
+                "role": "basecolor",
+                "mime": "image/png",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 146615,
+                "sha256": "6547b46d22a641a6fd56cbc531f9327ee40dda3fb18aebe17bae7a865bdc18fb"
+              }
+            ],
+            "rgba8FullMipBytes": 2097148,
+            "geometry": [
+              {
+                "name": "AshenSconce_LOD0",
+                "extras": {
+                  "lod": 0
+                },
+                "triangles": 1492,
+                "vertices": 4424,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.2957486935792329,
+                    -0.6488558650016785,
+                    0.003292605974923535
+                  ],
+                  "max": [
+                    0.2957487233815553,
+                    0.449002742767334,
+                    0.4715921073265116
+                  ]
+                }
+              },
+              {
+                "name": "AshenSconce_LOD1",
+                "extras": {
+                  "lod": 1
+                },
+                "triangles": 580,
+                "vertices": 1740,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.2973294711819311,
+                    -0.6489086747169495,
+                    0.0032433410038453514
+                  ],
+                  "max": [
+                    0.2963661707153936,
+                    0.44904962182044983,
+                    0.47131730091262336
+                  ]
+                }
+              },
+              {
+                "name": "AshenSconce_LOD2",
+                "extras": {
+                  "lod": 2
+                },
+                "triangles": 188,
+                "vertices": 564,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.28700735234332364,
+                    -0.6489999890327454,
+                    0.0029752513612229803
+                  ],
+                  "max": [
+                    0.28700735234332364,
+                    0.4490000009536743,
+                    0.46302474818801687
+                  ]
+                }
+              }
+            ],
+            "activeScene": {
+              "triangles": 2260,
+              "draws": 3
+            },
+            "allGeometry": {
+              "triangles": 2260,
+              "draws": 3
+            },
+            "geometrySha256": "5eb44d85b454f4cf4c3f8ede09704de92d3c2b0214fba383bc516f08325d04c8",
+            "materialCount": 1,
+            "accessors": 15,
+            "accessorScalars": 87516,
+            "rawValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 1,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/0"
+                }
+              ],
+              "truncated": false
+            },
+            "decodedGeometryValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 6,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+                }
+              ],
+              "truncated": false
+            },
+            "warnings": [],
+            "lods": [
+              {
+                "module": "asset",
+                "lod": 0,
+                "triangles": 1492,
+                "draws": 1
+              },
+              {
+                "module": "asset",
+                "lod": 1,
+                "triangles": 580,
+                "draws": 1
+              },
+              {
+                "module": "asset",
+                "lod": 2,
+                "triangles": 188,
+                "draws": 1
+              }
+            ]
+          }
+        }
+      },
+      "shrine": {
+        "sourceProject": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+        "sourceRevision": 1,
+        "sourceRuntimeManifest": "assets-source/props/v2/shrine/runtime-manifest.json",
+        "sourceRuntimeManifestSha256": "1683b72a20f478392d0f9fd60904314a6950d1f74425f7f7fd221af518e5f0db",
+        "sourceEstimatedMipBytes": 8738133.333333334,
+        "variants": {
+          "compressed": {
+            "url": "/assets/props/v2/ember-shrine.glb",
+            "bytes": 940320,
+            "sha256": "115c44ab0f78481a1c41441ed494055ab84d61b2cb2b49cebcd2e8049efb05a3",
+            "selfContained": true,
+            "lights": 0,
+            "images": [
+              {
+                "index": 0,
+                "name": "shrine_normal",
+                "role": "normal",
+                "mime": "image/ktx2",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 10,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 182463,
+                "sha256": "2e03aea7f4acf00eb0f90c9020a61283ec2ec8f5f15383c74a03dd7e1b500c45"
+              },
+              {
+                "index": 1,
+                "name": "shrine_orm",
+                "role": "orm",
+                "mime": "image/ktx2",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 10,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 184598,
+                "sha256": "91336d86fd5e1f91bfa843565bfedd3088e803d05f8e599c8bf8a3cfdab2f0fb"
+              },
+              {
+                "index": 2,
+                "name": "shrine_basecolor",
+                "role": "basecolor",
+                "mime": "image/ktx2",
+                "width": 1024,
+                "height": 1024,
+                "storedMipLevels": 11,
+                "rgba8FullMipBytes": 5592404,
+                "embeddedBytes": 113231,
+                "sha256": "0baa9a4e66119f3c63c8575a981623f6d853cf72125df12281b9fd385d717ac4"
+              },
+              {
+                "index": 3,
+                "name": "shrine_emissive",
+                "role": "emissive",
+                "mime": "image/png",
+                "width": 256,
+                "height": 256,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 349524,
+                "embeddedBytes": 28653,
+                "sha256": "93fea317a18bf8e4b29b15f232a15422249a5b27458fe25adce5e590dc14ac48"
+              }
+            ],
+            "rgba8FullMipBytes": 8738128,
+            "geometry": [
+              {
+                "name": "EmberShrine_LOD0_body",
+                "extras": {
+                  "surface_role": "body",
+                  "lod_index": 0
+                },
+                "triangles": 5492,
+                "vertices": 15148,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1.7200000286102295,
+                    -0.00005688982938034659,
+                    -1.7200000286102295
+                  ],
+                  "max": [
+                    1.7200000286102295,
+                    1.7760569127175638,
+                    1.7200000286102295
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD0_ember",
+                "extras": {
+                  "surface_role": "ember",
+                  "lod_index": 0
+                },
+                "triangles": 444,
+                "vertices": 850,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.8349999785423279,
+                    0.7870487360344613,
+                    -0.8349999785423279
+                  ],
+                  "max": [
+                    0.8349999785423279,
+                    1.6129512997283255,
+                    0.8349999785423279
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD1_body",
+                "extras": {
+                  "surface_role": "body",
+                  "lod_index": 1
+                },
+                "triangles": 2592,
+                "vertices": 7650,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1.7179844379425049,
+                    0.00039517972436531323,
+                    -1.7179844379425049
+                  ],
+                  "max": [
+                    1.7179844379425049,
+                    1.7761054047750795,
+                    1.7179844379425049
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD1_ember",
+                "extras": {
+                  "surface_role": "ember",
+                  "lod_index": 1
+                },
+                "triangles": 352,
+                "vertices": 814,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.8349999785423279,
+                    0.7870487360344613,
+                    -0.8349999785423279
+                  ],
+                  "max": [
+                    0.8349999785423279,
+                    1.6129512997283255,
+                    0.8349999785423279
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD2_body",
+                "extras": {
+                  "surface_role": "body",
+                  "lod_index": 2
+                },
+                "triangles": 942,
+                "vertices": 2760,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1.7307852506637573,
+                    0.0013834455742127716,
+                    -1.7307852506637573
+                  ],
+                  "max": [
+                    1.7307852506637573,
+                    1.7759572936927341,
+                    1.7307852506637573
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD2_ember",
+                "extras": {
+                  "surface_role": "ember",
+                  "lod_index": 2
+                },
+                "triangles": 192,
+                "vertices": 526,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.8354091048240662,
+                    0.7870503651565361,
+                    -0.8354091048240662
+                  ],
+                  "max": [
+                    0.8354091048240662,
+                    1.6129496706062507,
+                    0.8354091048240662
+                  ]
+                }
+              }
+            ],
+            "activeScene": {
+              "triangles": 10014,
+              "draws": 6
+            },
+            "allGeometry": {
+              "triangles": 10014,
+              "draws": 6
+            },
+            "geometrySha256": "00f1add258cf73eaeefa3445fe657753ddf90ead945d62c490b163b6abe750a3",
+            "materialCount": 2,
+            "accessors": 27,
+            "accessorScalars": 354258,
+            "rawValidation": {
+              "numErrors": 0,
+              "numWarnings": 6,
+              "numInfos": 5,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/0"
+                },
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/2"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/0/mimeType"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/1/mimeType"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/2/mimeType"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/1"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/2"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/0"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/1"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/2"
+                }
+              ],
+              "truncated": false
+            },
+            "decodedGeometryValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 9,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/4/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+                }
+              ],
+              "truncated": false
+            },
+            "warnings": [
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/0/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/1/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/2/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/0"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/1"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/2"
+              }
+            ],
+            "lods": [
+              {
+                "module": "asset",
+                "lod": 0,
+                "triangles": 5936,
+                "draws": 2
+              },
+              {
+                "module": "asset",
+                "lod": 1,
+                "triangles": 2944,
+                "draws": 2
+              },
+              {
+                "module": "asset",
+                "lod": 2,
+                "triangles": 1134,
+                "draws": 2
+              }
+            ]
+          },
+          "fallback": {
+            "url": "/assets/props/v2/ember-shrine-fallback.glb",
+            "bytes": 1512056,
+            "sha256": "cda732bca2c650ccf3886015eee6d27e6ab6c0f2b453feffcb593b2e95d5c50f",
+            "selfContained": true,
+            "lights": 0,
+            "images": [
+              {
+                "index": 0,
+                "name": "shrine_normal",
+                "role": "normal",
+                "mime": "image/png",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 178798,
+                "sha256": "f4da87796cd165430e871b9e87da68e59867a2fc1c400cca789f4d2f1135b294"
+              },
+              {
+                "index": 1,
+                "name": "shrine_orm",
+                "role": "orm",
+                "mime": "image/png",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 179921,
+                "sha256": "da568e187a4dfd374a356fe7b2eaa81319f7ab82f91f92b39718589bfe0e66e7"
+              },
+              {
+                "index": 2,
+                "name": "shrine_basecolor",
+                "role": "basecolor",
+                "mime": "image/png",
+                "width": 1024,
+                "height": 1024,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 5592404,
+                "embeddedBytes": 693437,
+                "sha256": "85d286840fe1bc05c7fe1a2732d7ab9548204b9ea112a1d07d05f37171dbfef9"
+              },
+              {
+                "index": 3,
+                "name": "shrine_emissive",
+                "role": "emissive",
+                "mime": "image/png",
+                "width": 256,
+                "height": 256,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 349524,
+                "embeddedBytes": 28653,
+                "sha256": "93fea317a18bf8e4b29b15f232a15422249a5b27458fe25adce5e590dc14ac48"
+              }
+            ],
+            "rgba8FullMipBytes": 8738128,
+            "geometry": [
+              {
+                "name": "EmberShrine_LOD0_body",
+                "extras": {
+                  "surface_role": "body",
+                  "lod_index": 0
+                },
+                "triangles": 5492,
+                "vertices": 15148,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1.7200000286102295,
+                    -0.00005688982938034659,
+                    -1.7200000286102295
+                  ],
+                  "max": [
+                    1.7200000286102295,
+                    1.7760569127175638,
+                    1.7200000286102295
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD0_ember",
+                "extras": {
+                  "surface_role": "ember",
+                  "lod_index": 0
+                },
+                "triangles": 444,
+                "vertices": 850,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.8349999785423279,
+                    0.7870487360344613,
+                    -0.8349999785423279
+                  ],
+                  "max": [
+                    0.8349999785423279,
+                    1.6129512997283255,
+                    0.8349999785423279
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD1_body",
+                "extras": {
+                  "surface_role": "body",
+                  "lod_index": 1
+                },
+                "triangles": 2592,
+                "vertices": 7650,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1.7179844379425049,
+                    0.00039517972436531323,
+                    -1.7179844379425049
+                  ],
+                  "max": [
+                    1.7179844379425049,
+                    1.7761054047750795,
+                    1.7179844379425049
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD1_ember",
+                "extras": {
+                  "surface_role": "ember",
+                  "lod_index": 1
+                },
+                "triangles": 352,
+                "vertices": 814,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.8349999785423279,
+                    0.7870487360344613,
+                    -0.8349999785423279
+                  ],
+                  "max": [
+                    0.8349999785423279,
+                    1.6129512997283255,
+                    0.8349999785423279
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD2_body",
+                "extras": {
+                  "surface_role": "body",
+                  "lod_index": 2
+                },
+                "triangles": 942,
+                "vertices": 2760,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1.7307852506637573,
+                    0.0013834455742127716,
+                    -1.7307852506637573
+                  ],
+                  "max": [
+                    1.7307852506637573,
+                    1.7759572936927341,
+                    1.7307852506637573
+                  ]
+                }
+              },
+              {
+                "name": "EmberShrine_LOD2_ember",
+                "extras": {
+                  "surface_role": "ember",
+                  "lod_index": 2
+                },
+                "triangles": 192,
+                "vertices": 526,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.8354091048240662,
+                    0.7870503651565361,
+                    -0.8354091048240662
+                  ],
+                  "max": [
+                    0.8354091048240662,
+                    1.6129496706062507,
+                    0.8354091048240662
+                  ]
+                }
+              }
+            ],
+            "activeScene": {
+              "triangles": 10014,
+              "draws": 6
+            },
+            "allGeometry": {
+              "triangles": 10014,
+              "draws": 6
+            },
+            "geometrySha256": "00f1add258cf73eaeefa3445fe657753ddf90ead945d62c490b163b6abe750a3",
+            "materialCount": 2,
+            "accessors": 27,
+            "accessorScalars": 354258,
+            "rawValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 1,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/0"
+                }
+              ],
+              "truncated": false
+            },
+            "decodedGeometryValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 9,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/4/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+                }
+              ],
+              "truncated": false
+            },
+            "warnings": [],
+            "lods": [
+              {
+                "module": "asset",
+                "lod": 0,
+                "triangles": 5936,
+                "draws": 2
+              },
+              {
+                "module": "asset",
+                "lod": 1,
+                "triangles": 2944,
+                "draws": 2
+              },
+              {
+                "module": "asset",
+                "lod": 2,
+                "triangles": 1134,
+                "draws": 2
+              }
+            ]
+          }
+        }
+      },
+      "architecture": {
+        "sourceProject": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+        "sourceRevision": 1,
+        "sourceRuntimeManifest": "assets-source/props/v2/architecture/runtime-manifest.json",
+        "sourceRuntimeManifestSha256": "7e4f83c35dbd71c13ac8e5db6d0c045ac55fc36726e645568186f257f8781dc4",
+        "sourceEstimatedMipBytes": 4194304,
+        "variants": {
+          "compressed": {
+            "url": "/assets/props/v2/architecture-kit.glb",
+            "bytes": 1013076,
+            "sha256": "bbec76f1153187abf396336642a0f2a29a33e401f81de3ebdf5155029b523f31",
+            "selfContained": true,
+            "lights": 0,
+            "images": [
+              {
+                "index": 0,
+                "name": "kit_normal",
+                "role": "normal",
+                "mime": "image/ktx2",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 10,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 171926,
+                "sha256": "2b1d4a0c01a01d8ef9b984861680ef3246ba80c2d3176e0df0c43a51ebb79bc3"
+              },
+              {
+                "index": 1,
+                "name": "kit_orm",
+                "role": "orm",
+                "mime": "image/ktx2",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 10,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 214415,
+                "sha256": "7bbbbb4d9e5abbe56f71d242bab5865d0df6218b56b704f233e7852a4c8339e8"
+              },
+              {
+                "index": 2,
+                "name": "kit_basecolor",
+                "role": "basecolor",
+                "mime": "image/ktx2",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 10,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 37807,
+                "sha256": "b7419461057af2c15aa35390b8f50a6c0cbaf39bdc60e614e1e83a3fbab7944d"
+              }
+            ],
+            "rgba8FullMipBytes": 4194300,
+            "geometry": [
+              {
+                "name": "Arch_LOD0",
+                "extras": {
+                  "module": "Arch",
+                  "lod": 0
+                },
+                "triangles": 5992,
+                "vertices": 16932,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -3.8801050336774145,
+                    0,
+                    -0.4497576309712212
+                  ],
+                  "max": [
+                    3.8801050336774145,
+                    8.880000114440918,
+                    0.4987576557667534
+                  ]
+                }
+              },
+              {
+                "name": "Arch_LOD1",
+                "extras": {
+                  "module": "Arch",
+                  "lod": 1
+                },
+                "triangles": 2992,
+                "vertices": 8906,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -3.880131087319315,
+                    0,
+                    -0.4496945755982394
+                  ],
+                  "max": [
+                    3.880131087319315,
+                    8.878819465637207,
+                    0.4986946003937716
+                  ]
+                }
+              },
+              {
+                "name": "Arch_LOD2",
+                "extras": {
+                  "module": "Arch",
+                  "lod": 2
+                },
+                "triangles": 1192,
+                "vertices": 3570,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -3.875476718783081,
+                    0.004827945958822966,
+                    -0.4453731412013722
+                  ],
+                  "max": [
+                    3.875462890505493,
+                    8.87669849395752,
+                    0.49902471247517594
+                  ]
+                }
+              },
+              {
+                "name": "Pillar_LOD0",
+                "extras": {
+                  "module": "Pillar",
+                  "lod": 0
+                },
+                "triangles": 1192,
+                "vertices": 3248,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.35008391306005715,
+                    0,
+                    -0.45006254643622934
+                  ],
+                  "max": [
+                    0.35008391306005715,
+                    5.199999809265137,
+                    0.45006254643622934
+                  ]
+                }
+              },
+              {
+                "name": "Pillar_LOD1",
+                "extras": {
+                  "module": "Pillar",
+                  "lod": 1
+                },
+                "triangles": 592,
+                "vertices": 1772,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.35008391306005715,
+                    0,
+                    -0.45006254643622934
+                  ],
+                  "max": [
+                    0.35008391306005715,
+                    5.199999809265137,
+                    0.45006254643622934
+                  ]
+                }
+              },
+              {
+                "name": "Pillar_LOD2",
+                "extras": {
+                  "module": "Pillar",
+                  "lod": 2
+                },
+                "triangles": 232,
+                "vertices": 696,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.3440611247307185,
+                    0.005446858238428831,
+                    -0.444540256834819
+                  ],
+                  "max": [
+                    0.3448966328388575,
+                    5.192735195159912,
+                    0.4489518350132248
+                  ]
+                }
+              },
+              {
+                "name": "Trim_LOD0",
+                "extras": {
+                  "module": "Trim",
+                  "lod": 0
+                },
+                "triangles": 592,
+                "vertices": 1578,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1,
+                    0.00006785599986827706,
+                    -0.21503815171312368
+                  ],
+                  "max": [
+                    1,
+                    0.3499320486327001,
+                    0.2850381445605663
+                  ]
+                }
+              },
+              {
+                "name": "Trim_LOD1",
+                "extras": {
+                  "module": "Trim",
+                  "lod": 1
+                },
+                "triangles": 292,
+                "vertices": 826,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1,
+                    0.00006785599986827706,
+                    -0.21503815171312368
+                  ],
+                  "max": [
+                    1,
+                    0.3499320486327001,
+                    0.2850381445605663
+                  ]
+                }
+              },
+              {
+                "name": "Trim_LOD2",
+                "extras": {
+                  "module": "Trim",
+                  "lod": 2
+                },
+                "triangles": 112,
+                "vertices": 336,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.9962638020515442,
+                    0.0037137789037866575,
+                    -0.21131228834138702
+                  ],
+                  "max": [
+                    0.9954333305358887,
+                    0.3441020946632283,
+                    0.2807919624422629
+                  ]
+                }
+              }
+            ],
+            "activeScene": {
+              "triangles": 13188,
+              "draws": 9
+            },
+            "allGeometry": {
+              "triangles": 13188,
+              "draws": 9
+            },
+            "geometrySha256": "3ef0ddd4c73db22dbbc8b66de81916c438ef1374bd84c010c0d441a4254a50eb",
+            "materialCount": 1,
+            "accessors": 45,
+            "accessorScalars": 493932,
+            "rawValidation": {
+              "numErrors": 0,
+              "numWarnings": 6,
+              "numInfos": 5,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/0"
+                },
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/2"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/0/mimeType"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/1/mimeType"
+                },
+                {
+                  "code": "VALUE_NOT_IN_LIST",
+                  "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                  "severity": 1,
+                  "pointer": "/images/2/mimeType"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/0"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/1"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/images/2"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/0"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/1"
+                },
+                {
+                  "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                  "message": "Image format not recognized.",
+                  "severity": 1,
+                  "pointer": "/images/2"
+                }
+              ],
+              "truncated": false
+            },
+            "decodedGeometryValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 18,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/3/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/4/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/6/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/7/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/8/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+                }
+              ],
+              "truncated": false
+            },
+            "warnings": [
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/0/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/1/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "VALUE_NOT_IN_LIST",
+                "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+                "severity": 1,
+                "pointer": "/images/2/mimeType"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/0"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/1"
+              },
+              {
+                "kind": "validator-ktx2-support-limitation",
+                "code": "IMAGE_UNRECOGNIZED_FORMAT",
+                "message": "Image format not recognized.",
+                "severity": 1,
+                "pointer": "/images/2"
+              },
+              {
+                "kind": "provenance-location",
+                "message": "Source project/revision are manifest + hash-bound source runtime record only; not embedded in GLB root."
+              }
+            ],
+            "lods": [
+              {
+                "module": "Arch",
+                "lod": 0,
+                "triangles": 5992,
+                "draws": 1
+              },
+              {
+                "module": "Arch",
+                "lod": 1,
+                "triangles": 2992,
+                "draws": 1
+              },
+              {
+                "module": "Arch",
+                "lod": 2,
+                "triangles": 1192,
+                "draws": 1
+              },
+              {
+                "module": "Pillar",
+                "lod": 0,
+                "triangles": 1192,
+                "draws": 1
+              },
+              {
+                "module": "Pillar",
+                "lod": 1,
+                "triangles": 592,
+                "draws": 1
+              },
+              {
+                "module": "Pillar",
+                "lod": 2,
+                "triangles": 232,
+                "draws": 1
+              },
+              {
+                "module": "Trim",
+                "lod": 0,
+                "triangles": 592,
+                "draws": 1
+              },
+              {
+                "module": "Trim",
+                "lod": 1,
+                "triangles": 292,
+                "draws": 1
+              },
+              {
+                "module": "Trim",
+                "lod": 2,
+                "triangles": 112,
+                "draws": 1
+              }
+            ]
+          },
+          "fallback": {
+            "url": "/assets/props/v2/architecture-kit-fallback.glb",
+            "bytes": 1108388,
+            "sha256": "d8cc29ab074cdcc116b74c79fdd51b756742eb492a860276fe350bd589446429",
+            "selfContained": true,
+            "lights": 0,
+            "images": [
+              {
+                "index": 0,
+                "name": "kit_normal",
+                "role": "normal",
+                "mime": "image/png",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 132379,
+                "sha256": "f9d0c901c7ec3f3761727ba2f1b8d6a2e49e5072e6a3b2f3d104c13f458b5f41"
+              },
+              {
+                "index": 1,
+                "name": "kit_orm",
+                "role": "orm",
+                "mime": "image/png",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 245792,
+                "sha256": "29743563784efc22b183354203b85417c203a58ccfa5e5bdc3669c65aa9d141d"
+              },
+              {
+                "index": 2,
+                "name": "kit_basecolor",
+                "role": "basecolor",
+                "mime": "image/png",
+                "width": 512,
+                "height": 512,
+                "storedMipLevels": 1,
+                "rgba8FullMipBytes": 1398100,
+                "embeddedBytes": 141421,
+                "sha256": "24fbfdcbe792b44e8c5aa0d3b99d55a76e5bbfb86059cf9a4c8de0ad7fe551c6"
+              }
+            ],
+            "rgba8FullMipBytes": 4194300,
+            "geometry": [
+              {
+                "name": "Arch_LOD0",
+                "extras": {
+                  "module": "Arch",
+                  "lod": 0
+                },
+                "triangles": 5992,
+                "vertices": 16932,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -3.8801050336774145,
+                    0,
+                    -0.4497576309712212
+                  ],
+                  "max": [
+                    3.8801050336774145,
+                    8.880000114440918,
+                    0.4987576557667534
+                  ]
+                }
+              },
+              {
+                "name": "Arch_LOD1",
+                "extras": {
+                  "module": "Arch",
+                  "lod": 1
+                },
+                "triangles": 2992,
+                "vertices": 8906,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -3.880131087319315,
+                    0,
+                    -0.4496945755982394
+                  ],
+                  "max": [
+                    3.880131087319315,
+                    8.878819465637207,
+                    0.4986946003937716
+                  ]
+                }
+              },
+              {
+                "name": "Arch_LOD2",
+                "extras": {
+                  "module": "Arch",
+                  "lod": 2
+                },
+                "triangles": 1192,
+                "vertices": 3570,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -3.875476718783081,
+                    0.004827945958822966,
+                    -0.4453731412013722
+                  ],
+                  "max": [
+                    3.875462890505493,
+                    8.87669849395752,
+                    0.49902471247517594
+                  ]
+                }
+              },
+              {
+                "name": "Pillar_LOD0",
+                "extras": {
+                  "module": "Pillar",
+                  "lod": 0
+                },
+                "triangles": 1192,
+                "vertices": 3248,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.35008391306005715,
+                    0,
+                    -0.45006254643622934
+                  ],
+                  "max": [
+                    0.35008391306005715,
+                    5.199999809265137,
+                    0.45006254643622934
+                  ]
+                }
+              },
+              {
+                "name": "Pillar_LOD1",
+                "extras": {
+                  "module": "Pillar",
+                  "lod": 1
+                },
+                "triangles": 592,
+                "vertices": 1772,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.35008391306005715,
+                    0,
+                    -0.45006254643622934
+                  ],
+                  "max": [
+                    0.35008391306005715,
+                    5.199999809265137,
+                    0.45006254643622934
+                  ]
+                }
+              },
+              {
+                "name": "Pillar_LOD2",
+                "extras": {
+                  "module": "Pillar",
+                  "lod": 2
+                },
+                "triangles": 232,
+                "vertices": 696,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.3440611247307185,
+                    0.005446858238428831,
+                    -0.444540256834819
+                  ],
+                  "max": [
+                    0.3448966328388575,
+                    5.192735195159912,
+                    0.4489518350132248
+                  ]
+                }
+              },
+              {
+                "name": "Trim_LOD0",
+                "extras": {
+                  "module": "Trim",
+                  "lod": 0
+                },
+                "triangles": 592,
+                "vertices": 1578,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1,
+                    0.00006785599986827706,
+                    -0.21503815171312368
+                  ],
+                  "max": [
+                    1,
+                    0.3499320486327001,
+                    0.2850381445605663
+                  ]
+                }
+              },
+              {
+                "name": "Trim_LOD1",
+                "extras": {
+                  "module": "Trim",
+                  "lod": 1
+                },
+                "triangles": 292,
+                "vertices": 826,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -1,
+                    0.00006785599986827706,
+                    -0.21503815171312368
+                  ],
+                  "max": [
+                    1,
+                    0.3499320486327001,
+                    0.2850381445605663
+                  ]
+                }
+              },
+              {
+                "name": "Trim_LOD2",
+                "extras": {
+                  "module": "Trim",
+                  "lod": 2
+                },
+                "triangles": 112,
+                "vertices": 336,
+                "draws": 1,
+                "active": true,
+                "bounds": {
+                  "min": [
+                    -0.9962638020515442,
+                    0.0037137789037866575,
+                    -0.21131228834138702
+                  ],
+                  "max": [
+                    0.9954333305358887,
+                    0.3441020946632283,
+                    0.2807919624422629
+                  ]
+                }
+              }
+            ],
+            "activeScene": {
+              "triangles": 13188,
+              "draws": 9
+            },
+            "allGeometry": {
+              "triangles": 13188,
+              "draws": 9
+            },
+            "geometrySha256": "3ef0ddd4c73db22dbbc8b66de81916c438ef1374bd84c010c0d441a4254a50eb",
+            "materialCount": 1,
+            "accessors": 45,
+            "accessorScalars": 493932,
+            "rawValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 1,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNSUPPORTED_EXTENSION",
+                  "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+                  "severity": 2,
+                  "pointer": "/extensionsUsed/0"
+                }
+              ],
+              "truncated": false
+            },
+            "decodedGeometryValidation": {
+              "numErrors": 0,
+              "numWarnings": 0,
+              "numInfos": 18,
+              "numHints": 0,
+              "messages": [
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/3/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/4/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/6/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/7/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+                },
+                {
+                  "code": "UNUSED_MESH_TANGENT",
+                  "message": "Tangents are not used because the material has no normal texture.",
+                  "severity": 2,
+                  "pointer": "/meshes/8/primitives/0/attributes/TANGENT"
+                },
+                {
+                  "code": "UNUSED_OBJECT",
+                  "message": "This object may be unused.",
+                  "severity": 2,
+                  "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+                }
+              ],
+              "truncated": false
+            },
+            "warnings": [
+              {
+                "kind": "provenance-location",
+                "message": "Source project/revision are manifest + hash-bound source runtime record only; not embedded in GLB root."
+              }
+            ],
+            "lods": [
+              {
+                "module": "Arch",
+                "lod": 0,
+                "triangles": 5992,
+                "draws": 1
+              },
+              {
+                "module": "Arch",
+                "lod": 1,
+                "triangles": 2992,
+                "draws": 1
+              },
+              {
+                "module": "Arch",
+                "lod": 2,
+                "triangles": 1192,
+                "draws": 1
+              },
+              {
+                "module": "Pillar",
+                "lod": 0,
+                "triangles": 1192,
+                "draws": 1
+              },
+              {
+                "module": "Pillar",
+                "lod": 1,
+                "triangles": 592,
+                "draws": 1
+              },
+              {
+                "module": "Pillar",
+                "lod": 2,
+                "triangles": 232,
+                "draws": 1
+              },
+              {
+                "module": "Trim",
+                "lod": 0,
+                "triangles": 592,
+                "draws": 1
+              },
+              {
+                "module": "Trim",
+                "lod": 1,
+                "triangles": 292,
+                "draws": 1
+              },
+              {
+                "module": "Trim",
+                "lod": 2,
+                "triangles": 112,
+                "draws": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "fallbackRgba8MipBytes": 15029576,
+    "fallbackRgba8MipMiB": 14.333320617675781,
+    "limitMiB": 16
+  },
+  "dungeon": {
+    "manifest": "/assets/dungeon/v13/manifest.json",
+    "manifestSha256": "86fe42a1519d35d9177d717e52cdce01ecf57137ed9017e06195f15e25d9f07d",
+    "version": "visual-v13-architecture",
+    "rooms": [
+      {
+        "id": "entry",
+        "url": "/assets/dungeon/v13/entry.glb",
+        "declaredTriangles": 24852,
+        "declaredDraws": 5,
+        "bytes": 521892,
+        "sha256": "c860db655a6d23b66adfc262b2a659a5009d43ecdbe9ff885b79bf7ced5baed4",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "entry-0",
+            "extras": {},
+            "triangles": 21730,
+            "vertices": 18443,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -10.899365062552382,
+                -0.129651146242459,
+                37.487998962402344
+              ],
+              "max": [
+                10.899365062552382,
+                9.600485729286511,
+                60.45000076293945
+              ]
+            }
+          },
+          {
+            "name": "entry-1",
+            "extras": {},
+            "triangles": 720,
+            "vertices": 768,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -10.25,
+                1.9996072124779292,
+                43.50009155552843
+              ],
+              "max": [
+                10.25,
+                2.7803927589118413,
+                54.49990844447157
+              ]
+            }
+          },
+          {
+            "name": "entry-2",
+            "extras": {},
+            "triangles": 1920,
+            "vertices": 1620,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -2.992000102996826,
+                5.0680239782540895,
+                38.907958125436544
+              ],
+              "max": [
+                2.992000102996826,
+                7.491975964525452,
+                39.092041874563456
+              ]
+            }
+          },
+          {
+            "name": "entry-3",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -9.999603259376812,
+                0,
+                38
+              ],
+              "max": [
+                9.999603259376812,
+                0,
+                60
+              ]
+            }
+          },
+          {
+            "name": "entry-4",
+            "extras": {},
+            "triangles": 480,
+            "vertices": 960,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -9.54037217322306,
+                2.1751044543693814,
+                38.82500076293945
+              ],
+              "max": [
+                9.54037217322306,
+                5.724895402579471,
+                59.07500076293945
+              ]
+            }
+          },
+          {
+            "name": "entry-5",
+            "extras": {},
+            "triangles": 144,
+            "vertices": 188,
+            "draws": 1,
+            "active": false,
+            "bounds": {
+              "min": [
+                -9.285316467285156,
+                1.943318704213484,
+                48.699623540289856
+              ],
+              "max": [
+                9.285316467285156,
+                3.02467395917,
+                49.300376459710144
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 24852,
+          "draws": 5
+        },
+        "allGeometry": {
+          "triangles": 24996,
+          "draws": 6
+        },
+        "geometrySha256": "1ba8720c075ff628afbe85df8df9db72ed3f062901ceffa9bcef07cff74ac1d3",
+        "materialCount": 6,
+        "accessors": 36,
+        "accessorScalars": 360767,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 15,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/nodes/5"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 13,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/nodes/5"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/entry-indirect.png",
+          "bytes": 147824,
+          "sha256": "0d8520019be6fc79a654c44878665d3aca230880347a528667a77eabfddd7214",
+          "width": 1024,
+          "height": 1024,
+          "rgba8BytesNoMips": 4194304
+        }
+      },
+      {
+        "id": "cinder",
+        "url": "/assets/dungeon/v13/cinder.glb",
+        "declaredTriangles": 27506,
+        "declaredDraws": 7,
+        "bytes": 565288,
+        "sha256": "9c133c7ab109f4ff4a218933a534302d2ecdbfcf36a2dbff78cc46f44bc5b1ef",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "cinder-0",
+            "extras": {},
+            "triangles": 19344,
+            "vertices": 16905,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -16.899999618530273,
+                -0.1297731867517271,
+                7.488626510764359
+              ],
+              "max": [
+                16.899999618530273,
+                9.60060776979578,
+                32.511374442909954
+              ]
+            }
+          },
+          {
+            "name": "cinder-1",
+            "extras": {},
+            "triangles": 2400,
+            "vertices": 1728,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -15.880000114440918,
+                2.849313607308143,
+                11.735052413214559
+              ],
+              "max": [
+                15.880000114440918,
+                4.950686345008141,
+                28.264946633111123
+              ]
+            }
+          },
+          {
+            "name": "cinder-2",
+            "extras": {},
+            "triangles": 4320,
+            "vertices": 3476,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -15.669445037841797,
+                3.000334781632234,
+                8.907909386078025
+              ],
+              "max": [
+                15.669445037841797,
+                7.491665321364592,
+                28.14909077413926
+              ]
+            }
+          },
+          {
+            "name": "cinder-3",
+            "extras": {},
+            "triangles": 720,
+            "vertices": 768,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -16.25,
+                1.9992104718547412,
+                14.500679036835841
+              ],
+              "max": [
+                16.25,
+                2.7807894995350293,
+                25.49932096316416
+              ]
+            }
+          },
+          {
+            "name": "cinder-4",
+            "extras": {},
+            "triangles": 192,
+            "vertices": 126,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -15.514359474182129,
+                4.402299818355367,
+                25.350392126267955
+              ],
+              "max": [
+                15.514359474182129,
+                7.099214139621928,
+                26.649607873732045
+              ]
+            }
+          },
+          {
+            "name": "cinder-5",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -16,
+                0,
+                8.00061037018952
+              ],
+              "max": [
+                16,
+                0,
+                31.99938962981048
+              ]
+            }
+          },
+          {
+            "name": "cinder-6",
+            "extras": {},
+            "triangles": 528,
+            "vertices": 1056,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -15.539999961853027,
+                2.1743793389429547,
+                8.82554110154411
+              ],
+              "max": [
+                15.539999961853027,
+                5.725620518005898,
+                31.174457944781572
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 27506,
+          "draws": 7
+        },
+        "allGeometry": {
+          "triangles": 27506,
+          "draws": 7
+        },
+        "geometrySha256": "55e6b5e27893aca4394e68a3e19cccbe5a85ec9e09f730c50309aecd4f925774",
+        "materialCount": 8,
+        "accessors": 48,
+        "accessorScalars": 398213,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 19,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 17,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/cinder-indirect.png",
+          "bytes": 140412,
+          "sha256": "f382cb2bcbdb6fec801615082b71d421d704e5a8db56a6304d9248360d8cc784",
+          "width": 1024,
+          "height": 1024,
+          "rgba8BytesNoMips": 4194304
+        }
+      },
+      {
+        "id": "dusk",
+        "url": "/assets/dungeon/v13/dusk.glb",
+        "declaredTriangles": 34370,
+        "declaredDraws": 9,
+        "bytes": 733896,
+        "sha256": "162ed35726aa9c4b698d1f7d510c3e7438b00934e1597083677099a30fb6e26f",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "dusk-0",
+            "extras": {},
+            "triangles": 19344,
+            "vertices": 16876,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -19.899999618530273,
+                -0.12798787053707095,
+                -22.511971694584112
+              ],
+              "max": [
+                19.899999618530273,
+                9.598822453581123,
+                2.5119726482584266
+              ]
+            }
+          },
+          {
+            "name": "dusk-1",
+            "extras": {},
+            "triangles": 7776,
+            "vertices": 6984,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -18.850000381469727,
+                2.6740745457505075,
+                -18.045205764577762
+              ],
+              "max": [
+                18.850000381469727,
+                4.0409253684188045,
+                -1.9547943546315274
+              ]
+            }
+          },
+          {
+            "name": "dusk-2",
+            "extras": {},
+            "triangles": 3840,
+            "vertices": 3877,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -18.572999954223633,
+                2.897594437930394,
+                -17.981396412901816
+              ],
+              "max": [
+                18.572999954223633,
+                3.922405495312404,
+                -2.018603825516764
+              ]
+            }
+          },
+          {
+            "name": "dusk-3",
+            "extras": {},
+            "triangles": 720,
+            "vertices": 768,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -19.25,
+                1.9999123975726891,
+                -15.499412518692587
+              ],
+              "max": [
+                19.25,
+                2.7800875738170814,
+                -4.500587481307413
+              ]
+            }
+          },
+          {
+            "name": "dusk-4",
+            "extras": {},
+            "triangles": 192,
+            "vertices": 126,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -18.514358520507812,
+                4.4014638442197445,
+                -4.650915281094546
+              ],
+              "max": [
+                18.514358520507812,
+                7.1000501137575505,
+                -3.349084718905454
+              ]
+            }
+          },
+          {
+            "name": "dusk-5",
+            "extras": {},
+            "triangles": 1920,
+            "vertices": 1620,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -2.992000102996826,
+                5.0680239782540895,
+                -21.092041874563456
+              ],
+              "max": [
+                2.992000102996826,
+                7.491975964525452,
+                -20.907958125436544
+              ]
+            }
+          },
+          {
+            "name": "dusk-6",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -19,
+                0,
+                -21.999450666829432
+              ],
+              "max": [
+                19,
+                0,
+                1.999450666829432
+              ]
+            }
+          },
+          {
+            "name": "dusk-7",
+            "extras": {},
+            "triangles": 528,
+            "vertices": 1056,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -18.540000915527344,
+                2.175609753264802,
+                -21.174810156871466
+              ],
+              "max": [
+                18.540000915527344,
+                5.72439010368405,
+                1.174810991336491
+              ]
+            }
+          },
+          {
+            "name": "dusk-9",
+            "extras": {},
+            "triangles": 48,
+            "vertices": 49,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                3.25,
+                0.017999999225139618,
+                -11.75
+              ],
+              "max": [
+                10.75,
+                0.017999999225139618,
+                -4.25
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 34370,
+          "draws": 9
+        },
+        "allGeometry": {
+          "triangles": 34370,
+          "draws": 9
+        },
+        "geometrySha256": "84be10b5db9ae848c3454876681876a61d16281c776e3e1703a4996ebac0dd59",
+        "materialCount": 10,
+        "accessors": 60,
+        "accessorScalars": 513666,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 23,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/9/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/9/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 21,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/9/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/9/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/dusk-indirect.png",
+          "bytes": 156645,
+          "sha256": "3c92c67162da5040191becfda0044b1d1b21cbba19ac5f32c7cee177ffd0c9c5",
+          "width": 1024,
+          "height": 1024,
+          "rgba8BytesNoMips": 4194304
+        }
+      },
+      {
+        "id": "crown",
+        "url": "/assets/dungeon/v13/crown.glb",
+        "declaredTriangles": 23346,
+        "declaredDraws": 6,
+        "bytes": 522204,
+        "sha256": "265bd25cd37813d6ac42e00558a72937aac6e14ee78ca086f5deee1fe4b6eceb",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "crown-0",
+            "extras": {},
+            "triangles": 18480,
+            "vertices": 17784,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -16.899999618530273,
+                -0.1297731867517271,
+                -48.51227831275156
+              ],
+              "max": [
+                16.899999618530273,
+                9.60060776979578,
+                -27.48772359459707
+              ]
+            }
+          },
+          {
+            "name": "crown-1",
+            "extras": {},
+            "triangles": 3520,
+            "vertices": 2792,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -15.744641304016113,
+                -0.0000011944161792953878,
+                -47.091617460620775
+              ],
+              "max": [
+                15.744641304016113,
+                7.492001345096722,
+                -31.275381211864577
+              ]
+            }
+          },
+          {
+            "name": "crown-2",
+            "extras": {},
+            "triangles": 720,
+            "vertices": 768,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -16.25,
+                1.9992104718547412,
+                -43.49932096316416
+              ],
+              "max": [
+                16.25,
+                2.7807894995350293,
+                -32.50067903683584
+              ]
+            }
+          },
+          {
+            "name": "crown-3",
+            "extras": {},
+            "triangles": 192,
+            "vertices": 126,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -15.514359474182129,
+                4.402299818355367,
+                -32.64960882740636
+              ],
+              "max": [
+                15.514359474182129,
+                7.099214139621928,
+                -31.350393079942272
+              ]
+            }
+          },
+          {
+            "name": "crown-4",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -16,
+                0,
+                -47.99932859279153
+              ],
+              "max": [
+                16,
+                0,
+                -28.000671407208472
+              ]
+            }
+          },
+          {
+            "name": "crown-5",
+            "extras": {},
+            "triangles": 432,
+            "vertices": 864,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -15.539999961853027,
+                2.1743793389429547,
+                -47.17444503679519
+              ],
+              "max": [
+                15.539999961853027,
+                5.725620518005898,
+                -29.02555381879563
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 23346,
+          "draws": 6
+        },
+        "allGeometry": {
+          "triangles": 23346,
+          "draws": 6
+        },
+        "geometrySha256": "1317ffcbbf79bb661a1704131f094d7369b314c35eed1d3f1c6641db47ef7c85",
+        "materialCount": 7,
+        "accessors": 42,
+        "accessorScalars": 363308,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 17,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 15,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/crown-indirect.png",
+          "bytes": 138657,
+          "sha256": "4f0020b1ccf45033e817d5c1d95f98e68dbe160d314b67c98932afddf9fed871",
+          "width": 1024,
+          "height": 1024,
+          "rgba8BytesNoMips": 4194304
+        }
+      },
+      {
+        "id": "throne",
+        "url": "/assets/dungeon/v12/throne.glb",
+        "declaredTriangles": 27404,
+        "declaredDraws": 9,
+        "bytes": 557588,
+        "sha256": "0047446cfec2ac57b61e10983edd1baacb688b61e0fd3c2660a0e0c61635e080",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "throne-0",
+            "extras": {},
+            "triangles": 20826,
+            "vertices": 17637,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -19.899999618530273,
+                -0.12798787053707095,
+                -82.45025017652455
+              ],
+              "max": [
+                19.899999618530273,
+                9.598822453581123,
+                -55.48774573411999
+              ]
+            }
+          },
+          {
+            "name": "throne-1",
+            "extras": {},
+            "triangles": 4404,
+            "vertices": 3524,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -18.889999389648438,
+                3.050342730713723,
+                -81.09325205807895
+              ],
+              "max": [
+                18.889999389648438,
+                7.491657324599387,
+                -59.72374928469449
+              ]
+            }
+          },
+          {
+            "name": "throne-2",
+            "extras": {},
+            "triangles": 720,
+            "vertices": 768,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -19.25,
+                1.9999123975726891,
+                -74.4994125186926
+              ],
+              "max": [
+                19.25,
+                2.7800875738170814,
+                -63.50058748130741
+              ]
+            }
+          },
+          {
+            "name": "throne-3",
+            "extras": {},
+            "triangles": 192,
+            "vertices": 126,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -18.514358520507812,
+                4.4014638442197445,
+                -63.65091528109455
+              ],
+              "max": [
+                18.514358520507812,
+                7.1000501137575505,
+                -62.34908471890545
+              ]
+            }
+          },
+          {
+            "name": "throne-4",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -19,
+                0,
+                -81.9991149632252
+              ],
+              "max": [
+                19,
+                0,
+                -56.000885036774804
+              ]
+            }
+          },
+          {
+            "name": "throne-5",
+            "extras": {},
+            "triangles": 576,
+            "vertices": 1152,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -18.540000915527344,
+                2.175609753264802,
+                -81.17496062441239
+              ],
+              "max": [
+                18.540000915527344,
+                5.72439010368405,
+                -56.725040901466514
+              ]
+            }
+          },
+          {
+            "name": "throne-6",
+            "extras": {},
+            "triangles": 300,
+            "vertices": 404,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -18.285316467285156,
+                0.1999823818223212,
+                -80.25016068365917
+              ],
+              "max": [
+                18.285316467285156,
+                4.200017430423047,
+                -68.69983626458301
+              ]
+            }
+          },
+          {
+            "name": "throne-7",
+            "extras": {},
+            "triangles": 192,
+            "vertices": 117,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -6.245904965065555,
+                2.676461696624756,
+                -81.4000015258789
+              ],
+              "max": [
+                -3.754095034934445,
+                7.323538303375244,
+                -81.4000015258789
+              ]
+            }
+          },
+          {
+            "name": "throne-8",
+            "extras": {},
+            "triangles": 192,
+            "vertices": 117,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                3.754095034934445,
+                2.676461696624756,
+                -81.4000015258789
+              ],
+              "max": [
+                6.245904965065555,
+                7.323538303375244,
+                -81.4000015258789
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 27404,
+          "draws": 9
+        },
+        "allGeometry": {
+          "triangles": 27404,
+          "draws": 9
+        },
+        "geometrySha256": "cd07de8fa3ecd0f6cc35143cd81894bf786af104816fa01616d57e8e01c5eb44",
+        "materialCount": 9,
+        "accessors": 51,
+        "accessorScalars": 391088,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 20,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 18,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_1"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/throne-indirect.png",
+          "bytes": 146070,
+          "sha256": "f4e99a5a5cd008c23065518e99adee8f9f13341a2327c1c060d0a9c93276b157",
+          "width": 1024,
+          "height": 1024,
+          "rgba8BytesNoMips": 4194304
+        }
+      },
+      {
+        "id": "passage-0",
+        "url": "/assets/dungeon/v9/passage-0.glb",
+        "declaredTriangles": 26,
+        "declaredDraws": 2,
+        "bytes": 6312,
+        "sha256": "149b54f741b2da7c8eeeff060635ff163d8d2dee83eaa31bfe413bde967502b7",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "passage-0-0",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -3,
+                0,
+                32
+              ],
+              "max": [
+                3,
+                0,
+                38
+              ]
+            }
+          },
+          {
+            "name": "passage-0-1",
+            "extras": {},
+            "triangles": 24,
+            "vertices": 48,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -3.899972688312457,
+                0,
+                32.00020130296126
+              ],
+              "max": [
+                3.899972688312457,
+                9.600000381469727,
+                37.99979869703874
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 26,
+          "draws": 2
+        },
+        "allGeometry": {
+          "triangles": 26,
+          "draws": 2
+        },
+        "geometrySha256": "e195056faefa9c2099e6a5817e5e5a09debb53100ba0e12b93ab9e6b292e672d",
+        "materialCount": 2,
+        "accessors": 12,
+        "accessorScalars": 754,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 6,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 4,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/passage-0-indirect.png",
+          "bytes": 3353,
+          "sha256": "6a1a5c975f495f67cb54f3e3e81f75ec078e0ea6a1e013fdb0e16407e88d57be",
+          "width": 256,
+          "height": 256,
+          "rgba8BytesNoMips": 262144
+        }
+      },
+      {
+        "id": "passage-1",
+        "url": "/assets/dungeon/v9/passage-1.glb",
+        "declaredTriangles": 26,
+        "declaredDraws": 2,
+        "bytes": 6292,
+        "sha256": "d25566a8b8af5bcd7933a96edf9459de4edc6a2f3b4ddb9ba419d131669b8194",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "passage-1-0",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -3,
+                0,
+                2
+              ],
+              "max": [
+                3,
+                0,
+                8
+              ]
+            }
+          },
+          {
+            "name": "passage-1-1",
+            "extras": {},
+            "triangles": 24,
+            "vertices": 48,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -3.899972688312457,
+                0,
+                2.0002013029612558
+              ],
+              "max": [
+                3.899972688312457,
+                9.600000381469727,
+                7.999798697038744
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 26,
+          "draws": 2
+        },
+        "allGeometry": {
+          "triangles": 26,
+          "draws": 2
+        },
+        "geometrySha256": "07e538a4e9011229ed81fc2f03238eb509d76c1c59df8ead4c6523b65d99f612",
+        "materialCount": 2,
+        "accessors": 12,
+        "accessorScalars": 754,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 6,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 4,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/passage-1-indirect.png",
+          "bytes": 3459,
+          "sha256": "a8d57ca2fff7aef6ae81cc0cce3ec9e1664c439e674cc9689eb8e6c9a04a4eef",
+          "width": 256,
+          "height": 256,
+          "rgba8BytesNoMips": 262144
+        }
+      },
+      {
+        "id": "passage-2",
+        "url": "/assets/dungeon/v9/passage-2.glb",
+        "declaredTriangles": 26,
+        "declaredDraws": 2,
+        "bytes": 6260,
+        "sha256": "0e29153200fb617d141d0f66783be80b98e8a1006ecc7c8943d65b87b8033c10",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "passage-2-0",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -3,
+                0,
+                -28
+              ],
+              "max": [
+                3,
+                0,
+                -22
+              ]
+            }
+          },
+          {
+            "name": "passage-2-1",
+            "extras": {},
+            "triangles": 24,
+            "vertices": 48,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -3.899972688312457,
+                0,
+                -27.999798697038745
+              ],
+              "max": [
+                3.899972688312457,
+                9.600000381469727,
+                -22.000201302961255
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 26,
+          "draws": 2
+        },
+        "allGeometry": {
+          "triangles": 26,
+          "draws": 2
+        },
+        "geometrySha256": "684ce103a8b30acd2324ad6cbadcc2003b082d8192b147e2901fca8feef85bbe",
+        "materialCount": 2,
+        "accessors": 12,
+        "accessorScalars": 754,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 6,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 4,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/passage-2-indirect.png",
+          "bytes": 3362,
+          "sha256": "1ba4695749a13cd4666c9cacbe0dfa5f0ce0654204de9711217dca97fb25e6ce",
+          "width": 256,
+          "height": 256,
+          "rgba8BytesNoMips": 262144
+        }
+      },
+      {
+        "id": "passage-3",
+        "url": "/assets/dungeon/v9/passage-3.glb",
+        "declaredTriangles": 26,
+        "declaredDraws": 2,
+        "bytes": 6284,
+        "sha256": "a8e1642fef21c4a09b6b8ccea28f9c7d5c1adf6e22729698cc604b014eab6f14",
+        "selfContained": true,
+        "lights": 0,
+        "images": [],
+        "rgba8FullMipBytes": 0,
+        "geometry": [
+          {
+            "name": "passage-3-0",
+            "extras": {},
+            "triangles": 2,
+            "vertices": 4,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -2.99984740745262,
+                0,
+                -56
+              ],
+              "max": [
+                2.99984740745262,
+                0,
+                -48
+              ]
+            }
+          },
+          {
+            "name": "passage-3-1",
+            "extras": {},
+            "triangles": 24,
+            "vertices": 48,
+            "draws": 1,
+            "active": true,
+            "bounds": {
+              "min": [
+                -3.899972688312457,
+                0,
+                -56.000171062605574
+              ],
+              "max": [
+                3.899972688312457,
+                9.600000381469727,
+                -47.999828937394426
+              ]
+            }
+          }
+        ],
+        "activeScene": {
+          "triangles": 26,
+          "draws": 2
+        },
+        "allGeometry": {
+          "triangles": 26,
+          "draws": 2
+        },
+        "geometrySha256": "e351f51a5e01a42b016d2e42ec90f042071e3b5f728994f282770d42403d5662",
+        "materialCount": 2,
+        "accessors": 12,
+        "accessorScalars": 754,
+        "rawValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 6,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNSUPPORTED_EXTENSION",
+              "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+              "severity": 2,
+              "pointer": "/extensionsUsed/0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/buffers/0"
+            }
+          ],
+          "truncated": false
+        },
+        "decodedGeometryValidation": {
+          "numErrors": 0,
+          "numWarnings": 0,
+          "numInfos": 4,
+          "numHints": 0,
+          "messages": [
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_1"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+            },
+            {
+              "code": "UNUSED_OBJECT",
+              "message": "This object may be unused.",
+              "severity": 2,
+              "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_1"
+            }
+          ],
+          "truncated": false
+        },
+        "warnings": [],
+        "lightmap": {
+          "url": "/assets/dungeon/v11/passage-3-indirect.png",
+          "bytes": 3369,
+          "sha256": "f4a44e27897ad111c26e21f2e57a46406cb9f32972097df8bde2427658d6de32",
+          "width": 256,
+          "height": 256,
+          "rgba8BytesNoMips": 262144
+        }
+      }
+    ],
+    "allRoomsActiveScenes": {
+      "triangles": 137582,
+      "draws": 44
+    }
+  },
+  "caveats": [
+    "Offline active-scene primitive counts are not observed GPU submissions or frame rates. Dungeon streaming/frustum visibility and runtime prop instancing must be measured in browser.",
+    "RGBA8 mip residency is exact discrete full-mip pixel storage for one allocation per embedded image, a conservative fallback bound; excludes driver/CPU upload copies, render targets and concurrent variant overlap.",
+    "KTX2 headers, dimensions, level count and payload bounds are inspected; no GPU KTX2 transcoding is claimed. Exact Meshopt-decoded accessor arrays are independently validated after removing images from a validation-only copy."
+  ]
+}

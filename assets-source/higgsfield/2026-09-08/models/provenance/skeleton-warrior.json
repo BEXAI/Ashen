@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "skeleton-warrior",
+  "originalArtwork": {
+    "assetId": "4bbdba2a-302d-428e-bc0c-3566bd84bde8",
+    "filename": "hf_20260909_002155_4bbdba2a-302d-428e-bc0c-3566bd84bde8.png",
+    "sha256": "50b4729d6e53af88ebaa7bc5475bd2f5f05356950e56d95263744f7d06e0dc29",
+    "bytes": 4996783,
+    "screenshot": {
+      "row": 3,
+      "column": 1,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": true,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "778bc606-5107-4fb5-85d7-59922b0f2b6f",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043248_778bc606-5107-4fb5-85d7-59922b0f2b6f.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "8837e33d-560b-44bd-aa8b-c6d9c716bdc3",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/8837e33d-560b-44bd-aa8b-c6d9c716bdc3_resize.jpg"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/skeleton-warrior-original.glb",
+    "bytes": 7333976,
+    "sha256": "38d564469545ac331e994275319977f1e48d14c7f61bb1f20fe6fafe284a8f8f"
+  },
+  "attackStyle": "blade",
+  "attackAliasPolicy": "Four distinct native sword clips",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

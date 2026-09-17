@@ -1,0 +1,143 @@
+import { CharacterPresentation } from './character-presentation';
+import * as T from 'three';
+import { GLTFLoader, type GLTF } from 'three/addons/loaders/GLTFLoader.js';
+import { KTX2Loader } from 'three/addons/loaders/KTX2Loader.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+import { clone } from 'three/addons/utils/SkeletonUtils.js';
+import { STRIKES, type Strike } from './combat';
+import type { Actor, ActorVisual, SkinId } from './character-skins';
+
+type Tier='low'|'mobile'|'hd'|'high';
+type Variant={url:string;fallback:string;sha256:string;fallbackSha256:string};
+type Manifest={version:string;characters:Record<SkinId,{variants:Record<Tier,Variant>}>};
+type Template={gltf:GLTF;tier:Tier;fallback:boolean;references:number};
+export const CHARACTER_MANIFEST_URL='/assets/characters/v11/manifest.json';
+export const REQUIRED_CHARACTER_CLIPS=[...STRIKES.map(strike=>strike.id),'idle','forward','backward','strafe_left','strafe_right','turn','dodge','hit','death'];
+export function assetTier(quality:string,mobile:boolean):Tier{return quality==='low'?'low':quality==='high'?'high':mobile?'mobile':'hd';}
+export function supportedAssetTier(quality:string,mobile:boolean,maxTextureSize:number,compressed:boolean):Tier{
+ const tier=assetTier(quality,mobile);
+ // KTX2 can decode successfully to RGBA8 on an unsupported GPU. Cap that path
+ // before loading a 4K atlas; decoder failure alone is not a memory safeguard.
+ if(tier==='low')return 'low';
+ if(!compressed||maxTextureSize<2048)return 'mobile';
+ return tier==='high'&&maxTextureSize<4096?'hd':tier;
+}
+export function selectActorLod(distance:number,projectedPixels:number,current:number){
+ if(distance<7)return 0;
+ const margin=current===0?-20:20;
+ if(projectedPixels>180+margin)return 0;
+ if(projectedPixels>70+(current===1?-12:12))return 1;
+ return 2;
+}
+export function retimeStrike(strike:Strike,elapsed:number){
+ const authored=STRIKES.find(s=>s.id===strike.id)!;
+ if(elapsed<strike.windup)return Math.max(0,elapsed/strike.windup)*authored.windup;
+ if(elapsed<strike.windup+strike.active)return authored.windup+(elapsed-strike.windup)/strike.active*authored.active;
+ return authored.windup+authored.active+Math.min(1,(elapsed-strike.windup-strike.active)/strike.recovery)*authored.recovery;
+}
+export function disposeTree(root:T.Object3D,closeImages=false){
+ const geometries=new Set<T.BufferGeometry>(),materials=new Set<T.Material>(),textures=new Set<T.Texture>(),skeletons=new Set<T.Skeleton>();
+ root.traverse(o=>{if(o instanceof T.SkinnedMesh)skeletons.add(o.skeleton);if(!(o instanceof T.Mesh))return;geometries.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:[o.material])materials.add(m);});
+ for(const m of materials){for(const v of Object.values(m))if(v instanceof T.Texture)textures.add(v);m.dispose();}
+ for(const t of textures){t.dispose();if(closeImages){const image=t.image as {close?:()=>void}|undefined;image?.close?.();}}
+ geometries.forEach(g=>g.dispose());skeletons.forEach(s=>s.dispose());
+}
+
+export function installActorVisual(actor:Actor,gltf:GLTF):ActorVisual{
+ for(const name of REQUIRED_CHARACTER_CLIPS)if(!gltf.animations.some(c=>c.name===name))throw new Error(`Missing character clip ${name}`);
+ const instance=clone(gltf.scene),nodes=new Map<string,T.Object3D>(),lods:T.Object3D[]=[];
+ instance.traverse(o=>{if(o.userData.semantic)nodes.set(o.userData.semantic,o);if(o.name==='WeaponBase'||o.name==='WeaponTip')nodes.set(o.name,o);if(Number.isInteger(o.userData.lod))lods[o.userData.lod]=o;if(o instanceof T.Mesh){o.castShadow=true;o.receiveShadow=true;if(o instanceof T.SkinnedMesh){o.frustumCulled=false;}for(const m of Array.isArray(o.material)?o.material:[o.material]){if(m instanceof T.MeshStandardMaterial)m.envMapIntensity=1.5*Number(m.userData.environmentIntensity??.65);}}});
+ const required=['body','torso','left_leg','right_leg','left_knee','right_knee','left_arm','right_arm','left_elbow','right_elbow','left_wrist','right_wrist','weapon','WeaponBase','WeaponTip'];
+ for(const name of required)if(!nodes.has(name))throw new Error(`Missing rig node ${name}`);
+ actor.visual?.dispose();
+ // The previous procedural mesh is privately owned. Imported templates are disposed by the cache.
+ if(!actor.visual){disposeTree(actor.group);actor.group.clear();}
+ actor.group.add(instance);
+ actor.body=nodes.get('body')!;actor.torso=nodes.get('torso')!;
+ actor.legs=[nodes.get('left_leg')!,nodes.get('right_leg')!];actor.knees=[nodes.get('left_knee')!,nodes.get('right_knee')!];
+ actor.arms=[nodes.get('left_arm')!,nodes.get('right_arm')!];actor.elbows=[nodes.get('left_elbow')!,nodes.get('right_elbow')!];
+ actor.wrists=[nodes.get('left_wrist')!,nodes.get('right_wrist')!];actor.sword=nodes.get('weapon')!;
+ const mixer=new T.AnimationMixer(instance),actions=new Map(gltf.animations.map(c=>[c.name,mixer.clipAction(c)]));let current:T.AnimationAction|undefined,lod=-1;
+ const sample=(name:string,time:number,loop=false)=>{
+  const next=actions.get(name);if(!next)return;
+  if(current!==next){for(const action of actions.values())if(action!==next)action.stop();next.reset().play();next.setLoop(T.LoopOnce,1);next.clampWhenFinished=true;current=next;}
+  for(const action of actions.values())if(action!==next)action.setEffectiveWeight(0);next.setEffectiveWeight(1);
+  next.paused=true;next.enabled=true;next.time=loop?((time%next.getClip().duration)+next.getClip().duration)%next.getClip().duration:Math.max(0,Math.min(next.getClip().duration,time));mixer.update(0);
+ };
+ const presentation=new CharacterPresentation(actor,nodes);let visualMotion=0,strikeState:{strike:Strike;elapsed:number}|undefined;
+ const visual:ActorVisual={
+  beginFrame:()=>presentation.begin(),
+  present:(dt,ground,reducedMotion)=>presentation.present(current?.getClip().name??'idle',dt,visualMotion,ground,reducedMotion,strikeState),
+  resetPresentation:()=>presentation.reset(),
+  strike:(strike,elapsed)=>{strikeState={strike,elapsed};sample(strike.id,retimeStrike(strike,elapsed));},
+  locomotion:(time,moving)=>{
+   strikeState=undefined;visualMotion=Math.min(1,Math.abs(moving));
+   const amount=Math.min(1,Math.abs(moving)),dx=Number(actor.group.userData.localMoveX??0),dz=Number(actor.group.userData.localMoveZ??moving);
+   const walk=Math.abs(dx)>Math.abs(dz)*1.2?(dx<0?'strafe_left':'strafe_right'):dz<-.1?'backward':'forward';
+   sample(amount>.05?walk:Math.abs(Number(actor.group.userData.turn??0))>.2?'turn':'idle',time,true);
+   if(amount>.05&&amount<1){const idle=actions.get('idle')!;if(!idle.isScheduled())idle.reset().play();idle.paused=true;idle.time=time%idle.getClip().duration;idle.setEffectiveWeight(1-amount);current!.setEffectiveWeight(amount);mixer.update(0);}
+  },
+  reaction:(kind,elapsed)=>{strikeState=undefined;sample(kind,elapsed);},
+  lod:(distance,pixels)=>{const next=selectActorLod(distance,pixels,lod);if(lod!==next){lod=next;actor.group.userData.activeLod=lod;lods.forEach((o,i)=>o.visible=i===lod);}},
+  segment:(base,tip)=>{actor.group.updateMatrixWorld(true);nodes.get('WeaponBase')!.getWorldPosition(base);nodes.get('WeaponTip')!.getWorldPosition(tip);},
+  dispose:()=>{mixer.stopAllAction();mixer.uncacheRoot(instance);const skeletons=new Set<T.Skeleton>();instance.traverse(o=>{if(o instanceof T.SkinnedMesh)skeletons.add(o.skeleton);});skeletons.forEach(s=>s.dispose());instance.removeFromParent();},
+ };
+ visual.lod(0,300);visual.locomotion(0,0);actor.visual=visual;actor.group.userData.assetVersion=gltf.scene.userData.assetVersion??'visual-v9';return visual;
+}
+
+/** One decoded replacement at a time caps temporary old/new asset overlap. */
+export class CharacterAssets {
+ private stopped=false;private generation=0;private tier:Tier;private actors=new Map<SkinId,Set<Actor>>();private cache=new Map<SkinId,Template>();
+ private controller=new AbortController();private queue:Promise<void>=Promise.resolve();private bossReady=false;private manifest:Promise<Manifest>;private ktx:KTX2Loader;
+ private textureLimit:number;private compressed:boolean;
+ readonly status:Record<string,string>={};
+ pendingLoads=0;
+ manifestVersion:string|null=null;
+ readonly sources:Record<string,{url:string;sha256:string;tier:string}>={};
+ overlap={replacementLoads:0,lastOldAndNewDownloadBytes:0,allocationStatus:'Decoded images and upload peak unmeasured'};
+ private lastDownloadBytes=0;
+ constructor(renderer:T.WebGLRenderer,quality:string,private mobile:boolean,private invalidate:()=>void,private onError:()=>void){
+  this.textureLimit=renderer.capabilities?.maxTextureSize??4096;
+  this.compressed=['WEBGL_compressed_texture_astc','WEBGL_compressed_texture_etc','WEBGL_compressed_texture_s3tc','EXT_texture_compression_bptc'].some(name=>renderer.extensions.has(name));
+  this.tier=supportedAssetTier(quality,mobile,this.textureLimit,this.compressed);this.ktx=new KTX2Loader().setTranscoderPath('/assets/decoders/three-r180/').setWorkerLimit(1).detectSupport(renderer);
+  this.manifest=fetch(CHARACTER_MANIFEST_URL,{signal:this.controller.signal}).then(r=>{if(!r.ok)throw Error('Asset manifest unavailable');return r.json();});
+  void this.manifest.catch(()=>{});
+ }
+ register(actor:Actor){const id=actor.group.userData.skin as SkinId;const list=this.actors.get(id)??new Set<Actor>();list.add(actor);this.actors.set(id,list);}
+ load(){this.schedule();}
+ setQuality(quality:string,mobile=this.mobile){this.mobile=mobile;const tier=supportedAssetTier(quality,this.mobile,this.textureLimit,this.compressed);if(tier===this.tier)return;this.tier=tier;this.generation++;this.schedule();}
+ update(camera:T.PerspectiveCamera,z:number,height:number,hero?:Actor){
+  if(!this.bossReady&&z< -15){this.bossReady=true;this.schedule();}
+  for(const actors of this.actors.values())for(const a of actors){const distance=a.group.position.distanceTo(camera.position);const protectedActor=hero&&(a===hero||a.group.position.distanceTo(hero.group.position)<7);a.visual?.lod(protectedActor?0:distance,height*2.65*a.group.scale.y/(Math.max(1,distance)*2*Math.tan(T.MathUtils.degToRad(camera.fov/2))));}
+ }
+ private schedule(){const generation=this.generation;this.queue=this.queue.then(()=>this.refresh(generation)).catch(()=>{if(!this.stopped)this.onError();});}
+ private async parse(url:string,hash:string){
+  this.pendingLoads++;try{
+  const response=await fetch(url,{signal:this.controller.signal});if(!response.ok)throw Error(`Asset HTTP ${response.status}`);
+  const bytes=await response.arrayBuffer();this.lastDownloadBytes=bytes.byteLength;
+  if(crypto.subtle){const digest=await crypto.subtle.digest('SHA-256',bytes);const actual=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');if(actual!==hash)throw Error('Asset hash mismatch');}
+  return await new GLTFLoader().setKTX2Loader(this.ktx).setMeshoptDecoder(MeshoptDecoder).parseAsync(bytes,url.slice(0,url.lastIndexOf('/')+1));
+  }finally{this.pendingLoads--;}
+ }
+ private async refresh(generation:number){
+  if(this.stopped||generation!==this.generation)return;
+  const manifest=await this.manifest;this.manifestVersion=manifest.version;
+  for(const id of ['ash-knight','crypt-warden',...(this.bossReady?['ember-sovereign']:[])] as SkinId[]){
+   if(this.stopped||generation!==this.generation)return;const cached=this.cache.get(id);if(cached?.tier===this.tier){this.status[id]=cached.fallback?'ready: PNG fallback':'ready: compressed';continue;}
+   const tier=this.tier,variant=manifest.characters[id].variants[tier];let gltf:GLTF,fallback=false;this.status[id]='loading';
+   try{gltf=await this.parse(variant.url,variant.sha256);}catch(error){
+    if(this.stopped)throw error;fallback=true;
+    try{gltf=await this.parse(variant.fallback,variant.fallbackSha256);}catch{this.status[id]='unavailable: procedural fallback';this.onError();continue;}
+   }
+   if(this.stopped||generation!==this.generation){disposeTree(gltf.scene,true);return;}
+   gltf.scene.userData.assetVersion=manifest.version;
+   const old=this.cache.get(id);if(old){this.overlap.replacementLoads++;this.overlap.lastOldAndNewDownloadBytes=this.lastDownloadBytes+(old.gltf.scene.userData.downloadBytes??0);}gltf.scene.userData.downloadBytes=this.lastDownloadBytes;let references=0;
+   try{for(const actor of this.actors.get(id)??[]){installActorVisual(actor,gltf);references++;}}
+   catch(error){disposeTree(gltf.scene,true);throw error;}
+   this.cache.set(id,{gltf,tier,fallback,references});if(old)disposeTree(old.gltf.scene,true);
+   this.sources[id]={url:fallback?variant.fallback:variant.url,sha256:fallback?variant.fallbackSha256:variant.sha256,tier};
+   this.status[id]=fallback?'ready: PNG fallback':'ready: compressed';this.invalidate();
+  }
+ }
+ dispose(){if(this.stopped)return;this.stopped=true;this.generation++;this.controller.abort();for(const actors of this.actors.values())for(const actor of actors)actor.visual?.dispose();this.cache.forEach(t=>disposeTree(t.gltf.scene,true));this.cache.clear();this.actors.clear();this.ktx.dispose();}
+}

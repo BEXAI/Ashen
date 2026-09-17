@@ -1,0 +1,26 @@
+{
+  "rigidWeaponRightHandWeights": true,
+  "contacts": {
+    "ContactBase": {
+      "minimumBladeMeshDistanceMeters": 0.01883280215279518,
+      "nearestWeaponVertex": 22478,
+      "local": [
+        -9.509563194909745,
+        -5.53537433481692,
+        -45.974047690189906
+      ],
+      "parent": "RightHand"
+    },
+    "ContactTip": {
+      "minimumBladeMeshDistanceMeters": 5.9401526287029065e-8,
+      "nearestWeaponVertex": 21952,
+      "local": [
+        -19.130570413760267,
+        49.99271228025786,
+        -5.376577879863106
+      ],
+      "parent": "RightHand"
+    }
+  },
+  "verification": "Sockets and every weapon vertex follow the same RightHand world matrix in all poses; separation is invariant under animations."
+}

@@ -1,0 +1,36 @@
+{
+  "record_scope": "Source candidate publication preparation; terminal receipt is written outside the checkout to avoid self-referential commit metadata.",
+  "site": "https://ashen-realm.optinuss.chatgpt.site",
+  "project_id": "appgprj_6a9d4c4f647481918c6449a0bbfcc828",
+  "access": "existing public access; authorization persists",
+  "source_branch": "codex/mobile-sovereign-update",
+  "status_at_source_commit": "required integrated checks passed; exact release publication follows",
+  "previous_live_rollback": {
+    "scope": "previous live release; not the new candidate",
+    "access": "public",
+    "saved_version_id": "appgprj_6a9d4c4f647481918c6449a0bbfcc828~appgver_0b5af51a63c48191ba020920a6d0e313",
+    "deployment_id": "appgdep_6aa1c90ecc308191b6ec0270e7f7e4cd",
+    "deployment_status": "succeeded",
+    "source_sha": "a10946e134fa7b915370f664100536c2f95f0c82",
+    "verification": "Reconfirmed by integrating owner on 2026-09-09; source task retained live access/rollback reference."
+  },
+  "runtime_manifests": {
+    "characters": "/assets/characters/v11/manifest.json",
+    "dungeon": "/assets/dungeon/v13/manifest.json",
+    "props": "/assets/props/v2/manifest.json"
+  },
+  "checks": "automated-validation.json",
+  "candidate_build_expanded_bytes": 177818572,
+  "hard_limit_bytes": 268435456,
+  "target_limit_bytes": 241172480,
+  "physical_evidence_gate": "G06 pending; no verified phone FPS claim",
+  "terminal_receipt": "../reports/ashen-realm-published-release.json relative to the game repository root",
+  "procedure": [
+    "Commit exact validated source; rebuild to embed its full revision.",
+    "Push configured source branch with ephemeral authorization; read full HEAD after success.",
+    "Package built runtime output and validate structure, dependency closure and expanded size.",
+    "Save archive with the exact pushed SHA; deploy returned saved version to current public audience.",
+    "Record succeeded deployment, exact source/archive/version and previous rollback in the terminal receipt."
+  ],
+  "rollback": "Deploy the recorded previous saved version if needed; do not revert D1 player data."
+}

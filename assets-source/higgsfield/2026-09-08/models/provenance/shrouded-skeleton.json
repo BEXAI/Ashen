@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "shrouded-skeleton",
+  "originalArtwork": {
+    "assetId": "a732cfc0-9551-4032-ba6e-72459f309878",
+    "filename": "hf_20260909_023556_a732cfc0-9551-4032-ba6e-72459f309878.png",
+    "sha256": "00691bd5f48225aab4f599a20cf9b2aeb5bce0042c97d1e283b86d8546453826",
+    "bytes": 3758823,
+    "screenshot": {
+      "row": 1,
+      "column": 3,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T02:35:56Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "f7eb414a-4da6-4cc1-86e2-ad1ca13b8419",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043203_f7eb414a-4da6-4cc1-86e2-ad1ca13b8419.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "bc73d694-d690-407f-9591-d2a140e984c9",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/bc73d694-d690-407f-9591-d2a140e984c9.png"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/shrouded-skeleton-original.glb",
+    "bytes": 6277884,
+    "sha256": "c4a9dbc801d944f059361b1475d967db4b7f46dce780045ded3ede9f6d62b840"
+  },
+  "attackStyle": "claws",
+  "attackAliasPolicy": "Four canonical strike names alias genuine claws action; original timing preserved",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

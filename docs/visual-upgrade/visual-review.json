@@ -1,0 +1,269 @@
+{
+  "status": "desktop matrix reviewed; physical-device acceptance pending",
+  "method": "Actual game visual-lab scenes in the supported browser. Source files were loaded by runtime loaders; screenshots are browser captures, not offline promotional renders. Views are fixed cameras; animated enemy positions/phases can vary.",
+  "room_coverage": {
+    "entry": [
+      "final-character-low.png",
+      "sconce-low-after.png",
+      "arch-entry-low-after.png"
+    ],
+    "cinder": [
+      "sconce-cinder-low-after.png",
+      "shrine-cinder-low-dormant-after.png",
+      "arch-cinder-low-sealed.png"
+    ],
+    "dusk": [
+      "final-water-low.png",
+      "final-shrine-dusk-unlit-low.png",
+      "final-shrine-dusk-lit-low.png"
+    ],
+    "crown": [
+      "final-chapel-low.png",
+      "final-shrine-crown-unlit-low.png",
+      "final-shrine-crown-lit-low.png"
+    ],
+    "throne": [
+      "final-boss-low.png",
+      "final-passage-crown-open-low.png"
+    ]
+  },
+  "passage_coverage": {
+    "entry": [
+      "final-passage-entry-low.png"
+    ],
+    "cinder": [
+      "final-passage-cinder-open-low.png",
+      "final-passage-cinder-sealed-low.png"
+    ],
+    "dusk": [
+      "final-passage-dusk-open-low.png",
+      "final-passage-dusk-sealed-low.png"
+    ],
+    "crown": [
+      "final-passage-crown-open-low.png",
+      "final-passage-crown-sealed-low.png"
+    ]
+  },
+  "archetypes": [
+    "Ash Knight: close character view",
+    "Crypt Warden: water/chapel/passage combat captures",
+    "Ember Sovereign: boss and open Crown passage captures"
+  ],
+  "asset_verification": {
+    "sconce": "Caged blackened iron bowl, curved bracket and support visible; actual compressed runtime status recorded.",
+    "shrine": "Stepped base, columns and rune panels replace simple cone/ring fallback in matched capture; warm/cyan state changes visible.",
+    "architecture": "Keystone and segmented stone doorway framing replaces generic ring/posts; chapel pilasters visible.",
+    "hash_and_budget_evidence": "environment-verification.json"
+  },
+  "known_limits": [
+    "All captures are desktop Chromium. Mobile-budget override exercises renderer code only; it does not emulate iPhone hardware.",
+    "In-place turns retain bounded sole-proxy slip; full motion-capture realism is not claimed.",
+    "The source knight remains a stylized mobile model; the detailed black-armored reference is applied to the Sovereign.",
+    "Real touch/camera comfort, thermal behavior and 15-minute physical-device soak remain pending."
+  ],
+  "capture_inventory": [
+    {
+      "file": "screenshots/arch-cinder-low-sealed.png",
+      "bytes": 71468,
+      "sha256": "d8ccc4b0b1c057cc6b0c3df88c763c98c8fa2b55f26bdd5e10a5899de73fabe6"
+    },
+    {
+      "file": "screenshots/arch-entry-low-after.png",
+      "bytes": 70590,
+      "sha256": "12022329bc98e35524f1542161ddb97e1e88c1dac77fd276cb38273cc887c100"
+    },
+    {
+      "file": "screenshots/arch-entry-low-before.png",
+      "bytes": 67195,
+      "sha256": "d67dda8e060db19d849a3f50b9fd74a516f8b7b06acdab9491e5db650da020c9"
+    },
+    {
+      "file": "screenshots/baseline-live-entry.png",
+      "bytes": 83800,
+      "sha256": "79fa3f13762dc3d85a338116d9d4300c8f906fd5c75d6f25b2266083147458ed"
+    },
+    {
+      "file": "screenshots/baseline-low-entrance.png",
+      "bytes": 60528,
+      "sha256": "31d8a80b855278df645a69a8376c29efbff57b8d46e5e31c3c2d93ae6c1a3299"
+    },
+    {
+      "file": "screenshots/boss-low-after-fill-and-feedback.png",
+      "bytes": 82856,
+      "sha256": "57acee5af88113b080870b6cf67472492657e261738e5bccb5d9daa6b28fa9e3"
+    },
+    {
+      "file": "screenshots/boss-low-before-fill.png",
+      "bytes": 72825,
+      "sha256": "132280f9f44cd678e003eb2591b83a26d513b00ab42928c6aa61b7d0d63733bc"
+    },
+    {
+      "file": "screenshots/final-boss-low.png",
+      "bytes": 67175,
+      "sha256": "22eb3a90b363373e8e44a6333c42ebcc48b4167475c936565918656b78f49c9e"
+    },
+    {
+      "file": "screenshots/final-boss-mobile-budget-auto.png",
+      "bytes": 70104,
+      "sha256": "3d034e7f93f0e0d0dd218a4ca96a06e8a2111692d1a4f199bc8ab55abb2dcfc6"
+    },
+    {
+      "file": "screenshots/final-chapel-low.png",
+      "bytes": 72834,
+      "sha256": "d443da1861f19299ba4b3a19fa497128d18698de3be8bff10cbe3afa54329677"
+    },
+    {
+      "file": "screenshots/final-character-low.png",
+      "bytes": 72974,
+      "sha256": "28d6b91727897b638b8b006fee3ba6583bae1a87effd2e60096143afd7aa9c3a"
+    },
+    {
+      "file": "screenshots/final-combat-mobile-budget-auto.png",
+      "bytes": 72936,
+      "sha256": "e5d15b98978521a87f529824bc896e8d2e46dc9011acbc9875f8d95a0773a2db"
+    },
+    {
+      "file": "screenshots/final-gameplay-sconce.png",
+      "bytes": 91603,
+      "sha256": "600e794d76a66d0a88260b35495db484704d6b0dcd83080fecb00bde0665e291"
+    },
+    {
+      "file": "screenshots/final-passage-cinder-open-low.png",
+      "bytes": 70799,
+      "sha256": "bf6967d953ab2681d20fa991b47096aa796b95ac2cf9fca1cb7a04aa112b5e4d"
+    },
+    {
+      "file": "screenshots/final-passage-cinder-sealed-low.png",
+      "bytes": 71966,
+      "sha256": "a7a1f1c90dea8d9fab9945550ac5532c90cf2db2cf276b311e36aec9e675f3d2"
+    },
+    {
+      "file": "screenshots/final-passage-crown-open-low.png",
+      "bytes": 67191,
+      "sha256": "894c8c6cb9bb87d01bb97de04c1a16752ed046f6bd065ef169feea8e8bbb7a45"
+    },
+    {
+      "file": "screenshots/final-passage-crown-sealed-low.png",
+      "bytes": 69382,
+      "sha256": "9022981a0e609bc64fe681b7f756b55a92da33023dc460e6a752744748b6c472"
+    },
+    {
+      "file": "screenshots/final-passage-dusk-open-low.png",
+      "bytes": 72553,
+      "sha256": "38ac00dc035e5b0c1c477eb5b01f0168054f520eec7d9be22ab77de5cda507fb"
+    },
+    {
+      "file": "screenshots/final-passage-dusk-sealed-low.png",
+      "bytes": 75662,
+      "sha256": "adef00af8d0a2f823b5f2d16c2f2abad9378e620f39d28754fdf691086656ef6"
+    },
+    {
+      "file": "screenshots/final-passage-entry-low.png",
+      "bytes": 69779,
+      "sha256": "ebb6499c8f6ee4203071e46402bd8e534cf18ca75cbb3d16f69f9a01363b3658"
+    },
+    {
+      "file": "screenshots/final-shrine-crown-lit-low.png",
+      "bytes": 79819,
+      "sha256": "20cf19f957ab86c371ab3fe13f2ee0c6754336889c5ae0040b95ae181dc97a0d"
+    },
+    {
+      "file": "screenshots/final-shrine-crown-unlit-low.png",
+      "bytes": 79821,
+      "sha256": "4a7dba304d7a8f9c45f71b61e3be0804d41a08f22fd6467fc6b838adc6627362"
+    },
+    {
+      "file": "screenshots/final-shrine-dusk-lit-low.png",
+      "bytes": 77946,
+      "sha256": "a20a798403f3ed24110d532306e2aad5867a2feb0c91ad6d1da8cd0932ee07a0"
+    },
+    {
+      "file": "screenshots/final-shrine-dusk-unlit-low.png",
+      "bytes": 78757,
+      "sha256": "bbdd67841bd3220e8c81b66d2fe69918950dc865ee7da4297a1407b923e89abe"
+    },
+    {
+      "file": "screenshots/final-water-low.png",
+      "bytes": 65100,
+      "sha256": "401e5e6eba611e12cbf865382945ef3a2b225fb673d650b1980914b0d2e544ec"
+    },
+    {
+      "file": "screenshots/pre-prop-low-entry.png",
+      "bytes": 83303,
+      "sha256": "e15a751ec5248e33a15d44b52ece660ca3f0a1f80bf6b7ceb3222bcf51384fa5"
+    },
+    {
+      "file": "screenshots/reference-boss-low-after-feedback.png",
+      "bytes": 83959,
+      "sha256": "52069947497be5dadaf6b7b84e25d24a2f0c0439b6eea439ca6e82fe81105230"
+    },
+    {
+      "file": "screenshots/reference-combat-low-before-feedback.png",
+      "bytes": 83029,
+      "sha256": "5381ac2750b7939207546e278cff8455fa630352f579738171351a164720bfd5"
+    },
+    {
+      "file": "screenshots/sconce-cinder-low-after.png",
+      "bytes": 79672,
+      "sha256": "a07e7072a2aa08b5fe5530bd9af39f72caa30fed4aebb883473a8e065087bffb"
+    },
+    {
+      "file": "screenshots/sconce-cinder-low-before.png",
+      "bytes": 76442,
+      "sha256": "16b9ca376cf46f1710bdfa83593fe20dc892abcc0ab6ecc1e0f62eb9644a52f0"
+    },
+    {
+      "file": "screenshots/sconce-dusk-low-after.png",
+      "bytes": 78043,
+      "sha256": "0c1404248811121c736a718cb2c1ef18b36e313d4ae4de88ae96b44e21eeed9a"
+    },
+    {
+      "file": "screenshots/sconce-dusk-low-before.png",
+      "bytes": 74801,
+      "sha256": "560393497126d33d61d5ff256fd0fc70b974707e308bd32b9e3eeed848427c75"
+    },
+    {
+      "file": "screenshots/sconce-low-after.png",
+      "bytes": 90813,
+      "sha256": "a0333dff07b05f9f343d1153716f69cb7c4606384dbd2dc9219fe5617beb1591"
+    },
+    {
+      "file": "screenshots/sconce-low-before.png",
+      "bytes": 88246,
+      "sha256": "6d3bf4ff427bd34dd1d6656afb4366aebd760e34fe24f6e745dbbdff7687d896"
+    },
+    {
+      "file": "screenshots/shrine-cinder-low-dormant-after.png",
+      "bytes": 78161,
+      "sha256": "7629d6ed21f389addffac45798a29061b638ee39dccf30cb678c4d830b72cbcd"
+    },
+    {
+      "file": "screenshots/shrine-cinder-low-dormant-before.png",
+      "bytes": 73541,
+      "sha256": "7fd0bca8c7c8cfac885558f0d7555b5623c3877cbc8e981e4e6ed78fde7b5d65"
+    },
+    {
+      "file": "screenshots/shrine-cinder-low-lit-after.png",
+      "bytes": 75259,
+      "sha256": "f9dddf42b97f677bd00ed75d1edb2bffb95ab97bb6e8c032aa88977346a61413"
+    },
+    {
+      "file": "screenshots/updated-local-game-entry.png",
+      "bytes": 81063,
+      "sha256": "757e8f173aa92ff5829d9b3bf37778cd308a87ffbe2a8782dcd87e88b8a294b1"
+    }
+  ],
+  "runtime_results": "desktop-runtime-results.json",
+  "actual_gameplay_check": {
+    "path": "http://localhost:5173/",
+    "saved_journey": "Existing local guest journey resumed, not reset; HUD reported Guest progress saved.",
+    "actions": [
+      "Keyboard movement taps",
+      "Sword control consumed then regenerated stamina",
+      "Pointer drag turned camera and kept hero/framing visible",
+      "Paused test journey at completion"
+    ],
+    "capture": "screenshots/final-gameplay-sconce.png",
+    "limitation": "A short control check; not an exhaustive touch/thermal or wall-contact traversal test."
+  }
+}

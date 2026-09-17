@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "operation": {
+    "id": "36b5a389-5fc8-461c-8640-b3007ca9f709",
+    "projectId": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+    "access": "mutation",
+    "status": "succeeded",
+    "baseRevision": 0,
+    "headRevision": 1,
+    "headSceneSequence": 0,
+    "stale": true,
+    "sceneSequenceBefore": 0,
+    "sceneSequenceAfter": 0,
+    "revisionBefore": 0,
+    "revisionAfter": 1,
+    "createdAt": "2026-09-09T22:53:22.759Z",
+    "startedAt": "2026-09-09T22:53:22.791Z",
+    "finishedAt": "2026-09-09T22:53:58.357Z",
+    "result": {
+      "asset": "AshenArchitectureKit",
+      "modules": {
+        "Arch": {
+          "parts": 92,
+          "evaluated_triangles": 9316,
+          "local_bounds_blender": [
+            [
+              -3.880000114440918,
+              -0.49900001287460327,
+              0
+            ],
+            [
+              3.880000114440918,
+              0.44999998807907104,
+              8.880000114440918
+            ]
+          ],
+          "dimensions_gltf": [
+            7.760000228881836,
+            8.880000114440918,
+            0.9490000009536743
+          ]
+        },
+        "Pillar": {
+          "parts": 16,
+          "evaluated_triangles": 1470,
+          "local_bounds_blender": [
+            [
+              -0.3499999940395355,
+              -0.44999998807907104,
+              0
+            ],
+            [
+              0.3499999940395355,
+              0.44999998807907104,
+              5.199999809265137
+            ]
+          ],
+          "dimensions_gltf": [
+            0.699999988079071,
+            5.199999809265137,
+            0.8999999761581421
+          ]
+        },
+        "Trim": {
+          "parts": 10,
+          "evaluated_triangles": 618,
+          "local_bounds_blender": [
+            [
+              -1,
+              -0.2849999964237213,
+              0
+            ],
+            [
+              1,
+              0.2150000035762787,
+              0.3499999940395355
+            ]
+          ],
+          "dimensions_gltf": [
+            2,
+            0.3499999940395355,
+            0.5
+          ]
+        }
+      },
+      "clearance_metres": [
+        6,
+        6.8
+      ],
+      "runtime_lods": {
+        "Arch": [
+          6000,
+          3000,
+          1200
+        ],
+        "Pillar": [
+          1200,
+          600,
+          240
+        ],
+        "Trim": [
+          600,
+          300,
+          120
+        ]
+      },
+      "texture_target": [
+        1024,
+        512,
+        512
+      ],
+      "source": "Original geometry and procedural materials; real local PBR bake required",
+      "runtime_lights": false
+    },
+    "output": {
+      "stdoutTail": "Info: Saved as \"session.blend\"\nINFO Draco is available, use library at /opt/blender/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.so\nINFO MeshOptimizer is available, use library at /opt/blender/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.so\n22:53:56 | INFO: Starting glTF 2.0 export\n22:53:56 | INFO: Extracting primitive: Arch voussoir 00 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 01 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 02 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 03 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 04 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 05 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 06 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 07 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 08 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 09 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 10 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 11 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 12 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 13 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 14 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 15 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 16 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Arch voussoir 17 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Ash chevron emblem mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Crown keystone mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 00 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 01 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 02 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 03 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 04 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 05 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 06 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 07 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 08 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 09 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 10 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 11 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 12 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 13 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 14 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 15 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 16 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Inner archivolt fillet 17 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier carved face rib 1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier carved face rib -1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier cushion capital mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 00 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 01 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 02 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 03 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 04 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 05 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 06 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 07 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier dressed shaft course 08 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier lozenge inlay 0 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier lozenge inlay 1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier lozenge inlay 2 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier necking mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier square plinth mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Left pier stepped foot mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 00 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 01 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 02 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 03 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 04 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 05 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 06 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 07 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 08 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 09 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 10 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 11 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 12 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 13 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 14 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 15 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 16 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Outer archivolt fillet 17 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier carved face rib 1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier carved face rib -1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier cushion capital mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 00 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 01 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 02 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 03 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 04 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 05 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 06 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 07 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier dressed shaft course 08 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier lozenge inlay 0 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier lozenge inlay 1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier lozenge inlay 2 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier necking mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier square plinth mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Right pier stepped foot mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar carved face rib 1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar carved face rib -1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar cushion capital mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar dressed shaft course 00 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar dressed shaft course 01 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar dressed shaft course 02 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar dressed shaft course 03 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar dressed shaft course 04 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar dressed shaft course 05 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar dressed shaft course 06 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar lozenge inlay 0 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar lozenge inlay 1 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar lozenge inlay 2 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar necking mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar square plinth mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Modular pillar stepped foot mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim dressed core mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim lower bead mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim recessed ash diamond 00 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim recessed ash diamond 01 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim recessed ash diamond 02 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim recessed ash diamond 03 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim recessed ash diamond 04 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim recessed ash diamond 05 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim recessed ash diamond 06 mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:56 | INFO: Extracting primitive: Trim upper bevel course mesh\n22:53:56 | INFO: Primitives created: 1\n22:53:57 | INFO: Finished glTF 2.0 export in 1.0189335346221924 s\n\n",
+      "stderrTail": "",
+      "truncated": false
+    },
+    "error": null,
+    "artifacts": {
+      "projectId": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+      "revision": 1,
+      "blend": {
+        "size": 1406322,
+        "etag": "0fc730636b0ea3b923a2cc007081117e"
+      },
+      "glb": {
+        "size": 660968,
+        "etag": "34cda7e26035a667bb3929450da778f8"
+      },
+      "generated": [
+        {
+          "size": 517166,
+          "etag": "44f2781ad1697d7699203c89deb7d9b1",
+          "id": "59f51723c7d8bc8d375476acf4cf495d",
+          "name": "architecture-source-review.png",
+          "mediaType": "image/png",
+          "width": 768,
+          "height": 640
+        }
+      ]
+    },
+    "generatedArtifacts": [
+      {
+        "size": 517166,
+        "etag": "44f2781ad1697d7699203c89deb7d9b1",
+        "id": "59f51723c7d8bc8d375476acf4cf495d",
+        "name": "architecture-source-review.png",
+        "mediaType": "image/png",
+        "width": 768,
+        "height": 640
+      }
+    ]
+  },
+  "terminal": true,
+  "projectUrl": "https://higgsfield.ai/3d-jutsu/1d6dfef7-341a-43ea-bb7f-c5b7f36b4292"
+}

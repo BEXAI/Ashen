@@ -1,0 +1,262 @@
+{
+  "status": "observed desktop browser results; not physical phone acceptance",
+  "protocol": "30s warmup plus60s sample, actual in-app Chromium with mobile-budget override. Local development session, not a controlled standalone hardware benchmark. Tool activity can share host resources.",
+  "results": [
+    {
+      "file": "final-combat-mobile-budget-auto.json",
+      "scenario": "combat",
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "coarsePointer": false,
+        "mobileRenderingProfile": true,
+        "profileOverride": "mobile budget on current browser",
+        "devicePixelRatio": 1,
+        "viewport": [
+          747,
+          918
+        ],
+        "hardwareClaim": "unverified browser environment"
+      },
+      "steadyDurationMs": 60548.89999999991,
+      "pacedFrameIntervalMs": {
+        "samples": 3633,
+        "p50": 16.699999999720603,
+        "p95": 18.200000000186265,
+        "p99": 18.5,
+        "stallsOver100Ms": 0
+      },
+      "cpuSubmissionMs": {
+        "samples": 3633,
+        "p50": 2.199999988079071,
+        "p95": 3.9000000059604645,
+        "p99": 4.9000000059604645,
+        "stallsOver100Ms": 0
+      },
+      "gpuTimeMs": null,
+      "adaptiveFinal": {
+        "profile": {
+          "stage": 0,
+          "scale": 1,
+          "fps": 60,
+          "bloom": true,
+          "shadowSize": 512,
+          "secondaryDetail": "full"
+        },
+        "probing60": false,
+        "nextProbeMs": 0,
+        "failedProbes": 0,
+        "limitation": null,
+        "lastWindow": {
+          "samples": 180,
+          "eligibleMs": 3000,
+          "targetFps": 60,
+          "intervalP95": 18.299999999813735,
+          "cpuP95": 3.4000000059604645,
+          "missedFraction": 0,
+          "pressure": "none"
+        },
+        "transitions": []
+      },
+      "resourceSamples": 95,
+      "counterHighWater": {
+        "mainDraws": {
+          "value": 106,
+          "atMs": 22453.100000023842
+        },
+        "mainTriangles": {
+          "value": 272477,
+          "atMs": 22439.600000023842
+        },
+        "totalDraws": {
+          "value": 178,
+          "atMs": 22453.100000023842
+        },
+        "totalTriangles": {
+          "value": 515803,
+          "atMs": 22439.600000023842
+        },
+        "rendererGeometries": {
+          "value": 220,
+          "atMs": 21221.100000023842
+        },
+        "rendererTextures": {
+          "value": 57,
+          "atMs": 1293.9000000059605
+        },
+        "rendererPrograms": {
+          "value": 80,
+          "atMs": 2759.4000000059605
+        },
+        "drawingBufferWidth": {
+          "value": 872,
+          "atMs": 7.4000000059604645
+        },
+        "drawingBufferHeight": {
+          "value": 672,
+          "atMs": 7.4000000059604645
+        },
+        "drawingBufferPixels": {
+          "value": 585984,
+          "atMs": 7.4000000059604645
+        }
+      },
+      "steadyResourcesFirst": {
+        "mainDraws": 102,
+        "mainTriangles": 272416,
+        "totalDraws": 171,
+        "totalTriangles": 515681,
+        "rendererGeometries": 220,
+        "rendererTextures": 57,
+        "rendererPrograms": 80,
+        "drawingBufferWidth": 872,
+        "drawingBufferHeight": 672,
+        "drawingBufferPixels": 585984
+      },
+      "steadyResourcesLast": {
+        "mainDraws": 104,
+        "mainTriangles": 272450,
+        "totalDraws": 175,
+        "totalTriangles": 515749,
+        "rendererGeometries": 220,
+        "rendererTextures": 57,
+        "rendererPrograms": 80,
+        "drawingBufferWidth": 872,
+        "drawingBufferHeight": 672,
+        "drawingBufferPixels": 585984
+      },
+      "maximumSampledPropDraws": 6,
+      "maximumSampledPropTriangles": 15720
+    },
+    {
+      "file": "final-boss-mobile-budget-auto.json",
+      "scenario": "boss",
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "coarsePointer": false,
+        "mobileRenderingProfile": true,
+        "profileOverride": "mobile budget on current browser",
+        "devicePixelRatio": 1,
+        "viewport": [
+          747,
+          918
+        ],
+        "hardwareClaim": "unverified browser environment"
+      },
+      "steadyDurationMs": 60467,
+      "pacedFrameIntervalMs": {
+        "samples": 3628,
+        "p50": 16.699999999720603,
+        "p95": 18.200000000186265,
+        "p99": 18.5,
+        "stallsOver100Ms": 0
+      },
+      "cpuSubmissionMs": {
+        "samples": 3628,
+        "p50": 1.699999988079071,
+        "p95": 3.300000011920929,
+        "p99": 3.899999976158142,
+        "stallsOver100Ms": 0
+      },
+      "gpuTimeMs": null,
+      "adaptiveFinal": {
+        "profile": {
+          "stage": 0,
+          "scale": 1,
+          "fps": 60,
+          "bloom": true,
+          "shadowSize": 512,
+          "secondaryDetail": "full"
+        },
+        "probing60": false,
+        "nextProbeMs": 0,
+        "failedProbes": 0,
+        "limitation": null,
+        "lastWindow": {
+          "samples": 180,
+          "eligibleMs": 3000.4000000003725,
+          "targetFps": 60,
+          "intervalP95": 18.299999999813735,
+          "cpuP95": 3.4000000059604645,
+          "missedFraction": 0.005555555555555556,
+          "pressure": "none"
+        },
+        "transitions": []
+      },
+      "resourceSamples": 91,
+      "counterHighWater": {
+        "mainDraws": {
+          "value": 19,
+          "atMs": 146.5
+        },
+        "mainTriangles": {
+          "value": 124964,
+          "atMs": 146.5
+        },
+        "totalDraws": {
+          "value": 66,
+          "atMs": 146.5
+        },
+        "totalTriangles": {
+          "value": 273111,
+          "atMs": 146.5
+        },
+        "rendererGeometries": {
+          "value": 193,
+          "atMs": 153.69999998807907
+        },
+        "rendererTextures": {
+          "value": 70,
+          "atMs": 146.5
+        },
+        "rendererPrograms": {
+          "value": 71,
+          "atMs": 146.5
+        },
+        "drawingBufferWidth": {
+          "value": 872,
+          "atMs": 146.5
+        },
+        "drawingBufferHeight": {
+          "value": 672,
+          "atMs": 146.5
+        },
+        "drawingBufferPixels": {
+          "value": 585984,
+          "atMs": 146.5
+        }
+      },
+      "steadyResourcesFirst": {
+        "mainDraws": 19,
+        "mainTriangles": 124964,
+        "totalDraws": 66,
+        "totalTriangles": 273111,
+        "rendererGeometries": 193,
+        "rendererTextures": 70,
+        "rendererPrograms": 71,
+        "drawingBufferWidth": 872,
+        "drawingBufferHeight": 672,
+        "drawingBufferPixels": 585984
+      },
+      "steadyResourcesLast": {
+        "mainDraws": 19,
+        "mainTriangles": 124964,
+        "totalDraws": 66,
+        "totalTriangles": 273111,
+        "rendererGeometries": 193,
+        "rendererTextures": 70,
+        "rendererPrograms": 71,
+        "drawingBufferWidth": 872,
+        "drawingBufferHeight": 672,
+        "drawingBufferPixels": 585984
+      },
+      "maximumSampledPropDraws": 2,
+      "maximumSampledPropTriangles": 1296
+    }
+  ],
+  "notes": [
+    "Both runs sustained Auto stage0 in this environment. No pressure/recovery transition was required; controller stress/recovery is covered by automated tests.",
+    "Cold navigation and 15-minute thermal/physical-phone soak remain separate pending evidence.",
+    "Quality swaps high to low to mobile Auto were manually checked for all three ready compressed character tiers.",
+    "Renderer counters are counts, scene bytes estimates; neither is total GPU memory."
+  ]
+}

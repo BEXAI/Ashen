@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "record_kind": "current source-tree asset integration snapshot; not a publication receipt",
+  "recorded_on": "2026-09-09",
+  "source_base_head": "a10946e134fa7b915370f664100536c2f95f0c82",
+  "source_state": "Uncommitted integration tree; no pushed source SHA or saved/deployed archive is asserted.",
+  "active_runtime_manifests": {
+    "props": {
+      "path": "public/assets/props/v2/manifest.json",
+      "bytes": 8637,
+      "sha256": "d6e9ca838d37857982ba1cbe1e77ad58a8c1f4d944a6df39d98c1e5761bec897"
+    },
+    "dungeon": {
+      "path": "public/assets/dungeon/v13/manifest.json",
+      "bytes": 8491,
+      "sha256": "86fe42a1519d35d9177d717e52cdce01ecf57137ed9017e06195f15e25d9f07d"
+    },
+    "characters": {
+      "path": "public/assets/characters/v11/manifest.json",
+      "bytes": 19041,
+      "sha256": "f8a1f7cd879f20ab0fb0600e6f60e234669cd45d4d6fb8d12fce4bcd87445e63"
+    }
+  },
+  "higgsfield_credit_record": {
+    "authorized_shared_ceiling": 1000,
+    "attempt_limit_per_asset": 2,
+    "successful_authoring_attempts": 3,
+    "observed_balance_before": 4113.5,
+    "observed_balance_after": 4113.5,
+    "observed_balance_debit": 0,
+    "confirmed_billed_usage": null,
+    "caveat": "Balance checkpoints are observations, not a published per-operation price, invoice reconciliation or a promise of free future work."
+  },
+  "assets": [
+    {
+      "asset_id": "A01",
+      "name": "sconce",
+      "source_project_id": "21434c15-bdde-4abd-bcb9-62098cae463a",
+      "source_revision": 1,
+      "source_directory": "assets-source/props/v1/sconce",
+      "historical_production_ledger": {
+        "path": "assets-source/props/v1/sconce/production-ledger.json",
+        "bytes": 6439,
+        "sha256": "cf99faadaf2bc34f9f1025074bbd99029e0e7a9541c65d3ddd71f2b0197d8c4c"
+      },
+      "runtime_source_manifest": {
+        "path": "assets-source/props/v1/sconce/runtime-manifest.json",
+        "bytes": 19158,
+        "sha256": "8c1e1495316035cf93d40199d94055c8e8aa0d9d9120ec3529814e577004a0d1"
+      },
+      "editable_committed_blend": {
+        "path": "assets-source/props/v1/sconce/cloud-source.blend",
+        "bytes": 899924,
+        "sha256": "d35d9a74d8c538519b4cf3f535266d891f4e9a04c04b898c518752120cc6043a"
+      },
+      "runtime_exports": {
+        "compressed": {
+          "path": "public/assets/props/v1/sconce-pilot.glb",
+          "bytes": 286656,
+          "sha256": "32a6e003db785687d9fbdc9a2dc1721cdaa7897e9ef54002f2671b0ceaff18a4",
+          "runtime_url": "/assets/props/v1/sconce-pilot.glb"
+        },
+        "fallback": {
+          "path": "public/assets/props/v1/sconce-pilot-fallback.glb",
+          "bytes": 420092,
+          "sha256": "8206cff9188e6f35d6880725d17af02b5c01f2bd05fd6fb00d2f09ea764c8d9a",
+          "runtime_url": "/assets/props/v1/sconce-pilot-fallback.glb"
+        }
+      },
+      "current_recipes": [
+        {
+          "path": "assets-source/props/v1/sconce/author_sconce.py",
+          "bytes": 11004,
+          "sha256": "7e2aecaf48869e47adac92882579d4be22835d13d5f28b5267abfcff1bf45c5b"
+        },
+        {
+          "path": "assets-source/props/v1/sconce/prepare_runtime.py",
+          "bytes": 10388,
+          "sha256": "6736189146f648da6e4b957802753c7bd0f2631b0845219a9a376080d008b61f",
+          "original_receipt_sha256": "6736189146f648da6e4b957802753c7bd0f2631b0845219a9a376080d008b61f",
+          "matches_original_receipt": true
+        },
+        {
+          "path": "assets-source/props/v1/sconce/far_proxy.py",
+          "bytes": 3671,
+          "sha256": "85cd47ea1f8112cbc4e20ddc6aac415e1965ddf0393debc28f30a767538de956",
+          "original_receipt_sha256": "85cd47ea1f8112cbc4e20ddc6aac415e1965ddf0393debc28f30a767538de956",
+          "matches_original_receipt": true
+        },
+        {
+          "path": "assets-source/props/v1/sconce/package_runtime.mjs",
+          "bytes": 4678,
+          "sha256": "7f9f38c6341e10818628bcf6ef4b0fb941e56b4865111d437636956eb3d3a98e",
+          "original_receipt_sha256": "0ee38142e9e2595e13a9b26430e1bda2a25fb55d39864dab2a5bc181fbc7895e",
+          "matches_original_receipt": false
+        },
+        {
+          "path": "assets-source/props/v1/sconce/validate_runtime.mjs",
+          "bytes": 4607,
+          "sha256": "d93c08a7bb2cb6f61ee14c7ac5a2c3412d98cf01b7a59f8de2f6daad161ffea6",
+          "original_receipt_sha256": "1fdd90c3bd1dacf056c37569168a1b1927a43231c32ba8bd1edb23cd90958451",
+          "matches_original_receipt": false
+        },
+        {
+          "path": "assets-source/props/v1/sconce/render_runtime.py",
+          "bytes": 1511,
+          "sha256": "249e181be5033282c1a9b9b6aa937860b6c1cebfa5ff6e347bbcf6dfe89975dc",
+          "original_receipt_sha256": "e8e28cb2569e61ea21e846d94826492f7e8c1683bd6bacf888cac16eec9e3f04",
+          "matches_original_receipt": true
+        }
+      ],
+      "successful_authoring_attempts": 1,
+      "observed_credit_debit": 0,
+      "authorship": "Original bpy geometry and procedural appearance authored for Ashen Realm in the user-owned Higgsfield project; no catalog meshes, external texture packs or third-party imagery used in these props. Local PBR baking, LODs and compression produced runtime exports.",
+      "lod_triangles": [
+        1492,
+        580,
+        188
+      ],
+      "draws_per_lod": [
+        1,
+        1,
+        1
+      ],
+      "source_estimated_rgba8_mip_mib": 2.0,
+      "measured_fallback_rgba8_mip_bytes": 2097148,
+      "embedded_source_binding": true
+    },
+    {
+      "asset_id": "A02",
+      "name": "shrine",
+      "source_project_id": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+      "source_revision": 1,
+      "source_directory": "assets-source/props/v2/shrine",
+      "historical_production_ledger": {
+        "path": "assets-source/props/v2/shrine/production-ledger.json",
+        "bytes": 8061,
+        "sha256": "5c38dec7d5d2ee6fd61be36e70f3476e561f07c884bde08bf019f5b30f9d0bfe"
+      },
+      "runtime_source_manifest": {
+        "path": "assets-source/props/v2/shrine/runtime-manifest.json",
+        "bytes": 8126,
+        "sha256": "1683b72a20f478392d0f9fd60904314a6950d1f74425f7f7fd221af518e5f0db"
+      },
+      "editable_committed_blend": {
+        "path": "assets-source/props/v2/shrine/cloud-source.blend",
+        "bytes": 1215694,
+        "sha256": "2e56d09f9cbd046bd3ae1ca03f2af5b872160c1ecd85d8f20620d00332683562"
+      },
+      "runtime_exports": {
+        "compressed": {
+          "path": "public/assets/props/v2/ember-shrine.glb",
+          "bytes": 940320,
+          "sha256": "115c44ab0f78481a1c41441ed494055ab84d61b2cb2b49cebcd2e8049efb05a3",
+          "runtime_url": "/assets/props/v2/ember-shrine.glb"
+        },
+        "fallback": {
+          "path": "public/assets/props/v2/ember-shrine-fallback.glb",
+          "bytes": 1512056,
+          "sha256": "cda732bca2c650ccf3886015eee6d27e6ab6c0f2b453feffcb593b2e95d5c50f",
+          "runtime_url": "/assets/props/v2/ember-shrine-fallback.glb"
+        }
+      },
+      "current_recipes": [
+        {
+          "path": "assets-source/props/v2/shrine/author_shrine.py",
+          "bytes": 11630,
+          "sha256": "c3205fda8e2ba85eca201ec8094c01d904ffde7b4ac8a0f96f4dc09cb0120544"
+        },
+        {
+          "path": "assets-source/props/v2/shrine/prepare_runtime.py",
+          "bytes": 10074,
+          "sha256": "72b6929f1fa8870ce81fed9a2846599ea970f3bb56c2d219a8b3f3386498d92a"
+        },
+        {
+          "path": "assets-source/props/v2/shrine/package_runtime.mjs",
+          "bytes": 5974,
+          "sha256": "f6a4ff1eb10b104477830468ada9a054582ec03c8969efc5956907273a876015"
+        },
+        {
+          "path": "assets-source/props/v2/shrine/validate_runtime.mjs",
+          "bytes": 6790,
+          "sha256": "416bd401bdbeacd7fcce72eb37a59d2926562e720f1bbfd95a997d714f7cbfc1"
+        },
+        {
+          "path": "assets-source/props/v2/shrine/render_runtime.py",
+          "bytes": 2050,
+          "sha256": "840819851322f6991fa4d55b1fafbc6bd4a48332b9060040950742123ac297a5"
+        },
+        {
+          "path": "assets-source/props/v2/shrine/finalize_ledger.py",
+          "bytes": 7327,
+          "sha256": "627a25dcbd93b4ef8d5546934db4baeb81b8b716a6960a996385302ebf9a951b"
+        }
+      ],
+      "successful_authoring_attempts": 1,
+      "observed_credit_debit": 0,
+      "authorship": "Original bpy geometry and procedural appearance authored for Ashen Realm in the user-owned Higgsfield project; no catalog meshes, external texture packs or third-party imagery used in these props. Local PBR baking, LODs and compression produced runtime exports.",
+      "lod_triangles": [
+        5936,
+        2944,
+        1134
+      ],
+      "draws_per_lod": [
+        2,
+        2,
+        2
+      ],
+      "source_estimated_rgba8_mip_mib": 8.333333333333334,
+      "measured_fallback_rgba8_mip_bytes": 8738128,
+      "embedded_source_binding": true
+    },
+    {
+      "asset_id": "A03",
+      "name": "architecture",
+      "source_project_id": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+      "source_revision": 1,
+      "source_directory": "assets-source/props/v2/architecture",
+      "historical_production_ledger": {
+        "path": "assets-source/props/v2/architecture/production-ledger.json",
+        "bytes": 2416,
+        "sha256": "7be881797abf577b3e48da13dd2c81294d1def0592fdbd51a8c7612bbf4a6777"
+      },
+      "runtime_source_manifest": {
+        "path": "assets-source/props/v2/architecture/runtime-manifest.json",
+        "bytes": 12029,
+        "sha256": "7e4f83c35dbd71c13ac8e5db6d0c045ac55fc36726e645568186f257f8781dc4"
+      },
+      "editable_committed_blend": {
+        "path": "assets-source/props/v2/architecture/cloud-source.blend",
+        "bytes": 1406322,
+        "sha256": "5175bbd64d1bbda60a8ab36dda5f59a65cbedeb3cf2070f0c68708f75ce8514f"
+      },
+      "runtime_exports": {
+        "compressed": {
+          "path": "public/assets/props/v2/architecture-kit.glb",
+          "bytes": 1013076,
+          "sha256": "bbec76f1153187abf396336642a0f2a29a33e401f81de3ebdf5155029b523f31",
+          "runtime_url": "/assets/props/v2/architecture-kit.glb"
+        },
+        "fallback": {
+          "path": "public/assets/props/v2/architecture-kit-fallback.glb",
+          "bytes": 1108388,
+          "sha256": "d8cc29ab074cdcc116b74c79fdd51b756742eb492a860276fe350bd589446429",
+          "runtime_url": "/assets/props/v2/architecture-kit-fallback.glb"
+        }
+      },
+      "current_recipes": [
+        {
+          "path": "assets-source/props/v2/architecture/author_kit.py",
+          "bytes": 9366,
+          "sha256": "181b4667de2efc5f5f40c898ab2d7434bf7f6252ee4115af8ac85f9095ad9e23"
+        },
+        {
+          "path": "assets-source/props/v2/architecture/prepare_runtime.py",
+          "bytes": 10383,
+          "sha256": "7a8d94f6e396b3b3876afea83db0812aae0dc3fe6543b78d1144362d2216fb8e"
+        },
+        {
+          "path": "assets-source/props/v2/architecture/package_runtime.mjs",
+          "bytes": 4685,
+          "sha256": "830f80ca2736165554053b25b36ac1ac62afe27d37c02c124037208f771ce1e1"
+        },
+        {
+          "path": "assets-source/props/v2/architecture/validate_runtime.mjs",
+          "bytes": 8070,
+          "sha256": "ac5e60d17c4f4f3a2cf285e7c3b617bc264f9c379a2759342b4b8618befbb1ca"
+        },
+        {
+          "path": "assets-source/props/v2/architecture/render_runtime.py",
+          "bytes": 1509,
+          "sha256": "77b87ebd339a6a180e750a1134b3e633e5f843e313ea8a13202f3b0038bae542"
+        }
+      ],
+      "successful_authoring_attempts": 1,
+      "observed_credit_debit": 0,
+      "authorship": "Original bpy geometry and procedural appearance authored for Ashen Realm in the user-owned Higgsfield project; no catalog meshes, external texture packs or third-party imagery used in these props. Local PBR baking, LODs and compression produced runtime exports.",
+      "lod_triangles": {
+        "Arch": {
+          "triangles": [
+            5992,
+            2992,
+            1192
+          ],
+          "draw_primitives": [
+            1,
+            1,
+            1
+          ]
+        },
+        "Pillar": {
+          "triangles": [
+            1192,
+            592,
+            232
+          ],
+          "draw_primitives": [
+            1,
+            1,
+            1
+          ]
+        },
+        "Trim": {
+          "triangles": [
+            592,
+            292,
+            112
+          ],
+          "draw_primitives": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "draws_per_lod": null,
+      "source_estimated_rgba8_mip_mib": 4.0,
+      "measured_fallback_rgba8_mip_bytes": 4194300,
+      "embedded_source_binding": false
+    }
+  ],
+  "integrated_recipe_changes": [
+    {
+      "asset": "sconce",
+      "path": "assets-source/props/v1/sconce/package_runtime.mjs",
+      "bytes": 4678,
+      "sha256": "7f9f38c6341e10818628bcf6ef4b0fb941e56b4865111d437636956eb3d3a98e",
+      "original_receipt_sha256": "0ee38142e9e2595e13a9b26430e1bda2a25fb55d39864dab2a5bc181fbc7895e",
+      "matches_original_receipt": false,
+      "disposition": "Original receipt is preserved; this ledger records the current integrated recipe separately. A full re-export with this recipe was not run by documentation reconciliation."
+    },
+    {
+      "asset": "sconce",
+      "path": "assets-source/props/v1/sconce/validate_runtime.mjs",
+      "bytes": 4607,
+      "sha256": "d93c08a7bb2cb6f61ee14c7ac5a2c3412d98cf01b7a59f8de2f6daad161ffea6",
+      "original_receipt_sha256": "1fdd90c3bd1dacf056c37569168a1b1927a43231c32ba8bd1edb23cd90958451",
+      "matches_original_receipt": false,
+      "disposition": "Original receipt is preserved; this ledger records the current integrated recipe separately. A full re-export with this recipe was not run by documentation reconciliation."
+    },
+    {
+      "path": "assets-source/props/v1/sconce/render_runtime.py",
+      "historical_sha256": "e8e28cb2569e61ea21e846d94826492f7e8c1683bd6bacf888cac16eec9e3f04",
+      "sha256": "249e181be5033282c1a9b9b6aa937860b6c1cebfa5ff6e347bbcf6dfe89975dc",
+      "bytes": 1511,
+      "change": "Remove trailing whitespace only; historical production receipts retain originally recorded hashes."
+    },
+    {
+      "path": "assets-source/props/v2/shrine/author_shrine.py",
+      "historical_sha256": "14cdf94069b96ebd611030f6cb7060a709749390afda21895afaaf71141b3bd6",
+      "sha256": "c3205fda8e2ba85eca201ec8094c01d904ffde7b4ac8a0f96f4dc09cb0120544",
+      "bytes": 11630,
+      "change": "Remove trailing whitespace only; historical production receipts retain originally recorded hashes."
+    }
+  ],
+  "runtime_location_note": "Runtime export filenames in historical per-asset receipts resolve to the public URLs listed here. Their absence as source-folder siblings is not a missing runtime artifact. Historical authoring receipts and their source checksums remain unchanged.",
+  "architecture_provenance_note": "The accepted architecture GLB omits embedded source project/revision extras; exact runtime hashes match the public manifest and source runtime record. Sconce and shrine additionally carry embedded bindings.",
+  "dungeon_derivation": {
+    "active_version": "visual-v13-architecture",
+    "record": {
+      "path": "assets-source/dungeon-v13/arch-removal.json",
+      "bytes": 1421,
+      "sha256": "10ed71756d2dc50f8fb39b3db7b8b6b9bd51406eb33790cd9169cfe847053182"
+    },
+    "method": "Offline fixed-torch diffuse patch irradiance with architecture visibility, multiplied by 24-ray local geometric visibility. Contiguous xatlas UV1 charts with six atlas-pixel padding (over three shipped pixels) and dilation. No albedo in irradiance; no actors, gates or state-dependent shrine light. Not a path-traced/Cycles bake.",
+    "preserved": "v11 indirect lightmaps and UV1; v13 removes matched visual legacy arches/pilasters. Collision/BVH/gameplay geometry is maintained independently.",
+    "mixed_dependencies": [
+      "v11",
+      "v12",
+      "v13",
+      "v9"
+    ],
+    "all_room_active_scene_totals": {
+      "triangles": 137582,
+      "draws": 44
+    },
+    "offline_count_caveat": "Sum across all room active scenes, not measured GPU calls or concurrently visible geometry."
+  },
+  "verification": {
+    "environment_report": {
+      "path": "docs/visual-upgrade/environment-verification.json",
+      "bytes": 166711,
+      "sha256": "52d9ca195c5ead152b87d596fdda869295013b828e7743379ef11eda91d449cb"
+    },
+    "prop_fallback_full_mip_rgba8_bytes": 15029576,
+    "prop_fallback_full_mip_mib": 14.333320617675781,
+    "limit_mib": 16,
+    "raw_compressed_prop_validator_warnings": {
+      "sconce": 6,
+      "shrine": 6,
+      "architecture": 6
+    },
+    "warnings_disposition": "Known KTX2 MIME/format support warnings; all raw and decoded issues are preserved in the report. Fifteen decoded geometry validations returned zero errors and zero warnings. No GPU KTX2 transcoding is claimed by the Node verifier.",
+    "memory_caveat": "One full-mip RGBA8 allocation per atlas; excludes driver/CPU copies, render targets and simultaneous variant overlap."
+  },
+  "release_gates": {
+    "G01": "pass: source/asset versions and timing semantics recorded",
+    "G02": "pass: workspace, authored rights and 1000 credit ceiling resolved",
+    "G03": "pass: actual compressed and fallback assets, mounts, shared budgets and loader lifecycle checked",
+    "G04": "pass: reference sconce comparison, combat/boss desktop samples and actual character pose/contact tests reviewed before A02/A03 expansion; phone acceptance remains separate",
+    "G05": "pass:188 tests, TypeScript, production build, syntax, lint and exact dependency checks; built output169.58MiB before final archive",
+    "G06": "pending: iPhone17 Safari and broader physical-device evidence; limited-validation publication allowed by plan",
+    "G07": "pending",
+    "G08": "pending"
+  },
+  "historical_review_policy": "Original terms/credit tool findings are retained from the recorded 2026-09-09 production review; this document does not claim a fresh legal, subscription or pricing verification.",
+  "previous_live_rollback": {
+    "scope": "previous live release; not the new candidate",
+    "access": "public",
+    "saved_version_id": "appgprj_6a9d4c4f647481918c6449a0bbfcc828~appgver_0b5af51a63c48191ba020920a6d0e313",
+    "deployment_id": "appgdep_6aa1c90ecc308191b6ec0270e7f7e4cd",
+    "deployment_status": "succeeded",
+    "source_sha": "a10946e134fa7b915370f664100536c2f95f0c82",
+    "verification": "Reconfirmed by integrating owner on 2026-09-09; source task retained live access/rollback reference."
+  },
+  "clean_source_reconstruction": {
+    "status": "passed",
+    "packed_assets": 41,
+    "evidence_owner": "Integrating task report; this docs task did not rerun restoration.",
+    "scope": "Exact source asset reconstruction; not final production build/archive/publication acceptance."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "method": "Desktop Node performance.now around present only, actual Low rigs,1000 samples after300 warmups. Source sampling, render submission, GPU, browser scheduling and physical phone costs excluded.",
+  "results": [
+    {
+      "kind": "baseline",
+      "id": "ash-knight",
+      "samples": 1000,
+      "meanCpuMs": 0.0029878050000004637,
+      "p95CpuMs": 0.004041999999998325
+    },
+    {
+      "kind": "baseline",
+      "id": "crypt-warden",
+      "samples": 1000,
+      "meanCpuMs": 0.0021175549999998397,
+      "p95CpuMs": 0.002375000000000682
+    },
+    {
+      "kind": "baseline",
+      "id": "ember-sovereign",
+      "samples": 1000,
+      "meanCpuMs": 0.0026943889999998874,
+      "p95CpuMs": 0.0036670000000071923
+    },
+    {
+      "kind": "candidate",
+      "id": "ash-knight",
+      "samples": 1000,
+      "meanCpuMs": 0.003997110999999961,
+      "p95CpuMs": 0.0049579999999878055
+    },
+    {
+      "kind": "candidate",
+      "id": "crypt-warden",
+      "samples": 1000,
+      "meanCpuMs": 0.0033232090000004178,
+      "p95CpuMs": 0.003666000000009717
+    },
+    {
+      "kind": "candidate",
+      "id": "ember-sovereign",
+      "samples": 1000,
+      "meanCpuMs": 0.003937710000000209,
+      "p95CpuMs": 0.003957999999954609
+    }
+  ]
+}

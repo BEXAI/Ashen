@@ -1,0 +1,56 @@
+{
+  "content": [
+    {
+      "text": "Submitted 4/4 image generations.\n- index 1: cf54ea08-3569-43c7-a1c9-7ae5a632bd5c (pending)\n- index 2: c21de7ae-8c13-41c2-be52-494c35b20e2e (pending)\n- index 3: ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd (pending)\n- index 4: 0268dca9-28c5-47df-b46c-6e10b6e44658 (pending)",
+      "type": "text"
+    }
+  ],
+  "isError": false,
+  "structuredContent": {
+    "failed_count": 0,
+    "jobs": [
+      {
+        "adjustments": {
+          "medias[0].role": {
+            "reason": "Nano Banana Pro backend expects schema-key media roles",
+            "requested": "image",
+            "used": "image_references"
+          }
+        },
+        "index": 1,
+        "job_id": "cf54ea08-3569-43c7-a1c9-7ae5a632bd5c",
+        "status": "pending"
+      },
+      {
+        "adjustments": {
+          "medias[0].role": {
+            "reason": "Nano Banana Pro backend expects schema-key media roles",
+            "requested": "image",
+            "used": "image_references"
+          }
+        },
+        "index": 2,
+        "job_id": "c21de7ae-8c13-41c2-be52-494c35b20e2e",
+        "status": "pending"
+      },
+      {
+        "adjustments": {
+          "medias[0].role": {
+            "reason": "Nano Banana Pro backend expects schema-key media roles",
+            "requested": "image",
+            "used": "image_references"
+          }
+        },
+        "index": 3,
+        "job_id": "ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd",
+        "status": "pending"
+      },
+      {
+        "index": 4,
+        "job_id": "0268dca9-28c5-47df-b46c-6e10b6e44658",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 4
+  }
+}

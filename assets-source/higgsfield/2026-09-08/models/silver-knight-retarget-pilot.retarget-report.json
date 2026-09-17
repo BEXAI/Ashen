@@ -1,0 +1,4435 @@
+{
+  "schemaVersion": 1,
+  "createdAtUTC": "2026-09-17T04:39:49.744Z",
+  "input": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-original.glb",
+    "bytes": 6900588,
+    "sha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7"
+  },
+  "originalUntouched": true,
+  "materialProfile": "knight",
+  "materials": [
+    {
+      "index": 0,
+      "name": "Material_1",
+      "before": {
+        "doubleSided": true,
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "emissiveTexture": {
+          "index": 0
+        },
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularColorFactor": [
+              2,
+              2,
+              2
+            ]
+          },
+          "KHR_materials_ior": {
+            "ior": 1.4500000476837158
+          }
+        },
+        "name": "Material_1",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "roughnessFactor": 0.4100847542285919
+        }
+      },
+      "after": {
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "emissiveTexture": {
+          "index": 0
+        },
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularColorFactor": [
+              1,
+              1,
+              1
+            ]
+          },
+          "KHR_materials_ior": {
+            "ior": 1.4500000476837158
+          }
+        },
+        "name": "Material_1",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "roughnessFactor": 0.6,
+          "metallicFactor": 0.35
+        }
+      },
+      "textureReferencesRetained": true
+    }
+  ],
+  "rig": {
+    "joints": 24,
+    "names": [
+      "Hips",
+      "LeftUpLeg",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase",
+      "RightUpLeg",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase",
+      "Spine02",
+      "Spine01",
+      "Spine",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand",
+      "neck",
+      "Head",
+      "head_end",
+      "headfront"
+    ],
+    "legLengthMeters": 0.7821635164450073,
+    "hips": "Hips",
+    "armature": "Armature",
+    "armatureScale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ]
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "sourceAnimationName": "Armature|Idle|baselayer",
+      "sourceDurationSeconds": 3.9999999664723873,
+      "channelCount": 72,
+      "rootScaleFix": {
+        "factor": 1.1764705578486125,
+        "applied": true,
+        "observedMean": 1.1764705578486125,
+        "observedSpread": 3.5762786865234375e-7,
+        "fix": "Scale keys to one; divide same-root translation by observed constant factor",
+        "reference": "https://raw.githubusercontent.com/higgsfield-ai/skills/main/higgsfield-websites/scripts/glb_merge_anims.py"
+      },
+      "legLengthRatio": 1,
+      "mapped": [
+        {
+          "source": "Hips",
+          "target": "Hips",
+          "property": "translation"
+        },
+        {
+          "source": "Hips",
+          "target": "Hips",
+          "property": "rotation"
+        },
+        {
+          "source": "Hips",
+          "target": "Hips",
+          "property": "scale"
+        },
+        {
+          "source": "LeftUpLeg",
+          "target": "LeftUpLeg",
+          "property": "translation"
+        },
+        {
+          "source": "LeftUpLeg",
+          "target": "LeftUpLeg",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftUpLeg",
+          "target": "LeftUpLeg",
+          "property": "scale"
+        },
+        {
+          "source": "LeftLeg",
+          "target": "LeftLeg",
+          "property": "translation"
+        },
+        {
+          "source": "LeftLeg",
+          "target": "LeftLeg",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftLeg",
+          "target": "LeftLeg",
+          "property": "scale"
+        },
+        {
+          "source": "LeftFoot",
+          "target": "LeftFoot",
+          "property": "translation"
+        },
+        {
+          "source": "LeftFoot",
+          "target": "LeftFoot",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftFoot",
+          "target": "LeftFoot",
+          "property": "scale"
+        },
+        {
+          "source": "LeftToeBase",
+          "target": "LeftToeBase",
+          "property": "translation"
+        },
+        {
+          "source": "LeftToeBase",
+          "target": "LeftToeBase",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftToeBase",
+          "target": "LeftToeBase",
+          "property": "scale"
+        },
+        {
+          "source": "RightUpLeg",
+          "target": "RightUpLeg",
+          "property": "translation"
+        },
+        {
+          "source": "RightUpLeg",
+          "target": "RightUpLeg",
+          "property": "rotation"
+        },
+        {
+          "source": "RightUpLeg",
+          "target": "RightUpLeg",
+          "property": "scale"
+        },
+        {
+          "source": "RightLeg",
+          "target": "RightLeg",
+          "property": "translation"
+        },
+        {
+          "source": "RightLeg",
+          "target": "RightLeg",
+          "property": "rotation"
+        },
+        {
+          "source": "RightLeg",
+          "target": "RightLeg",
+          "property": "scale"
+        },
+        {
+          "source": "RightFoot",
+          "target": "RightFoot",
+          "property": "translation"
+        },
+        {
+          "source": "RightFoot",
+          "target": "RightFoot",
+          "property": "rotation"
+        },
+        {
+          "source": "RightFoot",
+          "target": "RightFoot",
+          "property": "scale"
+        },
+        {
+          "source": "RightToeBase",
+          "target": "RightToeBase",
+          "property": "translation"
+        },
+        {
+          "source": "RightToeBase",
+          "target": "RightToeBase",
+          "property": "rotation"
+        },
+        {
+          "source": "RightToeBase",
+          "target": "RightToeBase",
+          "property": "scale"
+        },
+        {
+          "source": "Spine02",
+          "target": "Spine02",
+          "property": "translation"
+        },
+        {
+          "source": "Spine02",
+          "target": "Spine02",
+          "property": "rotation"
+        },
+        {
+          "source": "Spine02",
+          "target": "Spine02",
+          "property": "scale"
+        },
+        {
+          "source": "Spine01",
+          "target": "Spine01",
+          "property": "translation"
+        },
+        {
+          "source": "Spine01",
+          "target": "Spine01",
+          "property": "rotation"
+        },
+        {
+          "source": "Spine01",
+          "target": "Spine01",
+          "property": "scale"
+        },
+        {
+          "source": "Spine",
+          "target": "Spine",
+          "property": "translation"
+        },
+        {
+          "source": "Spine",
+          "target": "Spine",
+          "property": "rotation"
+        },
+        {
+          "source": "Spine",
+          "target": "Spine",
+          "property": "scale"
+        },
+        {
+          "source": "LeftShoulder",
+          "target": "LeftShoulder",
+          "property": "translation"
+        },
+        {
+          "source": "LeftShoulder",
+          "target": "LeftShoulder",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftShoulder",
+          "target": "LeftShoulder",
+          "property": "scale"
+        },
+        {
+          "source": "LeftArm",
+          "target": "LeftArm",
+          "property": "translation"
+        },
+        {
+          "source": "LeftArm",
+          "target": "LeftArm",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftArm",
+          "target": "LeftArm",
+          "property": "scale"
+        },
+        {
+          "source": "LeftForeArm",
+          "target": "LeftForeArm",
+          "property": "translation"
+        },
+        {
+          "source": "LeftForeArm",
+          "target": "LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftForeArm",
+          "target": "LeftForeArm",
+          "property": "scale"
+        },
+        {
+          "source": "LeftHand",
+          "target": "LeftHand",
+          "property": "translation"
+        },
+        {
+          "source": "LeftHand",
+          "target": "LeftHand",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftHand",
+          "target": "LeftHand",
+          "property": "scale"
+        },
+        {
+          "source": "RightShoulder",
+          "target": "RightShoulder",
+          "property": "translation"
+        },
+        {
+          "source": "RightShoulder",
+          "target": "RightShoulder",
+          "property": "rotation"
+        },
+        {
+          "source": "RightShoulder",
+          "target": "RightShoulder",
+          "property": "scale"
+        },
+        {
+          "source": "RightArm",
+          "target": "RightArm",
+          "property": "translation"
+        },
+        {
+          "source": "RightArm",
+          "target": "RightArm",
+          "property": "rotation"
+        },
+        {
+          "source": "RightArm",
+          "target": "RightArm",
+          "property": "scale"
+        },
+        {
+          "source": "RightForeArm",
+          "target": "RightForeArm",
+          "property": "translation"
+        },
+        {
+          "source": "RightForeArm",
+          "target": "RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "source": "RightForeArm",
+          "target": "RightForeArm",
+          "property": "scale"
+        },
+        {
+          "source": "RightHand",
+          "target": "RightHand",
+          "property": "translation"
+        },
+        {
+          "source": "RightHand",
+          "target": "RightHand",
+          "property": "rotation"
+        },
+        {
+          "source": "RightHand",
+          "target": "RightHand",
+          "property": "scale"
+        },
+        {
+          "source": "neck",
+          "target": "neck",
+          "property": "translation"
+        },
+        {
+          "source": "neck",
+          "target": "neck",
+          "property": "rotation"
+        },
+        {
+          "source": "neck",
+          "target": "neck",
+          "property": "scale"
+        },
+        {
+          "source": "Head",
+          "target": "Head",
+          "property": "translation"
+        },
+        {
+          "source": "Head",
+          "target": "Head",
+          "property": "rotation"
+        },
+        {
+          "source": "Head",
+          "target": "Head",
+          "property": "scale"
+        },
+        {
+          "source": "head_end",
+          "target": "head_end",
+          "property": "translation"
+        },
+        {
+          "source": "head_end",
+          "target": "head_end",
+          "property": "rotation"
+        },
+        {
+          "source": "head_end",
+          "target": "head_end",
+          "property": "scale"
+        },
+        {
+          "source": "headfront",
+          "target": "headfront",
+          "property": "translation"
+        },
+        {
+          "source": "headfront",
+          "target": "headfront",
+          "property": "rotation"
+        },
+        {
+          "source": "headfront",
+          "target": "headfront",
+          "property": "scale"
+        }
+      ],
+      "skipped": [],
+      "targetBoneTranslationsUsed": false,
+      "preservedTargetRestRotations": true,
+      "planarRootMotionRemoved": true,
+      "provenance": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-original.glb",
+        "sha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7",
+        "originalClipName": "Armature|Idle|baselayer",
+        "kind": "target-own-idle"
+      }
+    },
+    {
+      "name": "side",
+      "sourceAnimationName": "Armature|Right_Hand_Sword_Slash|baselayer",
+      "sourceDurationSeconds": 1.4999999664723873,
+      "channelCount": 72,
+      "rootScaleFix": {
+        "factor": 1,
+        "applied": false,
+        "observedMean": 1.0000001887480419,
+        "observedSpread": 5.364418029785156e-7
+      },
+      "legLengthRatio": 0.9979129774257927,
+      "mapped": [
+        {
+          "source": "Hips",
+          "target": "Hips",
+          "property": "translation"
+        },
+        {
+          "source": "Hips",
+          "target": "Hips",
+          "property": "rotation"
+        },
+        {
+          "source": "Hips",
+          "target": "Hips",
+          "property": "scale"
+        },
+        {
+          "source": "LeftUpLeg",
+          "target": "LeftUpLeg",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftLeg",
+          "target": "LeftLeg",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftFoot",
+          "target": "LeftFoot",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftToeBase",
+          "target": "LeftToeBase",
+          "property": "rotation"
+        },
+        {
+          "source": "RightUpLeg",
+          "target": "RightUpLeg",
+          "property": "rotation"
+        },
+        {
+          "source": "RightLeg",
+          "target": "RightLeg",
+          "property": "rotation"
+        },
+        {
+          "source": "RightFoot",
+          "target": "RightFoot",
+          "property": "rotation"
+        },
+        {
+          "source": "RightToeBase",
+          "target": "RightToeBase",
+          "property": "rotation"
+        },
+        {
+          "source": "Spine02",
+          "target": "Spine02",
+          "property": "rotation"
+        },
+        {
+          "source": "Spine01",
+          "target": "Spine01",
+          "property": "rotation"
+        },
+        {
+          "source": "Spine",
+          "target": "Spine",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftShoulder",
+          "target": "LeftShoulder",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftArm",
+          "target": "LeftArm",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftForeArm",
+          "target": "LeftForeArm",
+          "property": "rotation"
+        },
+        {
+          "source": "LeftHand",
+          "target": "LeftHand",
+          "property": "rotation"
+        },
+        {
+          "source": "RightShoulder",
+          "target": "RightShoulder",
+          "property": "rotation"
+        },
+        {
+          "source": "RightArm",
+          "target": "RightArm",
+          "property": "rotation"
+        },
+        {
+          "source": "RightForeArm",
+          "target": "RightForeArm",
+          "property": "rotation"
+        },
+        {
+          "source": "RightHand",
+          "target": "RightHand",
+          "property": "rotation"
+        },
+        {
+          "source": "neck",
+          "target": "neck",
+          "property": "rotation"
+        },
+        {
+          "source": "Head",
+          "target": "Head",
+          "property": "rotation"
+        },
+        {
+          "source": "head_end",
+          "target": "head_end",
+          "property": "rotation"
+        },
+        {
+          "source": "headfront",
+          "target": "headfront",
+          "property": "rotation"
+        }
+      ],
+      "skipped": [
+        {
+          "sourceNode": "LeftUpLeg",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftUpLeg",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftLeg",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftLeg",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftFoot",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftFoot",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftToeBase",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftToeBase",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightUpLeg",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightUpLeg",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightLeg",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightLeg",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightFoot",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightFoot",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightToeBase",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightToeBase",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "Spine02",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "Spine02",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "Spine01",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "Spine01",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "Spine",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "Spine",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftShoulder",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftShoulder",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftArm",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftArm",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftForeArm",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftForeArm",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftHand",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "LeftHand",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightShoulder",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightShoulder",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightArm",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightArm",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightForeArm",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightForeArm",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightHand",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "RightHand",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "neck",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "neck",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "Head",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "Head",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "head_end",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "head_end",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "headfront",
+          "property": "translation",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        },
+        {
+          "sourceNode": "headfront",
+          "property": "scale",
+          "reason": "Donor lengths/scales rejected; target rest values used"
+        }
+      ],
+      "targetBoneTranslationsUsed": true,
+      "preservedTargetRestRotations": true,
+      "planarRootMotionRemoved": true,
+      "provenance": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/side.glb",
+        "sha256": "0a44220201d462982f6a78c9491b2a8ef079274a4e286c747aac8deab0f77df2",
+        "kind": "genuine-source-animation"
+      }
+    }
+  ],
+  "requiredCanonicalClips": [
+    "idle",
+    "forward",
+    "backward",
+    "strafe_left",
+    "strafe_right",
+    "dodge",
+    "hit",
+    "death",
+    "side",
+    "diagonal",
+    "backhand",
+    "overhead"
+  ],
+  "sourceValidation": {
+    "numErrors": 0,
+    "numWarnings": 1,
+    "numInfos": 0,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "severity": 1,
+        "pointer": "/nodes/24"
+      }
+    ],
+    "truncated": false
+  },
+  "socketMeasurements": {
+    "available": true,
+    "nodeID": 12,
+    "nodeName": "RightHand",
+    "localUnitsToWorldMeters": [
+      0.009999998067148061,
+      0.010000001381497451,
+      0.01000000308296248
+    ],
+    "handWeightedVertexCount": 914,
+    "handLocalPercentiles": {
+      "p05": [
+        -4.9817198105236,
+        1.1944023529450192,
+        -5.524209338807907
+      ],
+      "median": [
+        -0.6443114375541654,
+        11.155985612335257,
+        -0.8851373482160625
+      ],
+      "p95": [
+        6.844907268474685,
+        18.064304044032383,
+        5.173787725436796
+      ]
+    },
+    "restWorldPosition": [
+      -0.49609256552600506,
+      1.0564883210827214,
+      0.10467401348160074
+    ],
+    "localAxesInWorld": [
+      [
+        0.9214980990065891,
+        -0.19841566281801293,
+        0.333874944066983
+      ],
+      [
+        -0.3338743197706097,
+        -0.8438795723903926,
+        0.41999429269922317
+      ],
+      [
+        0.19841683890271283,
+        -0.4984965206525003,
+        -0.8438791246009149
+      ]
+    ],
+    "recommended": {
+      "contactBase": [
+        0,
+        7.999999324904593,
+        0
+      ],
+      "contactTip": [
+        0,
+        97.99999173008126,
+        0
+      ],
+      "contactBaseRestWorld": [
+        -0.5228025125436555,
+        0.9889779516619431,
+        0.1382735587039444
+      ],
+      "contactTipRestWorld": [
+        -0.823289416492223,
+        0.22948629567818823,
+        0.5162684424553103
+      ],
+      "bladeContactLengthMeters": 0.9,
+      "gripCenter": [
+        0,
+        7.999999324904593,
+        0
+      ],
+      "bladeAxis": "RightHand local +Y",
+      "status": "Provisional separate-equipment coordinates, not captured geometry. Source mesh has a sheathed sword; root owns equipped weapon and visual validation."
+    }
+  },
+  "sockets": {
+    "added": true,
+    "contactBase": [
+      0,
+      8,
+      0
+    ],
+    "contactTip": [
+      0,
+      98,
+      0
+    ],
+    "parent": "RightHand"
+  },
+  "availableClips": [
+    "idle",
+    "side"
+  ],
+  "missingCanonicalClips": [
+    "forward",
+    "backward",
+    "strafe_left",
+    "strafe_right",
+    "dodge",
+    "hit",
+    "death",
+    "diagonal",
+    "backhand",
+    "overhead"
+  ],
+  "animationSetComplete": false,
+  "rawSkinnedBounds": {
+    "units": "glTF world meters",
+    "method": "CPU skinning: sum(weight * jointWorld * inverseBind * vertex); includes morphs",
+    "sampleCountPerClip": 17,
+    "limitation": "Uniform time samples, not guaranteed continuous extrema",
+    "rest": {
+      "time": 0,
+      "bounds": {
+        "min": [
+          -0.579370280800561,
+          -1.0808172651320609e-7,
+          -0.24308400113297124
+        ],
+        "max": [
+          0.579370354369696,
+          1.8500000750765473,
+          0.24308384645758446
+        ],
+        "size": [
+          1.158740635170257,
+          1.8500001831582737,
+          0.4861678475905557
+        ]
+      },
+      "keyNodePositions": {
+        "LeftToeBase": [
+          0.19409972850328044,
+          0.04435833257526117,
+          0.10543461345895658
+        ],
+        "LeftFoot": [
+          0.1631459325765621,
+          0.12439284325949684,
+          -0.011723334708508067
+        ],
+        "RightToeBase": [
+          -0.1958367081292832,
+          0.041853089567434054,
+          0.10375470897161419
+        ],
+        "RightFoot": [
+          -0.16294002370215344,
+          0.12893661425439312,
+          -0.013862255771313042
+        ],
+        "Hips": [
+          -0.0015274929658883885,
+          1.001928154485043,
+          0.01770516594413296
+        ]
+      }
+    },
+    "clips": [
+      {
+        "name": "Armature|Idle|baselayer",
+        "start": 0.03333333507180214,
+        "end": 4.0333333015441895,
+        "duration": 3.9999999664723873,
+        "unionBounds": {
+          "min": [
+            -0.5373957246141849,
+            -0.010629010742509987,
+            -0.5760167646793906
+          ],
+          "max": [
+            0.5436627447922552,
+            2.0539977306707495,
+            0.6468313489054186
+          ],
+          "size": [
+            1.08105846940644,
+            2.0646267414132593,
+            1.222848113584809
+          ]
+        },
+        "minimumVertexY": -0.010629010742509987,
+        "maximumVertexY": 2.0539977306707495,
+        "samples": [
+          {
+            "time": 0.03333333507180214,
+            "bounds": {
+              "min": [
+                -0.4882417525743854,
+                0.0007446742615861631,
+                -0.49647681951373396
+              ],
+              "max": [
+                0.39655687004587664,
+                2.0376272591316744,
+                0.6152101846366254
+              ],
+              "size": [
+                0.884798622620262,
+                2.036882584870088,
+                1.1116870041503593
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.0781400353719183,
+                0.05284708452798034,
+                0.5048631668368015
+              ],
+              "LeftFoot": [
+                0.14947683279459822,
+                0.1469020004992448,
+                0.38135381305451627
+              ],
+              "RightToeBase": [
+                -0.2448847339415469,
+                0.05215272626578982,
+                -0.3532202628601753
+              ],
+              "RightFoot": [
+                -0.10143204122503366,
+                0.15478718034297606,
+                -0.35857161685995165
+              ],
+              "Hips": [
+                -0.01165806863476182,
+                1.0763716647839914,
+                0.03600321689240893
+              ]
+            }
+          },
+          {
+            "time": 0.28333333297632635,
+            "bounds": {
+              "min": [
+                -0.4849997608019594,
+                0.0010273701183401845,
+                -0.49330269859721226
+              ],
+              "max": [
+                0.3811024784841654,
+                2.0366636738322077,
+                0.6152426849603696
+              ],
+              "size": [
+                0.8661022392861248,
+                2.0356363037138676,
+                1.1085453835575818
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07791235325863996,
+                0.05332301429479447,
+                0.5049060851829544
+              ],
+              "LeftFoot": [
+                0.1493316248673286,
+                0.1471290511756735,
+                0.3812551922934997
+              ],
+              "RightToeBase": [
+                -0.2448807846056861,
+                0.051845930404726,
+                -0.35323540246690216
+              ],
+              "RightFoot": [
+                -0.10142491001366255,
+                0.15446928625109135,
+                -0.3587127513151642
+              ],
+              "Hips": [
+                -0.01190322677177844,
+                1.0763227984678816,
+                0.036010425502161256
+              ]
+            }
+          },
+          {
+            "time": 0.5333333308808506,
+            "bounds": {
+              "min": [
+                -0.47262225822996584,
+                0.0009727557318679463,
+                -0.48702168248902505
+              ],
+              "max": [
+                0.37734636100478536,
+                2.0361594243839893,
+                0.6148839775379087
+              ],
+              "size": [
+                0.8499686192347512,
+                2.0351866686521216,
+                1.1019056600269337
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07758096436772816,
+                0.053947474218923416,
+                0.5046938365331384
+              ],
+              "LeftFoot": [
+                0.14934898308053746,
+                0.14745799424321687,
+                0.3810210248639775
+              ],
+              "RightToeBase": [
+                -0.24495399589198072,
+                0.05180839716905396,
+                -0.3530450138785004
+              ],
+              "RightFoot": [
+                -0.10149049525708959,
+                0.15441200408030376,
+                -0.3586899672722328
+              ],
+              "Hips": [
+                -0.012128129941826368,
+                1.0752110059164197,
+                0.03643246091048414
+              ]
+            }
+          },
+          {
+            "time": 0.7833333287853748,
+            "bounds": {
+              "min": [
+                -0.476903069095703,
+                0.0007739864054100979,
+                -0.45755805654862547
+              ],
+              "max": [
+                0.40733743918582116,
+                2.032541660219657,
+                0.6141302263361132
+              ],
+              "size": [
+                0.8842405082815241,
+                2.031767673814247,
+                1.0716882828847387
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07829458871768023,
+                0.0530017787833849,
+                0.5041813839981384
+              ],
+              "LeftFoot": [
+                0.1508336608253289,
+                0.1462341985999666,
+                0.3807486828829299
+              ],
+              "RightToeBase": [
+                -0.24551210614969687,
+                0.05423799554800385,
+                -0.33415763975268314
+              ],
+              "RightFoot": [
+                -0.10328923050445472,
+                0.15552407778513405,
+                -0.3597491378145993
+              ],
+              "Hips": [
+                -0.010194300302438616,
+                1.0694308996455666,
+                0.03981061243007499
+              ]
+            }
+          },
+          {
+            "time": 1.033333326689899,
+            "bounds": {
+              "min": [
+                -0.48110282331137216,
+                -0.000648906018166401,
+                -0.4543461737336422
+              ],
+              "max": [
+                0.5320791072076485,
+                2.0252461600331984,
+                0.6119973993121949
+              ],
+              "size": [
+                1.0131819305190206,
+                2.0258950660513646,
+                1.066343573045837
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07953104728577229,
+                0.05364930029194909,
+                0.502709073943892
+              ],
+              "LeftFoot": [
+                0.15260981130646364,
+                0.14620461300687565,
+                0.3790852773952153
+              ],
+              "RightToeBase": [
+                -0.23006646403176872,
+                0.05423063729196628,
+                -0.29049580794391994
+              ],
+              "RightFoot": [
+                -0.10716293212340881,
+                0.16016405832542113,
+                -0.3598786151489103
+              ],
+              "Hips": [
+                0.00818888600365036,
+                1.055481542135886,
+                0.04539983059281638
+              ]
+            }
+          },
+          {
+            "time": 1.2833333245944232,
+            "bounds": {
+              "min": [
+                -0.4103438055394283,
+                -0.0057363899276995116,
+                -0.4667761307334223
+              ],
+              "max": [
+                0.5328281710074025,
+                2.0210535980190842,
+                0.6114612555239718
+              ],
+              "size": [
+                0.9431719765468308,
+                2.026789987946784,
+                1.0782373862573942
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.08246296791139837,
+                0.05615832900476081,
+                0.5016015791047465
+              ],
+              "LeftFoot": [
+                0.15375107000765703,
+                0.14812332731958555,
+                0.37650049217907255
+              ],
+              "RightToeBase": [
+                -0.21575766506592553,
+                0.049814986325458374,
+                -0.27802486439931057
+              ],
+              "RightFoot": [
+                -0.10842674165304911,
+                0.16383992614693743,
+                -0.3593853371510383
+              ],
+              "Hips": [
+                0.018063037168206633,
+                1.0498925170854752,
+                0.03151909143823965
+              ]
+            }
+          },
+          {
+            "time": 1.5333333224989474,
+            "bounds": {
+              "min": [
+                -0.4284118510851655,
+                -0.0071898458129552225,
+                -0.4670907588568358
+              ],
+              "max": [
+                0.541145043655747,
+                2.0176230100125907,
+                0.6138889025799894
+              ],
+              "size": [
+                0.9695568947409126,
+                2.024812855825546,
+                1.0809796614368252
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.08183508605857713,
+                0.05333016573983658,
+                0.5038106403680784
+              ],
+              "LeftFoot": [
+                0.15307745302069992,
+                0.14586574630104665,
+                0.3791048682411355
+              ],
+              "RightToeBase": [
+                -0.21328188070378912,
+                0.04772286889082705,
+                -0.27493830899530647
+              ],
+              "RightFoot": [
+                -0.10956359968402396,
+                0.16199632144338333,
+                -0.36052590237332865
+              ],
+              "Hips": [
+                0.0014130871591622354,
+                1.0520027692695784,
+                0.03845508036305505
+              ]
+            }
+          },
+          {
+            "time": 1.7833333204034716,
+            "bounds": {
+              "min": [
+                -0.506559832418236,
+                -0.00896874157507606,
+                -0.46008553464143964
+              ],
+              "max": [
+                0.5436627447922552,
+                2.016996800583215,
+                0.6165614507807438
+              ],
+              "size": [
+                1.0502225772104912,
+                2.025965542158291,
+                1.0766469854221834
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.08019101851684615,
+                0.053314559752841245,
+                0.5060120461950941
+              ],
+              "LeftFoot": [
+                0.15127661684170204,
+                0.1453395891442047,
+                0.38083987715621315
+              ],
+              "RightToeBase": [
+                -0.21872811914904106,
+                0.043673059689031846,
+                -0.27950617868775146
+              ],
+              "RightFoot": [
+                -0.10982659673996177,
+                0.15301119542097613,
+                -0.36510273483410827
+              ],
+              "Hips": [
+                -0.016136878935035088,
+                1.0597485884474005,
+                0.038487286661830725
+              ]
+            }
+          },
+          {
+            "time": 2.033333318307996,
+            "bounds": {
+              "min": [
+                -0.5057717877867072,
+                -0.010153117130260271,
+                -0.4821457618118804
+              ],
+              "max": [
+                0.3547694040561683,
+                2.017571905597552,
+                0.615552857924533
+              ],
+              "size": [
+                0.8605411918428755,
+                2.0277250227278123,
+                1.0976986197364134
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07687493812399361,
+                0.05626023509122917,
+                0.5047911351948725
+              ],
+              "LeftFoot": [
+                0.1480851788361417,
+                0.1492552215332688,
+                0.38040916341983566
+              ],
+              "RightToeBase": [
+                -0.2318835322469835,
+                0.042237376090428186,
+                -0.2958190449538897
+              ],
+              "RightFoot": [
+                -0.10711780330367748,
+                0.14378534645021457,
+                -0.3683632564148062
+              ],
+              "Hips": [
+                -0.044232230719153866,
+                1.0696118695182242,
+                0.026394384040450587
+              ]
+            }
+          },
+          {
+            "time": 2.28333331621252,
+            "bounds": {
+              "min": [
+                -0.4081301914680162,
+                -0.010629010742509987,
+                -0.5592767783467048
+              ],
+              "max": [
+                0.3097555039047286,
+                2.0265911982864595,
+                0.6125359202842793
+              ],
+              "size": [
+                0.7178856953727448,
+                2.0372202090289693,
+                1.171812698630984
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07383683511822903,
+                0.06097385549390123,
+                0.5013612399747106
+              ],
+              "LeftFoot": [
+                0.14459872228363038,
+                0.15526911723877979,
+                0.3777044605841798
+              ],
+              "RightToeBase": [
+                -0.2450987805254368,
+                0.04155554240351436,
+                -0.34030449609651164
+              ],
+              "RightFoot": [
+                -0.10244739688443943,
+                0.14205182237813424,
+                -0.36661453492457396
+              ],
+              "Hips": [
+                -0.05389496435941925,
+                1.0800094750076044,
+                0.005314029359306815
+              ]
+            }
+          },
+          {
+            "time": 2.533333314117044,
+            "bounds": {
+              "min": [
+                -0.4623794372578417,
+                -0.01011997342832581,
+                -0.5760167646793906
+              ],
+              "max": [
+                0.2789437356323931,
+                2.031268746928565,
+                0.610369648819489
+              ],
+              "size": [
+                0.7413231728902347,
+                2.041388720356891,
+                1.1863864134988795
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07293508865624279,
+                0.06420610613235118,
+                0.500332933551632
+              ],
+              "LeftFoot": [
+                0.14324508634487737,
+                0.15851082155938234,
+                0.3764258477072047
+              ],
+              "RightToeBase": [
+                -0.2449130940177162,
+                0.04169148636091494,
+                -0.36236036041649716
+              ],
+              "RightFoot": [
+                -0.10050202381697315,
+                0.14308195791084188,
+                -0.36491987589259145
+              ],
+              "Hips": [
+                -0.04909521931158852,
+                1.0846523805802786,
+                0.003963752908744122
+              ]
+            }
+          },
+          {
+            "time": 2.7833333120215684,
+            "bounds": {
+              "min": [
+                -0.4460146217041654,
+                -0.007946578430508446,
+                -0.5553542158477456
+              ],
+              "max": [
+                0.29792771575562627,
+                2.044866454861217,
+                0.6103493523787745
+              ],
+              "size": [
+                0.7439423374597917,
+                2.0528130332917254,
+                1.1657035682265202
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07306429964822095,
+                0.06338221819165797,
+                0.5005639606659494
+              ],
+              "LeftFoot": [
+                0.14375957051371302,
+                0.15786167232610593,
+                0.3770097040790571
+              ],
+              "RightToeBase": [
+                -0.2451086209403741,
+                0.04397194643144403,
+                -0.3621229085259861
+              ],
+              "RightFoot": [
+                -0.10045788483509283,
+                0.1450353478448853,
+                -0.3639906486849136
+              ],
+              "Hips": [
+                -0.05324517652429159,
+                1.0856820818096695,
+                0.01318967607543439
+              ]
+            }
+          },
+          {
+            "time": 3.0333333099260926,
+            "bounds": {
+              "min": [
+                -0.3845055509763339,
+                -0.004019697543049369,
+                -0.4985450140282834
+              ],
+              "max": [
+                0.34206181746793396,
+                2.0539977306707495,
+                0.6468313489054186
+              ],
+              "size": [
+                0.7265673684442678,
+                2.058017428213799,
+                1.145376362933702
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07558004867661064,
+                0.05941840711959123,
+                0.5022132717455277
+              ],
+              "LeftFoot": [
+                0.1461793160131416,
+                0.15417938952803073,
+                0.3788198125060896
+              ],
+              "RightToeBase": [
+                -0.245153724242335,
+                0.04745984645521094,
+                -0.35885928501865183
+              ],
+              "RightFoot": [
+                -0.1011932831183048,
+                0.14948389872060208,
+                -0.36161938211242084
+              ],
+              "Hips": [
+                -0.05412519766216438,
+                1.0857404083504731,
+                0.02347539421666841
+              ]
+            }
+          },
+          {
+            "time": 3.283333307830617,
+            "bounds": {
+              "min": [
+                -0.5273504682583419,
+                0.00030704240303248086,
+                -0.4946967844646502
+              ],
+              "max": [
+                0.37092872391780096,
+                2.047222941704011,
+                0.6136402159951533
+              ],
+              "size": [
+                0.8982791921761428,
+                2.0469158993009784,
+                1.1083370004598034
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07760156389678555,
+                0.05467928492176512,
+                0.5037395025217986
+              ],
+              "LeftFoot": [
+                0.14864565215647924,
+                0.1492181201993104,
+                0.38043096384736336
+              ],
+              "RightToeBase": [
+                -0.24463027498830275,
+                0.051054206453962594,
+                -0.3552148463656349
+              ],
+              "RightFoot": [
+                -0.10140935178376248,
+                0.15408196066380925,
+                -0.35898074782299927
+              ],
+              "Hips": [
+                -0.03603523840859499,
+                1.0819062943663622,
+                0.03557606522654056
+              ]
+            }
+          },
+          {
+            "time": 3.533333305735141,
+            "bounds": {
+              "min": [
+                -0.5373957246141849,
+                0.000453534054872211,
+                -0.49174371501838865
+              ],
+              "max": [
+                0.3784134924796491,
+                2.040453196423999,
+                0.6148534239252876
+              ],
+              "size": [
+                0.9158092170938341,
+                2.039999662369127,
+                1.1065971389436764
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07894044376082614,
+                0.052499981469580195,
+                0.5045845242245188
+              ],
+              "LeftFoot": [
+                0.14994481044754995,
+                0.14690466085713283,
+                0.38115037839494226
+              ],
+              "RightToeBase": [
+                -0.24490420317850664,
+                0.05298818808266252,
+                -0.3541008507277505
+              ],
+              "RightFoot": [
+                -0.10138610368435544,
+                0.1556020161340389,
+                -0.35785444074879313
+              ],
+              "Hips": [
+                -0.023123022858946216,
+                1.0784316775342933,
+                0.03747713958928221
+              ]
+            }
+          },
+          {
+            "time": 3.7833333036396652,
+            "bounds": {
+              "min": [
+                -0.5011021967768913,
+                0.00011226224750602971,
+                -0.4935533972916816
+              ],
+              "max": [
+                0.39191607929420913,
+                2.0386896425560135,
+                0.615185906382827
+              ],
+              "size": [
+                0.8930182760711004,
+                2.0385773803085074,
+                1.1087393036745086
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.0789568628523085,
+                0.052212747224738315,
+                0.5048240549252476
+              ],
+              "LeftFoot": [
+                0.14971354388642022,
+                0.14672528507031052,
+                0.3813302249810721
+              ],
+              "RightToeBase": [
+                -0.24487797698627434,
+                0.052570491850620696,
+                -0.3539483144341246
+              ],
+              "RightFoot": [
+                -0.10137184207469993,
+                0.1551842656825394,
+                -0.35813564348216476
+              ],
+              "Hips": [
+                -0.015952536056123623,
+                1.07699964022423,
+                0.03759820019567333
+              ]
+            }
+          },
+          {
+            "time": 4.0333333015441895,
+            "bounds": {
+              "min": [
+                -0.48828534292599335,
+                0.0007515515223655651,
+                -0.49647742225433783
+              ],
+              "max": [
+                0.396520419209764,
+                2.0376641930228327,
+                0.6152079516233862
+              ],
+              "size": [
+                0.8848057621357573,
+                2.036912641500467,
+                1.111685373877724
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07814086574114541,
+                0.052853196224829854,
+                0.504860842721574
+              ],
+              "LeftFoot": [
+                0.14947689150215185,
+                0.1469086175757497,
+                0.38135131722828297
+              ],
+              "RightToeBase": [
+                -0.24488174187492148,
+                0.05215825393604384,
+                -0.353203869639567
+              ],
+              "RightFoot": [
+                -0.10142959273414648,
+                0.15479265649637292,
+                -0.35856964182143736
+              ],
+              "Hips": [
+                -0.011650778986868726,
+                1.0763812015269423,
+                0.03599469342839656
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "normalizedSkinnedBounds": {
+    "units": "glTF world meters",
+    "method": "CPU skinning: sum(weight * jointWorld * inverseBind * vertex); includes morphs",
+    "sampleCountPerClip": 17,
+    "limitation": "Uniform time samples, not guaranteed continuous extrema",
+    "rest": {
+      "time": 0,
+      "bounds": {
+        "min": [
+          -0.579370280800561,
+          -1.0808172651320609e-7,
+          -0.24308400113297124
+        ],
+        "max": [
+          0.579370354369696,
+          1.8500000750765473,
+          0.24308384645758446
+        ],
+        "size": [
+          1.158740635170257,
+          1.8500001831582737,
+          0.4861678475905557
+        ]
+      },
+      "keyNodePositions": {
+        "LeftToeBase": [
+          0.19409972850328044,
+          0.04435833257526117,
+          0.10543461345895658
+        ],
+        "LeftFoot": [
+          0.1631459325765621,
+          0.12439284325949684,
+          -0.011723334708508067
+        ],
+        "RightToeBase": [
+          -0.1958367081292832,
+          0.041853089567434054,
+          0.10375470897161419
+        ],
+        "RightFoot": [
+          -0.16294002370215344,
+          0.12893661425439312,
+          -0.013862255771313042
+        ],
+        "Hips": [
+          -0.0015274929658883885,
+          1.001928154485043,
+          0.01770516594413296
+        ],
+        "ContactBase": [
+          -0.522802514797626,
+          0.9889779459649501,
+          0.13827356153930695
+        ],
+        "ContactTip": [
+          -0.8232894441033617,
+          0.22948622589002377,
+          0.5162684771885019
+        ]
+      }
+    },
+    "clips": [
+      {
+        "name": "idle",
+        "start": 0,
+        "end": 4,
+        "duration": 4,
+        "unionBounds": {
+          "min": [
+            -0.4386592754439469,
+            -0.00903473156107689,
+            -0.4752782861735879
+          ],
+          "max": [
+            0.4743022259514911,
+            1.7458981564743064,
+            0.5475577155838462
+          ],
+          "size": [
+            0.912961501395438,
+            1.7549328880353832,
+            1.022836001757434
+          ]
+        },
+        "minimumVertexY": -0.00903473156107689,
+        "maximumVertexY": 1.7458981564743064,
+        "samples": [
+          {
+            "time": 0,
+            "bounds": {
+              "min": [
+                -0.40662367416545275,
+                0.000632817640824834,
+                -0.43490287844337816
+              ],
+              "max": [
+                0.3454552589786385,
+                1.7319832672576851,
+                0.5100311528999057
+              ],
+              "size": [
+                0.7520789331440912,
+                1.7313504496168604,
+                0.9449340313432839
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07480090667828322,
+                0.04491987090825866,
+                0.4162361888189886
+              ],
+              "LeftFoot": [
+                0.13543718317975123,
+                0.12486656779426064,
+                0.3112532348189713
+              ],
+              "RightToeBase": [
+                -0.1997702372410029,
+                0.0443296888309833,
+                -0.3131347874553044
+              ],
+              "RightFoot": [
+                -0.07783543503318491,
+                0.13156899189860266,
+                -0.31768343143172806
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9149159036223011,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.3551025719155499,
+                0.853357422245567,
+                -0.11937730324413635
+              ],
+              "ContactTip": [
+                -0.42246048913429546,
+                0.028800015150036273,
+                0.2349777903463299
+              ]
+            }
+          },
+          {
+            "time": 0.25,
+            "bounds": {
+              "min": [
+                -0.40365959340487123,
+                0.0008731665478150879,
+                -0.4322109991988087
+              ],
+              "max": [
+                0.33252739499632716,
+                1.7311642478475837,
+                0.5100526455713499
+              ],
+              "size": [
+                0.7361869884011984,
+                1.7302910812997687,
+                0.9422636447701586
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07481576026329763,
+                0.04532444873790829,
+                0.41626653745414394
+              ],
+              "LeftFoot": [
+                0.1355221392644839,
+                0.12505959776330983,
+                0.3111632760562247
+              ],
+              "RightToeBase": [
+                -0.19955849199507428,
+                0.04406894906285147,
+                -0.31315378141532946
+              ],
+              "RightFoot": [
+                -0.07762098671492222,
+                0.13129881806502625,
+                -0.3178095211425761
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9148743996738006,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.35198612773682336,
+                0.8507330700306881,
+                -0.13887289620308818
+              ],
+              "ContactTip": [
+                -0.433852560296517,
+                0.011165866852399287,
+                0.17485364771489031
+              ]
+            }
+          },
+          {
+            "time": 0.5,
+            "bounds": {
+              "min": [
+                -0.39294754416601096,
+                0.0008267209341370562,
+                -0.4272308577005901
+              ],
+              "max": [
+                0.3295258614559013,
+                1.7307356010986739,
+                0.5093890068170093
+              ],
+              "size": [
+                0.7224734056219122,
+                1.7299088801645368,
+                0.9366198645175994
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07472524747768192,
+                0.04585521582324796,
+                0.415727389792093
+              ],
+              "LeftFoot": [
+                0.13572806140233218,
+                0.12533917492320262,
+                0.31060549878770966
+              ],
+              "RightToeBase": [
+                -0.1994295495001539,
+                0.04403702229194745,
+                -0.3133506761616453
+              ],
+              "RightFoot": [
+                -0.0774855630320431,
+                0.13125010394863468,
+                -0.3181488801257113
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9139293466375165,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.34147520570766426,
+                0.8426132720237325,
+                -0.1527393005578327
+              ],
+              "ContactTip": [
+                -0.4033261588351311,
+                -0.01347541249207529,
+                0.11797487997205483
+              ]
+            }
+          },
+          {
+            "time": 0.75,
+            "bounds": {
+              "min": [
+                -0.3982299978573769,
+                0.0006577766259072659,
+                -0.405058179261948
+              ],
+              "max": [
+                0.35337454650851324,
+                1.7276605239306706,
+                0.5058768734423157
+              ],
+              "size": [
+                0.7516045443658901,
+                1.7270027473047633,
+                0.9109350527042637
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07368807417179342,
+                0.045051404085405186,
+                0.4124203626763311
+              ],
+              "LeftFoot": [
+                0.13534628626648315,
+                0.1242989774855277,
+                0.30750256839087003
+              ],
+              "RightToeBase": [
+                -0.2015476863170092,
+                0.04610221737063161,
+                -0.3001678088964855
+              ],
+              "RightFoot": [
+                -0.08065823139474518,
+                0.13219540201307706,
+                -0.3219205842711164
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9090162828345193,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.34746796983842404,
+                0.8292191495214265,
+                -0.09042247854074267
+              ],
+              "ContactTip": [
+                -0.3352252741797444,
+                -0.04582489862776762,
+                0.11969078189909041
+              ]
+            }
+          },
+          {
+            "time": 1,
+            "bounds": {
+              "min": [
+                -0.4174254855866887,
+                -0.0005516492463476984,
+                -0.4070788688422107
+              ],
+              "max": [
+                0.44377925398063334,
+                1.7214593402489926,
+                0.49931312297782804
+              ],
+              "size": [
+                0.861204739567322,
+                1.7220109894953404,
+                0.9063919918200387
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.0591133493019213,
+                0.04560179737130439,
+                0.40641804982218266
+              ],
+              "LeftFoot": [
+                0.12123030571141635,
+                0.12427382802679043,
+                0.30133782333842973
+              ],
+              "RightToeBase": [
+                -0.2040445590925215,
+                0.046095970990922094,
+                -0.2678060599018922
+              ],
+              "RightFoot": [
+                -0.09957654783189293,
+                0.13613939370426165,
+                -0.32678145095322547
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8971593241465035,
+                0.017705165944132965
+              ],
+              "ContactBase": [
+                -0.35487259733726206,
+                0.8266099223075394,
+                0.10559763302602063
+              ],
+              "ContactTip": [
+                -0.30327843732797494,
+                -0.04846880208411275,
+                0.30949665098066753
+              ]
+            }
+          },
+          {
+            "time": 1.25,
+            "bounds": {
+              "min": [
+                -0.3656733252483419,
+                -0.004875999661201678,
+                -0.40584570323762537
+              ],
+              "max": [
+                0.4360229137409332,
+                1.7178956594460466,
+                0.5106560310547541
+              ],
+              "size": [
+                0.8016962389892751,
+                1.7227716591072484,
+                0.9165017342923795
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.053212450161372625,
+                0.047734479796501195,
+                0.4172753065961612
+              ],
+              "LeftFoot": [
+                0.11380734508147683,
+                0.12590474192301665,
+                0.3109393809286958
+              ],
+              "RightToeBase": [
+                -0.20027508557049462,
+                0.042342678580926135,
+                -0.24540713084900748
+              ],
+              "RightFoot": [
+                -0.10904379090006415,
+                0.13926389052983434,
+                -0.3145635375744055
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8924086562005726,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.25124171182544436,
+                0.8329777926618351,
+                0.2982417986251609
+              ],
+              "ContactTip": [
+                -0.08045508598051787,
+                0.015346712633455661,
+                0.6333698930435364
+              ]
+            }
+          },
+          {
+            "time": 1.5,
+            "bounds": {
+              "min": [
+                -0.36687871599305577,
+                -0.006111397941878263,
+                -0.41200871970004704
+              ],
+              "max": [
+                0.45724470578503207,
+                1.714979685832797,
+                0.5068239381803243
+              ],
+              "size": [
+                0.8241234217780878,
+                1.7210910837746753,
+                0.9188326578803714
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.06683121109851836,
+                0.045330578761044196,
+                0.41325741894638857
+              ],
+              "LeftFoot": [
+                0.12738722880014494,
+                0.12398583672758945,
+                0.30725751370630133
+              ],
+              "RightToeBase": [
+                -0.1840182243065284,
+                0.04056441767132332,
+                -0.24867914573313518
+              ],
+              "RightFoot": [
+                -0.09585767795278902,
+                0.13769686651596175,
+                -0.32142860245146804
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8942024031087215,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.3020736487344594,
+                0.8377495567055203,
+                0.24754580618791422
+              ],
+              "ContactTip": [
+                -0.22906903707803397,
+                0.09191320154509319,
+                0.7459411537633283
+              ]
+            }
+          },
+          {
+            "time": 1.75,
+            "bounds": {
+              "min": [
+                -0.4183870260141588,
+                -0.007623466366878744,
+                -0.4060816615076163
+              ],
+              "max": [
+                0.4743022259514911,
+                1.7144473932179927,
+                0.5090682274021596
+              ],
+              "size": [
+                0.8926892519656499,
+                1.7220708595848715,
+                0.915149888909776
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.08035122632978964,
+                0.04531731236133685,
+                0.41510124051102737
+              ],
+              "LeftFoot": [
+                0.14077398610991515,
+                0.12353860188335797,
+                0.3087049005909799
+              ],
+              "RightToeBase": [
+                -0.17373007949841285,
+                0.03712207209789163,
+                -0.25258921976152093
+              ],
+              "RightFoot": [
+                -0.08116378147654359,
+                0.13005950223985235,
+                -0.3253462907381756
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9007863415601918,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.3647691963257909,
+                0.847867883605339,
+                0.08722538332946171
+              ],
+              "ContactTip": [
+                -0.5332286813589296,
+                0.13002229960661782,
+                0.6032860075499689
+              ]
+            }
+          },
+          {
+            "time": 2,
+            "bounds": {
+              "min": [
+                -0.3938361401623185,
+                -0.0086301828033466,
+                -0.41455393164213866
+              ],
+              "max": [
+                0.3376239038329841,
+                1.7149362252583502,
+                0.5184899015583586
+              ],
+              "size": [
+                0.7314600439953025,
+                1.7235664080616968,
+                0.9330438332004973
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.10141359832336566,
+                0.047821146857014316,
+                0.42434244302117774
+              ],
+              "LeftFoot": [
+                0.16194229894218326,
+                0.12686689944612795,
+                0.3186177692589751
+              ],
+              "RightToeBase": [
+                -0.16103114749638303,
+                0.03590173942222469,
+                -0.25617621204390145
+              ],
+              "RightFoot": [
+                -0.05498027988881553,
+                0.12221752879119807,
+                -0.3178387897353399
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9091701304352995,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.3200326867518649,
+                0.8811522574734557,
+                -0.18207106157294273
+              ],
+              "ContactTip": [
+                -0.8755520435643874,
+                0.20109873707720716,
+                0.015222834870435437
+              ]
+            }
+          },
+          {
+            "time": 2.25,
+            "bounds": {
+              "min": [
+                -0.3026273844928912,
+                -0.00903473156107689,
+                -0.46219703109882976
+              ],
+              "max": [
+                0.3075753811242542,
+                1.7226025825659792,
+                0.5338437832688753
+              ],
+              "size": [
+                0.6102027656171454,
+                1.731637314127056,
+                0.9960408143677051
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.10704450799833369,
+                0.051827700956474154,
+                0.4393453364559893
+              ],
+              "LeftFoot": [
+                0.16719210726128775,
+                0.13197868627274295,
+                0.33423707145561116
+              ],
+              "RightToeBase": [
+                -0.16405078239653337,
+                0.03532214130976799,
+                -0.27607056964604715
+              ],
+              "RightFoot": [
+                -0.04279711118011725,
+                0.12074399305716321,
+                -0.29843410239956597
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.918008059009729,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.04491480573713076,
+                0.9293805111051381,
+                -0.39833592200282875
+              ],
+              "ContactTip": [
+                -0.5313094230133125,
+                0.2787967184199106,
+                -0.7858412333523996
+              ]
+            }
+          },
+          {
+            "time": 2.5,
+            "bounds": {
+              "min": [
+                -0.3528190336262081,
+                -0.0086020219797708,
+                -0.4752782861735879
+              ],
+              "max": [
+                0.277305576245252,
+                1.7265785200196906,
+                0.533150212995104
+              ],
+              "size": [
+                0.6301246098714601,
+                1.7351805419994615,
+                1.008428499168692
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.10219822421076988,
+                0.05457514859443373,
+                0.4396190032742373
+              ],
+              "LeftFoot": [
+                0.161961719065125,
+                0.13473416837067226,
+                0.33429797666461036
+              ],
+              "RightToeBase": [
+                -0.16797272564356014,
+                0.03543772114909016,
+                -0.2936703254207073
+              ],
+              "RightFoot": [
+                -0.045223321885829684,
+                0.12161963531438241,
+                -0.29584591277721006
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9219545539776703,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                0.13090391007631685,
+                0.9350505361741092,
+                -0.40756316225312955
+              ],
+              "ContactTip": [
+                -0.11701799187005166,
+                0.2680438066167039,
+                -0.9585949955561912
+              ]
+            }
+          },
+          {
+            "time": 2.75,
+            "bounds": {
+              "min": [
+                -0.33538148250002153,
+                -0.006754627897890863,
+                -0.46555714769934375
+              ],
+              "max": [
+                0.2969694193277106,
+                1.7381365616764386,
+                0.5252909231821079
+              ],
+              "size": [
+                0.6323509018277321,
+                1.7448911895743295,
+                0.9908480708814517
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.10583551646911346,
+                0.0538748484260084,
+                0.43197334036405133
+              ],
+              "LeftFoot": [
+                0.1659264930722547,
+                0.13418239607748556,
+                0.32695222025070014
+              ],
+              "RightToeBase": [
+                -0.16461146497292817,
+                0.03737612029147799,
+                -0.30131051715691337
+              ],
+              "RightFoot": [
+                -0.041658344953926674,
+                0.12328002426951917,
+                -0.3028980950607109
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9228297980987321,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                0.049825949463270285,
+                0.9096348202266533,
+                -0.40110586094300477
+              ],
+              "ContactTip": [
+                -0.2819902088458153,
+                0.20195708246736,
+                -0.8473004160860793
+              ]
+            }
+          },
+          {
+            "time": 3,
+            "bounds": {
+              "min": [
+                -0.2823508310751009,
+                -0.0034167539637917498,
+                -0.42601215222764116
+              ],
+              "max": [
+                0.3352314389164703,
+                1.7458981564743064,
+                0.5475577155838462
+              ],
+              "size": [
+                0.6175822699915712,
+                1.749314910438098,
+                0.9735698678114875
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.10872193768943786,
+                0.050505621844875795,
+                0.4246323941494097
+              ],
+              "LeftFoot": [
+                0.16873130970656416,
+                0.13105246903952678,
+                0.3197479556226767
+              ],
+              "RightToeBase": [
+                -0.16390178685212875,
+                0.04034086095951392,
+                -0.3072792769215123
+              ],
+              "RightFoot": [
+                -0.0415354160258567,
+                0.12706131675600923,
+                -0.3096253569378994
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9228793891620768,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.1801661032358471,
+                0.886533872045114,
+                -0.33733357218958376
+              ],
+              "ContactTip": [
+                -0.561815936841917,
+                0.08389405315575948,
+                -0.479150478911894
+              ]
+            }
+          },
+          {
+            "time": 3.25,
+            "bounds": {
+              "min": [
+                -0.4191454270581013,
+                0.00026096863307341724,
+                -0.43302671011715843
+              ],
+              "max": [
+                0.3443918551378574,
+                1.7401395696728188,
+                0.5090597084562793
+              ],
+              "size": [
+                0.7635372821959587,
+                1.7398786010397453,
+                0.9420864185734378
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.09506377439214801,
+                0.046477353340113076,
+                0.4156441103552804
+              ],
+              "LeftFoot": [
+                0.15545124386682352,
+                0.12683537516378968,
+                0.31083185795888624
+              ],
+              "RightToeBase": [
+                -0.17883331223065582,
+                0.04339606115209675,
+                -0.31446705681360654
+              ],
+              "RightFoot": [
+                -0.05709553070557384,
+                0.1309696619013787,
+                -0.31766807079422915
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9196203789199799,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.36284596421482856,
+                0.8702512201614719,
+                -0.1828669637479033
+              ],
+              "ContactTip": [
+                -0.6897955446310841,
+                0.04829590036243281,
+                -0.017057677842169217
+              ]
+            }
+          },
+          {
+            "time": 3.5,
+            "bounds": {
+              "min": [
+                -0.4386592754439469,
+                0.0003854399751515719,
+                -0.4321325066872296
+              ],
+              "max": [
+                0.3397785248567646,
+                1.7343852526495145,
+                0.5084750129544041
+              ],
+              "size": [
+                0.7784378003007115,
+                1.733999812674363,
+                0.9406075196416337
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.0852264405119853,
+                0.04462492042720133,
+                0.41474645795896914
+              ],
+              "LeftFoot": [
+                0.1455801467575675,
+                0.12486890919456672,
+                0.30982744110326454
+              ],
+              "RightToeBase": [
+                -0.19004152909732402,
+                0.045039922549928696,
+                -0.3151360668188216
+              ],
+              "RightFoot": [
+                -0.06805114820093083,
+                0.13226168510179126,
+                -0.3183266166150376
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9166669259220299,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.38648463546029227,
+                0.8612978457430804,
+                -0.11909926677433429
+              ],
+              "ContactTip": [
+                -0.6459621957471868,
+                0.047265581554622016,
+                0.16378259266828785
+              ]
+            }
+          },
+          {
+            "time": 3.75,
+            "bounds": {
+              "min": [
+                -0.4139046863748651,
+                0.00009540307111102794,
+                -0.4337736352544225
+              ],
+              "max": [
+                0.34516081820111216,
+                1.7328862646587022,
+                0.5086547176104117
+              ],
+              "size": [
+                0.7590655045759773,
+                1.732790861587591,
+                0.9424283528648342
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07914547979666606,
+                0.04438081541466285,
+                0.4148471539886809
+              ],
+              "LeftFoot": [
+                0.13928865287928932,
+                0.12471648338765873,
+                0.30987740616943604
+              ],
+              "RightToeBase": [
+                -0.19611414845581687,
+                0.044684923958961176,
+                -0.3151093107994959
+              ],
+              "RightFoot": [
+                -0.07413393885448613,
+                0.13190664006236907,
+                -0.31866853897456726
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9154497323457207,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.3619764576376464,
+                0.8522143286687863,
+                -0.11606739051534944
+              ],
+              "ContactTip": [
+                -0.480905418687559,
+                0.029860832469054355,
+                0.22975027928924768
+              ]
+            }
+          },
+          {
+            "time": 4,
+            "bounds": {
+              "min": [
+                -0.4066668493508606,
+                0.0006388124479962795,
+                -0.4348960727602685
+              ],
+              "max": [
+                0.3454180091348583,
+                1.732014635237593,
+                0.5100364320438913
+              ],
+              "size": [
+                0.7520848584857189,
+                1.7313758227895966,
+                0.9449325048041597
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.07479538626169127,
+                0.04492521035841396,
+                0.4162414001054093
+              ],
+              "LeftFoot": [
+                0.13543100194304883,
+                0.12487232876462084,
+                0.31125831177410085
+              ],
+              "RightToeBase": [
+                -0.1997738394073289,
+                0.04433453398175481,
+                -0.31311355027395
+              ],
+              "RightFoot": [
+                -0.0778395191252856,
+                0.13157378412768217,
+                -0.3176744552493894
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9149240670742671,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.35514481851599494,
+                0.8533896933312431,
+                -0.11932866519860423
+              ],
+              "ContactTip": [
+                -0.42260866722392176,
+                0.028893122398146676,
+                0.23514740837120057
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "side",
+        "start": 0,
+        "end": 1.5,
+        "duration": 1.5,
+        "unionBounds": {
+          "min": [
+            -0.7887570704307882,
+            0.05581027582632542,
+            -0.5865889459615051
+          ],
+          "max": [
+            0.6568423645834768,
+            1.846169385411987,
+            0.9106443923488055
+          ],
+          "size": [
+            1.4455994350142651,
+            1.7903591095856615,
+            1.4972333383103105
+          ]
+        },
+        "minimumVertexY": 0.05581027582632542,
+        "maximumVertexY": 1.846169385411987,
+        "samples": [
+          {
+            "time": 0,
+            "bounds": {
+              "min": [
+                -0.7014133954071246,
+                0.06997361625993755,
+                -0.36937681843717307
+              ],
+              "max": [
+                0.30549455011166327,
+                1.6146333301618454,
+                0.6443034201374367
+              ],
+              "size": [
+                1.0069079455187877,
+                1.5446597139019078,
+                1.0136802385746098
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.12923785906733615,
+                0.12713220325247754,
+                0.4729121072495687
+              ],
+              "LeftFoot": [
+                0.13015903439236118,
+                0.21441066635708822,
+                0.3568462810881329
+              ],
+              "RightToeBase": [
+                -0.28923454227383033,
+                0.1165519682091089,
+                -0.3038881871163591
+              ],
+              "RightFoot": [
+                -0.1729212305704399,
+                0.21118337296537687,
+                -0.30783560012199773
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8896738997919726,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6217117663926559,
+                0.8951408775435223,
+                0.08584258898130565
+              ],
+              "ContactTip": [
+                -1.2074935699513407,
+                0.3453449216473241,
+                0.49153176621273603
+              ]
+            }
+          },
+          {
+            "time": 0.09375,
+            "bounds": {
+              "min": [
+                -0.7058090118986728,
+                0.06945251935698799,
+                -0.36287457732338263
+              ],
+              "max": [
+                0.3008807259871528,
+                1.618966466116916,
+                0.6398396290836093
+              ],
+              "size": [
+                1.0066897378858257,
+                1.5495139467599282,
+                1.0027142064069918
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.13804386585157807,
+                0.12755917964895697,
+                0.47901140831632605
+              ],
+              "LeftFoot": [
+                0.1389861228400212,
+                0.21479595887013286,
+                0.3629144177878673
+              ],
+              "RightToeBase": [
+                -0.2807680685089283,
+                0.11603266244953726,
+                -0.2973702490558792
+              ],
+              "RightFoot": [
+                -0.16449088685823446,
+                0.2107083754776795,
+                -0.30131963777075293
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8907924355568083,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6255835090911757,
+                0.9008649956855912,
+                0.02380902696151438
+              ],
+              "ContactTip": [
+                -1.2188354597073139,
+                0.3522324688446552,
+                0.42010953557120734
+              ]
+            }
+          },
+          {
+            "time": 0.1875,
+            "bounds": {
+              "min": [
+                -0.7293581861475764,
+                0.069532807040217,
+                -0.35977521757446473
+              ],
+              "max": [
+                0.2880197003518959,
+                1.6237658664673473,
+                0.6564654235930045
+              ],
+              "size": [
+                1.0173778864994723,
+                1.5542330594271303,
+                1.0162406411674691
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.14771460420321067,
+                0.12817871686906573,
+                0.49410239618558466
+              ],
+              "LeftFoot": [
+                0.14886312958400816,
+                0.2204859201064941,
+                0.38199657192303477
+              ],
+              "RightToeBase": [
+                -0.2740272913362269,
+                0.11612879272369302,
+                -0.2865140671646695
+              ],
+              "RightFoot": [
+                -0.15774993692129427,
+                0.2108025668130702,
+                -0.2905046233606656
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8935542385677262,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6408788545050541,
+                0.9919026779400443,
+                -0.2015777123893329
+              ],
+              "ContactTip": [
+                -1.3591262956836556,
+                0.4955887757056848,
+                0.017037808600816357
+              ]
+            }
+          },
+          {
+            "time": 0.28125,
+            "bounds": {
+              "min": [
+                -0.5615593383039699,
+                0.07153407978705698,
+                -0.5865889459615051
+              ],
+              "max": [
+                0.2821273182381731,
+                1.6070461568066094,
+                0.6859503800345067
+              ],
+              "size": [
+                0.843686656542143,
+                1.5355120770195525,
+                1.2725393259960118
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.17445438155643178,
+                0.13446977624682616,
+                0.501462996669538
+              ],
+              "LeftFoot": [
+                0.15224397113260238,
+                0.23009947391794255,
+                0.3944521924735436
+              ],
+              "RightToeBase": [
+                -0.2842242701215224,
+                0.11813298718647657,
+                -0.30568676431055863
+              ],
+              "RightFoot": [
+                -0.16786800021740997,
+                0.21270990243613191,
+                -0.3096738231002949
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8728797623367253,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.4538436528377737,
+                1.2958060326585557,
+                -0.4990188988210986
+              ],
+              "ContactTip": [
+                -1.3156028873484438,
+                1.1249599948506424,
+                -0.6944218876484907
+              ]
+            }
+          },
+          {
+            "time": 0.375,
+            "bounds": {
+              "min": [
+                -0.4326201653777552,
+                0.06821249086442666,
+                -0.5832598006947768
+              ],
+              "max": [
+                0.31161485357052926,
+                1.5921476968818367,
+                0.661667586217193
+              ],
+              "size": [
+                0.7442350189482845,
+                1.52393520601741,
+                1.2449273869119697
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.1618428679489008,
+                0.1302360252499546,
+                0.4463502798068151
+              ],
+              "LeftFoot": [
+                0.1284487679545529,
+                0.21883271695540557,
+                0.33623618729099636
+              ],
+              "RightToeBase": [
+                -0.3129022509103154,
+                0.11454303788617802,
+                -0.36422415657534857
+              ],
+              "RightFoot": [
+                -0.1971677726855604,
+                0.2098835756694359,
+                -0.3681207735477864
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8457707215346495,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.2965878863430864,
+                1.4299848054603945,
+                -0.4924219653652998
+              ],
+              "ContactTip": [
+                -1.0115026369069937,
+                1.9171696238539486,
+                -0.7405101872632543
+              ]
+            }
+          },
+          {
+            "time": 0.46875,
+            "bounds": {
+              "min": [
+                -0.7887570704307882,
+                0.05581027582632542,
+                -0.49091857280928747
+              ],
+              "max": [
+                0.5956100557504933,
+                1.6501182276206303,
+                0.5261250235371994
+              ],
+              "size": [
+                1.3843671261812815,
+                1.5943079517943048,
+                1.0170435963464868
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.15110902407415724,
+                0.1287682262441543,
+                0.4004721258292626
+              ],
+              "LeftFoot": [
+                0.1157605485069283,
+                0.21494241561633387,
+                0.2890533281696196
+              ],
+              "RightToeBase": [
+                -0.35212870813974606,
+                0.1033365741048823,
+                -0.3773802059099928
+              ],
+              "RightFoot": [
+                -0.2605019851601744,
+                0.2213670407467381,
+                -0.3905265303540652
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8551681800921092,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6855949433320946,
+                1.1834620058557581,
+                -0.22380011111508996
+              ],
+              "ContactTip": [
+                -1.2376660896407259,
+                1.696201123032408,
+                -0.716056053863504
+              ]
+            }
+          },
+          {
+            "time": 0.5625,
+            "bounds": {
+              "min": [
+                -0.46886629724086915,
+                0.0770129461276385,
+                -0.49992960858217284
+              ],
+              "max": [
+                0.5894988111502663,
+                1.6763516302744539,
+                0.9106443923488055
+              ],
+              "size": [
+                1.0583651083911354,
+                1.5993386841468153,
+                1.4105740009309784
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.13955120598701914,
+                0.12592816911157323,
+                0.3478861151606093
+              ],
+              "LeftFoot": [
+                0.09883294952633524,
+                0.2141872452741569,
+                0.23998795087561414
+              ],
+              "RightToeBase": [
+                -0.40903932720218583,
+                0.13859105333841193,
+                -0.3746983054471614
+              ],
+              "RightFoot": [
+                -0.33722325215359616,
+                0.26952881859836764,
+                -0.3606545864325339
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8670122148535614,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.0801188292304601,
+                1.2445606732326628,
+                0.8019240814111785
+              ],
+              "ContactTip": [
+                -0.17583350907974554,
+                1.461293349125191,
+                1.6701783780939312
+              ]
+            }
+          },
+          {
+            "time": 0.65625,
+            "bounds": {
+              "min": [
+                -0.451191510837115,
+                0.07760432481220454,
+                -0.5034828945173399
+              ],
+              "max": [
+                0.6568423645834768,
+                1.6970211723040394,
+                0.43581700827603376
+              ],
+              "size": [
+                1.1080338754205918,
+                1.619416847491835,
+                0.9392999027933736
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.1644512794860589,
+                0.127091797029115,
+                0.3244180528381433
+              ],
+              "LeftFoot": [
+                0.1188668473792791,
+                0.21410504385396112,
+                0.21745820363127752
+              ],
+              "RightToeBase": [
+                -0.38950777072354253,
+                0.16254615200288292,
+                -0.3844315037706251
+              ],
+              "RightFoot": [
+                -0.3091436078638532,
+                0.2857721305649566,
+                -0.3551666304215288
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8744160446077782,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                0.5861127908355712,
+                1.4028559124444082,
+                0.03524407017058524
+              ],
+              "ContactTip": [
+                1.1302691693502476,
+                1.5002655903463324,
+                -0.6749705688582729
+              ]
+            }
+          },
+          {
+            "time": 0.75,
+            "bounds": {
+              "min": [
+                -0.4084502889459588,
+                0.0805143861928651,
+                -0.48968934936217917
+              ],
+              "max": [
+                0.4605145258073209,
+                1.7545952432341316,
+                0.4354901171575366
+              ],
+              "size": [
+                0.8689648147532797,
+                1.6740808570412664,
+                0.9251794665197157
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.21618861056847571,
+                0.1299519296863606,
+                0.32540238462153104
+              ],
+              "LeftFoot": [
+                0.16767784655271772,
+                0.21710526109115247,
+                0.21985307005971444
+              ],
+              "RightToeBase": [
+                -0.3468434211289368,
+                0.1696374799144921,
+                -0.3849246297248346
+              ],
+              "RightFoot": [
+                -0.2702892067799805,
+                0.2939719109497925,
+                -0.350575323379689
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9198424143579258,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                0.3553201877190998,
+                1.4599264654317725,
+                -0.3048320973208245
+              ],
+              "ContactTip": [
+                0.526349068765347,
+                1.3125905556397341,
+                -1.1760617382609286
+              ]
+            }
+          },
+          {
+            "time": 0.84375,
+            "bounds": {
+              "min": [
+                -0.4040840338402415,
+                0.08631196638266633,
+                -0.46428092406863664
+              ],
+              "max": [
+                0.49719098969969877,
+                1.8215568770378257,
+                0.4783929388396581
+              ],
+              "size": [
+                0.9012750235399403,
+                1.7352449106551593,
+                0.9426738629082947
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.2202011836631519,
+                0.1350953959168345,
+                0.366803377749829
+              ],
+              "LeftFoot": [
+                0.17572597298348405,
+                0.22335287304995388,
+                0.26039741673090516
+              ],
+              "RightToeBase": [
+                -0.2946047695216802,
+                0.1644383575806285,
+                -0.370606546008642
+              ],
+              "RightFoot": [
+                -0.22150318702155514,
+                0.28856209868004196,
+                -0.32878635818086765
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9864991487667347,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                0.4044983627811239,
+                1.7557668284169823,
+                0.06416860026633012
+              ],
+              "ContactTip": [
+                0.9140872243950394,
+                2.0155258940077987,
+                -0.6307013655615354
+              ]
+            }
+          },
+          {
+            "time": 0.9375,
+            "bounds": {
+              "min": [
+                -0.3841131223438402,
+                0.09457902092191553,
+                -0.4351742357601345
+              ],
+              "max": [
+                0.4558076572626727,
+                1.846169385411987,
+                0.5884169328917896
+              ],
+              "size": [
+                0.8399207796065129,
+                1.7515903644900714,
+                1.0235911686519241
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.21020155847524502,
+                0.1437409153351647,
+                0.40853492317594536
+              ],
+              "LeftFoot": [
+                0.17189353315285127,
+                0.2310631154145239,
+                0.29900418035214893
+              ],
+              "RightToeBase": [
+                -0.2665404190186198,
+                0.15699294106177647,
+                -0.37435831078364495
+              ],
+              "RightFoot": [
+                -0.1850373158881353,
+                0.28066767478633703,
+                -0.3506670364807496
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                1.00622905853025,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                0.0031010038700951606,
+                1.7767825802898138,
+                0.5009500321664901
+              ],
+              "ContactTip": [
+                0.6715498165788741,
+                2.2417249664786043,
+                0.8843618119237262
+              ]
+            }
+          },
+          {
+            "time": 1.03125,
+            "bounds": {
+              "min": [
+                -0.5146023903604314,
+                0.09504911269719352,
+                -0.40187675093642
+              ],
+              "max": [
+                0.4085780498526244,
+                1.8092073076093416,
+                0.5762634650270586
+              ],
+              "size": [
+                0.9231804402130559,
+                1.714158194912148,
+                0.9781402159634787
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.1948752961742671,
+                0.14420652262406167,
+                0.44960549485326695
+              ],
+              "LeftFoot": [
+                0.17256004010396403,
+                0.23137714623154915,
+                0.33561879873196154
+              ],
+              "RightToeBase": [
+                -0.2605554835336638,
+                0.14163963177968736,
+                -0.34135349609287624
+              ],
+              "RightFoot": [
+                -0.15456709542411634,
+                0.24776921125156465,
+                -0.3397893390115544
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9890715904584186,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.42094666129176117,
+                1.544282741026035,
+                0.46522750847649685
+              ],
+              "ContactTip": [
+                -0.33359886046161297,
+                1.8361273192441803,
+                1.3121022479353983
+              ]
+            }
+          },
+          {
+            "time": 1.125,
+            "bounds": {
+              "min": [
+                -0.6961801353744123,
+                0.08077051381542642,
+                -0.3753361470399881
+              ],
+              "max": [
+                0.3637916647823809,
+                1.7435847308747467,
+                0.6310371495352514
+              ],
+              "size": [
+                1.0599718001567933,
+                1.6628142170593203,
+                1.0063732965752394
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.15761125038902818,
+                0.136436233538634,
+                0.4634225670882868
+              ],
+              "LeftFoot": [
+                0.1578595669966959,
+                0.22377730464847162,
+                0.3474004540906283
+              ],
+              "RightToeBase": [
+                -0.2646625215265281,
+                0.12737507844906582,
+                -0.3100359811147446
+              ],
+              "RightFoot": [
+                -0.1486772566647054,
+                0.22240781583257796,
+                -0.3139944558609481
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9518494202528274,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6026485585806322,
+                1.2449967867253813,
+                0.3277322177916429
+              ],
+              "ContactTip": [
+                -0.9324246904274814,
+                1.2558673044173327,
+                1.165066782310971
+              ]
+            }
+          },
+          {
+            "time": 1.21875,
+            "bounds": {
+              "min": [
+                -0.733091467751481,
+                0.07668213188439162,
+                -0.3628975227785659
+              ],
+              "max": [
+                0.3128597973066277,
+                1.6617476080313578,
+                0.6483657260950472
+              ],
+              "size": [
+                1.0459512650581089,
+                1.5850654761469662,
+                1.011263248873613
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.1467928242613174,
+                0.1334539478932857,
+                0.47671223042377797
+              ],
+              "LeftFoot": [
+                0.14768100495749611,
+                0.2207256721058275,
+                0.3606410791977048
+              ],
+              "RightToeBase": [
+                -0.2752115605047081,
+                0.12324767860507607,
+                -0.2974173257273642
+              ],
+              "RightFoot": [
+                -0.1589625393426381,
+                0.21795940321081636,
+                -0.3013321479105407
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.9054612188235377,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6370522107129329,
+                1.0101317108062318,
+                0.19564166157665824
+              ],
+              "ContactTip": [
+                -1.1795460705121208,
+                0.7856295674847099,
+                0.8777698089793213
+              ]
+            }
+          },
+          {
+            "time": 1.3125,
+            "bounds": {
+              "min": [
+                -0.7229043773487726,
+                0.07710305090753314,
+                -0.3592763978839434
+              ],
+              "max": [
+                0.3091165882706032,
+                1.604312037767699,
+                0.6510646102272518
+              ],
+              "size": [
+                1.0320209656193757,
+                1.5272089868601657,
+                1.0103410081111952
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.1344342928139676,
+                0.13234717439784957,
+                0.4794851883289489
+              ],
+              "LeftFoot": [
+                0.13533433690826085,
+                0.21960500476652317,
+                0.3634036846313137
+              ],
+              "RightToeBase": [
+                -0.2873646354942419,
+                0.12368049108800426,
+                -0.29390875163960845
+              ],
+              "RightFoot": [
+                -0.17105707550476987,
+                0.21832111548190025,
+                -0.29780424717109744
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8748911760328922,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6334494565678699,
+                0.9021924952061902,
+                0.11748175180389156
+              ],
+              "ContactTip": [
+                -1.2312022973318224,
+                0.5085650935754463,
+                0.6631452153475316
+              ]
+            }
+          },
+          {
+            "time": 1.40625,
+            "bounds": {
+              "min": [
+                -0.7174717811171959,
+                0.07709160853538957,
+                -0.3619250712114778
+              ],
+              "max": [
+                0.3065850988465993,
+                1.5963994035926579,
+                0.6508215285663529
+              ],
+              "size": [
+                1.0240568799637952,
+                1.5193077950572682,
+                1.0127465997778307
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.12905616724109284,
+                0.13209025264495708,
+                0.47702421140728224
+              ],
+              "LeftFoot": [
+                0.12996889489863708,
+                0.21936146444265525,
+                0.3609528667839799
+              ],
+              "RightToeBase": [
+                -0.29239998567893144,
+                0.12366477763890207,
+                -0.29654771488515036
+              ],
+              "RightFoot": [
+                -0.17608560064038462,
+                0.2182970604507986,
+                -0.3004420764679311
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8762318330394696,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6332488734727757,
+                0.8888611189655568,
+                0.08990548288265748
+              ],
+              "ContactTip": [
+                -1.2293141039329747,
+                0.39841177917489023,
+                0.5526854481704907
+              ]
+            }
+          },
+          {
+            "time": 1.5,
+            "bounds": {
+              "min": [
+                -0.7014304819818389,
+                0.07614652652873366,
+                -0.3671016624489555
+              ],
+              "max": [
+                0.30547876425048903,
+                1.6157856149855216,
+                0.6441523994265874
+              ],
+              "size": [
+                1.006909246232328,
+                1.5396390884567879,
+                1.011254061875543
+              ]
+            },
+            "keyNodePositions": {
+              "LeftToeBase": [
+                0.13258798369364894,
+                0.13182654117314468,
+                0.4726701993675005
+              ],
+              "LeftFoot": [
+                0.13350036855130742,
+                0.2191172757672154,
+                0.35661353964788406
+              ],
+              "RightToeBase": [
+                -0.2887773903970382,
+                0.12273513090407182,
+                -0.30165044729783674
+              ],
+              "RightFoot": [
+                -0.17251333210733977,
+                0.21742805372952023,
+                -0.305573720174652
+              ],
+              "Hips": [
+                -0.0015274929658883885,
+                0.8909000960536275,
+                0.01770516594413296
+              ],
+              "ContactBase": [
+                -0.6217317744072575,
+                0.8959556397482613,
+                0.08585501131176737
+              ],
+              "ContactTip": [
+                -1.2074961097095378,
+                0.3460901511415708,
+                0.49147506127540397
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "numErrors": 0,
+    "numWarnings": 1,
+    "numInfos": 74,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "severity": 1,
+        "pointer": "/nodes/24"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/7"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/8"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/9"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/10"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/11"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/12"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/13"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/14"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/15"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/16"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/17"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/18"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/19"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/20"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/21"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/22"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/23"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/24"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/25"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/26"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/27"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/28"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/29"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/30"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/31"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/32"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/33"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/34"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/35"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/36"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/37"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/38"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/39"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/40"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/41"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/42"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/43"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/44"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/45"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/46"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/47"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/48"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/49"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/50"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/51"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/52"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/53"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/54"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/55"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/56"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/57"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/58"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/59"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/60"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/61"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/62"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/63"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/64"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/65"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/66"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/67"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/68"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/69"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/70"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/71"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/72"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/73"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/74"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/75"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/76"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/77"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/78"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/79"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/accessors/80"
+      }
+    ],
+    "truncated": false
+  },
+  "output": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-retarget-pilot.glb",
+    "bytes": 7059548,
+    "sha256": "5d4dfe6b8d4e043aa57d00467383c9271cefa64fdcf52dbc5b5c13bf80af6e34",
+    "targetRestNodesPreserved": true,
+    "originalGeometrySkinAndTextureBytesPreserved": true,
+    "targetBoneLengthsCopiedFromDonor": false
+  }
+}

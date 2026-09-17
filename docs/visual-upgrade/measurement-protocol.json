@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "route": "/visual-lab",
+  "isolation": "No journey save API or player progress writes",
+  "procedure": [
+    "Record phone model, OS and browser version, screen brightness, low power mode, charging state and room light.",
+    "Choose combat view, Auto quality and 100% brightness. Keep the tab visible.",
+    "Start the measurement: 30 seconds of warmup followed by 60 seconds of collection. Export diagnostic JSON.",
+    "Repeat Performance (low) and boss view in both portrait and landscape.",
+    "Play for 15 minutes, note heat and control responsiveness, then repeat the warm measurements.",
+    "Record visual defects and interruptions. Repeat interrupted measurements."
+  ],
+  "timing": "Rendered-frame interval, the immediately preceding rAF interval, and CPU simulation/render submission duration are separate measurements. GPU timing is unavailable. Loading, warmup, pause and intentional hit pause retain separate classifications.",
+  "memory": "Asset texture and render target color estimates are separate. Decoded images, depth, driver allocations and transient upload peaks remain unmeasured.",
+  "acceptance": "Use results from actual physical devices. Desktop rendering or a resized viewport does not verify phone performance."
+}

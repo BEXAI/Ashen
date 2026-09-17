@@ -1,0 +1,71 @@
+{
+  "method": "256 samples per actual Low clip. Unit-scale knee-local sole proxy centroids transformed through actual skeleton, including proposed lower-leg sagittal-to-lateral plane conjugation for strafe clips. Integrate the strongest backwards stance-foot displacement along intended motion; inverse cumulative distance yields phase, rather than one global time multiplier. Runtime scales cycle by actor scale and locomotion blend amount.",
+  "assets": {
+    "ash-knight": {
+      "forward": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.9151736673042037,
+        "legPlaneRadians": 0
+      },
+      "backward": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.2470824094902393,
+        "legPlaneRadians": 0
+      },
+      "strafe_left": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.3572098125566117,
+        "legPlaneRadians": -1.5707963267948966
+      },
+      "strafe_right": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.35720048869052,
+        "legPlaneRadians": 1.5707963267948966
+      }
+    },
+    "crypt-warden": {
+      "forward": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.9059791944978508,
+        "legPlaneRadians": 0
+      },
+      "backward": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.2564628397736435,
+        "legPlaneRadians": 0
+      },
+      "strafe_left": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.3622681470909879,
+        "legPlaneRadians": -1.5707963267948966
+      },
+      "strafe_right": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.3592287143627695,
+        "legPlaneRadians": 1.5707963267948966
+      }
+    },
+    "ember-sovereign": {
+      "forward": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.9166974695335477,
+        "legPlaneRadians": 0
+      },
+      "backward": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.2619687923406986,
+        "legPlaneRadians": 0
+      },
+      "strafe_left": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.3690836461542903,
+        "legPlaneRadians": -1.5707963267948966
+      },
+      "strafe_right": {
+        "duration": 0.6981316804885864,
+        "cycleDistanceModelMetres": 1.3656680973519617,
+        "legPlaneRadians": 1.5707963267948966
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "checked_on": "2026-09-09",
+  "scope": "Completed original A01 sconce, A02 shrine and A03 arch/pillar/trim production through Higgsfield 3D Jutsu; local bake/LOD/runtime packaging; no catalog assets or external generation models.",
+  "official_sources": [
+    {
+      "url": "https://higgsfield.company/blog/higgsfield-3d-jutsu",
+      "finding": "Official Sep 5 guide says browser agent messages on Auto are free; specific LLM messages have model-dependent credit costs. It does not publish create_project/run_python/export API credit rates."
+    },
+    {
+      "url": "https://higgsfield.ai/creator-hub/help-center/credits/how-credits-work",
+      "finding": "Official credits help says generations through MCP consume credits. It does not explicitly classify direct Blender scene edit/project/download operations or quote their cost."
+    },
+    {
+      "url": "https://higgsfield.ai/terms-of-use-agreement",
+      "sections": [
+        "1.3",
+        "4.2",
+        "4.4",
+        "7.2",
+        "13.2"
+      ],
+      "finding": "Higgsfield claims no ownership of user content/outputs and does not restrict commercial use of outputs; exported-output rights survive account/subscription termination and may be transferred/sublicensed. Third-party rights and applicable supplemental terms remain relevant. No special 3D Jutsu catalog license was identified."
+    },
+    {
+      "url": "https://higgsfield.ai/creator-hub/help-center/account/who-owns-my-generations-and-can-i-use-them-commercially",
+      "finding": "Official help says no separate commercial license purchase and no output attribution requirement. This does not grant blanket rights to catalog models."
+    }
+  ],
+  "credit_finding": {
+    "create_project": "No explicit published rate found; do not claim free.",
+    "run_python": "No cost-only parameter or official published rate found; do not claim free.",
+    "get_glb_get_blend": "Tool descriptions explicitly retrieve existing committed exports and do not generate/render; no separate download charge was documented.",
+    "do_not_infer": "The browser Auto price and available workspace balance are not an API zero-cost guarantee or spending authorization.",
+    "authorization_update": "Root reports explicit user authorization of 1000 total credits across this implementation, with a conservative two attempts per asset. Record balances before/after mutations; do not expand beyond pilot until root accepts gates."
+  },
+  "available_tools": [
+    "scene_builder_3d_create_project",
+    "scene_builder_3d_list_projects",
+    "scene_builder_3d_get_project",
+    "scene_builder_3d_run_python",
+    "scene_builder_3d_get_operation",
+    "scene_builder_3d_get_artifact",
+    "scene_builder_3d_get_glb",
+    "scene_builder_3d_get_blend"
+  ],
+  "advertised_but_unavailable_in_current_inventory": [
+    "scene_builder_3d_query_python",
+    "scene_builder_3d_show_scene"
+  ],
+  "execution_sequence": [
+    "Record authorized shared credit ceiling and per-asset attempt limit; measure before/after balances without representing observed zero debit as an API price. G02 authorizes the original asset scope.",
+    "Create the private A01 pilot project, inspect exact project revision/scene sequence, author one coherent original bpy scene and record the returned operation before polling. Do not guess guards or concurrently mutate the same project.",
+    "Retrieve committed editable blend, GLB and published preview at the exact revision. Keep receipts and source hashes. Raw procedural exports may omit shader appearance; bake the committed blend locally into portable base/normal/ORM maps.",
+    "Package compressed KTX2/Meshopt and PNG fallback variants, preserve measured anchors and remove runtime review cameras/lights. Validate exact decoded buffers and visually inspect actual reimported exports before acceptance.",
+    "G03/G04 pilot/reference-slice acceptance is recorded in docs/visual-upgrade/reference-slice-review.json. After that acceptance, one successful authoring operation each produced A02 and A03; their source projects and receipts are indexed in the release ledger.",
+    "Integrate shared atlases, LODs and per-instance state while keeping existing flame/light ownership and gameplay coordinates. Shrine emission is independently stateful; architectural geometry cannot change gate clearance or collision contracts.",
+    "Verify active manifest hashes, real embedded texture dimensions/full mip bounds, decoded geometry and mixed-version dungeon/lightmap dependencies. Current three-prop PNG fallback set is 14.333320617675781 MiB under the 16 MiB limit.",
+    "Build only from exact source/dependency inputs, prune generated output by manifest dependency closure, then complete required checks/archive/save/publication evidence. Physical iPhone 17 Safari and broader phone results remain pending; a desktop review does not close G06."
+  ],
+  "worker_limits": {
+    "blender": "5.2",
+    "engines": [
+      "BLENDER_EEVEE",
+      "BLENDER_WORKBENCH",
+      "CYCLES"
+    ],
+    "code_max_kib": 256,
+    "images": "Publish through artifacts.file(...).path then publish(); max8 image/video artifacts; PNG/JPEG/MP4 only; no invented paths or network fetches.",
+    "deadline": "Exact configured deadline is not supplied by tool schema; keep remote operation compact and do costly bake/LOD processing locally.",
+    "export_warning": "Procedural shader/world lighting are not guaranteed inGLB. Automatic committed export may contain review camera/lights; remove them in documented local game derivative."
+  },
+  "record_status": "Historical tool/terms review plus current integrated asset mapping; publication and physical-device gates remain pending.",
+  "official_source_review_scope": "The official-source findings below are retained from the recorded 2026-09-09 authoring review, not re-checked by this documentation reconciliation.",
+  "current_release_ledger": "../v2/release-ledger.json",
+  "active_runtime_manifests": {
+    "props": "/assets/props/v2/manifest.json",
+    "dungeon": "/assets/dungeon/v13/manifest.json",
+    "characters": "/assets/characters/v11/manifest.json"
+  },
+  "completed_assets": [
+    {
+      "id": "A01",
+      "project_id": "21434c15-bdde-4abd-bcb9-62098cae463a",
+      "revision": 1,
+      "successful_authoring_attempts": 1,
+      "source_directory": "assets-source/props/v1/sconce"
+    },
+    {
+      "id": "A02",
+      "project_id": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+      "revision": 1,
+      "successful_authoring_attempts": 1,
+      "source_directory": "assets-source/props/v2/shrine"
+    },
+    {
+      "id": "A03",
+      "project_id": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+      "revision": 1,
+      "successful_authoring_attempts": 1,
+      "source_directory": "assets-source/props/v2/architecture"
+    }
+  ],
+  "runtime_limits": {
+    "sconce": {
+      "lod_triangles": [
+        1492,
+        580,
+        188
+      ],
+      "draws_per_lod": 1,
+      "fallback_mip_mib_approx": 2
+    },
+    "shrine": {
+      "lod_triangles": [
+        5936,
+        2944,
+        1134
+      ],
+      "draws_per_lod": 2,
+      "fallback_mip_mib_approx": 8.333333333333334
+    },
+    "architecture": {
+      "module_lod_triangles": {
+        "Arch": [
+          5992,
+          2992,
+          1192
+        ],
+        "Pillar": [
+          1192,
+          592,
+          232
+        ],
+        "Trim": [
+          592,
+          292,
+          112
+        ]
+      },
+      "draws_per_selected_module_lod": 1,
+      "fallback_mip_mib_approx": 4
+    },
+    "combined_runtime_new_prop_cap": {
+      "main_pass_draws_upper_bound": 10,
+      "triangles_upper_bound": 25000
+    },
+    "cap_evidence_note": "Runtime family totals come from diagnostics.environmentProps; offline asset totals alone do not prove live submission counts."
+  }
+}

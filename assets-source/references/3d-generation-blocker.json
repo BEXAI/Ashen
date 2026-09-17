@@ -1,0 +1,60 @@
+{
+  "status": "blocked_before_3d_submission",
+  "requestedOutput": "Three textured, PBR, humanoid-rigged GLBs",
+  "modelCatalog": {
+    "id": "image_to_3d",
+    "provider": "Meshy",
+    "availableParameters": [
+      "should_texture",
+      "enable_pbr",
+      "enable_rigging",
+      "should_remesh",
+      "target_polycount",
+      "pose_mode",
+      "rigging_height_meters"
+    ]
+  },
+  "attempt": {
+    "tool": "higgsfield_generate_image_batch",
+    "submittedCount": 0,
+    "errorCode": "INVALID_ARGUMENT",
+    "errors": [
+      {
+        "error": "model \"image_to_3d\" is a 3d model; use generate_3d instead.",
+        "index": 1,
+        "status": "submission_failed"
+      },
+      {
+        "error": "model \"image_to_3d\" is a 3d model; use generate_3d instead.",
+        "index": 2,
+        "status": "submission_failed"
+      },
+      {
+        "error": "model \"image_to_3d\" is a 3d model; use generate_3d instead.",
+        "index": 3,
+        "status": "submission_failed"
+      }
+    ]
+  },
+  "requiredAction": "generate_3d",
+  "requiredActionAvailable": false,
+  "validation": "No higgsfield_generate_3d entry in available tool registry; typeof tools.mcp__codex_apps__higgsfield_generate_3d returned undefined. Higgsfield plugin directory entry is installed and ENABLED. No tool-exposure management action is available.",
+  "charges": "Image generation jobs completed; no 3D job was submitted by the rejected batch. No purchase, top-up or subscription action performed.",
+  "availableDeliverables": [
+    "references/original-triptych.webp",
+    "references/ash-knight.png",
+    "references/crypt-warden.png",
+    "references/ember-sovereign.png",
+    "references/flame-atlas.png",
+    "metadata/image-requests.json",
+    "metadata/image-results.json",
+    "metadata/model-requests.json",
+    "metadata/reference-inventory.json"
+  ],
+  "missingDeliverables": [
+    "Rigged GLBs",
+    "3D PBR material maps",
+    "Rig node inventory"
+  ],
+  "recovery": "Submit each params object in metadata/model-requests.json through the supported generate_3d action when it becomes available. No image regeneration is needed."
+}

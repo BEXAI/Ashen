@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-09-09T23:27:00.217562+00:00",
+  "sourceBase": "a10946e134fa7b915370f664100536c2f95f0c82",
+  "workingTree": "integrated source before release commit",
+  "commands": {
+    "npm run typecheck": "pass",
+    "npm run build": "pass; bounded vinext build and both dependency pruners",
+    "npm run check:syntax": "pass;83 source files and19 compiled modules",
+    "npm run lint": "pass;0 errors,14 unused-variable warnings in authoring/test scripts",
+    "node --test tests/*.test.mjs": "188 pass;0 failed;0 skipped",
+    "git diff --check": "pass",
+    "node scripts/verify-environment.mjs": "pass; current v13/v2 runtime dependencies, hashes, validators, source ledgers and budgets",
+    "clean block restore": "41 large assets reconstructed exactly into separate temporary root"
+  },
+  "coverage": [
+    "Combat phases, damage, stamina, obstruction, contact and progression",
+    "Origin/identity/save concurrency/revision and runId contracts",
+    "Graphics preferences, context and lifecycle fallbacks",
+    "Actual compressed/fallback assets, LOD and loader ownership",
+    "84 translated/turned Low rig routes and48 active strikes inside two regression tests",
+    "Frame classification and bounded actual-render history",
+    "Mobile Auto stress/recovery and lab device-profile gate"
+  ],
+  "validatorDetails": "See environment-verification.json. Raw compressed KTX2 extension warnings are documented; decoded geometry has zero errors/warnings.",
+  "limits": [
+    "These checks do not establish physical iPhone/Safari performance.",
+    "Final exact source rebuild and saved/deployed receipt are recorded at publication."
+  ]
+}

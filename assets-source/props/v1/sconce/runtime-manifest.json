@@ -1,0 +1,615 @@
+{
+  "source": "/tmp/ashen-sconce-pilot/cloud-source.blend",
+  "source_evaluated_triangles": 6468,
+  "lods": [
+    {
+      "lod": 0,
+      "triangles": 1492,
+      "vertices": 756,
+      "materials": 1,
+      "bounds_blender_min": [
+        -0.29574838280677795,
+        -0.4716207683086395,
+        -0.6488558650016785
+      ],
+      "bounds_blender_max": [
+        0.29574841260910034,
+        -0.0032639449927955866,
+        0.449002742767334
+      ],
+      "bounds_gltf_size": [
+        0.5914967954158783,
+        1.0978586077690125,
+        0.46835682331584394
+      ]
+    },
+    {
+      "lod": 1,
+      "triangles": 580,
+      "vertices": 306,
+      "materials": 1,
+      "bounds_blender_min": [
+        -0.29730358719825745,
+        -0.47130027413368225,
+        -0.6489086747169495
+      ],
+      "bounds_blender_max": [
+        0.29634028673171997,
+        -0.0032603677827864885,
+        0.44904962182044983
+      ],
+      "bounds_gltf_size": [
+        0.5936438739299774,
+        1.0979582965373993,
+        0.46803990635089576
+      ]
+    },
+    {
+      "lod": 2,
+      "triangles": 188,
+      "vertices": 101,
+      "materials": 1,
+      "bounds_blender_min": [
+        -0.28700000047683716,
+        -0.46299999952316284,
+        -0.6489999890327454
+      ],
+      "bounds_blender_max": [
+        0.28700000047683716,
+        -0.003000000026077032,
+        0.4490000009536743
+      ],
+      "bounds_gltf_size": [
+        0.5740000009536743,
+        1.0979999899864197,
+        0.4599999994970858
+      ]
+    }
+  ],
+  "material_count": 1,
+  "texture_contract": {
+    "basecolor": [
+      512,
+      512,
+      "sRGB"
+    ],
+    "normal": [
+      256,
+      256,
+      "linear"
+    ],
+    "ORM": [
+      256,
+      256,
+      "linear"
+    ]
+  },
+  "anchors_gltf": {
+    "Mount": [
+      0,
+      0,
+      0
+    ],
+    "FlameOrigin": [
+      0,
+      0.385,
+      0.265
+    ],
+    "LightOrigin": [
+      0,
+      0.685,
+      0.265
+    ]
+  },
+  "root_transform": "identity",
+  "front": "+Z",
+  "up": "+Y",
+  "units": "metres",
+  "flame_geometry": false,
+  "runtime_cameras_lights": false,
+  "local_adjustments": [
+    "Recalculated outward mesh normals before baking",
+    "Runtime LightOrigin is 0.3 m above FlameOrigin to preserve existing game light position",
+    "Far LOD is a 188-triangle basin/plate/strap silhouette proxy; same shared PBR atlas material including normal texture"
+  ],
+  "derivation": "Original 3D Jutsu committed .blend; local evaluated-mesh reduction, selected-to-active Cycles PBR bake, one material, three LODs",
+  "variants": [
+    {
+      "lod": 0,
+      "file": "sconce-lod0.glb",
+      "fallback": "sconce-lod0-fallback.glb",
+      "bytes": 245532,
+      "fallbackBytes": 378968,
+      "sha256": "97a4e65171c64f6ed2879dca69ffc56deeebccf7d7ba2f00230790c13b7b7758",
+      "fallbackSha256": "91f11d2263e29140c316cc99f58da34ea86309347fb63ba54a232b271b71ac04",
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "fallbackValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "lod": 1,
+      "file": "sconce-lod1.glb",
+      "fallback": "sconce-lod1-fallback.glb",
+      "bytes": 206348,
+      "fallbackBytes": 339780,
+      "sha256": "39ab2e27520b4a7b48b9cd277ae808b2db62110642c664992e0410193e3cffff",
+      "fallbackSha256": "e3d59d836ea38e0d4ed23c5d81f70acd67cdd8b7cc3814edf99563781fcada5b",
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "fallbackValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "lod": 2,
+      "file": "sconce-lod2.glb",
+      "fallback": "sconce-lod2-fallback.glb",
+      "bytes": 185256,
+      "fallbackBytes": 318692,
+      "sha256": "f5b5e944eca49bfdf8590a58e4edaf0c7e86789979fae772c872cd9531c2621b",
+      "fallbackSha256": "d10732a72d6a4289f4ea45bd6fdc216ef9864745d1f1b149e7ce61be39fe0c54",
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "fallbackValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "lod": "combined",
+      "file": "sconce-pilot.glb",
+      "fallback": "sconce-pilot-fallback.glb",
+      "bytes": 286656,
+      "fallbackBytes": 420092,
+      "sha256": "32a6e003db785687d9fbdc9a2dc1721cdaa7897e9ef54002f2671b0ceaff18a4",
+      "fallbackSha256": "8206cff9188e6f35d6880725d17af02b5c01f2bd05fd6fb00d2f09ea764c8d9a",
+      "validation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "fallbackValidation": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          }
+        ],
+        "truncated": false
+      }
+    }
+  ],
+  "mobileEstimatedRgba8MipBytes": 2097152,
+  "primary": {
+    "lod": "combined",
+    "file": "sconce-pilot.glb",
+    "fallback": "sconce-pilot-fallback.glb",
+    "bytes": 286656,
+    "fallbackBytes": 420092,
+    "sha256": "32a6e003db785687d9fbdc9a2dc1721cdaa7897e9ef54002f2671b0ceaff18a4",
+    "fallbackSha256": "8206cff9188e6f35d6880725d17af02b5c01f2bd05fd6fb00d2f09ea764c8d9a",
+    "validation": {
+      "numErrors": 0,
+      "numWarnings": 6,
+      "numInfos": 5,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/2"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/0/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/1/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/2/mimeType"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/1"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/2"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/0"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/1"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/2"
+        }
+      ],
+      "truncated": false
+    },
+    "fallbackValidation": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 1,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        }
+      ],
+      "truncated": false
+    }
+  },
+  "compression": "EXT_meshopt_compression; ETC1S base color, UASTC normal and ORM, complete mipmaps; PNG fallback with meshopt"
+}

@@ -1,0 +1,2753 @@
+{
+  "silver-knight": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-runtime.glb",
+    "runtimeSHA256": "0bef23889a52b208c3c828398a187767c639f601db8b2fde1d780b4211b74ac4",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.579370280800561,
+        -1.0808172651320609e-7,
+        -0.24308400113297124
+      ],
+      "max": [
+        0.579370354369696,
+        1.8500000750765473,
+        0.24308384645758446
+      ],
+      "size": [
+        1.158740635170257,
+        1.8500001831582737,
+        0.4861678475905557
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.00939650295964703,
+        "maximumY": 0.001310967788333675,
+        "maximumLift": 0.009396394877920516,
+        "maxAdjacentMinimumYChange": 0.001366006190995367,
+        "maximumExtentMeters": 1.750579733693283,
+        "extentToRestRatio": 0.9462592218259878,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.011195249953302011,
+        "maximumY": 0.03064135354548896,
+        "maximumLift": 0.011195141871575498,
+        "maxAdjacentMinimumYChange": 0.017320775855984266,
+        "maximumExtentMeters": 1.794107528378688,
+        "extentToRestRatio": 0.9697877571643441,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.012676197208770914,
+        "maximumY": 0.006383403859291918,
+        "maximumLift": 0.0126760891270444,
+        "maxAdjacentMinimumYChange": 0.0067570795934815365,
+        "maximumExtentMeters": 1.8211070940889138,
+        "extentToRestRatio": 0.9843821155628026,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.010741712453495228,
+        "maximumY": 0.01448219194236503,
+        "maximumLift": 0.010741604371768715,
+        "maxAdjacentMinimumYChange": 0.00819614703811463,
+        "maximumExtentMeters": 1.4884223935983576,
+        "extentToRestRatio": 0.8045525655339992,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.014951808113504668,
+        "maximumY": 0.011901100303074638,
+        "maximumLift": 0.014951700031778155,
+        "maxAdjacentMinimumYChange": 0.007024937505171309,
+        "maximumExtentMeters": 1.5107679195125379,
+        "extentToRestRatio": 0.8166312269944713,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.25406021452699296,
+        "maximumY": 0.11309274455290713,
+        "maximumLift": 0.25406010644526644,
+        "maxAdjacentMinimumYChange": 0.09048877453096921,
+        "maximumExtentMeters": 1.8224023912486413,
+        "extentToRestRatio": 0.9850822761203634,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": -0.0011487695203485518,
+        "maximumY": 0.07231625430334165,
+        "maximumLift": 0.0011486614386220387,
+        "maxAdjacentMinimumYChange": 0.018532563112734143,
+        "maximumExtentMeters": 1.8713476859609577,
+        "extentToRestRatio": 1.011539189561722,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.18666262075286846,
+        "maximumY": 0.0025982078801248623,
+        "maximumLift": 0.18666251267114195,
+        "maxAdjacentMinimumYChange": 0.11614074756611986,
+        "maximumExtentMeters": 2.1558128686099396,
+        "extentToRestRatio": 1.1653041379323488,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 1.5,
+        "durationSeconds": 1.5,
+        "minimumY": 0.05581027582632542,
+        "maximumY": 0.09614151466191609,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.00994068242087219,
+        "maximumExtentMeters": 1.7938616312405258,
+        "extentToRestRatio": 0.9696548398055239,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.1666667461395264,
+        "durationSeconds": 3.1666667461395264,
+        "minimumY": 0.06748703625163995,
+        "maximumY": 0.08909274357510417,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.0049871563184192835,
+        "maximumExtentMeters": 1.767161367727852,
+        "extentToRestRatio": 0.9552222663626976,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3,
+        "durationSeconds": 3,
+        "minimumY": -0.019165267412689126,
+        "maximumY": 0.028796731239850316,
+        "maximumLift": 0.019165159330962613,
+        "maxAdjacentMinimumYChange": 0.025203795273949364,
+        "maximumExtentMeters": 1.7708936640559765,
+        "extentToRestRatio": 0.9572397236376222,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.2333333492279053,
+        "durationSeconds": 2.2333333492279053,
+        "minimumY": 0.047276660934621725,
+        "maximumY": 0.10449941425474833,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.02234790436823319,
+        "maximumExtentMeters": 1.7427220484660535,
+        "extentToRestRatio": 0.942011824826375,
+        "finite": true
+      }
+    }
+  },
+  "sage": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/sage-runtime.glb",
+    "runtimeSHA256": "44381a6a2edc67f3b72df8ee2ebba6f7e5a42bb005d085001d2aeec24b3f091a",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.5169372454300138,
+        1.020995433771329e-7,
+        -0.2102687748845467
+      ],
+      "max": [
+        0.5169374696336857,
+        1.8500000845866726,
+        0.21026847381206393
+      ],
+      "size": [
+        1.0338747150636995,
+        1.8499999824871292,
+        0.42053724869661063
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.008741463592068613,
+        "maximumY": 0.005914796393443847,
+        "maximumLift": 0.00874156569161199,
+        "maxAdjacentMinimumYChange": 0.0014426726012582271,
+        "maximumExtentMeters": 1.748096551528445,
+        "extentToRestRatio": 0.9449170638252192,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": 0.01851398287184172,
+        "maximumY": 0.04475553236579165,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.007357200371527525,
+        "maximumExtentMeters": 1.7760219592615365,
+        "extentToRestRatio": 0.9600118789589732,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.011330392788386818,
+        "maximumY": 0.02062529166438063,
+        "maximumLift": 0.011330494887930195,
+        "maxAdjacentMinimumYChange": 0.008767803647124447,
+        "maximumExtentMeters": 1.8168145063144174,
+        "extentToRestRatio": 0.9820619046016977,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.00826205333000657,
+        "maximumY": 0.03881218647752305,
+        "maximumLift": 0.008262155429549948,
+        "maxAdjacentMinimumYChange": 0.00633287652783061,
+        "maximumExtentMeters": 1.5038679718780494,
+        "extentToRestRatio": 0.8129016141158326,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.015885191257273085,
+        "maximumY": 0.036144002972512274,
+        "maximumLift": 0.015885293356816464,
+        "maxAdjacentMinimumYChange": 0.01410283665291433,
+        "maximumExtentMeters": 1.5207156849015084,
+        "extentToRestRatio": 0.8220084861066145,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.046002121197921506,
+        "maximumY": 0.16827772697296736,
+        "maximumLift": 0.04600222329746488,
+        "maxAdjacentMinimumYChange": 0.12347341668573455,
+        "maximumExtentMeters": 1.8244029363375005,
+        "extentToRestRatio": 0.986163758707059,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.011018435143379975,
+        "maximumY": 0.06648893899046494,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.02087695640573982,
+        "maximumExtentMeters": 1.811692682201107,
+        "extentToRestRatio": 0.979293351000727,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.11833251489666585,
+        "maximumY": 0.012695029350539903,
+        "maximumLift": 0.11833261699620923,
+        "maxAdjacentMinimumYChange": 0.05553730900714819,
+        "maximumExtentMeters": 2.0107906532299324,
+        "extentToRestRatio": 1.086913876899954,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.016419200237309743,
+        "maximumY": 0.023398447366837972,
+        "maximumLift": 0.016419302336853122,
+        "maxAdjacentMinimumYChange": 0.011449760637553727,
+        "maximumExtentMeters": 1.7903371499105531,
+        "extentToRestRatio": 0.9677498199235842,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.016419200237309743,
+        "maximumY": 0.023398447366837972,
+        "maximumLift": 0.016419302336853122,
+        "maxAdjacentMinimumYChange": 0.011449760637553727,
+        "maximumExtentMeters": 1.7903371499105531,
+        "extentToRestRatio": 0.9677498199235842,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.016419200237309743,
+        "maximumY": 0.023398447366837972,
+        "maximumLift": 0.016419302336853122,
+        "maxAdjacentMinimumYChange": 0.011449760637553727,
+        "maximumExtentMeters": 1.7903371499105531,
+        "extentToRestRatio": 0.9677498199235842,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.016419200237309743,
+        "maximumY": 0.023398447366837972,
+        "maximumLift": 0.016419302336853122,
+        "maxAdjacentMinimumYChange": 0.011449760637553727,
+        "maximumExtentMeters": 1.7903371499105531,
+        "extentToRestRatio": 0.9677498199235842,
+        "finite": true
+      }
+    }
+  },
+  "frost-mage": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/frost-mage-runtime.glb",
+    "runtimeSHA256": "c3e178a479aa2aa3e6a9079acf8a898c37c908fb6607552dddc6bd12625f2af8",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.5856155023126421,
+        -9.144521625388148e-8,
+        -0.22210857692095343
+      ],
+      "max": [
+        0.5856156207439864,
+        1.8499999055066856,
+        0.22210856420978886
+      ],
+      "size": [
+        1.1712311230566286,
+        1.8499999969519019,
+        0.4442171411307423
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.031455593434813904,
+        "maximumY": -0.007703328921460945,
+        "maximumLift": 0.03145550198959765,
+        "maxAdjacentMinimumYChange": 0.006154738972137579,
+        "maximumExtentMeters": 1.7765494017010666,
+        "extentToRestRatio": 0.9602969754746735,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": 0.02817609632177582,
+        "maximumY": 0.08129348899933686,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.013791971168891512,
+        "maximumExtentMeters": 1.774734653338157,
+        "extentToRestRatio": 0.9593160304120251,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.03221300361585751,
+        "maximumY": 0.06136300760000365,
+        "maximumLift": 0.032212912170641254,
+        "maxAdjacentMinimumYChange": 0.011500703729629892,
+        "maximumExtentMeters": 1.8175618229285546,
+        "extentToRestRatio": 0.9824658518503822,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.022309184018547746,
+        "maximumY": 0.08592175341351119,
+        "maximumLift": 0.022309092573331493,
+        "maxAdjacentMinimumYChange": 0.015160082623956184,
+        "maximumExtentMeters": 1.5367185277697968,
+        "extentToRestRatio": 0.8306586650279599,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.04199468515800859,
+        "maximumY": 0.09451640203703046,
+        "maximumLift": 0.041994593712792336,
+        "maxAdjacentMinimumYChange": 0.01970000233049509,
+        "maximumExtentMeters": 1.5686134447662372,
+        "extentToRestRatio": 0.8478991607301173,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.11723610129074258,
+        "maximumY": 0.10358569452707439,
+        "maximumLift": 0.11723600984552632,
+        "maxAdjacentMinimumYChange": 0.07288437490292998,
+        "maximumExtentMeters": 1.8229129290084285,
+        "extentToRestRatio": 0.9853583416280527,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.00875448101082121,
+        "maximumY": 0.07229593376538422,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.028111184131183742,
+        "maximumExtentMeters": 1.9079275075901798,
+        "extentToRestRatio": 1.0313121679641732,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.2007969986573212,
+        "maximumY": 0.0015922835814895478,
+        "maximumLift": 0.20079690721210494,
+        "maxAdjacentMinimumYChange": 0.0393150941066355,
+        "maximumExtentMeters": 2.21189746731656,
+        "extentToRestRatio": 1.1956202545734747,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.02715600804922533,
+        "maximumY": 0.03319479762128807,
+        "maximumLift": 0.027155916604009078,
+        "maxAdjacentMinimumYChange": 0.014481403966904106,
+        "maximumExtentMeters": 1.8348870100140635,
+        "extentToRestRatio": 0.991830817857979,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.02715600804922533,
+        "maximumY": 0.03319479762128807,
+        "maximumLift": 0.027155916604009078,
+        "maxAdjacentMinimumYChange": 0.014481403966904106,
+        "maximumExtentMeters": 1.8348870100140635,
+        "extentToRestRatio": 0.991830817857979,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.02715600804922533,
+        "maximumY": 0.03319479762128807,
+        "maximumLift": 0.027155916604009078,
+        "maxAdjacentMinimumYChange": 0.014481403966904106,
+        "maximumExtentMeters": 1.8348870100140635,
+        "extentToRestRatio": 0.991830817857979,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.02715600804922533,
+        "maximumY": 0.03319479762128807,
+        "maximumLift": 0.027155916604009078,
+        "maxAdjacentMinimumYChange": 0.014481403966904106,
+        "maximumExtentMeters": 1.8348870100140635,
+        "extentToRestRatio": 0.991830817857979,
+        "finite": true
+      }
+    }
+  },
+  "ranger": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ranger-runtime.glb",
+    "runtimeSHA256": "67a0dd5ebcf2c437b6a13f451fff4b2a0f765ea814ceee671fbd1c22861553f1",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.5200998613517466,
+        -6.146944003940851e-8,
+        -0.5965439192095341
+      ],
+      "max": [
+        0.5200996980215127,
+        1.8499999077200544,
+        0.596543903615591
+      ],
+      "size": [
+        1.0401995593732591,
+        1.8499999691894944,
+        1.1930878228251252
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": 0.008930049456619307,
+        "maximumY": 0.017420725746105953,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.0013820599019991643,
+        "maximumExtentMeters": 1.753991083201959,
+        "extentToRestRatio": 0.9481033040072979,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": 0.008758968252535285,
+        "maximumY": 0.03583755314794995,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.005538988024397524,
+        "maximumExtentMeters": 1.7816503707902447,
+        "extentToRestRatio": 0.9630542705202344,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.011427707200841249,
+        "maximumY": 0.012096143391471607,
+        "maximumLift": 0.011427645731401209,
+        "maxAdjacentMinimumYChange": 0.0062562088725700675,
+        "maximumExtentMeters": 1.808494710826592,
+        "extentToRestRatio": 0.9775647248355975,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.00876748762809299,
+        "maximumY": 0.02372396711232356,
+        "maximumLift": 0.00876742615865295,
+        "maxAdjacentMinimumYChange": 0.0076603677276179585,
+        "maximumExtentMeters": 1.5866739097401694,
+        "extentToRestRatio": 0.8576615871163008,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.01314631809909881,
+        "maximumY": 0.02258669876191319,
+        "maximumLift": 0.01314625662965877,
+        "maxAdjacentMinimumYChange": 0.00631549063264914,
+        "maximumExtentMeters": 1.5778478280753419,
+        "extentToRestRatio": 0.8528907320828846,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.16257254096432538,
+        "maximumY": 0.10825950823839338,
+        "maximumLift": 0.16257247949488535,
+        "maxAdjacentMinimumYChange": 0.1194980494631228,
+        "maximumExtentMeters": 1.812859859464404,
+        "extentToRestRatio": 0.9799242646791169,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.0013017789548558324,
+        "maximumY": 0.07816444755218074,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.021223892109493873,
+        "maximumExtentMeters": 1.8744553359475227,
+        "extentToRestRatio": 1.0132191173866574,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.08311109994366939,
+        "maximumY": 0.00486322174496477,
+        "maximumLift": 0.08311103847422935,
+        "maxAdjacentMinimumYChange": 0.03112572175209949,
+        "maximumExtentMeters": 2.1507883081624035,
+        "extentToRestRatio": 1.1625882940445063,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 5,
+        "durationSeconds": 5,
+        "minimumY": -0.011569830270406624,
+        "maximumY": 0.0067158119018313304,
+        "maximumLift": 0.011569768800966584,
+        "maxAdjacentMinimumYChange": 0.003925083052709104,
+        "maximumExtentMeters": 2.2611381812630325,
+        "extentToRestRatio": 1.2222368750923074,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 5,
+        "durationSeconds": 5,
+        "minimumY": -0.011569830270406624,
+        "maximumY": 0.0067158119018313304,
+        "maximumLift": 0.011569768800966584,
+        "maxAdjacentMinimumYChange": 0.003925083052709104,
+        "maximumExtentMeters": 2.2611381812630325,
+        "extentToRestRatio": 1.2222368750923074,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 5,
+        "durationSeconds": 5,
+        "minimumY": -0.011569830270406624,
+        "maximumY": 0.0067158119018313304,
+        "maximumLift": 0.011569768800966584,
+        "maxAdjacentMinimumYChange": 0.003925083052709104,
+        "maximumExtentMeters": 2.2611381812630325,
+        "extentToRestRatio": 1.2222368750923074,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 5,
+        "durationSeconds": 5,
+        "minimumY": -0.011569830270406624,
+        "maximumY": 0.0067158119018313304,
+        "maximumLift": 0.011569768800966584,
+        "maxAdjacentMinimumYChange": 0.003925083052709104,
+        "maximumExtentMeters": 2.2611381812630325,
+        "extentToRestRatio": 1.2222368750923074,
+        "finite": true
+      }
+    }
+  },
+  "dusk-rogue": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/dusk-rogue-runtime.glb",
+    "runtimeSHA256": "00d27252be3f38a36116b785617933a0ef79dacc3f82bf0d05827117e192ae5c",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.6387301954966478,
+        5.888541795617155e-9,
+        -0.22718505959441854
+      ],
+      "max": [
+        0.6387303156401313,
+        1.8500002940451423,
+        0.22718492647256072
+      ],
+      "size": [
+        1.2774605111367792,
+        1.8500002881566004,
+        0.45436998606697926
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.002843396261233626,
+        "maximumY": 0.009907380143076011,
+        "maximumLift": 0.0028434021497754217,
+        "maxAdjacentMinimumYChange": 0.0013656000957353162,
+        "maximumExtentMeters": 1.7768771052892816,
+        "extentToRestRatio": 0.9604739613634432,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": 0.014748623845707704,
+        "maximumY": 0.04276509236675105,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.007417399809126431,
+        "maximumExtentMeters": 1.8518944752245214,
+        "extentToRestRatio": 1.0010238847420982,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.01568395563751432,
+        "maximumY": 0.013478697137513007,
+        "maximumLift": 0.015683961526056115,
+        "maxAdjacentMinimumYChange": 0.007277473429496117,
+        "maximumExtentMeters": 1.8439060200526245,
+        "extentToRestRatio": 0.9967058015379833,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.005513353617119573,
+        "maximumY": 0.03156052405610846,
+        "maximumLift": 0.0055133595056613685,
+        "maxAdjacentMinimumYChange": 0.005851594065402588,
+        "maximumExtentMeters": 1.6438718003255703,
+        "extentToRestRatio": 0.8885792131219487,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.006506857129899829,
+        "maximumY": 0.027750767073735284,
+        "maximumLift": 0.006506863018441625,
+        "maxAdjacentMinimumYChange": 0.005779351543350278,
+        "maximumExtentMeters": 1.634192370374922,
+        "extentToRestRatio": 0.8833470896392581,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.15050942483061025,
+        "maximumY": 0.11049274010537412,
+        "maximumLift": 0.15050943071915204,
+        "maxAdjacentMinimumYChange": 0.10452284599401945,
+        "maximumExtentMeters": 1.819352545295563,
+        "extentToRestRatio": 0.9834336550879266,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.014894234441441875,
+        "maximumY": 0.07275465904914521,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.021653800173420744,
+        "maximumExtentMeters": 1.9420658769131767,
+        "extentToRestRatio": 1.0497651753602228,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.06271242614823587,
+        "maximumY": 0.02331736826765449,
+        "maximumLift": 0.06271243203677766,
+        "maxAdjacentMinimumYChange": 0.029202567552907677,
+        "maximumExtentMeters": 2.1528312238664107,
+        "extentToRestRatio": 1.1636923721842014,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 1.5,
+        "durationSeconds": 1.5,
+        "minimumY": 0.06341559864654014,
+        "maximumY": 0.09588882108021117,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.010951927237337428,
+        "maximumExtentMeters": 1.8823952641614838,
+        "extentToRestRatio": 1.0175107951129905,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.1666667461395264,
+        "durationSeconds": 3.1666667461395264,
+        "minimumY": 0.07906839561963488,
+        "maximumY": 0.09836737252461855,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.004862983618254768,
+        "maximumExtentMeters": 1.8290695673944168,
+        "extentToRestRatio": 0.9886860986475631,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3,
+        "durationSeconds": 3,
+        "minimumY": -0.005566615676471135,
+        "maximumY": 0.03490574933748431,
+        "maximumLift": 0.0055666215650129304,
+        "maxAdjacentMinimumYChange": 0.024686418754394483,
+        "maximumExtentMeters": 1.7819805875540224,
+        "extentToRestRatio": 0.9632325999957789,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.2333333492279053,
+        "durationSeconds": 2.2333333492279053,
+        "minimumY": 0.07503649472190246,
+        "maximumY": 0.10492655058091448,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.011967008605451399,
+        "maximumExtentMeters": 1.7647545046002515,
+        "extentToRestRatio": 0.9539212052548972,
+        "finite": true
+      }
+    }
+  },
+  "skeleton-warrior": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/skeleton-warrior-runtime.glb",
+    "runtimeSHA256": "6525c51dc76676c8272fa0f7e5a82e9e220ccd59d6aa0b00cf99d1201f51dc19",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.4657371498665111,
+        -4.7639295401257254e-8,
+        -0.17479294211177687
+      ],
+      "max": [
+        0.4657370105883755,
+        1.8499997935319727,
+        0.17479245573238067
+      ],
+      "size": [
+        0.9314741604548866,
+        1.8499998411712681,
+        0.34958539784415754
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": 0.017709293395316256,
+        "maximumY": 0.03022574940300377,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.0019978028543726142,
+        "maximumExtentMeters": 1.7373145083924713,
+        "extentToRestRatio": 0.9390890040793443,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.009309516676251198,
+        "maximumY": 0.049685033418367754,
+        "maximumLift": 0.009309469036955797,
+        "maxAdjacentMinimumYChange": 0.01738029325075227,
+        "maximumExtentMeters": 1.754224008436357,
+        "extentToRestRatio": 0.9482292751580595,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": 0.006194004372695173,
+        "maximumY": 0.024689204131777446,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.005260313532603127,
+        "maximumExtentMeters": 1.7854748790064123,
+        "extentToRestRatio": 0.9651216390786261,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.0007780715502448117,
+        "maximumY": 0.03187395464787027,
+        "maximumLift": 0.0007780239109494105,
+        "maxAdjacentMinimumYChange": 0.010500687340425599,
+        "maximumExtentMeters": 1.4569524292211984,
+        "extentToRestRatio": 0.787541921246207,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": 0.00048808237913915077,
+        "maximumY": 0.038667844917287864,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.007504168680720569,
+        "maximumExtentMeters": 1.471046830560962,
+        "extentToRestRatio": 0.7951605172190803,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.09774907804760757,
+        "maximumY": 0.1959925834773971,
+        "maximumLift": 0.09774903040831218,
+        "maxAdjacentMinimumYChange": 0.07350915739263467,
+        "maximumExtentMeters": 1.8037796522812488,
+        "extentToRestRatio": 0.9750161119685521,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.010924164999061525,
+        "maximumY": 0.09304406145103358,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.021859661775582004,
+        "maximumExtentMeters": 1.7950686865831675,
+        "extentToRestRatio": 0.9703074814572293,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.17470293157983885,
+        "maximumY": 0.032893733214023536,
+        "maximumLift": 0.17470288394054345,
+        "maxAdjacentMinimumYChange": 0.052499036015155195,
+        "maximumExtentMeters": 2.1558937193430547,
+        "extentToRestRatio": 1.1653480564507075,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 1.5,
+        "durationSeconds": 1.5,
+        "minimumY": 0.07823085642179986,
+        "maximumY": 0.1238414830894462,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.010678020314506417,
+        "maximumExtentMeters": 1.699177173090041,
+        "extentToRestRatio": 0.9184742264703446,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.1666667461395264,
+        "durationSeconds": 3.1666667461395264,
+        "minimumY": 0.08244773332175886,
+        "maximumY": 0.106845897281203,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.010536070988748258,
+        "maximumExtentMeters": 1.7117778934060708,
+        "extentToRestRatio": 0.9252854272259361,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3,
+        "durationSeconds": 3,
+        "minimumY": 0.0033156603343442712,
+        "maximumY": 0.03853100047436859,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.009767247358454792,
+        "maximumExtentMeters": 1.694134703991511,
+        "extentToRestRatio": 0.9157485672641592,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.2333333492279053,
+        "durationSeconds": 2.2333333492279053,
+        "minimumY": 0.05169083208915763,
+        "maximumY": 0.13085304218258414,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.027947645430101378,
+        "maximumExtentMeters": 1.7436813347300648,
+        "extentToRestRatio": 0.9425305321248616,
+        "finite": true
+      }
+    }
+  },
+  "reaper": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/reaper-runtime.glb",
+    "runtimeSHA256": "38c5b87ca87a5104898c669808ba0ffdb0b7994fcd03537e93d93a582691e001",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes, minus explicit held-equipment exclusions; no external equipped props added by game",
+    "exclusions": {
+      "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/reaper-grounding-exclusions.json",
+      "nodeNames": [],
+      "meshNames": [],
+      "vertexSets": [
+        {
+          "mesh": 0,
+          "primitive": 0,
+          "count": 683
+        }
+      ],
+      "reason": "Repaired held scythe: exclude original 683 equipment vertices, retain all 28,213 body/clothing vertices."
+    },
+    "restBounds": {
+      "min": [
+        -0.7940512962214821,
+        2.130697824075606e-7,
+        -0.3817409953172402
+      ],
+      "max": [
+        0.8458492054469232,
+        1.8499996952429958,
+        0.28920278591448
+      ],
+      "size": [
+        1.6399005016684054,
+        1.8499994821732133,
+        0.6709437812317203
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.08001195138993332,
+        "maximumY": -0.057615864365187286,
+        "maximumLift": 0.08001216445971572,
+        "maxAdjacentMinimumYChange": 0.004954736985212552,
+        "maximumExtentMeters": 1.811001110518598,
+        "extentToRestRatio": 0.9789197932051291,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.02964495556970763,
+        "maximumY": 0.03942660876929645,
+        "maximumLift": 0.029645168639490037,
+        "maxAdjacentMinimumYChange": 0.01201708122881885,
+        "maximumExtentMeters": 1.8128818071926223,
+        "extentToRestRatio": 0.97993638628645,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.050136735312692936,
+        "maximumY": 0.025054285721874552,
+        "maximumLift": 0.050136948382475344,
+        "maxAdjacentMinimumYChange": 0.006483071615376423,
+        "maximumExtentMeters": 1.8280246631438821,
+        "extentToRestRatio": 0.9881217161187974,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.06634573841825522,
+        "maximumY": -0.001361750121879779,
+        "maximumLift": 0.06634595148803762,
+        "maxAdjacentMinimumYChange": 0.007253947089653786,
+        "maximumExtentMeters": 1.5245816813026238,
+        "extentToRestRatio": 0.8240984367799293,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.08778685282556976,
+        "maximumY": 0.020747758114988586,
+        "maximumLift": 0.08778706589535216,
+        "maxAdjacentMinimumYChange": 0.01741126558291045,
+        "maximumExtentMeters": 1.6101468590767243,
+        "extentToRestRatio": 0.8703498971714675,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.3259836200339419,
+        "maximumY": 0.06952880776372997,
+        "maximumLift": 0.3259838331037243,
+        "maxAdjacentMinimumYChange": 0.1139024018787061,
+        "maximumExtentMeters": 1.8248389854766787,
+        "extentToRestRatio": 0.9863997277085839,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": -0.03263454610441337,
+        "maximumY": 0.07453343317053349,
+        "maximumLift": 0.032634759174195775,
+        "maxAdjacentMinimumYChange": 0.03641973683634161,
+        "maximumExtentMeters": 1.9516781214461982,
+        "extentToRestRatio": 1.0549614420181037,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.3886453970034758,
+        "maximumY": -0.04579882306833262,
+        "maximumLift": 0.3886456100732582,
+        "maxAdjacentMinimumYChange": 0.07452630232163365,
+        "maximumExtentMeters": 2.062096198182277,
+        "extentToRestRatio": 1.1146469056088122,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 1.5,
+        "durationSeconds": 1.5,
+        "minimumY": -0.030177273006514425,
+        "maximumY": 0.09153625799367114,
+        "maximumLift": 0.030177486076296833,
+        "maxAdjacentMinimumYChange": 0.02756762788440007,
+        "maximumExtentMeters": 2.0009974170066127,
+        "extentToRestRatio": 1.0816205281614568,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.1666667461395264,
+        "durationSeconds": 3.1666667461395264,
+        "minimumY": 0.002504480103219957,
+        "maximumY": 0.07815740265304066,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.024038515827162696,
+        "maximumExtentMeters": 1.9390295845301935,
+        "extentToRestRatio": 1.048124393122746,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3,
+        "durationSeconds": 3,
+        "minimumY": -0.09957729639404303,
+        "maximumY": -0.015616512903096375,
+        "maximumLift": 0.09957750946382543,
+        "maxAdjacentMinimumYChange": 0.019891458701821657,
+        "maximumExtentMeters": 1.9974319345704556,
+        "extentToRestRatio": 1.0796932398186685,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.2333333492279053,
+        "durationSeconds": 2.2333333492279053,
+        "minimumY": -0.0042402379432817,
+        "maximumY": 0.10605804006206951,
+        "maximumLift": 0.004240451013064108,
+        "maxAdjacentMinimumYChange": 0.035365136744057994,
+        "maximumExtentMeters": 1.7652190679162492,
+        "extentToRestRatio": 0.9541727362229465,
+        "finite": true
+      }
+    }
+  },
+  "golem": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/golem-runtime.glb",
+    "runtimeSHA256": "7a903d823ce55576d3431f34d98c0fabc1c7b5769152a9c174c16421059bb330",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.7927175084321351,
+        -1.0479398560762581e-7,
+        -0.2332889839534154
+      ],
+      "max": [
+        0.7927175862321896,
+        1.8500000009160735,
+        0.23328893661540512
+      ],
+      "size": [
+        1.5854350946643248,
+        1.8500001057100592,
+        0.4665779205688205
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.02902780675418086,
+        "maximumY": 0.0028926384465475814,
+        "maximumLift": 0.029027701960195253,
+        "maxAdjacentMinimumYChange": 0.0031290880512871017,
+        "maximumExtentMeters": 1.7352386337196992,
+        "extentToRestRatio": 0.9379667754417167,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.027274829411107558,
+        "maximumY": 0.04706179280929963,
+        "maximumLift": 0.02727472461712195,
+        "maxAdjacentMinimumYChange": 0.01830720877481807,
+        "maximumExtentMeters": 1.7742799376677578,
+        "extentToRestRatio": 0.9590701817753471,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.03897492517139433,
+        "maximumY": 0.016394584037114204,
+        "maximumLift": 0.03897482037740872,
+        "maxAdjacentMinimumYChange": 0.011366290560455544,
+        "maximumExtentMeters": 1.819622907824409,
+        "extentToRestRatio": 0.9835798939730379,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.01997965936424722,
+        "maximumY": 0.039697812928083026,
+        "maximumLift": 0.019979554570261612,
+        "maxAdjacentMinimumYChange": 0.009723041029357535,
+        "maximumExtentMeters": 1.6325421757557,
+        "extentToRestRatio": 0.8824551797142219,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.05019633169832251,
+        "maximumY": 0.03412446296805939,
+        "maximumLift": 0.0501962269043369,
+        "maxAdjacentMinimumYChange": 0.02156414958904382,
+        "maximumExtentMeters": 1.8068432524201348,
+        "extentToRestRatio": 0.9766719725276123,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.22138969853683743,
+        "maximumY": 0.10139248744294219,
+        "maximumLift": 0.22138959374285183,
+        "maxAdjacentMinimumYChange": 0.08910957011439863,
+        "maximumExtentMeters": 1.8094042555246401,
+        "extentToRestRatio": 0.9780562984509464,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.0013116035519224814,
+        "maximumY": 0.06201935290547076,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.015753073892145822,
+        "maximumExtentMeters": 2.0488403403498774,
+        "extentToRestRatio": 1.1074812017718778,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.14045658843649855,
+        "maximumY": 0.02378243765067724,
+        "maximumLift": 0.14045648364251295,
+        "maxAdjacentMinimumYChange": 0.04394644305231865,
+        "maximumExtentMeters": 2.4012469027390444,
+        "extentToRestRatio": 1.2979712246110429,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.06277228174757903,
+        "maximumY": 0.03390373636226928,
+        "maximumLift": 0.06277217695359341,
+        "maxAdjacentMinimumYChange": 0.020540179110772747,
+        "maximumExtentMeters": 2.2725570990874897,
+        "extentToRestRatio": 1.2284091725579909,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.06277228174757903,
+        "maximumY": 0.03390373636226928,
+        "maximumLift": 0.06277217695359341,
+        "maxAdjacentMinimumYChange": 0.020540179110772747,
+        "maximumExtentMeters": 2.2725570990874897,
+        "extentToRestRatio": 1.2284091725579909,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.06277228174757903,
+        "maximumY": 0.03390373636226928,
+        "maximumLift": 0.06277217695359341,
+        "maxAdjacentMinimumYChange": 0.020540179110772747,
+        "maximumExtentMeters": 2.2725570990874897,
+        "extentToRestRatio": 1.2284091725579909,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.06277228174757903,
+        "maximumY": 0.03390373636226928,
+        "maximumLift": 0.06277217695359341,
+        "maxAdjacentMinimumYChange": 0.020540179110772747,
+        "maximumExtentMeters": 2.2725570990874897,
+        "extentToRestRatio": 1.2284091725579909,
+        "finite": true
+      }
+    }
+  },
+  "ember-dragon": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ember-dragon-runtime.glb",
+    "runtimeSHA256": "2200acda46cd777630bfce28184af4b832b846b2864222ea5871bd117f2ec722",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.7799015148412655,
+        -1.4920792880812025e-7,
+        -0.9249998735863649
+      ],
+      "max": [
+        0.7799014791702505,
+        1.677180616660286,
+        0.9249993211295292
+      ],
+      "size": [
+        1.5598029940115161,
+        1.677180765868215,
+        1.849999194715894
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.22041289770362457,
+        "maximumY": -0.1471919629200151,
+        "maximumLift": 0.22041274849569575,
+        "maxAdjacentMinimumYChange": 0.009701852142174533,
+        "maximumExtentMeters": 1.9050294177007636,
+        "extentToRestRatio": 1.0297460794264404,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.06769261215060157,
+        "maximumY": 0.06143956797963265,
+        "maximumLift": 0.06769246294267277,
+        "maxAdjacentMinimumYChange": 0.020648557512622734,
+        "maximumExtentMeters": 2.0205112281380817,
+        "extentToRestRatio": 1.0921687068346932,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.158976837217688,
+        "maximumY": 0.038402505092030886,
+        "maximumLift": 0.15897668800975917,
+        "maxAdjacentMinimumYChange": 0.03504352818354982,
+        "maximumExtentMeters": 1.9103559372253747,
+        "extentToRestRatio": 1.032625280422757,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.183584077692801,
+        "maximumY": 0.002394732557070997,
+        "maximumLift": 0.18358392848487218,
+        "maxAdjacentMinimumYChange": 0.032752283760739215,
+        "maximumExtentMeters": 1.8374550995139778,
+        "extentToRestRatio": 0.9932194050474478,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.16327436696432746,
+        "maximumY": 0.084989903405701,
+        "maximumLift": 0.16327421775639864,
+        "maxAdjacentMinimumYChange": 0.040287091629224114,
+        "maximumExtentMeters": 2.147395871364104,
+        "extentToRestRatio": 1.1607550303252328,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.8682430608732756,
+        "maximumY": 0.10154943869497417,
+        "maximumLift": 0.8682429116653468,
+        "maxAdjacentMinimumYChange": 0.24752557200977732,
+        "maximumExtentMeters": 2.097649573256419,
+        "extentToRestRatio": 1.133865127751343,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.0020813591101565675,
+        "maximumY": 0.08155687215515961,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.03547221458332672,
+        "maximumExtentMeters": 2.208292260263237,
+        "extentToRestRatio": 1.1936720116261272,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.7565599983770085,
+        "maximumY": -0.0504100632179508,
+        "maximumLift": 0.7565598491690797,
+        "maxAdjacentMinimumYChange": 0.17264225987703985,
+        "maximumExtentMeters": 2.3259771002055123,
+        "extentToRestRatio": 1.2572854663121702,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.32043116093873625,
+        "maximumY": 0.058276161894693035,
+        "maximumLift": 0.32043101173080746,
+        "maxAdjacentMinimumYChange": 0.3408444026193763,
+        "maximumExtentMeters": 2.2797672279710293,
+        "extentToRestRatio": 1.2323071461234527,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.32043116093873625,
+        "maximumY": 0.058276161894693035,
+        "maximumLift": 0.32043101173080746,
+        "maxAdjacentMinimumYChange": 0.3408444026193763,
+        "maximumExtentMeters": 2.2797672279710293,
+        "extentToRestRatio": 1.2323071461234527,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.32043116093873625,
+        "maximumY": 0.058276161894693035,
+        "maximumLift": 0.32043101173080746,
+        "maxAdjacentMinimumYChange": 0.3408444026193763,
+        "maximumExtentMeters": 2.2797672279710293,
+        "extentToRestRatio": 1.2323071461234527,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.32043116093873625,
+        "maximumY": 0.058276161894693035,
+        "maximumLift": 0.32043101173080746,
+        "maxAdjacentMinimumYChange": 0.3408444026193763,
+        "maximumExtentMeters": 2.2797672279710293,
+        "extentToRestRatio": 1.2323071461234527,
+        "finite": true
+      }
+    }
+  },
+  "lich": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/lich-runtime.glb",
+    "runtimeSHA256": "5f10543b398ad0d51c0faad5c22f881609d74561e2a2f154599f748966fcdea2",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.6029385042191008,
+        -5.441008764169704e-8,
+        -0.30353771717207506
+      ],
+      "max": [
+        0.60293868118414,
+        1.8500002600197467,
+        0.303537184917296
+      ],
+      "size": [
+        1.2058771854032408,
+        1.8500003144298343,
+        0.6070749020893711
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.03324217818072445,
+        "maximumY": -0.015205022487462347,
+        "maximumLift": 0.03324212377063681,
+        "maxAdjacentMinimumYChange": 0.0021067079043205206,
+        "maximumExtentMeters": 1.7508489233578748,
+        "extentToRestRatio": 0.9464046625837911,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.004650356894154944,
+        "maximumY": 0.035799724858002084,
+        "maximumLift": 0.004650302484067302,
+        "maxAdjacentMinimumYChange": 0.019732365666252215,
+        "maximumExtentMeters": 1.770123564770255,
+        "extentToRestRatio": 0.9568233859007763,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.022666268168983296,
+        "maximumY": 0.01912077845525811,
+        "maximumLift": 0.022666213758895656,
+        "maxAdjacentMinimumYChange": 0.005986472377454608,
+        "maximumExtentMeters": 1.7981679002032003,
+        "extentToRestRatio": 0.9719824835583293,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.019761566333550692,
+        "maximumY": 0.02044870825188224,
+        "maximumLift": 0.01976151192346305,
+        "maxAdjacentMinimumYChange": 0.0069725726788204875,
+        "maximumExtentMeters": 1.4744779989116126,
+        "extentToRestRatio": 0.7970149990844965,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.022196245569735727,
+        "maximumY": 0.009755774083488536,
+        "maximumLift": 0.022196191159648087,
+        "maxAdjacentMinimumYChange": 0.007704275164944759,
+        "maximumExtentMeters": 1.4951851409781771,
+        "extentToRestRatio": 0.8082080469478135,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.1596243818257045,
+        "maximumY": 0.08400567017099707,
+        "maximumLift": 0.15962432741561686,
+        "maxAdjacentMinimumYChange": 0.0942954590820469,
+        "maximumExtentMeters": 1.7876830460977504,
+        "extentToRestRatio": 0.9663149958159386,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.009008305636657403,
+        "maximumY": 0.09326513263583512,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.031491666845461966,
+        "maximumExtentMeters": 1.796479662717868,
+        "extentToRestRatio": 0.9710699229105476,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.22578867025763014,
+        "maximumY": 0.0073520392490925585,
+        "maximumLift": 0.2257886158475425,
+        "maxAdjacentMinimumYChange": 0.06778230201047084,
+        "maximumExtentMeters": 1.9956156725395624,
+        "extentToRestRatio": 1.0787109910057537,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.0239338216346401,
+        "maximumY": 0.020097252655819853,
+        "maximumLift": 0.023933767224552458,
+        "maxAdjacentMinimumYChange": 0.012277929802145244,
+        "maximumExtentMeters": 1.750067852953475,
+        "extentToRestRatio": 0.9459824624369546,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.0239338216346401,
+        "maximumY": 0.020097252655819853,
+        "maximumLift": 0.023933767224552458,
+        "maxAdjacentMinimumYChange": 0.012277929802145244,
+        "maximumExtentMeters": 1.750067852953475,
+        "extentToRestRatio": 0.9459824624369546,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.0239338216346401,
+        "maximumY": 0.020097252655819853,
+        "maximumLift": 0.023933767224552458,
+        "maxAdjacentMinimumYChange": 0.012277929802145244,
+        "maximumExtentMeters": 1.750067852953475,
+        "extentToRestRatio": 0.9459824624369546,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 3.5333333015441895,
+        "durationSeconds": 3.5333333015441895,
+        "minimumY": -0.0239338216346401,
+        "maximumY": 0.020097252655819853,
+        "maximumLift": 0.023933767224552458,
+        "maxAdjacentMinimumYChange": 0.012277929802145244,
+        "maximumExtentMeters": 1.750067852953475,
+        "extentToRestRatio": 0.9459824624369546,
+        "finite": true
+      }
+    }
+  },
+  "knife-rogue": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/knife-rogue-runtime.glb",
+    "runtimeSHA256": "41f283d6c6a11884e43d0fb45a57af1cfe4a55061e8b6623c0597994321fb51b",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.49223795171311363,
+        4.968494406561016e-8,
+        -0.205532113988828
+      ],
+      "max": [
+        0.4922383810703226,
+        1.8499999983791584,
+        0.2055322313398637
+      ],
+      "size": [
+        0.9844763327834363,
+        1.8499999486942142,
+        0.41106434532869174
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": 0.0027936295325293415,
+        "maximumY": 0.011727869122147565,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.001294587044129488,
+        "maximumExtentMeters": 1.7461469475974811,
+        "extentToRestRatio": 0.9438632410935818,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": 0.010243476417887865,
+        "maximumY": 0.036904880528164104,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.016063397256995092,
+        "maximumExtentMeters": 1.779267883905554,
+        "extentToRestRatio": 0.9617664504052635,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.002179250207167088,
+        "maximumY": 0.01625184912314294,
+        "maximumLift": 0.0021792998921111536,
+        "maxAdjacentMinimumYChange": 0.006266320485182841,
+        "maximumExtentMeters": 1.8104165085805028,
+        "extentToRestRatio": 0.9786035452910955,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.003958456887142896,
+        "maximumY": 0.033436846864370276,
+        "maximumLift": 0.003958506572086962,
+        "maxAdjacentMinimumYChange": 0.004804347267391651,
+        "maximumExtentMeters": 1.4726514232287202,
+        "extentToRestRatio": 0.7960278184159746,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.0037832214924186694,
+        "maximumY": 0.037047104718122906,
+        "maximumLift": 0.003783271177362735,
+        "maxAdjacentMinimumYChange": 0.00597495894689563,
+        "maximumExtentMeters": 1.4931236037863633,
+        "extentToRestRatio": 0.8070938622675395,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.11368298242415031,
+        "maximumY": 0.0876553383568337,
+        "maximumLift": 0.11368303210909438,
+        "maxAdjacentMinimumYChange": 0.06373960870500052,
+        "maximumExtentMeters": 1.8197286348014,
+        "extentToRestRatio": 0.9836371271717166,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.013563825782170703,
+        "maximumY": 0.0824213770943297,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.018964615992006065,
+        "maximumExtentMeters": 1.8185843841569502,
+        "extentToRestRatio": 0.9830186132926987,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.17650176732176548,
+        "maximumY": 0.01700833370105421,
+        "maximumLift": 0.17650181700670955,
+        "maxAdjacentMinimumYChange": 0.04868332945132802,
+        "maximumExtentMeters": 2.1678333973476196,
+        "extentToRestRatio": 1.1718018689015326,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 1.5,
+        "durationSeconds": 1.5,
+        "minimumY": 0.06607294167060736,
+        "maximumY": 0.09516622381529571,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.010598714600073902,
+        "maximumExtentMeters": 1.7409022361112558,
+        "extentToRestRatio": 0.9410282618332163,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.1666667461395264,
+        "durationSeconds": 3.1666667461395264,
+        "minimumY": 0.08185899708839225,
+        "maximumY": 0.09531090204240379,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.0040011737192331975,
+        "maximumExtentMeters": 1.7187686827593387,
+        "extentToRestRatio": 0.9290641786084899,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3,
+        "durationSeconds": 3,
+        "minimumY": -0.006170385792454422,
+        "maximumY": 0.034262572016627295,
+        "maximumLift": 0.006170435477398487,
+        "maxAdjacentMinimumYChange": 0.013948407255378499,
+        "maximumExtentMeters": 1.7425009355420875,
+        "extentToRestRatio": 0.9418924237116856,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.2333333492279053,
+        "durationSeconds": 2.2333333492279053,
+        "minimumY": 0.061165791171062314,
+        "maximumY": 0.10526465835788548,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.02137377803135118,
+        "maximumExtentMeters": 1.7452414649928183,
+        "extentToRestRatio": 0.9433737910234334,
+        "finite": true
+      }
+    }
+  },
+  "shrouded-skeleton": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/shrouded-skeleton-runtime.glb",
+    "runtimeSHA256": "7e2a3a00654c0eb7c72a31592fc970c6d9b9beb8a64d8abdc8689f427347ee97",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.4010418109910632,
+        4.168050258274477e-8,
+        -0.21078456896444628
+      ],
+      "max": [
+        0.40104180271412415,
+        1.8499996989082133,
+        0.2107846466015234
+      ],
+      "size": [
+        0.8020836137051873,
+        1.8499996572277106,
+        0.4215692155659697
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": -0.05939008301136564,
+        "maximumY": -0.02657775858314457,
+        "maximumLift": 0.059390124691868225,
+        "maxAdjacentMinimumYChange": 0.003956966716918961,
+        "maximumExtentMeters": 1.8165893129469004,
+        "extentToRestRatio": 0.9819403510966717,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.08271298325746713,
+        "maximumY": 0.027958369352394236,
+        "maximumLift": 0.08271302493796971,
+        "maxAdjacentMinimumYChange": 0.02549915137441041,
+        "maximumExtentMeters": 1.8539215964347902,
+        "extentToRestRatio": 1.0021199675317545,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.08663847382846455,
+        "maximumY": -0.005728312245746469,
+        "maximumLift": 0.08663851550896713,
+        "maxAdjacentMinimumYChange": 0.014027543472513025,
+        "maximumExtentMeters": 1.8709589852488462,
+        "extentToRestRatio": 1.0113293685970428,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.08645832372075754,
+        "maximumY": -0.02722725818251052,
+        "maximumLift": 0.08645836540126012,
+        "maxAdjacentMinimumYChange": 0.013120269421072875,
+        "maximumExtentMeters": 1.6016979275483048,
+        "extentToRestRatio": 0.8657828239538732,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.0926800262080275,
+        "maximumY": -0.017323288241923033,
+        "maximumLift": 0.09268006788853007,
+        "maxAdjacentMinimumYChange": 0.014675150308405563,
+        "maximumExtentMeters": 1.6436309565079135,
+        "extentToRestRatio": 0.888449330293905,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.2370411442973712,
+        "maximumY": 0.15595963779933408,
+        "maximumLift": 0.23704118597787377,
+        "maxAdjacentMinimumYChange": 0.11805799281781611,
+        "maximumExtentMeters": 1.8539060404071193,
+        "extentToRestRatio": 1.0021115588665905,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": -0.0408880402771157,
+        "maximumY": 0.0031648750312502434,
+        "maximumLift": 0.04088808195761828,
+        "maxAdjacentMinimumYChange": 0.010529124341743478,
+        "maximumExtentMeters": 1.870541941559489,
+        "extentToRestRatio": 1.0111039395340007,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.35079331072139736,
+        "maximumY": -0.025438620792179012,
+        "maximumLift": 0.35079335240189996,
+        "maxAdjacentMinimumYChange": 0.10917343944727398,
+        "maximumExtentMeters": 2.2140832839023923,
+        "extentToRestRatio": 1.196801996828623,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.17155111048227314,
+        "maximumY": -0.0018584186661329107,
+        "maximumLift": 0.17155115216277572,
+        "maxAdjacentMinimumYChange": 0.04665837765570739,
+        "maximumExtentMeters": 2.086342339664237,
+        "extentToRestRatio": 1.1277528249873807,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.17155111048227314,
+        "maximumY": -0.0018584186661329107,
+        "maximumLift": 0.17155115216277572,
+        "maxAdjacentMinimumYChange": 0.04665837765570739,
+        "maximumExtentMeters": 2.086342339664237,
+        "extentToRestRatio": 1.1277528249873807,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.17155111048227314,
+        "maximumY": -0.0018584186661329107,
+        "maximumLift": 0.17155115216277572,
+        "maxAdjacentMinimumYChange": 0.04665837765570739,
+        "maximumExtentMeters": 2.086342339664237,
+        "extentToRestRatio": 1.1277528249873807,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.799999952316284,
+        "durationSeconds": 2.799999952316284,
+        "minimumY": -0.17155111048227314,
+        "maximumY": -0.0018584186661329107,
+        "maximumLift": 0.17155115216277572,
+        "maxAdjacentMinimumYChange": 0.04665837765570739,
+        "maximumExtentMeters": 2.086342339664237,
+        "extentToRestRatio": 1.1277528249873807,
+        "finite": true
+      }
+    }
+  },
+  "lion-knight": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/lion-knight-runtime.glb",
+    "runtimeSHA256": "acda54400272a981b16858e37e7fda27f815b21c6cdb849ca9c52886aed8054f",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.5724020086562541,
+        -1.2048314706775452e-7,
+        -0.20379452632221112
+      ],
+      "max": [
+        0.5724018718072815,
+        1.849999829760527,
+        0.20379440578883712
+      ],
+      "size": [
+        1.1448038804635357,
+        1.849999950243674,
+        0.40758893211104824
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 4,
+        "durationSeconds": 4,
+        "minimumY": 0.0009980432898669136,
+        "maximumY": 0.013138110077528508,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.001374568978881165,
+        "maximumExtentMeters": 1.7644775408456952,
+        "extentToRestRatio": 0.9537716693523618,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.0016573002952801064,
+        "maximumY": 0.04680368868109746,
+        "maximumLift": 0.0016571798121330387,
+        "maxAdjacentMinimumYChange": 0.018026138995868163,
+        "maximumExtentMeters": 1.8766417706391976,
+        "extentToRestRatio": 1.0144009843848993,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.01276486182159725,
+        "maximumY": 0.020228567069179297,
+        "maximumLift": 0.01276474133845018,
+        "maxAdjacentMinimumYChange": 0.010643802464818768,
+        "maximumExtentMeters": 1.867611675174576,
+        "extentToRestRatio": 1.0095198515700405,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": 0.009988129218900379,
+        "maximumY": 0.04527899060903268,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.005641584296487923,
+        "maximumExtentMeters": 1.6511196328981372,
+        "extentToRestRatio": 0.892497122867846,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": 0.0005275641981710329,
+        "maximumY": 0.04522097020367835,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.01132182083115403,
+        "maximumExtentMeters": 1.6607415599219153,
+        "extentToRestRatio": 0.8976981646422043,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.5604271522706593,
+        "maximumY": 0.08951512419402224,
+        "maximumLift": 0.5604270317875123,
+        "maxAdjacentMinimumYChange": 0.1922150701137113,
+        "maximumExtentMeters": 1.8017077841863536,
+        "extentToRestRatio": 0.9738961257534307,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.01807228300018245,
+        "maximumY": 0.076707580017254,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.01892947984788003,
+        "maximumExtentMeters": 1.8847690208254386,
+        "extentToRestRatio": 1.0187940927118322,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.2872845887047794,
+        "maximumY": 0.036819985573836575,
+        "maximumLift": 0.28728446822163234,
+        "maxAdjacentMinimumYChange": 0.1534565782260538,
+        "maximumExtentMeters": 2.1337915182936555,
+        "extentToRestRatio": 1.1534008517203482,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 1.5,
+        "durationSeconds": 1.5,
+        "minimumY": 0.07611263702524936,
+        "maximumY": 0.10113017503012418,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.011262793613168898,
+        "maximumExtentMeters": 1.7500645727199984,
+        "extentToRestRatio": 0.9459808755613682,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.1666667461395264,
+        "durationSeconds": 3.1666667461395264,
+        "minimumY": 0.08368923192758497,
+        "maximumY": 0.09995297861626096,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.005883092400117307,
+        "maximumExtentMeters": 1.7640568515470194,
+        "extentToRestRatio": 0.95354426972534,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3,
+        "durationSeconds": 3,
+        "minimumY": 0.005461586186292829,
+        "maximumY": 0.0395614374825151,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.026119904410657806,
+        "maximumExtentMeters": 1.8071776981647891,
+        "extentToRestRatio": 0.9768528360915661,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.2333333492279053,
+        "durationSeconds": 2.2333333492279053,
+        "minimumY": 0.0788677476889902,
+        "maximumY": 0.10714775294887291,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.01584464485989527,
+        "maximumExtentMeters": 1.7970249162584586,
+        "extentToRestRatio": 0.9713648457243268,
+        "finite": true
+      }
+    }
+  },
+  "spider": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/spider-runtime.glb",
+    "runtimeSHA256": "d0eb7a46e9bc1ef21e5e638d47726d3d6622d6eb6798dac935e7dd6bb67be775",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes only; no external equipped props added by game",
+    "restBounds": {
+      "min": [
+        -0.9526717338119216,
+        -7.12933377784122e-8,
+        -0.8703059450268471
+      ],
+      "max": [
+        0.9505747154851849,
+        0.7669889969218836,
+        0.8726850315752556
+      ],
+      "size": [
+        1.9032464492971064,
+        0.7669890682152214,
+        1.7429909766021026
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 2,
+        "durationSeconds": 2,
+        "minimumY": -0.0003866705934488242,
+        "maximumY": 0.00041171093665584075,
+        "maximumLift": 0.00038659930011104577,
+        "maxAdjacentMinimumYChange": 0.00032342979001124617,
+        "maximumExtentMeters": 1.9034697217568881,
+        "extentToRestRatio": 1.0001173113759725,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.2083333730697632,
+        "durationSeconds": 1.2083333730697632,
+        "minimumY": -0.0005464890984010582,
+        "maximumY": 0.0011303523817594518,
+        "maximumLift": 0.0005464178050632798,
+        "maxAdjacentMinimumYChange": 0.00159577078913528,
+        "maximumExtentMeters": 1.9037580942404997,
+        "extentToRestRatio": 1.0002688274782188,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 1.2083333730697632,
+        "durationSeconds": 1.2083333730697632,
+        "minimumY": -0.0004941122542992728,
+        "maximumY": 0.001263173842823546,
+        "maximumLift": 0.0004940409609614945,
+        "maxAdjacentMinimumYChange": 0.0012592058748124584,
+        "maximumExtentMeters": 1.9035993650361858,
+        "extentToRestRatio": 1.000185428292384,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.2083333730697632,
+        "durationSeconds": 1.2083333730697632,
+        "minimumY": -0.0018905246516086032,
+        "maximumY": 0.0026952008221565603,
+        "maximumLift": 0.0018904533582708247,
+        "maxAdjacentMinimumYChange": 0.001282870123086043,
+        "maximumExtentMeters": 2.0691862153779423,
+        "extentToRestRatio": 1.0871877449933611,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2083333730697632,
+        "durationSeconds": 1.2083333730697632,
+        "minimumY": -0.002100072814249014,
+        "maximumY": 0.002772305448344973,
+        "maximumLift": 0.0021000015209112354,
+        "maxAdjacentMinimumYChange": 0.001955623496711704,
+        "maximumExtentMeters": 2.069173430785707,
+        "extentToRestRatio": 1.0871810277380942,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 0.7916666865348816,
+        "durationSeconds": 0.7916666865348816,
+        "minimumY": 2.2735707964833168e-7,
+        "maximumY": 0.015448095539992447,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.0009920371950238242,
+        "maximumExtentMeters": 1.9033541692019404,
+        "extentToRestRatio": 1.00005659798019,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 0.5416666865348816,
+        "durationSeconds": 0.5416666865348816,
+        "minimumY": -0.0002762403594952967,
+        "maximumY": 0.00007922221177612521,
+        "maximumLift": 0.00027616906615751826,
+        "maxAdjacentMinimumYChange": 0.00009047697649867388,
+        "maximumExtentMeters": 1.9033632871031436,
+        "extentToRestRatio": 1.000061388689878,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 1.4166666269302368,
+        "durationSeconds": 1.4166666269302368,
+        "minimumY": 0.003767772702444123,
+        "maximumY": 0.054763557875522575,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.006799837831563155,
+        "maximumExtentMeters": 1.9032465770941165,
+        "extentToRestRatio": 1.0000000671468532,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 0.7916666865348816,
+        "durationSeconds": 0.7916666865348816,
+        "minimumY": -0.00041028695838360023,
+        "maximumY": 0.001369513050715915,
+        "maximumLift": 0.0004102156650458218,
+        "maxAdjacentMinimumYChange": 0.0004012378472062145,
+        "maximumExtentMeters": 1.904070081764912,
+        "extentToRestRatio": 1.000432751348681,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 0.7916666865348816,
+        "durationSeconds": 0.7916666865348816,
+        "minimumY": -0.00025343117322579404,
+        "maximumY": 0.001030904561193734,
+        "maximumLift": 0.0002533598798880156,
+        "maxAdjacentMinimumYChange": 0.00024283473361164023,
+        "maximumExtentMeters": 1.9040712253532557,
+        "extentToRestRatio": 1.0004333522106157,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 0.9166666865348816,
+        "durationSeconds": 0.9166666865348816,
+        "minimumY": -0.00005674522507939288,
+        "maximumY": 0.0012238877343705087,
+        "maximumLift": 0.00005667393174161447,
+        "maxAdjacentMinimumYChange": 0.00012456256929313362,
+        "maximumExtentMeters": 1.9041764763257971,
+        "extentToRestRatio": 1.0004886529692643,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 1,
+        "durationSeconds": 1,
+        "minimumY": -0.00005454174378870536,
+        "maximumY": 0.0027746896880610065,
+        "maximumLift": 0.00005447045045092695,
+        "maxAdjacentMinimumYChange": 0.00020788706100709968,
+        "maximumExtentMeters": 1.9043610943443352,
+        "extentToRestRatio": 1.0005856546048677,
+        "finite": true
+      }
+    }
+  },
+  "ogre": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ogre-runtime.glb",
+    "runtimeSHA256": "636f6e6292e72c697df7413902f491331f4069044dfd582e9d2bf4dbc6fcae3e",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes, minus explicit held-equipment exclusions; no external equipped props added by game",
+    "exclusions": {
+      "path": null,
+      "nodeNames": [
+        "OgreHeldClub"
+      ],
+      "meshNames": [],
+      "vertexSets": [],
+      "reason": "Authored equipment explicitly tagged excludeFromGrounding:true"
+    },
+    "restBounds": {
+      "min": [
+        -0.8689724895494293,
+        -0.000443940152478714,
+        -0.3445386929319664
+      ],
+      "max": [
+        0.8680889983639548,
+        2.2753054789505898,
+        0.32199936829041176
+      ],
+      "size": [
+        1.737061487913384,
+        2.2757494191030685,
+        0.6665380612223781
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 2,
+        "durationSeconds": 2,
+        "minimumY": -0.0004440757135885227,
+        "maximumY": -0.0004440757135885227,
+        "maximumLift": 1.3556110980869314e-7,
+        "maxAdjacentMinimumYChange": 0,
+        "maximumExtentMeters": 2.2760581811345664,
+        "extentToRestRatio": 1.0001356748809451,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.09574764390503035,
+        "maximumY": 0.025775772524847668,
+        "maximumLift": 0.09530370375255164,
+        "maxAdjacentMinimumYChange": 0.02090398321567749,
+        "maximumExtentMeters": 2.264082696514399,
+        "extentToRestRatio": 0.9948734590501324,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.04770200111695706,
+        "maximumY": 0.02522970550781292,
+        "maximumLift": 0.04725806096447835,
+        "maxAdjacentMinimumYChange": 0.010252719583431436,
+        "maximumExtentMeters": 2.267649568222378,
+        "extentToRestRatio": 0.996440798440857,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.04624014851994976,
+        "maximumY": 0.040352308459245034,
+        "maximumLift": 0.045796208367471045,
+        "maxAdjacentMinimumYChange": 0.020964999628098984,
+        "maximumExtentMeters": 2.012724016352189,
+        "extentToRestRatio": 0.8844225113085848,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.05146077715373225,
+        "maximumY": 0.05176510102826955,
+        "maximumLift": 0.051016837001253534,
+        "maxAdjacentMinimumYChange": 0.02171960400047404,
+        "maximumExtentMeters": 2.310069336542771,
+        "extentToRestRatio": 1.0150807101834738,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.6048113022717311,
+        "maximumY": 0.07743370790895199,
+        "maximumLift": 0.6043673621192523,
+        "maxAdjacentMinimumYChange": 0.13745990585645573,
+        "maximumExtentMeters": 2.2545380761980462,
+        "extentToRestRatio": 0.9906794031333281,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.011246721888658844,
+        "maximumY": 0.07786012417649606,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.02656447954107708,
+        "maximumExtentMeters": 2.3712188067065263,
+        "extentToRestRatio": 1.0419507467746976,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.8786336622712123,
+        "maximumY": 0.0032880122696183622,
+        "maximumLift": 0.8781897221187336,
+        "maxAdjacentMinimumYChange": 0.19465784516907858,
+        "maximumExtentMeters": 2.893086580428567,
+        "extentToRestRatio": 1.271267634364071,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.367406256433706,
+        "maximumY": 0.08773210811168737,
+        "maximumLift": 0.3669623162812273,
+        "maxAdjacentMinimumYChange": 0.1332398834109629,
+        "maximumExtentMeters": 2.9188388426585017,
+        "extentToRestRatio": 1.282583582426615,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.367406256433706,
+        "maximumY": 0.08773210811168737,
+        "maximumLift": 0.3669623162812273,
+        "maxAdjacentMinimumYChange": 0.1332398834109629,
+        "maximumExtentMeters": 2.9188388426585017,
+        "extentToRestRatio": 1.282583582426615,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.367406256433706,
+        "maximumY": 0.08773210811168737,
+        "maximumLift": 0.3669623162812273,
+        "maxAdjacentMinimumYChange": 0.1332398834109629,
+        "maximumExtentMeters": 2.9188388426585017,
+        "extentToRestRatio": 1.282583582426615,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.367406256433706,
+        "maximumY": 0.08773210811168737,
+        "maximumLift": 0.3669623162812273,
+        "maxAdjacentMinimumYChange": 0.1332398834109629,
+        "maximumExtentMeters": 2.9188388426585017,
+        "extentToRestRatio": 1.282583582426615,
+        "finite": true
+      }
+    }
+  },
+  "goblin": {
+    "runtimePath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/goblin-runtime.glb",
+    "runtimeSHA256": "89d2b4ef87c6d821685236fa4087b217568e669029fa9c499f5885cd2c61aeb5",
+    "sampleCount": 65,
+    "sampleFractions": "index / 64; native clip durations unchanged",
+    "geometry": "Existing runtime input meshes, minus explicit held-equipment exclusions; no external equipped props added by game",
+    "exclusions": {
+      "path": null,
+      "nodeNames": [
+        "GoblinHeldCleaver"
+      ],
+      "meshNames": [],
+      "vertexSets": [],
+      "reason": "Authored equipment explicitly tagged excludeFromGrounding:true"
+    },
+    "restBounds": {
+      "min": [
+        -0.5070573405375776,
+        2.000857245048564e-7,
+        -0.18148643377170046
+      ],
+      "max": [
+        0.5070628779741774,
+        1.400578451601645,
+        0.24593993656404078
+      ],
+      "size": [
+        1.014120218511755,
+        1.4005782515159206,
+        0.42742637033574127
+      ]
+    },
+    "clips": {
+      "idle": {
+        "startSeconds": 0,
+        "endSeconds": 2,
+        "durationSeconds": 2,
+        "minimumY": 2.7221386876911584e-7,
+        "maximumY": 2.7221386876911584e-7,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0,
+        "maximumExtentMeters": 1.4007847840957897,
+        "extentToRestRatio": 1.0001474623639526,
+        "finite": true
+      },
+      "forward": {
+        "startSeconds": 0,
+        "endSeconds": 1.7333333492279053,
+        "durationSeconds": 1.7333333492279053,
+        "minimumY": -0.07840384372470648,
+        "maximumY": 0.01428076989442776,
+        "maximumLift": 0.07840404381043098,
+        "maxAdjacentMinimumYChange": 0.015365385194981533,
+        "maximumExtentMeters": 1.4063760739693572,
+        "extentToRestRatio": 1.0041395919486549,
+        "finite": true
+      },
+      "backward": {
+        "startSeconds": 0,
+        "endSeconds": 0.8999999761581421,
+        "durationSeconds": 0.8999999761581421,
+        "minimumY": -0.05816332247606555,
+        "maximumY": 0.023943127388550513,
+        "maximumLift": 0.058163522561790054,
+        "maxAdjacentMinimumYChange": 0.01282342369066946,
+        "maximumExtentMeters": 1.4201823306513834,
+        "extentToRestRatio": 1.0139971323374786,
+        "finite": true
+      },
+      "strafe_left": {
+        "startSeconds": 0,
+        "endSeconds": 1.1666667461395264,
+        "durationSeconds": 1.1666667461395264,
+        "minimumY": -0.04914305292796087,
+        "maximumY": 0.03574045523209037,
+        "maximumLift": 0.04914325301368537,
+        "maxAdjacentMinimumYChange": 0.018960964575039152,
+        "maximumExtentMeters": 1.1463357063136352,
+        "extentToRestRatio": 0.8184731592632507,
+        "finite": true
+      },
+      "strafe_right": {
+        "startSeconds": 0,
+        "endSeconds": 1.2666666507720947,
+        "durationSeconds": 1.2666666507720947,
+        "minimumY": -0.02808395478290686,
+        "maximumY": 0.048678269308035385,
+        "maximumLift": 0.028084154868631365,
+        "maxAdjacentMinimumYChange": 0.015021384900955337,
+        "maximumExtentMeters": 1.2737496754284547,
+        "extentToRestRatio": 0.9094455622524535,
+        "finite": true
+      },
+      "dodge": {
+        "startSeconds": 0,
+        "endSeconds": 1.8333333730697632,
+        "durationSeconds": 1.8333333730697632,
+        "minimumY": -0.4113084680716663,
+        "maximumY": 0.05752446244792557,
+        "maximumLift": 0.4113086681573908,
+        "maxAdjacentMinimumYChange": 0.14658064503991808,
+        "maximumExtentMeters": 1.3771489167613127,
+        "extentToRestRatio": 0.9832716703052835,
+        "finite": true
+      },
+      "hit": {
+        "startSeconds": 0,
+        "endSeconds": 1.6333333253860474,
+        "durationSeconds": 1.6333333253860474,
+        "minimumY": 0.011508220678462147,
+        "maximumY": 0.0556537255381678,
+        "maximumLift": 0,
+        "maxAdjacentMinimumYChange": 0.025210097407979484,
+        "maximumExtentMeters": 1.353160857959595,
+        "extentToRestRatio": 0.9661444167757116,
+        "finite": true
+      },
+      "death": {
+        "startSeconds": 0,
+        "endSeconds": 2.9666666984558105,
+        "durationSeconds": 2.9666666984558105,
+        "minimumY": -0.4121657220508931,
+        "maximumY": 0.016984623621895633,
+        "maximumLift": 0.41216592213661757,
+        "maxAdjacentMinimumYChange": 0.10117614809936834,
+        "maximumExtentMeters": 1.5864256577131042,
+        "extentToRestRatio": 1.1326933400515329,
+        "finite": true
+      },
+      "side": {
+        "startSeconds": 0,
+        "endSeconds": 1.5,
+        "durationSeconds": 1.5,
+        "minimumY": -0.05963754209048654,
+        "maximumY": 0.07751664781488725,
+        "maximumLift": 0.05963774217621104,
+        "maxAdjacentMinimumYChange": 0.025895832195218935,
+        "maximumExtentMeters": 1.3986325116948932,
+        "extentToRestRatio": 0.9986107596495081,
+        "finite": true
+      },
+      "diagonal": {
+        "startSeconds": 0,
+        "endSeconds": 3.1666667461395264,
+        "durationSeconds": 3.1666667461395264,
+        "minimumY": -0.011601216623609065,
+        "maximumY": 0.09243878580250424,
+        "maximumLift": 0.011601416709333569,
+        "maxAdjacentMinimumYChange": 0.022505720331504095,
+        "maximumExtentMeters": 1.5517026066829378,
+        "extentToRestRatio": 1.1079014007274832,
+        "finite": true
+      },
+      "backhand": {
+        "startSeconds": 0,
+        "endSeconds": 3,
+        "durationSeconds": 3,
+        "minimumY": -0.06982611225356994,
+        "maximumY": 0.0357742300324226,
+        "maximumLift": 0.06982631233929444,
+        "maxAdjacentMinimumYChange": 0.027106723832676108,
+        "maximumExtentMeters": 1.6289066362093427,
+        "extentToRestRatio": 1.1630243682895192,
+        "finite": true
+      },
+      "overhead": {
+        "startSeconds": 0,
+        "endSeconds": 2.2333333492279053,
+        "durationSeconds": 2.2333333492279053,
+        "minimumY": -0.006507773135556748,
+        "maximumY": 0.09938578031895383,
+        "maximumLift": 0.006507973221281252,
+        "maxAdjacentMinimumYChange": 0.018246388086629962,
+        "maximumExtentMeters": 1.3516087585237255,
+        "extentToRestRatio": 0.9650362320425918,
+        "finite": true
+      }
+    }
+  }
+}

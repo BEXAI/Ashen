@@ -1,0 +1,94 @@
+{
+  "sourceCheckpoint": {
+    "engineSha256": "dc0b7b44a359194148eae91ca9c4ef9c7808c9e7b916a8f11d9fd494d079e235",
+    "engineBytes": 43580,
+    "warning": "Proposal prepared against this read-only checkpoint. Root has concurrent engine edits; review/apply surgical hunks rather than overwriting the current engine."
+  },
+  "method": "Recorded once from the unchanged engine baseline before P17/P18 integration; never rebuild baseline from the post-integration engine.",
+  "cases": [
+    {
+      "samples": 18,
+      "blocked": false,
+      "expected": {
+        "health": 140,
+        "stamina": 92,
+        "hp": 54,
+        "hits": [
+          "w1"
+        ],
+        "pause": 0.035,
+        "facing": 0
+      }
+    },
+    {
+      "samples": 18,
+      "blocked": true,
+      "expected": {
+        "health": 140,
+        "stamina": 92,
+        "hp": 80,
+        "hits": [
+          "king"
+        ],
+        "pause": 0.035,
+        "facing": 0
+      }
+    },
+    {
+      "samples": 35,
+      "blocked": false,
+      "expected": {
+        "health": 140,
+        "stamina": 92,
+        "hp": 54,
+        "hits": [
+          "w1"
+        ],
+        "pause": 0.035,
+        "facing": 0
+      }
+    },
+    {
+      "samples": 35,
+      "blocked": true,
+      "expected": {
+        "health": 140,
+        "stamina": 92,
+        "hp": 80,
+        "hits": [
+          "king"
+        ],
+        "pause": 0.035,
+        "facing": 0
+      }
+    },
+    {
+      "samples": 70,
+      "blocked": false,
+      "expected": {
+        "health": 140,
+        "stamina": 92,
+        "hp": 54,
+        "hits": [
+          "w1"
+        ],
+        "pause": 0.035,
+        "facing": 0
+      }
+    },
+    {
+      "samples": 70,
+      "blocked": true,
+      "expected": {
+        "health": 140,
+        "stamina": 92,
+        "hp": 80,
+        "hits": [
+          "king"
+        ],
+        "pause": 0.035,
+        "facing": 0
+      }
+    }
+  ]
+}

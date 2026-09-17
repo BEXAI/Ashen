@@ -1,0 +1,466 @@
+{
+  "references": [
+    {
+      "name": "ember-sovereign",
+      "path": "/workspace/scratch/363234819217/character-production/references/ember-sovereign.png",
+      "size": [
+        1696,
+        2528
+      ],
+      "bytes": 5214590,
+      "sha256": "537377acb5e0bfe040521447d1051d9dd089d51340a9e31e27c9a8297ee6d70c"
+    },
+    {
+      "name": "crypt-warden",
+      "path": "/workspace/scratch/363234819217/character-production/references/crypt-warden.png",
+      "size": [
+        1696,
+        2528
+      ],
+      "bytes": 5057311,
+      "sha256": "7d19398fee06003879cea9025fe2b3a4f0fa3c60a107c7d97e8d9281aa8e32a4"
+    },
+    {
+      "name": "ash-knight",
+      "path": "/workspace/scratch/363234819217/character-production/references/ash-knight.png",
+      "size": [
+        1696,
+        2528
+      ],
+      "bytes": 4561919,
+      "sha256": "8abc5ab44f305eb8733148b702412f5e7ddfad9ec9916fab7111357194acc02c"
+    },
+    {
+      "name": "flame-atlas",
+      "path": "/workspace/scratch/363234819217/character-production/references/flame-atlas.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 1017389,
+      "sha256": "53f06885d4fee6efde35dd3b8a3fbf7010e01908a25b83f4d7aa4f006cecb11d"
+    }
+  ],
+  "flameAtlas": {
+    "path": "/workspace/scratch/363234819217/character-production/references/flame-atlas.png",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "columns": 4,
+    "rows": 4,
+    "frameCount": 16,
+    "frameSize": [
+      256,
+      256
+    ],
+    "order": "row-major, top-left to bottom-right",
+    "blend": "additive",
+    "colorSpace": "sRGB",
+    "perCellInsetPixels": 4,
+    "recommendedFps": 12,
+    "limitation": "Image generation added thin light cell borders despite no-grid prompt. Sample only the inset safePixelRect or safeUvOffsetBottomLeft/safeUvScale per cell to exclude borders. Loop continuity is visually plausible, not mathematically guaranteed.",
+    "frames": [
+      {
+        "index": 0,
+        "row": 0,
+        "column": 0,
+        "safePixelRect": [
+          4,
+          4,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.00390625,
+          0.75390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          97,
+          45,
+          158,
+          231
+        ]
+      },
+      {
+        "index": 1,
+        "row": 0,
+        "column": 1,
+        "safePixelRect": [
+          260,
+          4,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.25390625,
+          0.75390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          97,
+          18,
+          161,
+          235
+        ]
+      },
+      {
+        "index": 2,
+        "row": 0,
+        "column": 2,
+        "safePixelRect": [
+          516,
+          4,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.50390625,
+          0.75390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          91,
+          5,
+          170,
+          235
+        ]
+      },
+      {
+        "index": 3,
+        "row": 0,
+        "column": 3,
+        "safePixelRect": [
+          772,
+          4,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.75390625,
+          0.75390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          77,
+          4,
+          194,
+          235
+        ]
+      },
+      {
+        "index": 4,
+        "row": 1,
+        "column": 0,
+        "safePixelRect": [
+          4,
+          260,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.00390625,
+          0.50390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          75,
+          7,
+          194,
+          235
+        ]
+      },
+      {
+        "index": 5,
+        "row": 1,
+        "column": 1,
+        "safePixelRect": [
+          260,
+          260,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.25390625,
+          0.50390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          80,
+          4,
+          195,
+          235
+        ]
+      },
+      {
+        "index": 6,
+        "row": 1,
+        "column": 2,
+        "safePixelRect": [
+          516,
+          260,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.50390625,
+          0.50390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          79,
+          9,
+          188,
+          235
+        ]
+      },
+      {
+        "index": 7,
+        "row": 1,
+        "column": 3,
+        "safePixelRect": [
+          772,
+          260,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.75390625,
+          0.50390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          76,
+          4,
+          194,
+          234
+        ]
+      },
+      {
+        "index": 8,
+        "row": 2,
+        "column": 0,
+        "safePixelRect": [
+          4,
+          516,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.00390625,
+          0.25390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          74,
+          4,
+          187,
+          235
+        ]
+      },
+      {
+        "index": 9,
+        "row": 2,
+        "column": 1,
+        "safePixelRect": [
+          260,
+          516,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.25390625,
+          0.25390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          71,
+          4,
+          181,
+          235
+        ]
+      },
+      {
+        "index": 10,
+        "row": 2,
+        "column": 2,
+        "safePixelRect": [
+          516,
+          516,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.50390625,
+          0.25390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          71,
+          8,
+          180,
+          235
+        ]
+      },
+      {
+        "index": 11,
+        "row": 2,
+        "column": 3,
+        "safePixelRect": [
+          772,
+          516,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.75390625,
+          0.25390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          76,
+          4,
+          172,
+          235
+        ]
+      },
+      {
+        "index": 12,
+        "row": 3,
+        "column": 0,
+        "safePixelRect": [
+          4,
+          772,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.00390625,
+          0.00390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          71,
+          4,
+          176,
+          235
+        ]
+      },
+      {
+        "index": 13,
+        "row": 3,
+        "column": 1,
+        "safePixelRect": [
+          260,
+          772,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.25390625,
+          0.00390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          76,
+          12,
+          177,
+          235
+        ]
+      },
+      {
+        "index": 14,
+        "row": 3,
+        "column": 2,
+        "safePixelRect": [
+          516,
+          772,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.50390625,
+          0.00390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          90,
+          43,
+          181,
+          235
+        ]
+      },
+      {
+        "index": 15,
+        "row": 3,
+        "column": 3,
+        "safePixelRect": [
+          772,
+          772,
+          248,
+          248
+        ],
+        "safeUvOffsetBottomLeft": [
+          0.75390625,
+          0.00390625
+        ],
+        "safeUvScale": [
+          0.2421875,
+          0.2421875
+        ],
+        "visibleBBoxInCell": [
+          95,
+          40,
+          156,
+          235
+        ]
+      }
+    ]
+  }
+}

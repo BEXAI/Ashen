@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-09-17T04:34:52.425852Z",
+  "display_name": "3D Rigging",
+  "id": "202bccbb-9eb1-4893-acd8-6b5952453f57",
+  "job_type": "3d_rigging",
+  "min_result_url": null,
+  "params": {
+    "animation_action_id": 128,
+    "enable_animation": true,
+    "folder_id": null,
+    "height_meters": 1.85,
+    "model_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_041949_60ad1d52-343d-4473-ac0d-06b18555869f.glb"
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043452_202bccbb-9eb1-4893-acd8-6b5952453f57.glb",
+  "status": "completed"
+}

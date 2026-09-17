@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "ember-dragon",
+  "originalArtwork": {
+    "assetId": "5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd",
+    "filename": "hf_20260909_023256_5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd.png",
+    "sha256": "6c41d87ff64578b5a1f7d1b3e17b3257e1857fe2adad1e95a4d822fc01ac6c18",
+    "bytes": 1234551,
+    "screenshot": {
+      "row": 1,
+      "column": 6,
+      "right_edge_partial": true,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "f9bf0f8b-0b14-4126-8401-4d80ada54da8",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043218_f9bf0f8b-0b14-4126-8401-4d80ada54da8.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "492f6f18-c5a6-4c94-b576-e659bf6a95e7",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/492f6f18-c5a6-4c94-b576-e659bf6a95e7.png"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ember-dragon-original.glb",
+    "bytes": 7478836,
+    "sha256": "0dd511958cec4311d6d547ba54f94af2ce2122a399f018ced90e18de30e1feb5"
+  },
+  "attackStyle": "claws",
+  "attackAliasPolicy": "Four canonical strike names alias genuine claws action; original timing preserved",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

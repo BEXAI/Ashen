@@ -1,0 +1,55 @@
+{
+  "model": "references/higgsfield-september-8-2026/models/goblin-original.glb",
+  "bytes": 1439452,
+  "bones": 24,
+  "skinCount": 1,
+  "meshes": [
+    {
+      "name": "Goblin authored reference character",
+      "vertices": 18002,
+      "heldEquipment": false
+    },
+    {
+      "name": "GoblinHeldCleaver",
+      "vertices": 558,
+      "heldEquipment": true
+    }
+  ],
+  "vertices": 18560,
+  "triangles": 34236,
+  "weightsSumRange": [
+    1,
+    1.0000001192092896
+  ],
+  "maxInfluences": 4,
+  "unweightedVertices": 0,
+  "finite": true,
+  "restBounds": {
+    "min": [
+      -0.5070573405375778,
+      2.0008572450521292e-07,
+      -0.18148643377170046
+    ],
+    "max": [
+      0.5070628779741775,
+      1.400578451601645,
+      0.24593993656404078
+    ]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "tracks": 72
+    }
+  ],
+  "contactBaseExportedRightHandLocal": [
+    0.1317131680051435,
+    0.11537442252626473,
+    -0.05801185200748363
+  ],
+  "contactTipExportedRightHandLocal": [
+    0.2362238430013923,
+    0.20323258718769371,
+    -0.0561498466384496
+  ]
+}

@@ -1,5 +1,7 @@
 import { z } from 'zod';
 import { GATES, gateOpen, ROOMS } from './dungeon';
+import { HERO_IDS, DEFAULT_HERO, type HeroId } from './character-roster';
+export const heroSchema=z.enum(HERO_IDS);
 
 export const WORLD = {
  shrines:[{id:'cinder',name:'Cinder Shrine',x:11,z:12},{id:'dusk',name:'Dusk Shrine',x:-13,z:-16},{id:'crown',name:'Crown Shrine',x:11,z:-42}],
@@ -11,7 +13,7 @@ export const WORLD = {
  enemies:{id:Progress['defeated'][number];x:number;z:number}[];
 };
 export const progressSchema = z.object({
-  version:z.literal(1), runId:z.string().uuid(), name:z.string().trim().min(1).max(22),
+  version:z.literal(1), runId:z.string().uuid(), name:z.string().trim().min(1).max(22), hero:heroSchema.optional(),
   x:z.number().finite().min(-93).max(93), z:z.number().finite().min(-90).max(76),
   health:z.number().finite().min(0).max(500), mana:z.number().finite().min(0).max(100),
   xp:z.number().int().min(0).max(10000), souls:z.number().int().min(0).max(100000),
@@ -26,9 +28,11 @@ export const progressSchema = z.object({
   if(p.won && !p.defeated.includes('king')) ctx.addIssue({code:'custom',message:'The king must be defeated'});
 });
 export type Progress = z.infer<typeof progressSchema>;
-export function newProgress(name='The Wanderer'): Progress {
-  return {version:1,runId:crypto.randomUUID(),name,x:0,z:51,health:140,mana:100,xp:0,souls:0,potions:3,blade:0,armor:0,talked:false,shrines:[],chests:[],defeated:[],checkpoint:'camp',playtime:0,won:false};
+export function newProgress(name='The Wanderer',hero:HeroId=DEFAULT_HERO): Progress {
+  const runId=typeof crypto.randomUUID==='function'?crypto.randomUUID():uuidFromRandomBytes();
+  return {version:1,runId,name,hero,x:0,z:51,health:140,mana:100,xp:0,souls:0,potions:3,blade:0,armor:0,talked:false,shrines:[],chests:[],defeated:[],checkpoint:'camp',playtime:0,won:false};
 }
+function uuidFromRandomBytes(){const bytes=crypto.getRandomValues(new Uint8Array(16));bytes[6]=(bytes[6]&15)|64;bytes[8]=(bytes[8]&63)|128;const h=Array.from(bytes,b=>b.toString(16).padStart(2,'0')).join('');return `${h.slice(0,8)}-${h.slice(8,12)}-${h.slice(12,16)}-${h.slice(16,20)}-${h.slice(20)}`;}
 export function level(p:Progress) { return Math.min(10,1+Math.floor(p.xp/180)); }
 export function maxHealth(p:Progress) { return 140+(level(p)-1)*20+p.armor*20; }
 export function damage(p:Progress) { return 26+p.blade*8+(level(p)-1)*3; }

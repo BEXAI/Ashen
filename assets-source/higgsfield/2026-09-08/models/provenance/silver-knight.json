@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "slug": "silver-knight",
+  "originalArtwork": {
+    "assetId": "5cbfe6bf-e3d1-4d07-849a-203e77d1b94b",
+    "filename": "hf_20260909_002300_5cbfe6bf-e3d1-4d07-849a-203e77d1b94b.png",
+    "sha256": "82502d1790b6a565af104e7079e047fe21eef4054983c12a3c50c087f21bfeae",
+    "bytes": 5368416,
+    "screenshot": {
+      "row": 2,
+      "column": 3,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "60ad1d52-343d-4473-ac0d-06b18555869f",
+    "jobType": "meshy_v7_image_to_3d",
+    "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_041949_60ad1d52-343d-4473-ac0d-06b18555869f.glb",
+    "sourceUpload": [
+      {
+        "data": {
+          "id": "f14eeff1-762c-4ec6-bc53-33c98425ba93",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/f14eeff1-762c-4ec6-bc53-33c98425ba93_resize.jpg"
+        },
+        "role": "image"
+      }
+    ]
+  },
+  "originalGLB": {
+    "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-original.glb",
+    "bytes": 6900588,
+    "sha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7"
+  },
+  "attackStyle": "blade",
+  "attackAliasPolicy": "Four distinct native sword clips",
+  "clipTimePolicy": "Native durations; runtime maps contact phases"
+}

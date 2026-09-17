@@ -1,0 +1,77 @@
+[
+  {
+    "index": 1,
+    "params": {
+      "model": "image_to_3d",
+      "medias": [
+        {
+          "role": "image",
+          "value": "cf54ea08-3569-43c7-a1c9-7ae5a632bd5c"
+        }
+      ],
+      "should_texture": true,
+      "enable_pbr": true,
+      "enable_rigging": true,
+      "enable_animation": false,
+      "should_remesh": true,
+      "target_polycount": 26000,
+      "topology": "triangle",
+      "symmetry_mode": "auto",
+      "pose_mode": "a-pose",
+      "rigging_height_meters": 2.65,
+      "texture_prompt": "Neutral diffuse base colors without painted shadows or lighting. Battered dark steel plates with scuffed edges, realistic metallic steel, chainmail joints, worn oxblood red cloth and cape, brown leather straps. Preserve supplied knight identity. Full back and sides textured coherently with front.",
+      "count": 1,
+      "use_unlim": false
+    }
+  },
+  {
+    "index": 2,
+    "params": {
+      "model": "image_to_3d",
+      "medias": [
+        {
+          "role": "image",
+          "value": "c21de7ae-8c13-41c2-be52-494c35b20e2e"
+        }
+      ],
+      "should_texture": true,
+      "enable_pbr": true,
+      "enable_rigging": true,
+      "enable_animation": false,
+      "should_remesh": true,
+      "target_polycount": 17000,
+      "topology": "triangle",
+      "symmetry_mode": "auto",
+      "pose_mode": "a-pose",
+      "rigging_height_meters": 2.65,
+      "texture_prompt": "Neutral diffuse base colors without painted shadows or highlights. Corpse grey wrinkled leathery hide, weathered pale ivory bone plates and claws, subdued amber irises. Preserve supplied undead humanoid anatomy and identity, full coherent volume with back and sides.",
+      "count": 1,
+      "use_unlim": false
+    }
+  },
+  {
+    "index": 3,
+    "params": {
+      "model": "image_to_3d",
+      "medias": [
+        {
+          "role": "image",
+          "value": "ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd"
+        }
+      ],
+      "should_texture": true,
+      "enable_pbr": true,
+      "enable_rigging": true,
+      "enable_animation": false,
+      "should_remesh": true,
+      "target_polycount": 40000,
+      "topology": "triangle",
+      "symmetry_mode": "auto",
+      "pose_mode": "a-pose",
+      "rigging_height_meters": 2.65,
+      "texture_prompt": "Neutral source colors without painted shadows or highlights. Black charcoal volcanic layered armor with rough edges, sparse thin deep ember-orange seams, near-black ragged cloth tabard, dark iron jagged crown. Preserve supplied sovereign identity. Avoid bright baked bloom; back and sides match front.",
+      "count": 1,
+      "use_unlim": false
+    }
+  }
+]
