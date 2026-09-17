@@ -1,0 +1,209 @@
+{
+  "method": "Independent view_image inspection of all three original PNGs plus read-only DOM/source review. No browser or runtime edits.",
+  "items": [
+    {
+      "capture": "door-portrait",
+      "diagnostics": {
+        "mechanics": {
+          "tick": 3478,
+          "gameTime": 57.96666666666667,
+          "droppedTime": 0,
+          "pendingCommands": 0,
+          "hitStop": 0,
+          "bodyPairs": {
+            "iterations": 0,
+            "unresolved": [],
+            "invalidBodies": []
+          },
+          "hazard": null,
+          "bossPattern": null,
+          "recentContacts": [],
+          "terminal": null
+        },
+        "loading": {
+          "roster": 0,
+          "rosterInstalls": 0,
+          "characters": 0,
+          "surfaces": false,
+          "uploadWarmup": false
+        },
+        "graphics": {
+          "version": 1,
+          "brightness": 1,
+          "impactShake": false
+        },
+        "camera": {
+          "position": [
+            -2.6175332817221233,
+            5.460781254729292,
+            11.46138523308719
+          ],
+          "direction": [
+            0.35182794757715835,
+            -0.5054942221279165,
+            -0.7878405211074999
+          ],
+          "yaw": -0.42,
+          "pitch": 0.47,
+          "near": 0.1,
+          "fov": 55,
+          "aspect": 0.5987654320987654
+        },
+        "characterSources": {
+          "ash-knight": {
+            "url": "/assets/characters/v9/ash-knight-low.glb",
+            "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+            "tier": "low"
+          },
+          "lion-knight": {
+            "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+            "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+            "bytes": 3021932,
+            "textureCap": 1024,
+            "tier": "low"
+          }
+        }
+      },
+      "sha256": {
+        "door-portrait.png": "36bb993a87eda4b3fc1d5ed39112e163d878e71ce0d9b7715ce85b75412fe8a9",
+        "door-portrait-dom.txt": "95c80da787067e60885d44c60bd4b27361ded78618c6422395155250e864f6c5"
+      }
+    },
+    {
+      "capture": "corner-landscape",
+      "diagnostics": {
+        "mechanics": {
+          "tick": 7523,
+          "gameTime": 125.38333333333333,
+          "droppedTime": 0,
+          "pendingCommands": 0,
+          "hitStop": 0,
+          "bodyPairs": {
+            "iterations": 0,
+            "unresolved": [],
+            "invalidBodies": []
+          },
+          "hazard": null,
+          "bossPattern": null,
+          "recentContacts": [],
+          "terminal": null
+        },
+        "loading": {
+          "roster": 0,
+          "rosterInstalls": 0,
+          "characters": 0,
+          "surfaces": false,
+          "uploadWarmup": false
+        },
+        "graphics": {
+          "version": 1,
+          "brightness": 1,
+          "impactShake": false
+        },
+        "camera": {
+          "position": [
+            -13.806108570767075,
+            5.460781254729291,
+            -61.244675462226986
+          ],
+          "direction": [
+            -0.6376359165717499,
+            -0.5054942221279168,
+            0.581288249746197
+          ],
+          "yaw": 2.31,
+          "pitch": 0.47,
+          "near": 0.1,
+          "fov": 55,
+          "aspect": 1.3906810035842294
+        },
+        "characterSources": {
+          "ash-knight": {
+            "url": "/assets/characters/v9/ash-knight-low.glb",
+            "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+            "tier": "low"
+          },
+          "lion-knight": {
+            "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+            "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+            "bytes": 3021932,
+            "textureCap": 1024,
+            "tier": "low"
+          }
+        }
+      },
+      "sha256": {
+        "corner-landscape.png": "19d238efe980feb584d8849d1791dc882a337fbd8900ba81dcb4642bbd0a432e",
+        "corner-landscape-dom.txt": "bfba30a15fb1f20fff62ebd3f4a5034aebffd510f8a68cf160f3891e8960d0dc"
+      }
+    },
+    {
+      "capture": "corner-portrait",
+      "diagnostics": {
+        "mechanics": {
+          "tick": 9226,
+          "gameTime": 153.76666666666665,
+          "droppedTime": 0,
+          "pendingCommands": 0,
+          "hitStop": 0,
+          "bodyPairs": {
+            "iterations": 0,
+            "unresolved": [],
+            "invalidBodies": []
+          },
+          "hazard": null,
+          "bossPattern": null,
+          "recentContacts": [],
+          "terminal": null
+        },
+        "loading": {
+          "roster": 0,
+          "rosterInstalls": 0,
+          "characters": 0,
+          "surfaces": false,
+          "uploadWarmup": false
+        },
+        "graphics": {
+          "version": 1,
+          "brightness": 1,
+          "impactShake": false
+        },
+        "camera": {
+          "position": [
+            -13.806108570767075,
+            5.460781254729291,
+            -61.244675462226986
+          ],
+          "direction": [
+            -0.6376359165717499,
+            -0.5054942221279168,
+            0.581288249746197
+          ],
+          "yaw": 2.31,
+          "pitch": 0.47,
+          "near": 0.1,
+          "fov": 55,
+          "aspect": 0.5987654320987654
+        },
+        "characterSources": {
+          "ash-knight": {
+            "url": "/assets/characters/v9/ash-knight-low.glb",
+            "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+            "tier": "low"
+          },
+          "lion-knight": {
+            "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+            "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+            "bytes": 3021932,
+            "textureCap": 1024,
+            "tier": "low"
+          }
+        }
+      },
+      "sha256": {
+        "corner-portrait.png": "6bd2f770544af1fae2de6b6ba166f80f51a8dd58b7a4f040f7ace7dedac40ce3",
+        "corner-portrait-dom.txt": "45fd1d8fdf811a19957d05ad25cdf97778c8263b94c7625e59d30b9bc9599089"
+      }
+    }
+  ]
+}

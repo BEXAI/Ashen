@@ -1,0 +1,96 @@
+[
+  {
+    "file": "center-review-sheet.jpg",
+    "frames": [
+      "01-center-eruption-start",
+      "02-center-escape-0",
+      "02-center-escape-4",
+      "03-center-escape-paused",
+      "04-center-cycle-10",
+      "04-center-cycle-11",
+      "04-center-cycle-12",
+      "04-center-cycle-15",
+      "04-center-cycle-20",
+      "04-center-cycle-22",
+      "04-center-cycle-25",
+      "04-center-cycle-26"
+    ],
+    "crop": [
+      18,
+      347,
+      1085,
+      969
+    ],
+    "note": "Unaltered screenshot scene crop/rescale; labels use preceding DOM sample, not exact screenshot clock. Row-major order."
+  },
+  {
+    "file": "west-preparation-review-sheet.jpg",
+    "frames": [
+      "10-west-preparation-00",
+      "10-west-preparation-03",
+      "10-west-preparation-05",
+      "10-west-preparation-07",
+      "10-west-preparation-09",
+      "10-west-preparation-11",
+      "10-west-preparation-13",
+      "10-west-preparation-15",
+      "10-west-preparation-17",
+      "10-west-preparation-20",
+      "10-west-preparation-22",
+      "10-west-preparation-23"
+    ],
+    "crop": [
+      18,
+      347,
+      1085,
+      969
+    ],
+    "note": "Unaltered screenshot scene crop/rescale; labels use preceding DOM sample, not exact screenshot clock. Row-major order."
+  },
+  {
+    "file": "wall-escape-review-sheet.jpg",
+    "frames": [
+      "11-west-warning-paused",
+      "12-west-escape-0",
+      "12-west-escape-4",
+      "13-west-escape-paused",
+      "14-wall-corner-eruption-escape-0",
+      "14-wall-corner-eruption-escape-1",
+      "14-wall-corner-eruption-escape-2",
+      "14-wall-corner-eruption-escape-3",
+      "14-wall-corner-eruption-escape-4",
+      "14-wall-corner-eruption-escape-5",
+      "14-wall-corner-eruption-escape-6",
+      "15-final-paused"
+    ],
+    "crop": [
+      18,
+      347,
+      1085,
+      969
+    ],
+    "note": "Unaltered screenshot scene crop/rescale; labels use preceding DOM sample, not exact screenshot clock. Row-major order."
+  },
+  {
+    "file": "inward-corner-review-sheet.jpg",
+    "frames": [
+      "18-inward-camera-paused",
+      "19-inward-warning-escape-0",
+      "19-inward-warning-escape-1",
+      "19-inward-warning-escape-2",
+      "19-inward-warning-escape-3",
+      "19-inward-warning-escape-4",
+      "19-inward-warning-escape-5",
+      "19-inward-warning-escape-6",
+      "19-inward-warning-escape-7",
+      "20-inward-final-paused"
+    ],
+    "crop": [
+      16,
+      312,
+      1040,
+      622
+    ],
+    "note": "Unaltered full-page screenshot scene/HUD crop and rescale, row-major order. DOM read precedes screenshot; timestamps do not identify exact captured animation frame."
+  }
+]

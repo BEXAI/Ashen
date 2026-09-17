@@ -1,0 +1,192 @@
+[
+  {
+    "name": "16-inward-approach-0",
+    "beforeAt": "2026-09-17T13:00:07.656Z",
+    "shotStart": "2026-09-17T13:00:07.675Z",
+    "shotEnd": "2026-09-17T13:00:07.762Z",
+    "tick": 1444,
+    "gameTime": 24.066666666666666,
+    "pattern": "sweep",
+    "phase": null
+  },
+  {
+    "name": "16-inward-approach-1",
+    "beforeAt": "2026-09-17T13:00:07.763Z",
+    "shotStart": "2026-09-17T13:00:07.773Z",
+    "shotEnd": "2026-09-17T13:00:07.855Z",
+    "tick": 1444,
+    "gameTime": 24.066666666666666,
+    "pattern": "sweep",
+    "phase": null
+  },
+  {
+    "name": "16-inward-approach-2",
+    "beforeAt": "2026-09-17T13:00:07.856Z",
+    "shotStart": "2026-09-17T13:00:07.866Z",
+    "shotEnd": "2026-09-17T13:00:07.962Z",
+    "tick": 1458,
+    "gameTime": 24.3,
+    "pattern": "sweep",
+    "phase": null
+  },
+  {
+    "name": "16-inward-approach-3",
+    "beforeAt": "2026-09-17T13:00:07.963Z",
+    "shotStart": "2026-09-17T13:00:07.974Z",
+    "shotEnd": "2026-09-17T13:00:08.064Z",
+    "tick": 1458,
+    "gameTime": 24.3,
+    "pattern": "sweep",
+    "phase": null
+  },
+  {
+    "name": "16-inward-approach-4",
+    "beforeAt": "2026-09-17T13:00:08.065Z",
+    "shotStart": "2026-09-17T13:00:08.090Z",
+    "shotEnd": "2026-09-17T13:00:08.161Z",
+    "tick": 1473,
+    "gameTime": 24.55,
+    "pattern": "sweep",
+    "phase": null
+  },
+  {
+    "name": "16-inward-approach-5",
+    "beforeAt": "2026-09-17T13:00:08.163Z",
+    "shotStart": "2026-09-17T13:00:08.171Z",
+    "shotEnd": "2026-09-17T13:00:08.262Z",
+    "tick": 1473,
+    "gameTime": 24.55,
+    "pattern": "sweep",
+    "phase": null
+  },
+  {
+    "name": "16-inward-approach-6",
+    "beforeAt": "2026-09-17T13:00:08.263Z",
+    "shotStart": "2026-09-17T13:00:08.276Z",
+    "shotEnd": "2026-09-17T13:00:08.373Z",
+    "tick": 1473,
+    "gameTime": 24.55,
+    "pattern": "sweep",
+    "phase": null
+  },
+  {
+    "name": "16-inward-approach-7",
+    "beforeAt": "2026-09-17T13:00:08.375Z",
+    "shotStart": "2026-09-17T13:00:08.389Z",
+    "shotEnd": "2026-09-17T13:00:08.470Z",
+    "tick": 1487,
+    "gameTime": 24.78333333333333,
+    "pattern": "sweep",
+    "phase": null
+  },
+  {
+    "name": "17-inward-camera-paused",
+    "beforeAt": "2026-09-17T13:00:23.584Z",
+    "shotStart": "2026-09-17T13:00:23.596Z",
+    "shotEnd": "2026-09-17T13:00:23.663Z",
+    "tick": 1537,
+    "gameTime": 25.616666666666667,
+    "pattern": null,
+    "phase": null
+  },
+  {
+    "name": "18-inward-camera-paused",
+    "beforeAt": "2026-09-17T13:00:54.517Z",
+    "shotStart": "2026-09-17T13:00:54.530Z",
+    "shotEnd": "2026-09-17T13:00:54.623Z",
+    "tick": 1560,
+    "gameTime": 26,
+    "pattern": "eruption",
+    "phase": "warning"
+  },
+  {
+    "name": "19-inward-warning-escape-0",
+    "beforeAt": "2026-09-17T13:01:19.157Z",
+    "shotStart": "2026-09-17T13:01:19.219Z",
+    "shotEnd": "2026-09-17T13:01:19.352Z",
+    "tick": 1587,
+    "gameTime": 26.45,
+    "pattern": "eruption",
+    "phase": "warning"
+  },
+  {
+    "name": "19-inward-warning-escape-1",
+    "beforeAt": "2026-09-17T13:01:19.353Z",
+    "shotStart": "2026-09-17T13:01:19.363Z",
+    "shotEnd": "2026-09-17T13:01:19.429Z",
+    "tick": 1597,
+    "gameTime": 26.616666666666667,
+    "pattern": "eruption",
+    "phase": "warning"
+  },
+  {
+    "name": "19-inward-warning-escape-2",
+    "beforeAt": "2026-09-17T13:01:19.430Z",
+    "shotStart": "2026-09-17T13:01:19.439Z",
+    "shotEnd": "2026-09-17T13:01:19.507Z",
+    "tick": 1597,
+    "gameTime": 26.616666666666667,
+    "pattern": "eruption",
+    "phase": "warning"
+  },
+  {
+    "name": "19-inward-warning-escape-3",
+    "beforeAt": "2026-09-17T13:01:19.508Z",
+    "shotStart": "2026-09-17T13:01:19.520Z",
+    "shotEnd": "2026-09-17T13:01:19.613Z",
+    "tick": 1597,
+    "gameTime": 26.616666666666667,
+    "pattern": "eruption",
+    "phase": "warning"
+  },
+  {
+    "name": "19-inward-warning-escape-4",
+    "beforeAt": "2026-09-17T13:01:19.613Z",
+    "shotStart": "2026-09-17T13:01:19.624Z",
+    "shotEnd": "2026-09-17T13:01:19.698Z",
+    "tick": 1611,
+    "gameTime": 26.849999999999998,
+    "pattern": "eruption",
+    "phase": "warning"
+  },
+  {
+    "name": "19-inward-warning-escape-5",
+    "beforeAt": "2026-09-17T13:01:19.699Z",
+    "shotStart": "2026-09-17T13:01:19.729Z",
+    "shotEnd": "2026-09-17T13:01:19.809Z",
+    "tick": 1611,
+    "gameTime": 26.849999999999998,
+    "pattern": "eruption",
+    "phase": "warning"
+  },
+  {
+    "name": "19-inward-warning-escape-6",
+    "beforeAt": "2026-09-17T13:01:19.809Z",
+    "shotStart": "2026-09-17T13:01:19.826Z",
+    "shotEnd": "2026-09-17T13:01:19.893Z",
+    "tick": 1627,
+    "gameTime": 27.116666666666667,
+    "pattern": "eruption",
+    "phase": "active"
+  },
+  {
+    "name": "19-inward-warning-escape-7",
+    "beforeAt": "2026-09-17T13:01:19.894Z",
+    "shotStart": "2026-09-17T13:01:19.902Z",
+    "shotEnd": "2026-09-17T13:01:19.985Z",
+    "tick": 1627,
+    "gameTime": 27.116666666666667,
+    "pattern": "eruption",
+    "phase": "active"
+  },
+  {
+    "name": "20-inward-final-paused",
+    "beforeAt": "2026-09-17T13:01:20.576Z",
+    "shotStart": "2026-09-17T13:01:20.584Z",
+    "shotEnd": "2026-09-17T13:01:20.649Z",
+    "tick": 1657,
+    "gameTime": 27.616666666666667,
+    "pattern": "eruption",
+    "phase": null
+  }
+]

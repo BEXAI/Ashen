@@ -1,0 +1,64 @@
+{
+  "diagnostics": {
+    "mechanics": {
+      "tick": 1207,
+      "gameTime": 20.116666666666667,
+      "droppedTime": 0,
+      "pendingCommands": 0,
+      "hitStop": 0,
+      "bodyPairs": {
+        "iterations": 0,
+        "unresolved": [],
+        "invalidBodies": []
+      },
+      "hazard": null,
+      "bossPattern": null,
+      "recentContacts": [],
+      "terminal": null
+    },
+    "loading": {
+      "roster": 0,
+      "rosterInstalls": 0,
+      "characters": 0,
+      "surfaces": false,
+      "uploadWarmup": false
+    },
+    "graphics": {
+      "version": 1,
+      "brightness": 1,
+      "impactShake": false
+    },
+    "camera": {
+      "position": [
+        -17.849998999999993,
+        5.460781254729292,
+        -66.21737499166028
+      ],
+      "direction": [
+        -4.775274380157329e-16,
+        -0.5054942221279175,
+        -0.8628299898562241
+      ],
+      "yaw": 0,
+      "pitch": 0.47,
+      "near": 0.1,
+      "fov": 55,
+      "aspect": 1.3906810035842294
+    },
+    "characterSources": {
+      "ash-knight": {
+        "url": "/assets/characters/v9/ash-knight-low.glb",
+        "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+        "tier": "low"
+      },
+      "lion-knight": {
+        "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+        "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+        "bytes": 3021932,
+        "textureCap": 1024,
+        "tier": "low"
+      }
+    }
+  },
+  "dom": "- main:\n  - paragraph: Development fixture · unsaved\n  - heading \"Battle mechanics lab\" [level=1]\n  - paragraph: Normal combat engine, normal damage and costs. No saved journey is loaded or written. Selecting a fixture or hero resets this local encounter.\n  - text: Fixture\n  - combobox \"Fixture\":\n    - option \"Entry · all enemies\"\n    - option \"Ogre duel\"\n    - option \"Goblin duel\"\n    - option \"Boss duel · unshielded\"\n    - option \"Boss duel · shielded fixture\"\n    - option \"Closed gate · no enemies\"\n    - option \"Bone Throne · no enemies\" [selected]\n    - option \"Cinder crowd · native spawns\"\n  - text: Hero\n  - combobox \"Hero\":\n    - option \"Lion Knight\" [selected]\n    - option \"Dusk Rogue\"\n    - option \"Ember Sage\"\n    - option \"Silver Knight\"\n    - option \"Green Ranger\"\n    - option \"Knife Rogue\"\n  - text: Quality\n  - combobox \"Quality\":\n    - option \"Low\" [selected]\n    - option \"Auto\"\n    - option \"High\"\n  - text: Layout\n  - combobox \"Layout\":\n    - option \"Desktop width\" [selected]\n    - option \"390 px portrait layout\"\n  - checkbox \"Impact shake\"\n  - text: Impact shake\n  - checkbox \"Sound\"\n  - text: Sound\n  - paragraph:\n    - strong: \"Actual fixture: Bone Throne · no enemies.\"\n    - text: All enemies are marked defeated and all seals opened only in this fixture. Start three units in front of the side Bone Throne.\n  - paragraph: \"Reduced motion: not requested by system. Impact shake is disabled by the engine when reduced motion is requested. Layout width does not emulate phone hardware.\"\n  - generic \"Ashen Realm 3D game world. Use W A S D to move, mouse drag to look, J to attack, Q for magic, E to interact.\"\n  - region \"Live combat HUD\":\n    - text: HP\n    - strong: 140.0 / 140\n    - text: Stamina\n    - strong: \"100.0\"\n    - text: Mana\n    - strong: \"100.0\"\n    - text: XZ\n    - strong: \"-17.850, -72.637\"\n    - text: Boss\n    - strong: —\n    - text: Dodge CD\n    - strong: \"0.00\"\n    - text: State\n    - strong: paused\n  - status: User paused. Gameplay and ordinary presentation are frozen.\n  - generic \"Session controls\":\n    - button \"Resume\" [active]\n    - button \"Reset fixture\"\n    - button \"Return to shrine\"\n    - button \"Focus game keyboard\" [disabled]\n  - group \"Normal combat input\":\n    - generic: Normal combat input\n    - button \"Strike · J\" [disabled]\n    - button \"Hold attack\" [disabled]\n    - button \"Dodge · Space · 25 stamina\" [disabled]\n    - button \"Cast · Q\" [disabled]\n    - button \"Heal · R\" [disabled]\n    - button \"Interact · E\" [disabled]\n  - group \"Camera-relative walking toggles\":\n    - generic: Camera-relative walking toggles\n    - button \"Walk forward\" [disabled]\n    - button \"Walk back\" [disabled]\n    - button \"Walk left\" [disabled]\n    - button \"Walk right\" [disabled]\n    - button \"Stop / release all\" [disabled]\n    - checkbox \"Sprint\" [disabled]\n    - text: Sprint\n  - paragraph: WASD / arrows also move after focusing the game canvas. Drag the canvas to turn the camera; mouse click strikes. Walking and hold buttons latch until stopped, paused, reset or the page loses focus. Keyboard focus in these controls does not trigger game shortcuts.\n  - generic \"Live mechanics · hazards · recent contacts\"\n  - generic \"Live mechanics diagnostics\": \"{ \\\"mechanics\\\": { \\\"tick\\\": 1207, \\\"gameTime\\\": 20.116666666666667, \\\"droppedTime\\\": 0, \\\"pendingCommands\\\": 0, \\\"hitStop\\\": 0, \\\"bodyPairs\\\": { \\\"iterations\\\": 0, \\\"unresolved\\\": [], \\\"invalidBodies\\\": [] }, \\\"hazard\\\": null, \\\"bossPattern\\\": null, \\\"recentContacts\\\": [], \\\"terminal\\\": null }, \\\"loading\\\": { \\\"roster\\\": 0, \\\"rosterInstalls\\\": 0, \\\"characters\\\": 0, \\\"surfaces\\\": false, \\\"uploadWarmup\\\": false }, \\\"graphics\\\": { \\\"version\\\": 1, \\\"brightness\\\": 1, \\\"impactShake\\\": false }, \\\"camera\\\": { \\\"position\\\": [ -17.849998999999993, 5.460781254729292, -66.21737499166028 ], \\\"direction\\\": [ -4.775274380157329e-16, -0.5054942221279175, -0.8628299898562241 ], \\\"yaw\\\": 0, \\\"pitch\\\": 0.47, \\\"near\\\": 0.1, \\\"fov\\\": 55, \\\"aspect\\\": 1.3906810035842294 }, \\\"characterSources\\\": { \\\"ash-knight\\\": { \\\"url\\\": \\\"/assets/characters/v9/ash-knight-low.glb\\\", \\\"sha256\\\": \\\"d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744\\\", \\\"tier\\\": \\\"low\\\" }, \\\"lion-knight\\\": { \\\"url\\\": \\\"/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb\\\", \\\"sha256\\\": \\\"d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7\\\", \\\"bytes\\\": 3021932, \\\"textureCap\\\": 1024, \\\"tier\\\": \\\"low\\\" } } }\"\n  - generic \"Engine events · no save handler\"\n  - generic \"Engine events\": \"[]\"\n  - generic \"Exact in-memory fixture setup\""
+}

@@ -1,0 +1,266 @@
+{
+  "createdAt": "2026-09-17T12:44:52.079Z",
+  "runtimeCommit": "4debae73c5f25a2da1e28d7a8d41389c8003b836",
+  "sourceHashes": {
+    "app/game/roster-assets.ts": "9424c89e9d5297f5ed52236f0468cdad4c5a897b92e609d0991831e2d7d5348e",
+    "app/game/roster-equipment.ts": "d74a1f95359d24879ea595f27dca1111102099d819297eb9871ac161c00f9534",
+    "app/game/roster-presentation.ts": "43a38bb668c6d0369dfc8ae3dcacab9ad9678c0fc1bd5a10940da41e70b567ed",
+    "app/game/combat-animation.ts": "baa708049dad380172e9b41be9409e9257bab1caa4e2d7dd4a7206dfeaecebdb",
+    "app/game/combat.ts": "58e5f245985fc2b8eb4ccc2dcc857230e5fb20413b75a2d60f107d2824c95f20",
+    "app/game/character-skins.ts": "c464aeb3ddf24b59ae53fc8723f82efab890aa263262f7bbad65861d58084fd9",
+    "app/game/world.ts": "9b273f3f124743e6dfe738e0e027d74ac66f3992f629ed0795e814d414043a54",
+    "app/game/boss-pose.ts": "48fb1dac475d2869506e54ecb283cd1990162e60a540ecb0d0ebd756db320134",
+    "app/game/death-presentation.ts": "2c79e1a4c13e34144e939609aa67848a5b3d797321666a3ff22dc2b91d7bb7cb"
+  },
+  "manifestSha256": "df0d0afaaf8519561ee28ed65d893a03af0478b8fb5c69a253729cc4bd04c3dc",
+  "method": "Current game functions sample installed runtime actor, including wrapper, grounding, embedded and runtime-added equipment. Visible deformed triangles are baked by Three getVertexPosition; all hierarchy matrices are applied. Base-color textures are extracted from original hashed GLB for an offline neutral-light Blender render. Not a browser PBR/performance test or continuous animation review.",
+  "models": [
+    {
+      "id": "silver-knight",
+      "tier": "hd",
+      "sha256": "e1e35106788437f6088e491fe47e1efd3920180ab9236436b8ad3f043e1d5405",
+      "evidence": "silver-knight-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "sage",
+      "tier": "hd",
+      "sha256": "5754ad3a887d5f2e306b004b0e921d6f6cf151f6e781b04e6d60b72f16fee524",
+      "evidence": "sage-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "frost-mage",
+      "tier": "hd",
+      "sha256": "aca28dd501da39af9ffc85bd4f5039eaa7517c9a23ad7ca179e7d055f69c40e6",
+      "evidence": "frost-mage-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "ranger",
+      "tier": "hd",
+      "sha256": "f42a3fcbc4ed9d8c8f6ba8253b164b8a13d7af93514a7e3aa7c8222c588f2be9",
+      "evidence": "ranger-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "dusk-rogue",
+      "tier": "hd",
+      "sha256": "6505fa0c91bb083bd980906d737da9b19cf8fe50f876ca426f9445acfeff1843",
+      "evidence": "dusk-rogue-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "skeleton-warrior",
+      "tier": "hd",
+      "sha256": "e705af58a5a3d72d71c4319359210f7059d9019cc4a48545ac4deaab99e3bd07",
+      "evidence": "skeleton-warrior-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "reaper",
+      "tier": "hd",
+      "sha256": "dd6f47ccff71dfa8ad7fe9e6e73920041840a0ea9cbda18e3b3d9a1eea61b36d",
+      "evidence": "reaper-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "golem",
+      "tier": "hd",
+      "sha256": "ee0568d9149267d9ab61bcb7c76fd744ab47ac43b1c5947919f9e3b44d6398aa",
+      "evidence": "golem-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "ember-dragon",
+      "tier": "hd",
+      "sha256": "03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85",
+      "evidence": "ember-dragon-hd/evidence.json",
+      "samples": 10
+    },
+    {
+      "id": "lich",
+      "tier": "hd",
+      "sha256": "518d50c6c6f058cb0ea26d8a38589d0f3877c92ed829317c738a2bfda50e785d",
+      "evidence": "lich-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "knife-rogue",
+      "tier": "hd",
+      "sha256": "ee544c8cec01ab549d37ebc52c917cc5d44dd643097e1e304414e9ecdf8efc75",
+      "evidence": "knife-rogue-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "shrouded-skeleton",
+      "tier": "hd",
+      "sha256": "8fd67a0d7308d1e6143ead61107dd58a467bb170f0dedf858f62732a50d38667",
+      "evidence": "shrouded-skeleton-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "lion-knight",
+      "tier": "hd",
+      "sha256": "1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50",
+      "evidence": "lion-knight-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "spider",
+      "tier": "hd",
+      "sha256": "f474a184942c23e8a677d11380081a63a9d587218a652f449e6022fda4248cc4",
+      "evidence": "spider-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "ogre",
+      "tier": "hd",
+      "sha256": "385a47b5e3b27d0203c8ce9e579006e00a8ec31a8fbb5982f4a8714bcd6d0954",
+      "evidence": "ogre-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "goblin",
+      "tier": "hd",
+      "sha256": "a7a4b2c7c4f99206345ae65f03f05a39a5eddcc34cc15a91a639ee088881a991",
+      "evidence": "goblin-hd/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "silver-knight",
+      "tier": "mobile",
+      "sha256": "68df4950c9fd42eb06ba956c583f143ed820a0701fb87426c95430a3c30085cd",
+      "evidence": "silver-knight-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "sage",
+      "tier": "mobile",
+      "sha256": "a197d091d6a3691c4383fc02aa10917cdc6d50a35f292e4581171b671dd60a42",
+      "evidence": "sage-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "frost-mage",
+      "tier": "mobile",
+      "sha256": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+      "evidence": "frost-mage-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "ranger",
+      "tier": "mobile",
+      "sha256": "e99ecb1e557455d927d825b7089d3b48652414284f7ccfce9fceed65857a029d",
+      "evidence": "ranger-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "dusk-rogue",
+      "tier": "mobile",
+      "sha256": "1628475edf810377585072547347a35a19fa3ad1b85b1b03df8c0b25de0f85bf",
+      "evidence": "dusk-rogue-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "skeleton-warrior",
+      "tier": "mobile",
+      "sha256": "4174baf5e4bf86a28a4229c89c0b56d4aef68fd2a72c9038c7487ba717eb9101",
+      "evidence": "skeleton-warrior-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "reaper",
+      "tier": "mobile",
+      "sha256": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+      "evidence": "reaper-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "golem",
+      "tier": "mobile",
+      "sha256": "dc8600e6546b04c3ea647550fc1319c2e3280b8529f885f8f279eebf3ffb26e3",
+      "evidence": "golem-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "ember-dragon",
+      "tier": "mobile",
+      "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+      "evidence": "ember-dragon-mobile/evidence.json",
+      "samples": 10
+    },
+    {
+      "id": "lich",
+      "tier": "mobile",
+      "sha256": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+      "evidence": "lich-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "knife-rogue",
+      "tier": "mobile",
+      "sha256": "57714f155f70ac2ad358e771150a536d53a2c733a7ff302081776494bc0917b8",
+      "evidence": "knife-rogue-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "shrouded-skeleton",
+      "tier": "mobile",
+      "sha256": "98b3faab258f36587daadc0fa2ecc6f0500d9f7a3b5a73cfedb2e8c569de6342",
+      "evidence": "shrouded-skeleton-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "lion-knight",
+      "tier": "mobile",
+      "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+      "evidence": "lion-knight-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "spider",
+      "tier": "mobile",
+      "sha256": "80f14f828811811e6a0ad80fe5026cca38714eafa41091c1256058056737471e",
+      "evidence": "spider-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "ogre",
+      "tier": "mobile",
+      "sha256": "b0e15300d4d35a02bcadcc50756a20361545ab4612f2605d9317e8160f491d27",
+      "evidence": "ogre-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "goblin",
+      "tier": "mobile",
+      "sha256": "c1e7a133a130caca6249c2bc7df245b9e46d8886dc5e1029d5b5421d363515bf",
+      "evidence": "goblin-mobile/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "fallback-hero",
+      "tier": "procedural",
+      "evidence": "fallback-hero-procedural/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "fallback-enemy",
+      "tier": "procedural",
+      "evidence": "fallback-enemy-procedural/evidence.json",
+      "samples": 8
+    },
+    {
+      "id": "fallback-boss",
+      "tier": "procedural",
+      "evidence": "fallback-boss-procedural/evidence.json",
+      "samples": 10
+    }
+  ],
+  "tools": {
+    "export-poses.mjs": "1fe96115616ce46c682f52ac6bbba6675c9b6216ef5401ffb30afb0e142eb025",
+    "render-poses.py": "1335fc20f570679e50ec0fa93041938f8005a0f8ac845483be85b2d650d4114d"
+  },
+  "reviewedSamples": 286
+}

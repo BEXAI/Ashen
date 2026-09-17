@@ -1,0 +1,4 @@
+													145 text Emulate CSS media feature prefers-reduced-motion Forces CSS prefers-reduced-motion media feature
+												146 pop up button Description: Emulate CSS media feature prefers-reduced-motion, Value: prefers-reduced-motion: reduce
+													147 (selected) prefers-reduced-motion: reduce
+The focused UI element is 146 pop up button Description: Emulate CSS media feature prefers-reduced-motion, Value: prefers-reduced-motion: reduce

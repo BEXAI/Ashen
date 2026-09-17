@@ -1,0 +1,53 @@
+- main:
+  - button:
+    - generic: "1"
+  - generic: Mechanics reload QA
+  - generic: 0 / 140
+  - progressbar
+  - progressbar
+  - progressbar
+  - generic: W
+  - generic: "N"
+  - generic: E
+  - generic: ◇
+  - paragraph: THE THRESHOLD
+  - button:
+  - text: "0"
+  - button:
+  - paragraph: DUNGEON OBJECTIVE
+  - heading [level=2]: A dying flame
+  - paragraph: Speak to the Keeper at the campfire.
+  - text: 9 m
+  - button:
+    - generic: J
+    - generic: Strike
+  - button:
+    - generic: Q
+    - generic: Ember pulse
+  - button:
+    - generic: SPACE
+    - generic: Dodge
+  - button:
+    - text: R
+    - generic: · 3
+    - generic: Crimson flask
+  - button:
+    - generic: I
+    - generic: Journal
+  - generic: W A S D
+  - text: Move
+  - generic: ·
+  - text: Drag to look
+  - button:
+    - text: Guest journey saved
+  - button:
+  - button:
+- dialog "Your ember still burns":
+  - text: ASHEN REALM
+  - heading "Your ember still burns" [level=2]
+  - paragraph: Rise again at your last resting place.
+  - paragraph:
+    - text: The dungeon has not claimed your ember.
+    - text: Your level, loot, and quest progress remain.
+  - button "Rise from the ashes" [active]:
+    - text: Rise from the ashes

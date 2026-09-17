@@ -1,0 +1,134 @@
+{
+  "mechanics": {
+    "tick": 438,
+    "gameTime": 7.3,
+    "droppedTime": 0,
+    "pendingCommands": 0,
+    "hitStop": 0,
+    "bodyPairs": {
+      "iterations": 0,
+      "unresolved": [],
+      "invalidBodies": []
+    },
+    "hazard": {
+      "id": "4:floor",
+      "ownerId": "king",
+      "actionId": "4",
+      "kind": "eruption",
+      "center": {
+        "x": 8.416825079974991e-16,
+        "z": -67.36056971784218
+      },
+      "radius": 1.2,
+      "damageMultiplier": 1,
+      "startedAt": 6.7,
+      "warningEndsAt": 7.7,
+      "activeEndsAt": 8.05,
+      "gameTime": 7.3,
+      "phase": "warning",
+      "warningProgress": 0.5999999999999996,
+      "activeProgress": 0,
+      "pulseEmitted": false
+    },
+    "bossPattern": "eruption",
+    "recentContacts": [
+      {
+        "tick": 199,
+        "id": "2:hero",
+        "actionId": 2,
+        "attackerId": "king",
+        "targetId": "hero",
+        "time": 3.3135416665854165,
+        "kind": "melee",
+        "outcome": "damaged",
+        "healthDelta": 27,
+        "point": {
+          "x": 0.2284786192129371,
+          "y": 1.7854975659785572,
+          "z": -67.05100085229829
+        },
+        "direction": {
+          "x": 6.859079041378759e-16,
+          "z": 1.3364583334145834
+        },
+        "stagger": 0,
+        "interrupted": false,
+        "lethal": false
+      },
+      {
+        "tick": 331,
+        "id": "3:hero",
+        "actionId": 3,
+        "attackerId": "king",
+        "targetId": "hero",
+        "time": 5.5,
+        "kind": "hazard",
+        "outcome": "damaged",
+        "healthDelta": 34,
+        "point": {
+          "x": 7.903597379547596e-16,
+          "y": 0.2,
+          "z": -67.46056964976276
+        },
+        "direction": {
+          "x": 7.11738469492323e-16,
+          "z": 1.3867879390606532
+        },
+        "stagger": 0,
+        "interrupted": false,
+        "lethal": false
+      }
+    ],
+    "terminal": null
+  },
+  "loading": {
+    "roster": 0,
+    "rosterInstalls": 0,
+    "characters": 0,
+    "surfaces": false,
+    "uploadWarmup": false
+  },
+  "graphics": {
+    "version": 1,
+    "brightness": 1,
+    "impactShake": false
+  },
+  "camera": {
+    "position": [
+      5.746435836999211e-16,
+      5.8107812547293705,
+      -61.46159045441803
+    ],
+    "direction": [
+      -1.5737226421795436e-21,
+      -0.5054928847337746,
+      -0.8628307733753628
+    ],
+    "yaw": 0,
+    "pitch": 0.47,
+    "near": 0.1,
+    "fov": 55,
+    "aspect": 1.3906810035842294
+  },
+  "characterSources": {
+    "ash-knight": {
+      "url": "/assets/characters/v9/ash-knight-low.glb",
+      "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+      "tier": "low"
+    },
+    "lion-knight": {
+      "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+      "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+      "bytes": 3021932,
+      "textureCap": 1024,
+      "tier": "low"
+    },
+    "ember-dragon": {
+      "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb",
+      "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+      "bytes": 3350040,
+      "textureCap": 1024,
+      "tier": "low"
+    }
+  }
+}

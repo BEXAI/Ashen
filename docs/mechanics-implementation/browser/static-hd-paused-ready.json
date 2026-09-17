@@ -1,0 +1,613 @@
+{
+  "method": "Ordinary Visual Lab view and quality controls; never clicked Animate or Start measurement.",
+  "camera": {
+    "position": [
+      2.9,
+      2.25,
+      45
+    ],
+    "direction": [
+      -0.5794208685525328,
+      -0.15984023960069874,
+      0.7992011980034939
+    ],
+    "yaw": 0,
+    "pitch": 0.47,
+    "near": 0.1,
+    "fov": 55,
+    "aspect": 2.055793991416309
+  },
+  "mechanics": {
+    "tick": 0,
+    "gameTime": 0,
+    "droppedTime": 0,
+    "pendingCommands": 0,
+    "hitStop": 0,
+    "bodyPairs": {
+      "iterations": 0,
+      "unresolved": [],
+      "invalidBodies": []
+    },
+    "hazard": null,
+    "bossPattern": null,
+    "recentContacts": [],
+    "terminal": null
+  },
+  "sourceRevision": "local-uncommitted",
+  "scenario": "character",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "coarsePointer": false,
+    "mobileRenderingProfile": false,
+    "profileOverride": "detected device",
+    "devicePixelRatio": 1,
+    "viewport": [
+      1280,
+      720
+    ],
+    "hardwareClaim": "unverified browser environment"
+  },
+  "assetVersions": {
+    "roster": "september-8-roster-recovered-v1",
+    "characters": "visual-v11",
+    "dungeon": "visual-v13-architecture",
+    "props": "props-v2",
+    "shrine": null,
+    "architecture": "props-v2",
+    "throne": null
+  },
+  "lights": {
+    "slots": 6,
+    "active": 3,
+    "sourceIndices": [
+      10,
+      0,
+      1
+    ],
+    "shadowKey": 10
+  },
+  "renderTargets": [
+    {
+      "width": 3840,
+      "height": 1867,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 57354240,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 3840,
+      "height": 1867,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 57354240,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 1920,
+      "height": 933,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 14330880,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 1920,
+      "height": 933,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 14330880,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 1920,
+      "height": 933,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 14330880,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 1920,
+      "height": 934,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 14346240,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 960,
+      "height": 467,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 3586560,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 480,
+      "height": 234,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 898560,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 240,
+      "height": 117,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 224640,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 120,
+      "height": 59,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 56640,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 1920,
+      "height": 934,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 14346240,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 960,
+      "height": 467,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 3586560,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 480,
+      "height": 234,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 898560,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 240,
+      "height": 117,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 224640,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 120,
+      "height": 59,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 56640,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 1920,
+      "height": 934,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 14346240,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 6291456,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 768,
+      "height": 768,
+      "textures": 1,
+      "type": 1016,
+      "estimatedColorBytes": 4718592,
+      "depthBuffer": true,
+      "samples": 0
+    },
+    {
+      "width": 2048,
+      "height": 2048,
+      "textures": 1,
+      "type": 1009,
+      "estimatedColorBytes": 16777216,
+      "depthBuffer": true,
+      "samples": 0
+    }
+  ],
+  "renderTargetCaveat": "Color attachments estimate only; depth/stencil, MSAA, driver storage and transient upload allocations are not measured.",
+  "quality": "high",
+  "exposure": 1.35,
+  "output": [
+    3840,
+    1867
+  ],
+  "mainDraws": 16,
+  "mainTriangles": 174739,
+  "totalDraws": 114,
+  "totalTriangles": 823567,
+  "timing": {
+    "sequence": 8,
+    "reason": "quality:high",
+    "samplesRetained": 8,
+    "steadyObservationDurationMs": 0,
+    "framePacerIntervalMs": {
+      "samples": 0,
+      "p50": null,
+      "p95": null,
+      "p99": null,
+      "stallsOver100Ms": 0
+    },
+    "rafIntervalBeforeRenderedFramesMs": {
+      "samples": 0,
+      "p50": null,
+      "p95": null,
+      "p99": null,
+      "stallsOver100Ms": 0
+    },
+    "cpuSubmissionMs": {
+      "samples": 0,
+      "p50": null,
+      "p95": null,
+      "p99": null,
+      "stallsOver100Ms": 0
+    },
+    "gpuTimeMs": null,
+    "gpuTimingStatus": "unavailable: no GPU timer query collected",
+    "classes": {
+      "steady": {
+        "samples": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "stallsOver100Ms": 0
+      },
+      "loading": {
+        "samples": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "stallsOver100Ms": 0
+      },
+      "warmup": {
+        "samples": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "stallsOver100Ms": 0
+      },
+      "paused": {
+        "samples": 8,
+        "p50": 41.900000000001455,
+        "p95": 167.09999999999854,
+        "p99": 167.09999999999854,
+        "stallsOver100Ms": 3
+      },
+      "hit-pause": {
+        "samples": 0,
+        "p50": null,
+        "p95": null,
+        "p99": null,
+        "stallsOver100Ms": 0
+      }
+    },
+    "method": "rAF interval is the callback immediately preceding each rendered frame (skipped callbacks are not retained); paced interval is between rendered frames; performance.now around simulation and CPU render submission. CPU submission is not GPU execution.",
+    "renderState": {
+      "capacity": 600,
+      "observedRenderedFrames": 9,
+      "samplesRetained": 3,
+      "samplesCaptured": 3,
+      "samplesEvicted": 0,
+      "firstRetainedAtMs": 165.10000000149012,
+      "lastRetainedAtMs": 960.6000000014901,
+      "counterHighWater": {
+        "mainDraws": {
+          "value": 16,
+          "atMs": 165.10000000149012
+        },
+        "mainTriangles": {
+          "value": 174739,
+          "atMs": 165.10000000149012
+        },
+        "totalDraws": {
+          "value": 114,
+          "atMs": 165.10000000149012
+        },
+        "totalTriangles": {
+          "value": 823567,
+          "atMs": 165.10000000149012
+        },
+        "rendererGeometries": {
+          "value": 527,
+          "atMs": 165.10000000149012
+        },
+        "rendererTextures": {
+          "value": 54,
+          "atMs": 165.10000000149012
+        },
+        "rendererPrograms": {
+          "value": 60,
+          "atMs": 165.10000000149012
+        },
+        "drawingBufferWidth": {
+          "value": 3840,
+          "atMs": 165.10000000149012
+        },
+        "drawingBufferHeight": {
+          "value": 1867,
+          "atMs": 165.10000000149012
+        },
+        "drawingBufferPixels": {
+          "value": 7169280,
+          "atMs": 165.10000000149012
+        }
+      },
+      "sampledEstimateHighWater": {
+        "sceneGeometries": {
+          "value": 564,
+          "atMs": 165.10000000149012
+        },
+        "sceneTextureObjects": {
+          "value": 47,
+          "atMs": 165.10000000149012
+        },
+        "sceneTextureSources": {
+          "value": 34,
+          "atMs": 165.10000000149012
+        },
+        "estimatedTextureStorageGroups": {
+          "value": 34,
+          "atMs": 165.10000000149012
+        },
+        "estimatedSceneBufferBytes": {
+          "value": 36842384,
+          "atMs": 165.10000000149012
+        },
+        "estimatedAssetTextureBytes": {
+          "value": 403709962.66666657,
+          "atMs": 960.6000000014901
+        },
+        "unknownTextureStorageGroups": {
+          "value": 0,
+          "atMs": 165.10000000149012
+        }
+      },
+      "lastObservedCounters": {
+        "mainDraws": 16,
+        "mainTriangles": 174739,
+        "totalDraws": 114,
+        "totalTriangles": 823567,
+        "rendererGeometries": 525,
+        "rendererTextures": 52,
+        "rendererPrograms": 57,
+        "drawingBufferWidth": 3840,
+        "drawingBufferHeight": 1867,
+        "drawingBufferPixels": 7169280
+      },
+      "sampling": "At most one periodic snapshot per second of rendered work; real state-change snapshots throttled to 250ms. No catch-up samples during suspend/pause. Counter high-water values observe every rendered frame; scene estimates observe retained snapshots only.",
+      "interpretation": "rendererGeometries/textures/programs are renderer-tracked resource counts, not GPU memory bytes. Texture objects and Sources are counted separately; texture byte estimates deduplicate matching Source identity plus the installed Three WebGLTextures upload/sampling cache key. Scene buffer/asset texture bytes are estimates of scene-referenced data, exclude detached caches, driver/transient allocations and render-target attachments. Character LOD counts describe groups marked visible, not independent GPU visibility queries. Main/total draw and triangle counts are the existing render counters. GPU timing is unavailable; no physical-device claim is inferred."
+    }
+  },
+  "textures": 46,
+  "geometryBytes": 36840980,
+  "estimatedAssetTextureMiB": 385.01,
+  "resourceEstimate": {
+    "sceneGeometries": 564,
+    "sceneTextureObjects": 46,
+    "sceneTextureSources": 33,
+    "estimatedTextureStorageGroups": 33,
+    "estimatedSceneBufferBytes": 36840980,
+    "estimatedAssetTextureBytes": 403709962.66666657,
+    "unknownTextureStorageGroups": 0
+  },
+  "gpuResources": {
+    "geometries": 525,
+    "textures": 52
+  },
+  "caveat": "Asset texture estimates exclude render targets (listed separately), decoded images and driver allocations; these are not total GPU memory. Desktop or resized browser results are not physical phone measurements.",
+  "characters": {
+    "ash-knight": "ready: compressed",
+    "lion-knight": "ready",
+    "goblin": "ready",
+    "skeleton-warrior": "ready"
+  },
+  "characterSources": {
+    "ash-knight": {
+      "url": "/assets/characters/v9/ash-knight-high.glb",
+      "sha256": "592232af7ace4e25fdfe2a085f46e4029f8bb8efa1e7e515cc494310e59bb5db",
+      "tier": "high"
+    },
+    "lion-knight": {
+      "url": "/assets/roster/recovered-2026-09-17/lion-knight.hd.glb",
+      "sha256": "1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50",
+      "bytes": 7172864,
+      "textureCap": 2048,
+      "tier": "hd"
+    },
+    "goblin": {
+      "url": "/assets/roster/recovered-2026-09-17/goblin.hd.glb",
+      "sha256": "a7a4b2c7c4f99206345ae65f03f05a39a5eddcc34cc15a91a639ee088881a991",
+      "bytes": 3756112,
+      "textureCap": 2048,
+      "tier": "hd"
+    },
+    "skeleton-warrior": {
+      "url": "/assets/roster/recovered-2026-09-17/skeleton-warrior.hd.glb",
+      "sha256": "e705af58a5a3d72d71c4319359210f7059d9019cc4a48545ac4deaab99e3bd07",
+      "bytes": 3910956,
+      "textureCap": 2048,
+      "tier": "hd"
+    }
+  },
+  "characterLods": [
+    {
+      "skin": "lion-knight",
+      "lod": 0
+    },
+    {
+      "skin": "ash-knight",
+      "lod": 0
+    },
+    {
+      "skin": "goblin",
+      "lod": 0
+    },
+    {
+      "skin": "skeleton-warrior",
+      "lod": 0
+    },
+    {
+      "skin": "shrouded-skeleton",
+      "lod": "procedural"
+    },
+    {
+      "skin": "spider",
+      "lod": "procedural"
+    },
+    {
+      "skin": "frost-mage",
+      "lod": "procedural"
+    },
+    {
+      "skin": "ogre",
+      "lod": "procedural"
+    },
+    {
+      "skin": "golem",
+      "lod": "procedural"
+    },
+    {
+      "skin": "reaper",
+      "lod": "procedural"
+    },
+    {
+      "skin": "lich",
+      "lod": "procedural"
+    },
+    {
+      "skin": "ember-dragon",
+      "lod": "procedural"
+    }
+  ],
+  "streaming": {
+    "version": "visual-v13-architecture",
+    "loaded": [
+      "entry",
+      "cinder",
+      "passage-0",
+      "passage-1"
+    ],
+    "pending": []
+  },
+  "props": {
+    "enabled": true,
+    "state": "ready: compressed",
+    "version": "props-v2",
+    "sourceProject": "21434c15-bdde-4abd-bcb9-62098cae463a",
+    "sourceRevision": 1,
+    "instances": 1,
+    "residentInstances": 10,
+    "draws": 2,
+    "triangles": 1504,
+    "visibleLods": [
+      1,
+      0,
+      0
+    ]
+  },
+  "shrine": {
+    "enabled": true,
+    "state": "unloaded",
+    "version": null,
+    "sourceProject": null,
+    "sourceRevision": null,
+    "instances": 0,
+    "visibleInstances": 0,
+    "draws": 0,
+    "triangles": 0,
+    "budgetDraws": 2,
+    "budgetTriangles": 5936,
+    "visibleLods": [
+      0,
+      0,
+      0
+    ]
+  },
+  "architecture": {
+    "enabled": true,
+    "state": "ready: compressed",
+    "version": "props-v2",
+    "sourceProject": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+    "sourceRevision": 1,
+    "residentInstances": 11,
+    "instances": 0,
+    "draws": 0,
+    "triangles": 0,
+    "lods": {
+      "Arch": -1,
+      "Pillar": -1,
+      "Trim": -1
+    },
+    "budgetLimited": false
+  },
+  "throne": {
+    "enabled": true,
+    "state": "unloaded",
+    "fallback": false,
+    "version": null,
+    "sourceProject": null,
+    "sourceRevision": null,
+    "instances": 0,
+    "residentInstances": 0,
+    "draws": 0,
+    "triangles": 0
+  },
+  "environmentProps": {
+    "drawsUpperBound": 2,
+    "trianglesUpperBound": 1504,
+    "drawBudget": 10,
+    "triangleBudget": 25000
+  },
+  "transientAssetOverlap": {
+    "replacementLoads": 1,
+    "lastOldAndNewDownloadBytes": 6881540,
+    "allocationStatus": "Decoded images and upload peak unmeasured"
+  },
+  "loading": {
+    "roster": 0,
+    "rosterInstalls": 0,
+    "characters": 0,
+    "surfaces": false,
+    "uploadWarmup": false
+  },
+  "graphics": {
+    "version": 1,
+    "brightness": 1,
+    "impactShake": false
+  },
+  "adaptive": null
+}

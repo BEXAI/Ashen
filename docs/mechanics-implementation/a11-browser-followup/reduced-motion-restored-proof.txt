@@ -1,0 +1,4 @@
+													145 text Emulate CSS media feature prefers-reduced-motion Forces CSS prefers-reduced-motion media feature
+												146 pop up button Description: Emulate CSS media feature prefers-reduced-motion, Value: No emulation
+						193 text Only the Hollow King is alive. All three shrines are awakened; all seals are open. Reduced motion:  not requested by system . Impact shake is disabled by the engine when reduced motion is requested. Layout width does not emulate phone hardware.
+The focused UI element is 146 pop up button Description: Emulate CSS media feature prefers-reduced-motion, Value: No emulation

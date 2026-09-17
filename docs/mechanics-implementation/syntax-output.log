@@ -2,4 +2,4 @@
 > site-creator-vinext-starter@0.1.0 check:syntax
 > node scripts/check-syntax.mjs
 
-Syntax checked 125 source files and 22 compiled JavaScript modules.
+Syntax checked 132 source files and 21 compiled JavaScript modules.

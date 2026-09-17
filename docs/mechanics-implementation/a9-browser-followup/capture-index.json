@@ -1,0 +1,1343 @@
+{
+  "tabId": "1279249676",
+  "browser": "Chrome extension",
+  "runtime": "4debae7",
+  "normalMotion": true,
+  "quality": "Low",
+  "note": "Visible UI actions only. DOM diagnostics precede screenshots and refresh every250ms; screenshot timestamps bound capture, not exact simulation correspondence. 06/07/08/09 viewport clips can omit upper scene after UI scroll; use full-page captures10onward for near-wall pose review.",
+  "captures": [
+    {
+      "name": "00-center-paused-start",
+      "beforeAt": "2026-09-17T12:44:28.527Z",
+      "shotStart": "2026-09-17T12:44:28.548Z",
+      "shotEnd": "2026-09-17T12:44:28.686Z",
+      "tick": 0,
+      "time": 0,
+      "pattern": null
+    },
+    {
+      "name": "01-center-eruption-start",
+      "beforeAt": "2026-09-17T12:44:54.164Z",
+      "shotStart": "2026-09-17T12:44:54.193Z",
+      "shotEnd": "2026-09-17T12:44:54.299Z",
+      "tick": 7,
+      "time": 0.11666666666666667,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.11666666666666667
+    },
+    {
+      "name": "02-center-escape-0",
+      "beforeAt": "2026-09-17T12:44:54.624Z",
+      "shotStart": "2026-09-17T12:44:54.635Z",
+      "shotEnd": "2026-09-17T12:44:54.696Z",
+      "tick": 38,
+      "time": 0.6333333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.6333333333333333
+    },
+    {
+      "name": "02-center-escape-1",
+      "beforeAt": "2026-09-17T12:44:54.697Z",
+      "shotStart": "2026-09-17T12:44:54.704Z",
+      "shotEnd": "2026-09-17T12:44:54.760Z",
+      "tick": 38,
+      "time": 0.6333333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.6333333333333333
+    },
+    {
+      "name": "02-center-escape-2",
+      "beforeAt": "2026-09-17T12:44:54.761Z",
+      "shotStart": "2026-09-17T12:44:54.767Z",
+      "shotEnd": "2026-09-17T12:44:54.818Z",
+      "tick": 38,
+      "time": 0.6333333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.6333333333333333
+    },
+    {
+      "name": "02-center-escape-3",
+      "beforeAt": "2026-09-17T12:44:54.819Z",
+      "shotStart": "2026-09-17T12:44:54.826Z",
+      "shotEnd": "2026-09-17T12:44:54.879Z",
+      "tick": 38,
+      "time": 0.6333333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.6333333333333333
+    },
+    {
+      "name": "02-center-escape-4",
+      "beforeAt": "2026-09-17T12:44:54.880Z",
+      "shotStart": "2026-09-17T12:44:54.889Z",
+      "shotEnd": "2026-09-17T12:44:54.945Z",
+      "tick": 51,
+      "time": 0.85,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.85
+    },
+    {
+      "name": "02-center-escape-5",
+      "beforeAt": "2026-09-17T12:44:54.945Z",
+      "shotStart": "2026-09-17T12:44:54.957Z",
+      "shotEnd": "2026-09-17T12:44:55.011Z",
+      "tick": 51,
+      "time": 0.85,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.85
+    },
+    {
+      "name": "02-center-escape-6",
+      "beforeAt": "2026-09-17T12:44:55.012Z",
+      "shotStart": "2026-09-17T12:44:55.019Z",
+      "shotEnd": "2026-09-17T12:44:55.080Z",
+      "tick": 51,
+      "time": 0.85,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.85
+    },
+    {
+      "name": "03-center-escape-paused",
+      "beforeAt": "2026-09-17T12:44:55.667Z",
+      "shotStart": "2026-09-17T12:44:55.675Z",
+      "shotEnd": "2026-09-17T12:44:55.728Z",
+      "tick": 82,
+      "time": 1.3666666666666667,
+      "pattern": "eruption"
+    },
+    {
+      "name": "04-center-cycle-00",
+      "beforeAt": "2026-09-17T12:45:29.743Z",
+      "shotStart": "2026-09-17T12:45:29.752Z",
+      "shotEnd": "2026-09-17T12:45:30.201Z",
+      "tick": 97,
+      "time": 1.6166666666666667,
+      "pattern": "eruption"
+    },
+    {
+      "name": "04-center-cycle-01",
+      "beforeAt": "2026-09-17T12:45:30.406Z",
+      "shotStart": "2026-09-17T12:45:30.423Z",
+      "shotEnd": "2026-09-17T12:45:30.938Z",
+      "tick": 130,
+      "time": 2.1666666666666665,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-02",
+      "beforeAt": "2026-09-17T12:45:30.993Z",
+      "shotStart": "2026-09-17T12:45:31.000Z",
+      "shotEnd": "2026-09-17T12:45:31.063Z",
+      "tick": 134,
+      "time": 2.2333333333333334,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-03",
+      "beforeAt": "2026-09-17T12:45:31.117Z",
+      "shotStart": "2026-09-17T12:45:32.085Z",
+      "shotEnd": "2026-09-17T12:45:33.204Z",
+      "tick": 155,
+      "time": 2.5833333333333335,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-04",
+      "beforeAt": "2026-09-17T12:45:33.413Z",
+      "shotStart": "2026-09-17T12:45:33.439Z",
+      "shotEnd": "2026-09-17T12:45:33.529Z",
+      "tick": 184,
+      "time": 3.0666666666666664,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-05",
+      "beforeAt": "2026-09-17T12:45:33.580Z",
+      "shotStart": "2026-09-17T12:45:33.586Z",
+      "shotEnd": "2026-09-17T12:45:33.631Z",
+      "tick": 184,
+      "time": 3.0666666666666664,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-06",
+      "beforeAt": "2026-09-17T12:45:33.676Z",
+      "shotStart": "2026-09-17T12:45:33.709Z",
+      "shotEnd": "2026-09-17T12:45:34.099Z",
+      "tick": 198,
+      "time": 3.3,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-07",
+      "beforeAt": "2026-09-17T12:45:34.140Z",
+      "shotStart": "2026-09-17T12:45:34.156Z",
+      "shotEnd": "2026-09-17T12:45:34.418Z",
+      "tick": 215,
+      "time": 3.5833333333333335,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-08",
+      "beforeAt": "2026-09-17T12:45:34.464Z",
+      "shotStart": "2026-09-17T12:45:34.472Z",
+      "shotEnd": "2026-09-17T12:45:34.531Z",
+      "tick": 230,
+      "time": 3.8333333333333335,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-09",
+      "beforeAt": "2026-09-17T12:45:34.583Z",
+      "shotStart": "2026-09-17T12:45:34.661Z",
+      "shotEnd": "2026-09-17T12:45:34.838Z",
+      "tick": 230,
+      "time": 3.8333333333333335,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-10",
+      "beforeAt": "2026-09-17T12:45:35.875Z",
+      "shotStart": "2026-09-17T12:45:36.068Z",
+      "shotEnd": "2026-09-17T12:45:36.172Z",
+      "tick": 267,
+      "time": 4.45,
+      "pattern": "sweep"
+    },
+    {
+      "name": "04-center-cycle-11",
+      "beforeAt": "2026-09-17T12:45:36.357Z",
+      "shotStart": "2026-09-17T12:45:36.378Z",
+      "shotEnd": "2026-09-17T12:45:36.612Z",
+      "tick": 288,
+      "time": 4.8,
+      "pattern": "sweep"
+    },
+    {
+      "name": "04-center-cycle-12",
+      "beforeAt": "2026-09-17T12:45:36.691Z",
+      "shotStart": "2026-09-17T12:45:36.700Z",
+      "shotEnd": "2026-09-17T12:45:36.807Z",
+      "tick": 311,
+      "time": 5.183333333333334,
+      "pattern": "sweep"
+    },
+    {
+      "name": "04-center-cycle-13",
+      "beforeAt": "2026-09-17T12:45:36.896Z",
+      "shotStart": "2026-09-17T12:45:36.902Z",
+      "shotEnd": "2026-09-17T12:45:36.958Z",
+      "tick": 327,
+      "time": 5.45,
+      "pattern": "sweep"
+    },
+    {
+      "name": "04-center-cycle-14",
+      "beforeAt": "2026-09-17T12:45:37.009Z",
+      "shotStart": "2026-09-17T12:45:37.030Z",
+      "shotEnd": "2026-09-17T12:45:37.093Z",
+      "tick": 327,
+      "time": 5.45,
+      "pattern": "sweep"
+    },
+    {
+      "name": "04-center-cycle-15",
+      "beforeAt": "2026-09-17T12:45:37.163Z",
+      "shotStart": "2026-09-17T12:45:37.172Z",
+      "shotEnd": "2026-09-17T12:45:37.233Z",
+      "tick": 343,
+      "time": 5.716666666666667,
+      "pattern": "sweep"
+    },
+    {
+      "name": "04-center-cycle-16",
+      "beforeAt": "2026-09-17T12:45:37.287Z",
+      "shotStart": "2026-09-17T12:45:37.298Z",
+      "shotEnd": "2026-09-17T12:45:37.365Z",
+      "tick": 343,
+      "time": 5.716666666666667,
+      "pattern": "sweep"
+    },
+    {
+      "name": "04-center-cycle-17",
+      "beforeAt": "2026-09-17T12:45:37.417Z",
+      "shotStart": "2026-09-17T12:45:37.431Z",
+      "shotEnd": "2026-09-17T12:45:37.501Z",
+      "tick": 357,
+      "time": 5.95,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-18",
+      "beforeAt": "2026-09-17T12:45:37.569Z",
+      "shotStart": "2026-09-17T12:45:37.577Z",
+      "shotEnd": "2026-09-17T12:45:37.634Z",
+      "tick": 357,
+      "time": 5.95,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-19",
+      "beforeAt": "2026-09-17T12:45:37.730Z",
+      "shotStart": "2026-09-17T12:45:37.739Z",
+      "shotEnd": "2026-09-17T12:45:37.822Z",
+      "tick": 371,
+      "time": 6.183333333333334,
+      "pattern": null
+    },
+    {
+      "name": "04-center-cycle-20",
+      "beforeAt": "2026-09-17T12:45:37.902Z",
+      "shotStart": "2026-09-17T12:45:37.915Z",
+      "shotEnd": "2026-09-17T12:45:37.988Z",
+      "tick": 387,
+      "time": 6.45,
+      "pattern": "slam",
+      "phase": "warning",
+      "warningProgress": 0.24242424242424235
+    },
+    {
+      "name": "04-center-cycle-21",
+      "beforeAt": "2026-09-17T12:45:38.044Z",
+      "shotStart": "2026-09-17T12:45:38.050Z",
+      "shotEnd": "2026-09-17T12:45:38.120Z",
+      "tick": 387,
+      "time": 6.45,
+      "pattern": "slam",
+      "phase": "warning",
+      "warningProgress": 0.24242424242424235
+    },
+    {
+      "name": "04-center-cycle-22",
+      "beforeAt": "2026-09-17T12:45:38.179Z",
+      "shotStart": "2026-09-17T12:45:38.187Z",
+      "shotEnd": "2026-09-17T12:45:38.257Z",
+      "tick": 401,
+      "time": 6.683333333333334,
+      "pattern": "slam",
+      "phase": "warning",
+      "warningProgress": 0.45454545454545453
+    },
+    {
+      "name": "04-center-cycle-23",
+      "beforeAt": "2026-09-17T12:45:38.304Z",
+      "shotStart": "2026-09-17T12:45:38.312Z",
+      "shotEnd": "2026-09-17T12:45:38.382Z",
+      "tick": 401,
+      "time": 6.683333333333334,
+      "pattern": "slam",
+      "phase": "warning",
+      "warningProgress": 0.45454545454545453
+    },
+    {
+      "name": "04-center-cycle-24",
+      "beforeAt": "2026-09-17T12:45:38.447Z",
+      "shotStart": "2026-09-17T12:45:38.480Z",
+      "shotEnd": "2026-09-17T12:45:38.763Z",
+      "tick": 417,
+      "time": 6.95,
+      "pattern": "slam",
+      "phase": "warning",
+      "warningProgress": 0.6969696969696969
+    },
+    {
+      "name": "04-center-cycle-25",
+      "beforeAt": "2026-09-17T12:45:38.818Z",
+      "shotStart": "2026-09-17T12:45:38.827Z",
+      "shotEnd": "2026-09-17T12:45:38.883Z",
+      "tick": 429,
+      "time": 7.1499999999999995,
+      "pattern": "slam",
+      "phase": "warning",
+      "warningProgress": 0.878787878787878
+    },
+    {
+      "name": "04-center-cycle-26",
+      "beforeAt": "2026-09-17T12:45:38.930Z",
+      "shotStart": "2026-09-17T12:45:38.938Z",
+      "shotEnd": "2026-09-17T12:45:39.013Z",
+      "tick": 444,
+      "time": 7.3999999999999995,
+      "pattern": "slam",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "04-center-cycle-27",
+      "beforeAt": "2026-09-17T12:45:39.062Z",
+      "shotStart": "2026-09-17T12:45:39.069Z",
+      "shotEnd": "2026-09-17T12:45:39.133Z",
+      "tick": 444,
+      "time": 7.3999999999999995,
+      "pattern": "slam",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "05-center-cycle-paused",
+      "beforeAt": "2026-09-17T12:45:39.554Z",
+      "shotStart": "2026-09-17T12:45:39.564Z",
+      "shotEnd": "2026-09-17T12:45:39.628Z",
+      "tick": 466,
+      "time": 7.766666666666667,
+      "pattern": "slam"
+    },
+    {
+      "name": "06-walk-west-00",
+      "beforeAt": "2026-09-17T12:46:24.373Z",
+      "shotStart": "2026-09-17T12:46:24.386Z",
+      "shotEnd": "2026-09-17T12:46:24.438Z",
+      "tick": 498,
+      "time": 8.3,
+      "pattern": null
+    },
+    {
+      "name": "06-walk-west-01",
+      "beforeAt": "2026-09-17T12:46:24.491Z",
+      "shotStart": "2026-09-17T12:46:24.508Z",
+      "shotEnd": "2026-09-17T12:46:24.638Z",
+      "tick": 498,
+      "time": 8.3,
+      "pattern": null
+    },
+    {
+      "name": "06-walk-west-02",
+      "beforeAt": "2026-09-17T12:46:24.695Z",
+      "shotStart": "2026-09-17T12:46:24.703Z",
+      "shotEnd": "2026-09-17T12:46:24.775Z",
+      "tick": 513,
+      "time": 8.55,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.0666666666666682
+    },
+    {
+      "name": "06-walk-west-03",
+      "beforeAt": "2026-09-17T12:46:24.834Z",
+      "shotStart": "2026-09-17T12:46:24.850Z",
+      "shotEnd": "2026-09-17T12:46:24.911Z",
+      "tick": 513,
+      "time": 8.55,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.0666666666666682
+    },
+    {
+      "name": "06-walk-west-04",
+      "beforeAt": "2026-09-17T12:46:24.959Z",
+      "shotStart": "2026-09-17T12:46:24.968Z",
+      "shotEnd": "2026-09-17T12:46:25.028Z",
+      "tick": 528,
+      "time": 8.8,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.3166666666666682
+    },
+    {
+      "name": "06-walk-west-05",
+      "beforeAt": "2026-09-17T12:46:25.092Z",
+      "shotStart": "2026-09-17T12:46:25.100Z",
+      "shotEnd": "2026-09-17T12:46:25.152Z",
+      "tick": 528,
+      "time": 8.8,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.3166666666666682
+    },
+    {
+      "name": "06-walk-west-06",
+      "beforeAt": "2026-09-17T12:46:25.205Z",
+      "shotStart": "2026-09-17T12:46:25.215Z",
+      "shotEnd": "2026-09-17T12:46:25.273Z",
+      "tick": 544,
+      "time": 9.066666666666666,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.5833333333333339
+    },
+    {
+      "name": "06-walk-west-07",
+      "beforeAt": "2026-09-17T12:46:25.326Z",
+      "shotStart": "2026-09-17T12:46:25.336Z",
+      "shotEnd": "2026-09-17T12:46:25.396Z",
+      "tick": 544,
+      "time": 9.066666666666666,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.5833333333333339
+    },
+    {
+      "name": "06-walk-west-08",
+      "beforeAt": "2026-09-17T12:46:25.455Z",
+      "shotStart": "2026-09-17T12:46:25.462Z",
+      "shotEnd": "2026-09-17T12:46:25.518Z",
+      "tick": 558,
+      "time": 9.3,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.8166666666666682
+    },
+    {
+      "name": "06-walk-west-09",
+      "beforeAt": "2026-09-17T12:46:25.586Z",
+      "shotStart": "2026-09-17T12:46:25.600Z",
+      "shotEnd": "2026-09-17T12:46:25.653Z",
+      "tick": 558,
+      "time": 9.3,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.8166666666666682
+    },
+    {
+      "name": "06-walk-west-10",
+      "beforeAt": "2026-09-17T12:46:25.706Z",
+      "shotStart": "2026-09-17T12:46:25.714Z",
+      "shotEnd": "2026-09-17T12:46:25.773Z",
+      "tick": 571,
+      "time": 9.516666666666666,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "06-walk-west-11",
+      "beforeAt": "2026-09-17T12:46:25.827Z",
+      "shotStart": "2026-09-17T12:46:25.840Z",
+      "shotEnd": "2026-09-17T12:46:25.897Z",
+      "tick": 571,
+      "time": 9.516666666666666,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "06-walk-west-12",
+      "beforeAt": "2026-09-17T12:46:25.947Z",
+      "shotStart": "2026-09-17T12:46:25.964Z",
+      "shotEnd": "2026-09-17T12:46:26.039Z",
+      "tick": 587,
+      "time": 9.783333333333333,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "06-walk-west-13",
+      "beforeAt": "2026-09-17T12:46:26.095Z",
+      "shotStart": "2026-09-17T12:46:26.106Z",
+      "shotEnd": "2026-09-17T12:46:26.158Z",
+      "tick": 587,
+      "time": 9.783333333333333,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "06-walk-west-14",
+      "beforeAt": "2026-09-17T12:46:26.201Z",
+      "shotStart": "2026-09-17T12:46:26.210Z",
+      "shotEnd": "2026-09-17T12:46:26.270Z",
+      "tick": 603,
+      "time": 10.05,
+      "pattern": "eruption"
+    },
+    {
+      "name": "07-west-paused",
+      "beforeAt": "2026-09-17T12:46:26.901Z",
+      "shotStart": "2026-09-17T12:46:26.908Z",
+      "shotEnd": "2026-09-17T12:46:26.955Z",
+      "tick": 632,
+      "time": 10.533333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-00",
+      "beforeAt": "2026-09-17T12:47:03.638Z",
+      "shotStart": "2026-09-17T12:47:03.649Z",
+      "shotEnd": "2026-09-17T12:47:03.704Z",
+      "tick": 647,
+      "time": 10.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-01",
+      "beforeAt": "2026-09-17T12:47:03.751Z",
+      "shotStart": "2026-09-17T12:47:03.760Z",
+      "shotEnd": "2026-09-17T12:47:03.804Z",
+      "tick": 647,
+      "time": 10.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-02",
+      "beforeAt": "2026-09-17T12:47:03.852Z",
+      "shotStart": "2026-09-17T12:47:03.861Z",
+      "shotEnd": "2026-09-17T12:47:03.913Z",
+      "tick": 647,
+      "time": 10.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-03",
+      "beforeAt": "2026-09-17T12:47:03.957Z",
+      "shotStart": "2026-09-17T12:47:03.964Z",
+      "shotEnd": "2026-09-17T12:47:04.031Z",
+      "tick": 661,
+      "time": 11.016666666666666,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-04",
+      "beforeAt": "2026-09-17T12:47:04.073Z",
+      "shotStart": "2026-09-17T12:47:04.081Z",
+      "shotEnd": "2026-09-17T12:47:04.124Z",
+      "tick": 661,
+      "time": 11.016666666666666,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-05",
+      "beforeAt": "2026-09-17T12:47:04.170Z",
+      "shotStart": "2026-09-17T12:47:04.178Z",
+      "shotEnd": "2026-09-17T12:47:04.209Z",
+      "tick": 677,
+      "time": 11.283333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-06",
+      "beforeAt": "2026-09-17T12:47:04.252Z",
+      "shotStart": "2026-09-17T12:47:04.260Z",
+      "shotEnd": "2026-09-17T12:47:04.300Z",
+      "tick": 677,
+      "time": 11.283333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-07",
+      "beforeAt": "2026-09-17T12:47:04.342Z",
+      "shotStart": "2026-09-17T12:47:04.350Z",
+      "shotEnd": "2026-09-17T12:47:04.388Z",
+      "tick": 677,
+      "time": 11.283333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-08",
+      "beforeAt": "2026-09-17T12:47:04.436Z",
+      "shotStart": "2026-09-17T12:47:04.442Z",
+      "shotEnd": "2026-09-17T12:47:04.486Z",
+      "tick": 692,
+      "time": 11.533333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-09",
+      "beforeAt": "2026-09-17T12:47:04.531Z",
+      "shotStart": "2026-09-17T12:47:04.539Z",
+      "shotEnd": "2026-09-17T12:47:04.576Z",
+      "tick": 692,
+      "time": 11.533333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-10",
+      "beforeAt": "2026-09-17T12:47:04.620Z",
+      "shotStart": "2026-09-17T12:47:04.636Z",
+      "shotEnd": "2026-09-17T12:47:04.690Z",
+      "tick": 707,
+      "time": 11.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-11",
+      "beforeAt": "2026-09-17T12:47:04.736Z",
+      "shotStart": "2026-09-17T12:47:04.744Z",
+      "shotEnd": "2026-09-17T12:47:04.807Z",
+      "tick": 707,
+      "time": 11.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-12",
+      "beforeAt": "2026-09-17T12:47:04.851Z",
+      "shotStart": "2026-09-17T12:47:04.858Z",
+      "shotEnd": "2026-09-17T12:47:04.915Z",
+      "tick": 707,
+      "time": 11.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-13",
+      "beforeAt": "2026-09-17T12:47:04.979Z",
+      "shotStart": "2026-09-17T12:47:04.988Z",
+      "shotEnd": "2026-09-17T12:47:05.039Z",
+      "tick": 721,
+      "time": 12.016666666666666,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-14",
+      "beforeAt": "2026-09-17T12:47:05.085Z",
+      "shotStart": "2026-09-17T12:47:05.095Z",
+      "shotEnd": "2026-09-17T12:47:05.148Z",
+      "tick": 721,
+      "time": 12.016666666666666,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-15",
+      "beforeAt": "2026-09-17T12:47:05.194Z",
+      "shotStart": "2026-09-17T12:47:05.202Z",
+      "shotEnd": "2026-09-17T12:47:05.247Z",
+      "tick": 737,
+      "time": 12.283333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-16",
+      "beforeAt": "2026-09-17T12:47:05.293Z",
+      "shotStart": "2026-09-17T12:47:05.301Z",
+      "shotEnd": "2026-09-17T12:47:05.347Z",
+      "tick": 737,
+      "time": 12.283333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-17",
+      "beforeAt": "2026-09-17T12:47:05.393Z",
+      "shotStart": "2026-09-17T12:47:05.402Z",
+      "shotEnd": "2026-09-17T12:47:05.457Z",
+      "tick": 751,
+      "time": 12.516666666666666,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-18",
+      "beforeAt": "2026-09-17T12:47:05.504Z",
+      "shotStart": "2026-09-17T12:47:05.513Z",
+      "shotEnd": "2026-09-17T12:47:05.557Z",
+      "tick": 751,
+      "time": 12.516666666666666,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-19",
+      "beforeAt": "2026-09-17T12:47:05.605Z",
+      "shotStart": "2026-09-17T12:47:05.614Z",
+      "shotEnd": "2026-09-17T12:47:05.672Z",
+      "tick": 751,
+      "time": 12.516666666666666,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-20",
+      "beforeAt": "2026-09-17T12:47:05.719Z",
+      "shotStart": "2026-09-17T12:47:05.727Z",
+      "shotEnd": "2026-09-17T12:47:05.781Z",
+      "tick": 767,
+      "time": 12.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-21",
+      "beforeAt": "2026-09-17T12:47:05.822Z",
+      "shotStart": "2026-09-17T12:47:05.829Z",
+      "shotEnd": "2026-09-17T12:47:05.892Z",
+      "tick": 767,
+      "time": 12.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "08-west-approach-22",
+      "beforeAt": "2026-09-17T12:47:05.975Z",
+      "shotStart": "2026-09-17T12:47:05.982Z",
+      "shotEnd": "2026-09-17T12:47:06.039Z",
+      "tick": 781,
+      "time": 13.016666666666666,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.033333333333333215
+    },
+    {
+      "name": "08-west-approach-23",
+      "beforeAt": "2026-09-17T12:47:06.082Z",
+      "shotStart": "2026-09-17T12:47:06.092Z",
+      "shotEnd": "2026-09-17T12:47:06.145Z",
+      "tick": 781,
+      "time": 13.016666666666666,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.033333333333333215
+    },
+    {
+      "name": "08-west-approach-24",
+      "beforeAt": "2026-09-17T12:47:06.191Z",
+      "shotStart": "2026-09-17T12:47:06.198Z",
+      "shotEnd": "2026-09-17T12:47:06.247Z",
+      "tick": 797,
+      "time": 13.283333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.3000000000000007
+    },
+    {
+      "name": "08-west-approach-25",
+      "beforeAt": "2026-09-17T12:47:06.298Z",
+      "shotStart": "2026-09-17T12:47:06.307Z",
+      "shotEnd": "2026-09-17T12:47:06.355Z",
+      "tick": 797,
+      "time": 13.283333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.3000000000000007
+    },
+    {
+      "name": "08-west-approach-26",
+      "beforeAt": "2026-09-17T12:47:06.400Z",
+      "shotStart": "2026-09-17T12:47:06.407Z",
+      "shotEnd": "2026-09-17T12:47:06.457Z",
+      "tick": 811,
+      "time": 13.516666666666666,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.5333333333333332
+    },
+    {
+      "name": "08-west-approach-27",
+      "beforeAt": "2026-09-17T12:47:06.506Z",
+      "shotStart": "2026-09-17T12:47:06.516Z",
+      "shotEnd": "2026-09-17T12:47:06.572Z",
+      "tick": 811,
+      "time": 13.516666666666666,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.5333333333333332
+    },
+    {
+      "name": "08-west-approach-28",
+      "beforeAt": "2026-09-17T12:47:06.619Z",
+      "shotStart": "2026-09-17T12:47:06.637Z",
+      "shotEnd": "2026-09-17T12:47:06.689Z",
+      "tick": 827,
+      "time": 13.783333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.8000000000000007
+    },
+    {
+      "name": "08-west-approach-29",
+      "beforeAt": "2026-09-17T12:47:06.743Z",
+      "shotStart": "2026-09-17T12:47:06.756Z",
+      "shotEnd": "2026-09-17T12:47:06.814Z",
+      "tick": 827,
+      "time": 13.783333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.8000000000000007
+    },
+    {
+      "name": "08-west-approach-30",
+      "beforeAt": "2026-09-17T12:47:06.868Z",
+      "shotStart": "2026-09-17T12:47:06.890Z",
+      "shotEnd": "2026-09-17T12:47:07.002Z",
+      "tick": 827,
+      "time": 13.783333333333333,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.8000000000000007
+    },
+    {
+      "name": "08-west-approach-31",
+      "beforeAt": "2026-09-17T12:47:07.058Z",
+      "shotStart": "2026-09-17T12:47:07.066Z",
+      "shotEnd": "2026-09-17T12:47:07.123Z",
+      "tick": 841,
+      "time": 14.016666666666666,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "08-west-approach-32",
+      "beforeAt": "2026-09-17T12:47:07.186Z",
+      "shotStart": "2026-09-17T12:47:07.202Z",
+      "shotEnd": "2026-09-17T12:47:07.268Z",
+      "tick": 858,
+      "time": 14.299999999999999,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "08-west-approach-33",
+      "beforeAt": "2026-09-17T12:47:07.322Z",
+      "shotStart": "2026-09-17T12:47:07.331Z",
+      "shotEnd": "2026-09-17T12:47:07.389Z",
+      "tick": 858,
+      "time": 14.299999999999999,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "08-west-approach-34",
+      "beforeAt": "2026-09-17T12:47:07.441Z",
+      "shotStart": "2026-09-17T12:47:07.448Z",
+      "shotEnd": "2026-09-17T12:47:07.506Z",
+      "tick": 871,
+      "time": 14.516666666666666,
+      "pattern": "eruption"
+    },
+    {
+      "name": "08-west-approach-35",
+      "beforeAt": "2026-09-17T12:47:07.558Z",
+      "shotStart": "2026-09-17T12:47:07.565Z",
+      "shotEnd": "2026-09-17T12:47:07.617Z",
+      "tick": 871,
+      "time": 14.516666666666666,
+      "pattern": "eruption"
+    },
+    {
+      "name": "08-west-approach-36",
+      "beforeAt": "2026-09-17T12:47:07.673Z",
+      "shotStart": "2026-09-17T12:47:07.682Z",
+      "shotEnd": "2026-09-17T12:47:07.718Z",
+      "tick": 887,
+      "time": 14.783333333333333,
+      "pattern": "eruption"
+    },
+    {
+      "name": "08-west-approach-37",
+      "beforeAt": "2026-09-17T12:47:07.766Z",
+      "shotStart": "2026-09-17T12:47:07.774Z",
+      "shotEnd": "2026-09-17T12:47:07.821Z",
+      "tick": 887,
+      "time": 14.783333333333333,
+      "pattern": "eruption"
+    },
+    {
+      "name": "08-west-approach-38",
+      "beforeAt": "2026-09-17T12:47:07.866Z",
+      "shotStart": "2026-09-17T12:47:07.882Z",
+      "shotEnd": "2026-09-17T12:47:07.957Z",
+      "tick": 887,
+      "time": 14.783333333333333,
+      "pattern": "eruption"
+    },
+    {
+      "name": "08-west-approach-39",
+      "beforeAt": "2026-09-17T12:47:08.010Z",
+      "shotStart": "2026-09-17T12:47:08.021Z",
+      "shotEnd": "2026-09-17T12:47:08.073Z",
+      "tick": 901,
+      "time": 15.016666666666666,
+      "pattern": "eruption"
+    },
+    {
+      "name": "09-west-sweep-paused",
+      "beforeAt": "2026-09-17T12:47:08.449Z",
+      "shotStart": "2026-09-17T12:47:08.457Z",
+      "shotEnd": "2026-09-17T12:47:08.514Z",
+      "tick": 917,
+      "time": 15.283333333333333,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-00",
+      "beforeAt": "2026-09-17T12:48:07.655Z",
+      "shotStart": "2026-09-17T12:48:07.666Z",
+      "shotEnd": "2026-09-17T12:48:07.740Z",
+      "tick": 932,
+      "time": 15.533333333333333,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-01",
+      "beforeAt": "2026-09-17T12:48:07.814Z",
+      "shotStart": "2026-09-17T12:48:07.827Z",
+      "shotEnd": "2026-09-17T12:48:07.911Z",
+      "tick": 932,
+      "time": 15.533333333333333,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-02",
+      "beforeAt": "2026-09-17T12:48:07.974Z",
+      "shotStart": "2026-09-17T12:48:07.998Z",
+      "shotEnd": "2026-09-17T12:48:08.075Z",
+      "tick": 947,
+      "time": 15.783333333333333,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-03",
+      "beforeAt": "2026-09-17T12:48:08.127Z",
+      "shotStart": "2026-09-17T12:48:08.135Z",
+      "shotEnd": "2026-09-17T12:48:08.204Z",
+      "tick": 963,
+      "time": 16.05,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-04",
+      "beforeAt": "2026-09-17T12:48:08.261Z",
+      "shotStart": "2026-09-17T12:48:08.270Z",
+      "shotEnd": "2026-09-17T12:48:08.328Z",
+      "tick": 963,
+      "time": 16.05,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-05",
+      "beforeAt": "2026-09-17T12:48:08.380Z",
+      "shotStart": "2026-09-17T12:48:08.435Z",
+      "shotEnd": "2026-09-17T12:48:08.496Z",
+      "tick": 977,
+      "time": 16.28333333333333,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-06",
+      "beforeAt": "2026-09-17T12:48:08.556Z",
+      "shotStart": "2026-09-17T12:48:08.564Z",
+      "shotEnd": "2026-09-17T12:48:08.650Z",
+      "tick": 977,
+      "time": 16.28333333333333,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-07",
+      "beforeAt": "2026-09-17T12:48:08.707Z",
+      "shotStart": "2026-09-17T12:48:08.715Z",
+      "shotEnd": "2026-09-17T12:48:08.785Z",
+      "tick": 993,
+      "time": 16.55,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-08",
+      "beforeAt": "2026-09-17T12:48:08.848Z",
+      "shotStart": "2026-09-17T12:48:08.868Z",
+      "shotEnd": "2026-09-17T12:48:08.932Z",
+      "tick": 993,
+      "time": 16.55,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-09",
+      "beforeAt": "2026-09-17T12:48:08.985Z",
+      "shotStart": "2026-09-17T12:48:09.012Z",
+      "shotEnd": "2026-09-17T12:48:09.125Z",
+      "tick": 1007,
+      "time": 16.78333333333333,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-10",
+      "beforeAt": "2026-09-17T12:48:09.229Z",
+      "shotStart": "2026-09-17T12:48:09.241Z",
+      "shotEnd": "2026-09-17T12:48:09.317Z",
+      "tick": 1021,
+      "time": 17.016666666666666,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-11",
+      "beforeAt": "2026-09-17T12:48:09.377Z",
+      "shotStart": "2026-09-17T12:48:09.390Z",
+      "shotEnd": "2026-09-17T12:48:09.456Z",
+      "tick": 1037,
+      "time": 17.28333333333333,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-12",
+      "beforeAt": "2026-09-17T12:48:09.504Z",
+      "shotStart": "2026-09-17T12:48:09.512Z",
+      "shotEnd": "2026-09-17T12:48:09.649Z",
+      "tick": 1037,
+      "time": 17.28333333333333,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-13",
+      "beforeAt": "2026-09-17T12:48:09.812Z",
+      "shotStart": "2026-09-17T12:48:09.822Z",
+      "shotEnd": "2026-09-17T12:48:09.902Z",
+      "tick": 1053,
+      "time": 17.55,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-14",
+      "beforeAt": "2026-09-17T12:48:09.971Z",
+      "shotStart": "2026-09-17T12:48:09.981Z",
+      "shotEnd": "2026-09-17T12:48:10.068Z",
+      "tick": 1067,
+      "time": 17.78333333333333,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-15",
+      "beforeAt": "2026-09-17T12:48:10.130Z",
+      "shotStart": "2026-09-17T12:48:10.144Z",
+      "shotEnd": "2026-09-17T12:48:10.230Z",
+      "tick": 1083,
+      "time": 18.05,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-16",
+      "beforeAt": "2026-09-17T12:48:10.283Z",
+      "shotStart": "2026-09-17T12:48:10.298Z",
+      "shotEnd": "2026-09-17T12:48:10.364Z",
+      "tick": 1083,
+      "time": 18.05,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-17",
+      "beforeAt": "2026-09-17T12:48:10.429Z",
+      "shotStart": "2026-09-17T12:48:10.438Z",
+      "shotEnd": "2026-09-17T12:48:10.523Z",
+      "tick": 1095,
+      "time": 18.25,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-18",
+      "beforeAt": "2026-09-17T12:48:10.610Z",
+      "shotStart": "2026-09-17T12:48:10.636Z",
+      "shotEnd": "2026-09-17T12:48:10.761Z",
+      "tick": 1095,
+      "time": 18.25,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-19",
+      "beforeAt": "2026-09-17T12:48:10.833Z",
+      "shotStart": "2026-09-17T12:48:10.846Z",
+      "shotEnd": "2026-09-17T12:48:10.912Z",
+      "tick": 1111,
+      "time": 18.516666666666666,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-20",
+      "beforeAt": "2026-09-17T12:48:10.970Z",
+      "shotStart": "2026-09-17T12:48:10.978Z",
+      "shotEnd": "2026-09-17T12:48:11.056Z",
+      "tick": 1125,
+      "time": 18.75,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-21",
+      "beforeAt": "2026-09-17T12:48:11.114Z",
+      "shotStart": "2026-09-17T12:48:11.122Z",
+      "shotEnd": "2026-09-17T12:48:11.227Z",
+      "tick": 1125,
+      "time": 18.75,
+      "pattern": "sweep"
+    },
+    {
+      "name": "10-west-preparation-22",
+      "beforeAt": "2026-09-17T12:48:11.327Z",
+      "shotStart": "2026-09-17T12:48:11.434Z",
+      "shotEnd": "2026-09-17T12:48:11.546Z",
+      "tick": 1141,
+      "time": 19.016666666666666,
+      "pattern": null
+    },
+    {
+      "name": "10-west-preparation-23",
+      "beforeAt": "2026-09-17T12:48:11.659Z",
+      "shotStart": "2026-09-17T12:48:11.672Z",
+      "shotEnd": "2026-09-17T12:48:11.780Z",
+      "tick": 1171,
+      "time": 19.516666666666666,
+      "pattern": "slam",
+      "phase": "warning",
+      "warningProgress": 0.31818181818181623
+    },
+    {
+      "name": "11-west-warning-paused",
+      "beforeAt": "2026-09-17T12:48:12.416Z",
+      "shotStart": "2026-09-17T12:48:12.426Z",
+      "shotEnd": "2026-09-17T12:48:12.512Z",
+      "tick": 1199,
+      "time": 19.983333333333334,
+      "pattern": "slam",
+      "phase": "warning",
+      "warningProgress": 0.7424242424242421
+    },
+    {
+      "name": "12-west-escape-0",
+      "beforeAt": "2026-09-17T12:48:35.237Z",
+      "shotStart": "2026-09-17T12:48:35.247Z",
+      "shotEnd": "2026-09-17T12:48:35.320Z",
+      "tick": 1227,
+      "time": 20.45,
+      "pattern": "slam",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "12-west-escape-1",
+      "beforeAt": "2026-09-17T12:48:35.379Z",
+      "shotStart": "2026-09-17T12:48:35.387Z",
+      "shotEnd": "2026-09-17T12:48:35.448Z",
+      "tick": 1241,
+      "time": 20.683333333333334,
+      "pattern": "slam"
+    },
+    {
+      "name": "12-west-escape-2",
+      "beforeAt": "2026-09-17T12:48:35.505Z",
+      "shotStart": "2026-09-17T12:48:35.512Z",
+      "shotEnd": "2026-09-17T12:48:35.564Z",
+      "tick": 1241,
+      "time": 20.683333333333334,
+      "pattern": "slam"
+    },
+    {
+      "name": "12-west-escape-3",
+      "beforeAt": "2026-09-17T12:48:35.615Z",
+      "shotStart": "2026-09-17T12:48:35.625Z",
+      "shotEnd": "2026-09-17T12:48:35.689Z",
+      "tick": 1241,
+      "time": 20.683333333333334,
+      "pattern": "slam"
+    },
+    {
+      "name": "12-west-escape-4",
+      "beforeAt": "2026-09-17T12:48:35.742Z",
+      "shotStart": "2026-09-17T12:48:35.750Z",
+      "shotEnd": "2026-09-17T12:48:35.796Z",
+      "tick": 1257,
+      "time": 20.95,
+      "pattern": "slam"
+    },
+    {
+      "name": "12-west-escape-5",
+      "beforeAt": "2026-09-17T12:48:35.844Z",
+      "shotStart": "2026-09-17T12:48:35.853Z",
+      "shotEnd": "2026-09-17T12:48:35.910Z",
+      "tick": 1257,
+      "time": 20.95,
+      "pattern": "slam"
+    },
+    {
+      "name": "12-west-escape-6",
+      "beforeAt": "2026-09-17T12:48:35.960Z",
+      "shotStart": "2026-09-17T12:48:35.967Z",
+      "shotEnd": "2026-09-17T12:48:36.020Z",
+      "tick": 1271,
+      "time": 21.183333333333334,
+      "pattern": null
+    },
+    {
+      "name": "13-west-escape-paused",
+      "beforeAt": "2026-09-17T12:48:36.684Z",
+      "shotStart": "2026-09-17T12:48:36.692Z",
+      "shotEnd": "2026-09-17T12:48:36.755Z",
+      "tick": 1301,
+      "time": 21.683333333333334,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.1999999999999993
+    },
+    {
+      "name": "14-wall-corner-eruption-escape-0",
+      "beforeAt": "2026-09-17T12:48:52.521Z",
+      "shotStart": "2026-09-17T12:48:52.528Z",
+      "shotEnd": "2026-09-17T12:48:52.603Z",
+      "tick": 1326,
+      "time": 22.1,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.6166666666666671
+    },
+    {
+      "name": "14-wall-corner-eruption-escape-1",
+      "beforeAt": "2026-09-17T12:48:52.649Z",
+      "shotStart": "2026-09-17T12:48:52.655Z",
+      "shotEnd": "2026-09-17T12:48:52.718Z",
+      "tick": 1340,
+      "time": 22.333333333333332,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.8499999999999979
+    },
+    {
+      "name": "14-wall-corner-eruption-escape-2",
+      "beforeAt": "2026-09-17T12:48:52.765Z",
+      "shotStart": "2026-09-17T12:48:52.770Z",
+      "shotEnd": "2026-09-17T12:48:52.827Z",
+      "tick": 1340,
+      "time": 22.333333333333332,
+      "pattern": "eruption",
+      "phase": "warning",
+      "warningProgress": 0.8499999999999979
+    },
+    {
+      "name": "14-wall-corner-eruption-escape-3",
+      "beforeAt": "2026-09-17T12:48:52.875Z",
+      "shotStart": "2026-09-17T12:48:52.884Z",
+      "shotEnd": "2026-09-17T12:48:52.945Z",
+      "tick": 1355,
+      "time": 22.583333333333332,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "14-wall-corner-eruption-escape-4",
+      "beforeAt": "2026-09-17T12:48:52.990Z",
+      "shotStart": "2026-09-17T12:48:52.999Z",
+      "shotEnd": "2026-09-17T12:48:53.059Z",
+      "tick": 1355,
+      "time": 22.583333333333332,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "14-wall-corner-eruption-escape-5",
+      "beforeAt": "2026-09-17T12:48:53.107Z",
+      "shotStart": "2026-09-17T12:48:53.115Z",
+      "shotEnd": "2026-09-17T12:48:53.181Z",
+      "tick": 1355,
+      "time": 22.583333333333332,
+      "pattern": "eruption",
+      "phase": "active",
+      "warningProgress": 1
+    },
+    {
+      "name": "14-wall-corner-eruption-escape-6",
+      "beforeAt": "2026-09-17T12:48:53.232Z",
+      "shotStart": "2026-09-17T12:48:53.240Z",
+      "shotEnd": "2026-09-17T12:48:53.293Z",
+      "tick": 1371,
+      "time": 22.85,
+      "pattern": "eruption"
+    },
+    {
+      "name": "15-final-paused",
+      "beforeAt": "2026-09-17T12:48:53.944Z",
+      "shotStart": "2026-09-17T12:48:53.952Z",
+      "shotEnd": "2026-09-17T12:48:54.031Z",
+      "tick": 1401,
+      "time": 23.35,
+      "pattern": "eruption"
+    }
+  ]
+}

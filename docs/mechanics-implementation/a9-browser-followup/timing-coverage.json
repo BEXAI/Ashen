@@ -1,0 +1,34 @@
+{
+  "04-center-cycle-": {
+    "captures": 28,
+    "firstSimulationTime": 1.6166666666666667,
+    "lastSimulationTime": 7.3999999999999995,
+    "maxConsecutiveDomSampleGap": 0.6166666666666667,
+    "duplicateDomSamples": 8,
+    "note": "250ms UI polling and sequential screenshot/read; not frame-accurate capture intervals."
+  },
+  "10-west-preparation-": {
+    "captures": 24,
+    "firstSimulationTime": 15.533333333333333,
+    "lastSimulationTime": 19.516666666666666,
+    "maxConsecutiveDomSampleGap": 0.5,
+    "duplicateDomSamples": 8,
+    "note": "250ms UI polling and sequential screenshot/read; not frame-accurate capture intervals."
+  },
+  "14-wall-corner-eruption-escape-": {
+    "captures": 7,
+    "firstSimulationTime": 22.1,
+    "lastSimulationTime": 22.85,
+    "maxConsecutiveDomSampleGap": 0.26666666666666927,
+    "duplicateDomSamples": 3,
+    "note": "250ms UI polling and sequential screenshot/read; not frame-accurate capture intervals."
+  },
+  "19-inward-warning-escape-": {
+    "captures": 8,
+    "firstSimulationTime": 26.45,
+    "lastSimulationTime": 27.116666666666667,
+    "maxConsecutiveDomSampleGap": 0.26666666666666927,
+    "duplicateDomSamples": 4,
+    "note": "250ms UI polling and sequential screenshot/read; not frame-accurate capture intervals."
+  }
+}

@@ -1,0 +1,60 @@
+- main:
+  - button:
+    - generic: "1"
+  - generic: Mechanics reload QA
+  - generic: 0 / 140
+  - progressbar
+  - progressbar
+  - progressbar
+  - generic: W
+  - generic: "N"
+  - generic: E
+  - generic: ◇
+  - paragraph: THE HOLLOW THRONE
+  - button:
+  - text: "0"
+  - button:
+  - paragraph: DUNGEON OBJECTIVE
+  - heading [level=2]: A new flame rises
+  - paragraph: Dungeon cleared. Your ember endures.
+  - text: 2 m
+  - button:
+    - generic: J
+    - generic: Strike
+  - button:
+    - generic: Q
+    - generic: Ember pulse
+  - button:
+    - generic: SPACE
+    - generic: Dodge
+  - button:
+    - text: R
+    - generic: · 3
+    - generic: Crimson flask
+  - button:
+    - generic: I
+    - generic: Journal
+  - generic: W A S D
+  - text: Move
+  - generic: ·
+  - text: Drag to look
+  - button:
+    - text: Guest journey saved
+  - button:
+  - button:
+- dialog "The dawn remembers you":
+  - text: ASHEN REALM
+  - heading "The dawn remembers you" [level=2]
+  - paragraph: The Hollow King has fallen. Rise again with your victory intact.
+  - paragraph:
+    - text: You and the Hollow King fell together.
+    - text: Your victory and completed objectives remain. Return to your shrine to rise again.
+  - strong: "1"
+  - text: LEVEL
+  - strong: "10"
+  - text: VANQUISHED
+  - strong: 0m
+  - text: JOURNEY
+  - button "Return to shrine" [active]:
+    - text: Return to shrine
+  - button "Save & return to title"

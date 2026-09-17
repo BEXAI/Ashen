@@ -1,0 +1,474 @@
+{
+  "createdAt": "2026-09-17T11:12:37.905809+00:00",
+  "scope": "Read-only manifest/hash/grounding-source audit and coverage reconciliation; no new test execution or browser operation.",
+  "head": "0fb7a9227cf44ae55566c91826817c7a6900b951",
+  "files": {
+    "app/game/roster-assets.ts": "9424c89e9d5297f5ed52236f0468cdad4c5a897b92e609d0991831e2d7d5348e",
+    "app/game/roster-presentation.ts": "43a38bb668c6d0369dfc8ae3dcacab9ad9678c0fc1bd5a10940da41e70b567ed",
+    "app/game/roster-equipment.ts": "d74a1f95359d24879ea595f27dca1111102099d819297eb9871ac161c00f9534",
+    "app/game/character-roster.ts": "af42d11b5e1cd704e47b992ced59dd738f1987f07370c90273bf7014cf7f45ff",
+    "app/game/engine.ts": "21d924e3ed12c2ff4e59c82af8846c7469e40ad5bc3386fdd4c7a949ef698fd4",
+    "app/game/boss-pose.ts": "48fb1dac475d2869506e54ecb283cd1990162e60a540ecb0d0ebd756db320134",
+    "tests/roster.test.mjs": "66ecbcd12585c862e5df9b1d0a1e0357b7799dca3dadd3dcf5e4d1d446598c7a",
+    "tests/roster-install-boundary.test.mjs": "3ade72d3c76a7cbb45a3a7dad0c8e93bcfc1d2a9160c804db54c4bd136839238",
+    "tests/engine-mechanics.test.mjs": "b4c6d73eea49d4b7236ac4e70479c3e11b896471c9587838857cb9d3644bd9b3",
+    "tests/recovered-assets.test.mjs": "8178303f96c0f189520253696c0a2104c91e3923b0643ba8f2d3edaa7fbcfc9b",
+    "tests/boss-pose.test.mjs": "692f42345c6a0999af9a2eb461b69b7b776c659a164088dd6d116c736148dbaa",
+    "tests/combat.test.mjs": "8e3fdb9865219a73a7d725a6457d30a37fdcaf9a469cc0cb12465a1596a9c09d",
+    "tests/character-skins.test.mjs": "aed63719294226b3149cc5d03affbe27bc03cccbc38443fe96b0cace628fd0fe",
+    "tests/character-low-presentation.test.mjs": "4921427e301f5cbfee61601fa80788290fc4bc111170be70d1b3dd8a561baf10",
+    "docs/PHYSICS_BATTLE_VIDEO_UPDATE_PLAN.md": "db3ad2e48295bd7bef95ce056f974602e69986bee677d8a8ec9c3915497109d5",
+    "public/assets/roster/recovered-2026-09-17/manifest.json": "df0d0afaaf8519561ee28ed65d893a03af0478b8fb5c69a253729cc4bd04c3dc",
+    "assets-source/higgsfield/recovered-2026-09-17/review/animated/review-summary.json": "6ab49ba7946434d06b6e1129d3e80e1a3e2434fa38a853b373ac7237e8ee3057"
+  },
+  "models": [
+    {
+      "id": "silver-knight",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/silver-knight.mobile.glb",
+          "expectedSHA256": "68df4950c9fd42eb06ba956c583f143ed820a0701fb87426c95430a3c30085cd",
+          "actualSHA256": "68df4950c9fd42eb06ba956c583f143ed820a0701fb87426c95430a3c30085cd",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/silver-knight.hd.glb",
+          "expectedSHA256": "e1e35106788437f6088e491fe47e1efd3920180ab9236436b8ad3f043e1d5405",
+          "actualSHA256": "e1e35106788437f6088e491fe47e1efd3920180ab9236436b8ad3f043e1d5405",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "authored",
+      "contactSockets": "authored",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "sage",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/sage.mobile.glb",
+          "expectedSHA256": "a197d091d6a3691c4383fc02aa10917cdc6d50a35f292e4581171b671dd60a42",
+          "actualSHA256": "a197d091d6a3691c4383fc02aa10917cdc6d50a35f292e4581171b671dd60a42",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/sage.hd.glb",
+          "expectedSHA256": "5754ad3a887d5f2e306b004b0e921d6f6cf151f6e781b04e6d60b72f16fee524",
+          "actualSHA256": "5754ad3a887d5f2e306b004b0e921d6f6cf151f6e781b04e6d60b72f16fee524",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "frost-mage",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/frost-mage.mobile.glb",
+          "expectedSHA256": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+          "actualSHA256": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/frost-mage.hd.glb",
+          "expectedSHA256": "aca28dd501da39af9ffc85bd4f5039eaa7517c9a23ad7ca179e7d055f69c40e6",
+          "actualSHA256": "aca28dd501da39af9ffc85bd4f5039eaa7517c9a23ad7ca179e7d055f69c40e6",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "ranger",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/ranger.mobile.glb",
+          "expectedSHA256": "e99ecb1e557455d927d825b7089d3b48652414284f7ccfce9fceed65857a029d",
+          "actualSHA256": "e99ecb1e557455d927d825b7089d3b48652414284f7ccfce9fceed65857a029d",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/ranger.hd.glb",
+          "expectedSHA256": "f42a3fcbc4ed9d8c8f6ba8253b164b8a13d7af93514a7e3aa7c8222c588f2be9",
+          "actualSHA256": "f42a3fcbc4ed9d8c8f6ba8253b164b8a13d7af93514a7e3aa7c8222c588f2be9",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "dusk-rogue",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/dusk-rogue.mobile.glb",
+          "expectedSHA256": "1628475edf810377585072547347a35a19fa3ad1b85b1b03df8c0b25de0f85bf",
+          "actualSHA256": "1628475edf810377585072547347a35a19fa3ad1b85b1b03df8c0b25de0f85bf",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/dusk-rogue.hd.glb",
+          "expectedSHA256": "6505fa0c91bb083bd980906d737da9b19cf8fe50f876ca426f9445acfeff1843",
+          "actualSHA256": "6505fa0c91bb083bd980906d737da9b19cf8fe50f876ca426f9445acfeff1843",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "authored",
+      "contactSockets": "authored",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "skeleton-warrior",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/skeleton-warrior.mobile.glb",
+          "expectedSHA256": "4174baf5e4bf86a28a4229c89c0b56d4aef68fd2a72c9038c7487ba717eb9101",
+          "actualSHA256": "4174baf5e4bf86a28a4229c89c0b56d4aef68fd2a72c9038c7487ba717eb9101",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/skeleton-warrior.hd.glb",
+          "expectedSHA256": "e705af58a5a3d72d71c4319359210f7059d9019cc4a48545ac4deaab99e3bd07",
+          "actualSHA256": "e705af58a5a3d72d71c4319359210f7059d9019cc4a48545ac4deaab99e3bd07",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "reaper",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/reaper.mobile.glb",
+          "expectedSHA256": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+          "actualSHA256": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/reaper.hd.glb",
+          "expectedSHA256": "dd6f47ccff71dfa8ad7fe9e6e73920041840a0ea9cbda18e3b3d9a1eea61b36d",
+          "actualSHA256": "dd6f47ccff71dfa8ad7fe9e6e73920041840a0ea9cbda18e3b3d9a1eea61b36d",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "golem",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/september-8/models/golem-mobile.glb",
+          "expectedSHA256": "dc8600e6546b04c3ea647550fc1319c2e3280b8529f885f8f279eebf3ffb26e3",
+          "actualSHA256": "dc8600e6546b04c3ea647550fc1319c2e3280b8529f885f8f279eebf3ffb26e3",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/september-8/models/golem-hd.glb",
+          "expectedSHA256": "ee0568d9149267d9ab61bcb7c76fd744ab47ac43b1c5947919f9e3b44d6398aa",
+          "actualSHA256": "ee0568d9149267d9ab61bcb7c76fd744ab47ac43b1c5947919f9e3b44d6398aa",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "legacy-none-for-claws",
+      "contactSockets": "legacy-claw-markers",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": true
+      },
+      "acceptedMobilePoseQAHashMatches": null
+    },
+    {
+      "id": "ember-dragon",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb",
+          "expectedSHA256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+          "actualSHA256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/ember-dragon.hd.glb",
+          "expectedSHA256": "03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85",
+          "actualSHA256": "03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "lich",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/lich.mobile.glb",
+          "expectedSHA256": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+          "actualSHA256": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/lich.hd.glb",
+          "expectedSHA256": "518d50c6c6f058cb0ea26d8a38589d0f3877c92ed829317c738a2bfda50e785d",
+          "actualSHA256": "518d50c6c6f058cb0ea26d8a38589d0f3877c92ed829317c738a2bfda50e785d",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "knife-rogue",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/knife-rogue.mobile.glb",
+          "expectedSHA256": "57714f155f70ac2ad358e771150a536d53a2c733a7ff302081776494bc0917b8",
+          "actualSHA256": "57714f155f70ac2ad358e771150a536d53a2c733a7ff302081776494bc0917b8",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/knife-rogue.hd.glb",
+          "expectedSHA256": "ee544c8cec01ab549d37ebc52c917cc5d44dd643097e1e304414e9ecdf8efc75",
+          "actualSHA256": "ee544c8cec01ab549d37ebc52c917cc5d44dd643097e1e304414e9ecdf8efc75",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "authored",
+      "contactSockets": "authored",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "shrouded-skeleton",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/september-8/models/shrouded-skeleton-mobile.glb",
+          "expectedSHA256": "98b3faab258f36587daadc0fa2ecc6f0500d9f7a3b5a73cfedb2e8c569de6342",
+          "actualSHA256": "98b3faab258f36587daadc0fa2ecc6f0500d9f7a3b5a73cfedb2e8c569de6342",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/september-8/models/shrouded-skeleton-hd.glb",
+          "expectedSHA256": "8fd67a0d7308d1e6143ead61107dd58a467bb170f0dedf858f62732a50d38667",
+          "actualSHA256": "8fd67a0d7308d1e6143ead61107dd58a467bb170f0dedf858f62732a50d38667",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "legacy-none-for-claws",
+      "contactSockets": "legacy-claw-markers",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": true
+      },
+      "acceptedMobilePoseQAHashMatches": null
+    },
+    {
+      "id": "lion-knight",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "expectedSHA256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "actualSHA256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.hd.glb",
+          "expectedSHA256": "1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50",
+          "actualSHA256": "1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "authored",
+      "contactSockets": "authored",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "spider",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/spider.mobile.glb",
+          "expectedSHA256": "80f14f828811811e6a0ad80fe5026cca38714eafa41091c1256058056737471e",
+          "actualSHA256": "80f14f828811811e6a0ad80fe5026cca38714eafa41091c1256058056737471e",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/spider.hd.glb",
+          "expectedSHA256": "f474a184942c23e8a677d11380081a63a9d587218a652f449e6022fda4248cc4",
+          "actualSHA256": "f474a184942c23e8a677d11380081a63a9d587218a652f449e6022fda4248cc4",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "ogre",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/ogre.mobile.glb",
+          "expectedSHA256": "b0e15300d4d35a02bcadcc50756a20361545ab4612f2605d9317e8160f491d27",
+          "actualSHA256": "b0e15300d4d35a02bcadcc50756a20361545ab4612f2605d9317e8160f491d27",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/ogre.hd.glb",
+          "expectedSHA256": "385a47b5e3b27d0203c8ce9e579006e00a8ec31a8fbb5982f4a8714bcd6d0954",
+          "actualSHA256": "385a47b5e3b27d0203c8ce9e579006e00a8ec31a8fbb5982f4a8714bcd6d0954",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    },
+    {
+      "id": "goblin",
+      "variants": {
+        "mobile": {
+          "url": "/assets/roster/recovered-2026-09-17/goblin.mobile.glb",
+          "expectedSHA256": "c1e7a133a130caca6249c2bc7df245b9e46d8886dc5e1029d5b5421d363515bf",
+          "actualSHA256": "c1e7a133a130caca6249c2bc7df245b9e46d8886dc5e1029d5b5421d363515bf",
+          "matches": true
+        },
+        "hd": {
+          "url": "/assets/roster/recovered-2026-09-17/goblin.hd.glb",
+          "expectedSHA256": "a7a4b2c7c4f99206345ae65f03f05a39a5eddcc34cc15a91a639ee088881a991",
+          "actualSHA256": "a7a4b2c7c4f99206345ae65f03f05a39a5eddcc34cc15a91a639ee088881a991",
+          "matches": true
+        }
+      },
+      "equipmentPolicy": "embedded",
+      "contactSockets": "embedded",
+      "grounding": {
+        "clips": 12,
+        "samplesPerClip": [
+          65
+        ],
+        "finite": true,
+        "retainedSourceCurveMatches": null
+      },
+      "acceptedMobilePoseQAHashMatches": true
+    }
+  ]
+}

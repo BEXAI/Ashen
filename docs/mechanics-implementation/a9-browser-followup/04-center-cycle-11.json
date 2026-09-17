@@ -1,0 +1,74 @@
+{
+  "beforeAt": "2026-09-17T12:45:36.357Z",
+  "shotStart": "2026-09-17T12:45:36.378Z",
+  "shotEnd": "2026-09-17T12:45:36.612Z",
+  "diagnostics": {
+    "mechanics": {
+      "tick": 288,
+      "gameTime": 4.8,
+      "droppedTime": 3.7345999999999915,
+      "pendingCommands": 0,
+      "hitStop": 0,
+      "bodyPairs": {
+        "iterations": 0,
+        "unresolved": [],
+        "invalidBodies": []
+      },
+      "hazard": null,
+      "bossPattern": "sweep",
+      "recentContacts": [],
+      "terminal": null
+    },
+    "loading": {
+      "roster": 0,
+      "rosterInstalls": 0,
+      "characters": 0,
+      "surfaces": false,
+      "uploadWarmup": false
+    },
+    "graphics": {
+      "version": 1,
+      "brightness": 1,
+      "impactShake": false
+    },
+    "camera": {
+      "position": [
+        -3.5520493910436404,
+        5.811476596767943,
+        -57.020353887152396
+      ],
+      "direction": [
+        -0.0001970434851930384,
+        -0.505618040798781,
+        -0.8627574154956117
+      ],
+      "yaw": 0,
+      "pitch": 0.47,
+      "near": 0.1,
+      "fov": 55,
+      "aspect": 1.7168458781362008
+    },
+    "characterSources": {
+      "ash-knight": {
+        "url": "/assets/characters/v9/ash-knight-low.glb",
+        "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+        "tier": "low"
+      },
+      "lion-knight": {
+        "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+        "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+        "bytes": 3021932,
+        "textureCap": 1024,
+        "tier": "low"
+      },
+      "ember-dragon": {
+        "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb",
+        "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+        "bytes": 3350040,
+        "textureCap": 1024,
+        "tier": "low"
+      }
+    }
+  },
+  "hud": "HP\n140.0 / 140\nStamina\n100.0\nMana\n100.0\nXZ\n-4.153, -62.500\nBoss\n620.0 / 620\nDodge CD\n0.00\nState\nplaying"
+}

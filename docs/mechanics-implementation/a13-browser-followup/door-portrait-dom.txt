@@ -1,0 +1,84 @@
+- main:
+  - paragraph: Development fixture · unsaved
+  - heading "Battle mechanics lab" [level=1]
+  - paragraph: Normal combat engine, normal damage and costs. No saved journey is loaded or written. Selecting a fixture or hero resets this local encounter.
+  - text: Fixture
+  - combobox "Fixture":
+    - option "Entry · all enemies"
+    - option "Ogre duel"
+    - option "Goblin duel"
+    - option "Boss duel · unshielded"
+    - option "Boss duel · shielded fixture"
+    - option "Closed gate · no enemies" [selected]
+    - option "Bone Throne · no enemies"
+    - option "Cinder crowd · native spawns"
+  - text: Hero
+  - combobox "Hero":
+    - option "Lion Knight" [selected]
+    - option "Dusk Rogue"
+    - option "Ember Sage"
+    - option "Silver Knight"
+    - option "Green Ranger"
+    - option "Knife Rogue"
+  - text: Quality
+  - combobox "Quality":
+    - option "Low" [selected]
+    - option "Auto"
+    - option "High"
+  - text: Layout
+  - combobox "Layout":
+    - option "Desktop width"
+    - option "390 px portrait layout" [selected]
+  - checkbox "Impact shake"
+  - text: Impact shake
+  - checkbox "Sound"
+  - text: Sound
+  - paragraph:
+    - strong: "Actual fixture: Closed gate · no enemies."
+    - text: All enemies are marked defeated only in this fixture. Cinder Shrine stays unlit, so its seal remains closed.
+  - paragraph: "Reduced motion: not requested by system. Impact shake is disabled by the engine when reduced motion is requested. Layout width does not emulate phone hardware."
+  - generic "Ashen Realm 3D game world. Use W A S D to move, mouse drag to look, J to attack, Q for magic, E to interact."
+  - region "Live combat HUD":
+    - text: HP
+    - strong: 140.0 / 140
+    - text: Stamina
+    - strong: "100.0"
+    - text: Mana
+    - strong: "100.0"
+    - text: XZ
+    - strong: 0.000, 5.600
+    - text: Boss
+    - strong: —
+    - text: Dodge CD
+    - strong: "0.00"
+    - text: State
+    - strong: paused
+  - status: User paused. Gameplay and ordinary presentation are frozen.
+  - generic "Session controls":
+    - button "Resume" [active]
+    - button "Reset fixture"
+    - button "Return to shrine"
+    - button "Focus game keyboard" [disabled]
+  - group "Normal combat input":
+    - generic: Normal combat input
+    - button "Strike · J" [disabled]
+    - button "Hold attack" [disabled]
+    - button "Dodge · Space · 25 stamina" [disabled]
+    - button "Cast · Q" [disabled]
+    - button "Heal · R" [disabled]
+    - button "Interact · E" [disabled]
+  - group "Camera-relative walking toggles":
+    - generic: Camera-relative walking toggles
+    - button "Walk forward" [disabled]
+    - button "Walk back" [disabled]
+    - button "Walk left" [disabled]
+    - button "Walk right" [disabled]
+    - button "Stop / release all" [disabled]
+    - checkbox "Sprint" [disabled]
+    - text: Sprint
+  - paragraph: WASD / arrows also move after focusing the game canvas. Drag the canvas to turn the camera; mouse click strikes. Walking and hold buttons latch until stopped, paused, reset or the page loses focus. Keyboard focus in these controls does not trigger game shortcuts.
+  - generic "Live mechanics · hazards · recent contacts"
+  - generic "Live mechanics diagnostics": "{ \"mechanics\": { \"tick\": 3478, \"gameTime\": 57.96666666666667, \"droppedTime\": 0, \"pendingCommands\": 0, \"hitStop\": 0, \"bodyPairs\": { \"iterations\": 0, \"unresolved\": [], \"invalidBodies\": [] }, \"hazard\": null, \"bossPattern\": null, \"recentContacts\": [], \"terminal\": null }, \"loading\": { \"roster\": 0, \"rosterInstalls\": 0, \"characters\": 0, \"surfaces\": false, \"uploadWarmup\": false }, \"graphics\": { \"version\": 1, \"brightness\": 1, \"impactShake\": false }, \"camera\": { \"position\": [ -2.6175332817221233, 5.460781254729292, 11.46138523308719 ], \"direction\": [ 0.35182794757715835, -0.5054942221279165, -0.7878405211074999 ], \"yaw\": -0.42, \"pitch\": 0.47, \"near\": 0.1, \"fov\": 55, \"aspect\": 0.5987654320987654 }, \"characterSources\": { \"ash-knight\": { \"url\": \"/assets/characters/v9/ash-knight-low.glb\", \"sha256\": \"d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744\", \"tier\": \"low\" }, \"lion-knight\": { \"url\": \"/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb\", \"sha256\": \"d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7\", \"bytes\": 3021932, \"textureCap\": 1024, \"tier\": \"low\" } } }"
+  - generic "Engine events · no save handler"
+  - generic "Engine events": "[]"
+  - generic "Exact in-memory fixture setup"

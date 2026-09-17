@@ -1,0 +1,159 @@
+[
+  {
+    "scenario": "closed-gate crowd",
+    "reverse": false,
+    "ticks": 120,
+    "corrections": 790,
+    "finalBodies": [
+      {
+        "id": "hero",
+        "x": 1.3758897273075559,
+        "z": 5.6000008616932035,
+        "radius": 0.45
+      },
+      {
+        "id": "w1",
+        "x": -0.36496485067122625,
+        "z": 5.478827743591516,
+        "radius": 0.3
+      },
+      {
+        "id": "w2",
+        "x": 0.3821122441729038,
+        "z": 5.600000176512446,
+        "radius": 0.45
+      },
+      {
+        "id": "w3",
+        "x": -0.20987181897339652,
+        "z": 6.277904166242082,
+        "radius": 0.45
+      }
+    ],
+    "pairReport": {
+      "iterations": 0,
+      "unresolved": [],
+      "invalidBodies": []
+    }
+  },
+  {
+    "scenario": "closed-gate crowd",
+    "reverse": true,
+    "ticks": 120,
+    "corrections": 790,
+    "finalBodies": [
+      {
+        "id": "hero",
+        "x": 1.3758897273075559,
+        "z": 5.6000008616932035,
+        "radius": 0.45
+      },
+      {
+        "id": "w3",
+        "x": -0.20987181897339652,
+        "z": 6.277904166242082,
+        "radius": 0.45
+      },
+      {
+        "id": "w2",
+        "x": 0.3821122441729038,
+        "z": 5.600000176512446,
+        "radius": 0.45
+      },
+      {
+        "id": "w1",
+        "x": -0.36496485067122625,
+        "z": 5.478827743591516,
+        "radius": 0.3
+      }
+    ],
+    "pairReport": {
+      "iterations": 0,
+      "unresolved": [],
+      "invalidBodies": []
+    }
+  },
+  {
+    "scenario": "dodge into boss",
+    "living": {
+      "hero": -67.53533333333334,
+      "boss": -68.88533333333334,
+      "beforeBoss": -68,
+      "corrections": 34
+    },
+    "dead": {
+      "hero": -70.25000000000003,
+      "boss": -68,
+      "beforeBoss": -68,
+      "corrections": 0
+    }
+  },
+  {
+    "scenario": "east/reverse X",
+    "mode": "recoil",
+    "start": {
+      "x": -9.831996,
+      "z": -77
+    },
+    "end": {
+      "x": -9.911995292893218,
+      "z": -76.82328331378494
+    },
+    "recoil": {
+      "x": 0,
+      "z": 0.0007116236970735752
+    },
+    "bound": -9.911996
+  },
+  {
+    "scenario": "east/reverse X",
+    "mode": "lunge",
+    "start": {
+      "x": -9.831996,
+      "z": -77
+    },
+    "end": {
+      "x": -9.911995,
+      "z": -77
+    },
+    "recoil": {
+      "x": 0,
+      "z": 0
+    },
+    "bound": -9.911996
+  },
+  {
+    "scenario": "back/reverse Z",
+    "mode": "recoil",
+    "start": {
+      "x": -11,
+      "z": -78.226039
+    },
+    "end": {
+      "x": -10.8232833137849,
+      "z": -78.14603970710678
+    },
+    "recoil": {
+      "x": 0.0007116236970735752,
+      "z": 0
+    },
+    "bound": -78.146039
+  },
+  {
+    "scenario": "back/reverse Z",
+    "mode": "lunge",
+    "start": {
+      "x": -11,
+      "z": -78.226039
+    },
+    "end": {
+      "x": -11,
+      "z": -78.14604
+    },
+    "recoil": {
+      "x": 0,
+      "z": 0
+    },
+    "bound": -78.146039
+  }
+]

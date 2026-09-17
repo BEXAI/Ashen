@@ -1,0 +1,211 @@
+[
+  {
+    "mechanics": {
+      "tick": 22,
+      "gameTime": 0.36666666666666664,
+      "droppedTime": 0,
+      "pendingCommands": 0,
+      "hitStop": 0,
+      "bodyPairs": {
+        "iterations": 0,
+        "unresolved": [],
+        "invalidBodies": []
+      },
+      "hazard": {
+        "id": "1:floor",
+        "ownerId": "king",
+        "actionId": "1",
+        "kind": "eruption",
+        "center": {
+          "x": 0,
+          "z": -62.5
+        },
+        "radius": 1.2,
+        "damageMultiplier": 1,
+        "startedAt": 0,
+        "warningEndsAt": 1,
+        "activeEndsAt": 1.35,
+        "gameTime": 0.36666666666666664,
+        "phase": "warning",
+        "warningProgress": 0.36666666666666664,
+        "activeProgress": 0,
+        "pulseEmitted": false
+      },
+      "bossPattern": "eruption",
+      "recentContacts": [],
+      "terminal": null
+    },
+    "loading": {
+      "roster": 0,
+      "rosterInstalls": 1,
+      "characters": 0,
+      "surfaces": false,
+      "uploadWarmup": true
+    },
+    "graphics": {
+      "version": 1,
+      "brightness": 1,
+      "impactShake": false
+    },
+    "camera": {
+      "position": [
+        9.470255707525224e-17,
+        5.82351811521123,
+        -57.669125158374115
+      ],
+      "direction": [
+        1.0578511122742947e-17,
+        -0.44993052892050706,
+        -0.8930635582898413
+      ],
+      "yaw": 0,
+      "pitch": 0.47,
+      "near": 0.1,
+      "fov": 55,
+      "aspect": 1.3906810035842294
+    },
+    "characterSources": {
+      "ash-knight": {
+        "url": "/assets/characters/v9/ash-knight-low.glb",
+        "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+        "tier": "low"
+      },
+      "lion-knight": {
+        "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+        "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+        "bytes": 3021932,
+        "textureCap": 1024,
+        "tier": "low"
+      }
+    }
+  },
+  {
+    "mechanics": {
+      "tick": 83,
+      "gameTime": 1.3833333333333333,
+      "droppedTime": 0,
+      "pendingCommands": 0,
+      "hitStop": 0,
+      "bodyPairs": {
+        "iterations": 0,
+        "unresolved": [],
+        "invalidBodies": []
+      },
+      "hazard": null,
+      "bossPattern": "eruption",
+      "recentContacts": [],
+      "terminal": null
+    },
+    "loading": {
+      "roster": 0,
+      "rosterInstalls": 1,
+      "characters": 0,
+      "surfaces": false,
+      "uploadWarmup": true
+    },
+    "graphics": {
+      "version": 1,
+      "brightness": 1,
+      "impactShake": false
+    },
+    "camera": {
+      "position": [
+        4.509244112644481e-16,
+        5.812562255713815,
+        -61.75694060806999
+      ],
+      "direction": [
+        -4.979066525068176e-19,
+        -0.5062023667169332,
+        -0.8624147284979402
+      ],
+      "yaw": 0,
+      "pitch": 0.47,
+      "near": 0.1,
+      "fov": 55,
+      "aspect": 1.363799283154122
+    },
+    "characterSources": {
+      "ash-knight": {
+        "url": "/assets/characters/v9/ash-knight-low.glb",
+        "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+        "tier": "low"
+      },
+      "lion-knight": {
+        "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+        "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+        "bytes": 3021932,
+        "textureCap": 1024,
+        "tier": "low"
+      }
+    }
+  },
+  {
+    "mechanics": {
+      "tick": 157,
+      "gameTime": 2.6166666666666667,
+      "droppedTime": 0,
+      "pendingCommands": 0,
+      "hitStop": 0,
+      "bodyPairs": {
+        "iterations": 0,
+        "unresolved": [],
+        "invalidBodies": []
+      },
+      "hazard": null,
+      "bossPattern": "sweep",
+      "recentContacts": [],
+      "terminal": null
+    },
+    "loading": {
+      "roster": 0,
+      "rosterInstalls": 0,
+      "characters": 0,
+      "surfaces": false,
+      "uploadWarmup": true
+    },
+    "graphics": {
+      "version": 1,
+      "brightness": 1,
+      "impactShake": false
+    },
+    "camera": {
+      "position": [
+        4.4045109372543057e-16,
+        5.810794112212109,
+        -61.723457124626805
+      ],
+      "direction": [
+        -3.737900899976159e-21,
+        -0.5054996651252177,
+        -0.862826801019934
+      ],
+      "yaw": 0,
+      "pitch": 0.47,
+      "near": 0.1,
+      "fov": 55,
+      "aspect": 1.363799283154122
+    },
+    "characterSources": {
+      "ash-knight": {
+        "url": "/assets/characters/v9/ash-knight-low.glb",
+        "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+        "tier": "low"
+      },
+      "lion-knight": {
+        "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+        "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+        "bytes": 3021932,
+        "textureCap": 1024,
+        "tier": "low"
+      },
+      "ember-dragon": {
+        "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb",
+        "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+        "bytes": 3350040,
+        "textureCap": 1024,
+        "tier": "low"
+      }
+    }
+  }
+]

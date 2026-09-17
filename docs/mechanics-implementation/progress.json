@@ -2,9 +2,9 @@
   "plan": "docs/PHYSICS_BATTLE_VIDEO_UPDATE_PLAN.md",
   "baseline": "459759d98c7c51fab23177f0ee199fef7a16dca5",
   "branch": "codex/physics-battle-update",
-  "implementationRevision": "c0c0a9cf5909a043b288bd7ab123063ce2bf6c84",
-  "verifiedAt": "2026-09-17T10:35:12.316568+00:00",
-  "implementation": "P1-P6 integrated; P7 automated and selected browser verification passed; remaining manual/device acceptance in release matrix",
+  "implementationRevision": "bc9ab699057c23be2339413cb31a1338db92fb65",
+  "verifiedAt": "2026-09-17T13:10:17.346985+00:00",
+  "implementation": "P1-P6 integrated; P7 automated and bounded desktop visual checks passed; physical A13 touch and A15 five-minute Safari evidence remain unperformed",
   "packages": {
     "P0": "baseline verified and captured",
     "P1": "implemented",
@@ -13,12 +13,12 @@
     "P4": "implemented",
     "P5": "implemented",
     "P6": "implemented",
-    "P7": "automated checks passed; manual/device acceptance incomplete"
+    "P7": "399 tests, verified production build, typecheck, syntax and lint pass; physical device acceptance incomplete"
   },
   "checks": {
     "typecheck": "pass",
     "tests": {
-      "passed": 370,
+      "passed": 399,
       "failed": 0,
       "verifiedProductionBuild": "pass"
     },
@@ -27,8 +27,8 @@
       "preExistingWarnings": 29
     },
     "syntax": {
-      "sourceFiles": 125,
-      "compiledModules": 22
+      "sourceFiles": 132,
+      "compiledModules": 21
     }
   },
   "baselineChecks": {
@@ -37,7 +37,26 @@
     "lintErrors": 208,
     "lintWarnings": 29
   },
-  "deviceEvidence": "Physical iPhone 17 Pro Max / iOS 27.0 connected; Mirroring reports iPhone in Use. Awaiting user readiness; no device gameplay evidence.",
+  "deviceEvidence": "Physical iPhone 17 Pro Max / iOS 27.0 identified. Mirroring now asks the user to unlock the iPhone and follow the on-phone prompt. Awaiting readiness; no phone gameplay evidence.",
   "published": false,
-  "followUpFix": "Canonical spider bounds remove 0.002043-unit mobile/HD contact drift; all 16 tier comparisons pass"
+  "followUpFixes": [
+    "Canonical spider bounds remove 0.002043-unit mobile/HD contact drift; all 16 tier comparisons pass",
+    "Downloaded roster rigs install between actions; paused static benchmarks drain the same guarded serial queue without gameplay ticks",
+    "Development preview canvas fills its display box independently of High backing-buffer resolution",
+    "Shared rendered masonry bounds prevent actor/camera/contact penetration into pilasters, doorway posts and end-wall thickness; room joins and native spawns remain legal",
+    "Floor-hazard labels use an elevated presentation-only anchor while retaining true spark/contact location, depth occlusion and actual HP loss",
+    "Reduce Motion suppresses the production red damage overlay; gameplay damage, warnings and hit stop remain unchanged"
+  ],
+  "runtimeRevision": "bc9ab699057c23be2339413cb31a1338db92fb65",
+  "reloadAcceptance": "Real Game UI defeat and won/zero-HP fixtures recovered, saved and reloaded; defeats/victory preserved; disposable local guest row removed.",
+  "visualAcceptance": {
+    "A8": "All32 mobile/HD deliveries plus3 procedural fallbacks:35 sheets,286 runtime-deformed sampled poses; offline neutral materials, not continuous browser/PBR review",
+    "A9": "46 inspected browser screenshots from normal simulation plus slower selected-frame review; representative center/west preparations and visible inward-view escape; outward corner crop and later boss occlusion retained as limits",
+    "A11": "Low+tab-scoped Chromium reduced-motion emulation: readable -27,HP140\u2192113,warning geometry and damage-free walking escape; Game red-overlay suppression verified through actual JSX rendering",
+    "A13": "Named representative desktop/390px door,corner,pitch,boss,throne,respawn subset recorded; physical finger occlusion unverified"
+  },
+  "remainingAcceptance": [
+    "A13 physical touch/finger occlusion",
+    "A15 five-minute physical iPhone Safari boss/hazard run"
+  ]
 }

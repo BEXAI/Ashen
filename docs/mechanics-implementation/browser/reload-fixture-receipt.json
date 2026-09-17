@@ -1,0 +1,36 @@
+{
+  "setup": "Disposable guest journey on ashen-mechanics.localhost, fixture injected into local D1 row only; no victory claimed from gameplay",
+  "defeatRecovered": {
+    "health": 140,
+    "defeated": [
+      "w1"
+    ],
+    "won": false,
+    "revision": 8
+  },
+  "victoryRecoveredAndReloaded": {
+    "health": 140,
+    "won": true,
+    "defeated": [
+      "w1",
+      "w2",
+      "w3",
+      "w4",
+      "w5",
+      "w6",
+      "w7",
+      "w8",
+      "w9",
+      "king"
+    ],
+    "shrines": [
+      "cinder",
+      "dusk",
+      "crown"
+    ],
+    "checkpoint": "crown",
+    "x": 11,
+    "z": -39
+  },
+  "disposableQaRowRemoved": true
+}

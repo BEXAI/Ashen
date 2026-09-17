@@ -1,0 +1,887 @@
+{
+  "runtimeRevision": "80aec5f8a446d720c4bee2943fde696a7664f2f4",
+  "priorRuntimeRevision": "4debae73c5f25a2da1e28d7a8d41389c8003b836",
+  "preFixCapture": "accepted-hit-paused",
+  "environment": "Chrome desktop, Low quality, scoped DevTools CSS prefers-reduced-motion: reduce emulation; no OS preference or physical-device claim",
+  "sourceHashes": {
+    "app/game/engine.ts": "15023b6d8e59f8a1aa450b16c323914eb7358b24a7e1b4edd8f3e490f3af3375",
+    "app/game/damage-numbers.ts": "3a0d12f5fc66fa64c6061cb8b2e3cca31c94bf37ccd4cbb23e4925997a22dfcd"
+  },
+  "diagnostics": {
+    "accepted-hit-paused": {
+      "mechanics": {
+        "tick": 61,
+        "gameTime": 1.0166666666666666,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": {
+          "id": "1:floor",
+          "ownerId": "king",
+          "actionId": "1",
+          "kind": "eruption",
+          "center": {
+            "x": 0,
+            "z": -62.5
+          },
+          "radius": 1.2,
+          "damageMultiplier": 1,
+          "startedAt": 0,
+          "warningEndsAt": 1,
+          "activeEndsAt": 1.35,
+          "gameTime": 1.0166666666666666,
+          "phase": "active",
+          "warningProgress": 1,
+          "activeProgress": 0.04761904761904745,
+          "pulseEmitted": true
+        },
+        "bossPattern": "eruption",
+        "recentContacts": [
+          {
+            "tick": 61,
+            "id": "1:hero",
+            "actionId": 1,
+            "attackerId": "king",
+            "targetId": "hero",
+            "time": 1,
+            "kind": "hazard",
+            "outcome": "damaged",
+            "healthDelta": 27,
+            "point": {
+              "x": 0,
+              "y": 0.2,
+              "z": -62.5
+            },
+            "direction": {
+              "x": 0,
+              "z": 6.5
+            },
+            "stagger": 0,
+            "interrupted": false,
+            "lethal": false
+          }
+        ],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": false
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          0,
+          5.884068072393783,
+          -56.90192848891463
+        ],
+        "direction": [
+          0,
+          -0.49946474696530224,
+          -0.8663342118021697
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    },
+    "postfix-hit-16": {
+      "mechanics": {
+        "tick": 52,
+        "gameTime": 0.8666666666666667,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": {
+          "id": "1:floor",
+          "ownerId": "king",
+          "actionId": "1",
+          "kind": "eruption",
+          "center": {
+            "x": 0,
+            "z": -62.5
+          },
+          "radius": 1.2,
+          "damageMultiplier": 1,
+          "startedAt": 0,
+          "warningEndsAt": 1,
+          "activeEndsAt": 1.35,
+          "gameTime": 0.8666666666666667,
+          "phase": "warning",
+          "warningProgress": 0.8666666666666667,
+          "activeProgress": 0,
+          "pulseEmitted": false
+        },
+        "bossPattern": "eruption",
+        "recentContacts": [],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": true
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          0,
+          5.845758371903326,
+          -56.82760371147383
+        ],
+        "direction": [
+          0,
+          -0.49862169280200297,
+          -0.8668197087441338
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    },
+    "postfix-hit-17": {
+      "mechanics": {
+        "tick": 68,
+        "gameTime": 1.1333333333333333,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": {
+          "id": "1:floor",
+          "ownerId": "king",
+          "actionId": "1",
+          "kind": "eruption",
+          "center": {
+            "x": 0,
+            "z": -62.5
+          },
+          "radius": 1.2,
+          "damageMultiplier": 1,
+          "startedAt": 0,
+          "warningEndsAt": 1,
+          "activeEndsAt": 1.35,
+          "gameTime": 1.1333333333333333,
+          "phase": "active",
+          "warningProgress": 1,
+          "activeProgress": 0.3809523809523809,
+          "pulseEmitted": true
+        },
+        "bossPattern": "eruption",
+        "recentContacts": [
+          {
+            "tick": 61,
+            "id": "1:hero",
+            "actionId": 1,
+            "attackerId": "king",
+            "targetId": "hero",
+            "time": 1,
+            "kind": "hazard",
+            "outcome": "damaged",
+            "healthDelta": 27,
+            "point": {
+              "x": 0,
+              "y": 0.2,
+              "z": -62.5
+            },
+            "direction": {
+              "x": 0,
+              "z": 6.5
+            },
+            "stagger": 0,
+            "interrupted": false,
+            "lethal": false
+          }
+        ],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": true
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          0,
+          5.90370763278602,
+          -56.90281243743136
+        ],
+        "direction": [
+          0,
+          -0.5017759980367018,
+          -0.8649975998777522
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    },
+    "postfix-hit-paused": {
+      "mechanics": {
+        "tick": 98,
+        "gameTime": 1.6333333333333333,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": null,
+        "bossPattern": "eruption",
+        "recentContacts": [
+          {
+            "tick": 61,
+            "id": "1:hero",
+            "actionId": 1,
+            "attackerId": "king",
+            "targetId": "hero",
+            "time": 1,
+            "kind": "hazard",
+            "outcome": "damaged",
+            "healthDelta": 27,
+            "point": {
+              "x": 0,
+              "y": 0.2,
+              "z": -62.5
+            },
+            "direction": {
+              "x": 0,
+              "z": 6.5
+            },
+            "stagger": 0,
+            "interrupted": false,
+            "lethal": false
+          }
+        ],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": true
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          0,
+          5.969251441801147,
+          -56.952997259815575
+        ],
+        "direction": [
+          0,
+          -0.5012500656336547,
+          -0.8653024741107914
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    },
+    "postfix-warning-paused": {
+      "mechanics": {
+        "tick": 16,
+        "gameTime": 0.26666666666666666,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": {
+          "id": "1:floor",
+          "ownerId": "king",
+          "actionId": "1",
+          "kind": "eruption",
+          "center": {
+            "x": 0,
+            "z": -62.5
+          },
+          "radius": 1.2,
+          "damageMultiplier": 1,
+          "startedAt": 0,
+          "warningEndsAt": 1,
+          "activeEndsAt": 1.35,
+          "gameTime": 0.26666666666666666,
+          "phase": "warning",
+          "warningProgress": 0.26666666666666666,
+          "activeProgress": 0,
+          "pulseEmitted": false
+        },
+        "bossPattern": "eruption",
+        "recentContacts": [],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": true
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          0,
+          5.600972852103367,
+          -56.35269450970666
+        ],
+        "direction": [
+          0,
+          -0.4940702674942743,
+          -0.8694219750950264
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    },
+    "postfix-escape-00": {
+      "mechanics": {
+        "tick": 32,
+        "gameTime": 0.5333333333333333,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": {
+          "id": "1:floor",
+          "ownerId": "king",
+          "actionId": "1",
+          "kind": "eruption",
+          "center": {
+            "x": 0,
+            "z": -62.5
+          },
+          "radius": 1.2,
+          "damageMultiplier": 1,
+          "startedAt": 0,
+          "warningEndsAt": 1,
+          "activeEndsAt": 1.35,
+          "gameTime": 0.5333333333333333,
+          "phase": "warning",
+          "warningProgress": 0.5333333333333333,
+          "activeProgress": 0,
+          "pulseEmitted": false
+        },
+        "bossPattern": "eruption",
+        "recentContacts": [],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": false
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          0,
+          5.736336369220458,
+          -56.61531371984216
+        ],
+        "direction": [
+          0,
+          -0.49623158876518997,
+          -0.8681901924760355
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    },
+    "postfix-escape-05": {
+      "mechanics": {
+        "tick": 48,
+        "gameTime": 0.8,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": {
+          "id": "1:floor",
+          "ownerId": "king",
+          "actionId": "1",
+          "kind": "eruption",
+          "center": {
+            "x": 0,
+            "z": -62.5
+          },
+          "radius": 1.2,
+          "damageMultiplier": 1,
+          "startedAt": 0,
+          "warningEndsAt": 1,
+          "activeEndsAt": 1.35,
+          "gameTime": 0.8,
+          "phase": "warning",
+          "warningProgress": 0.8,
+          "activeProgress": 0,
+          "pulseEmitted": false
+        },
+        "bossPattern": "eruption",
+        "recentContacts": [],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": false
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          -0.2083426471427888,
+          5.829911753757801,
+          -56.796633822705324
+        ],
+        "direction": [
+          -0.03131233892318376,
+          -0.4980337395914648,
+          -0.8665921368554533
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    },
+    "postfix-escape-10": {
+      "mechanics": {
+        "tick": 62,
+        "gameTime": 1.0333333333333332,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": {
+          "id": "1:floor",
+          "ownerId": "king",
+          "actionId": "1",
+          "kind": "eruption",
+          "center": {
+            "x": 0,
+            "z": -62.5
+          },
+          "radius": 1.2,
+          "damageMultiplier": 1,
+          "startedAt": 0,
+          "warningEndsAt": 1,
+          "activeEndsAt": 1.35,
+          "gameTime": 1.0333333333333332,
+          "phase": "active",
+          "warningProgress": 1,
+          "activeProgress": 0.0952380952380949,
+          "pulseEmitted": true
+        },
+        "bossPattern": "eruption",
+        "recentContacts": [],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": false
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          -1.2294298301180298,
+          5.887982547476291,
+          -56.8979549092235
+        ],
+        "direction": [
+          -0.05168615261382812,
+          -0.49902010774515354,
+          -0.865047671341872
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    },
+    "postfix-escape-paused": {
+      "mechanics": {
+        "tick": 92,
+        "gameTime": 1.5333333333333332,
+        "droppedTime": 0,
+        "pendingCommands": 0,
+        "hitStop": 0,
+        "bodyPairs": {
+          "iterations": 0,
+          "unresolved": [],
+          "invalidBodies": []
+        },
+        "hazard": null,
+        "bossPattern": "eruption",
+        "recentContacts": [],
+        "terminal": null
+      },
+      "loading": {
+        "roster": 0,
+        "rosterInstalls": 1,
+        "characters": 0,
+        "surfaces": false,
+        "uploadWarmup": false
+      },
+      "graphics": {
+        "version": 1,
+        "brightness": 1,
+        "impactShake": false
+      },
+      "camera": {
+        "position": [
+          -3.62621345651169,
+          5.986133129780203,
+          -56.91357422141547
+        ],
+        "direction": [
+          -0.050267910459190185,
+          -0.5011040292153566,
+          -0.863925858556278
+        ],
+        "yaw": 0,
+        "pitch": 0.47,
+        "near": 0.1,
+        "fov": 55,
+        "aspect": 1.7168458781362008
+      },
+      "characterSources": {
+        "ash-knight": {
+          "url": "/assets/characters/v9/ash-knight-low.glb",
+          "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+          "tier": "low"
+        },
+        "lion-knight": {
+          "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+          "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+          "bytes": 3021932,
+          "textureCap": 1024,
+          "tier": "low"
+        }
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "path": "accepted-hit-paused.png",
+      "sha256": "f53b5909af6452f853a1b19edc7888a9de5b25c4994a8e75bb7ea3b4695eafb1",
+      "bytes": 200211
+    },
+    {
+      "path": "accepted-hit-paused-dom.txt",
+      "sha256": "c7710f6c7ba7e4fc17021db385e9873483f7d26eea9a6e9f42226b53eea01d38",
+      "bytes": 5213
+    },
+    {
+      "path": "postfix-hit-16.png",
+      "sha256": "0dde4495008b664b8e07d8fc699d71bb45a019afca29ee0e289c1bea65ed4658",
+      "bytes": 206655
+    },
+    {
+      "path": "postfix-hit-16-dom.txt",
+      "sha256": "a350e6d6f99a28f2c09246b2fca01fa7c87befe19f3818974e4cb1285761904e",
+      "bytes": 4698
+    },
+    {
+      "path": "postfix-hit-17.png",
+      "sha256": "ee89108c428dfc207b8145ca99866e370bb8880949a5faf1497d6a177df0326f",
+      "bytes": 204139
+    },
+    {
+      "path": "postfix-hit-17-dom.txt",
+      "sha256": "064284d4b2694fdb80f8140391dc460b1cc9717fd009cbd8c03888cbe4501457",
+      "bytes": 5032
+    },
+    {
+      "path": "postfix-hit-paused.png",
+      "sha256": "0813f54f8e6b78319931ba0b4f944c8aefc4710b751d2672fb64da1852faaa1f",
+      "bytes": 198986
+    },
+    {
+      "path": "postfix-hit-paused-dom.txt",
+      "sha256": "4f982a7d566375161380074c9dd889c2af013fa5415ee2809852e4a1dad2096a",
+      "bytes": 4833
+    },
+    {
+      "path": "postfix-warning-paused.png",
+      "sha256": "c8db847209969ac3d9c7627f88197352f6a691dd80745e7080b0cd6d42215817",
+      "bytes": 200219
+    },
+    {
+      "path": "postfix-warning-paused-dom.txt",
+      "sha256": "316bdef596bdb860a034c31722b642b23b5e99566811eec677ed5085913e0666",
+      "bytes": 4877
+    },
+    {
+      "path": "postfix-escape-00.png",
+      "sha256": "0148a646c3397d30c9191e72eaef11a8f482c54fb6dac75b48181238cf17e11d",
+      "bytes": 206432
+    },
+    {
+      "path": "postfix-escape-00-dom.txt",
+      "sha256": "89d9a4b4027fd4a67bcd7e8a531d36a5e821ad0f9e66926d37f4c224bac90863",
+      "bytes": 4709
+    },
+    {
+      "path": "postfix-escape-05.png",
+      "sha256": "19f37c03fe6d9e4c7066060a5531536fc77c6e51746f9a463d95c880eb8795a3",
+      "bytes": 205540
+    },
+    {
+      "path": "postfix-escape-05-dom.txt",
+      "sha256": "76985de33dd87c88b3e8d37da1d73febe6a05725ca3fd44103ca34e05a0760a8",
+      "bytes": 4704
+    },
+    {
+      "path": "postfix-escape-10.png",
+      "sha256": "ff606f82a0b07c5037113f34579400fd21230888356f7746771b577adf5d107a",
+      "bytes": 204856
+    },
+    {
+      "path": "postfix-escape-10-dom.txt",
+      "sha256": "b482a820aadb046301070a5e9255395d73994fbb60280d0f4d765e81d210fb89",
+      "bytes": 4745
+    },
+    {
+      "path": "postfix-escape-paused.png",
+      "sha256": "86aaaf96b1b2199210f9c6c771bd2d6365f556b8ac339de4e349cdf74d82d9cb",
+      "bytes": 200255
+    },
+    {
+      "path": "postfix-escape-paused-dom.txt",
+      "sha256": "108da708214c79778cc4b1ddcce3ea33c1d090e9a44fa5caaa0c75e48c4b7895",
+      "bytes": 4533
+    },
+    {
+      "path": "reduced-motion-override-proof.txt",
+      "sha256": "0c46fc1566ff751be8738ae29d135c21a0feef4dfed030e61c153a123fb978c1",
+      "bytes": 454
+    },
+    {
+      "path": "reduced-motion-restored-proof.txt",
+      "sha256": "b9c6ca0d7b35234f2af3a1efcb55647b48331f7dddaa99c4f1bce429ad4cc49d",
+      "bytes": 619
+    },
+    {
+      "path": "cleanup-dom.txt",
+      "sha256": "5fc34be0178600c7a249ca31694881d2de6dedc0ff476891d7ae628a66eba7c3",
+      "bytes": 4528
+    },
+    {
+      "path": "postfix-hit-times.json",
+      "sha256": "60aaece993b3257911b211c1a288f664f65728d712e95136da508d601e7676c0",
+      "bytes": 1612
+    },
+    {
+      "path": "postfix-escape-times.json",
+      "sha256": "a6171c79131a73e1cc49dff8ff37b911893d86b19fdde2378901e22906a688fd",
+      "bytes": 1072
+    }
+  ],
+  "cleanup": "Override restored to No emulation; DevTools closed; Impact shake unchecked; owned fixture paused with no held input.",
+  "subsequentOverlayRevision": "bc9ab699057c23be2339413cb31a1338db92fb65",
+  "overlaySourceHash": "feca8accaf4cb76f4ae452f2c4395f1c0389e6b25e98cba3580d44cec7746813",
+  "overlayValidation": "Production JSX element extracted and rendered through React for normal/reduced/normal media preference values; not claimed as a browser screenshot of the main Game overlay."
+}

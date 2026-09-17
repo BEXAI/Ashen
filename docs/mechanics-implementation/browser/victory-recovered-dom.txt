@@ -1,0 +1,63 @@
+- main:
+  - button:
+    - generic: "1"
+  - generic: Mechanics reload QA
+  - generic: 140 / 140
+  - progressbar
+  - progressbar
+  - progressbar
+  - generic: W
+  - generic: "N"
+  - generic: E
+  - generic: ◇
+  - paragraph: CHAPEL OF ASH
+  - button:
+  - text: "0"
+  - button:
+  - paragraph: DUNGEON OBJECTIVE
+  - heading [level=2]: A new flame rises
+  - paragraph: Dungeon cleared. Your ember endures.
+  - text: 32 m
+  - button:
+    - generic: E
+    - text: Rest at Crown Shrine
+  - button:
+    - generic: J
+    - generic: Strike
+  - button:
+    - generic: Q
+    - generic: Ember pulse
+  - button:
+    - generic: SPACE
+    - generic: Dodge
+  - button:
+    - text: R
+    - generic: · 3
+    - generic: Crimson flask
+  - button:
+    - generic: I
+    - generic: Journal
+  - generic: W A S D
+  - text: Move
+  - generic: ·
+  - text: Drag to look
+  - button:
+    - text: Guest progress saved
+  - button:
+  - button:
+- dialog "A moment by the fire":
+  - text: ASHEN REALM
+  - heading "A moment by the fire" [level=2]
+  - paragraph: Your journey waits for you.
+  - button "Choose wanderer" [active]:
+    - text: Choose wanderer
+  - button "Return to the dungeon":
+    - text: Return to the dungeon
+  - button "Inventory & quests":
+    - text: Inventory & quests
+  - button "Settings":
+    - text: Settings
+  - button "Save & return to title":
+    - text: Save & return to title
+  - button "Close":
+    - generic: Close

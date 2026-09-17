@@ -1,0 +1,164 @@
+{
+  "beforeAt": "2026-09-17T13:00:54.517Z",
+  "shotStart": "2026-09-17T13:00:54.530Z",
+  "shotEnd": "2026-09-17T13:00:54.623Z",
+  "fullPage": true,
+  "diagnostics": {
+    "mechanics": {
+      "tick": 1560,
+      "gameTime": 26,
+      "droppedTime": 3.8345000000000145,
+      "pendingCommands": 0,
+      "hitStop": 0,
+      "bodyPairs": {
+        "iterations": 0,
+        "unresolved": [],
+        "invalidBodies": []
+      },
+      "hazard": {
+        "id": "10:floor",
+        "ownerId": "king",
+        "actionId": "10",
+        "kind": "eruption",
+        "center": {
+          "x": -16.65812998768202,
+          "z": -57.37000100000002
+        },
+        "radius": 1.2,
+        "damageMultiplier": 1,
+        "startedAt": 25.9,
+        "warningEndsAt": 26.9,
+        "activeEndsAt": 27.25,
+        "gameTime": 26,
+        "phase": "warning",
+        "warningProgress": 0.10000000000000142,
+        "activeProgress": 0,
+        "pulseEmitted": false
+      },
+      "bossPattern": "eruption",
+      "recentContacts": [
+        {
+          "tick": 305,
+          "id": "2:hero",
+          "actionId": 2,
+          "attackerId": "king",
+          "targetId": "hero",
+          "time": 5.076041666610417,
+          "kind": "melee",
+          "outcome": "damaged",
+          "healthDelta": 27,
+          "point": {
+            "x": -4.428812899044506,
+            "y": 2.797421325560774,
+            "z": -62.61454698180717
+          },
+          "direction": {
+            "x": -1.65530630067816,
+            "z": 2.5905676455236915
+          },
+          "stagger": 0,
+          "interrupted": false,
+          "lethal": false
+        },
+        {
+          "tick": 840,
+          "id": "5:hero",
+          "actionId": 5,
+          "attackerId": "king",
+          "targetId": "hero",
+          "time": 13.983333333333333,
+          "kind": "hazard",
+          "outcome": "damaged",
+          "healthDelta": 27,
+          "point": {
+            "x": -16.46051070614119,
+            "y": 0.2,
+            "z": -62.41573364608719
+          },
+          "direction": {
+            "x": -7.4690367741998,
+            "z": 1.1628457007663826
+          },
+          "stagger": 0,
+          "interrupted": false,
+          "lethal": false
+        },
+        {
+          "tick": 1084,
+          "id": "6:hero",
+          "actionId": 6,
+          "attackerId": "king",
+          "targetId": "hero",
+          "time": 18.05937499994375,
+          "kind": "melee",
+          "outcome": "damaged",
+          "healthDelta": 27,
+          "point": {
+            "x": -16.656094697405653,
+            "y": 2.798086178499384,
+            "z": -62.68407552850976
+          },
+          "direction": {
+            "x": -3.0232202700547823,
+            "z": 0.47068166883921947
+          },
+          "stagger": 0,
+          "interrupted": false,
+          "lethal": false
+        }
+      ],
+      "terminal": null
+    },
+    "loading": {
+      "roster": 0,
+      "rosterInstalls": 0,
+      "characters": 0,
+      "surfaces": false,
+      "uploadWarmup": false
+    },
+    "graphics": {
+      "version": 1,
+      "brightness": 1,
+      "impactShake": false
+    },
+    "camera": {
+      "position": [
+        -11.781024730698002,
+        5.187929518038737,
+        -60.63697112039003
+      ],
+      "direction": [
+        -0.7513121229201355,
+        -0.5618211354647197,
+        0.346247174282148
+      ],
+      "yaw": 2.3100001831054686,
+      "pitch": 0.47,
+      "near": 0.1,
+      "fov": 55,
+      "aspect": 1.7168458781362008
+    },
+    "characterSources": {
+      "ash-knight": {
+        "url": "/assets/characters/v9/ash-knight-low.glb",
+        "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+        "tier": "low"
+      },
+      "lion-knight": {
+        "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+        "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+        "bytes": 3021932,
+        "textureCap": 1024,
+        "tier": "low"
+      },
+      "ember-dragon": {
+        "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb",
+        "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+        "bytes": 3350040,
+        "textureCap": 1024,
+        "tier": "low"
+      }
+    }
+  },
+  "hud": "HP\n140.0 / 140\nStamina\n100.0\nMana\n100.0\nXZ\n-16.658, -57.370\nBoss\n620.0 / 620\nDodge CD\n0.00\nState\npaused"
+}

@@ -1,0 +1,86 @@
+{
+  "beforeAt": "2026-09-17T12:44:54.624Z",
+  "shotStart": "2026-09-17T12:44:54.635Z",
+  "shotEnd": "2026-09-17T12:44:54.696Z",
+  "diagnostics": {
+    "mechanics": {
+      "tick": 38,
+      "gameTime": 0.6333333333333333,
+      "droppedTime": 0.15909999999999128,
+      "pendingCommands": 0,
+      "hitStop": 0,
+      "bodyPairs": {
+        "iterations": 0,
+        "unresolved": [],
+        "invalidBodies": []
+      },
+      "hazard": {
+        "id": "1:floor",
+        "ownerId": "king",
+        "actionId": "1",
+        "kind": "eruption",
+        "center": {
+          "x": 0,
+          "z": -62.5
+        },
+        "radius": 1.2,
+        "damageMultiplier": 1,
+        "startedAt": 0,
+        "warningEndsAt": 1,
+        "activeEndsAt": 1.35,
+        "gameTime": 0.6333333333333333,
+        "phase": "warning",
+        "warningProgress": 0.6333333333333333,
+        "activeProgress": 0,
+        "pulseEmitted": false
+      },
+      "bossPattern": "eruption",
+      "recentContacts": [],
+      "terminal": null
+    },
+    "loading": {
+      "roster": 0,
+      "rosterInstalls": 1,
+      "characters": 0,
+      "surfaces": false,
+      "uploadWarmup": true
+    },
+    "graphics": {
+      "version": 1,
+      "brightness": 1,
+      "impactShake": false
+    },
+    "camera": {
+      "position": [
+        -0.8647938916943314,
+        5.953934049786108,
+        -57.024570535997995
+      ],
+      "direction": [
+        -0.04649156291264394,
+        -0.4974675840979555,
+        -0.8662358439534141
+      ],
+      "yaw": 0,
+      "pitch": 0.47,
+      "near": 0.1,
+      "fov": 55,
+      "aspect": 1.7168458781362008
+    },
+    "characterSources": {
+      "ash-knight": {
+        "url": "/assets/characters/v9/ash-knight-low.glb",
+        "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+        "tier": "low"
+      },
+      "lion-knight": {
+        "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+        "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+        "bytes": 3021932,
+        "textureCap": 1024,
+        "tier": "low"
+      }
+    }
+  },
+  "hud": "HP\n140.0 / 140\nStamina\n100.0\nMana\n100.0\nXZ\n-0.910, -62.500\nBoss\n620.0 / 620\nDodge CD\n0.00\nState\nplaying"
+}
