@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": "97671044-8f81-44b3-b2b7-e3659faba062",
+      "type": "video",
+      "url": "/assets/ashen-archive/ashen-realm-gameplay-trailer--97671044.mp4",
+      "title": "Ashen Realm Concept Trailer",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "82393442-761b-459c-81a2-315895b0ff89",
+      "type": "image",
+      "url": "/assets/ashen-archive/ember-sovereign-hero-key-art--82393442.webp",
+      "title": "Ember Sovereign Hero Key Art",
+      "width": 1280,
+      "height": 714
+    },
+    {
+      "id": "52bc1c7f-768c-4687-8557-7b309e19c275",
+      "type": "image",
+      "url": "/assets/ashen-archive/crypt-warden-photoreal-reference--52bc1c7f.webp",
+      "title": "Crypt Warden Portrait Study",
+      "width": 859,
+      "height": 1280
+    },
+    {
+      "id": "681ce391-3b6b-4e7f-a636-b11e165c63a6",
+      "type": "image",
+      "url": "/assets/ashen-archive/ash-knight-photoreal-reference--681ce391.webp",
+      "title": "Ash Knight Portrait Study",
+      "width": 859,
+      "height": 1280
+    },
+    {
+      "id": "3d191db7-bca7-4688-8bf7-e0437b0d36c3",
+      "type": "image",
+      "url": "/assets/ashen-archive/ember-sovereign-photoreal-reference--3d191db7.webp",
+      "title": "Ember Sovereign Portrait Study",
+      "width": 859,
+      "height": 1280
+    },
+    {
+      "id": "167484ba-7836-447d-a008-66fad885ea89",
+      "type": "image",
+      "url": "/assets/ashen-archive/crypt-warden-skin-albedo--167484ba.webp",
+      "title": "Crypt Warden Skin Albedo",
+      "width": 1280,
+      "height": 1280
+    },
+    {
+      "id": "7f30eae7-5931-41d5-b9ff-833b44abf467",
+      "type": "image",
+      "url": "/assets/ashen-archive/ember-sovereign-obsidian-albedo--7f30eae7.webp",
+      "title": "Ember Sovereign Obsidian Albedo",
+      "width": 1280,
+      "height": 1280
+    },
+    {
+      "id": "f578dfc0-0ed2-432d-ac86-611d08bc29cd",
+      "type": "image",
+      "url": "/assets/ashen-archive/weathered-forged-steel-albedo--f578dfc0.webp",
+      "title": "Weathered Forged Steel Albedo",
+      "width": 1280,
+      "height": 1280
+    },
+    {
+      "id": "0268dca9-28c5-47df-b46c-6e10b6e44658",
+      "type": "image",
+      "url": "/assets/ashen-archive/torch-flame-atlas--0268dca9.webp",
+      "title": "Torch Flame Atlas",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "cf54ea08-3569-43c7-a1c9-7ae5a632bd5c",
+      "type": "image",
+      "url": "/assets/ashen-archive/ash-knight-character-reference--cf54ea08.webp",
+      "title": "Ash Knight Character Reference",
+      "width": 859,
+      "height": 1280
+    },
+    {
+      "id": "c21de7ae-8c13-41c2-be52-494c35b20e2e",
+      "type": "image",
+      "url": "/assets/ashen-archive/crypt-warden-character-reference--c21de7ae.webp",
+      "title": "Crypt Warden Character Reference",
+      "width": 859,
+      "height": 1280
+    },
+    {
+      "id": "ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd",
+      "type": "image",
+      "url": "/assets/ashen-archive/ember-sovereign-character-reference--ae5cf226.webp",
+      "title": "Ember Sovereign Character Reference",
+      "width": 859,
+      "height": 1280
+    },
+    {
+      "id": "70f171b8-cb68-41b6-bcc8-772cb44be8fa",
+      "type": "image",
+      "url": "/assets/ashen-archive/crypt-warden-reconstruction-reference--70f171b8.webp",
+      "title": "Crypt Warden Sculpt Study",
+      "width": 859,
+      "height": 1280
+    },
+    {
+      "id": "ad79d944-eadd-41ab-853c-ce590ae746ed",
+      "type": "image",
+      "url": "/assets/ashen-archive/ember-sovereign-reconstruction-reference--ad79d944.webp",
+      "title": "Ember Sovereign Sculpt Study",
+      "width": 859,
+      "height": 1280
+    },
+    {
+      "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+      "type": "image",
+      "url": "/assets/ashen-archive/ashen-realm-character-design-sheet--a4887158.webp",
+      "title": "Ashen Realm Character Design Sheet",
+      "width": 1280,
+      "height": 714
+    }
+  ]
+}

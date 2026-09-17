@@ -1,5 +1,9 @@
 # Higgsfield Ashen source assets
 
+Current integration: optimized copies of all fifteen items are available in **Journal → Artwork**, with source/derivative hashes in `public/assets/ashen-archive/manifest.json`. Full-resolution originals below remain unchanged. The original import notes describe the state at import time.
+
+## Original import receipt
+
 Imported on September 17, 2026 from the connected Higgsfield workspace for
 [BEXAI/Ashen](https://github.com/BEXAI/Ashen).
 

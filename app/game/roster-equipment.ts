@@ -1,5 +1,6 @@
 import * as T from 'three';
 import type {RosterId} from './character-roster';
+import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 
 /** Modeled replacements for props omitted by single-view reconstruction. Dimensions are meters. */
 export function attachRosterEquipment(instance:T.Object3D,id:RosterId,modelScale=1){
@@ -44,6 +45,17 @@ export function attachRosterEquipment(instance:T.Object3D,id:RosterId,modelScale
    const boss=mesh(shield,new T.SphereGeometry(.09,12,8),steel,0,.07,.175);boss.scale.z=.5;
    for(let i=0;i<8;i++){const a=i*Math.PI/4;mesh(shield,new T.SphereGeometry(.013,5,4),brass,Math.cos(a)*.265,.07+Math.sin(a)*.265,.163);}
   }
+ }
+ // Every prop shares its hand transform. Merge by material to avoid a draw for
+ // each shield rivet, staff prong and sword fitting, retaining muzzle anchors.
+ for(const group of owned){
+  const batches=new Map<T.Material,T.BufferGeometry[]>();
+  for(const child of [...group.children])if(child instanceof T.Mesh&&!Array.isArray(child.material)){
+   child.updateMatrix();let geometry=child.geometry.clone().applyMatrix4(child.matrix);if(geometry.index){const indexed=geometry;geometry=geometry.toNonIndexed();indexed.dispose();}const batch=batches.get(child.material)??[];batch.push(geometry);batches.set(child.material,batch);
+   if(child.name){const marker=new T.Object3D();marker.name=child.name;marker.position.copy(child.position);marker.quaternion.copy(child.quaternion);marker.scale.copy(child.scale);group.add(marker);}
+   child.geometry.dispose();child.removeFromParent();
+  }
+  for(const [material,geometries]of batches){const geometry=mergeGeometries(geometries);if(!geometry)throw Error('Unable to merge character equipment');mesh(group,geometry,material);geometries.forEach(g=>g.dispose());}
  }
  return ()=>{for(const group of owned){group.traverse(o=>{if(o instanceof T.Mesh)o.geometry.dispose();});group.removeFromParent();}materials.forEach(m=>m.dispose());};
 }

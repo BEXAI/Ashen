@@ -1,4 +1,8 @@
-# Current visual release candidate
+# Current release scope
+
+The current game includes the September 8 roster and subsequent graphics/mobile follow-up. See [ROSTER_RELEASE.md](ROSTER_RELEASE.md) for coverage, implementation and current limitations. The previous integrated visual update was published before this roster work; its candidate records below are retained as historical evidence, not current publication status. Physical-device acceptance remains unverified.
+
+# Historical pre-publication visual candidate
 
 The integrated source uses character manifest v11, environment prop manifest v2 and dungeon manifest v13. It has not yet established final build/archive acceptance, a matching saved Site version, successful deployment or physical iPhone 17 Safari performance. G05–G08 remain pending in [release-readiness.json](visual-upgrade/release-readiness.json). Earlier v10/42-test/83-test release reports are historical evidence, not results for this tree.
 

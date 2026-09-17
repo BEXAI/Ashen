@@ -14,6 +14,8 @@ The screenshot’s exact sixteen images are represented by six playable heroes a
 
 Fourteen images were reconstructed through Higgsfield. Ogre and goblin are locally authored, stylized interpretations because the provider rejected those inputs. All sixteen use weighted 3D meshes and twelve animation clips; the spider has its own eight-legged rig. Missing equipment was modeled, and the reaper’s original scythe was rebound to its hand. [Source inventory and provenance](assets-source/higgsfield/2026-09-08/README.md) records exact screenshot positions, untouched original hashes, generation jobs, and authored limitations.
 
+The earlier fifteen Ashen imports are available from **Journal → Artwork**, including character studies, material sheets and the concept trailer. The graphics follow-up smooths pose changes, grounds attacks, attaches beams to weapons, and lowers roster texture memory in Performance mode. [Release details and limits](docs/ROSTER_RELEASE.md).
+
 ## Controls
 
 WASD/arrows move; drag the world to look; J/left click strikes; Q casts; Space dodges; Shift sprints; R heals; E interacts; I opens inventory; Tab opens the map; Escape pauses.
@@ -47,7 +49,7 @@ The progress API supports anonymous guest cookies and existing signed-in account
 
 Autosave runs every 18 seconds, at milestones and when pausing/leaving. Concurrent triggers share one request and a latest-state follow-up, with equipment purchases serialized against saves. Graphics restart retains a CPU-side snapshot for saving even while the renderer is unavailable. There is no browser-storage fallback for gameplay progress; local storage holds graphics/audio preferences only. Existing D1 schema and migrations are unchanged. Platform access is separate from application guest support and is managed by Sites; this update does not change the existing access policy.
 
-## Current visual release candidate
+## Dungeon visual overhaul
 
 The active character manifest is `public/assets/characters/v11/manifest.json`. Ember Sovereign now uses the detailed Blender model with a spiked crown, fitted black armor, narrow molten chest fissures, oxblood drapes and cape. The other two characters retain their v9 assets. All 15 original rig joints, 13 animation clips and sword sockets are retained; the runtime rejects incomplete animation sets before replacing an actor.
 
@@ -59,12 +61,12 @@ The active environment manifests are `public/assets/props/v2/manifest.json` and 
 
 Dungeon v13 preserves the v11 UV1/indirect lightmaps and removes matched legacy visual fixtures replaced by imported architecture. Its manifest intentionally references older unchanged files. Release build pruning follows those exact URLs and external GLB dependencies, while keeping editing masters in source storage.
 
-The candidate passed the production build and 188 automated tests. Exact saved-version/deployment linkage is recorded in the terminal publication receipt; physical iPhone 17 Safari measurements remain pending. Existing screenshots and timed reference samples were taken in desktop Chromium; they do not verify Safari performance, thermal stability or battery use. See [release provenance](docs/RELEASE_PROVENANCE.md) and [device results](docs/visual-upgrade/device-results.json).
+The earlier dungeon overhaul passed its production build and 188 automated tests; the current roster follow-up adds its own regression coverage. Exact saved-version/deployment linkage is recorded in the terminal publication receipt; physical iPhone 17 Safari measurements remain pending. Existing screenshots and timed reference samples were taken in desktop Chromium; they do not verify Safari performance, thermal stability or battery use. See [release provenance](docs/RELEASE_PROVENANCE.md) and [device results](docs/visual-upgrade/device-results.json).
 
 ## Verification
 
-Use the configured Sites install/build scripts. npm run typecheck checks TypeScript. npm run check:syntax checks authored and compiled JavaScript. node --test tests/*.test.mjs checks saves, combat, resolution, touch ownership, dungeon connectivity, gate rules, wall sliding, real BVH occlusion, render-loop lifecycle, adaptive quality, graphics switching, disposal and queued saves. Source lint: node_modules/.bin/eslint app db worker --max-warnings 0. The earlier Safari implementation audit is retained as historical evidence in [docs/SAFARI_AUDIT.md](docs/SAFARI_AUDIT.md). Current asset checks and pending release gates are recorded in [docs/RELEASE_PROVENANCE.md](docs/RELEASE_PROVENANCE.md). Browser or physical-device testing is separate from these automated checks.
+Use the configured Sites install/build scripts. npm run typecheck checks TypeScript. npm run check:syntax checks authored and compiled JavaScript. node --test tests/*.test.mjs checks saves, combat, resolution, touch ownership, dungeon connectivity, gate rules, wall sliding, real BVH occlusion, render-loop lifecycle, adaptive quality, graphics switching, disposal and queued saves. Source lint: node_modules/.bin/eslint app db worker --max-warnings 0. The earlier Safari implementation audit is retained as historical evidence in [docs/SAFARI_AUDIT.md](docs/SAFARI_AUDIT.md). Current scope and limitations are recorded in [docs/ROSTER_RELEASE.md](docs/ROSTER_RELEASE.md). Browser or physical-device testing is separate from these automated checks.
 
 ## Earlier source import
 
-The previously requested fifteen Ashen-related Higgsfield sources remain unchanged in [the September 17 source import](assets-source/higgsfield/2026-09-17/README.md). They are separate from the screenshot-matched September 8 runtime roster.
+The original fifteen Ashen-related Higgsfield sources remain unchanged in [the September 17 source import](assets-source/higgsfield/2026-09-17/README.md). Optimized display copies are now available from **Journal → Artwork**, separately from the screenshot-matched September 8 playable roster.

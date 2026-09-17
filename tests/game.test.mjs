@@ -121,3 +121,10 @@ test('Ranged strikes do not pass through walls, acquire targets behind, or hit b
 test('Changing wanderer preserves the active journey and clears an unfinished strike',()=>{
  const g=game();g.p.souls=123;g.p.x=4;g.p.potions=2;g.p.defeated=['w1'];const before=g.snapshot();let chosen;g.roster={setHero:id=>{chosen=id;}};g.attack();g.chooseHero('sage');assert.equal(chosen,'sage');assert.equal(g.combat.swing,null);assert.deepEqual({...g.snapshot(),hero:before.hero},before);
 });
+
+test('Staff beams start at the evaluated crystal and aim down at a nearby target',()=>{
+ const g=game();g.p.hero='sage';const target=enemy();target.z=6;g.enemies=[target];
+ const origin=new T.Vector3(-.4,3.1,-1.1);g.world.hero.visual={strike:()=>{},muzzle:out=>{out.copy(origin);return true;}};
+ g.attack();contact(g);assert.equal(target.hp,54);assert.equal(g.effects.length,1);
+ const mesh=g.effects[0].mesh,axis=new T.Vector3(0,1,0).applyQuaternion(mesh.quaternion),start=mesh.position.clone().addScaledVector(axis,-mesh.geometry.parameters.height/2);assert.ok(start.distanceTo(origin)<1e-7);
+});

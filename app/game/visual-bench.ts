@@ -5,7 +5,7 @@ import type {RenderCounters,SceneResourceEstimate} from './render-state-history'
 
 export function visibleCharacterLodCounts(actors:readonly {group:{visible:boolean;userData:Record<string,unknown>};visual?:unknown}[]){
  const bySkin=new Map<string,Record<string,number>>();let visibleGroups=0;
- for(const actor of actors){if(!actor.group.visible)continue;visibleGroups++;const skin=typeof actor.group.userData.skin==='string'?actor.group.userData.skin.slice(0,64):'unknown',value=actor.group.userData.activeLod,lod=!actor.visual?'procedural':value===0||value===1||value===2?String(value):'unselected';const counts=bySkin.get(skin)??{0:0,1:0,2:0,procedural:0,unselected:0};counts[lod]++;bySkin.set(skin,counts);}
+ for(const actor of actors){if(!actor.group.visible)continue;visibleGroups++;const id=actor.group.userData.visualId??actor.group.userData.skin,skin=typeof id==='string'?id.slice(0,64):'unknown',value=actor.group.userData.activeLod,lod=!actor.visual?'procedural':value===0||value===1||value===2?String(value):'unselected';const counts=bySkin.get(skin)??{0:0,1:0,2:0,procedural:0,unselected:0};counts[lod]++;bySkin.set(skin,counts);}
  return {visibleGroups,bySkin:Object.fromEntries(bySkin)};
 }
 

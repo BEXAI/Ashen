@@ -2,7 +2,7 @@ import * as T from 'three';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 export type SkinId='ash-knight'|'crypt-warden'|'ember-sovereign';
-export type ActorVisual={beginFrame:()=>void;present:(dt:number,ground:number,reducedMotion:boolean)=>void;resetPresentation:()=>void;strike:(strike:import('./combat').Strike,elapsed:number)=>void;locomotion:(time:number,moving:number)=>void;reaction:(kind:'hit'|'dodge'|'death',elapsed:number)=>void;lod:(distance:number,pixels:number)=>void;segment:(base:T.Vector3,tip:T.Vector3)=>void;dispose:()=>void};
+export type ActorVisual={beginFrame:()=>void;present:(dt:number,ground:number,reducedMotion:boolean)=>void;resetPresentation:()=>void;strike:(strike:import('./combat').Strike,elapsed:number)=>void;locomotion:(time:number,moving:number)=>void;reaction:(kind:'hit'|'dodge'|'death',elapsed:number)=>void;lod:(distance:number,pixels:number)=>void;segment:(base:T.Vector3,tip:T.Vector3)=>void;muzzle?:(out:T.Vector3)=>boolean;dispose:()=>void};
 export type Actor={group:T.Group,body:T.Object3D,torso:T.Object3D,legs:T.Object3D[],knees:T.Object3D[],arms:T.Object3D[],elbows:T.Object3D[],wrists:T.Object3D[],sword:T.Object3D,cape:T.Mesh,eye:T.Mesh,visual?:ActorVisual};
 type Family='steel'|'hide'|'obsidian'|'bone'|'cloth'|'mail';
 export const SKIN_SOURCE='a4887158-9444-42f8-9573-ce2581d8495e';
