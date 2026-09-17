@@ -1,0 +1,82 @@
+{
+  "reviewDate": "2026-09-17",
+  "method": "Four complete frame-by-frame visual review passes per video using consecutive sheets containing every decoded frame; not continuous audiovisual playback. Audio not reviewed.",
+  "codeBaseline": "459759d98c7c51fab23177f0ee199fef7a16dca5",
+  "mediaRoot": "/Users/nathaniel/Documents/ChatGPT/Knight/references/mechanics-video-review",
+  "sources": [
+    {
+      "id": "video-1",
+      "shareURL": "https://share.icloud.com/photos/027tMrrBSWfqw1SeFFqWN8iIg",
+      "media": "iCloud playback rendition, not claimed original",
+      "localFile": "/Users/nathaniel/Documents/ChatGPT/Knight/references/mechanics-video-review/sources/video-1-preview.mp4",
+      "sha256": "379f0e15c2545b21d6780c64d25b6fc97b38f0d7aabaefde64833d2a0287dee4",
+      "bytes": 3777451,
+      "width": 720,
+      "height": 1280,
+      "durationSeconds": 10.0,
+      "decodedFrames": 240,
+      "sheetCount": 10,
+      "framesPerSheet": 24,
+      "audioReviewed": false,
+      "passes": [
+        {
+          "report": "video-1/pass-1-overview.md",
+          "coverage": "all decoded frames",
+          "complete": true
+        },
+        {
+          "report": "video-1/pass-2-physics.md",
+          "coverage": "all decoded frames",
+          "complete": true
+        },
+        {
+          "report": "video-1/pass-3-battle.md",
+          "coverage": "all decoded frames",
+          "complete": true
+        },
+        {
+          "report": "video-1/pass-4-ashen-mapping.md",
+          "coverage": "all decoded frames",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "id": "video-2",
+      "shareURL": "https://share.icloud.com/photos/047_2GybbP5zKfucdIKwjr_Eg",
+      "media": "original iCloud shared media",
+      "localFile": "/Users/nathaniel/Documents/ChatGPT/Knight/references/mechanics-video-review/sources/video-2.mp4",
+      "sha256": "3920cdc537dc69baf3559c8bf9fbd36b906dd814cfa876afcc3e7f864c42af51",
+      "bytes": 51316523,
+      "width": 720,
+      "height": 1280,
+      "durationSeconds": 30.083333,
+      "decodedFrames": 722,
+      "sheetCount": 31,
+      "framesPerSheet": 24,
+      "audioReviewed": false,
+      "passes": [
+        {
+          "report": "video-2/pass-1-overview.md",
+          "coverage": "all decoded frames",
+          "complete": true
+        },
+        {
+          "report": "video-2/pass-2-physics.md",
+          "coverage": "all decoded frames",
+          "complete": true
+        },
+        {
+          "report": "video-2/pass-3-battle.md",
+          "coverage": "all decoded frames",
+          "complete": true
+        },
+        {
+          "report": "video-2/pass-4-ashen-mapping.md",
+          "coverage": "all decoded frames",
+          "complete": true
+        }
+      ]
+    }
+  ]
+}
