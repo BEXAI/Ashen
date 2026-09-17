@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "document_type": "codex_visual_asset_update",
-  "title": "Ashen Realm — detailed materials and dungeon lighting",
+  "title": "Ashen Realm \u2014 detailed materials and dungeon lighting",
   "created_on": "2026-09-08",
   "execution": {
     "authorized": true,
@@ -64,7 +64,7 @@
     "protected_sha256": {
       "app/game/combat.ts": "58e5f245985fc2b8eb4ccc2dcc857230e5fb20413b75a2d60f107d2824c95f20",
       "app/game/model.ts": "f8e3f69293942c1c2076363052bb5e25c0e603e4189b05ef2036960e528bbf07",
-      "app/game/dungeon.ts": "994bd1a81964eb730d996d6e15fafb2b0ab58050b23235ee393e39d94d477b19",
+      "app/game/dungeon.ts": "4f3225ce0beef84d795ca81640f041cd4b57df0b6efe3b6b4a3bcd9052f9e579",
       "app/game/TouchControls.tsx": "adcf3173469e59a8334b4dffb48bfe52d0d61020334fa210e07defa4a765232a",
       "app/game/mobile.css": "ec4106a09f77bfb8008afea677641b5a51e4a894d2c8c2128f041ad012e0eac0",
       "app/api/progress/route.ts": "68cd08ac7116e572851337bf78521dc87605683fc4f22f5527e75d60cdf6e0bd",
@@ -74,7 +74,8 @@
       "request": "Integrate September 8 references as playable characters and enemies",
       "changes": {
         "app/game/model.ts": "Optional hero ID, six valid hero choices, backward-compatible new-progress default.",
-        "app/api/progress/route.ts": "Validate and persist selected hero when starting a journey."
+        "app/api/progress/route.ts": "Validate and persist selected hero when starting a journey.",
+        "app/game/dungeon.ts": "September 17 recovered asset integration: the Bone Throne has an expanded XZ collision footprint and swept axis collision for player/enemy movement. Existing room, gate, center-route and objective behavior is unchanged and covered by game tests."
       },
       "validation": "tests/game.test.mjs verifies legacy saves, new hero persistence, invalid IDs, revision conflicts, economy, gates and combat; tests/roster.test.mjs verifies actual animated contact."
     }

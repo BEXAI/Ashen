@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+// Reflect a genuine motion donor for the Sage's original left-hand staff grip.
+const fs=require('node:fs/promises'),path=require('node:path'),{createRequire}=require('node:module');
+const req=createRequire(path.join(process.env.ASHEN_ASSET_DEPS||process.cwd(),'package.json')),{NodeIO}=req('@gltf-transform/core'),{ALL_EXTENSIONS}=req('@gltf-transform/extensions');
+const {sha}=require('./inspect-optimize-glb.cjs');
+async function main(){const input=process.argv[2],output=process.argv[3],bytes=await fs.readFile(input),io=new NodeIO().registerExtensions(ALL_EXTENSIONS),d=await io.readBinary(new Uint8Array(bytes)),root=d.getRoot();
+ const flip=(acc,dims,indices)=>{const ar=new Float32Array(acc.getArray());for(let i=0;i<ar.length;i++)if(indices.includes(i%dims))ar[i]*=-1;return acc.clone().setArray(ar);};
+ for(const n of root.listNodes()){const name=n.getName();n.setName(name.replace(/Left/g,'__LEFT__').replace(/Right/g,'Left').replace(/__LEFT__/g,'Right'));const t=n.getTranslation();n.setTranslation([-t[0],t[1],t[2]]);const q=n.getRotation();n.setRotation([q[0],-q[1],-q[2],q[3]]);}
+ for(const s of root.listSkins()){const acc=s.getInverseBindMatrices(),a=new Float32Array(acc.getArray());for(let i=0;i<a.length;i++){const k=i%16,row=k%4,col=Math.floor(k/4);if((row===0)!==(col===0))a[i]*=-1;}s.setInverseBindMatrices(acc.clone().setArray(a));}
+ for(const m of root.listMeshes())for(const p of m.listPrimitives()){for(const name of ['POSITION','NORMAL'])if(p.getAttribute(name))p.setAttribute(name,flip(p.getAttribute(name),3,[0]));if(p.getAttribute('TANGENT'))p.setAttribute('TANGENT',flip(p.getAttribute('TANGENT'),4,[0,3]));if(p.getIndices()){const a=p.getIndices(),v=a.getArray().slice();for(let i=0;i<v.length;i+=3)[v[i+1],v[i+2]]=[v[i+2],v[i+1]];p.setIndices(a.clone().setArray(v));}}
+ for(const a of root.listAnimations()){a.setExtras({...a.getExtras(),motionDerivation:'Original native staff action reflected across sagittal plane for existing left-handed source prop'});for(const c of a.listChannels()){const old=c.getSampler(),s=old.clone(),o=old.getOutput(),k=c.getTargetPath();if(k==='translation')s.setOutput(flip(o,3,[0]));else if(k==='rotation')s.setOutput(flip(o,4,[1,2]));a.addSampler(s);c.setSampler(s);}}
+ await io.write(output,d);let provenance={};try{provenance=JSON.parse(await fs.readFile(input.replace('.glb','.source.json'),'utf8'));}catch{}await fs.writeFile(output.replace('.glb','.source.json'),JSON.stringify({...provenance,derivation:'Sagittal mirror of native staff action; Left/Right joints swapped',originalSHA256:sha(bytes),originalMotionPath:input},null,2)+'\n');console.log(output);}
+main().catch(e=>{console.error(e);process.exitCode=1;});

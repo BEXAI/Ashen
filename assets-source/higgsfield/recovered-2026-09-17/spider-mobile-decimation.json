@@ -1,0 +1,28 @@
+{
+  "source": "derived/spider-rigged.blend",
+  "output": "derived/spider-rigged-mobile.glb",
+  "operation": "Separate Blender collapse decimation at rest; no HD/source changes",
+  "ratio": 0.42,
+  "beforeTriangles": 57158,
+  "afterTriangles": 24005,
+  "vertices": 17465,
+  "maxInfluences": 4,
+  "maxWeightSumError": 1.4156103134155273e-07,
+  "zeroUnweightedVertices": true,
+  "UVsRetained": true,
+  "bones": 50,
+  "clips": [
+    "idle",
+    "forward",
+    "backward",
+    "strafe_left",
+    "strafe_right",
+    "dodge",
+    "hit",
+    "death",
+    "side",
+    "diagonal",
+    "backhand",
+    "overhead"
+  ]
+}

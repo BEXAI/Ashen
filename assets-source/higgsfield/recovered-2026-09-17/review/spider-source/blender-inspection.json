@@ -1,0 +1,50 @@
+{
+  "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/spider-original.glb",
+  "blenderWorldBounds": {
+    "min": [
+      -0.44452616572380066,
+      -0.5,
+      -0.23542509973049164
+    ],
+    "max": [
+      0.44452616572380066,
+      0.5,
+      0.23542509973049164
+    ]
+  },
+  "meshes": [
+    {
+      "name": "tripo_node_8a9a7c1f-1cf7-4bb0-b9ee-af49c4d5c377",
+      "vertices": 34432,
+      "faces": 57158
+    }
+  ],
+  "bones": [],
+  "actions": [],
+  "images": [
+    {
+      "name": "Color_8a9a7c1f-1cf7-4bb0-b9ee-af49c4d5c377",
+      "size": [
+        2048,
+        2048
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "NormalGL_8a9a7c1f-1cf7-4bb0-b9ee-af49c4d5c377",
+      "size": [
+        2048,
+        2048
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "ORM_8a9a7c1f-1cf7-4bb0-b9ee-af49c4d5c377",
+      "size": [
+        2048,
+        2048
+      ],
+      "source": "FILE"
+    }
+  ]
+}

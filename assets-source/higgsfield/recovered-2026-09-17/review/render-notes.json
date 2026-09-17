@@ -1,0 +1,1305 @@
+{
+  "schemaVersion": 1,
+  "panels": [
+    {
+      "slug": "dusk-rogue",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/dusk-rogue-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        0,
+        -3,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "dusk-rogue",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/dusk-rogue-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "dusk-rogue",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/dusk-rogue-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8499997854232788
+        ]
+      },
+      "normalizationScale": 0.7017544388000584,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "dusk-rogue",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/dusk-rogue-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        0,
+        3,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ember-dragon",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ember-dragon-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.8105990886688232,
+          -0.6910210847854614,
+          -0.950156033039093
+        ],
+        "max": [
+          0.8105080723762512,
+          0.6932610273361206,
+          0.9481930732727051
+        ]
+      },
+      "normalizationScale": 1.0535469968880982,
+      "cameraDirectionBlender": [
+        0,
+        -3,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ember-dragon",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ember-dragon-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.8105990886688232,
+          -0.6910210847854614,
+          -0.950156033039093
+        ],
+        "max": [
+          0.8105080723762512,
+          0.6932610273361206,
+          0.9481930732727051
+        ]
+      },
+      "normalizationScale": 1.0535469968880982,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ember-dragon",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ember-dragon-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.6771806478500366
+        ]
+      },
+      "normalizationScale": 0.7470545559210358,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ember-dragon",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ember-dragon-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.8105990886688232,
+          -0.6910210847854614,
+          -0.950156033039093
+        ],
+        "max": [
+          0.8105080723762512,
+          0.6932610273361206,
+          0.9481930732727051
+        ]
+      },
+      "normalizationScale": 1.0535469968880982,
+      "cameraDirectionBlender": [
+        0,
+        3,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "frost-mage",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/frost-mage-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        0,
+        -3,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "frost-mage",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/frost-mage-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "frost-mage",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/frost-mage-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8499993085861206
+        ]
+      },
+      "normalizationScale": 0.7017545562115228,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "frost-mage",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/frost-mage-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        0,
+        3,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "goblin",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/goblin-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.22496111690998077,
+          -0.4110877513885498,
+          -0.5
+        ],
+        "max": [
+          0.22496111690998077,
+          0.4110877513885498,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "goblin",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/goblin-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.22496111690998077,
+          -0.4110877513885498,
+          -0.5
+        ],
+        "max": [
+          0.22496111690998077,
+          0.4110877513885498,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "goblin",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/goblin-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.22496111690998077,
+          -0.4110877513885498,
+          -0.5
+        ],
+        "max": [
+          0.22496111690998077,
+          0.4110877513885498,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "knife-rogue",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/knife-rogue-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.11636564880609512,
+          -0.30069655179977417,
+          -0.5
+        ],
+        "max": [
+          0.11636564880609512,
+          0.30069655179977417,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "knife-rogue",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/knife-rogue-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.11636564880609512,
+          -0.30069655179977417,
+          -0.5
+        ],
+        "max": [
+          0.11636564880609512,
+          0.30069655179977417,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "knife-rogue",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/knife-rogue-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8499996662139893
+        ]
+      },
+      "normalizationScale": 0.7017544681529209,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "knife-rogue",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/knife-rogue-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.11636564880609512,
+          -0.30069655179977417,
+          -0.5
+        ],
+        "max": [
+          0.11636564880609512,
+          0.30069655179977417,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "lich",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/lich-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.19659574329853058,
+          -0.3182004988193512,
+          -0.5
+        ],
+        "max": [
+          0.19659574329853058,
+          0.3182004988193512,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "lich",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/lich-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.19659574329853058,
+          -0.3182004988193512,
+          -0.5
+        ],
+        "max": [
+          0.19659574329853058,
+          0.3182004988193512,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "lich",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/lich-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8499996662139893
+        ]
+      },
+      "normalizationScale": 0.7017544681529209,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "lich",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/lich-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.19659574329853058,
+          -0.3182004988193512,
+          -0.5
+        ],
+        "max": [
+          0.19659574329853058,
+          0.3182004988193512,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "lion-knight",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/lion-knight-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        0,
+        -3,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "lion-knight",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/lion-knight-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "lion-knight",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/lion-knight-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8499995470046997
+        ]
+      },
+      "normalizationScale": 0.7017544975057858,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "lion-knight",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/lion-knight-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.700000286102295
+        ]
+      },
+      "normalizationScale": 0.7407406622490358,
+      "cameraDirectionBlender": [
+        0,
+        3,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ogre",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ogre-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.2797665297985077,
+          -0.43413758277893066,
+          -0.5
+        ],
+        "max": [
+          0.2797665297985077,
+          0.43413758277893066,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ogre",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ogre-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.2797665297985077,
+          -0.43413758277893066,
+          -0.5
+        ],
+        "max": [
+          0.2797665297985077,
+          0.43413758277893066,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ogre",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ogre-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.2797665297985077,
+          -0.43413758277893066,
+          -0.5
+        ],
+        "max": [
+          0.2797665297985077,
+          0.43413758277893066,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ranger",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ranger-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.26224231719970703,
+          -0.25577038526535034,
+          -0.5
+        ],
+        "max": [
+          0.26224231719970703,
+          0.25577038526535034,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ranger",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ranger-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.26224231719970703,
+          -0.25577038526535034,
+          -0.5
+        ],
+        "max": [
+          0.26224231719970703,
+          0.25577038526535034,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ranger",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/ranger-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8499999046325684
+        ]
+      },
+      "normalizationScale": 0.7017544094471985,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "ranger",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/ranger-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.26224231719970703,
+          -0.25577038526535034,
+          -0.5
+        ],
+        "max": [
+          0.26224231719970703,
+          0.25577038526535034,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "reaper",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/reaper-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.2223961502313614,
+          -0.3524622917175293,
+          -0.5
+        ],
+        "max": [
+          0.2223961502313614,
+          0.3524622917175293,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "reaper",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/reaper-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.2223961502313614,
+          -0.3524622917175293,
+          -0.5
+        ],
+        "max": [
+          0.2223961502313614,
+          0.3524622917175293,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "reaper",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/reaper-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.2223961502313614,
+          -0.3524622917175293,
+          -0.5
+        ],
+        "max": [
+          0.2223961502313614,
+          0.3524622917175293,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "sage",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/sage-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.14894044399261475,
+          -0.30575478076934814,
+          -0.5
+        ],
+        "max": [
+          0.14894044399261475,
+          0.30575478076934814,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "sage",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/sage-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.14894044399261475,
+          -0.30575478076934814,
+          -0.5
+        ],
+        "max": [
+          0.14894044399261475,
+          0.30575478076934814,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "sage",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/sage-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8499996662139893
+        ]
+      },
+      "normalizationScale": 0.7017544681529209,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "sage",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/sage-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.14894044399261475,
+          -0.30575478076934814,
+          -0.5
+        ],
+        "max": [
+          0.14894044399261475,
+          0.30575478076934814,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "silver-knight",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/silver-knight-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.16576644778251648,
+          -0.2838137447834015,
+          -0.5
+        ],
+        "max": [
+          0.16576644778251648,
+          0.2838137447834015,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "silver-knight",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/silver-knight-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.16576644778251648,
+          -0.2838137447834015,
+          -0.5
+        ],
+        "max": [
+          0.16576644778251648,
+          0.2838137447834015,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "silver-knight",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8499999046325684
+        ]
+      },
+      "normalizationScale": 0.7017544094471985,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "silver-knight",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/silver-knight-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.16576644778251648,
+          -0.2838137447834015,
+          -0.5
+        ],
+        "max": [
+          0.16576644778251648,
+          0.2838137447834015,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "skeleton-warrior",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/skeleton-warrior-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.21003979444503784,
+          -0.3022894561290741,
+          -0.5
+        ],
+        "max": [
+          0.21003979444503784,
+          0.3022894561290741,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "skeleton-warrior",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/skeleton-warrior-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.21003979444503784,
+          -0.3022894561290741,
+          -0.5
+        ],
+        "max": [
+          0.21003979444503784,
+          0.3022894561290741,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "skeleton-warrior",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/skeleton-warrior-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.21003979444503784,
+          -0.3022894561290741,
+          -0.5
+        ],
+        "max": [
+          0.21003979444503784,
+          0.3022894561290741,
+          0.5
+        ]
+      },
+      "normalizationScale": 2.0,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "spider",
+      "panel": "aligned-front",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/spider-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.44452616572380066,
+          -0.5,
+          -0.23542509973049164
+        ],
+        "max": [
+          0.44452616572380066,
+          0.5,
+          0.23542509973049164
+        ]
+      },
+      "normalizationScale": 4.247635452399821,
+      "cameraDirectionBlender": [
+        3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "spider",
+      "panel": "aligned-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/spider-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.44452616572380066,
+          -0.5,
+          -0.23542509973049164
+        ],
+        "max": [
+          0.44452616572380066,
+          0.5,
+          0.23542509973049164
+        ]
+      },
+      "normalizationScale": 4.247635452399821,
+      "cameraDirectionBlender": [
+        3,
+        -2,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "spider",
+      "panel": "prior-quarter",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/spider-runtime.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.9526717662811279,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.0
+        ]
+      },
+      "normalizationScale": 1.0,
+      "cameraDirectionBlender": [
+        2,
+        -3,
+        0.15
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    },
+    {
+      "slug": "spider",
+      "panel": "aligned-back",
+      "model": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/models/spider-original.glb",
+      "preNormalizationBlenderBounds": {
+        "min": [
+          -0.44452616572380066,
+          -0.5,
+          -0.23542509973049164
+        ],
+        "max": [
+          0.44452616572380066,
+          0.5,
+          0.23542509973049164
+        ]
+      },
+      "normalizationScale": 4.247635452399821,
+      "cameraDirectionBlender": [
+        -3,
+        0,
+        0.08
+      ],
+      "pose": "rest",
+      "note": "Each full model including equipment independently normalized to two units tall; runtime-added props absent."
+    }
+  ]
+}

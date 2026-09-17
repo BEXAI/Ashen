@@ -1,5 +1,7 @@
 # Higgsfield sources — September 8, 2026
 
+Historical first-integration sources and provenance. The recovered September 9 replacement pipeline is documented in [RECOVERED_ASSET_RELEASE.md](../../../docs/RECOVERED_ASSET_RELEASE.md) and `../recovered-2026-09-17/`; original inputs here remain unchanged.
+
 Preserved 17 original files from `/Users/nathaniel/Downloads/archive.zip`: **16 PNG images and one MP4 reference video**. Original filenames and bytes are unchanged. These are source references for playable 3D character/enemy conversion; the `models/` directory contains conversion inputs, original 3D exports, authored repairs, motion donors, and provenance. Optimized game-ready exports are under `public/assets/roster/september-8/`.
 
 `source-screenshot.png` is an unchanged copy of the supplied screenshot. `source-manifest.json` records every source filename, complete asset ID, SHA-256, size, decoded dimensions, filename timestamp, timezone conversion and screenshot match. Descriptive labels below are visual inventory labels, not supplied character names.

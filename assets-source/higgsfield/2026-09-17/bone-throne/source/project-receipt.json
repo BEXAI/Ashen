@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "exists": true,
+  "project": {
+    "projectId": "02765069-6a15-4d44-852b-025f53032fdf",
+    "revision": 1,
+    "sceneSequence": 1,
+    "appliedSceneSequence": 1,
+    "activeOperationId": null,
+    "artifacts": {
+      "projectId": "02765069-6a15-4d44-852b-025f53032fdf",
+      "revision": 1,
+      "blend": {
+        "size": 1121857,
+        "etag": "6d2bd29a23ec1f5ece79d2fe5032cee2"
+      },
+      "glb": {
+        "size": 376016,
+        "etag": "390a7ee41e923de047c1a578a32d6d22"
+      },
+      "generated": []
+    },
+    "createdAt": "2026-09-17T03:53:21.071Z",
+    "updatedAt": "2026-09-17T03:54:09.620Z"
+  },
+  "projectUrl": "https://higgsfield.ai/3d-jutsu/02765069-6a15-4d44-852b-025f53032fdf"
+}

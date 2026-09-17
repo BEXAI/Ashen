@@ -1,0 +1,41 @@
+# Recovered character source archive
+
+These fourteen provider models correspond to the September 8 artwork shown in the user's screenshot. Their provider jobs were created September 9 UTC, still September 8 in New York. `inventory.json` binds the original artwork IDs, screenshot positions, job receipts and original GLB hashes. `qa/original-preservation.json` verifies all fourteen originals remain byte-identical (60,956,536 bytes). No original image or provider model was overwritten.
+
+The delivered variants are reconstructed meshes with locally fitted skinning and existing native motion, with these explicit repairs:
+
+- Dusk Rogue and Lion Knight retain their supplied skeletons; static clips are replaced with the genuine native motion library. Lion's decorative back sword is excluded from grounding.
+- Frost Mage keeps the provider skeleton and body weights. Its full staff is rigidly weighted to the right hand. A small lower-shaft section fused into the robe was replaced by a 26-vertex, 48-triangle matching shaft completion; masks and removed source face IDs are preserved.
+- Ogre, Goblin, Sage, Lich and Skeleton use continuous anatomical weights and seam-aware smoothing after fitting the established matching rigs. Full held equipment masks prevent body-to-weapon tethers. The Sage keeps its left-handed staff and uses a mirrored native staff action. Its exposed boots follow the leg and foot joints beneath the robe.
+- Skeleton's actual sword is rigidly rotated 52.04 degrees about its grip to the native hand blade basis. Its measured blade sockets rotate with the geometry. Its backhand contact window is `.325–.505`; Goblin's is `.225–.405`. Physical approach distances are unchanged.
+- Reaper uses a locally constrained two-hand scythe grip; Ranger duplicates fused bow/string seam vertices without changing any triangle corner geometry or UV. Dragon receives fitted anatomical pivots and coherent wings/tail/cuff weights. Their separate documents describe these repairs. Ogre floor curves exclude the complete dominant weapon-hand influence group as well as the explicit club mask, preventing source-fused shaft remnants from lifting the fallen body; slight gripping-hand/weapon floor overlap is intentional.
+- Spider retains the recovered mesh with an authored eight-leg rig and twelve local clips. Its mobile mesh is decimated; other characters retain their source triangle counts except explicitly recorded fused bridge repairs.
+
+`derived/*-rigging.json`, the reviewed segmentation files, individual repair reports and provenance records document the exact transforms and exclusions. These are derivative animation repairs, not claims that provider geometry was an exact reconstruction of the artwork.
+
+## One offline batch command
+
+Run from the game repository after its development dependencies are installed:
+
+```sh
+node assets-source/higgsfield/recovered-2026-09-17/tools/rebuild-all.cjs \
+  --deps-root "$PWD" \
+  --rig-donors-root "$PWD/assets-source/higgsfield/2026-09-08/models" \
+  --motion-donors-root "$PWD/assets-source/higgsfield/2026-09-08/models/animations" \
+  --python python3 \
+  --blender-python /path/to/python-with-bpy
+```
+
+`--plan` prints the exact ordered commands without modifying files. `--core-only` rebuilds the ten shared humanoid deliveries, omitting the independently authored Reaper/Ranger/Dragon/Spider pipelines. The complete batch merges all fourteen final entries into `manifest-entries.json`, `runtime-grounding.json` and `runtime-build-summary.json`. It neither installs dependencies nor calls a paid provider or publishing service.
+
+Node 22+ needs the project's `three`, `@gltf-transform/core`, `@gltf-transform/extensions`, `@gltf-transform/functions`, `meshoptimizer`, `sharp` and `gltf-validator`. Python needs NumPy and Pillow; the specified Blender Python needs `bpy` and `mathutils`. The recipes resolve paths relative to this source package or explicit arguments. No personal cache path is embedded in them. Existing September 8 rig and animation donors must remain in the sibling source archive. Their hashes and provider job IDs are recorded in the character provenance and native animation `.source.json` files.
+
+The Reaper, Ranger and Dragon fitted seed GLBs are retained because their independent repairs begin from those accepted rest transforms. The Spider `.blend` retains an editable native rig. Other intermediate rigged/runtime GLBs can be regenerated from the originals and recipes and need not be duplicated in this archive.
+
+## Validation and archive contents
+
+`source-archive-file-list.json` lists relative source paths and exact hashes, and separately lists final public variant outputs. `tools/write-source-archive-list.py` regenerates that inventory. `tools/verify-originals.py` rechecks source integrity. `tools/summarize-validation.py` retains validator counts, representative messages and hashes of full reports while compacting repeated diagnostics; the full reports can be regenerated by the build.
+
+Every final variant has zero glTF validation errors, twelve finite animation clips, recorded texture caps and per-clip grounding curves. Diagnostics may include zero-weight joint slots with nonzero unused joint indices, missing buffer-target hints, and runtime-generated tangent space; they do not represent missing skin weights. The compressed extension is validated through a decoded mirror as well as directly. Texture caps are 1024 mobile and 2048 HD. Original JPEG streams are preserved where already compact; resized mobile JPEGs use high quality settings. Meshopt coding is lossless.
+
+The `review/animated/<slug>/pose-contact-sheet.jpg` sheets use the actual compressed mobile files decoded for rendering. Their hash bindings distinguish delivery revisions. They cover idle, walking, all four attacks, dodge/death and sampled grounding extrema. These are sampled deformation checks, not a guarantee of continuous extrema or a device performance benchmark. Runtime collision, player selection, equipment policy and scene behavior are tested in the game repository by the integrating task.

@@ -1,3 +1,5 @@
+> Implementation follow-up: all fourteen recovered character meshes and the September 17 Bone Throne are integrated and validated (210 passing tests). Acceptance and publication details are tracked in [RECOVERED_ASSET_RELEASE.md](RECOVERED_ASSET_RELEASE.md). The audit below records the pre-integration findings.
+
 # Ashen asset update plan
 
 Audited September 17, 2026. This is an implementation plan; the asset audit and obsolete-file cleanup do not activate new encounters or replace current artwork.

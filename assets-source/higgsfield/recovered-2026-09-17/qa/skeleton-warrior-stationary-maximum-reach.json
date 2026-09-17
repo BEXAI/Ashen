@@ -1,0 +1,34 @@
+[
+  {
+    "strike": "side",
+    "maximumBladeZ": 1.7598930685580347,
+    "maximumTargetCenterZ": 2.35,
+    "stationary": true,
+    "phaseSamples": 801,
+    "targetDistanceStep": 0.01
+  },
+  {
+    "strike": "diagonal",
+    "maximumBladeZ": 1.5035221157736596,
+    "maximumTargetCenterZ": 2.09,
+    "stationary": true,
+    "phaseSamples": 801,
+    "targetDistanceStep": 0.01
+  },
+  {
+    "strike": "backhand",
+    "maximumBladeZ": 1.4230309786273976,
+    "maximumTargetCenterZ": 2.01,
+    "stationary": true,
+    "phaseSamples": 801,
+    "targetDistanceStep": 0.01
+  },
+  {
+    "strike": "overhead",
+    "maximumBladeZ": 1.7184488887008684,
+    "maximumTargetCenterZ": 2.3,
+    "stationary": true,
+    "phaseSamples": 801,
+    "targetDistanceStep": 0.01
+  }
+]

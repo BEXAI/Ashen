@@ -1715,51 +1715,6 @@
       ]
     },
     {
-      "path": "public/assets/roster/september-8/models/dusk-rogue-hd.glb",
-      "bytes": 5077724,
-      "sha256": "5164c4f0d561795e3ff40c2857dae512aedd3be5506cbe9a805cafc4c0a297f2",
-      "parts": [
-        {
-          "path": "assets-source/blocks/5164c4f0d561795e3ff40c2857dae512aedd3be5506cbe9a805cafc4c0a297f2-0.part",
-          "sha256": "6baff0acd8c6dd0230bd58a1f62c2345d01d0c9076abc1ae72104209eb27e9cf"
-        },
-        {
-          "path": "assets-source/blocks/5164c4f0d561795e3ff40c2857dae512aedd3be5506cbe9a805cafc4c0a297f2-1.part",
-          "sha256": "a2ccbcf90c44d8bae986416a879ee40d902306a88e05c8e6ebcc315bd955d19a"
-        }
-      ]
-    },
-    {
-      "path": "public/assets/roster/september-8/models/ember-dragon-hd.glb",
-      "bytes": 5792324,
-      "sha256": "9082f72f111363cda5593f96096ddebaec7bc16d2fcb5bb62f3c79ea85dd1e3e",
-      "parts": [
-        {
-          "path": "assets-source/blocks/9082f72f111363cda5593f96096ddebaec7bc16d2fcb5bb62f3c79ea85dd1e3e-0.part",
-          "sha256": "b2243d261be18ce1ed9ae7a39ce92df67bb27645c6d72ef5532d84d6e3f97620"
-        },
-        {
-          "path": "assets-source/blocks/9082f72f111363cda5593f96096ddebaec7bc16d2fcb5bb62f3c79ea85dd1e3e-1.part",
-          "sha256": "1f2eecb07f5a971eb55ae65621b4b8ffd05804fe16f50facfabfc653dea1ec54"
-        }
-      ]
-    },
-    {
-      "path": "public/assets/roster/september-8/models/frost-mage-hd.glb",
-      "bytes": 5027676,
-      "sha256": "2b530c7329a038e8cacab4995ed5a38c4604c7445cd32faf96d77314beb666be",
-      "parts": [
-        {
-          "path": "assets-source/blocks/2b530c7329a038e8cacab4995ed5a38c4604c7445cd32faf96d77314beb666be-0.part",
-          "sha256": "561e9af81f018526ccff86ecaa7133f2613df0e83aca4209e7c39bc2ff5a1afb"
-        },
-        {
-          "path": "assets-source/blocks/2b530c7329a038e8cacab4995ed5a38c4604c7445cd32faf96d77314beb666be-1.part",
-          "sha256": "86450422ec5ea28304a56ad04cc6df9750fbc2ae103c17c1a9d2fb04b303003b"
-        }
-      ]
-    },
-    {
       "path": "public/assets/roster/september-8/models/golem-hd.glb",
       "bytes": 6104460,
       "sha256": "ee0568d9149267d9ab61bcb7c76fd744ab47ac43b1c5947919f9e3b44d6398aa",
@@ -1771,96 +1726,6 @@
         {
           "path": "assets-source/blocks/ee0568d9149267d9ab61bcb7c76fd744ab47ac43b1c5947919f9e3b44d6398aa-1.part",
           "sha256": "de8bf171e1c5bef5d5a08fefabca9c1fcdd2cfe29d3bfabb6545b1fff5a9c02e"
-        }
-      ]
-    },
-    {
-      "path": "public/assets/roster/september-8/models/knife-rogue-hd.glb",
-      "bytes": 5083880,
-      "sha256": "38423629a4a0f91ac2c69e2a98c44bbea2a884957e59177981dc4041b5ee971c",
-      "parts": [
-        {
-          "path": "assets-source/blocks/38423629a4a0f91ac2c69e2a98c44bbea2a884957e59177981dc4041b5ee971c-0.part",
-          "sha256": "3a777a7d4ea5111c82de0fa0d4a965a4a11e5a705cbb5e42a5a9fd3c2dee2ef6"
-        },
-        {
-          "path": "assets-source/blocks/38423629a4a0f91ac2c69e2a98c44bbea2a884957e59177981dc4041b5ee971c-1.part",
-          "sha256": "bd7e640ff2c224bc220531ae500a8dff792bebb6c2607513e9afd5e484c0dcf1"
-        }
-      ]
-    },
-    {
-      "path": "public/assets/roster/september-8/models/lich-hd.glb",
-      "bytes": 5527112,
-      "sha256": "3a7375e5b9808d8589489c04b869f707bf66c72ea69573d3ce6a413940111649",
-      "parts": [
-        {
-          "path": "assets-source/blocks/3a7375e5b9808d8589489c04b869f707bf66c72ea69573d3ce6a413940111649-0.part",
-          "sha256": "8a2fe70ec8bd3370ed0f0802256455b1e9299c60ad5c3e04a3e6512fde3e07d3"
-        },
-        {
-          "path": "assets-source/blocks/3a7375e5b9808d8589489c04b869f707bf66c72ea69573d3ce6a413940111649-1.part",
-          "sha256": "b2ffd03b0b4ef2fd2aa5b24683faec9227f36774b59d6d59fa84510afca434a0"
-        }
-      ]
-    },
-    {
-      "path": "public/assets/roster/september-8/models/lion-knight-hd.glb",
-      "bytes": 5326216,
-      "sha256": "7f46025d9023e1728a206fa13b36d0c10be7ae8da36c5f4cf0965ef0f7c46807",
-      "parts": [
-        {
-          "path": "assets-source/blocks/7f46025d9023e1728a206fa13b36d0c10be7ae8da36c5f4cf0965ef0f7c46807-0.part",
-          "sha256": "0753bf51b21c15036ae1402c243667ce2f3d1530adc317385ad94f3d92c9d471"
-        },
-        {
-          "path": "assets-source/blocks/7f46025d9023e1728a206fa13b36d0c10be7ae8da36c5f4cf0965ef0f7c46807-1.part",
-          "sha256": "65ee34be467df21c4d427c0665a59953357b65c050b6461ef77b9b75b3c159f8"
-        }
-      ]
-    },
-    {
-      "path": "public/assets/roster/september-8/models/ranger-hd.glb",
-      "bytes": 5507164,
-      "sha256": "37a91a1d20fa3ae42e99b087711b77524cb79771871d39ad2ea1a0d91c8910c9",
-      "parts": [
-        {
-          "path": "assets-source/blocks/37a91a1d20fa3ae42e99b087711b77524cb79771871d39ad2ea1a0d91c8910c9-0.part",
-          "sha256": "82fa0a11c8d1ba2bab019e58643a5e7ae78b41911a64de56fce2ddab9ce2308f"
-        },
-        {
-          "path": "assets-source/blocks/37a91a1d20fa3ae42e99b087711b77524cb79771871d39ad2ea1a0d91c8910c9-1.part",
-          "sha256": "35a03317b65f9328a4c8b98f161ab475908053146fdc564597550d1d3ddd6486"
-        }
-      ]
-    },
-    {
-      "path": "public/assets/roster/september-8/models/reaper-hd.glb",
-      "bytes": 4925104,
-      "sha256": "b6ee82da35480aef0a5ecfddca4c4944906fe1ee3305314f3d0f6dbe4aa21053",
-      "parts": [
-        {
-          "path": "assets-source/blocks/b6ee82da35480aef0a5ecfddca4c4944906fe1ee3305314f3d0f6dbe4aa21053-0.part",
-          "sha256": "d8eb229653cc3502dc77cc00751be7cfb94006999cbd8dc6b5687ce37d21aec6"
-        },
-        {
-          "path": "assets-source/blocks/b6ee82da35480aef0a5ecfddca4c4944906fe1ee3305314f3d0f6dbe4aa21053-1.part",
-          "sha256": "5b66e9cd08316ead06291249bba3ac0ababb2f7d56900b9f64f1fc6926a0c272"
-        }
-      ]
-    },
-    {
-      "path": "public/assets/roster/september-8/models/sage-hd.glb",
-      "bytes": 5828228,
-      "sha256": "3e05d4d4d1c82f18f0d21f3aedd4b36438980ba72e8a93dada5c5ec249cba8bc",
-      "parts": [
-        {
-          "path": "assets-source/blocks/3e05d4d4d1c82f18f0d21f3aedd4b36438980ba72e8a93dada5c5ec249cba8bc-0.part",
-          "sha256": "37ab86425e09eacb155444e7d7ecfd8b0e2276484c38b13809e4320da031068e"
-        },
-        {
-          "path": "assets-source/blocks/3e05d4d4d1c82f18f0d21f3aedd4b36438980ba72e8a93dada5c5ec249cba8bc-1.part",
-          "sha256": "a04b7f04b448ae7ca4f41b1797d694c7983275ff828f92528caf2bf50d1e86f6"
         }
       ]
     },
@@ -1880,74 +1745,226 @@
       ]
     },
     {
-      "path": "public/assets/roster/september-8/models/silver-knight-hd.glb",
-      "bytes": 5508188,
-      "sha256": "614dd12ea71c06de75418921dc97bf2615e7075308bbff21278a1b234996f0b7",
+      "path": "assets-source/higgsfield/recovered-2026-09-17/derived/ember-dragon-rigged.glb",
+      "bytes": 11107236,
+      "sha256": "36128660aa9fd2992091bec85b0bbe4e77d636ba14ca78a8612f9b3136c136e0",
       "parts": [
         {
-          "path": "assets-source/blocks/614dd12ea71c06de75418921dc97bf2615e7075308bbff21278a1b234996f0b7-0.part",
-          "sha256": "53a68c566d3ae33fae4b628205a0980f7579e2cdf7d0d0101fa1b4d461fa8d9a"
+          "path": "assets-source/blocks/36128660aa9fd2992091bec85b0bbe4e77d636ba14ca78a8612f9b3136c136e0-0.part",
+          "sha256": "148980c1d9156978f2c0e4774c684ca6ca776a3fe5f00578d1d7c8a5d220cadb"
         },
         {
-          "path": "assets-source/blocks/614dd12ea71c06de75418921dc97bf2615e7075308bbff21278a1b234996f0b7-1.part",
-          "sha256": "5e5522a8dfbae0383ec5de081d9916b9ffabec20ab30cc5a3c22c4c3a3521711"
+          "path": "assets-source/blocks/36128660aa9fd2992091bec85b0bbe4e77d636ba14ca78a8612f9b3136c136e0-1.part",
+          "sha256": "1997edf7023de75c2c4a8436dd139fcbd6e3041f7f9df5bab5025d5ff9866e6d"
+        },
+        {
+          "path": "assets-source/blocks/36128660aa9fd2992091bec85b0bbe4e77d636ba14ca78a8612f9b3136c136e0-2.part",
+          "sha256": "043a6bcb5ed4119dd8adc5b24830ba77383e0896aae721109c7f35902b28a09c"
+        },
+        {
+          "path": "assets-source/blocks/36128660aa9fd2992091bec85b0bbe4e77d636ba14ca78a8612f9b3136c136e0-3.part",
+          "sha256": "2ff3f3977279a2e4f2b52f25c6d0ca012e92ff60fb8f9197b20a75a196270d13"
         }
       ]
     },
     {
-      "path": "public/assets/roster/september-8/models/skeleton-warrior-hd.glb",
-      "bytes": 5718772,
-      "sha256": "9f8e62327bc80d2d08a6bdacd0784de3e9cfccea7636f98a60cf33efdaa79473",
+      "path": "assets-source/higgsfield/recovered-2026-09-17/derived/ranger-rigged.glb",
+      "bytes": 4970852,
+      "sha256": "5f21995787dff162a02b78cf7c2b17d311b3e8884ba3435f76fceef51538362b",
       "parts": [
         {
-          "path": "assets-source/blocks/9f8e62327bc80d2d08a6bdacd0784de3e9cfccea7636f98a60cf33efdaa79473-0.part",
-          "sha256": "3cede2d8a92aefe5e2a2cba344a996438e000071a855c2fdaa8652f1fe2a6a0f"
+          "path": "assets-source/blocks/5f21995787dff162a02b78cf7c2b17d311b3e8884ba3435f76fceef51538362b-0.part",
+          "sha256": "0b12f1460701d9adb9ba98b619588d8ef43a1d4df979f919dc5bdfc01f0a5e0a"
         },
         {
-          "path": "assets-source/blocks/9f8e62327bc80d2d08a6bdacd0784de3e9cfccea7636f98a60cf33efdaa79473-1.part",
-          "sha256": "a552f2a71ac96d3533b671cafa11c60574e98da1ff54e570059b8ff6ac94e74d"
+          "path": "assets-source/blocks/5f21995787dff162a02b78cf7c2b17d311b3e8884ba3435f76fceef51538362b-1.part",
+          "sha256": "b403aa4e9491dbe2ebfed203bb4e19f34e877985bbab44fadda20248f3a71f81"
         }
       ]
     },
     {
-      "path": "public/assets/roster/september-8/models/spider-hd.glb",
-      "bytes": 14611304,
-      "sha256": "2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a",
+      "path": "assets-source/higgsfield/recovered-2026-09-17/derived/reaper-rigged.glb",
+      "bytes": 5325060,
+      "sha256": "9f9efe4caab81359f06acc303babca9f4d9a4a58caeddca5651586bef69de732",
       "parts": [
         {
-          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-0.part",
-          "sha256": "9dad267c00286b8e6d84f5231a95b40d204b72ff9c4481f84241bab4a0956220"
+          "path": "assets-source/blocks/9f9efe4caab81359f06acc303babca9f4d9a4a58caeddca5651586bef69de732-0.part",
+          "sha256": "ef3079f8a9fc166e3a185a0068fc9c8d9d8c653707a82a76d187a279905db451"
         },
         {
-          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-1.part",
-          "sha256": "521be86fea98d36f166078e827e83a76583c3d74bea83f5ad52694e80916526a"
-        },
-        {
-          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-2.part",
-          "sha256": "9bb3b5e1008a9b6d37e2c7f16e43d6a6ac1d01bd323c0a131ef4aef15a936295"
-        },
-        {
-          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-3.part",
-          "sha256": "89a461221f6313e41e6c7e9b54964c4217e5519bb9d2b8d1296e483d1e5b9488"
-        },
-        {
-          "path": "assets-source/blocks/2afc16cec9ecb143e97934df0d710559b4d80588aad76aef1dd214e48c81c57a-4.part",
-          "sha256": "467079d9b8bf775bb138de1a7cdf62166a4137a16205e331c3df5975e6fbbee6"
+          "path": "assets-source/blocks/9f9efe4caab81359f06acc303babca9f4d9a4a58caeddca5651586bef69de732-1.part",
+          "sha256": "4f25f2579c216263fea49e7c720d8c1f15e5443675ac400b5ce511ae33f2dae4"
         }
       ]
     },
     {
-      "path": "public/assets/roster/september-8/models/spider-mobile.glb",
-      "bytes": 5395044,
-      "sha256": "bbb49260d1848c08431e79d6a6bcbf53b8af61fa675dcfc0a4804bfb344c22d0",
+      "path": "assets-source/higgsfield/recovered-2026-09-17/models/dusk-rogue-original.glb",
+      "bytes": 8091428,
+      "sha256": "175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502",
       "parts": [
         {
-          "path": "assets-source/blocks/bbb49260d1848c08431e79d6a6bcbf53b8af61fa675dcfc0a4804bfb344c22d0-0.part",
-          "sha256": "72e9fc9e7397dfdcedfe11ebfdc94cd9bbc72deadff34e7c489c7ff3bd686e41"
+          "path": "assets-source/blocks/175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502-0.part",
+          "sha256": "67c039b784b62620bf6561265d171dd5796c253626b0ad0ebe5a791346952e98"
         },
         {
-          "path": "assets-source/blocks/bbb49260d1848c08431e79d6a6bcbf53b8af61fa675dcfc0a4804bfb344c22d0-1.part",
-          "sha256": "8cc44a70a59e1d5a7094a77cd025a4d041b2442f14efcc49c6d24487f638972f"
+          "path": "assets-source/blocks/175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502-1.part",
+          "sha256": "08440405e060adc7f0378760a8c8bf7c7535e3d271269d3fa8b52eda7c06148f"
+        },
+        {
+          "path": "assets-source/blocks/175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502-2.part",
+          "sha256": "e6c8f9aeba6dc4b86a6ed6919c6e9322cae83a7871215ca38358d87f10417235"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/recovered-2026-09-17/models/ember-dragon-original.glb",
+      "bytes": 9711732,
+      "sha256": "64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b",
+      "parts": [
+        {
+          "path": "assets-source/blocks/64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b-0.part",
+          "sha256": "d49ca57c70bb2c67f6c9f44aacfdcf8b661b86e26fe0261f3df375347a1408f3"
+        },
+        {
+          "path": "assets-source/blocks/64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b-1.part",
+          "sha256": "73724b81b26a3c7f81dd4aedcdc99d84fdaf61e052b919c930d6b648555dece6"
+        },
+        {
+          "path": "assets-source/blocks/64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b-2.part",
+          "sha256": "f503baae63998d6855f76283b8c6b00730395d67164c255ab6ee1ba28dce6c22"
+        },
+        {
+          "path": "assets-source/blocks/64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b-3.part",
+          "sha256": "aa37d212f090a0d88b82731b392d8c2826b7b7ff4d59df1f97b5bde8565691a0"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/recovered-2026-09-17/models/frost-mage-original.glb",
+      "bytes": 8989360,
+      "sha256": "6d3a58d0e8ab8f991173672f3055449d00c5614025b1fe01dc2ab0dd21aeb65f",
+      "parts": [
+        {
+          "path": "assets-source/blocks/6d3a58d0e8ab8f991173672f3055449d00c5614025b1fe01dc2ab0dd21aeb65f-0.part",
+          "sha256": "3eabe39ca456e385a74442f184884f92cd3329132b530c2f206557f5e7d172e1"
+        },
+        {
+          "path": "assets-source/blocks/6d3a58d0e8ab8f991173672f3055449d00c5614025b1fe01dc2ab0dd21aeb65f-1.part",
+          "sha256": "77ddba2cdb8c7c41c75f6b5764343662a79ffebb1522d16fca82d1335f1826cb"
+        },
+        {
+          "path": "assets-source/blocks/6d3a58d0e8ab8f991173672f3055449d00c5614025b1fe01dc2ab0dd21aeb65f-2.part",
+          "sha256": "9c8f183769559018e77ba1d9d3098e44b1dc41b99196732d0b6e6573f7d84bc7"
+        }
+      ]
+    },
+    {
+      "path": "assets-source/higgsfield/recovered-2026-09-17/models/lion-knight-original.glb",
+      "bytes": 8761360,
+      "sha256": "498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7",
+      "parts": [
+        {
+          "path": "assets-source/blocks/498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7-0.part",
+          "sha256": "ac0a76e8e32b93d30a89accbd37095eaf6d113d767d8d0db6cdc93541379739b"
+        },
+        {
+          "path": "assets-source/blocks/498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7-1.part",
+          "sha256": "acdfd690fce61f1df2bb30c49715c9e1ff1db305b631cb96aedcc429868901d5"
+        },
+        {
+          "path": "assets-source/blocks/498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7-2.part",
+          "sha256": "d88cd05bb7a178d2f76af4f10f3722c251b2b919ef5193ff9f74ef9b319ec409"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/recovered-2026-09-17/dusk-rogue.hd.glb",
+      "bytes": 6555052,
+      "sha256": "6505fa0c91bb083bd980906d737da9b19cf8fe50f876ca426f9445acfeff1843",
+      "parts": [
+        {
+          "path": "assets-source/blocks/6505fa0c91bb083bd980906d737da9b19cf8fe50f876ca426f9445acfeff1843-0.part",
+          "sha256": "15da5919104f5ae9d9eda431c9be1ffd585fe83c1a22fc316de4db5dc0a5b279"
+        },
+        {
+          "path": "assets-source/blocks/6505fa0c91bb083bd980906d737da9b19cf8fe50f876ca426f9445acfeff1843-1.part",
+          "sha256": "661a37d3e65c19d2cf67f6e475394b4025d3723275b979c2c388502dc91fc20c"
+        },
+        {
+          "path": "assets-source/blocks/6505fa0c91bb083bd980906d737da9b19cf8fe50f876ca426f9445acfeff1843-2.part",
+          "sha256": "80404eed103c85fafc6e33694f370f1422b1c46c37775b25eaee2c86a90012d8"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/recovered-2026-09-17/ember-dragon.hd.glb",
+      "bytes": 6669748,
+      "sha256": "03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85",
+      "parts": [
+        {
+          "path": "assets-source/blocks/03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85-0.part",
+          "sha256": "f588e28551a8bc9b14a0ebdd51999f69f18636e9217a013c3cacb2c733b99b8b"
+        },
+        {
+          "path": "assets-source/blocks/03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85-1.part",
+          "sha256": "24a47161c157776a947db4f4360013b9f69c208c896c786f57951c15bf805e3d"
+        },
+        {
+          "path": "assets-source/blocks/03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85-2.part",
+          "sha256": "29ac6762b29f73a0f14bea573c25d75b50a64b1de2173eef7da39bda834ab47d"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/recovered-2026-09-17/frost-mage.hd.glb",
+      "bytes": 7406468,
+      "sha256": "aca28dd501da39af9ffc85bd4f5039eaa7517c9a23ad7ca179e7d055f69c40e6",
+      "parts": [
+        {
+          "path": "assets-source/blocks/aca28dd501da39af9ffc85bd4f5039eaa7517c9a23ad7ca179e7d055f69c40e6-0.part",
+          "sha256": "e14aa7da8c89e5093e3aea6c31be98f6e72f677b7bcd22b8cc9796c491a68ad9"
+        },
+        {
+          "path": "assets-source/blocks/aca28dd501da39af9ffc85bd4f5039eaa7517c9a23ad7ca179e7d055f69c40e6-1.part",
+          "sha256": "d5b3be0ca4ec0538e2bb550bb9710703d5d2d4ea4a1aa7fe68e1b8ce954bdab1"
+        },
+        {
+          "path": "assets-source/blocks/aca28dd501da39af9ffc85bd4f5039eaa7517c9a23ad7ca179e7d055f69c40e6-2.part",
+          "sha256": "baf4a82c6335fb0c7399376368481398c6cfad821875492e73321a1fe734ba39"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/recovered-2026-09-17/lion-knight.hd.glb",
+      "bytes": 7172864,
+      "sha256": "1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50",
+      "parts": [
+        {
+          "path": "assets-source/blocks/1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50-0.part",
+          "sha256": "4132cdb5e79e8883b5e15fc4862824c0b45aaba79d055d958a46677ae18e399d"
+        },
+        {
+          "path": "assets-source/blocks/1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50-1.part",
+          "sha256": "01c9838e02d08550cebfde88d0c8395119ca8de7396171b06fe0495404c0e68c"
+        },
+        {
+          "path": "assets-source/blocks/1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50-2.part",
+          "sha256": "d2af59b5bcf17e99c9fbe1b3ce0671a434f8b26d65d184266101f93e22dafb8a"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/roster/recovered-2026-09-17/spider.hd.glb",
+      "bytes": 6026916,
+      "sha256": "f474a184942c23e8a677d11380081a63a9d587218a652f449e6022fda4248cc4",
+      "parts": [
+        {
+          "path": "assets-source/blocks/f474a184942c23e8a677d11380081a63a9d587218a652f449e6022fda4248cc4-0.part",
+          "sha256": "62526a72f2dc97a3a01887b3a2aa0b9e03547728e8fce4606d2ac3c2b1c71bd6"
+        },
+        {
+          "path": "assets-source/blocks/f474a184942c23e8a677d11380081a63a9d587218a652f449e6022fda4248cc4-1.part",
+          "sha256": "ca7ab22ef76b992b6ef74d4901c082ca1c12fdd03265d60490e3ba297c12b804"
         }
       ]
     }

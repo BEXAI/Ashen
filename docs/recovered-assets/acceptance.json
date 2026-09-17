@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-09-17T08:05:01.817159+00:00",
+  "status": "validated source; publication is bound to the final committed SHA by the native Sites receipt",
+  "activeRosterManifest": "/assets/roster/recovered-2026-09-17/manifest.json",
+  "manifestSha256": "64aee1fc0ffd6f8d511db569f4d6d8d19b264262e1b5f381e52952ca69a5c7e4",
+  "recoveredCharacters": 14,
+  "recoveredVariants": 28,
+  "recoveredVariantBytes": 115870284,
+  "allRosterVariantBytes": 132942360,
+  "reviewedMobileHashes": {
+    "dusk-rogue": "1628475edf810377585072547347a35a19fa3ad1b85b1b03df8c0b25de0f85bf",
+    "spider": "80f14f828811811e6a0ad80fe5026cca38714eafa41091c1256058056737471e",
+    "ranger": "e99ecb1e557455d927d825b7089d3b48652414284f7ccfce9fceed65857a029d",
+    "silver-knight": "68df4950c9fd42eb06ba956c583f143ed820a0701fb87426c95430a3c30085cd",
+    "knife-rogue": "57714f155f70ac2ad358e771150a536d53a2c733a7ff302081776494bc0917b8",
+    "ogre": "b0e15300d4d35a02bcadcc50756a20361545ab4612f2605d9317e8160f491d27",
+    "lion-knight": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+    "frost-mage": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+    "lich": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+    "reaper": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+    "sage": "a197d091d6a3691c4383fc02aa10917cdc6d50a35f292e4581171b671dd60a42",
+    "goblin": "c1e7a133a130caca6249c2bc7df245b9e46d8886dc5e1029d5b5421d363515bf",
+    "skeleton-warrior": "4174baf5e4bf86a28a4229c89c0b56d4aef68fd2a72c9038c7487ba717eb9101",
+    "ember-dragon": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd"
+  },
+  "automatedChecks": {
+    "tests": 210,
+    "passed": 210,
+    "failed": 0,
+    "typecheck": "passed",
+    "scopedLint": "passed",
+    "sourceSyntaxFiles": 94,
+    "compiledSyntaxModules": 19,
+    "archivedRecipeSyntaxFiles": 73,
+    "offlineRecipePlanSteps": 33,
+    "productionBuild": "passed"
+  },
+  "browserEvidence": "recovered-browser-qa.json",
+  "limitations": [
+    "Sampled animation review, not continuous-extrema proof",
+    "Desktop software-rendered browser smoke test; physical iPhone performance unverified",
+    "Minor garment/equipment overlap, including corpse weapon floor intersections",
+    "Dragon wings and tail follow body motion without independent flapping",
+    "Already-open game tabs should reload after publication to replace cached old manifests"
+  ]
+}

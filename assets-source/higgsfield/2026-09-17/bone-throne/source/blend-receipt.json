@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "artifact": {
+    "projectId": "02765069-6a15-4d44-852b-025f53032fdf",
+    "revision": 1,
+    "size": 1121857,
+    "etag": "6d2bd29a23ec1f5ece79d2fe5032cee2",
+    "type": "blend"
+  },
+  "projectUrl": "https://higgsfield.ai/3d-jutsu/02765069-6a15-4d44-852b-025f53032fdf",
+  "downloadReceipt": {
+    "expiresAt": "2026-09-17T07:17:48.024Z",
+    "method": "GET"
+  }
+}

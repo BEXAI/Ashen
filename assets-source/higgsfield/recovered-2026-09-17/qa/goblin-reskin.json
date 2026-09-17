@@ -1,0 +1,16 @@
+{
+  "input": "derived/goblin-rigged.glb",
+  "inputSHA256": "e0a4f59bf7f083c7326617f77918ed419ff94c4733cc8508c361dc2f6b84d1c4",
+  "output": "derived/goblin-rigged.glb",
+  "outputSHA256": "b85fd080d9b7acd2b08c1418fece8c4b5d5b6d0863727b452ff5061db81f158d",
+  "sourceGeometryUntouched": true,
+  "originalBinaryPrefixPreserved": true,
+  "vertices": 34655,
+  "triangles": 57286,
+  "virtualWeldedVertices": 28517,
+  "hardPinnedVertices": 9582,
+  "smoothingPasses": 100,
+  "equipmentVerticesRigidHand": 2667,
+  "weightSumMaxError": 1.7881393432617188e-07,
+  "method": "Continuous vertical torso/hood field with fitted arm capsules, preserved rigid scythe anchors and seam-aware topological smoothing. Robed characters lower garment follows Hips; fitted arm capsule fields and seam-welded smoothing avoid transferred distant hand/leg islands."
+}

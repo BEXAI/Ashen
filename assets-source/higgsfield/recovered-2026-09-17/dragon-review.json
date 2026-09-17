@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "slug": "ember-dragon",
+  "status": "pass sampled major deformation; ready for independent gameplay contact validation",
+  "variants": {
+    "mobile": {
+      "path": "optimized/ember-dragon/ember-dragon-runtime.mobile1024.glb",
+      "bytes": 3350040,
+      "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+      "textureCap": 1024,
+      "validationErrors": 0
+    },
+    "hd": {
+      "path": "optimized/ember-dragon/ember-dragon-runtime.hd2048.glb",
+      "bytes": 6669748,
+      "sha256": "03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85",
+      "textureCap": 2048,
+      "validationErrors": 0
+    }
+  },
+  "source": {
+    "path": "models/ember-dragon-original.glb",
+    "bytes": 9711732,
+    "sha256": "64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b"
+  },
+  "rigged": {
+    "path": "derived/ember-dragon-reskinned.glb",
+    "bytes": 11999080,
+    "sha256": "421e9ffd2e73f2f0a6ab4ae1c8afa71564e6744be4822e3f8a911a6934f13715"
+  },
+  "repair": {
+    "sourcePositionsUVTexturesUnchanged": true,
+    "originalSourceUntouched": true,
+    "removedFusedChainBridgeTriangles": [
+      1917,
+      1921,
+      1929,
+      1932,
+      1950,
+      1960,
+      2027,
+      2028,
+      2035,
+      2039,
+      2054,
+      14122,
+      14138,
+      14141,
+      14142,
+      14171,
+      14177,
+      14184,
+      14189,
+      14191,
+      14230,
+      14232,
+      14247
+    ],
+    "wingAndTailFrame": "Hips with continuous blending into torso/shoulders; no flapping motion",
+    "anatomicalJointPivotsRefit": true
+  },
+  "observations": [
+    "Wing membranes and curled tail retain coherent silhouettes through idle, walk, active lunge, dodge and death samples.",
+    "Former long ribbons and fragmented wing/tail boundaries are absent in sampled poses.",
+    "Hanging chains and cuffs remain visually attached; generated chain-to-floor fusion seams are removed only from derivative.",
+    "Right-claw contact base/tip are exact source surface vertices, rigid to RightHand; no artificial reach extension."
+  ],
+  "sampledPoseCount": 10,
+  "poseSheet": "review/animated/ember-dragon/pose-contact-sheet.jpg",
+  "edgeAudit": {
+    "path": "dragon-edge-audit.json",
+    "method": "Skin-aware rest and pose CPU evaluation; raw model meters",
+    "remainingFlaggedTriangles": 4,
+    "maximumFlaggedEdgeMeters": 0.1761286023410978,
+    "note": "Four local shoulder/wrist edges remain at .165-.176 raw model meters in recovery/death samples; no gross visible ribbon. Threshold is diagnostic, not automatic acceptance."
+  },
+  "limitations": [
+    "Static sampled pose review, not continuous collision validation.",
+    "Native humanoid donor motion adapted to a winged body; no independent wing flapping.",
+    "No physical-device GPU performance claim."
+  ]
+}

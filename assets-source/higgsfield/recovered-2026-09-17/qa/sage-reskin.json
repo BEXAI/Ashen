@@ -1,0 +1,16 @@
+{
+  "input": "derived/sage-rigged.glb",
+  "inputSHA256": "386987d2772b05b7b28cf8ed5f1565ae46ac65b9fe52f174bc4f16441d8d37a1",
+  "output": "derived/sage-rigged.glb",
+  "outputSHA256": "435a14f58901ab99d63aa195e621c61611b72bbf71ba8dc71894ad0f8db63061",
+  "sourceGeometryUntouched": true,
+  "originalBinaryPrefixPreserved": true,
+  "vertices": 33334,
+  "triangles": 57514,
+  "virtualWeldedVertices": 28717,
+  "hardPinnedVertices": 13883,
+  "smoothingPasses": 100,
+  "equipmentVerticesRigidHand": 2847,
+  "weightSumMaxError": 1.7881393432617188e-07,
+  "method": "Continuous vertical torso/hood field with fitted arm capsules, preserved rigid scythe anchors and seam-aware topological smoothing. Robed characters lower garment follows Hips; fitted arm capsule fields and seam-welded smoothing avoid transferred distant hand/leg islands."
+}

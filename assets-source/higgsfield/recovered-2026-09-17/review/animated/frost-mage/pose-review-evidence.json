@@ -1,0 +1,279 @@
+{
+  "slug": "frost-mage",
+  "delivery": {
+    "input": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/frost-mage/frost-mage-runtime.mobile1024.glb",
+    "sha256": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+    "bytes": 3096900,
+    "decodedPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/delivery-decoded.glb",
+    "decodeMethod": "Meshopt decoded without simplification; embedded WebP decoded losslessly to PNG for bpy import",
+    "clips": [
+      {
+        "name": "idle",
+        "duration": 4
+      },
+      {
+        "name": "forward",
+        "duration": 1.7333333492279053
+      },
+      {
+        "name": "backward",
+        "duration": 0.8999999761581421
+      },
+      {
+        "name": "strafe_left",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "strafe_right",
+        "duration": 1.2666666507720947
+      },
+      {
+        "name": "dodge",
+        "duration": 1.8333333730697632
+      },
+      {
+        "name": "hit",
+        "duration": 1.6333333253860474
+      },
+      {
+        "name": "death",
+        "duration": 2.9666666984558105
+      },
+      {
+        "name": "side",
+        "duration": 3.5333333015441895
+      },
+      {
+        "name": "diagonal",
+        "duration": 3.5333333015441895
+      },
+      {
+        "name": "backhand",
+        "duration": 3.5333333015441895
+      },
+      {
+        "name": "overhead",
+        "duration": 3.5333333015441895
+      }
+    ],
+    "decodingOnly": true
+  },
+  "method": "Actual mobile delivery Meshopt+WebP decoded without geometry changes; bpy imported canonical animation actions. Runtime wrapper height/yaw/ground curves applied. Game-authored held props not included.",
+  "poses": [
+    {
+      "clip": "idle",
+      "phase": 0.5,
+      "timeSeconds": 2.0,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/idle-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.6308092474937439,
+          -0.8474147915840149,
+          -2.1830201148986816e-06
+        ],
+        "max": [
+          0.5857765674591064,
+          0.6997887492179871,
+          2.6842286586761475
+        ]
+      },
+      "sampledGroundMinimum": -0.05642957158609756,
+      "runtimeGroundCorrection": 0.056429416789284585,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "forward",
+      "phase": 0.5,
+      "timeSeconds": 0.8666666746139526,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/forward-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.6582579016685486,
+          -1.223498821258545,
+          -1.753680408000946e-06
+        ],
+        "max": [
+          0.6566368937492371,
+          0.6650372743606567,
+          2.8987298011779785
+        ]
+      },
+      "sampledGroundMinimum": -0.008440212213465458,
+      "runtimeGroundCorrection": 0.008440057416652482,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "side",
+      "phase": 0.4,
+      "timeSeconds": 1.413333320617676,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/side-0.400.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.5303738117218018,
+          -0.733208954334259,
+          -0.0006138905882835388
+        ],
+        "max": [
+          0.9141578078269958,
+          0.4320104122161865,
+          3.2325315475463867
+        ]
+      },
+      "sampledGroundMinimum": -0.04453555543255609,
+      "runtimeGroundCorrection": 0.04453540063574312,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "diagonal",
+      "phase": 0.4,
+      "timeSeconds": 1.413333320617676,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/diagonal-0.400.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.5303738117218018,
+          -0.733208954334259,
+          -0.0006138905882835388
+        ],
+        "max": [
+          0.9141578078269958,
+          0.4320104122161865,
+          3.2325315475463867
+        ]
+      },
+      "sampledGroundMinimum": -0.04453555543255609,
+      "runtimeGroundCorrection": 0.04453540063574312,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "backhand",
+      "phase": 0.4,
+      "timeSeconds": 1.413333320617676,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/backhand-0.400.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.5303738117218018,
+          -0.733208954334259,
+          -0.0006138905882835388
+        ],
+        "max": [
+          0.9141578078269958,
+          0.4320104122161865,
+          3.2325315475463867
+        ]
+      },
+      "sampledGroundMinimum": -0.04453555543255609,
+      "runtimeGroundCorrection": 0.04453540063574312,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "overhead",
+      "phase": 0.4,
+      "timeSeconds": 1.413333320617676,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/overhead-0.400.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.5303738117218018,
+          -0.733208954334259,
+          -0.0006138905882835388
+        ],
+        "max": [
+          0.9141578078269958,
+          0.4320104122161865,
+          3.2325315475463867
+        ]
+      },
+      "sampledGroundMinimum": -0.04453555543255609,
+      "runtimeGroundCorrection": 0.04453540063574312,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "dodge",
+      "phase": 0.5,
+      "timeSeconds": 0.9166666865348816,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/dodge-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.5689645409584045,
+          -1.2461433410644531,
+          0.02673225663602352
+        ],
+        "max": [
+          1.0971591472625732,
+          1.3880882263183594,
+          1.3026825189590454
+        ]
+      },
+      "sampledGroundMinimum": 0.07808214210888842,
+      "runtimeGroundCorrection": 0,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "death",
+      "phase": 0.85,
+      "timeSeconds": 2.521666693687439,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/death-0.850.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.6492933630943298,
+          -2.6812565326690674,
+          -0.0007454156875610352
+        ],
+        "max": [
+          1.2580581903457642,
+          1.5660737752914429,
+          0.8240910768508911
+        ]
+      },
+      "sampledGroundMinimum": -0.17506110310908102,
+      "runtimeGroundCorrection": 0.17506094831226804,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "dodge",
+      "phase": 0.8125,
+      "timeSeconds": 1.4895833656191826,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/dodge-0.812.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.0898454189300537,
+          -1.5705174207687378,
+          -1.0848045349121094e-05
+        ],
+        "max": [
+          0.800000786781311,
+          0.7170059084892273,
+          1.596714973449707
+        ]
+      },
+      "sampledGroundMinimum": -0.17987787326805071,
+      "runtimeGroundCorrection": 0.17987771847123774,
+      "modelScale": 1.564176819822967
+    },
+    {
+      "clip": "death",
+      "phase": 0.6875,
+      "timeSeconds": 2.0395833551883698,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/death-0.688.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.6147679090499878,
+          -1.9893138408660889,
+          -9.03010368347168e-06
+        ],
+        "max": [
+          1.2052700519561768,
+          1.4822336435317993,
+          1.0970709323883057
+        ]
+      },
+      "sampledGroundMinimum": -0.1999231036510441,
+      "runtimeGroundCorrection": 0.19992294885423112,
+      "modelScale": 1.564176819822967
+    }
+  ],
+  "notes": [
+    "Sampled poses, not continuous animation acceptance.",
+    "No device or browser GPU performance evidence.",
+    "Restored renderer grounding may differ slightly between uniform curve samples; bounds measured from actual bpy evaluated vertices."
+  ]
+}

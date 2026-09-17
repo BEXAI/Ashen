@@ -1,0 +1,123 @@
+{
+  "version": "bone-throne-v1",
+  "assets": {
+    "boneThrone": {
+      "asset_id": "BoneThrone",
+      "content_version": 1,
+      "source_project_id": "02765069-6a15-4d44-852b-025f53032fdf",
+      "source_revision": 1,
+      "source_hash": "5055af6df7d4dbcb64ae4a631d311da019a7f94cc8991c064a6cda73f2793857",
+      "source_catalog_asset_id": "65b31468-5c24-440c-9a95-99db1b195b67",
+      "license_record": "See provenance.json: catalog source, license terms absent from available receipts.",
+      "units": "metres (glTF units; original scale preserved)",
+      "bounds": [
+        [
+          0.8800042867660522,
+          1.734702230244875,
+          0.9600527882575989
+        ]
+      ],
+      "aabb": {
+        "min": [
+          -0.4400021433830261,
+          -5.551115123125783e-17,
+          -0.48002639412879944
+        ],
+        "max": [
+          0.4400021433830261,
+          1.734702230244875,
+          0.48002639412879944
+        ]
+      },
+      "pivot": "Ground",
+      "front_axis": "+Z",
+      "anchors": {
+        "Ground": [
+          0,
+          0,
+          0
+        ],
+        "Front": [
+          0,
+          0,
+          0.48002639412879944
+        ]
+      },
+      "lods": [
+        0
+      ],
+      "triangles": [
+        6120
+      ],
+      "vertices": [
+        9385
+      ],
+      "draw_primitives": [
+        1
+      ],
+      "materials": 1,
+      "texture_dimensions": {},
+      "estimated_texture_mib": 0,
+      "compressed_url": "/assets/props/v3/bone-throne.glb",
+      "fallback_url": "/assets/props/v3/bone-throne-fallback.glb",
+      "sha256": "17da28d04e1d3a4c6e4ce00c0cd9c10e500983a3dd003f0b0eb747f429972405",
+      "fallback_sha256": "663d43f9da1fb8074a93f32342515e51de5ef503dc8496a56e02d64c1bcf6fcf",
+      "download_bytes": 186636,
+      "fallback_bytes": 376720,
+      "validation_report": "final-export-audit.json",
+      "compression": "Lossless EXT_meshopt_compression byte coding; no quantization, decimation, remeshing or texture conversion. Fallback uses glTF core only."
+    }
+  },
+  "placement": {
+    "roomId": "throne",
+    "position": [
+      -11,
+      0,
+      -77
+    ],
+    "yaw": 0,
+    "scale": 1.45,
+    "front": "+Z toward the chamber entrance",
+    "role": "side crypt relic",
+    "replaces": [],
+    "retains": [
+      "existing central throne baked into throne v12",
+      "hanging red standards",
+      "architecture rear wall pillars and crown trim"
+    ],
+    "reason": "Side placement clears the boss at [0,-69] and main route; do not overlap the baked central throne."
+  },
+  "collision": {
+    "localAabb": {
+      "min": [
+        -0.4400021433830261,
+        -5.551115123125783e-17,
+        -0.48002639412879944
+      ],
+      "max": [
+        0.4400021433830261,
+        1.734702230244875,
+        0.48002639412879944
+      ]
+    },
+    "worldAabb": {
+      "min": [
+        -11.638003107905387,
+        -8.049116928532385e-17,
+        -77.69603827148676
+      ],
+      "max": [
+        -10.361996892094613,
+        2.5153182338550684,
+        -76.30396172851324
+      ]
+    },
+    "conservativeCircle": {
+      "x": -11,
+      "z": -77,
+      "r": 0.9442019069410998
+    },
+    "preferred": "Use the XZ AABB for body movement with actor radius expansion. The conservative circle fits the existing collider data type, but is more restrictive.",
+    "implementationCaveat": "Current world.colliders is declared and returned but is not consumed by engine/dungeon movement. Adding entries alone does not create collision; wire resolution and test hero/enemy movement. Do not assume render mesh creates collision."
+  }
+}

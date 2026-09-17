@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "slug": "knife-rogue",
+  "originalArtwork": {
+    "assetId": "3e01be62-ba68-4862-84c2-91f017008f6b",
+    "filename": "hf_20260909_002155_3e01be62-ba68-4862-84c2-91f017008f6b.png",
+    "sha256": "0bde5d642935f9ab3e976fc58c99b07e47c19cf671eb0f6f686c992b28730010",
+    "bytes": 5099615,
+    "screenshot": {
+      "row": 3,
+      "column": 3,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": true,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "412993f8-70c2-4dc3-8811-5d334052a0cc",
+    "jobType": "tripo_h3_1_image_to_3d",
+    "createdAt": "2026-09-09T00:27:15.511455Z"
+  },
+  "originalGLB": {
+    "path": "models/knife-rogue-original.glb",
+    "bytes": 2499408,
+    "sha256": "25be7914d736774ea8a4d44e9b8bedc143d701f6481cf77ad4ac3a632b8b4fa2"
+  },
+  "riggedInput": {
+    "path": "derived/knife-rogue-rigged.glb",
+    "bytes": 4216144,
+    "sha256": "e135114330015a0f3ca381f3b5c189771d65151679901053c1211d2667ed0951"
+  },
+  "derivation": {
+    "schemaVersion": 1,
+    "method": "Surface-nearest skin-weight transfer from the same established character, with fitted bone pivots; original triangle indices, UVs, materials and textures preserved. Appended positions/normals apply canonical rigid yaw and uniform scale only.",
+    "source": {
+      "path": "models/knife-rogue-original.glb",
+      "sha256": "25be7914d736774ea8a4d44e9b8bedc143d701f6481cf77ad4ac3a632b8b4fa2"
+    },
+    "rigDonor": {
+      "path": "../higgsfield-september-8-2026/models/knife-rogue-original.glb",
+      "sha256": "b07c6573bd2904e36da7195b6bf754164cb19424850c6e8249f85a5ac17c76af"
+    },
+    "rawYawCorrection": -1.5707963267948966,
+    "uniformScale": 1.85,
+    "bodyCenter": [
+      -0.00087412586435676,
+      -0.5,
+      -0.00041374174179510664
+    ],
+    "canonicalHeight": 1.85,
+    "widthFitRatio": 1.0977603309895272,
+    "boneNames": [
+      "Hips",
+      "LeftUpLeg",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase",
+      "RightUpLeg",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase",
+      "Spine02",
+      "Spine01",
+      "Spine",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand",
+      "neck",
+      "Head",
+      "head_end",
+      "headfront"
+    ],
+    "bonePivotAdjustments": [
+      [
+        0,
+        -0.0037070520595733234,
+        0
+      ],
+      [
+        -0.013343152251722265,
+        0.01760760324252597,
+        -0.01049766440222006
+      ],
+      [
+        0.0017727308763765964,
+        -0.01575619883599272,
+        -0.01743119069052
+      ],
+      [
+        -0.0003177826981884263,
+        -0.012706403971363973,
+        -0.008855326813850706
+      ],
+      [
+        -0.003919492659891305,
+        -0.0007267817103217868,
+        -0.01873989778592404
+      ],
+      [
+        0.014780871824112377,
+        0.02490266837278088,
+        -0.008096453786669691
+      ],
+      [
+        0.006560413307146379,
+        -0.008252640187825788,
+        -0.01751432226488494
+      ],
+      [
+        -0.00004352058966042294,
+        -0.006705851426440045,
+        -0.011264112490812217
+      ],
+      [
+        -0.002518401280203683,
+        0.0030381288156758057,
+        -0.013841155263629418
+      ],
+      [
+        0,
+        0.0003639499174375893,
+        0
+      ],
+      [
+        0,
+        -0.0016345040482784955,
+        0
+      ],
+      [
+        0,
+        -0.00016837480021539842,
+        0
+      ],
+      [
+        0.0017948727122589561,
+        0.0027145551395664214,
+        -0.020963722239546904
+      ],
+      [
+        0.014408731119129131,
+        -0.003790354692472797,
+        -0.003651294295371919
+      ],
+      [
+        0.014796907656595831,
+        0.015871437757285056,
+        -0.00836537340017585
+      ],
+      [
+        0.0164750926761503,
+        0.021752183328243968,
+        0.010357181987238333
+      ],
+      [
+        0.0016578097239039885,
+        0.007701864345942999,
+        -0.009076296133910512
+      ],
+      [
+        -0.008606880680132462,
+        -0.0012062823788225874,
+        -0.00806156709078413
+      ],
+      [
+        -0.01392009418787618,
+        0.01016654930164429,
+        -0.009156104938458599
+      ],
+      [
+        -0.010991997194202158,
+        0.018774979762979205,
+        0.009805662063706387
+      ],
+      [
+        0.0020364824089337515,
+        0.005784716856552907,
+        -0.00933723833644849
+      ],
+      [
+        0.0001947995159722691,
+        0.010552463050682692,
+        -0.01382409608836558
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "nearestSurfaceDistance": {
+      "median": 0.02157301229138624,
+      "p95": 0.053785200815763226,
+      "max": 0.09103185860019161
+    },
+    "geometry": {
+      "originalBinaryPrefixPreserved": true,
+      "originalBinLength": 2497268,
+      "vertices": 35581,
+      "triangles": 58506,
+      "unweightedVertices": 0
+    },
+    "equipment": {
+      "mode": "runtime",
+      "hand": "RightHand"
+    },
+    "groundingExclusions": {
+      "reason": "Held equipment vertex mask; body and feet retained",
+      "vertexSets": []
+    },
+    "output": {
+      "path": "derived/knife-rogue-rigged.glb",
+      "bytes": 4216144,
+      "sha256": "e135114330015a0f3ca381f3b5c189771d65151679901053c1211d2667ed0951"
+    }
+  },
+  "motion": "Genuine September 8 native motion library; rest-aware rotation retargeting. Static input clip replaced with genuine idle."
+}

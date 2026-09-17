@@ -10,7 +10,7 @@ export const sha256=bytes=>createHash('sha256').update(bytes).digest('hex');
 export function verifyBoundBytes(bytes,expectedHash,expectedSize,label='asset'){assert.equal(sha256(bytes),expectedHash,`${label}: file hash`);assert.equal(bytes.length,expectedSize,`${label}: file bytes`);}
 export function verifyRuntimePropBudget(diagnostics){
   const snapshot=diagnostics.environmentProps;assert.ok(snapshot,'Missing captured environmentProps diagnostics');let draws=0,triangles=0;
-  for(const name of ['props','shrine','architecture']){const family=diagnostics[name];assert.ok(family&&Number.isFinite(family.draws)&&Number.isFinite(family.triangles),`Missing captured ${name} counts`);assert.ok(family.draws>=0&&family.triangles>=0,'Negative captured counts');draws+=family.draws;triangles+=family.triangles;}
+  for(const name of ['props','shrine','architecture',...(diagnostics.throne?['throne']:[])]){const family=diagnostics[name];assert.ok(family&&Number.isFinite(family.draws)&&Number.isFinite(family.triangles),`Missing captured ${name} counts`);assert.ok(family.draws>=0&&family.triangles>=0,'Negative captured counts');draws+=family.draws;triangles+=family.triangles;}
   assert.equal(snapshot.drawsUpperBound,draws,'Captured family draw sum');assert.equal(snapshot.trianglesUpperBound,triangles,'Captured family triangle sum');assert.ok(draws<=10&&triangles<=25000,'Captured combined prop budget exceeded');return {source:'user-supplied browser diagnostics snapshot',drawsUpperBound:draws,trianglesUpperBound:triangles,drawLimit:10,triangleLimit:25000};
 }
 export function parseGlb(bytes){

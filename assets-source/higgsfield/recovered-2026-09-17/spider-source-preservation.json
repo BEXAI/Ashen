@@ -1,0 +1,17 @@
+{
+  "sourceHash": "756b617f8392c3a43ac8432dee4182ee52fd51cbf20803c52e90c6877ed3db1f",
+  "hdRuntimeHash": "6e04f8e1f9cc5aa11d90803963fe0e707a3486bfbfee85c04c58b8091fbfa48d",
+  "sourceVertices": 34432,
+  "hdVertices": 34432,
+  "triangles": 57158,
+  "maximumPositionRoundTripError": 8.940696716308594e-8,
+  "orientedTrianglesPreserved": true,
+  "originalTextureBytesPreserved": true,
+  "textureSHA256": [
+    "3e58d93edab527e6b511d737a3d0f92004f1a83292c99b253e227a7ab7c12b3d",
+    "a9bc7e8f47dd98d242202b4fdc3648b0f98299c94d61263bba400263e7af21ab",
+    "b0d3b18e2a1964c3c6ec29e94a4b0289d300e3c42a6057975416feb74945e2bc"
+  ],
+  "positionTransform": "[x,y,z] -> [-2z,2y+0.4708501994609833,2x]",
+  "limits": "HD topology/geometry and original texture bytes audited. Mobile intentionally decimated; optimized image dimensions/formats differ by design."
+}

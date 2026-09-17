@@ -1,0 +1,279 @@
+{
+  "slug": "reaper",
+  "delivery": {
+    "input": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/reaper/reaper-runtime.mobile1024.glb",
+    "sha256": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+    "bytes": 3622420,
+    "decodedPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/delivery-decoded.glb",
+    "decodeMethod": "Meshopt decoded without simplification; embedded WebP decoded losslessly to PNG for bpy import",
+    "clips": [
+      {
+        "name": "idle",
+        "duration": 4
+      },
+      {
+        "name": "forward",
+        "duration": 1.7333333492279053
+      },
+      {
+        "name": "backward",
+        "duration": 0.8999999761581421
+      },
+      {
+        "name": "strafe_left",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "strafe_right",
+        "duration": 1.2666666507720947
+      },
+      {
+        "name": "dodge",
+        "duration": 1.8333333730697632
+      },
+      {
+        "name": "hit",
+        "duration": 1.6333333253860474
+      },
+      {
+        "name": "death",
+        "duration": 2.9666666984558105
+      },
+      {
+        "name": "side",
+        "duration": 1.5
+      },
+      {
+        "name": "diagonal",
+        "duration": 3.1666667461395264
+      },
+      {
+        "name": "backhand",
+        "duration": 3
+      },
+      {
+        "name": "overhead",
+        "duration": 2.2333333492279053
+      }
+    ],
+    "decodingOnly": true
+  },
+  "method": "Actual mobile delivery Meshopt+WebP decoded without geometry changes; bpy imported canonical animation actions. Runtime wrapper height/yaw/ground curves applied. Game-authored held props not included.",
+  "poses": [
+    {
+      "clip": "idle",
+      "phase": 0.5,
+      "timeSeconds": 2.0,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/idle-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.0003715753555298,
+          -0.7562758922576904,
+          -1.043081283569336e-07
+        ],
+        "max": [
+          0.9639647603034973,
+          0.843300461769104,
+          2.589442014694214
+        ]
+      },
+      "sampledGroundMinimum": -0.09152619078563873,
+      "runtimeGroundCorrection": 0.09152618126590671,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "forward",
+      "phase": 0.5,
+      "timeSeconds": 0.8666666746139526,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/forward-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.7112667560577393,
+          -0.8752574324607849,
+          -1.1175870895385742e-07
+        ],
+        "max": [
+          0.8069453835487366,
+          0.7869774699211121,
+          2.612034320831299
+        ]
+      },
+      "sampledGroundMinimum": -0.050067691502198745,
+      "runtimeGroundCorrection": 0.05006768198246673,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "side",
+      "phase": 0.395,
+      "timeSeconds": 0.5925,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/side-0.395.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.5987316370010376,
+          -1.0762848854064941,
+          -0.0002897977828979492
+        ],
+        "max": [
+          0.704543948173523,
+          0.9168623089790344,
+          3.383589267730713
+        ]
+      },
+      "sampledGroundMinimum": -0.18960173343594844,
+      "runtimeGroundCorrection": 0.1896017239162164,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "diagonal",
+      "phase": 0.245,
+      "timeSeconds": 0.775833352804184,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/diagonal-0.245.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.9907681345939636,
+          -0.8798425793647766,
+          0.005379129201173782
+        ],
+        "max": [
+          0.8274752497673035,
+          0.7188307046890259,
+          3.026102066040039
+        ]
+      },
+      "sampledGroundMinimum": -0.04562719352757426,
+      "runtimeGroundCorrection": 0.04562718400784224,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "backhand",
+      "phase": 0.345,
+      "timeSeconds": 1.035,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/backhand-0.345.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.7145162224769592,
+          -1.1152766942977905,
+          0.0005025416612625122
+        ],
+        "max": [
+          0.5195790529251099,
+          0.9528378844261169,
+          2.623879909515381
+        ]
+      },
+      "sampledGroundMinimum": -0.14753187651444835,
+      "runtimeGroundCorrection": 0.14753186699471632,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "overhead",
+      "phase": 0.195,
+      "timeSeconds": 0.43550000309944153,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/overhead-0.195.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.9410706162452698,
+          -1.347819209098816,
+          0.001026831567287445
+        ],
+        "max": [
+          0.8421916961669922,
+          0.9527827501296997,
+          2.5451691150665283
+        ]
+      },
+      "sampledGroundMinimum": 0.044994569019630254,
+      "runtimeGroundCorrection": -0.04499457853936227,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "dodge",
+      "phase": 0.5,
+      "timeSeconds": 0.9166666865348816,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/dodge-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.9830902218818665,
+          -0.8794623017311096,
+          -0.04780186712741852
+        ],
+        "max": [
+          1.110558271408081,
+          1.3086906671524048,
+          2.0025813579559326
+        ]
+      },
+      "sampledGroundMinimum": -0.010911921898488755,
+      "runtimeGroundCorrection": 0.010911912378756737,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "death",
+      "phase": 0.85,
+      "timeSeconds": 2.521666693687439,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/death-0.850.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.058609127998352,
+          -1.3176205158233643,
+          -0.18794488906860352
+        ],
+        "max": [
+          0.7046047449111938,
+          1.354303002357483,
+          1.3704602718353271
+        ]
+      },
+      "sampledGroundMinimum": -0.37365468234286353,
+      "runtimeGroundCorrection": 0.37365467282313153,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "dodge",
+      "phase": 0.78125,
+      "timeSeconds": 1.4322916977107525,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/dodge-0.781.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.2325458526611328,
+          -1.1408405303955078,
+          -1.430511474609375e-06
+        ],
+        "max": [
+          0.9115282297134399,
+          0.814418375492096,
+          2.3936562538146973
+        ]
+      },
+      "sampledGroundMinimum": -0.7948904495871897,
+      "runtimeGroundCorrection": 0.7948904400674577,
+      "modelScale": 1.4324323757076225
+    },
+    {
+      "clip": "death",
+      "phase": 0.53125,
+      "timeSeconds": 1.5760416835546494,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/reaper/death-0.531.png",
+      "worldBoundsBlender": {
+        "min": [
+          -1.10514497756958,
+          -0.48255303502082825,
+          5.960464477539063e-08
+        ],
+        "max": [
+          0.770867109298706,
+          0.48036959767341614,
+          2.6742565631866455
+        ]
+      },
+      "sampledGroundMinimum": -0.556742525212483,
+      "runtimeGroundCorrection": 0.556742515692751,
+      "modelScale": 1.4324323757076225
+    }
+  ],
+  "notes": [
+    "Sampled poses, not continuous animation acceptance.",
+    "No device or browser GPU performance evidence.",
+    "Restored renderer grounding may differ slightly between uniform curve samples; bounds measured from actual bpy evaluated vertices."
+  ]
+}

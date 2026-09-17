@@ -1,6 +1,6 @@
 import {readFile,writeFile,readdir,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-const roots=['assets-source/higgsfield/2026-09-08','public/assets/roster/september-8'];
+const roots=['assets-source/higgsfield/2026-09-08','public/assets/roster/september-8','assets-source/higgsfield/recovered-2026-09-17','public/assets/roster/recovered-2026-09-17','assets-source/higgsfield/2026-09-17/bone-throne'];
 const file='assets-source/large-assets.json',manifest=JSON.parse(await readFile(file,'utf8'));
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 const chunkSize=manifest.chunkBytes,limit=4*1024*1024;
@@ -11,7 +11,7 @@ async function scan(dir){
  for(const entry of await readdir(dir,{withFileTypes:true})){
   const path=dir+'/'+entry.name;
   if(entry.isDirectory()){await scan(path);continue;}
-  if(!entry.isFile()||!/\.(png|mp4|glb)$/.test(path))continue;
+  if(!entry.isFile()||!/\.(png|mp4|glb|blend|npz)$/.test(path))continue;
   const bytes=await readFile(path);if(bytes.length<=limit)continue;
   const sha256=hash(bytes),parts=[];
   for(let offset=0;offset<bytes.length;offset+=chunkSize){

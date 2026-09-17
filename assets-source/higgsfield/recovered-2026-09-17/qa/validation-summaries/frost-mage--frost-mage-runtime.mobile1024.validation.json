@@ -1,0 +1,173 @@
+{
+  "originalReportPath": "optimized/frost-mage/frost-mage-runtime.mobile1024.validation.json",
+  "originalReportSha256": "45ec904f236d1c99873fd86b223960d2700072b8b0162251f39584a288ad05d0",
+  "originalReportBytes": 8148,
+  "compaction": "Repeated diagnostic messages replaced by exact per-code counts and one unmodified example. No outcome or counts altered.",
+  "report": {
+    "direct": {
+      "uri": "frost-mage-runtime.mobile1024.glb",
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 1,
+        "numInfos": 1,
+        "numHints": 9,
+        "truncated": false,
+        "messageCountsByCode": {
+          "UNSUPPORTED_EXTENSION": 1,
+          "BUFFER_VIEW_TARGET_MISSING": 9,
+          "NODE_SKINNED_MESH_NON_ROOT": 1
+        },
+        "exampleByCode": {
+          "UNSUPPORTED_EXTENSION": {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/3"
+          },
+          "BUFFER_VIEW_TARGET_MISSING": {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/attributes/JOINTS_0"
+          },
+          "NODE_SKINNED_MESH_NON_ROOT": {
+            "code": "NODE_SKINNED_MESH_NON_ROOT",
+            "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/24"
+          }
+        },
+        "fullMessagesOmitted": 11
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "Khronos glTF Blender I/O v4.0.43",
+        "extensionsUsed": [
+          "KHR_materials_specular",
+          "KHR_materials_ior",
+          "EXT_texture_webp",
+          "EXT_meshopt_compression"
+        ],
+        "extensionsRequired": [
+          "EXT_texture_webp",
+          "EXT_meshopt_compression"
+        ],
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 2490612
+          },
+          {
+            "pointer": "/buffers/1",
+            "mimeType": "application/gltf-buffer"
+          },
+          {
+            "pointer": "/images/0",
+            "mimeType": "image/webp",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "primaries": "srgb",
+              "transfer": "srgb",
+              "bits": 8
+            }
+          }
+        ],
+        "animationCount": 12,
+        "materialCount": 1,
+        "hasMorphTargets": false,
+        "hasSkins": true,
+        "hasTextures": true,
+        "hasDefaultScene": true,
+        "drawCallCount": 2,
+        "totalVertexCount": 22230,
+        "totalTriangleCount": 14426,
+        "maxUVs": 1,
+        "maxInfluences": 4,
+        "maxAttributes": 5
+      }
+    },
+    "decoded": {
+      "uri": "frost-mage-runtime.mobile1024.glb.decoded-mirror",
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 1,
+        "numInfos": 0,
+        "numHints": 9,
+        "truncated": false,
+        "messageCountsByCode": {
+          "BUFFER_VIEW_TARGET_MISSING": 9,
+          "NODE_SKINNED_MESH_NON_ROOT": 1
+        },
+        "exampleByCode": {
+          "BUFFER_VIEW_TARGET_MISSING": {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/attributes/JOINTS_0"
+          },
+          "NODE_SKINNED_MESH_NON_ROOT": {
+            "code": "NODE_SKINNED_MESH_NON_ROOT",
+            "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/24"
+          }
+        },
+        "fullMessagesOmitted": 10
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "Khronos glTF Blender I/O v4.0.43",
+        "extensionsUsed": [
+          "KHR_materials_specular",
+          "KHR_materials_ior",
+          "EXT_texture_webp"
+        ],
+        "extensionsRequired": [
+          "EXT_texture_webp"
+        ],
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 3221204
+          },
+          {
+            "pointer": "/images/0",
+            "mimeType": "image/webp",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "primaries": "srgb",
+              "transfer": "srgb",
+              "bits": 8
+            }
+          }
+        ],
+        "animationCount": 12,
+        "materialCount": 1,
+        "hasMorphTargets": false,
+        "hasSkins": true,
+        "hasTextures": true,
+        "hasDefaultScene": true,
+        "drawCallCount": 2,
+        "totalVertexCount": 22230,
+        "totalTriangleCount": 14426,
+        "maxUVs": 1,
+        "maxInfluences": 4,
+        "maxAttributes": 5
+      }
+    }
+  }
+}

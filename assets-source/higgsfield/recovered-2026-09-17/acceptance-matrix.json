@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "basis": "Four actual rendered panels per recovered character; original plus previous runtime. No combat animation validation is implied.",
+  "overall": "All 14 recovered originals have coherent static silhouettes with no observed gross body loss. Several restore source equipment absent from newer reconstructed bodies. Their unrigged/static state is an activation blocker until derived rigging and true-equipment contacts pass.",
+  "matrix": [
+    {
+      "slug": "dusk-rogue",
+      "staticAcceptance": "Accept static appearance; activation conditional on rig/contact QA",
+      "existingEquipmentRegressionRisk": "Keep runtime held blade.",
+      "beforeActivation": "No severe static silhouette issue observed."
+    },
+    {
+      "slug": "ember-dragon",
+      "staticAcceptance": "Accept static appearance; activation conditional on rig/contact QA",
+      "existingEquipmentRegressionRisk": "Use true claw geometry for contact; wings/tail/chains need intentional weights.",
+      "beforeActivation": "Wing tips/thin membranes and chains need animated review; no static omission identified."
+    },
+    {
+      "slug": "frost-mage",
+      "staticAcceptance": "Accept static appearance; hold until original equipment binding replaces added props",
+      "existingEquipmentRegressionRisk": "Disable added staff; rigidly bind retained staff and place muzzle at real crystal.",
+      "beforeActivation": "Thin shaft requires exact rigid prop mask; three source rigged models have only a static pose."
+    },
+    {
+      "slug": "goblin",
+      "staticAcceptance": "Accept static appearance; hold until original equipment binding replaces added props",
+      "existingEquipmentRegressionRisk": "Disable added cleaver; use blade geometry for contact.",
+      "beforeActivation": "No severe static silhouette issue observed; prior local interpretation differs visibly."
+    },
+    {
+      "slug": "knife-rogue",
+      "staticAcceptance": "Accept static appearance; activation conditional on rig/contact QA",
+      "existingEquipmentRegressionRisk": "Keep runtime handheld dagger.",
+      "beforeActivation": "Cloth is a single reconstructed surface; animated shoulders/hem need review."
+    },
+    {
+      "slug": "lich",
+      "staticAcceptance": "Accept static appearance; hold until original equipment binding replaces added props",
+      "existingEquipmentRegressionRisk": "Disable added staff; rigidly bind retained staff and place muzzle at real crystal.",
+      "beforeActivation": "Thin crown/robe tips and long shaft need deformation review."
+    },
+    {
+      "slug": "lion-knight",
+      "staticAcceptance": "Accept static appearance; activation conditional on rig/contact QA",
+      "existingEquipmentRegressionRisk": "Keep runtime handheld sword; do not rebind decorative back sword to attacking hand.",
+      "beforeActivation": "Source rig is static 24-joint; back sword should follow torso."
+    },
+    {
+      "slug": "ogre",
+      "staticAcceptance": "Accept static appearance; hold until original equipment binding replaces added props",
+      "existingEquipmentRegressionRisk": "Disable added club; rigidly bind recovered club and derive contact from spikes/head.",
+      "beforeActivation": "No severe static silhouette issue observed; prior local interpretation differs visibly."
+    },
+    {
+      "slug": "ranger",
+      "staticAcceptance": "Accept static appearance; hold until original equipment binding replaces added props",
+      "existingEquipmentRegressionRisk": "Keep bow attached to LeftHand; align projectile spawn with retained bow.",
+      "beforeActivation": "Thin bow/string must not deform with torso; cape edge needs movement review."
+    },
+    {
+      "slug": "reaper",
+      "staticAcceptance": "Hold activation until two-hand scythe pose and real blade contact are verified",
+      "existingEquipmentRegressionRisk": "Use recovered scythe without prior old-mesh repair; rigid primary-hand binding plus matching off-hand placement/animation.",
+      "beforeActivation": "Thin robe tails and scythe blade tips need masks; source side view hides broad blade, frontal view confirms it."
+    },
+    {
+      "slug": "sage",
+      "staticAcceptance": "Hold activation until left-hand staff/animation/muzzle alignment is corrected",
+      "existingEquipmentRegressionRisk": "Disable added right-hand staff; bind actual staff to LeftHand and update muzzle/animation handedness.",
+      "beforeActivation": "Critical difference from previous runtime staff convention; cannot reuse RightHand muzzle blindly."
+    },
+    {
+      "slug": "silver-knight",
+      "staticAcceptance": "Accept static appearance; activation conditional on rig/contact QA",
+      "existingEquipmentRegressionRisk": "Keep runtime handheld sword; leave hip sword with body.",
+      "beforeActivation": "Cape/armor surfaces coherent in static front/quarter/back; joint deformation unverified."
+    },
+    {
+      "slug": "skeleton-warrior",
+      "staticAcceptance": "Accept static appearance; hold until original equipment binding replaces added props",
+      "existingEquipmentRegressionRisk": "Disable both added sword and shield; rigidly bind each to its actual hand.",
+      "beforeActivation": "Thin forearms/ribs and weapon crossings need careful weights; do not classify shield as body."
+    },
+    {
+      "slug": "spider",
+      "staticAcceptance": "Hold activation until custom eight-leg rig and fang contact are verified",
+      "existingEquipmentRegressionRisk": "Use custom eight-leg skeleton; no humanoid rig.",
+      "beforeActivation": "Leg segment correspondence and feet/fangs require animated review."
+    }
+  ],
+  "commonGates": [
+    "Canonicalize raw +X Tripo facing using -90-degree glTF Y transform before any rig fit. Standard-provider originals already face +Z.",
+    "Preserve source geometry/textures in originals; optimize only derived outputs. Tripo originals have approximately 55\u201359k triangles with three 2048px textures and need mobile budgeting.",
+    "All original outputs have zero usable motion clips; three have static 24-bone rigs, eleven are unrigged. Retargeted idle/walk/attack/hit/death/dodge must be reviewed.",
+    "Remove added runtime weapons/shield only when corresponding retained original geometry is rigidly bound and sockets match its true extremities.",
+    "Maintain handheld blades for Dusk Rogue, Knife Rogue, Lion Knight and Silver Knight; their recovered originals do not provide gripped attack blades.",
+    "Re-run grounded locomotion, strike contacts, projectile muzzle, range and no-duplicate-equipment tests across all14 derived models."
+  ],
+  "staticLimitations": "No severe static visual regression was identified that warrants discarding an original. Cloth, wings, chains, fingers, thin staff/scythe parts can still fail during animation; these are unverified, not demonstrated defects."
+}

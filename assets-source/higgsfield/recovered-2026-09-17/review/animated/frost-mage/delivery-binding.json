@@ -1,0 +1,58 @@
+{
+  "input": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/frost-mage/frost-mage-runtime.mobile1024.glb",
+  "sha256": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+  "bytes": 3096900,
+  "decodedPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/frost-mage/delivery-decoded.glb",
+  "decodeMethod": "Meshopt decoded without simplification; embedded WebP decoded losslessly to PNG for bpy import",
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 4
+    },
+    {
+      "name": "forward",
+      "duration": 1.7333333492279053
+    },
+    {
+      "name": "backward",
+      "duration": 0.8999999761581421
+    },
+    {
+      "name": "strafe_left",
+      "duration": 1.1666667461395264
+    },
+    {
+      "name": "strafe_right",
+      "duration": 1.2666666507720947
+    },
+    {
+      "name": "dodge",
+      "duration": 1.8333333730697632
+    },
+    {
+      "name": "hit",
+      "duration": 1.6333333253860474
+    },
+    {
+      "name": "death",
+      "duration": 2.9666666984558105
+    },
+    {
+      "name": "side",
+      "duration": 3.5333333015441895
+    },
+    {
+      "name": "diagonal",
+      "duration": 3.5333333015441895
+    },
+    {
+      "name": "backhand",
+      "duration": 3.5333333015441895
+    },
+    {
+      "name": "overhead",
+      "duration": 3.5333333015441895
+    }
+  ],
+  "decodingOnly": true
+}

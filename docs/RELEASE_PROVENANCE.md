@@ -1,6 +1,6 @@
 # Current release scope
 
-The current game includes the September 8 roster and subsequent graphics/mobile follow-up. See [ROSTER_RELEASE.md](ROSTER_RELEASE.md) for coverage, implementation and current limitations. The previous integrated visual update was published before this roster work; its candidate records below are retained as historical evidence, not current publication status. Physical-device acceptance remains unverified.
+The current source includes the September 8 roster, graphics/mobile follow-up, and fourteen recovered meshes plus the September 17 Bone Throne. See [RECOVERED_ASSET_RELEASE.md](RECOVERED_ASSET_RELEASE.md) for this integration’s acceptance and publication status. See [ROSTER_RELEASE.md](ROSTER_RELEASE.md) for coverage, implementation and current limitations. The previous integrated visual update was published before this roster work; its candidate records below are retained as historical evidence, not current publication status. Physical-device acceptance remains unverified.
 
 # Historical pre-publication visual candidate
 

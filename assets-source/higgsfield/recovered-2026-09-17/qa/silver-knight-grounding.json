@@ -1,0 +1,110 @@
+{
+  "sampleCount": 65,
+  "rest": {
+    "min": [
+      -0.5344000409046807,
+      5.543265783275483e-10,
+      -0.3138795321842497
+    ],
+    "max": [
+      0.5157108399141077,
+      1.8500000028998402,
+      0.29945634217442807
+    ],
+    "size": [
+      1.0501108808187885,
+      1.8500000023455136,
+      0.6133358743586778
+    ]
+  },
+  "exclusions": {
+    "reason": "Held equipment vertex mask; body and feet retained",
+    "vertexSets": []
+  },
+  "clips": {
+    "idle": {
+      "duration": 4,
+      "minimumY": -0.006487124254845566,
+      "maximumY": 0.0010188276387300852,
+      "maximumExtent": 1.7517611468391623,
+      "finite": true
+    },
+    "forward": {
+      "duration": 1.7333333492279053,
+      "minimumY": -0.011881924590898308,
+      "maximumY": 0.030298461808099728,
+      "maximumExtent": 1.7943717254774294,
+      "finite": true
+    },
+    "backward": {
+      "duration": 0.8999999761581421,
+      "minimumY": -0.01686457886045399,
+      "maximumY": 0.004807580893154131,
+      "maximumExtent": 1.8261214228548897,
+      "finite": true
+    },
+    "strafe_left": {
+      "duration": 1.1666667461395264,
+      "minimumY": -0.01473804365257055,
+      "maximumY": 0.02642847111292881,
+      "maximumExtent": 1.4899069104983975,
+      "finite": true
+    },
+    "strafe_right": {
+      "duration": 1.2666666507720947,
+      "minimumY": -0.022662296301168124,
+      "maximumY": 0.014462728722833131,
+      "maximumExtent": 1.5165466324157673,
+      "finite": true
+    },
+    "dodge": {
+      "duration": 1.8333333730697632,
+      "minimumY": -0.36036105261478735,
+      "maximumY": 0.08029818180965544,
+      "maximumExtent": 1.8276806105684442,
+      "finite": true
+    },
+    "hit": {
+      "duration": 1.6333333253860474,
+      "minimumY": -0.0014046490589437778,
+      "maximumY": 0.0622237825799694,
+      "maximumExtent": 1.8405908460923937,
+      "finite": true
+    },
+    "death": {
+      "duration": 2.9666666984558105,
+      "minimumY": -0.1689986862028357,
+      "maximumY": 0.003186604877058204,
+      "maximumExtent": 2.1824549683294068,
+      "finite": true
+    },
+    "side": {
+      "duration": 1.5,
+      "minimumY": 0.063029693831171,
+      "maximumY": 0.08869561407615577,
+      "maximumExtent": 1.7531010805877154,
+      "finite": true
+    },
+    "diagonal": {
+      "duration": 3.1666667461395264,
+      "minimumY": 0.05737858674757913,
+      "maximumY": 0.08892191397183047,
+      "maximumExtent": 1.7426232083289945,
+      "finite": true
+    },
+    "backhand": {
+      "duration": 3,
+      "minimumY": -0.018583961802705086,
+      "maximumY": 0.032912800706883044,
+      "maximumExtent": 1.8120544385282096,
+      "finite": true
+    },
+    "overhead": {
+      "duration": 2.2333333492279053,
+      "minimumY": 0.04887376943383664,
+      "maximumY": 0.09428178173996629,
+      "maximumExtent": 1.7543855460345819,
+      "finite": true
+    }
+  }
+}

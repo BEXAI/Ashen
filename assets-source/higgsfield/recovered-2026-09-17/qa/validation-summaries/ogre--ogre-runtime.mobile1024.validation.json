@@ -1,0 +1,208 @@
+{
+  "originalReportPath": "optimized/ogre/ogre-runtime.mobile1024.validation.json",
+  "originalReportSha256": "63f9addc3811dcd188523eaae06894b8c51252c15340be54899de59813b8bc27",
+  "originalReportBytes": 16188808,
+  "compaction": "Repeated diagnostic messages replaced by exact per-code counts and one unmodified example. No outcome or counts altered.",
+  "report": {
+    "direct": {
+      "uri": "ogre-runtime.mobile1024.glb",
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 1,
+        "numInfos": 1,
+        "numHints": 6,
+        "truncated": false,
+        "messageCountsByCode": {
+          "UNSUPPORTED_EXTENSION": 1,
+          "BUFFER_VIEW_TARGET_MISSING": 6,
+          "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE": 1
+        },
+        "exampleByCode": {
+          "UNSUPPORTED_EXTENSION": {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          "BUFFER_VIEW_TARGET_MISSING": {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/attributes/POSITION"
+          },
+          "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE": {
+            "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+            "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+            "severity": 1,
+            "pointer": "/meshes/0/primitives/0/material"
+          }
+        },
+        "fullMessagesOmitted": 8
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "https://tripo3d.ai",
+        "extensionsUsed": [
+          "EXT_meshopt_compression"
+        ],
+        "extensionsRequired": [
+          "EXT_meshopt_compression"
+        ],
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 3313144
+          },
+          {
+            "pointer": "/buffers/1",
+            "mimeType": "application/gltf-buffer"
+          },
+          {
+            "pointer": "/images/0",
+            "mimeType": "image/jpeg",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "bits": 8
+            }
+          },
+          {
+            "pointer": "/images/1",
+            "mimeType": "image/jpeg",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "bits": 8
+            }
+          },
+          {
+            "pointer": "/images/2",
+            "mimeType": "image/jpeg",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "bits": 8
+            }
+          }
+        ],
+        "animationCount": 12,
+        "materialCount": 1,
+        "hasMorphTargets": false,
+        "hasSkins": true,
+        "hasTextures": true,
+        "hasDefaultScene": true,
+        "drawCallCount": 1,
+        "totalVertexCount": 35637,
+        "totalTriangleCount": 56652,
+        "maxUVs": 1,
+        "maxInfluences": 4,
+        "maxAttributes": 5
+      }
+    },
+    "decoded": {
+      "uri": "ogre-runtime.mobile1024.glb.decoded-mirror",
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 53440,
+        "numInfos": 0,
+        "numHints": 6,
+        "truncated": false,
+        "messageCountsByCode": {
+          "BUFFER_VIEW_TARGET_MISSING": 6,
+          "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE": 1,
+          "ACCESSOR_JOINTS_USED_ZERO_WEIGHT": 53439
+        },
+        "exampleByCode": {
+          "BUFFER_VIEW_TARGET_MISSING": {
+            "code": "BUFFER_VIEW_TARGET_MISSING",
+            "message": "bufferView.target should be set for vertex or index data.",
+            "severity": 3,
+            "pointer": "/meshes/0/primitives/0/attributes/POSITION"
+          },
+          "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE": {
+            "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+            "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+            "severity": 1,
+            "pointer": "/meshes/0/primitives/0/material"
+          },
+          "ACCESSOR_JOINTS_USED_ZERO_WEIGHT": {
+            "code": "ACCESSOR_JOINTS_USED_ZERO_WEIGHT",
+            "message": "Joints accessor element at index 13 (component index 1) is used with zero weight but has non-zero value (23).",
+            "severity": 1,
+            "pointer": "/meshes/0/primitives/0/attributes/JOINTS_0"
+          }
+        },
+        "fullMessagesOmitted": 53446
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "https://tripo3d.ai",
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 4002344
+          },
+          {
+            "pointer": "/images/0",
+            "mimeType": "image/jpeg",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "bits": 8
+            }
+          },
+          {
+            "pointer": "/images/1",
+            "mimeType": "image/jpeg",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "bits": 8
+            }
+          },
+          {
+            "pointer": "/images/2",
+            "mimeType": "image/jpeg",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "bits": 8
+            }
+          }
+        ],
+        "animationCount": 12,
+        "materialCount": 1,
+        "hasMorphTargets": false,
+        "hasSkins": true,
+        "hasTextures": true,
+        "hasDefaultScene": true,
+        "drawCallCount": 1,
+        "totalVertexCount": 35637,
+        "totalTriangleCount": 56652,
+        "maxUVs": 1,
+        "maxInfluences": 4,
+        "maxAttributes": 5
+      }
+    }
+  }
+}

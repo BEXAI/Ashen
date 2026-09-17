@@ -1,0 +1,16 @@
+{
+  "input": "derived/ogre-rigged.glb",
+  "inputSHA256": "b3661ca2204f79bfdc631c1ead7288b9a37df774ce47410db7cd571551195390",
+  "output": "derived/ogre-rigged.glb",
+  "outputSHA256": "b31c1ef691bb18a733b4dfc8dcb9c30bc03eb732df18cda6a1a6ee303636a07a",
+  "sourceGeometryUntouched": true,
+  "originalBinaryPrefixPreserved": true,
+  "vertices": 35637,
+  "triangles": 56652,
+  "virtualWeldedVertices": 28278,
+  "hardPinnedVertices": 13999,
+  "smoothingPasses": 100,
+  "equipmentVerticesRigidHand": 4127,
+  "weightSumMaxError": 1.7881393432617188e-07,
+  "method": "Continuous vertical torso/hood field with fitted arm capsules, preserved rigid scythe anchors and seam-aware topological smoothing. Robed characters lower garment follows Hips; fitted arm capsule fields and seam-welded smoothing avoid transferred distant hand/leg islands."
+}

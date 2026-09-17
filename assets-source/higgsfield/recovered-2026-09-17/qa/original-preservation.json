@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "checked": 14,
+  "allOriginalsUnchanged": true,
+  "models": [
+    {
+      "slug": "dusk-rogue",
+      "path": "models/dusk-rogue-original.glb",
+      "bytes": 8091428,
+      "sha256": "175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502",
+      "receipt": "jobs/dusk-rogue.json",
+      "unchanged": true
+    },
+    {
+      "slug": "ember-dragon",
+      "path": "models/ember-dragon-original.glb",
+      "bytes": 9711732,
+      "sha256": "64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b",
+      "receipt": "jobs/ember-dragon.json",
+      "unchanged": true
+    },
+    {
+      "slug": "frost-mage",
+      "path": "models/frost-mage-original.glb",
+      "bytes": 8989360,
+      "sha256": "6d3a58d0e8ab8f991173672f3055449d00c5614025b1fe01dc2ab0dd21aeb65f",
+      "receipt": "jobs/frost-mage.json",
+      "unchanged": true
+    },
+    {
+      "slug": "goblin",
+      "path": "models/goblin-original.glb",
+      "bytes": 2575956,
+      "sha256": "bc0c51c8a981bc840ffa5aef19ef039875ffd9ddd4c4366b73b79898bc775842",
+      "receipt": "jobs/goblin.json",
+      "unchanged": true
+    },
+    {
+      "slug": "knife-rogue",
+      "path": "models/knife-rogue-original.glb",
+      "bytes": 2499408,
+      "sha256": "25be7914d736774ea8a4d44e9b8bedc143d701f6481cf77ad4ac3a632b8b4fa2",
+      "receipt": "jobs/knife-rogue.json",
+      "unchanged": true
+    },
+    {
+      "slug": "lich",
+      "path": "models/lich-original.glb",
+      "bytes": 2469452,
+      "sha256": "3b69c806655c577154a0d93277cfcd3d9b413bd06a905a6601906a3f0f8e42be",
+      "receipt": "jobs/lich.json",
+      "unchanged": true
+    },
+    {
+      "slug": "lion-knight",
+      "path": "models/lion-knight-original.glb",
+      "bytes": 8761360,
+      "sha256": "498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7",
+      "receipt": "jobs/lion-knight.json",
+      "unchanged": true
+    },
+    {
+      "slug": "ogre",
+      "path": "models/ogre-original.glb",
+      "bytes": 2784968,
+      "sha256": "62c060be802cddc98fcb5a8da15d217439212d5a97334c2bae1a8d2c28960f6f",
+      "receipt": "jobs/ogre.json",
+      "unchanged": true
+    },
+    {
+      "slug": "ranger",
+      "path": "models/ranger-original.glb",
+      "bytes": 2391832,
+      "sha256": "37868d36ef310b55333c2d5d3cdb1ac69d94622fe1488261bdf8444cedf970a2",
+      "receipt": "jobs/ranger.json",
+      "unchanged": true
+    },
+    {
+      "slug": "reaper",
+      "path": "models/reaper-original.glb",
+      "bytes": 2577964,
+      "sha256": "97630a9dc1097755137041461795ecaf71f4b14c403fff58764151188067399e",
+      "receipt": "jobs/reaper.json",
+      "unchanged": true
+    },
+    {
+      "slug": "sage",
+      "path": "models/sage-original.glb",
+      "bytes": 2401736,
+      "sha256": "a086a94930808356c2055aeea9a3e8bd7cb24a85d2b74ad17f49b3625a0e88e7",
+      "receipt": "jobs/sage.json",
+      "unchanged": true
+    },
+    {
+      "slug": "silver-knight",
+      "path": "models/silver-knight-original.glb",
+      "bytes": 2588848,
+      "sha256": "dcddbe5ca9a1843e8ae7e3719ddcfb2ab87712c7c9bb84fa0d300da6ba4fd187",
+      "receipt": "jobs/silver-knight.json",
+      "unchanged": true
+    },
+    {
+      "slug": "skeleton-warrior",
+      "path": "models/skeleton-warrior-original.glb",
+      "bytes": 2721244,
+      "sha256": "bce905ff66993ca1c3842babf854f095830f2fa80cd6b1b9ef90246ef61c1500",
+      "receipt": "jobs/skeleton-warrior.json",
+      "unchanged": true
+    },
+    {
+      "slug": "spider",
+      "path": "models/spider-original.glb",
+      "bytes": 2391248,
+      "sha256": "756b617f8392c3a43ac8432dee4182ee52fd51cbf20803c52e90c6877ed3db1f",
+      "receipt": "jobs/spider.json",
+      "unchanged": true
+    }
+  ]
+}

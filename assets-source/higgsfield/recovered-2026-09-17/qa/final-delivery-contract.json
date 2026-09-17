@@ -1,0 +1,10 @@
+{
+  "models": 14,
+  "variants": 28,
+  "bytes": 115870284,
+  "MiB": 110.50251388549805,
+  "variantHashesMatch": true,
+  "allTwelveClipCurvesFinite": true,
+  "allVariantValidationErrors": 0,
+  "independentVisualQA": "All14 accepted; review/animated/review-summary.json binds actual mobile delivery hashes."
+}

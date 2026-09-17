@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "slug": "dusk-rogue",
+  "originalArtwork": {
+    "assetId": "853d2fdc-06d5-4cfc-888a-ccd2f3d9f202",
+    "filename": "hf_20260909_023256_853d2fdc-06d5-4cfc-888a-ccd2f3d9f202.png",
+    "sha256": "935786186aa5d78ba8400bba624faaccc774dc34a8edca13f3640c3881c6c09b",
+    "bytes": 1134601,
+    "screenshot": {
+      "row": 2,
+      "column": 1,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "9aa73b17-3fb2-4585-8f6d-c3f6d8019dff",
+    "jobType": "image_to_3d",
+    "createdAt": "2026-09-09T02:35:58.190816Z"
+  },
+  "originalGLB": {
+    "path": "models/dusk-rogue-original.glb",
+    "bytes": 8091428,
+    "sha256": "175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502"
+  },
+  "riggedInput": {
+    "path": "models/dusk-rogue-original.glb",
+    "bytes": 8091428,
+    "sha256": "175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502"
+  },
+  "derivation": {},
+  "motion": "Genuine September 8 native motion library; rest-aware rotation retargeting. Static input clip replaced with genuine idle."
+}

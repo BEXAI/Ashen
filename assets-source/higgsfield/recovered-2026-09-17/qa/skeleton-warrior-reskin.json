@@ -1,0 +1,16 @@
+{
+  "input": "derived/skeleton-warrior-rigged.glb",
+  "inputSHA256": "dc60fc0aeb12464de9c3e130cca81e43cd1d6a074a1551477233fed7efed297e",
+  "output": "derived/skeleton-warrior-rigged.glb",
+  "outputSHA256": "f99bfdfc80889b828406a22fbb5071b514ffd022759d41acbd9e53d4a4586b74",
+  "sourceGeometryUntouched": true,
+  "originalBinaryPrefixPreserved": true,
+  "vertices": 35950,
+  "triangles": 57011,
+  "virtualWeldedVertices": 28412,
+  "hardPinnedVertices": 16988,
+  "smoothingPasses": 100,
+  "equipmentVerticesRigidHand": 11153,
+  "weightSumMaxError": 1.7881393432617188e-07,
+  "method": "Continuous vertical torso/hood field with fitted arm capsules, preserved rigid scythe anchors and seam-aware topological smoothing. Robed characters lower garment follows Hips; fitted arm capsule fields and seam-welded smoothing avoid transferred distant hand/leg islands."
+}

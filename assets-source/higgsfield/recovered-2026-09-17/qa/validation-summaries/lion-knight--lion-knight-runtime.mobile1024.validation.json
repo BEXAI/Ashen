@@ -1,0 +1,173 @@
+{
+  "originalReportPath": "optimized/lion-knight/lion-knight-runtime.mobile1024.validation.json",
+  "originalReportSha256": "6d356b6c493d138e8e99e185f171b5768974afff985d66273442e5292e5dec4b",
+  "originalReportBytes": 28508,
+  "compaction": "Repeated diagnostic messages replaced by exact per-code counts and one unmodified example. No outcome or counts altered.",
+  "report": {
+    "direct": {
+      "uri": "lion-knight-runtime.mobile1024.glb",
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 1,
+        "numInfos": 74,
+        "numHints": 0,
+        "truncated": false,
+        "messageCountsByCode": {
+          "UNSUPPORTED_EXTENSION": 1,
+          "NODE_SKINNED_MESH_NON_ROOT": 1,
+          "UNUSED_OBJECT": 73
+        },
+        "exampleByCode": {
+          "UNSUPPORTED_EXTENSION": {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/3"
+          },
+          "NODE_SKINNED_MESH_NON_ROOT": {
+            "code": "NODE_SKINNED_MESH_NON_ROOT",
+            "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/24"
+          },
+          "UNUSED_OBJECT": {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/accessors/7"
+          }
+        },
+        "fullMessagesOmitted": 75
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "Khronos glTF Blender I/O v4.0.43",
+        "extensionsUsed": [
+          "KHR_materials_specular",
+          "KHR_materials_ior",
+          "EXT_texture_webp",
+          "EXT_meshopt_compression"
+        ],
+        "extensionsRequired": [
+          "EXT_texture_webp",
+          "EXT_meshopt_compression"
+        ],
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 2423528
+          },
+          {
+            "pointer": "/buffers/1",
+            "mimeType": "application/gltf-buffer"
+          },
+          {
+            "pointer": "/images/0",
+            "mimeType": "image/webp",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "primaries": "srgb",
+              "transfer": "srgb",
+              "bits": 8
+            }
+          }
+        ],
+        "animationCount": 12,
+        "materialCount": 1,
+        "hasMorphTargets": false,
+        "hasSkins": true,
+        "hasTextures": true,
+        "hasDefaultScene": true,
+        "drawCallCount": 1,
+        "totalVertexCount": 21377,
+        "totalTriangleCount": 14438,
+        "maxUVs": 1,
+        "maxInfluences": 4,
+        "maxAttributes": 5
+      }
+    },
+    "decoded": {
+      "uri": "lion-knight-runtime.mobile1024.glb.decoded-mirror",
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 1,
+        "numInfos": 73,
+        "numHints": 0,
+        "truncated": false,
+        "messageCountsByCode": {
+          "NODE_SKINNED_MESH_NON_ROOT": 1,
+          "UNUSED_OBJECT": 73
+        },
+        "exampleByCode": {
+          "NODE_SKINNED_MESH_NON_ROOT": {
+            "code": "NODE_SKINNED_MESH_NON_ROOT",
+            "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/24"
+          },
+          "UNUSED_OBJECT": {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/accessors/7"
+          }
+        },
+        "fullMessagesOmitted": 74
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "Khronos glTF Blender I/O v4.0.43",
+        "extensionsUsed": [
+          "KHR_materials_specular",
+          "KHR_materials_ior",
+          "EXT_texture_webp"
+        ],
+        "extensionsRequired": [
+          "EXT_texture_webp"
+        ],
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 2966644
+          },
+          {
+            "pointer": "/images/0",
+            "mimeType": "image/webp",
+            "storage": "buffer-view",
+            "image": {
+              "width": 1024,
+              "height": 1024,
+              "format": "rgb",
+              "primaries": "srgb",
+              "transfer": "srgb",
+              "bits": 8
+            }
+          }
+        ],
+        "animationCount": 12,
+        "materialCount": 1,
+        "hasMorphTargets": false,
+        "hasSkins": true,
+        "hasTextures": true,
+        "hasDefaultScene": true,
+        "drawCallCount": 1,
+        "totalVertexCount": 21377,
+        "totalTriangleCount": 14438,
+        "maxUVs": 1,
+        "maxInfluences": 4,
+        "maxAttributes": 5
+      }
+    }
+  }
+}

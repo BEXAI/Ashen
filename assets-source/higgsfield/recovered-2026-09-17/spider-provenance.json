@@ -1,0 +1,15 @@
+{
+  "slug": "spider",
+  "sourceJobId": "67d5e2fe-bf89-47a9-b8fb-22c46c754faf",
+  "sourceJobType": "tripo_h3_1_image_to_3d",
+  "sourceCreatedAt": "2026-09-09T00:27:24.111659Z",
+  "sourceArtworkAssetId": "c4010a07-000c-439c-b8da-2a200549f97a",
+  "sourceImageSHA256": "97dae7906bf3e6afbce529e45f6c5771e54a9ca3c7b291db1f6c2571843c1cb9",
+  "sourceMeshSHA256": "756b617f8392c3a43ac8432dee4182ee52fd51cbf20803c52e90c6877ed3db1f",
+  "sourceMeshFile": "models/spider-original.glb",
+  "geometryDerivation": "Recovered September 9 Tripo source. Source +X facing rotated to +Z; uniform authoring scale 2 and grounded floor. No HD geometry remesh. Eight chains fitted to eight actual segmented legs. Mobile alone separately decimated to 24,005 triangles after rigging.",
+  "animationDerivation": "Twelve locally authored and IK-baked clips, based on actual eight-leg fitted rig; no humanoid or paid animation jobs.",
+  "contacts": "ContactBase and ContactTip are head-parented points near the fangs; local visual QA, actual runtime swept-hit validation remains integrating task.",
+  "sourcePreserved": true,
+  "license": "No new license inference; retain original provider job receipt and supplied artwork provenance."
+}

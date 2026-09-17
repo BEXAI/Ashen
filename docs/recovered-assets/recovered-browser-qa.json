@@ -1,0 +1,875 @@
+{
+  "kind": "Local headless desktop software renderer smoke test; not physical phone performance",
+  "reports": [
+    {
+      "view": "bone_throne",
+      "report": {
+        "sourceRevision": "local-uncommitted",
+        "scenario": "bone_throne",
+        "environment": {
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+          "coarsePointer": false,
+          "mobileRenderingProfile": false,
+          "profileOverride": "detected device",
+          "devicePixelRatio": 1,
+          "viewport": [
+            1400,
+            913
+          ],
+          "hardwareClaim": "unverified browser environment"
+        },
+        "assetVersions": {
+          "roster": "september-8-roster-recovered-v1",
+          "characters": "visual-v11",
+          "dungeon": "visual-v13-architecture",
+          "props": "props-v2",
+          "shrine": null,
+          "architecture": "props-v2",
+          "throne": "bone-throne-v1"
+        },
+        "lights": {
+          "slots": 3,
+          "active": 2,
+          "sourceIndices": [
+            8,
+            9
+          ],
+          "shadowKey": 8
+        },
+        "renderTargets": [
+          {
+            "width": 768,
+            "height": 1024,
+            "textures": 1,
+            "type": 1016,
+            "estimatedColorBytes": 6291456,
+            "depthBuffer": true,
+            "samples": 0
+          },
+          {
+            "width": 384,
+            "height": 384,
+            "textures": 1,
+            "type": 1016,
+            "estimatedColorBytes": 1179648,
+            "depthBuffer": true,
+            "samples": 0
+          }
+        ],
+        "renderTargetCaveat": "Color attachments estimate only; depth/stencil, MSAA, driver storage and transient upload allocations are not measured.",
+        "quality": "low",
+        "exposure": 1.4445000000000001,
+        "output": [
+          958,
+          538
+        ],
+        "mainDraws": 15,
+        "mainTriangles": 130130,
+        "totalDraws": 15,
+        "totalTriangles": 130130,
+        "timing": {
+          "sequence": 7,
+          "reason": "view:bone_throne",
+          "samplesRetained": 4,
+          "steadyObservationDurationMs": 0,
+          "framePacerIntervalMs": {
+            "samples": 0,
+            "p50": null,
+            "p95": null,
+            "p99": null,
+            "stallsOver100Ms": 0
+          },
+          "rafIntervalBeforeRenderedFramesMs": {
+            "samples": 0,
+            "p50": null,
+            "p95": null,
+            "p99": null,
+            "stallsOver100Ms": 0
+          },
+          "cpuSubmissionMs": {
+            "samples": 0,
+            "p50": null,
+            "p95": null,
+            "p99": null,
+            "stallsOver100Ms": 0
+          },
+          "gpuTimeMs": null,
+          "gpuTimingStatus": "unavailable: no GPU timer query collected",
+          "classes": {
+            "steady": {
+              "samples": 0,
+              "p50": null,
+              "p95": null,
+              "p99": null,
+              "stallsOver100Ms": 0
+            },
+            "loading": {
+              "samples": 0,
+              "p50": null,
+              "p95": null,
+              "p99": null,
+              "stallsOver100Ms": 0
+            },
+            "warmup": {
+              "samples": 0,
+              "p50": null,
+              "p95": null,
+              "p99": null,
+              "stallsOver100Ms": 0
+            },
+            "paused": {
+              "samples": 4,
+              "p50": 400,
+              "p95": 500,
+              "p99": 500,
+              "stallsOver100Ms": 4
+            },
+            "hit-pause": {
+              "samples": 0,
+              "p50": null,
+              "p95": null,
+              "p99": null,
+              "stallsOver100Ms": 0
+            }
+          },
+          "method": "rAF interval is the callback immediately preceding each rendered frame (skipped callbacks are not retained); paced interval is between rendered frames; performance.now around simulation and CPU render submission. CPU submission is not GPU execution.",
+          "renderState": {
+            "capacity": 600,
+            "observedRenderedFrames": 5,
+            "samplesRetained": 5,
+            "samplesCaptured": 5,
+            "samplesEvicted": 0,
+            "firstRetainedAtMs": 302.29999999701977,
+            "lastRetainedAtMs": 2558.60000000149,
+            "counterHighWater": {
+              "mainDraws": {
+                "value": 15,
+                "atMs": 2558.60000000149
+              },
+              "mainTriangles": {
+                "value": 130130,
+                "atMs": 2558.60000000149
+              },
+              "totalDraws": {
+                "value": 15,
+                "atMs": 2558.60000000149
+              },
+              "totalTriangles": {
+                "value": 130130,
+                "atMs": 2558.60000000149
+              },
+              "rendererGeometries": {
+                "value": 524,
+                "atMs": 302.29999999701977
+              },
+              "rendererTextures": {
+                "value": 28,
+                "atMs": 2558.60000000149
+              },
+              "rendererPrograms": {
+                "value": 23,
+                "atMs": 2558.60000000149
+              },
+              "drawingBufferWidth": {
+                "value": 958,
+                "atMs": 302.29999999701977
+              },
+              "drawingBufferHeight": {
+                "value": 538,
+                "atMs": 302.29999999701977
+              },
+              "drawingBufferPixels": {
+                "value": 515404,
+                "atMs": 302.29999999701977
+              }
+            },
+            "sampledEstimateHighWater": {
+              "sceneGeometries": {
+                "value": 568,
+                "atMs": 302.29999999701977
+              },
+              "sceneTextureObjects": {
+                "value": 46,
+                "atMs": 2558.60000000149
+              },
+              "sceneTextureSources": {
+                "value": 33,
+                "atMs": 2558.60000000149
+              },
+              "estimatedTextureStorageGroups": {
+                "value": 33,
+                "atMs": 2558.60000000149
+              },
+              "estimatedSceneBufferBytes": {
+                "value": 36515544,
+                "atMs": 2558.60000000149
+              },
+              "estimatedAssetTextureBytes": {
+                "value": 65303904.00000002,
+                "atMs": 2558.60000000149
+              },
+              "unknownTextureStorageGroups": {
+                "value": 0,
+                "atMs": 302.29999999701977
+              }
+            },
+            "lastObservedCounters": {
+              "mainDraws": 15,
+              "mainTriangles": 130130,
+              "totalDraws": 15,
+              "totalTriangles": 130130,
+              "rendererGeometries": 511,
+              "rendererTextures": 28,
+              "rendererPrograms": 23,
+              "drawingBufferWidth": 958,
+              "drawingBufferHeight": 538,
+              "drawingBufferPixels": 515404
+            },
+            "sampling": "At most one periodic snapshot per second of rendered work; real state-change snapshots throttled to 250ms. No catch-up samples during suspend/pause. Counter high-water values observe every rendered frame; scene estimates observe retained snapshots only.",
+            "interpretation": "rendererGeometries/textures/programs are renderer-tracked resource counts, not GPU memory bytes. Texture objects and Sources are counted separately; texture byte estimates deduplicate matching Source identity plus the installed Three WebGLTextures upload/sampling cache key. Scene buffer/asset texture bytes are estimates of scene-referenced data, exclude detached caches, driver/transient allocations and render-target attachments. Character LOD counts describe groups marked visible, not independent GPU visibility queries. Main/total draw and triangle counts are the existing render counters. GPU timing is unavailable; no physical-device claim is inferred."
+          }
+        },
+        "textures": 46,
+        "geometryBytes": 36515544,
+        "estimatedAssetTextureMiB": 62.28,
+        "resourceEstimate": {
+          "sceneGeometries": 560,
+          "sceneTextureObjects": 46,
+          "sceneTextureSources": 33,
+          "estimatedTextureStorageGroups": 33,
+          "estimatedSceneBufferBytes": 36515544,
+          "estimatedAssetTextureBytes": 65303904.00000002,
+          "unknownTextureStorageGroups": 0
+        },
+        "gpuResources": {
+          "geometries": 511,
+          "textures": 28
+        },
+        "caveat": "Asset texture estimates exclude render targets (listed separately), decoded images and driver allocations; these are not total GPU memory. Desktop or resized browser results are not physical phone measurements.",
+        "characters": {
+          "ash-knight": "ready: compressed",
+          "lion-knight": "ready",
+          "goblin": "dormant",
+          "ember-dragon": "ready",
+          "lich": "ready"
+        },
+        "characterSources": {
+          "ash-knight": {
+            "url": "/assets/characters/v9/ash-knight-low.glb",
+            "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+            "tier": "low"
+          },
+          "lion-knight": {
+            "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+            "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+            "bytes": 3021932,
+            "textureCap": 1024,
+            "tier": "low"
+          },
+          "ember-dragon": {
+            "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb",
+            "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+            "bytes": 3350040,
+            "textureCap": 1024,
+            "tier": "low"
+          },
+          "lich": {
+            "url": "/assets/roster/recovered-2026-09-17/lich.mobile.glb",
+            "sha256": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+            "bytes": 3596048,
+            "textureCap": 1024,
+            "tier": "low"
+          }
+        },
+        "characterLods": [
+          {
+            "skin": "lion-knight",
+            "lod": 0
+          },
+          {
+            "skin": "ash-knight",
+            "lod": 2
+          },
+          {
+            "skin": "goblin",
+            "lod": "procedural"
+          },
+          {
+            "skin": "skeleton-warrior",
+            "lod": "procedural"
+          },
+          {
+            "skin": "shrouded-skeleton",
+            "lod": "procedural"
+          },
+          {
+            "skin": "spider",
+            "lod": "procedural"
+          },
+          {
+            "skin": "frost-mage",
+            "lod": "procedural"
+          },
+          {
+            "skin": "ogre",
+            "lod": "procedural"
+          },
+          {
+            "skin": "golem",
+            "lod": "procedural"
+          },
+          {
+            "skin": "reaper",
+            "lod": "procedural"
+          },
+          {
+            "skin": "lich",
+            "lod": 0
+          },
+          {
+            "skin": "ember-dragon",
+            "lod": 0
+          }
+        ],
+        "streaming": {
+          "version": "visual-v13-architecture",
+          "loaded": [
+            "crown",
+            "throne",
+            "passage-3"
+          ],
+          "pending": []
+        },
+        "props": {
+          "enabled": true,
+          "state": "ready: compressed",
+          "version": "props-v2",
+          "sourceProject": "21434c15-bdde-4abd-bcb9-62098cae463a",
+          "sourceRevision": 1,
+          "instances": 0,
+          "residentInstances": 10,
+          "draws": 0,
+          "triangles": 0,
+          "visibleLods": [
+            0,
+            0,
+            0
+          ]
+        },
+        "shrine": {
+          "enabled": true,
+          "state": "unloaded",
+          "version": null,
+          "sourceProject": null,
+          "sourceRevision": null,
+          "instances": 0,
+          "visibleInstances": 0,
+          "draws": 0,
+          "triangles": 0,
+          "budgetDraws": 2,
+          "budgetTriangles": 5936,
+          "visibleLods": [
+            0,
+            0,
+            0
+          ]
+        },
+        "architecture": {
+          "enabled": true,
+          "state": "ready: compressed",
+          "version": "props-v2",
+          "sourceProject": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+          "sourceRevision": 1,
+          "residentInstances": 11,
+          "instances": 1,
+          "draws": 1,
+          "triangles": 592,
+          "lods": {
+            "Arch": -1,
+            "Pillar": 1,
+            "Trim": -1
+          },
+          "budgetLimited": false
+        },
+        "throne": {
+          "enabled": true,
+          "state": "ready: compressed",
+          "fallback": false,
+          "version": "bone-throne-v1",
+          "sourceProject": "02765069-6a15-4d44-852b-025f53032fdf",
+          "sourceRevision": 1,
+          "instances": 1,
+          "residentInstances": 1,
+          "draws": 1,
+          "triangles": 6120
+        },
+        "environmentProps": {
+          "drawsUpperBound": 2,
+          "trianglesUpperBound": 6712,
+          "drawBudget": 10,
+          "triangleBudget": 25000
+        },
+        "transientAssetOverlap": {
+          "replacementLoads": 0,
+          "lastOldAndNewDownloadBytes": 0,
+          "allocationStatus": "Decoded images and upload peak unmeasured"
+        },
+        "loading": {
+          "roster": 0,
+          "characters": 0,
+          "surfaces": false,
+          "uploadWarmup": false
+        },
+        "graphics": {
+          "version": 1,
+          "brightness": 1,
+          "impactShake": false
+        },
+        "adaptive": null
+      }
+    },
+    {
+      "view": "boss",
+      "report": {
+        "sourceRevision": "local-uncommitted",
+        "scenario": "boss",
+        "environment": {
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+          "coarsePointer": false,
+          "mobileRenderingProfile": false,
+          "profileOverride": "detected device",
+          "devicePixelRatio": 1,
+          "viewport": [
+            1400,
+            913
+          ],
+          "hardwareClaim": "unverified browser environment"
+        },
+        "assetVersions": {
+          "roster": "september-8-roster-recovered-v1",
+          "characters": "visual-v11",
+          "dungeon": "visual-v13-architecture",
+          "props": "props-v2",
+          "shrine": "props-v2",
+          "architecture": "props-v2",
+          "throne": "bone-throne-v1"
+        },
+        "lights": {
+          "slots": 3,
+          "active": 2,
+          "sourceIndices": [
+            8,
+            9
+          ],
+          "shadowKey": 8
+        },
+        "renderTargets": [
+          {
+            "width": 768,
+            "height": 1024,
+            "textures": 1,
+            "type": 1016,
+            "estimatedColorBytes": 6291456,
+            "depthBuffer": true,
+            "samples": 0
+          },
+          {
+            "width": 384,
+            "height": 384,
+            "textures": 1,
+            "type": 1016,
+            "estimatedColorBytes": 1179648,
+            "depthBuffer": true,
+            "samples": 0
+          }
+        ],
+        "renderTargetCaveat": "Color attachments estimate only; depth/stencil, MSAA, driver storage and transient upload allocations are not measured.",
+        "quality": "low",
+        "exposure": 1.4445000000000001,
+        "output": [
+          958,
+          538
+        ],
+        "mainDraws": 25,
+        "mainTriangles": 211576,
+        "totalDraws": 26,
+        "totalTriangles": 211578,
+        "timing": {
+          "sequence": 9,
+          "reason": "view:boss",
+          "samplesRetained": 3,
+          "steadyObservationDurationMs": 0,
+          "framePacerIntervalMs": {
+            "samples": 0,
+            "p50": null,
+            "p95": null,
+            "p99": null,
+            "stallsOver100Ms": 0
+          },
+          "rafIntervalBeforeRenderedFramesMs": {
+            "samples": 0,
+            "p50": null,
+            "p95": null,
+            "p99": null,
+            "stallsOver100Ms": 0
+          },
+          "cpuSubmissionMs": {
+            "samples": 0,
+            "p50": null,
+            "p95": null,
+            "p99": null,
+            "stallsOver100Ms": 0
+          },
+          "gpuTimeMs": null,
+          "gpuTimingStatus": "unavailable: no GPU timer query collected",
+          "classes": {
+            "steady": {
+              "samples": 0,
+              "p50": null,
+              "p95": null,
+              "p99": null,
+              "stallsOver100Ms": 0
+            },
+            "loading": {
+              "samples": 0,
+              "p50": null,
+              "p95": null,
+              "p99": null,
+              "stallsOver100Ms": 0
+            },
+            "warmup": {
+              "samples": 0,
+              "p50": null,
+              "p95": null,
+              "p99": null,
+              "stallsOver100Ms": 0
+            },
+            "paused": {
+              "samples": 3,
+              "p50": 16.700000000000728,
+              "p95": 16.700000000000728,
+              "p99": 16.700000000000728,
+              "stallsOver100Ms": 1
+            },
+            "hit-pause": {
+              "samples": 0,
+              "p50": null,
+              "p95": null,
+              "p99": null,
+              "stallsOver100Ms": 0
+            }
+          },
+          "method": "rAF interval is the callback immediately preceding each rendered frame (skipped callbacks are not retained); paced interval is between rendered frames; performance.now around simulation and CPU render submission. CPU submission is not GPU execution.",
+          "renderState": {
+            "capacity": 600,
+            "observedRenderedFrames": 4,
+            "samplesRetained": 2,
+            "samplesCaptured": 2,
+            "samplesEvicted": 0,
+            "firstRetainedAtMs": 4.100000001490116,
+            "lastRetainedAtMs": 1450.9000000059605,
+            "counterHighWater": {
+              "mainDraws": {
+                "value": 25,
+                "atMs": 1450.9000000059605
+              },
+              "mainTriangles": {
+                "value": 211576,
+                "atMs": 1450.9000000059605
+              },
+              "totalDraws": {
+                "value": 26,
+                "atMs": 1450.9000000059605
+              },
+              "totalTriangles": {
+                "value": 211578,
+                "atMs": 1450.9000000059605
+              },
+              "rendererGeometries": {
+                "value": 520,
+                "atMs": 1450.9000000059605
+              },
+              "rendererTextures": {
+                "value": 37,
+                "atMs": 1450.9000000059605
+              },
+              "rendererPrograms": {
+                "value": 24,
+                "atMs": 4.100000001490116
+              },
+              "drawingBufferWidth": {
+                "value": 958,
+                "atMs": 4.100000001490116
+              },
+              "drawingBufferHeight": {
+                "value": 538,
+                "atMs": 4.100000001490116
+              },
+              "drawingBufferPixels": {
+                "value": 515404,
+                "atMs": 4.100000001490116
+              }
+            },
+            "sampledEstimateHighWater": {
+              "sceneGeometries": {
+                "value": 568,
+                "atMs": 1450.9000000059605
+              },
+              "sceneTextureObjects": {
+                "value": 57,
+                "atMs": 1450.9000000059605
+              },
+              "sceneTextureSources": {
+                "value": 44,
+                "atMs": 1450.9000000059605
+              },
+              "estimatedTextureStorageGroups": {
+                "value": 44,
+                "atMs": 1450.9000000059605
+              },
+              "estimatedSceneBufferBytes": {
+                "value": 41410632,
+                "atMs": 1450.9000000059605
+              },
+              "estimatedAssetTextureBytes": {
+                "value": 73609818.66666667,
+                "atMs": 1450.9000000059605
+              },
+              "unknownTextureStorageGroups": {
+                "value": 0,
+                "atMs": 4.100000001490116
+              }
+            },
+            "lastObservedCounters": {
+              "mainDraws": 25,
+              "mainTriangles": 211576,
+              "totalDraws": 26,
+              "totalTriangles": 211578,
+              "rendererGeometries": 520,
+              "rendererTextures": 37,
+              "rendererPrograms": 24,
+              "drawingBufferWidth": 958,
+              "drawingBufferHeight": 538,
+              "drawingBufferPixels": 515404
+            },
+            "sampling": "At most one periodic snapshot per second of rendered work; real state-change snapshots throttled to 250ms. No catch-up samples during suspend/pause. Counter high-water values observe every rendered frame; scene estimates observe retained snapshots only.",
+            "interpretation": "rendererGeometries/textures/programs are renderer-tracked resource counts, not GPU memory bytes. Texture objects and Sources are counted separately; texture byte estimates deduplicate matching Source identity plus the installed Three WebGLTextures upload/sampling cache key. Scene buffer/asset texture bytes are estimates of scene-referenced data, exclude detached caches, driver/transient allocations and render-target attachments. Character LOD counts describe groups marked visible, not independent GPU visibility queries. Main/total draw and triangle counts are the existing render counters. GPU timing is unavailable; no physical-device claim is inferred."
+          }
+        },
+        "textures": 57,
+        "geometryBytes": 41410632,
+        "estimatedAssetTextureMiB": 70.2,
+        "resourceEstimate": {
+          "sceneGeometries": 568,
+          "sceneTextureObjects": 57,
+          "sceneTextureSources": 44,
+          "estimatedTextureStorageGroups": 44,
+          "estimatedSceneBufferBytes": 41410632,
+          "estimatedAssetTextureBytes": 73609818.66666667,
+          "unknownTextureStorageGroups": 0
+        },
+        "gpuResources": {
+          "geometries": 520,
+          "textures": 37
+        },
+        "caveat": "Asset texture estimates exclude render targets (listed separately), decoded images and driver allocations; these are not total GPU memory. Desktop or resized browser results are not physical phone measurements.",
+        "characters": {
+          "ash-knight": "ready: compressed",
+          "lion-knight": "ready",
+          "goblin": "dormant",
+          "ember-dragon": "ready",
+          "lich": "ready",
+          "reaper": "ready",
+          "golem": "ready"
+        },
+        "characterSources": {
+          "ash-knight": {
+            "url": "/assets/characters/v9/ash-knight-low.glb",
+            "sha256": "d5d3c466fac1180c9554ab421448a537afebaef08068a8a42f7b15653c386744",
+            "tier": "low"
+          },
+          "lion-knight": {
+            "url": "/assets/roster/recovered-2026-09-17/lion-knight.mobile.glb",
+            "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+            "bytes": 3021932,
+            "textureCap": 1024,
+            "tier": "low"
+          },
+          "ember-dragon": {
+            "url": "/assets/roster/recovered-2026-09-17/ember-dragon.mobile.glb",
+            "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+            "bytes": 3350040,
+            "textureCap": 1024,
+            "tier": "low"
+          },
+          "lich": {
+            "url": "/assets/roster/recovered-2026-09-17/lich.mobile.glb",
+            "sha256": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+            "bytes": 3596048,
+            "textureCap": 1024,
+            "tier": "low"
+          },
+          "reaper": {
+            "url": "/assets/roster/recovered-2026-09-17/reaper.mobile.glb",
+            "sha256": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+            "bytes": 3622420,
+            "textureCap": 1024,
+            "tier": "low"
+          },
+          "golem": {
+            "url": "/assets/roster/september-8/models/golem-mobile.glb",
+            "sha256": "dc8600e6546b04c3ea647550fc1319c2e3280b8529f885f8f279eebf3ffb26e3",
+            "bytes": 2930600,
+            "tier": "low"
+          }
+        },
+        "characterLods": [
+          {
+            "skin": "lion-knight",
+            "lod": 0
+          },
+          {
+            "skin": "ash-knight",
+            "lod": 2
+          },
+          {
+            "skin": "goblin",
+            "lod": "procedural"
+          },
+          {
+            "skin": "skeleton-warrior",
+            "lod": "procedural"
+          },
+          {
+            "skin": "shrouded-skeleton",
+            "lod": "procedural"
+          },
+          {
+            "skin": "spider",
+            "lod": "procedural"
+          },
+          {
+            "skin": "frost-mage",
+            "lod": "procedural"
+          },
+          {
+            "skin": "ogre",
+            "lod": "procedural"
+          },
+          {
+            "skin": "golem",
+            "lod": 0
+          },
+          {
+            "skin": "reaper",
+            "lod": 0
+          },
+          {
+            "skin": "lich",
+            "lod": 0
+          },
+          {
+            "skin": "ember-dragon",
+            "lod": 0
+          }
+        ],
+        "streaming": {
+          "version": "visual-v13-architecture",
+          "loaded": [
+            "crown",
+            "throne",
+            "passage-3",
+            "passage-2"
+          ],
+          "pending": []
+        },
+        "props": {
+          "enabled": true,
+          "state": "ready: compressed",
+          "version": "props-v2",
+          "sourceProject": "21434c15-bdde-4abd-bcb9-62098cae463a",
+          "sourceRevision": 1,
+          "instances": 1,
+          "residentInstances": 10,
+          "draws": 2,
+          "triangles": 200,
+          "visibleLods": [
+            0,
+            0,
+            1
+          ]
+        },
+        "shrine": {
+          "enabled": true,
+          "state": "ready: compressed",
+          "version": "props-v2",
+          "sourceProject": "02f9af38-c881-4c8b-9fd6-0cbe6e8f1d59",
+          "sourceRevision": 1,
+          "instances": 3,
+          "visibleInstances": 0,
+          "draws": 0,
+          "triangles": 0,
+          "budgetDraws": 2,
+          "budgetTriangles": 5936,
+          "visibleLods": [
+            0,
+            0,
+            0
+          ]
+        },
+        "architecture": {
+          "enabled": true,
+          "state": "ready: compressed",
+          "version": "props-v2",
+          "sourceProject": "1d6dfef7-341a-43ea-bb7f-c5b7f36b4292",
+          "sourceRevision": 1,
+          "residentInstances": 11,
+          "instances": 3,
+          "draws": 2,
+          "triangles": 1296,
+          "lods": {
+            "Arch": -1,
+            "Pillar": 1,
+            "Trim": 2
+          },
+          "budgetLimited": false
+        },
+        "throne": {
+          "enabled": true,
+          "state": "ready: compressed",
+          "fallback": false,
+          "version": "bone-throne-v1",
+          "sourceProject": "02765069-6a15-4d44-852b-025f53032fdf",
+          "sourceRevision": 1,
+          "instances": 1,
+          "residentInstances": 1,
+          "draws": 1,
+          "triangles": 6120
+        },
+        "environmentProps": {
+          "drawsUpperBound": 5,
+          "trianglesUpperBound": 7616,
+          "drawBudget": 10,
+          "triangleBudget": 25000
+        },
+        "transientAssetOverlap": {
+          "replacementLoads": 0,
+          "lastOldAndNewDownloadBytes": 0,
+          "allocationStatus": "Decoded images and upload peak unmeasured"
+        },
+        "loading": {
+          "roster": 0,
+          "characters": 0,
+          "surfaces": false,
+          "uploadWarmup": false
+        },
+        "graphics": {
+          "version": 1,
+          "brightness": 1,
+          "impactShake": false
+        },
+        "adaptive": null
+      }
+    }
+  ]
+}

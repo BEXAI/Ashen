@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
-const loaders=[['dungeon-assets.ts','DUNGEON_MANIFEST_URL','dungeon'],['prop-assets.ts','PROP_MANIFEST_URL','sconce'],['shrine-assets.ts','SHRINE_MANIFEST_URL','shrine'],['architecture-assets.ts','ARCHITECTURE_MANIFEST_URL','architecture']];
+const loaders=[['dungeon-assets.ts','DUNGEON_MANIFEST_URL','dungeon'],['prop-assets.ts','PROP_MANIFEST_URL','sconce'],['shrine-assets.ts','SHRINE_MANIFEST_URL','shrine'],['architecture-assets.ts','ARCHITECTURE_MANIFEST_URL','architecture'],['throne-assets.ts','THRONE_MANIFEST_URL','boneThrone']];
 function requireValue(ok,message){if(!ok)throw Error(message);}
 function resourcePath(client,uri,base='/'){
   requireValue(typeof uri==='string'&&uri.length>0,'Missing asset URI');requireValue(!/[?#\\]/.test(uri),'Unsupported query, fragment or backslash in asset URI');

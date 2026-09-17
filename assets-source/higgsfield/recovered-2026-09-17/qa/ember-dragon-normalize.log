@@ -1,0 +1,65 @@
+{
+  "output": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/runtime/ember-dragon-runtime.glb",
+  "report": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/runtime/ember-dragon-runtime.retarget-report.json",
+  "sha256": "f95745022083758d95c5b8522c54a42ad3c801aeccec183786fbfc865301e488",
+  "availableClips": [
+    "idle",
+    "forward",
+    "backward",
+    "strafe_left",
+    "strafe_right",
+    "dodge",
+    "hit",
+    "death",
+    "side",
+    "diagonal",
+    "backhand",
+    "overhead"
+  ],
+  "missingCanonicalClips": [],
+  "validationErrors": 0,
+  "sockets": {
+    "added": true,
+    "contactBase": [
+      0.07537887622068942,
+      0.013738245789817694,
+      -0.01999437039955232
+    ],
+    "contactTip": [
+      0.18231985865354608,
+      0.12808501752266555,
+      0.0866195260060924
+    ],
+    "parent": "RightHand"
+  },
+  "recommendation": {
+    "contactBase": [
+      0,
+      0.07999999843139648,
+      0
+    ],
+    "contactTip": [
+      0,
+      0.9799999807846067,
+      0
+    ],
+    "contactBaseRestWorld": [
+      -0.4286651345410418,
+      0.691855754782146,
+      0.19202987366547683
+    ],
+    "contactTipRestWorld": [
+      -1.1448972446132084,
+      0.2064807225272406,
+      0.4398658035582118
+    ],
+    "contactLengthMeters": 0.9,
+    "gripCenter": [
+      0,
+      0.07999999843139648,
+      0
+    ],
+    "axis": "RightHand local +Y",
+    "status": "Provisional separate-equipment coordinates, not captured geometry. Runtime owner handles equipped geometry and visual validation."
+  }
+}

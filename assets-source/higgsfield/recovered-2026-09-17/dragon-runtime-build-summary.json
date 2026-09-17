@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "slug": "ember-dragon",
+      "status": "complete",
+      "sourceAssetId": "5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd",
+      "sourceJobId": "bcadeacb-2cef-46b1-bf39-5d1fe4b79e85",
+      "original": {
+        "path": "models/ember-dragon-original.glb",
+        "bytes": 9711732,
+        "sha256": "64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b"
+      },
+      "rigged": {
+        "path": "derived/ember-dragon-reskinned.glb",
+        "bytes": 11999080,
+        "sha256": "421e9ffd2e73f2f0a6ab4ae1c8afa71564e6744be4822e3f8a911a6934f13715"
+      },
+      "runtime": {
+        "path": "runtime/ember-dragon-runtime.glb",
+        "bytes": 11390968,
+        "sha256": "cd7a55e202c5c94c46e28e0d5e02bebb139e172f07b8c4fb75546ceaf5234e8a"
+      },
+      "variants": {
+        "mobile": {
+          "path": "optimized/ember-dragon/ember-dragon-runtime.mobile1024.glb",
+          "bytes": 3350040,
+          "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+          "textureCap": 1024,
+          "validationErrors": 0
+        },
+        "hd": {
+          "path": "optimized/ember-dragon/ember-dragon-runtime.hd2048.glb",
+          "bytes": 6669748,
+          "sha256": "03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85",
+          "textureCap": 2048,
+          "validationErrors": 0
+        }
+      },
+      "provenance": "provenance/ember-dragon.json",
+      "rig": {
+        "joints": 24,
+        "names": [
+          "Hips",
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "LeftToeBase",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightToeBase",
+          "Spine02",
+          "Spine01",
+          "Spine",
+          "LeftShoulder",
+          "LeftArm",
+          "LeftForeArm",
+          "LeftHand",
+          "RightShoulder",
+          "RightArm",
+          "RightForeArm",
+          "RightHand",
+          "neck",
+          "Head",
+          "head_end",
+          "headfront"
+        ],
+        "legLengthMeters": 0.5726764329779399,
+        "hips": "Hips"
+      },
+      "clips": [
+        {
+          "name": "idle",
+          "duration": 3.9999999664723873,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/idle.glb",
+            "sha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "idle",
+              "jobId": "60ad1d52-343d-4473-ac0d-06b18555869f",
+              "actionId": 0,
+              "localOriginal": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-original.glb"
+            }
+          }
+        },
+        {
+          "name": "forward",
+          "duration": 1.7333333157002926,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/forward.glb",
+            "sha256": "7ff799368c9fbac1bd1d9c02330f0f4804c2fb9584bef19fb9bb03b5fb63069c",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "forward",
+              "actionId": 689,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:29.148227+00:00",
+              "jobId": "6d14e271-17ec-4abc-b8b4-bebf3045f172",
+              "lastCheckedAt": "2026-09-17T04:36:33.877121+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043429_6d14e271-17ec-4abc-b8b4-bebf3045f172.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/forward.glb",
+              "bytes": 5948536,
+              "downloadedAt": "2026-09-17T04:36:35.405572+00:00"
+            }
+          }
+        },
+        {
+          "name": "backward",
+          "duration": 0.9000000022351742,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/backward.glb",
+            "sha256": "a3ba24b435f948c8d143705d8464c93a38a2c3d85d244b0e2a5eccdbf8dba7bd",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "backward",
+              "actionId": 679,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:30.812985+00:00",
+              "jobId": "49fc38dd-3b0b-4007-88a8-e5ef1bad81a2",
+              "lastCheckedAt": "2026-09-17T04:37:25.997504+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043431_49fc38dd-3b0b-4007-88a8-e5ef1bad81a2.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/backward.glb",
+              "bytes": 5939212,
+              "downloadedAt": "2026-09-17T04:37:27.472401+00:00"
+            }
+          }
+        },
+        {
+          "name": "strafe_left",
+          "duration": 1.1666667126119137,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/strafe_left.glb",
+            "sha256": "11e39d55aa0b4ac01f63bc27682041cd51d461b186aa280d9fb8814bb1f83345",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "strafe_left",
+              "actionId": 617,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:32.473250+00:00",
+              "jobId": "e9b92ca3-8594-41f4-9db4-8433d795aff5",
+              "lastCheckedAt": "2026-09-17T04:36:35.907104+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043432_e9b92ca3-8594-41f4-9db4-8433d795aff5.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/strafe_left.glb",
+              "bytes": 5942220,
+              "downloadedAt": "2026-09-17T04:36:37.323970+00:00"
+            }
+          }
+        },
+        {
+          "name": "strafe_right",
+          "duration": 1.266666617244482,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/strafe_right.glb",
+            "sha256": "08088a2b52bd132a0f6b8a2d7cdb6de72221ef53a80d47f46060a3d1ac9af368",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "strafe_right",
+              "actionId": 618,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:34.111456+00:00",
+              "jobId": "542b9063-cb22-44cc-81a5-7271f5e1c8e4",
+              "lastCheckedAt": "2026-09-17T04:39:16.394043+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043435_542b9063-cb22-44cc-81a5-7271f5e1c8e4.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/strafe_right.glb",
+              "bytes": 5943436,
+              "downloadedAt": "2026-09-17T04:39:17.882038+00:00"
+            }
+          }
+        },
+        {
+          "name": "dodge",
+          "duration": 1.8333333395421505,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/dodge.glb",
+            "sha256": "8e3ae386c8b5211c5f5498bac4c0ef8bf1fd4bf4e81faf8e2ea38a0a754830f4",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "dodge",
+              "actionId": 158,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:36.284148+00:00",
+              "jobId": "d1f6d005-bc08-43d4-8c08-06dd8f4f9164",
+              "lastCheckedAt": "2026-09-17T04:38:16.057022+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043436_d1f6d005-bc08-43d4-8c08-06dd8f4f9164.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/dodge.glb",
+              "bytes": 5958212,
+              "downloadedAt": "2026-09-17T04:38:17.580056+00:00"
+            }
+          }
+        },
+        {
+          "name": "hit",
+          "duration": 1.6333332918584347,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/hit.glb",
+            "sha256": "1c9268a5cdc8eca78710c9c62f46fa13bfcdc8bce86e24ce1f058585d46aeb32",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "hit",
+              "actionId": 178,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:37.920590+00:00",
+              "jobId": "0dfee752-5402-44ff-acd8-7fc44fa23ab0",
+              "lastCheckedAt": "2026-09-17T04:38:17.848558+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043438_0dfee752-5402-44ff-acd8-7fc44fa23ab0.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/hit.glb",
+              "bytes": 5947272,
+              "downloadedAt": "2026-09-17T04:38:19.363840+00:00"
+            }
+          }
+        },
+        {
+          "name": "death",
+          "duration": 2.966666664928198,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/death.glb",
+            "sha256": "bb8b981dba526e72365c4609bec9fa4f16a7aa8de23e4ca054fffe295f5c4f7b",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "death",
+              "actionId": 8,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:39.580288+00:00",
+              "jobId": "9a92cd91-4a9d-4957-8883-8ae6281d76a0",
+              "lastCheckedAt": "2026-09-17T04:38:19.638211+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043440_9a92cd91-4a9d-4957-8883-8ae6281d76a0.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/death.glb",
+              "bytes": 5961984,
+              "downloadedAt": "2026-09-17T04:38:21.282141+00:00"
+            }
+          }
+        },
+        {
+          "name": "side",
+          "duration": 2.7999999187886715,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+            "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "claws",
+              "actionId": 4,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:50.264848+00:00",
+              "jobId": "03c0cfd1-11a4-490a-b37e-ab5df4ea0a90",
+              "lastCheckedAt": "2026-09-17T04:38:27.748660+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043450_03c0cfd1-11a4-490a-b37e-ab5df4ea0a90.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+              "bytes": 5962776,
+              "downloadedAt": "2026-09-17T04:38:29.227123+00:00"
+            }
+          }
+        },
+        {
+          "name": "diagonal",
+          "duration": 2.7999999187886715,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+            "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "claws",
+              "actionId": 4,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:50.264848+00:00",
+              "jobId": "03c0cfd1-11a4-490a-b37e-ab5df4ea0a90",
+              "lastCheckedAt": "2026-09-17T04:38:27.748660+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043450_03c0cfd1-11a4-490a-b37e-ab5df4ea0a90.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+              "bytes": 5962776,
+              "downloadedAt": "2026-09-17T04:38:29.227123+00:00"
+            }
+          }
+        },
+        {
+          "name": "backhand",
+          "duration": 2.7999999187886715,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+            "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "claws",
+              "actionId": 4,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:50.264848+00:00",
+              "jobId": "03c0cfd1-11a4-490a-b37e-ab5df4ea0a90",
+              "lastCheckedAt": "2026-09-17T04:38:27.748660+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043450_03c0cfd1-11a4-490a-b37e-ab5df4ea0a90.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+              "bytes": 5962776,
+              "downloadedAt": "2026-09-17T04:38:29.227123+00:00"
+            }
+          }
+        },
+        {
+          "name": "overhead",
+          "duration": 2.7999999187886715,
+          "source": {
+            "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+            "sha256": "e3d89d4050d19a7a99206748145dabca09fd9df29f71dbdeb07b80c27ad117f3",
+            "kind": "genuine-source-animation",
+            "sourceMetadata": {
+              "canonicalName": "claws",
+              "actionId": 4,
+              "state": "downloaded",
+              "submittedAt": "2026-09-17T04:34:50.264848+00:00",
+              "jobId": "03c0cfd1-11a4-490a-b37e-ab5df4ea0a90",
+              "lastCheckedAt": "2026-09-17T04:38:27.748660+00:00",
+              "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043450_03c0cfd1-11a4-490a-b37e-ab5df4ea0a90.glb",
+              "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/claws.glb",
+              "bytes": 5962776,
+              "downloadedAt": "2026-09-17T04:38:29.227123+00:00"
+            }
+          }
+        }
+      ],
+      "sockets": {
+        "added": true,
+        "contactBase": [
+          0.07537887622068942,
+          0.013738245789817694,
+          -0.01999437039955232
+        ],
+        "contactTip": [
+          0.18231985865354608,
+          0.12808501752266555,
+          0.0866195260060924
+        ],
+        "parent": "RightHand"
+      },
+      "restBounds": {
+        "min": [
+          -0.7697363308747478,
+          1.0126810081229944e-9,
+          -0.8465448872359445
+        ],
+        "max": [
+          0.8100828806640216,
+          1.8500000393589922,
+          0.5024808947359111
+        ],
+        "size": [
+          1.5798192115387693,
+          1.850000038346311,
+          1.3490257819718554
+        ]
+      },
+      "validationErrors": 0
+    }
+  ],
+  "updatedAtUTC": "2026-09-17T07:47:42.370Z"
+}

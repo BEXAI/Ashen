@@ -49,6 +49,7 @@ export const BENCHMARK_VIEWS = {
   sconce_dusk: { player:[14,-10], camera:[15.7,3.6,-11.9], target:[18.1,3.25,-10] },
   sconce_crown: { player:[11,-38], camera:[12.7,3.6,-39.9], target:[15.1,3.25,-38] },
   sconce_throne: { player:[14,-69], camera:[15.7,3.6,-70.9], target:[18.1,3.25,-69] },
+  bone_throne: { player:[-8,-72], camera:[-7,3.4,-72], target:[-11,1.2,-77] },
   shrine_cinder: { player:[9,14], camera:[14.8,3.8,16.8], target:[11,1,12] },
   shrine_dusk: { player:[-11,-14], camera:[-9.2,3.8,-11.2], target:[-13,1,-16] },
   shrine_crown: { player:[9,-40], camera:[14.8,3.8,-37.2], target:[11,1,-42] },

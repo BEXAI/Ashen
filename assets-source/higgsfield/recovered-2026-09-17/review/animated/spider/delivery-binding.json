@@ -1,0 +1,58 @@
+{
+  "input": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/spider/spider-runtime.mobile1024.glb",
+  "sha256": "80f14f828811811e6a0ad80fe5026cca38714eafa41091c1256058056737471e",
+  "bytes": 2929980,
+  "decodedPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/spider/delivery-decoded.glb",
+  "decodeMethod": "Meshopt decoded without simplification; embedded WebP decoded losslessly to PNG for bpy import",
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 2
+    },
+    {
+      "name": "forward",
+      "duration": 1.2083333730697632
+    },
+    {
+      "name": "backward",
+      "duration": 1.2083333730697632
+    },
+    {
+      "name": "strafe_left",
+      "duration": 1.2083333730697632
+    },
+    {
+      "name": "strafe_right",
+      "duration": 1.2083333730697632
+    },
+    {
+      "name": "dodge",
+      "duration": 0.7916666865348816
+    },
+    {
+      "name": "hit",
+      "duration": 0.5416666865348816
+    },
+    {
+      "name": "death",
+      "duration": 1.4166666269302368
+    },
+    {
+      "name": "side",
+      "duration": 0.7916666865348816
+    },
+    {
+      "name": "diagonal",
+      "duration": 0.7916666865348816
+    },
+    {
+      "name": "backhand",
+      "duration": 0.9166666865348816
+    },
+    {
+      "name": "overhead",
+      "duration": 1
+    }
+  ],
+  "decodingOnly": true
+}

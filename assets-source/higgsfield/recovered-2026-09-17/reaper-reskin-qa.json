@@ -1,0 +1,16 @@
+{
+  "input": "derived/reaper-rigged.glb",
+  "inputSHA256": "9f9efe4caab81359f06acc303babca9f4d9a4a58caeddca5651586bef69de732",
+  "output": "derived/reaper-reskinned.glb",
+  "outputSHA256": "739a809d9e3c9270e1596bfcbc80c34be337914352daec8a4459023cf2d517ad",
+  "sourceGeometryUntouched": true,
+  "originalBinaryPrefixPreserved": true,
+  "vertices": 38028,
+  "triangles": 59342,
+  "virtualWeldedVertices": 29595,
+  "hardPinnedVertices": 17276,
+  "smoothingPasses": 100,
+  "equipmentVerticesRigidRightHand": 1939,
+  "weightSumMaxError": 1.7881393432617188e-07,
+  "method": "Continuous vertical torso/hood field with fitted arm capsules, preserved rigid scythe anchors and seam-aware topological smoothing. Lower flowing robe follows Hips as one garment, avoiding transferred hand/knee islands."
+}

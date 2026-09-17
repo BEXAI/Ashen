@@ -1,0 +1,78 @@
+{
+  "originalReportPath": "optimized/dusk-rogue/dusk-rogue-runtime.source.validation.json",
+  "originalReportSha256": "8ed6662fd5c764ada5cabd69b0faddc9a63e94bc9ed47d91f39dad62228358ed",
+  "originalReportBytes": 12916,
+  "compaction": "Repeated diagnostic messages replaced by exact per-code counts and one unmodified example. No outcome or counts altered.",
+  "report": {
+    "uri": "dusk-rogue-runtime.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 1,
+      "numInfos": 73,
+      "numHints": 0,
+      "truncated": false,
+      "messageCountsByCode": {
+        "NODE_SKINNED_MESH_NON_ROOT": 1,
+        "UNUSED_OBJECT": 73
+      },
+      "exampleByCode": {
+        "NODE_SKINNED_MESH_NON_ROOT": {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/24"
+        },
+        "UNUSED_OBJECT": {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/7"
+        }
+      },
+      "fullMessagesOmitted": 74
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "Khronos glTF Blender I/O v4.0.43",
+      "extensionsUsed": [
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+      ],
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 8450564
+        },
+        {
+          "pointer": "/images/0",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        }
+      ],
+      "animationCount": 12,
+      "materialCount": 1,
+      "hasMorphTargets": false,
+      "hasSkins": true,
+      "hasTextures": true,
+      "hasDefaultScene": true,
+      "drawCallCount": 1,
+      "totalVertexCount": 17027,
+      "totalTriangleCount": 12448,
+      "maxUVs": 1,
+      "maxInfluences": 4,
+      "maxAttributes": 5
+    }
+  }
+}

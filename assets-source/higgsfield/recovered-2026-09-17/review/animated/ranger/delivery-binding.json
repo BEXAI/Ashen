@@ -1,0 +1,58 @@
+{
+  "input": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/ranger/ranger-runtime.mobile1024.glb",
+  "sha256": "e99ecb1e557455d927d825b7089d3b48652414284f7ccfce9fceed65857a029d",
+  "bytes": 3685700,
+  "decodedPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/ranger/delivery-decoded.glb",
+  "decodeMethod": "Meshopt decoded without simplification; embedded WebP decoded losslessly to PNG for bpy import",
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 4
+    },
+    {
+      "name": "forward",
+      "duration": 1.7333333492279053
+    },
+    {
+      "name": "backward",
+      "duration": 0.8999999761581421
+    },
+    {
+      "name": "strafe_left",
+      "duration": 1.1666667461395264
+    },
+    {
+      "name": "strafe_right",
+      "duration": 1.2666666507720947
+    },
+    {
+      "name": "dodge",
+      "duration": 1.8333333730697632
+    },
+    {
+      "name": "hit",
+      "duration": 1.6333333253860474
+    },
+    {
+      "name": "death",
+      "duration": 2.9666666984558105
+    },
+    {
+      "name": "side",
+      "duration": 5
+    },
+    {
+      "name": "diagonal",
+      "duration": 5
+    },
+    {
+      "name": "backhand",
+      "duration": 5
+    },
+    {
+      "name": "overhead",
+      "duration": 5
+    }
+  ],
+  "decodingOnly": true
+}

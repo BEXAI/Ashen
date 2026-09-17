@@ -1,0 +1,295 @@
+{
+  "silver-knight": {
+    "sourceAssetId": "5cbfe6bf-e3d1-4d07-849a-203e77d1b94b",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": {
+      "side": [
+        0.28,
+        0.49
+      ],
+      "diagonal": [
+        0.33,
+        0.47
+      ],
+      "backhand": [
+        0.4,
+        0.56
+      ],
+      "overhead": [
+        0.44,
+        0.6
+      ]
+    },
+    "derivation": "higgsfield-image-to-3d",
+    "style": "blade",
+    "equipment": "authored",
+    "contactSockets": "authored",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "sage": {
+    "sourceAssetId": "880f9069-e695-4dc2-aaed-b5ae3ef026eb",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": [
+      0.36,
+      0.44
+    ],
+    "derivation": "higgsfield-image-to-3d",
+    "style": "staff",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "frost-mage": {
+    "sourceAssetId": "6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": [
+      0.36,
+      0.44
+    ],
+    "derivation": "higgsfield-image-to-3d",
+    "style": "staff",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "ranger": {
+    "sourceAssetId": "0beed7ce-bd60-4a35-8f57-489368a80bb4",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": -1.5707963267948966,
+    "contactPhase": [
+      0.69,
+      0.76
+    ],
+    "derivation": "higgsfield-image-to-3d",
+    "style": "bow",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "dusk-rogue": {
+    "sourceAssetId": "853d2fdc-06d5-4cfc-888a-ccd2f3d9f202",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": {
+      "side": [
+        0.28,
+        0.49
+      ],
+      "diagonal": [
+        0.33,
+        0.47
+      ],
+      "backhand": [
+        0.4,
+        0.56
+      ],
+      "overhead": [
+        0.44,
+        0.6
+      ]
+    },
+    "derivation": "higgsfield-image-to-3d",
+    "style": "blade",
+    "equipment": "authored",
+    "contactSockets": "authored",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "skeleton-warrior": {
+    "sourceAssetId": "4bbdba2a-302d-428e-bc0c-3566bd84bde8",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": {
+      "side": [
+        0.28,
+        0.49
+      ],
+      "diagonal": [
+        0.33,
+        0.47
+      ],
+      "backhand": [
+        0.325,
+        0.505
+      ],
+      "overhead": [
+        0.44,
+        0.6
+      ]
+    },
+    "derivation": "higgsfield-image-to-3d",
+    "style": "blade",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "reaper": {
+    "sourceAssetId": "ae17a6dd-ffae-472e-b762-c9cb6ed2e584",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": {
+      "side": [
+        0.34,
+        0.45
+      ],
+      "diagonal": [
+        0.2,
+        0.29
+      ],
+      "backhand": [
+        0.29,
+        0.4
+      ],
+      "overhead": [
+        0.14,
+        0.25
+      ]
+    },
+    "derivation": "higgsfield-image-to-3d",
+    "style": "blade",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "ember-dragon": {
+    "sourceAssetId": "5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd",
+    "height": 2.8,
+    "yaw": 0,
+    "strikeYaw": -0.5235987755982988,
+    "contactPhase": [
+      0.32,
+      0.44
+    ],
+    "derivation": "higgsfield-image-to-3d",
+    "style": "claws",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "lich": {
+    "sourceAssetId": "3e9a9a70-5514-4bc1-b84a-8f09917ecefe",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": [
+      0.36,
+      0.44
+    ],
+    "derivation": "higgsfield-image-to-3d",
+    "style": "staff",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "knife-rogue": {
+    "sourceAssetId": "3e01be62-ba68-4862-84c2-91f017008f6b",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": {
+      "side": [
+        0.28,
+        0.49
+      ],
+      "diagonal": [
+        0.33,
+        0.47
+      ],
+      "backhand": [
+        0.4,
+        0.56
+      ],
+      "overhead": [
+        0.44,
+        0.6
+      ]
+    },
+    "derivation": "higgsfield-image-to-3d",
+    "style": "blade",
+    "equipment": "authored",
+    "contactSockets": "authored",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "lion-knight": {
+    "sourceAssetId": "db95c2d3-580c-43c5-ab3b-58ee75def5cb",
+    "height": 2.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": {
+      "side": [
+        0.28,
+        0.49
+      ],
+      "diagonal": [
+        0.33,
+        0.47
+      ],
+      "backhand": [
+        0.4,
+        0.56
+      ],
+      "overhead": [
+        0.44,
+        0.6
+      ]
+    },
+    "derivation": "higgsfield-image-to-3d",
+    "style": "blade",
+    "equipment": "authored",
+    "contactSockets": "authored",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "ogre": {
+    "sourceAssetId": "e4f73d18-4dda-4d66-8bc5-1f163c44cf9d",
+    "height": 3.1,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": [
+      0.65,
+      0.88
+    ],
+    "derivation": "locally-authored-reference-interpretation",
+    "style": "club",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  },
+  "goblin": {
+    "sourceAssetId": "2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae",
+    "height": 1.65,
+    "yaw": 0,
+    "strikeYaw": 0,
+    "contactPhase": {
+      "side": [
+        0.28,
+        0.49
+      ],
+      "diagonal": [
+        0.33,
+        0.47
+      ],
+      "backhand": [
+        0.225,
+        0.405
+      ],
+      "overhead": [
+        0.44,
+        0.6
+      ]
+    },
+    "derivation": "locally-authored-reference-interpretation",
+    "style": "blade",
+    "equipment": "embedded",
+    "contactSockets": "embedded",
+    "contentVersion": "recovered-september9-v1"
+  }
+}

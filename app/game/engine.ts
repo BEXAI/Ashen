@@ -7,6 +7,7 @@ import { ImpactRotation, cameraFollowAlpha } from './camera-feedback';
 import { PropAssets } from './prop-assets';
 import { ShrineAssets } from './shrine-assets';
 import { ArchitectureAssets } from './architecture-assets';
+import { ThroneAssets } from './throne-assets';
 import { lightingAt } from './lighting-profiles';
 import { DEFAULT_GRAPHICS, effectiveGraphics, validateGraphics, type GraphicsPreferences } from './graphics-preferences';
 import * as T from 'three';
@@ -50,7 +51,7 @@ export class GameEngine {
  private cameraImpact=new ImpactRotation();private contactPosition=new T.Vector3();private cameraNeedsSnap=true;
  private metrics=new FrameDiagnostics();private benchmarkView:BenchmarkView|null=null;
  private dungeonLighting:DungeonLighting|null=null;
- private dungeonAssets:DungeonAssets|null=null;private props:PropAssets|null=null;private shrineAssets:ShrineAssets|null=null;private architectureAssets:ArchitectureAssets|null=null;
+ private dungeonAssets:DungeonAssets|null=null;private props:PropAssets|null=null;private shrineAssets:ShrineAssets|null=null;private architectureAssets:ArchitectureAssets|null=null;private throneAssets:ThroneAssets|null=null;
  private world:WorldScene;private renderer:T.WebGLRenderer;private camera:T.PerspectiveCamera;private composer:EffectComposer|null=null;
  private roster:RosterAssets|null=null;
  private characters:CharacterAssets|null=null;private impacts:ImpactPool|null=null;private flames:FlameAtlas|null=null;private fxaa:ShaderPass|null=null;private ao:GTAOPass|null=null;private surfaces:SurfaceTextures;private lighting:T.WebGLRenderTarget|null=null;private sightRay=new T.Raycaster();
@@ -76,6 +77,7 @@ export class GameEngine {
   this.props=new PropAssets(this.world,this.renderer,()=>this.assetChanged());
   this.shrineAssets=new ShrineAssets(this.world,this.renderer,()=>this.assetChanged(),this.p.shrines);
   this.architectureAssets=new ArchitectureAssets(this.world,this.renderer,()=>this.assetChanged(),{fallbacks:this.world.architectureFallbacks});
+  this.throneAssets=new ThroneAssets(this.world.scene,()=>this.assetChanged());
   this.surfaces=new SurfaceTextures(this.world.surfaces,Math.min(this.mobile?4:16,this.renderer.capabilities.getMaxAnisotropy()),()=>this.notice('Some detailed textures could not load. The world remains playable.'),()=>this.assetChanged());
   void this.surfaces.setQuality(renderProfile(quality,this.mobile).textures);this.loadLighting();
   for(const e of WORLD.enemies){if(p.defeated.includes(e.id))continue;const actor=knight(true,e.id==='king');actor.group.position.set(e.x,height(e.x,e.z),e.z);this.world.scene.add(actor.group);
@@ -142,19 +144,19 @@ export class GameEngine {
   if(!this.world.architecture)return Infinity;
   const direction=to.clone().sub(from),distance=direction.length();if(distance<.001)return Infinity;
   this.sightRay.set(from,direction.divideScalar(distance));this.sightRay.far=distance;this.sightRay.firstHitOnly=true;
-  return this.sightRay.intersectObjects([this.world.architecture,...this.world.gates.filter(g=>g.visible)],false)[0]?.distance??Infinity;
+  return Math.min(this.sightRay.intersectObjects([this.world.architecture,...this.world.gates.filter(g=>g.visible)],false)[0]?.distance??Infinity,this.throneAssets?.obstruction(this.sightRay.ray,distance)??Infinity);
  }
  private visibleTarget(x:number,z:number){return this.obstruction(new T.Vector3(this.p.x,1.4,this.p.z),new T.Vector3(x,1.4,z))===Infinity;}
  snapshot(){return structuredClone(this.p);}
  private renderHistoryContext(at:number){
-  const sconce=this.props?.status,shrine=this.shrineAssets?.status,architecture=this.architectureAssets?.status;
+  const sconce=this.props?.status,shrine=this.shrineAssets?.status,architecture=this.architectureAssets?.status,throne=this.throneAssets?.status;
   return {
    scenario:this.benchmarkView??'gameplay',player:{x:this.p.x,z:this.p.z,room:roomAt(this.p.x,this.p.z)?.id??'passage'},
    renderProfile:{mobileBudget:this.mobile,override:this.benchmarkMobileOverride?'mobile budget on current browser':'detected device',hardwareClaim:'unverified browser environment'},
    characterLods:visibleCharacterLodCounts(this.actorList),
    characterAssets:{states:{...this.characters?.status,...this.roster?.status},tiers:Object.fromEntries(Object.entries({...this.characters?.sources,...this.roster?.sources}).map(([skin,source])=>[skin,source.tier])),overlap:this.characters?.overlap??null},
-   assetVersions:{roster:this.roster?.manifestVersion,characters:this.characters?.manifestVersion??null,dungeon:this.dungeonAssets?.manifestVersion??null,sconce:sconce?.version??null,shrine:shrine?.version??null,architecture:architecture?.version??null},
-   props:{sconce:sconce??null,shrine:shrine??null,architecture:architecture??null,budget:{draws:10,triangles:25000,reportedDrawsUpperBound:(sconce?.draws??0)+(shrine?.draws??0)+(architecture?.draws??0),reportedTrianglesUpperBound:(sconce?.triangles??0)+(shrine?.triangles??0)+(architecture?.triangles??0)}},
+   assetVersions:{roster:this.roster?.manifestVersion,characters:this.characters?.manifestVersion??null,dungeon:this.dungeonAssets?.manifestVersion??null,sconce:sconce?.version??null,shrine:shrine?.version??null,architecture:architecture?.version??null,throne:throne?.version??null},
+   props:{sconce:sconce??null,shrine:shrine??null,architecture:architecture??null,throne:throne??null,budget:{draws:10,triangles:25000,reportedDrawsUpperBound:(sconce?.draws??0)+(shrine?.draws??0)+(architecture?.draws??0)+(throne?.draws??0),reportedTrianglesUpperBound:(sconce?.triangles??0)+(shrine?.triangles??0)+(architecture?.triangles??0)+(throne?.triangles??0)}},
    streaming:this.dungeonAssets?.status??null,
    loading:{roster:this.roster?.pendingLoads,characters:this.characters?.pendingLoads??0,surfaces:this.surfaces.pending,uploadWarmup:at<this.assetWarmupUntil},
    adaptive:this.mobile&&this.quality==='auto'?this.adaptive.status:null,
@@ -165,7 +167,7 @@ export class GameEngine {
   const inspect=(value:unknown,depth=0)=>{if(value instanceof T.WebGLRenderTarget){targets.add(value);return;}if(depth>1||!value||typeof value!=='object')return;for(const item of Object.values(value))if(item instanceof T.WebGLRenderTarget||Array.isArray(item))inspect(item,depth+1);};
   inspect(this.composer);for(const pass of this.composer?.passes??[])inspect(pass);inspect(this.lighting);inspect(this.world.reflector.getRenderTarget());inspect(this.world.sun.shadow.map);
   const renderTargets=[...targets].map(t=>({width:t.width,height:t.height,textures:t.textures.length,type:t.texture.type,estimatedColorBytes:t.width*t.height*t.textures.length*4*(t.texture.type===T.HalfFloatType?2:t.texture.type===T.FloatType?4:1),depthBuffer:t.depthBuffer,samples:t.samples}));
-  return {...this.metrics.report(this.renderer,this.world.scene,this.quality,{sourceRevision:import.meta.env.VITE_SOURCE_REVISION??'local-uncommitted',scenario:this.benchmarkView??'gameplay',environment:{userAgent:navigator.userAgent,coarsePointer:window.matchMedia('(any-pointer: coarse)').matches,mobileRenderingProfile:this.mobile,profileOverride:this.benchmarkMobileOverride?'mobile budget on current browser':'detected device',devicePixelRatio:window.devicePixelRatio,viewport:[window.innerWidth,window.innerHeight],hardwareClaim:'unverified browser environment'},assetVersions:{roster:this.roster?.manifestVersion,characters:this.characters?.manifestVersion,dungeon:this.dungeonAssets?.manifestVersion,props:this.props?.status.version,shrine:this.shrineAssets?.status.version,architecture:this.architectureAssets?.status.version},lights:this.dungeonLighting?.status,renderTargets,renderTargetCaveat:'Color attachments estimate only; depth/stencil, MSAA, driver storage and transient upload allocations are not measured.'}),characters:{...this.characters?.status,...this.roster?.status},characterSources:{...this.characters?.sources,...this.roster?.sources},characterLods:[this.world.hero,this.world.keeper,...this.enemies.map(e=>e.actor)].filter(a=>a.group.visible).map(a=>({skin:a.group.userData.visualId??a.group.userData.skin,lod:a.group.userData.activeLod??'procedural'})),streaming:this.dungeonAssets?.status,props:this.props?.status,shrine:this.shrineAssets?.status,architecture:this.architectureAssets?.status,environmentProps:{drawsUpperBound:(this.props?.status.draws??0)+(this.shrineAssets?.status.draws??0)+(this.architectureAssets?.status.draws??0),trianglesUpperBound:(this.props?.status.triangles??0)+(this.shrineAssets?.status.triangles??0)+(this.architectureAssets?.status.triangles??0),drawBudget:10,triangleBudget:25000},transientAssetOverlap:this.characters?.overlap,loading:{roster:this.roster?.pendingLoads,characters:this.characters?.pendingLoads,surfaces:this.surfaces.pending,uploadWarmup:performance.now()<this.assetWarmupUntil},graphics:this.graphicsPreferences,adaptive:this.mobile&&this.quality==='auto'?{...this.adaptive.status,transitions:this.adaptiveTransitions}:null};
+  return {...this.metrics.report(this.renderer,this.world.scene,this.quality,{sourceRevision:import.meta.env.VITE_SOURCE_REVISION??'local-uncommitted',scenario:this.benchmarkView??'gameplay',environment:{userAgent:navigator.userAgent,coarsePointer:window.matchMedia('(any-pointer: coarse)').matches,mobileRenderingProfile:this.mobile,profileOverride:this.benchmarkMobileOverride?'mobile budget on current browser':'detected device',devicePixelRatio:window.devicePixelRatio,viewport:[window.innerWidth,window.innerHeight],hardwareClaim:'unverified browser environment'},assetVersions:{roster:this.roster?.manifestVersion,characters:this.characters?.manifestVersion,dungeon:this.dungeonAssets?.manifestVersion,props:this.props?.status.version,shrine:this.shrineAssets?.status.version,architecture:this.architectureAssets?.status.version,throne:this.throneAssets?.status.version},lights:this.dungeonLighting?.status,renderTargets,renderTargetCaveat:'Color attachments estimate only; depth/stencil, MSAA, driver storage and transient upload allocations are not measured.'}),characters:{...this.characters?.status,...this.roster?.status},characterSources:{...this.characters?.sources,...this.roster?.sources},characterLods:[this.world.hero,this.world.keeper,...this.enemies.map(e=>e.actor)].filter(a=>a.group.visible).map(a=>({skin:a.group.userData.visualId??a.group.userData.skin,lod:a.group.userData.activeLod??'procedural'})),streaming:this.dungeonAssets?.status,props:this.props?.status,shrine:this.shrineAssets?.status,architecture:this.architectureAssets?.status,throne:this.throneAssets?.status,environmentProps:{drawsUpperBound:(this.props?.status.draws??0)+(this.shrineAssets?.status.draws??0)+(this.architectureAssets?.status.draws??0)+(this.throneAssets?.status.draws??0),trianglesUpperBound:(this.props?.status.triangles??0)+(this.shrineAssets?.status.triangles??0)+(this.architectureAssets?.status.triangles??0)+(this.throneAssets?.status.triangles??0),drawBudget:10,triangleBudget:25000},transientAssetOverlap:this.characters?.overlap,loading:{roster:this.roster?.pendingLoads,characters:this.characters?.pendingLoads,surfaces:this.surfaces.pending,uploadWarmup:performance.now()<this.assetWarmupUntil},graphics:this.graphicsPreferences,adaptive:this.mobile&&this.quality==='auto'?{...this.adaptive.status,transitions:this.adaptiveTransitions}:null};
  }
  resetMeasurements(reason='manual scenario',warmupMs=2000){this.metrics.measurements.reset(reason,performance.now(),warmupMs);this.last=0;this.adaptive.resetSamples(performance.now(),warmupMs);}
  exportDiagnostics(){return {...this.diagnostics(),measurementWindows:this.metrics.measurements.export()};}
@@ -177,7 +179,7 @@ export class GameEngine {
   this.camera.position.set(v.camera[0],v.camera[1],v.camera[2]);this.camera.lookAt(new T.Vector3(...v.target));this.dungeonLighting?.resetSelection();this.pause(true);this.resetMeasurements(`view:${view}`);
  }
  benchmarkDeviceProfile(mobileBudget:boolean){if(!this.validationMode)return;this.benchmarkMobileOverride=mobileBudget;this.mobile=mobileBudget||window.matchMedia('(any-pointer: coarse)').matches;this.surfaces?.setAnisotropy(Math.min(this.mobile?4:16,this.renderer.capabilities.getMaxAnisotropy()));this.setQuality(this.quality,true);}
- benchmarkProps(enabled:boolean){if(!this.validationMode)return;this.props?.setEnabled(enabled);this.shrineAssets?.setEnabled(enabled);this.architectureAssets?.setEnabled(enabled);this.resetMeasurements('prop comparison');}
+ benchmarkProps(enabled:boolean){if(!this.validationMode)return;this.props?.setEnabled(enabled);this.shrineAssets?.setEnabled(enabled);this.architectureAssets?.setEnabled(enabled);this.throneAssets?.setEnabled(enabled);this.resetMeasurements('prop comparison');}
  benchmarkState(open:boolean){if(!this.validationMode)return;this.p.shrines=open?WORLD.shrines.map(s=>s.id):[];this.p.defeated=open?WORLD.enemies.filter(e=>e.id!=='king').map(e=>e.id):[];for(const shrine of this.world.shrines){const color=open?'#8cd6ec':'#d08239';shrine.light.color.set(color);(shrine.flame.material as T.MeshBasicMaterial).color.set(color);}this.shrineAssets?.setAwakened(this.p.shrines);this.dungeonLighting?.resetSelection();this.resetMeasurements('gate/shrine fixture');this.loop?.invalidate();}
  replace(p:Progress){if(p.x!==this.p.x||p.z!==this.p.z){this.resetCombatFeedback();this.cameraNeedsSnap=true;}this.p=structuredClone(p);this.shrineAssets?.setAwakened(this.p.shrines);this.emit();}
  pause(value:boolean){this.resetCombatFeedback();for(const actor of this.actorList){actor.visual?.resetPresentation();actor.group.userData.gaitTime=0;}this.resetMeasurements(value?'pause':'resume');this.paused=value;this.last=0;this.adaptive?.resetSamples(performance.now());this.clearInput();if(value)this.sound.suspend();this.loop?.pause(value);}
@@ -432,12 +434,13 @@ export class GameEngine {
   this.dungeonAssets?.update(this.p.z);
   this.props?.update(this.camera,this.p.z,this.renderer.domElement.height,dt);
   this.shrineAssets?.update(this.camera,this.p.x,this.p.z,this.renderer.domElement.height,dt);
-  this.architectureAssets?.update(this.camera,this.p.z,this.renderer.domElement.height,dt,{draws:10-(this.props?.status.draws??0)-(this.shrineAssets?.status.draws??0),triangles:25000-(this.props?.status.triangles??0)-(this.shrineAssets?.status.triangles??0)});
+  this.throneAssets?.update(this.camera,this.p.x,this.p.z);
+  this.architectureAssets?.update(this.camera,this.p.z,this.renderer.domElement.height,dt,{draws:10-(this.props?.status.draws??0)-(this.shrineAssets?.status.draws??0)-(this.throneAssets?.status.draws??0),triangles:25000-(this.props?.status.triangles??0)-(this.shrineAssets?.status.triangles??0)-(this.throneAssets?.status.triangles??0)});
   const ea=this.world.embers.geometry.attributes.position;for(let i=0;i<ea.count;i++){ea.setY(i,(ea.getY(i)+dt*(.3+i%4*.1))%8);}ea.needsUpdate=true;this.world.embers.position.set(this.p.x,py,this.p.z);
   for(let i=this.effects.length-1;i>=0;i--){const e=this.effects[i];e.age+=dt;const mat=e.mesh.material as T.MeshBasicMaterial;mat.opacity=Math.max(0,1-e.age/e.life);if(e.expand)e.mesh.scale.setScalar(1+e.age/e.life*e.expand);const v=e.mesh.userData.velocity as T.Vector3|undefined;if(v){e.mesh.position.addScaledVector(v,dt);v.y-=dt*6;}if(e.age>=e.life){this.world.scene.remove(e.mesh);e.mesh.geometry.dispose();mat.dispose();this.effects.splice(i,1);}}
   this.metrics.begin(this.renderer);
   if(this.composer&&this.quality!=='low')this.composer.render();else this.renderer.render(this.world.scene,this.camera);
-  const renderStateAt=performance.now(),classification:FrameClass=this.paused?'paused':stopped>0?'hit-pause':(this.dungeonAssets?.status.pending.length||this.characters?.pendingLoads||this.roster?.pendingLoads||this.props?.status.state==='loading'||this.shrineAssets?.status.state==='loading'||this.architectureAssets?.status.state==='loading'||this.surfaces.pending||renderStateAt<this.assetWarmupUntil)?'loading':'steady';
+  const renderStateAt=performance.now(),classification:FrameClass=this.paused?'paused':stopped>0?'hit-pause':(this.dungeonAssets?.status.pending.length||this.characters?.pendingLoads||this.roster?.pendingLoads||this.props?.status.state==='loading'||this.shrineAssets?.status.state==='loading'||this.architectureAssets?.status.state==='loading'||this.throneAssets?.status.state==='loading'||this.surfaces.pending||renderStateAt<this.assetWarmupUntil)?'loading':'steady';
   this.metrics.captureRenderState(this.renderer,this.world.scene,this.quality,renderStateAt,classification,()=>this.renderHistoryContext(renderStateAt));
   const sampledAt=performance.now(),cpuMs=sampledAt-cpuStarted;
   this.metrics.end(this.renderer,elapsed,rafInterval,cpuMs,classification,sampledAt);
@@ -446,7 +449,7 @@ export class GameEngine {
 
  }
  dispose(){
-  if(this.disposed)return;this.disposed=true;this.loop?.dispose();if(this.resizeTimer)clearTimeout(this.resizeTimer);this.resizeObserver?.disconnect();this.cleanup.forEach(fn=>fn());this.sound.close();this.props?.dispose();this.shrineAssets?.dispose();this.architectureAssets?.dispose();this.roster?.dispose();this.characters?.dispose();this.impacts?.dispose();this.flames?.dispose();this.surfaces?.dispose();this.lighting?.dispose();
+  if(this.disposed)return;this.disposed=true;this.loop?.dispose();if(this.resizeTimer)clearTimeout(this.resizeTimer);this.resizeObserver?.disconnect();this.cleanup.forEach(fn=>fn());this.sound.close();this.props?.dispose();this.shrineAssets?.dispose();this.architectureAssets?.dispose();this.throneAssets?.dispose();this.roster?.dispose();this.characters?.dispose();this.impacts?.dispose();this.flames?.dispose();this.surfaces?.dispose();this.lighting?.dispose();
   this.heroTrail?.dispose();this.enemies.forEach(e=>e.trail.dispose());this.dungeonLighting?.dispose();this.dungeonAssets?.dispose();
   this.composer?.passes.forEach(p=>p.dispose());this.composer?.dispose();
   if(this.world){

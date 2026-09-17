@@ -1,0 +1,101 @@
+{
+  "originalReportPath": "optimized/lich/lich-runtime.source.validation.json",
+  "originalReportSha256": "77e2a0fb8207565ce1394727da684bb2f2ce1ab0771b3461bd7632bd72b99459",
+  "originalReportBytes": 19969230,
+  "compaction": "Repeated diagnostic messages replaced by exact per-code counts and one unmodified example. No outcome or counts altered.",
+  "report": {
+    "uri": "lich-runtime.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 68708,
+      "numInfos": 0,
+      "numHints": 6,
+      "truncated": false,
+      "messageCountsByCode": {
+        "BUFFER_VIEW_TARGET_MISSING": 6,
+        "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE": 1,
+        "ACCESSOR_JOINTS_USED_ZERO_WEIGHT": 68707
+      },
+      "exampleByCode": {
+        "BUFFER_VIEW_TARGET_MISSING": {
+          "code": "BUFFER_VIEW_TARGET_MISSING",
+          "message": "bufferView.target should be set for vertex or index data.",
+          "severity": 3,
+          "pointer": "/meshes/0/primitives/0/attributes/POSITION"
+        },
+        "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE": {
+          "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+          "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+          "severity": 1,
+          "pointer": "/meshes/0/primitives/0/material"
+        },
+        "ACCESSOR_JOINTS_USED_ZERO_WEIGHT": {
+          "code": "ACCESSOR_JOINTS_USED_ZERO_WEIGHT",
+          "message": "Joints accessor element at index 1 (component index 1) is used with zero weight but has non-zero value (23).",
+          "severity": 1,
+          "pointer": "/meshes/0/primitives/0/attributes/JOINTS_0"
+        }
+      },
+      "fullMessagesOmitted": 68714
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "https://tripo3d.ai",
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 3726700
+        },
+        {
+          "pointer": "/images/0",
+          "mimeType": "image/jpeg",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/1",
+          "mimeType": "image/jpeg",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/2",
+          "mimeType": "image/jpeg",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "bits": 8
+          }
+        }
+      ],
+      "animationCount": 12,
+      "materialCount": 1,
+      "hasMorphTargets": false,
+      "hasSkins": true,
+      "hasTextures": true,
+      "hasDefaultScene": true,
+      "drawCallCount": 1,
+      "totalVertexCount": 34211,
+      "totalTriangleCount": 56904,
+      "maxUVs": 1,
+      "maxInfluences": 4,
+      "maxAttributes": 5
+    }
+  }
+}

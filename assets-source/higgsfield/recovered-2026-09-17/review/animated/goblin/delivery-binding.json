@@ -1,0 +1,58 @@
+{
+  "input": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/goblin/goblin-runtime.mobile1024.glb",
+  "sha256": "c1e7a133a130caca6249c2bc7df245b9e46d8886dc5e1029d5b5421d363515bf",
+  "bytes": 3829020,
+  "decodedPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/goblin/delivery-decoded.glb",
+  "decodeMethod": "Meshopt decoded without simplification; embedded WebP decoded losslessly to PNG for bpy import",
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 4
+    },
+    {
+      "name": "forward",
+      "duration": 1.7333333492279053
+    },
+    {
+      "name": "backward",
+      "duration": 0.8999999761581421
+    },
+    {
+      "name": "strafe_left",
+      "duration": 1.1666667461395264
+    },
+    {
+      "name": "strafe_right",
+      "duration": 1.2666666507720947
+    },
+    {
+      "name": "dodge",
+      "duration": 1.8333333730697632
+    },
+    {
+      "name": "hit",
+      "duration": 1.6333333253860474
+    },
+    {
+      "name": "death",
+      "duration": 2.9666666984558105
+    },
+    {
+      "name": "side",
+      "duration": 1.5
+    },
+    {
+      "name": "diagonal",
+      "duration": 3.1666667461395264
+    },
+    {
+      "name": "backhand",
+      "duration": 3
+    },
+    {
+      "name": "overhead",
+      "duration": 2.2333333492279053
+    }
+  ],
+  "decodingOnly": true
+}

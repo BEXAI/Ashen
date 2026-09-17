@@ -46,7 +46,6 @@ __pycache__/
 *.pyc
 
 # Reproducible optimizer test output.
-/assets-source/higgsfield/2026-09-08/tools/qa/rigged-fixture/
 
 # Generated large visual assets: restored by npm prebuild from tracked byte blocks.
 /assets-source/characters/ash-knight-base.png
@@ -134,18 +133,17 @@ __pycache__/
 /assets-source/higgsfield/2026-09-08/models/spider-original.glb
 /assets-source/higgsfield/2026-09-08/models/spider-rigged.glb
 /public/assets/roster/september-8/crown-film.mp4
-/public/assets/roster/september-8/models/dusk-rogue-hd.glb
-/public/assets/roster/september-8/models/ember-dragon-hd.glb
-/public/assets/roster/september-8/models/frost-mage-hd.glb
 /public/assets/roster/september-8/models/golem-hd.glb
-/public/assets/roster/september-8/models/knife-rogue-hd.glb
-/public/assets/roster/september-8/models/lich-hd.glb
-/public/assets/roster/september-8/models/lion-knight-hd.glb
-/public/assets/roster/september-8/models/ranger-hd.glb
-/public/assets/roster/september-8/models/reaper-hd.glb
-/public/assets/roster/september-8/models/sage-hd.glb
 /public/assets/roster/september-8/models/shrouded-skeleton-hd.glb
-/public/assets/roster/september-8/models/silver-knight-hd.glb
-/public/assets/roster/september-8/models/skeleton-warrior-hd.glb
-/public/assets/roster/september-8/models/spider-hd.glb
-/public/assets/roster/september-8/models/spider-mobile.glb
+/assets-source/higgsfield/recovered-2026-09-17/derived/ember-dragon-rigged.glb
+/assets-source/higgsfield/recovered-2026-09-17/derived/ranger-rigged.glb
+/assets-source/higgsfield/recovered-2026-09-17/derived/reaper-rigged.glb
+/assets-source/higgsfield/recovered-2026-09-17/models/dusk-rogue-original.glb
+/assets-source/higgsfield/recovered-2026-09-17/models/ember-dragon-original.glb
+/assets-source/higgsfield/recovered-2026-09-17/models/frost-mage-original.glb
+/assets-source/higgsfield/recovered-2026-09-17/models/lion-knight-original.glb
+/public/assets/roster/recovered-2026-09-17/dusk-rogue.hd.glb
+/public/assets/roster/recovered-2026-09-17/ember-dragon.hd.glb
+/public/assets/roster/recovered-2026-09-17/frost-mage.hd.glb
+/public/assets/roster/recovered-2026-09-17/lion-knight.hd.glb
+/public/assets/roster/recovered-2026-09-17/spider.hd.glb

@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "reviewed": [
+    {
+      "slug": "dusk-rogue",
+      "sha256": "1628475edf810377585072547347a35a19fa3ad1b85b1b03df8c0b25de0f85bf",
+      "variant": "mobile1024",
+      "result": "pass sampled body deformation and facing; no disconnected original equipment observed",
+      "observations": [
+        "Shoulders, arms and torso remain coherent in idle, walk and four active strike samples.",
+        "Dodge/death body poses remain coherent.",
+        "Back-carried equipment remains attached in sampled poses.",
+        "Worst dodge .546875 and death 1.0 grounding phases also inspected; no excessive quiver-induced lift observed."
+      ],
+      "grounding": [
+        {
+          "clip": "idle",
+          "phase": 0.5,
+          "groundMinimumMeters": 1.1650845408439636e-06
+        },
+        {
+          "clip": "forward",
+          "phase": 0.5,
+          "groundMinimumMeters": 1.650303602218628e-06
+        },
+        {
+          "clip": "side",
+          "phase": 0.385,
+          "groundMinimumMeters": 3.173947334289551e-05
+        },
+        {
+          "clip": "diagonal",
+          "phase": 0.4,
+          "groundMinimumMeters": 0.00208146870136261
+        },
+        {
+          "clip": "backhand",
+          "phase": 0.48000000000000004,
+          "groundMinimumMeters": -0.001682974398136139
+        },
+        {
+          "clip": "overhead",
+          "phase": 0.52,
+          "groundMinimumMeters": 0.0005479753017425537
+        },
+        {
+          "clip": "dodge",
+          "phase": 0.5,
+          "groundMinimumMeters": 0.05631762370467186
+        },
+        {
+          "clip": "death",
+          "phase": 0.85,
+          "groundMinimumMeters": -0.0008810348808765411
+        },
+        {
+          "clip": "dodge",
+          "phase": 0.546875,
+          "groundMinimumMeters": -1.3440847396850586e-05
+        },
+        {
+          "clip": "death",
+          "phase": 1.0,
+          "groundMinimumMeters": -8.642673492431641e-07
+        }
+      ],
+      "lowestSampleMeters": -0.001682974398136139,
+      "evidence": "review/animated/dusk-rogue/pose-contact-sheet.jpg",
+      "heldWeaponContacts": "Not asserted; weapon is authored by runtime."
+    },
+    {
+      "slug": "spider",
+      "sha256": "80f14f828811811e6a0ad80fe5026cca38714eafa41091c1256058056737471e",
+      "variant": "mobile1024",
+      "result": "pass sampled body deformation, facing and embedded equipment attachment",
+      "observations": [
+        "Eight legs retain coherent geometry in ten sampled idle/walk/strike/dodge/death poses.",
+        "Embedded fangs and front appendages remain attached.",
+        "No gross body floor penetration or lift observed in sampled ground extrema."
+      ],
+      "grounding": [
+        {
+          "clip": "idle",
+          "phase": 0.5,
+          "groundMinimumMeters": -6.123445928096771e-08
+        },
+        {
+          "clip": "forward",
+          "phase": 0.5,
+          "groundMinimumMeters": 5.3318217396736145e-08
+        },
+        {
+          "clip": "side",
+          "phase": 0.5,
+          "groundMinimumMeters": -2.6030465960502625e-07
+        },
+        {
+          "clip": "diagonal",
+          "phase": 0.5,
+          "groundMinimumMeters": -2.1792948246002197e-07
+        },
+        {
+          "clip": "backhand",
+          "phase": 0.5,
+          "groundMinimumMeters": -3.264285624027252e-07
+        },
+        {
+          "clip": "overhead",
+          "phase": 0.5,
+          "groundMinimumMeters": -1.8207356333732605e-07
+        },
+        {
+          "clip": "dodge",
+          "phase": 0.5,
+          "groundMinimumMeters": 0.02511691115796566
+        },
+        {
+          "clip": "death",
+          "phase": 0.85,
+          "groundMinimumMeters": 0.005658633541315794
+        },
+        {
+          "clip": "dodge",
+          "phase": 1.0,
+          "groundMinimumMeters": 1.1175870895385742e-08
+        },
+        {
+          "clip": "death",
+          "phase": 0.0,
+          "groundMinimumMeters": 0.003852640278637409
+        }
+      ],
+      "lowestSampleMeters": -3.264285624027252e-07,
+      "evidence": "review/animated/spider/pose-contact-sheet.jpg",
+      "heldWeaponContacts": "No physical contact validation asserted by visual QA."
+    },
+    {
+      "slug": "ranger",
+      "sha256": "e99ecb1e557455d927d825b7089d3b48652414284f7ccfce9fceed65857a029d",
+      "variant": "mobile1024",
+      "result": "pass sampled major body deformation and bow attachment",
+      "observations": [
+        "Complete bow/string stays rigid and attached through idle, walk, active release, dodge and death samples.",
+        "Former bow-driven cape ribbon and tip distortion are absent. Raised draw arm overlaps the cape locally; no detached or elongated geometry observed.",
+        "Independent ten-pose delivery render includes worst sampled dodge/death ground-curve phases. Equipment may enter floor under body-only grounding."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/ranger/pose-contact-sheet.jpg",
+      "reviewMethod": "Independent decode and render of final compressed mobile delivery, plus independent review of sibling front-quarter action sheet."
+    },
+    {
+      "slug": "silver-knight",
+      "sha256": "68df4950c9fd42eb06ba956c583f143ed820a0701fb87426c95430a3c30085cd",
+      "variant": "mobile1024",
+      "result": "pass sampled major body deformation",
+      "observations": [
+        "Coherent shoulders/arms/body in ten sampled poses; minor cape/sheath flex visible.",
+        "Decorative hip sword remains attached; no large grounding lift observed."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/silver-knight/pose-contact-sheet.jpg"
+    },
+    {
+      "slug": "knife-rogue",
+      "sha256": "57714f155f70ac2ad358e771150a536d53a2c733a7ff302081776494bc0917b8",
+      "variant": "mobile1024",
+      "result": "pass sampled major body deformation",
+      "observations": [
+        "Body and arms remain coherent through ten sampled poses.",
+        "Cape follows shoulders; no gross detached/stretched geometry observed."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/knife-rogue/pose-contact-sheet.jpg"
+    },
+    {
+      "slug": "ogre",
+      "sha256": "b0e15300d4d35a02bcadcc50756a20361545ab4612f2605d9317e8160f491d27",
+      "variant": "mobile1024",
+      "result": "pass sampled major body deformation, club attachment and corrected body-only grounding",
+      "observations": [
+        "Free fingers and forearm retain recognizable thickness; former flattened wedge is absent. Pauldron remains attached to shoulder.",
+        "Complete rigid club remains coherent without former disconnected shaft pieces or knee tethers.",
+        "Latest body-only grounding excludes 4,645 held-hand/equipment vertices; death .75 body/head now settles near the floor. Club/grip may pass through floor."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/ogre/pose-contact-sheet.jpg",
+      "reviewMethod": "Independent visual review of final decoded delivery pose sheet produced by rig agent; delivery SHA verified directly. Grounding evaluated separately from unchanged delivery geometry.",
+      "groundingEvidence": "qa/ogre-grounding.json",
+      "groundingEvidenceSha256": "20c5065e33adae702cbda717b3bcd4fedbcb3e1d0dd9b296ba758c69928363ed"
+    },
+    {
+      "slug": "lion-knight",
+      "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+      "variant": "mobile1024",
+      "result": "pass sampled major deformation and equipment attachment",
+      "observations": [
+        "Exact decorative sword exclusion removes previous dodge/death body lift.",
+        "Old problem phases .765625 dodge and .5 death rerendered; body remains near floor while decorative blade may enter it."
+      ],
+      "sampleCount": 12,
+      "evidence": "review/animated/lion-knight/pose-contact-sheet.jpg",
+      "scope": "Static sampled body/gear QA; no continuous collision or physical-device claim."
+    },
+    {
+      "slug": "frost-mage",
+      "sha256": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+      "variant": "mobile1024",
+      "result": "pass sampled major deformation and equipment attachment",
+      "observations": [
+        "Complete staff remains rigid and attached through all active cast/dodge/death samples.",
+        "Repaired lower shaft joins cleanly; no robe tethers."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/frost-mage/pose-contact-sheet.jpg",
+      "scope": "Static sampled body/gear QA; no continuous collision or physical-device claim."
+    },
+    {
+      "slug": "lich",
+      "sha256": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+      "variant": "mobile1024",
+      "result": "pass sampled major deformation and equipment attachment",
+      "observations": [
+        "Complete staff remains rigid and attached; no prior V-shaped shaft or hood spikes.",
+        "Robe field is continuous; no gross garment tearing in sampled poses."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/lich/pose-contact-sheet.jpg",
+      "scope": "Static sampled body/gear QA; no continuous collision or physical-device claim."
+    },
+    {
+      "slug": "reaper",
+      "sha256": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+      "variant": "mobile1024",
+      "result": "pass sampled major deformation and equipment attachment",
+      "observations": [
+        "Actual final mobile69a035\u2026 decoded; all10sampled poses retain coherent cloth/scythe geometry.",
+        "Two-hand scythe grip remains visually connected in four active strike poses.",
+        "Frayed garment silhouette retained without prior weight-island spikes."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/reaper/pose-contact-sheet.jpg",
+      "scope": "Static sampled body/gear QA; no continuous collision or physical-device claim."
+    },
+    {
+      "slug": "sage",
+      "sha256": "a197d091d6a3691c4383fc02aa10917cdc6d50a35f292e4581171b671dd60a42",
+      "variant": "mobile1024",
+      "result": "pass sampled major body and equipment deformation",
+      "observations": [
+        "Visible boots now articulate beneath robe during forward movement.",
+        "Complete left-hand staff remains attached and straight; continuous robe field eliminates old sleeve tethers."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/sage/pose-contact-sheet.jpg",
+      "reviewMethod": "Independent visual review of final decoded delivery pose sheet produced by rig agent using the same hash-bound QA renderer."
+    },
+    {
+      "slug": "goblin",
+      "sha256": "c1e7a133a130caca6249c2bc7df245b9e46d8886dc5e1029d5b5421d363515bf",
+      "variant": "mobile1024",
+      "result": "pass sampled major body and equipment deformation",
+      "observations": [
+        "Complete cleaver and grip stay attached.",
+        "Previous tan hip sheet and left-hand spike absent in latest ten poses."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/goblin/pose-contact-sheet.jpg",
+      "reviewMethod": "Independent visual review of final decoded delivery pose sheet produced by rig agent using the same hash-bound QA renderer."
+    },
+    {
+      "slug": "skeleton-warrior",
+      "sha256": "4174baf5e4bf86a28a4229c89c0b56d4aef68fd2a72c9038c7487ba717eb9101",
+      "variant": "mobile1024",
+      "result": "pass sampled major body and equipment deformation",
+      "observations": [
+        "Complete sword stays rigid and attached through idle/walk/four strikes/dodge/death.",
+        "No previous sword comb/fan geometry; shield may partially enter floor in death under equipment-excluded grounding."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/skeleton-warrior/pose-contact-sheet.jpg",
+      "reviewMethod": "Independent visual review of final decoded delivery pose sheet produced by rig agent using the same hash-bound QA renderer."
+    },
+    {
+      "slug": "ember-dragon",
+      "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+      "variant": "mobile1024",
+      "result": "pass sampled major deformation; root reported actual gameplay contact suite passes",
+      "observations": [
+        "Wing membranes and curled tail retain coherent silhouettes through idle, walk, active lunge, dodge and death samples.",
+        "Former long ribbons and fragmented wing/tail boundaries are absent in sampled poses.",
+        "Hanging chains and cuffs remain visually attached; generated chain-to-floor fusion seams are removed only from derivative.",
+        "Right-claw contact base/tip are exact source surface vertices, rigid to RightHand; no artificial reach extension."
+      ],
+      "sampleCount": 10,
+      "evidence": "review/animated/ember-dragon/pose-contact-sheet.jpg",
+      "limits": [
+        "Static sampled pose review, not continuous collision validation.",
+        "Native humanoid donor motion adapted to a winged body; no independent wing flapping.",
+        "No physical-device GPU performance claim."
+      ]
+    }
+  ],
+  "limitations": [
+    "Initial eight representative poses supplemented with worst ground-curve extrema where suspect. This is not continuous animation or physical-device QA.",
+    "Game-added handheld blades absent from these asset-only renders; final weapon reach/contact tests remain root integration work.",
+    "Numeric bounds exclude Blender hidden bone display shapes. Ground offsets use the current 65-sample runtime curves."
+  ],
+  "reviewScope": "Independent visual acceptance of hash-bound, decoded mobile GLB sample poses; runtime contact tests and browser/device performance are separate integration checks.",
+  "remainingReview": [],
+  "acceptedCount": 14,
+  "acceptedMobileHashes": {
+    "dusk-rogue": "1628475edf810377585072547347a35a19fa3ad1b85b1b03df8c0b25de0f85bf",
+    "spider": "80f14f828811811e6a0ad80fe5026cca38714eafa41091c1256058056737471e",
+    "ranger": "e99ecb1e557455d927d825b7089d3b48652414284f7ccfce9fceed65857a029d",
+    "silver-knight": "68df4950c9fd42eb06ba956c583f143ed820a0701fb87426c95430a3c30085cd",
+    "knife-rogue": "57714f155f70ac2ad358e771150a536d53a2c733a7ff302081776494bc0917b8",
+    "ogre": "b0e15300d4d35a02bcadcc50756a20361545ab4612f2605d9317e8160f491d27",
+    "lion-knight": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+    "frost-mage": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+    "lich": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+    "reaper": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+    "sage": "a197d091d6a3691c4383fc02aa10917cdc6d50a35f292e4581171b671dd60a42",
+    "goblin": "c1e7a133a130caca6249c2bc7df245b9e46d8886dc5e1029d5b5421d363515bf",
+    "skeleton-warrior": "4174baf5e4bf86a28a4229c89c0b56d4aef68fd2a72c9038c7487ba717eb9101",
+    "ember-dragon": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd"
+  },
+  "hashVerifiedAt": "2026-09-17T08:01:34.186900+00:00",
+  "status": "All 14 current mobile deliveries pass sampled visual review within stated limits."
+}

@@ -1,0 +1,27 @@
+{
+  "source": "derived/ranger-rigged.glb",
+  "sourceSHA256": "5f21995787dff162a02b78cf7c2b17d311b3e8884ba3435f76fceef51538362b",
+  "derived": "derived/ranger-reskinned.glb",
+  "derivedSHA256": "f492a0505adb5a74325af5aba605dcf04c52d72ca84acf8b721eccc369a83c32",
+  "originalBinaryPrefixPreserved": true,
+  "originalTriangles": 55618,
+  "derivedTriangles": 55618,
+  "triangleCornerAttributes": {
+    "POSITION": {
+      "maximumPerTriangleCornerDifference": 0.0,
+      "sourceCount": 35694,
+      "derivedCount": 35830
+    },
+    "NORMAL": {
+      "maximumPerTriangleCornerDifference": 0.0,
+      "sourceCount": 35694,
+      "derivedCount": 35830
+    },
+    "TEXCOORD_0": {
+      "maximumPerTriangleCornerDifference": 0.0,
+      "sourceCount": 35694,
+      "derivedCount": 35830
+    }
+  },
+  "interpretation": "Triangle order and surface coordinates/UVs/normals are exactly preserved; boundary vertex ownership is split for separate skinning."
+}

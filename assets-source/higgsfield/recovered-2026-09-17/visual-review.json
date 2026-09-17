@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "coordinateConvention": "glTF +Y up and target +Z forward. Source +X maps to target +Z with -90 degrees about glTF +Y, equivalent to Blender +Z. Originals are not rotated.",
+  "method": "Actual original GLBs imported into bpy 5.2.1 and rendered in neutral Cycles lighting, 8 samples, 320x420 per panel. Rest pose only. Previous runtime model panel excludes game-added props. Frames are independently fitted to imported scene bounds; apparent screen size is not a physical-size comparison.",
+  "models": [
+    {
+      "slug": "dusk-rogue",
+      "sourceForwardGltf": "+Z",
+      "canonicalYawRadians": 0,
+      "canonicalYawDegrees": 0,
+      "heldEquipmentHand": null,
+      "observedEquipment": "No held weapon; quiver and back straps retained.",
+      "integrationRecommendation": "Keep runtime held blade.",
+      "reviewLimitOrConcern": "No severe static silhouette issue observed.",
+      "comparisonImage": "review/dusk-rogue-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "ember-dragon",
+      "sourceForwardGltf": "+Z",
+      "canonicalYawRadians": 0,
+      "canonicalYawDegrees": 0,
+      "heldEquipmentHand": "both claws",
+      "observedEquipment": "Wings, tail, wrist cuffs and hanging chains retained.",
+      "integrationRecommendation": "Use true claw geometry for contact; wings/tail/chains need intentional weights.",
+      "reviewLimitOrConcern": "Wing tips/thin membranes and chains need animated review; no static omission identified.",
+      "comparisonImage": "review/ember-dragon-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "frost-mage",
+      "sourceForwardGltf": "+Z",
+      "canonicalYawRadians": 0,
+      "canonicalYawDegrees": 0,
+      "heldEquipmentHand": "RightHand",
+      "observedEquipment": "Complete blue-crystal staff retained.",
+      "integrationRecommendation": "Disable added staff; rigidly bind retained staff and place muzzle at real crystal.",
+      "reviewLimitOrConcern": "Thin shaft requires exact rigid prop mask; three source rigged models have only a static pose.",
+      "comparisonImage": "review/frost-mage-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "goblin",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": "RightHand",
+      "observedEquipment": "Cleaver retained.",
+      "integrationRecommendation": "Disable added cleaver; use blade geometry for contact.",
+      "reviewLimitOrConcern": "No severe static silhouette issue observed; prior local interpretation differs visibly.",
+      "comparisonImage": "review/goblin-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "knife-rogue",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": null,
+      "observedEquipment": "Bandolier knives and waist/sheath details retained; hands empty.",
+      "integrationRecommendation": "Keep runtime handheld dagger.",
+      "reviewLimitOrConcern": "Cloth is a single reconstructed surface; animated shoulders/hem need review.",
+      "comparisonImage": "review/knife-rogue-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "lich",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": "RightHand",
+      "observedEquipment": "Complete purple-crystal staff retained.",
+      "integrationRecommendation": "Disable added staff; rigidly bind retained staff and place muzzle at real crystal.",
+      "reviewLimitOrConcern": "Thin crown/robe tips and long shaft need deformation review.",
+      "comparisonImage": "review/lich-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "lion-knight",
+      "sourceForwardGltf": "+Z",
+      "canonicalYawRadians": 0,
+      "canonicalYawDegrees": 0,
+      "heldEquipmentHand": null,
+      "observedEquipment": "Back-slung sword retained; hands empty.",
+      "integrationRecommendation": "Keep runtime handheld sword; do not rebind decorative back sword to attacking hand.",
+      "reviewLimitOrConcern": "Source rig is static 24-joint; back sword should follow torso.",
+      "comparisonImage": "review/lion-knight-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "ogre",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": "RightHand",
+      "observedEquipment": "Spiked club retained.",
+      "integrationRecommendation": "Disable added club; rigidly bind recovered club and derive contact from spikes/head.",
+      "reviewLimitOrConcern": "No severe static silhouette issue observed; prior local interpretation differs visibly.",
+      "comparisonImage": "review/ogre-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "ranger",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": "LeftHand",
+      "observedEquipment": "Bow, string and back quiver retained.",
+      "integrationRecommendation": "Keep bow attached to LeftHand; align projectile spawn with retained bow.",
+      "reviewLimitOrConcern": "Thin bow/string must not deform with torso; cape edge needs movement review.",
+      "comparisonImage": "review/ranger-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "reaper",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": "RightHand primary; LeftHand lower grip",
+      "observedEquipment": "Complete scythe held diagonally across body; right hand near blade, left hand at lower shaft.",
+      "integrationRecommendation": "Use recovered scythe without prior old-mesh repair; rigid primary-hand binding plus matching off-hand placement/animation.",
+      "reviewLimitOrConcern": "Thin robe tails and scythe blade tips need masks; source side view hides broad blade, frontal view confirms it.",
+      "comparisonImage": "review/reaper-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "sage",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": "LeftHand",
+      "observedEquipment": "Complete amber staff retained in left hand.",
+      "integrationRecommendation": "Disable added right-hand staff; bind actual staff to LeftHand and update muzzle/animation handedness.",
+      "reviewLimitOrConcern": "Critical difference from previous runtime staff convention; cannot reuse RightHand muzzle blindly.",
+      "comparisonImage": "review/sage-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "silver-knight",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": null,
+      "observedEquipment": "Left-hip/sheath sword detail retained; hands appear open, no held blade.",
+      "integrationRecommendation": "Keep runtime handheld sword; leave hip sword with body.",
+      "reviewLimitOrConcern": "Cape/armor surfaces coherent in static front/quarter/back; joint deformation unverified.",
+      "comparisonImage": "review/silver-knight-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "skeleton-warrior",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": "RightHand sword; LeftHand shield",
+      "observedEquipment": "Complete sword and painted round shield retained.",
+      "integrationRecommendation": "Disable both added sword and shield; rigidly bind each to its actual hand.",
+      "reviewLimitOrConcern": "Thin forearms/ribs and weapon crossings need careful weights; do not classify shield as body.",
+      "comparisonImage": "review/skeleton-warrior-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    },
+    {
+      "slug": "spider",
+      "sourceForwardGltf": "+X",
+      "canonicalYawRadians": -1.5707963267948966,
+      "canonicalYawDegrees": -90,
+      "heldEquipmentHand": "fangs",
+      "observedEquipment": "Eight-leg silhouette, eyes, palps and fangs retained.",
+      "integrationRecommendation": "Use custom eight-leg skeleton; no humanoid rig.",
+      "reviewLimitOrConcern": "Leg segment correspondence and feet/fangs require animated review.",
+      "comparisonImage": "review/spider-comparison.jpg",
+      "viewsInspected": [
+        "aligned-front",
+        "aligned-quarter",
+        "aligned-back",
+        "previous-runtime-quarter"
+      ]
+    }
+  ],
+  "notClaimed": [
+    "No continuous deformation/contact validation performed by this static audit.",
+    "No runtime performance validation from studio images.",
+    "No automatic proof that provider rigs correctly weight held equipment."
+  ],
+  "hashInvariant": "Original files remain byte-identical to inventory.json; any rigging, equipment rebind or orientation correction must be a derived output."
+}

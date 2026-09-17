@@ -1,0 +1,65 @@
+{
+  "projectId": "02765069-6a15-4d44-852b-025f53032fdf",
+  "revision": 1,
+  "sceneSequence": 1,
+  "catalogAssetId": "65b31468-5c24-440c-9a95-99db1b195b67",
+  "entityId": "a6a3a32a-21c6-49e9-b96f-fd088d9e71de",
+  "projectUrl": "https://higgsfield.ai/3d-jutsu/02765069-6a15-4d44-852b-025f53032fdf",
+  "sourceGLB": {
+    "file": "source/bone-throne-r1.glb",
+    "bytes": 376016,
+    "sha256": "5055af6df7d4dbcb64ae4a631d311da019a7f94cc8991c064a6cda73f2793857"
+  },
+  "sourceBlend": {
+    "file": "source/bone-throne-r1.blend",
+    "bytes": 1121857,
+    "sha256": "03ab94958ec2c9482b9bf128b5a399a2cbff841cfb88851225255012c2fb7c82"
+  },
+  "license": {
+    "status": "not provided in available project/export receipts",
+    "statement": "Imported catalog asset; do not label as original-authored, public domain, CC0, or any other license without an actual source record."
+  },
+  "catalogIdentityEvidence": "Catalog ID and entity ID are embedded in the revision-1 GLB node extras. A different current search-result ID is not evidence that this committed source is a different mesh.",
+  "normalization": {
+    "translation": [
+      5.999997854232788,
+      0.8673511154949665,
+      -0.000026404857635498047
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "scale": 1,
+    "sourceBounds": {
+      "min": [
+        -6.439999997615814,
+        -0.8673511154949665,
+        -0.47999998927116394
+      ],
+      "max": [
+        -5.559995710849762,
+        0.8673511147499084,
+        0.48005279898643494
+      ]
+    },
+    "bounds": {
+      "min": [
+        -0.4400021433830261,
+        -5.551115123125783e-17,
+        -0.48002639412879944
+      ],
+      "max": [
+        0.4400021433830261,
+        1.734702230244875,
+        0.48002639412879944
+      ]
+    },
+    "geometryPreserved": true,
+    "materialPreserved": true,
+    "vertexColorsPreserved": true
+  },
+  "visualAssessment": "Low-poly bone throne with skulls, ribs, vertebrae, red-brown seat cushion and gray stepped plinth. No claim of photorealism or equivalence to a source illustration."
+}

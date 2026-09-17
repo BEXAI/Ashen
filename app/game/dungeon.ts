@@ -1,5 +1,13 @@
 import type { Progress } from './model';
 
+export const BONE_THRONE={x:-11,z:-77,scale:1.45,halfWidth:.638004,halfDepth:.696039} as const;
+function relicOverlap(x:number,z:number,radius=.45){return Math.abs(x-BONE_THRONE.x)<BONE_THRONE.halfWidth+radius&&Math.abs(z-BONE_THRONE.z)<BONE_THRONE.halfDepth+radius;}
+function relicCrossed(x:number,z:number,nx:number,nz:number){
+  const w=BONE_THRONE.halfWidth+.45,d=BONE_THRONE.halfDepth+.45;
+  return z===nz?Math.abs(z-BONE_THRONE.z)<d&&Math.min(x,nx)<BONE_THRONE.x+w&&Math.max(x,nx)>BONE_THRONE.x-w:
+    Math.abs(x-BONE_THRONE.x)<w&&Math.min(z,nz)<BONE_THRONE.z+d&&Math.max(z,nz)>BONE_THRONE.z-d;
+}
+
 export const ROOMS = [
   { id:'entry', name:'The Threshold', x:0, z:49, width:20, depth:22 },
   { id:'cinder', name:'Cinder Crypt', x:0, z:20, width:32, depth:24 },
@@ -24,13 +32,13 @@ export function roomAt(x:number,z:number) {
   return ROOMS.find(r=>Math.abs(x-r.x)<=r.width/2&&Math.abs(z-r.z)<=r.depth/2);
 }
 export function walkable(x:number,z:number,radius=.45) {
-  return [-radius,radius].every(dx=>[-radius,radius].every(dz=>[...ROOMS,...CORRIDORS].some(r=>Math.abs(x+dx-r.x)<=r.width/2&&Math.abs(z+dz-r.z)<=r.depth/2)));
+  return !relicOverlap(x,z,radius)&&[-radius,radius].every(dx=>[-radius,radius].every(dz=>[...ROOMS,...CORRIDORS].some(r=>Math.abs(x+dx-r.x)<=r.width/2&&Math.abs(z+dz-r.z)<=r.depth/2)));
 }
 export function dungeonMove(x:number,z:number,nx:number,nz:number,p:Progress) {
   const allowed=(a:number,b:number)=>walkable(a,b)&&!GATES.some((g,i)=>!gateOpen(i,p)&&(Math.abs(b-g.z)<.75||(z-g.z)*(b-g.z)<0));
   // Resolve axes separately so a thumb pushed into a wall slides along it.
-  const rx=allowed(nx,z)?nx:x;
-  return {x:rx,z:allowed(rx,nz)?nz:z};
+  const rx=allowed(nx,z)&&!relicCrossed(x,z,nx,z)?nx:x;
+  return {x:rx,z:allowed(rx,nz)&&!relicCrossed(rx,z,rx,nz)?nz:z};
 }
 export function validDungeonSpawn(p:Progress) {
   return walkable(p.x,p.z)&&!GATES.some((g,i)=>!gateOpen(i,p)&&p.z<g.z+.8);

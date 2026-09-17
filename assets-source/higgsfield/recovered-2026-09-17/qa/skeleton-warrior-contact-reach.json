@@ -1,0 +1,205 @@
+[
+  {
+    "distance": 2.1,
+    "strike": "side",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375
+    ]
+  },
+  {
+    "distance": 2.1,
+    "strike": "diagonal",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375
+    ]
+  },
+  {
+    "distance": 2.1,
+    "strike": "backhand",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.3,
+      0.325,
+      0.35
+    ]
+  },
+  {
+    "distance": 2.1,
+    "strike": "overhead",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5
+    ]
+  },
+  {
+    "distance": 2,
+    "strike": "side",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.5
+    ]
+  },
+  {
+    "distance": 2,
+    "strike": "diagonal",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4
+    ]
+  },
+  {
+    "distance": 2,
+    "strike": "backhand",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475
+    ]
+  },
+  {
+    "distance": 2,
+    "strike": "overhead",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5
+    ]
+  },
+  {
+    "distance": 1.9,
+    "strike": "side",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6
+    ]
+  },
+  {
+    "distance": 1.9,
+    "strike": "diagonal",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4
+    ]
+  },
+  {
+    "distance": 1.9,
+    "strike": "backhand",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475
+    ]
+  },
+  {
+    "distance": 1.9,
+    "strike": "overhead",
+    "windowDuration": 0.18,
+    "validWindowStarts": [
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5
+    ]
+  }
+]

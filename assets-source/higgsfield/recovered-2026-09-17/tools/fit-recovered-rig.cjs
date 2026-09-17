@@ -1,0 +1,65 @@
+#!/usr/bin/env node
+// Adds a fitted weighted rig to an existing mesh. Original topology/UV/image bytes
+// are retained; appended positions/normals contain only a rigid reorientation and
+// uniform normalization. No new character geometry is generated.
+'use strict';
+const fs=require('node:fs/promises'),path=require('node:path'),{createRequire}=require('node:module');
+const {parseGLB,serializeGLB,sha}=require('./inspect-optimize-glb.cjs');
+const base=path.resolve(__dirname,'..'),req=createRequire(path.join(process.env.ASHEN_ASSET_DEPS||process.cwd(),'package.json'));
+const {NodeIO}=req('@gltf-transform/core'),{ALL_EXTENSIONS}=req('@gltf-transform/extensions'),T=req('three');
+const io=new NodeIO().registerExtensions(ALL_EXTENSIONS),V=()=>new T.Vector3(),Q=()=>new T.Quaternion(),M=()=>new T.Matrix4();
+const oldRoot=process.env.ASHEN_RIG_DONOR_ROOT||path.resolve(base,'../higgsfield-september-8-2026/models');
+function quantile(a,q){a.sort((x,y)=>x-y);return a[Math.floor((a.length-1)*q)];}
+function kd(points,depth=0){if(!points.length)return null;const axis=depth%3;points.sort((a,b)=>a.p[axis]-b.p[axis]);const mid=points.length>>1;return {point:points[mid],axis,left:kd(points.slice(0,mid),depth+1),right:kd(points.slice(mid+1),depth+1)};}
+function nearest(tree,p,k=6){const found=[];function walk(n){if(!n)return;const d=n.point.p.reduce((s,x,i)=>s+(x-p[i])**2,0);if(found.length<k||d<found[found.length-1].d){found.push({d,v:n.point});found.sort((a,b)=>a.d-b.d);if(found.length>k)found.pop();}const delta=p[n.axis]-n.point.p[n.axis];walk(delta<0?n.left:n.right);if(found.length<k||delta*delta<found[found.length-1].d)walk(delta<0?n.right:n.left);}walk(tree);return found;}
+function append(raw){const j=raw.json,parts=[raw.bin];let len=raw.bin.length;return {j,accessor(array,type,name,componentType=5126){let pad=(4-len%4)%4;if(pad){parts.push(Buffer.alloc(pad));len+=pad;}const bytes=Buffer.from(array.buffer,array.byteOffset,array.byteLength),view=j.bufferViews.length;j.bufferViews.push({buffer:0,byteOffset:len,byteLength:bytes.length});parts.push(bytes);len+=bytes.length;const dims={VEC2:2,VEC3:3,VEC4:4,MAT4:16}[type];const a={bufferView:view,componentType,type,count:array.length/dims,name};if(type==='VEC3'){a.min=[Infinity,Infinity,Infinity];a.max=[-Infinity,-Infinity,-Infinity];for(let i=0;i<array.length;i++){a.min[i%3]=Math.min(a.min[i%3],array[i]);a.max[i%3]=Math.max(a.max[i%3],array[i]);}}j.accessors.push(a);return j.accessors.length-1;},finish(){j.buffers[0].byteLength=len;return serializeGLB(j,Buffer.concat(parts),raw.extraChunks);}};}
+async function main(){for(const slug of process.argv.slice(2))await fit(slug);}
+async function fit(slug){
+ const file=path.join(base,'models',slug+'-original.glb'),bytes=await fs.readFile(file),raw=parseGLB(bytes),target=await io.readBinary(new Uint8Array(bytes));
+ if(target.getRoot().listSkins().length)throw Error(slug+' already has a rig');
+ const donorFile=path.join(oldRoot,slug+'-original.glb'),donorBytes=await fs.readFile(donorFile),donor=await io.readBinary(new Uint8Array(donorBytes)),skin=donor.getRoot().listSkins()[0];if(!skin)throw Error('Donor has no skin');
+ const joints=skin.listJoints(),jointIndex=new Map(joints.map((n,i)=>[n,i])),names=joints.map(n=>n.getName()),ib=skin.getInverseBindMatrices(),world=joints.map(n=>M().fromArray(n.getWorldMatrix())),bind=ib?joints.map((n,i)=>M().fromArray(ib.getElement(i,[])).invert()):world;
+ const donorPoints=[];
+ for(const node of donor.getRoot().listNodes()){const mesh=node.getMesh();if(!mesh||!node.getSkin()||node.getExtras().heldEquipment||node.getExtras().excludeFromGrounding||mesh.getExtras().heldEquipment)continue;for(const prim of mesh.listPrimitives()){const pos=prim.getAttribute('POSITION'),js=prim.getAttribute('JOINTS_0'),ws=prim.getAttribute('WEIGHTS_0');for(let i=0;i<pos.getCount();i++){const p=V().fromArray(pos.getElement(i,[])),ji=js.getElement(i,[]),we=ws.getElement(i,[]),out=V();for(let k=0;k<4;k++)if(we[k])out.addScaledVector(p.clone().applyMatrix4(M().multiplyMatrices(world[ji[k]],M().fromArray(ib.getElement(ji[k],[])))),we[k]);donorPoints.push({p:out.toArray(),j:ji.slice(),w:we.slice()});}}}
+ const donorBox=new T.Box3().setFromPoints(donorPoints.map(x=>V().fromArray(x.p))),dh=donorBox.max.y-donorBox.min.y;
+ const yaw=slug==='ember-dragon'?0:-Math.PI/2,rotation=M().makeRotationY(yaw),targetRows=[];
+ for(const node of target.getRoot().listNodes()){const mesh=node.getMesh();if(!mesh)continue;const mat=M().multiplyMatrices(rotation,M().fromArray(node.getWorldMatrix()));for(const prim of mesh.listPrimitives()){const pos=prim.getAttribute('POSITION');targetRows.push({node,prim,matrix:mat,points:Array.from({length:pos.getCount()},(_,i)=>V().fromArray(pos.getElement(i,[])).applyMatrix4(mat).toArray())});}}
+ const all=targetRows.flatMap(r=>r.points),box=new T.Box3().setFromPoints(all.map(p=>V().fromArray(p))),th=box.max.y-box.min.y,scale=1.85/th;
+ function center(points,low,high){const mid=points.filter(p=>p[1]>low+(high-low)*.4&&p[1]<low+(high-low)*.75);return [quantile(mid.map(p=>p[0]),.5),low,quantile(mid.map(p=>p[2]),.5)];}
+ const tc=center(all,box.min.y,box.max.y),dc=center(donorPoints.map(p=>p.p),donorBox.min.y,donorBox.max.y),ds=1.85/dh;
+ for(const row of targetRows)for(const p of row.points)for(let i=0;i<3;i++)p[i]=(p[i]-tc[i])*scale;
+ const bodyWidth=(points)=>{const a=points.filter(p=>p[1]>.75&&p[1]<1.38).map(p=>p[0]);return quantile(a.slice(),.94)-quantile(a.slice(),.06);};
+ for(const d of donorPoints)d.p=d.p.map((p,i)=>(p-dc[i])*ds);
+ const widthRatio=Math.max(.75,Math.min(1.3,bodyWidth(targetRows.flatMap(r=>r.points))/bodyWidth(donorPoints.map(d=>d.p))));for(const d of donorPoints)d.p[0]*=widthRatio;
+ const transformDonor=p=>V().fromArray([(p.x-dc[0])*ds*widthRatio,(p.y-dc[1])*ds,(p.z-dc[2])*ds]);
+ const bonePos=world.map(m=>transformDonor(V().setFromMatrixPosition(m))),boneQ=bind.map(m=>Q().setFromRotationMatrix(M().extractRotation(m)).normalize());
+ let landmarks={};try{landmarks=JSON.parse(await fs.readFile(path.join(base,'rig-landmarks.json'),'utf8'))[slug]||{};}catch{}
+ const oldRig=bonePos.map((p,i)=>M().compose(p,boneQ[i],V().set(1,1,1)));
+ for(const [name,point]of Object.entries(landmarks)){const i=names.indexOf(name);if(i>=0)bonePos[i].fromArray(point);}
+ for(const [from,to]of [['LeftArm','LeftForeArm'],['LeftForeArm','LeftHand'],['RightArm','RightForeArm'],['RightForeArm','RightHand']])if(landmarks[from]||landmarks[to]){const a=names.indexOf(from),b=names.indexOf(to),oldDirection=V().setFromMatrixPosition(oldRig[b]).sub(V().setFromMatrixPosition(oldRig[a])).normalize(),newDirection=bonePos[b].clone().sub(bonePos[a]).normalize();boneQ[a].premultiply(Q().setFromUnitVectors(oldDirection,newDirection));}
+ if(Object.keys(landmarks).length){const corrections=bonePos.map((p,i)=>M().compose(p,boneQ[i],V().set(1,1,1)).multiply(oldRig[i].clone().invert()));for(const d of donorPoints){const p=V().fromArray(d.p),out=V();for(let k=0;k<4;k++)out.addScaledVector(p.clone().applyMatrix4(corrections[d.j[k]]),d.w[k]);d.p=out.toArray();}}
+ const tree=kd(donorPoints.slice()),distance=[],counts=Array(joints.length).fill(0),sourceCentroids=joints.map(V),targetCentroids=joints.map(V),sourceCounts=Array(joints.length).fill(0);
+ for(const p of donorPoints)for(let k=0;k<4;k++){sourceCentroids[p.j[k]].addScaledVector(V().fromArray(p.p),p.w[k]);sourceCounts[p.j[k]]+=p.w[k];}
+ for(const row of targetRows){row.weights=[];row.joints=[];for(const p of row.points){const nearby=nearest(tree,p),weights=new Map(),sum=nearby.reduce((s,n)=>s+1/Math.max(1e-7,n.d),0);distance.push(Math.sqrt(nearby[0].d));for(const n of nearby)for(let k=0;k<4;k++)weights.set(n.v.j[k],(weights.get(n.v.j[k])||0)+n.v.w[k]/Math.max(1e-7,n.d)/sum);const sorted=[...weights].sort((a,b)=>b[1]-a[1]).slice(0,4),total=sorted.reduce((s,x)=>s+x[1],0);while(sorted.length<4)sorted.push([0,0]);const js=sorted.map(x=>x[0]),ws=sorted.map(x=>x[1]/total);row.joints.push(js);row.weights.push(ws);for(let k=0;k<4;k++){targetCentroids[js[k]].addScaledVector(V().fromArray(p),ws[k]);counts[js[k]]+=ws[k];}}}
+ // Small weighted-centroid adjustments fit limb pivots to the recovered surface.
+ const fittedOffsets=[];for(let i=0;i<joints.length;i++){let delta=V();if(counts[i]>5&&sourceCounts[i]>5&&!landmarks[names[i]]){delta.copy(targetCentroids[i]).divideScalar(counts[i]).sub(sourceCentroids[i].clone().divideScalar(sourceCounts[i]));delta.multiplyScalar(.5);if(delta.length()>.09)delta.setLength(.09);if(/Hips|Spine/.test(names[i])){delta.x=0;delta.z=0;delta.y*=.3;}bonePos[i].add(delta);}fittedOffsets.push(delta.toArray());}
+ const builder=append(raw),j=builder.j;const originalBinLength=raw.bin.length,oldNodes=j.nodes.length;const rigWorld=bonePos.map((p,i)=>M().compose(p,boneQ[i],V().set(1,1,1))),boneMap=new Map(joints.map((n,i)=>[n,oldNodes+i]));
+ for(let i=0;i<joints.length;i++){const parent=joints[i].getParentNode(),pi=jointIndex.get(parent),local=pi===undefined?rigWorld[i]:M().multiplyMatrices(rigWorld[pi].clone().invert(),rigWorld[i]),p=V(),q=Q(),s=V();local.decompose(p,q,s);j.nodes.push({name:names[i],translation:p.toArray(),rotation:q.toArray(),scale:s.toArray(),children:joints[i].listChildren().filter(n=>jointIndex.has(n)).map(n=>boneMap.get(n))});}
+ const jointsIds=joints.map(n=>boneMap.get(n)),inverse=new Float32Array(joints.length*16);rigWorld.forEach((m,i)=>m.clone().invert().toArray(inverse,i*16));
+ j.skins=[{name:'Recovered fitted '+slug,joints:jointsIds,skeleton:boneMap.get(joints.find(n=>!jointIndex.has(n.getParentNode()))),inverseBindMatrices:builder.accessor(inverse,'MAT4','Recovered inverse bind matrices')}];
+ const equipmentHand={sage:'LeftHand',ranger:'LeftHand'}[slug]||'RightHand',handIndex=names.indexOf(equipmentHand),hand=bonePos[handIndex],equipment=['ogre','goblin','sage','lich','reaper','ranger','skeleton-warrior'].includes(slug),excluded=[];
+ for(const [ri,row]of targetRows.entries()){
+  const ni=target.getRoot().listNodes().indexOf(row.node),mi=target.getRoot().listMeshes().indexOf(row.node.getMesh()),pi=row.node.getMesh().listPrimitives().indexOf(row.prim),prim=j.meshes[mi].primitives[pi],vertices=[];
+  // Equipment is segmented explicitly after fitting; never infer a hand mask from body weights.
+  if(vertices.length)excluded.push({mesh:mi,primitive:pi,vertices});
+  prim.attributes.POSITION=builder.accessor(new Float32Array(row.points.flat()),'VEC3','Recovered canonical positions');const normal=row.prim.getAttribute('NORMAL');if(normal){const nm=new T.Matrix3().getNormalMatrix(row.matrix),ns=[];for(let i=0;i<normal.getCount();i++)ns.push(...V().fromArray(normal.getElement(i,[])).applyMatrix3(nm).normalize().toArray());prim.attributes.NORMAL=builder.accessor(new Float32Array(ns),'VEC3','Recovered canonical normals');}
+  prim.attributes.JOINTS_0=builder.accessor(new Uint16Array(row.joints.flat()),'VEC4','Fitted joint indices',5123);prim.attributes.WEIGHTS_0=builder.accessor(new Float32Array(row.weights.flat()),'VEC4','Fitted normalized skin weights');
+  const n=j.nodes[ni];delete n.matrix;delete n.translation;delete n.rotation;delete n.scale;n.skin=0;delete n.children;
+ }
+ const meshNodeIds=targetRows.map(r=>target.getRoot().listNodes().indexOf(r.node));j.scenes=[{name:'Recovered character',nodes:[...new Set(meshNodeIds),...jointsIds.filter((id,i)=>!jointIndex.has(joints[i].getParentNode()))]}];j.scene=0;j.animations=[];
+ // Face normalization was baked as a rigid transform; no external yaw is needed.
+ const derivation={schemaVersion:1,method:'Surface-nearest skin-weight transfer from the same established character, with fitted bone pivots; original triangle indices, UVs, materials and textures preserved. Appended positions/normals apply canonical rigid yaw and uniform scale only.',source:{path:path.relative(base,file),sha256:sha(bytes)},rigDonor:{path:path.relative(base,donorFile),sha256:sha(donorBytes)},rawYawCorrection:yaw,uniformScale:scale,bodyCenter:tc,canonicalHeight:1.85,widthFitRatio:widthRatio,boneNames:names,bonePivotAdjustments:fittedOffsets,nearestSurfaceDistance:{median:quantile(distance.slice(),.5),p95:quantile(distance.slice(),.95),max:Math.max(...distance)},geometry:{originalBinaryPrefixPreserved:true,originalBinLength,vertices:targetRows.reduce((n,r)=>n+r.points.length,0),triangles:j.meshes.flatMap(m=>m.primitives).reduce((n,p)=>n+j.accessors[p.indices].count/3,0),unweightedVertices:0},equipment:{mode:equipment?'embedded':'runtime',hand:equipmentHand},groundingExclusions:{reason:'Held equipment vertex mask; body and feet retained',vertexSets:excluded}};
+ for(const node of j.nodes)if(node.children?.length===0)delete node.children;
+ const output=path.join(base,'derived',slug+'-rigged.glb'),out=builder.finish();await fs.writeFile(output,out);derivation.output={path:path.relative(base,output),bytes:out.length,sha256:sha(out)};await fs.writeFile(path.join(base,'derived',slug+'-rigging.json'),JSON.stringify(derivation,null,2)+'\n');console.log(JSON.stringify({slug,output,bytes:out.length,distance:derivation.nearestSurfaceDistance}));
+}
+main().catch(e=>{console.error(e.stack);process.exitCode=1;});

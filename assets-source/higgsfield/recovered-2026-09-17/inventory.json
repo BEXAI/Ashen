@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "kind": "Preserved earlier provider originals; not runtime-approved",
+  "sourceList": "Higgsfield account asset audit, retained provider job receipts in jobs/",
+  "count": 14,
+  "assets": [
+    {
+      "slug": "dusk-rogue",
+      "jobId": "9aa73b17-3fb2-4585-8f6d-c3f6d8019dff",
+      "jobType": "image_to_3d",
+      "createdAt": "2026-09-09T02:35:58.190816Z",
+      "status": "completed",
+      "path": "models/dusk-rogue-original.glb",
+      "bytes": 8091428,
+      "sha256": "175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/dusk-rogue.json",
+      "sourceArtwork": {
+        "assetId": "853d2fdc-06d5-4cfc-888a-ccd2f3d9f202",
+        "filename": "hf_20260909_023256_853d2fdc-06d5-4cfc-888a-ccd2f3d9f202.png",
+        "sha256": "935786186aa5d78ba8400bba624faaccc774dc34a8edca13f3640c3881c6c09b",
+        "bytes": 1134601,
+        "screenshot": {
+          "row": 2,
+          "column": 1,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_023256_853d2fdc-06d5-4cfc-888a-ccd2f3d9f202.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:45.942668+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "ember-dragon",
+      "jobId": "bcadeacb-2cef-46b1-bf39-5d1fe4b79e85",
+      "jobType": "image_to_3d",
+      "createdAt": "2026-09-09T02:35:51.38145Z",
+      "status": "completed",
+      "path": "models/ember-dragon-original.glb",
+      "bytes": 9711732,
+      "sha256": "64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/ember-dragon.json",
+      "sourceArtwork": {
+        "assetId": "5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd",
+        "filename": "hf_20260909_023256_5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd.png",
+        "sha256": "6c41d87ff64578b5a1f7d1b3e17b3257e1857fe2adad1e95a4d822fc01ac6c18",
+        "bytes": 1234551,
+        "screenshot": {
+          "row": 1,
+          "column": 6,
+          "right_edge_partial": true,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_023256_5a3ddbf0-342f-4ec5-91a4-7c57e1e17ddd.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:45.037580+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "frost-mage",
+      "jobId": "7c89f8f0-6932-4b2c-9f0b-cbeac6b72d57",
+      "jobType": "image_to_3d",
+      "createdAt": "2026-09-09T02:35:59.398748Z",
+      "status": "completed",
+      "path": "models/frost-mage-original.glb",
+      "bytes": 8989360,
+      "sha256": "6d3a58d0e8ab8f991173672f3055449d00c5614025b1fe01dc2ab0dd21aeb65f",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/frost-mage.json",
+      "sourceArtwork": {
+        "assetId": "6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7",
+        "filename": "hf_20260909_023256_6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7.png",
+        "sha256": "a8c1ddac5168dfa7a32a7fe9f162aedbfe33cc7e40fee23e95e9368618c5184b",
+        "bytes": 1260943,
+        "screenshot": {
+          "row": 1,
+          "column": 5,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_023256_6017ddf3-a2d9-4524-8a4f-cfc2fd3d52f7.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:45.873227+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "goblin",
+      "jobId": "84df53a6-19c6-4479-8010-e897c91e90b3",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:19.368512Z",
+      "status": "completed",
+      "path": "models/goblin-original.glb",
+      "bytes": 2575956,
+      "sha256": "bc0c51c8a981bc840ffa5aef19ef039875ffd9ddd4c4366b73b79898bc775842",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/goblin.json",
+      "sourceArtwork": {
+        "assetId": "2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae",
+        "filename": "hf_20260909_002155_2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae.png",
+        "sha256": "62e75a2a00795c2a77471c294cf2b775e45c10ba420544552fea45366db4df90",
+        "bytes": 5696269,
+        "screenshot": {
+          "row": 3,
+          "column": 5,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": true,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002155_2cfd6662-d8e7-4ca5-9b80-bbe276ee6cae.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:43.371227+00:00",
+      "reusedVerifiedLocalBytes": true,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "knife-rogue",
+      "jobId": "412993f8-70c2-4dc3-8811-5d334052a0cc",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:15.511455Z",
+      "status": "completed",
+      "path": "models/knife-rogue-original.glb",
+      "bytes": 2499408,
+      "sha256": "25be7914d736774ea8a4d44e9b8bedc143d701f6481cf77ad4ac3a632b8b4fa2",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/knife-rogue.json",
+      "sourceArtwork": {
+        "assetId": "3e01be62-ba68-4862-84c2-91f017008f6b",
+        "filename": "hf_20260909_002155_3e01be62-ba68-4862-84c2-91f017008f6b.png",
+        "sha256": "0bde5d642935f9ab3e976fc58c99b07e47c19cf671eb0f6f686c992b28730010",
+        "bytes": 5099615,
+        "screenshot": {
+          "row": 3,
+          "column": 3,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": true,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002155_3e01be62-ba68-4862-84c2-91f017008f6b.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:44.103032+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "lich",
+      "jobId": "23b3fa3f-f993-4d66-9067-65e4ca0f80ac",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:27.940885Z",
+      "status": "completed",
+      "path": "models/lich-original.glb",
+      "bytes": 2469452,
+      "sha256": "3b69c806655c577154a0d93277cfcd3d9b413bd06a905a6601906a3f0f8e42be",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/lich.json",
+      "sourceArtwork": {
+        "assetId": "3e9a9a70-5514-4bc1-b84a-8f09917ecefe",
+        "filename": "hf_20260909_002155_3e9a9a70-5514-4bc1-b84a-8f09917ecefe.png",
+        "sha256": "689b224f0f6d5b95dba10b0e9a8f8785bf3928d4b8f5b5862de367e068a14265",
+        "bytes": 5305087,
+        "screenshot": {
+          "row": 3,
+          "column": 4,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": true,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002155_3e9a9a70-5514-4bc1-b84a-8f09917ecefe.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:45.568059+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "lion-knight",
+      "jobId": "303045a4-0142-4fa0-a885-40c6487b680f",
+      "jobType": "image_to_3d",
+      "createdAt": "2026-09-09T02:35:31.701196Z",
+      "status": "completed",
+      "path": "models/lion-knight-original.glb",
+      "bytes": 8761360,
+      "sha256": "498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/lion-knight.json",
+      "sourceArtwork": {
+        "assetId": "db95c2d3-580c-43c5-ab3b-58ee75def5cb",
+        "filename": "hf_20260909_023256_db95c2d3-580c-43c5-ab3b-58ee75def5cb.png",
+        "sha256": "faac96203fb4585a9ff6581aab8d1b4fc3135eaf3e89f1b4503eb1c7c3481348",
+        "bytes": 1437282,
+        "screenshot": {
+          "row": 1,
+          "column": 4,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_023256_db95c2d3-580c-43c5-ab3b-58ee75def5cb.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:46.555082+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "ogre",
+      "jobId": "800410e3-f234-45ad-86cb-c0cc717ecacd",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:29:48.845687Z",
+      "status": "completed",
+      "path": "models/ogre-original.glb",
+      "bytes": 2784968,
+      "sha256": "62c060be802cddc98fcb5a8da15d217439212d5a97334c2bae1a8d2c28960f6f",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/ogre.json",
+      "sourceArtwork": {
+        "assetId": "e4f73d18-4dda-4d66-8bc5-1f163c44cf9d",
+        "filename": "hf_20260909_002300_e4f73d18-4dda-4d66-8bc5-1f163c44cf9d.png",
+        "sha256": "a0456fa19e3cc329b16e472aee4b1bb8e25baf73d8760ba99e45fd516ef42cdb",
+        "bytes": 6268530,
+        "screenshot": {
+          "row": 2,
+          "column": 5,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002300_e4f73d18-4dda-4d66-8bc5-1f163c44cf9d.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:43.373057+00:00",
+      "reusedVerifiedLocalBytes": true,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "ranger",
+      "jobId": "17726e3d-90b4-4c8a-b725-f7775da1b1e9",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:29:46.911011Z",
+      "status": "completed",
+      "path": "models/ranger-original.glb",
+      "bytes": 2391832,
+      "sha256": "37868d36ef310b55333c2d5d3cdb1ac69d94622fe1488261bdf8444cedf970a2",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/ranger.json",
+      "sourceArtwork": {
+        "assetId": "0beed7ce-bd60-4a35-8f57-489368a80bb4",
+        "filename": "hf_20260909_002300_0beed7ce-bd60-4a35-8f57-489368a80bb4.png",
+        "sha256": "562931e229f121950bf4a6a2ec75be543d3034a657ffae264ebf108928c21da6",
+        "bytes": 5224721,
+        "screenshot": {
+          "row": 2,
+          "column": 4,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002300_0beed7ce-bd60-4a35-8f57-489368a80bb4.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:46.934539+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "reaper",
+      "jobId": "84462d2a-4be9-4d59-b8a8-dff36f474d0f",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:26.149525Z",
+      "status": "completed",
+      "path": "models/reaper-original.glb",
+      "bytes": 2577964,
+      "sha256": "97630a9dc1097755137041461795ecaf71f4b14c403fff58764151188067399e",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/reaper.json",
+      "sourceArtwork": {
+        "assetId": "ae17a6dd-ffae-472e-b762-c9cb6ed2e584",
+        "filename": "hf_20260909_002156_ae17a6dd-ffae-472e-b762-c9cb6ed2e584.png",
+        "sha256": "d4a145073a3e8c2b3b5f63ab97ac3556cb1c559137a9e8d8d52325c1abc8d718",
+        "bytes": 5028505,
+        "screenshot": {
+          "row": 2,
+          "column": 6,
+          "right_edge_partial": true,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:21:56Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002156_ae17a6dd-ffae-472e-b762-c9cb6ed2e584.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:46.808591+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "sage",
+      "jobId": "e9ad3f40-e0d2-4d1e-8912-9fce46a05e44",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:29:44.766678Z",
+      "status": "completed",
+      "path": "models/sage-original.glb",
+      "bytes": 2401736,
+      "sha256": "a086a94930808356c2055aeea9a3e8bd7cb24a85d2b74ad17f49b3625a0e88e7",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/sage.json",
+      "sourceArtwork": {
+        "assetId": "880f9069-e695-4dc2-aaed-b5ae3ef026eb",
+        "filename": "hf_20260909_002300_880f9069-e695-4dc2-aaed-b5ae3ef026eb.png",
+        "sha256": "1accab245cfc271c01d1a93fa784d1a1008064f45b26c46812f72aad74b11aaf",
+        "bytes": 5513477,
+        "screenshot": {
+          "row": 2,
+          "column": 2,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002300_880f9069-e695-4dc2-aaed-b5ae3ef026eb.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:47.187771+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "silver-knight",
+      "jobId": "526c4d8d-3183-426e-9a6d-abb0618143df",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:29:42.509314Z",
+      "status": "completed",
+      "path": "models/silver-knight-original.glb",
+      "bytes": 2588848,
+      "sha256": "dcddbe5ca9a1843e8ae7e3719ddcfb2ab87712c7c9bb84fa0d300da6ba4fd187",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/silver-knight.json",
+      "sourceArtwork": {
+        "assetId": "5cbfe6bf-e3d1-4d07-849a-203e77d1b94b",
+        "filename": "hf_20260909_002300_5cbfe6bf-e3d1-4d07-849a-203e77d1b94b.png",
+        "sha256": "82502d1790b6a565af104e7079e047fe21eef4054983c12a3c50c087f21bfeae",
+        "bytes": 5368416,
+        "screenshot": {
+          "row": 2,
+          "column": 3,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": false,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002300_5cbfe6bf-e3d1-4d07-849a-203e77d1b94b.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:47.821110+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "skeleton-warrior",
+      "jobId": "b87d0e28-e495-4503-a5f6-2d1cb5fe3674",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:17.356834Z",
+      "status": "completed",
+      "path": "models/skeleton-warrior-original.glb",
+      "bytes": 2721244,
+      "sha256": "bce905ff66993ca1c3842babf854f095830f2fa80cd6b1b9ef90246ef61c1500",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/skeleton-warrior.json",
+      "sourceArtwork": {
+        "assetId": "4bbdba2a-302d-428e-bc0c-3566bd84bde8",
+        "filename": "hf_20260909_002155_4bbdba2a-302d-428e-bc0c-3566bd84bde8.png",
+        "sha256": "50b4729d6e53af88ebaa7bc5475bd2f5f05356950e56d95263744f7d06e0dc29",
+        "bytes": 4996783,
+        "screenshot": {
+          "row": 3,
+          "column": 1,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": true,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002155_4bbdba2a-302d-428e-bc0c-3566bd84bde8.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:48.139128+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    },
+    {
+      "slug": "spider",
+      "jobId": "67d5e2fe-bf89-47a9-b8fb-22c46c754faf",
+      "jobType": "tripo_h3_1_image_to_3d",
+      "createdAt": "2026-09-09T00:27:24.111659Z",
+      "status": "completed",
+      "path": "models/spider-original.glb",
+      "bytes": 2391248,
+      "sha256": "756b617f8392c3a43ac8432dee4182ee52fd51cbf20803c52e90c6877ed3db1f",
+      "receipt": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/jobs/spider.json",
+      "sourceArtwork": {
+        "assetId": "c4010a07-000c-439c-b8da-2a200549f97a",
+        "filename": "hf_20260909_002155_c4010a07-000c-439c-b8da-2a200549f97a.png",
+        "sha256": "97dae7906bf3e6afbce529e45f6c5771e54a9ca3c7b291db1f6c2571843c1cb9",
+        "bytes": 5559711,
+        "screenshot": {
+          "row": 3,
+          "column": 2,
+          "right_edge_partial": false,
+          "bottom_edge_clipped": true,
+          "visually_matched": true
+        },
+        "filenameTimestampUTC": "2026-09-09T00:21:55Z",
+        "dateAmericaNewYork": "2026-09-08"
+      },
+      "sourceImagePath": "../2026-09-08/hf_20260909_002155_c4010a07-000c-439c-b8da-2a200549f97a.png",
+      "downloadedOrVerifiedAt": "2026-09-17T07:02:48.264128+00:00",
+      "reusedVerifiedLocalBytes": false,
+      "originalPreserved": true,
+      "sourceImageHashVerified": true
+    }
+  ]
+}

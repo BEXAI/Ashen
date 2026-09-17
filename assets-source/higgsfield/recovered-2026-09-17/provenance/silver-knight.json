@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "slug": "silver-knight",
+  "originalArtwork": {
+    "assetId": "5cbfe6bf-e3d1-4d07-849a-203e77d1b94b",
+    "filename": "hf_20260909_002300_5cbfe6bf-e3d1-4d07-849a-203e77d1b94b.png",
+    "sha256": "82502d1790b6a565af104e7079e047fe21eef4054983c12a3c50c087f21bfeae",
+    "bytes": 5368416,
+    "screenshot": {
+      "row": 2,
+      "column": 3,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T00:23:00Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "526c4d8d-3183-426e-9a6d-abb0618143df",
+    "jobType": "tripo_h3_1_image_to_3d",
+    "createdAt": "2026-09-09T00:29:42.509314Z"
+  },
+  "originalGLB": {
+    "path": "models/silver-knight-original.glb",
+    "bytes": 2588848,
+    "sha256": "dcddbe5ca9a1843e8ae7e3719ddcfb2ab87712c7c9bb84fa0d300da6ba4fd187"
+  },
+  "riggedInput": {
+    "path": "derived/silver-knight-rigged.glb",
+    "bytes": 4285760,
+    "sha256": "f0322fa997b597b01d983e74907a991fa82f760c7e3e2f17da2fa30ad243e86d"
+  },
+  "derivation": {
+    "schemaVersion": 1,
+    "method": "Surface-nearest skin-weight transfer from the same established character, with fitted bone pivots; original triangle indices, UVs, materials and textures preserved. Appended positions/normals apply canonical rigid yaw and uniform scale only.",
+    "source": {
+      "path": "models/silver-knight-original.glb",
+      "sha256": "dcddbe5ca9a1843e8ae7e3719ddcfb2ab87712c7c9bb84fa0d300da6ba4fd187"
+    },
+    "rigDonor": {
+      "path": "../higgsfield-september-8-2026/models/silver-knight-original.glb",
+      "sha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7"
+    },
+    "rawYawCorrection": -1.5707963267948966,
+    "uniformScale": 1.85,
+    "bodyCenter": [
+      0.005051138810813432,
+      -0.5,
+      0.0038981616962701026
+    ],
+    "canonicalHeight": 1.85,
+    "widthFitRatio": 0.8526610564856222,
+    "boneNames": [
+      "Hips",
+      "LeftUpLeg",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase",
+      "RightUpLeg",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase",
+      "Spine02",
+      "Spine01",
+      "Spine",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand",
+      "neck",
+      "Head",
+      "head_end",
+      "headfront"
+    ],
+    "bonePivotAdjustments": [
+      [
+        0,
+        0.002389482755242711,
+        0
+      ],
+      [
+        0.025098427272965552,
+        -0.0006140666406527218,
+        0.00942429552583363
+      ],
+      [
+        0.02560581135101892,
+        -0.002482161691655632,
+        0.0039304159121546466
+      ],
+      [
+        0.026930259790199945,
+        -0.0003216059809579633,
+        -0.006708297448578001
+      ],
+      [
+        0.03040358843544934,
+        -0.0013867734193173872,
+        0.008769313234938986
+      ],
+      [
+        -0.017959115410481827,
+        -0.00032548975435064964,
+        0.01213706842033866
+      ],
+      [
+        -0.016612409178996423,
+        -0.001932074545361817,
+        0.00692929571595138
+      ],
+      [
+        -0.01285678333489923,
+        -0.005538842141260318,
+        -0.007118332662319447
+      ],
+      [
+        -0.01610736430119572,
+        -0.001686240829337042,
+        0.006213213139730722
+      ],
+      [
+        0,
+        -0.0002480339926745678,
+        0
+      ],
+      [
+        0,
+        -0.00095832842169572,
+        0
+      ],
+      [
+        0,
+        -0.003391905283640284,
+        0
+      ],
+      [
+        0.00983533431700137,
+        -0.01937208459237827,
+        0.0004018187128042548
+      ],
+      [
+        0.010578516430270149,
+        -0.0009953639023166927,
+        -0.0017262131688733917
+      ],
+      [
+        0.012579317447891036,
+        -0.0013560671056843665,
+        -0.007605590380104604
+      ],
+      [
+        0.0038114548699290096,
+        -0.012480295405572328,
+        -0.013994283167111349
+      ],
+      [
+        -0.0057216778976399985,
+        -0.01627973264802951,
+        0.00954952235015986
+      ],
+      [
+        -0.009348287196547997,
+        -0.0017168917797245609,
+        0.005333297773409837
+      ],
+      [
+        -0.008876926773692506,
+        -0.007752524516745796,
+        -0.0051037205055653075
+      ],
+      [
+        0.0055757670368142,
+        -0.017932982803102182,
+        -0.009188535432187797
+      ],
+      [
+        -0.000871144479836535,
+        -0.0010429604165810291,
+        -0.0014352852766213939
+      ],
+      [
+        0.0062050345417458165,
+        -0.01009928215380751,
+        -0.0028626206988739324
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "nearestSurfaceDistance": {
+      "median": 0.023279087931593234,
+      "p95": 0.05973772587065292,
+      "max": 0.1546829030145246
+    },
+    "geometry": {
+      "originalBinaryPrefixPreserved": true,
+      "originalBinLength": 2586712,
+      "vertices": 35168,
+      "triangles": 57234,
+      "unweightedVertices": 0
+    },
+    "equipment": {
+      "mode": "runtime",
+      "hand": "RightHand"
+    },
+    "groundingExclusions": {
+      "reason": "Held equipment vertex mask; body and feet retained",
+      "vertexSets": []
+    },
+    "output": {
+      "path": "derived/silver-knight-rigged.glb",
+      "bytes": 4285760,
+      "sha256": "f0322fa997b597b01d983e74907a991fa82f760c7e3e2f17da2fa30ad243e86d"
+    }
+  },
+  "motion": "Genuine September 8 native motion library; rest-aware rotation retargeting. Static input clip replaced with genuine idle."
+}

@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "slug": "reaper",
+  "status": "prepared-for-runtime-contact-test",
+  "original": {
+    "path": "models/reaper-original.glb",
+    "bytes": 2577964,
+    "sha256": "97630a9dc1097755137041461795ecaf71f4b14c403fff58764151188067399e"
+  },
+  "rigged": {
+    "path": "derived/reaper-reskinned.glb",
+    "bytes": 6237888,
+    "sha256": "739a809d9e3c9270e1596bfcbc80c34be337914352daec8a4459023cf2d517ad"
+  },
+  "runtime": {
+    "path": "runtime/reaper-runtime.glb",
+    "bytes": 4311756,
+    "sha256": "819729c9a9ff2247311f8250333f8767973ecec8baebec818e931b6ee0356dd4"
+  },
+  "variants": {
+    "mobile": {
+      "path": "optimized/reaper/reaper-runtime.mobile1024.glb",
+      "bytes": 3622420,
+      "sha256": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+      "textureCap": 1024,
+      "validationErrors": 0
+    },
+    "hd": {
+      "path": "optimized/reaper/reaper-runtime.hd2048.glb",
+      "bytes": 3560708,
+      "sha256": "dd6f47ccff71dfa8ad7fe9e6e73920041840a0ea9cbda18e3b3d9a1eea61b36d",
+      "textureCap": 2048,
+      "validationErrors": 0
+    }
+  },
+  "sourceTriangles": 59342,
+  "sourceVertices": 38028,
+  "provenance": "reaper-provenance.json",
+  "rig": {
+    "joints": 24,
+    "names": [
+      "Hips",
+      "LeftUpLeg",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToeBase",
+      "RightUpLeg",
+      "RightLeg",
+      "RightFoot",
+      "RightToeBase",
+      "Spine02",
+      "Spine01",
+      "Spine",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand",
+      "neck",
+      "Head",
+      "head_end",
+      "headfront"
+    ],
+    "legLengthMeters": 0.7943172607374828,
+    "hips": "Hips"
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 3.9999999664723873,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/idle.glb",
+        "sha256": "2681df06ab8b2f515f24ea4dd861e3cc2a3ca8b14c46a260507ae1c52071fba7",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "idle",
+          "jobId": "60ad1d52-343d-4473-ac0d-06b18555869f",
+          "actionId": 0,
+          "localOriginal": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-original.glb"
+        }
+      }
+    },
+    {
+      "name": "forward",
+      "duration": 1.7333333157002926,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/forward.glb",
+        "sha256": "7ff799368c9fbac1bd1d9c02330f0f4804c2fb9584bef19fb9bb03b5fb63069c",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "forward",
+          "actionId": 689,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:29.148227+00:00",
+          "jobId": "6d14e271-17ec-4abc-b8b4-bebf3045f172",
+          "lastCheckedAt": "2026-09-17T04:36:33.877121+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043429_6d14e271-17ec-4abc-b8b4-bebf3045f172.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/forward.glb",
+          "bytes": 5948536,
+          "downloadedAt": "2026-09-17T04:36:35.405572+00:00"
+        }
+      }
+    },
+    {
+      "name": "backward",
+      "duration": 0.9000000022351742,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/backward.glb",
+        "sha256": "a3ba24b435f948c8d143705d8464c93a38a2c3d85d244b0e2a5eccdbf8dba7bd",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "backward",
+          "actionId": 679,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:30.812985+00:00",
+          "jobId": "49fc38dd-3b0b-4007-88a8-e5ef1bad81a2",
+          "lastCheckedAt": "2026-09-17T04:37:25.997504+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043431_49fc38dd-3b0b-4007-88a8-e5ef1bad81a2.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/backward.glb",
+          "bytes": 5939212,
+          "downloadedAt": "2026-09-17T04:37:27.472401+00:00"
+        }
+      }
+    },
+    {
+      "name": "strafe_left",
+      "duration": 1.1666667126119137,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/strafe_left.glb",
+        "sha256": "11e39d55aa0b4ac01f63bc27682041cd51d461b186aa280d9fb8814bb1f83345",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "strafe_left",
+          "actionId": 617,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:32.473250+00:00",
+          "jobId": "e9b92ca3-8594-41f4-9db4-8433d795aff5",
+          "lastCheckedAt": "2026-09-17T04:36:35.907104+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043432_e9b92ca3-8594-41f4-9db4-8433d795aff5.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/strafe_left.glb",
+          "bytes": 5942220,
+          "downloadedAt": "2026-09-17T04:36:37.323970+00:00"
+        }
+      }
+    },
+    {
+      "name": "strafe_right",
+      "duration": 1.266666617244482,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/strafe_right.glb",
+        "sha256": "08088a2b52bd132a0f6b8a2d7cdb6de72221ef53a80d47f46060a3d1ac9af368",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "strafe_right",
+          "actionId": 618,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:34.111456+00:00",
+          "jobId": "542b9063-cb22-44cc-81a5-7271f5e1c8e4",
+          "lastCheckedAt": "2026-09-17T04:39:16.394043+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043435_542b9063-cb22-44cc-81a5-7271f5e1c8e4.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/strafe_right.glb",
+          "bytes": 5943436,
+          "downloadedAt": "2026-09-17T04:39:17.882038+00:00"
+        }
+      }
+    },
+    {
+      "name": "dodge",
+      "duration": 1.8333333395421505,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/dodge.glb",
+        "sha256": "8e3ae386c8b5211c5f5498bac4c0ef8bf1fd4bf4e81faf8e2ea38a0a754830f4",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "dodge",
+          "actionId": 158,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:36.284148+00:00",
+          "jobId": "d1f6d005-bc08-43d4-8c08-06dd8f4f9164",
+          "lastCheckedAt": "2026-09-17T04:38:16.057022+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043436_d1f6d005-bc08-43d4-8c08-06dd8f4f9164.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/dodge.glb",
+          "bytes": 5958212,
+          "downloadedAt": "2026-09-17T04:38:17.580056+00:00"
+        }
+      }
+    },
+    {
+      "name": "hit",
+      "duration": 1.6333332918584347,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/hit.glb",
+        "sha256": "1c9268a5cdc8eca78710c9c62f46fa13bfcdc8bce86e24ce1f058585d46aeb32",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "hit",
+          "actionId": 178,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:37.920590+00:00",
+          "jobId": "0dfee752-5402-44ff-acd8-7fc44fa23ab0",
+          "lastCheckedAt": "2026-09-17T04:38:17.848558+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043438_0dfee752-5402-44ff-acd8-7fc44fa23ab0.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/hit.glb",
+          "bytes": 5947272,
+          "downloadedAt": "2026-09-17T04:38:19.363840+00:00"
+        }
+      }
+    },
+    {
+      "name": "death",
+      "duration": 2.966666664928198,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/death.glb",
+        "sha256": "bb8b981dba526e72365c4609bec9fa4f16a7aa8de23e4ca054fffe295f5c4f7b",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "death",
+          "actionId": 8,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:39.580288+00:00",
+          "jobId": "9a92cd91-4a9d-4957-8883-8ae6281d76a0",
+          "lastCheckedAt": "2026-09-17T04:38:19.638211+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043440_9a92cd91-4a9d-4957-8883-8ae6281d76a0.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/death.glb",
+          "bytes": 5961984,
+          "downloadedAt": "2026-09-17T04:38:21.282141+00:00"
+        }
+      }
+    },
+    {
+      "name": "side",
+      "duration": 1.4999999664723873,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/side.glb",
+        "sha256": "0a44220201d462982f6a78c9491b2a8ef079274a4e286c747aac8deab0f77df2",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "side",
+          "jobId": "bb748109-8f17-4119-8e30-d199f41b7eba",
+          "actionId": 219,
+          "localOriginal": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/silver-knight-sword-slash.glb"
+        }
+      }
+    },
+    {
+      "name": "diagonal",
+      "duration": 3.1666667126119137,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/diagonal.glb",
+        "sha256": "b2c102682878a09daa9e4f928428266397596a2d96b3c5347522a89e8feeb57e",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "diagonal",
+          "actionId": 97,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:41.527166+00:00",
+          "jobId": "7cd1109d-4cce-4f4e-b046-f1412ea82ea6",
+          "lastCheckedAt": "2026-09-17T04:38:21.626010+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043442_7cd1109d-4cce-4f4e-b046-f1412ea82ea6.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/diagonal.glb",
+          "bytes": 5964364,
+          "downloadedAt": "2026-09-17T04:38:23.389418+00:00"
+        }
+      }
+    },
+    {
+      "name": "backhand",
+      "duration": 2.9999999664723873,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/backhand.glb",
+        "sha256": "4c063ce0410a1ec406ac771833df2ae96128d4162073eb3459050e7e45df1a87",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "backhand",
+          "actionId": 240,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:43.603128+00:00",
+          "jobId": "4a65eb5e-6fd7-424d-b724-4633d8f3ae9b",
+          "lastCheckedAt": "2026-09-17T04:39:18.163611+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043444_4a65eb5e-6fd7-424d-b724-4633d8f3ae9b.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/backhand.glb",
+          "bytes": 5963780,
+          "downloadedAt": "2026-09-17T04:39:19.609161+00:00"
+        }
+      }
+    },
+    {
+      "name": "overhead",
+      "duration": 2.2333333157002926,
+      "source": {
+        "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/overhead.glb",
+        "sha256": "5a26819992c5850056252607cd3eeab5978c7c8db45d9bbbf85857d9ecafdf0a",
+        "kind": "genuine-source-animation",
+        "sourceMetadata": {
+          "canonicalName": "overhead",
+          "actionId": 242,
+          "state": "downloaded",
+          "submittedAt": "2026-09-17T04:34:45.161441+00:00",
+          "jobId": "25903baa-489c-4198-8461-06ddf3eeec47",
+          "lastCheckedAt": "2026-09-17T04:38:23.975147+00:00",
+          "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_39hjWHAnSlQm2chqmsLrWZJJlK3/hf_20260917_043445_25903baa-489c-4198-8461-06ddf3eeec47.glb",
+          "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/higgsfield-september-8-2026/models/animations/overhead.glb",
+          "bytes": 5956768,
+          "downloadedAt": "2026-09-17T04:38:25.445159+00:00"
+        }
+      }
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.6368091267599783,
+      -9.519732019151978e-9,
+      -0.48479894081727837
+    ],
+    "max": [
+      0.5326296837563429,
+      1.850000063740898,
+      0.29714310002460276
+    ],
+    "size": [
+      1.1694388105163211,
+      1.85000007326063,
+      0.7819420408418811
+    ]
+  },
+  "sockets": {
+    "parent": "RightHand",
+    "base": [
+      -0.10984237191228516,
+      0.20051452260121305,
+      -0.2926138609697758
+    ],
+    "tip": [
+      0.0583187350079733,
+      0.5757295539372201,
+      0.24117297480599753
+    ],
+    "baseWorld": [
+      -0.5544206777802618,
+      1.4929374181255561,
+      0.22542878744004405
+    ],
+    "tipWorld": [
+      -0.6828146276282263,
+      0.8407916294516427,
+      0.33594452218382753
+    ]
+  },
+  "reskin": {
+    "input": "derived/reaper-rigged.glb",
+    "inputSHA256": "9f9efe4caab81359f06acc303babca9f4d9a4a58caeddca5651586bef69de732",
+    "output": "derived/reaper-reskinned.glb",
+    "outputSHA256": "739a809d9e3c9270e1596bfcbc80c34be337914352daec8a4459023cf2d517ad",
+    "sourceGeometryUntouched": true,
+    "originalBinaryPrefixPreserved": true,
+    "vertices": 38028,
+    "triangles": 59342,
+    "virtualWeldedVertices": 29595,
+    "hardPinnedVertices": 17276,
+    "smoothingPasses": 100,
+    "equipmentVerticesRigidRightHand": 1939,
+    "weightSumMaxError": 1.7881393432617188e-7,
+    "method": "Continuous vertical torso/hood field with fitted arm capsules, preserved rigid scythe anchors and seam-aware topological smoothing. Lower flowing robe follows Hips as one garment, avoiding transferred hand/knee islands."
+  },
+  "grip": {
+    "input": "runtime/reaper-retargeted.glb",
+    "inputSHA256": "ff35256effed905a15fb41b27d9a79a55bb960573962f3a42ed413fa7272ad19",
+    "method": "Native source clips preserved below the shoulder. Two-bone arm IK baked at 48Hz with unchanged limb lengths/rest transforms; right-hand target minimally projected into the shared two-hand reach region. Right-hand native orientation preserved; left-hand bind grip follows the rigid scythe.",
+    "leftArmLengths": [
+      0.37215588131856775,
+      0.21656407827707713
+    ],
+    "rightArmLengths": [
+      0.2879236009777594,
+      0.16278820596099702
+    ],
+    "offhandGripInRightHand": {
+      "translation": [
+        0.29742347958376864,
+        -0.27990634625280586,
+        0.33089531746413114
+      ],
+      "rotation": [
+        -0.04382965539545609,
+        0.2303097448183309,
+        0.8353388331321613,
+        -0.4972377867892082
+      ]
+    },
+    "clips": [
+      {
+        "name": "idle",
+        "duration": 4,
+        "samples": 193,
+        "maxGripError": 3.910777360781667e-9,
+        "maxPrimaryHandShift": 1.1731276108560148e-8
+      },
+      {
+        "name": "forward",
+        "duration": 1.7333333492279053,
+        "samples": 85,
+        "maxGripError": 5.948223522643354e-9,
+        "maxPrimaryHandShift": 5.70930925653472e-9
+      },
+      {
+        "name": "backward",
+        "duration": 0.8999999761581421,
+        "samples": 45,
+        "maxGripError": 9.720392303387971e-9,
+        "maxPrimaryHandShift": 3.0602027194714096e-9
+      },
+      {
+        "name": "strafe_left",
+        "duration": 1.1666667461395264,
+        "samples": 58,
+        "maxGripError": 2.50524741180642e-8,
+        "maxPrimaryHandShift": 0.05876121533372917
+      },
+      {
+        "name": "strafe_right",
+        "duration": 1.2666666507720947,
+        "samples": 62,
+        "maxGripError": 1.7502702151657102e-8,
+        "maxPrimaryHandShift": 0.09587564756551349
+      },
+      {
+        "name": "dodge",
+        "duration": 1.8333333730697632,
+        "samples": 90,
+        "maxGripError": 1.358222536093397e-8,
+        "maxPrimaryHandShift": 0.24687098073599606
+      },
+      {
+        "name": "hit",
+        "duration": 1.6333333253860474,
+        "samples": 80,
+        "maxGripError": 1.6814827409280804e-8,
+        "maxPrimaryHandShift": 0.19148029494492214
+      },
+      {
+        "name": "death",
+        "duration": 2.9666666984558105,
+        "samples": 144,
+        "maxGripError": 1.6374971620585144e-8,
+        "maxPrimaryHandShift": 0.3294818138397597
+      },
+      {
+        "name": "side",
+        "duration": 1.5,
+        "samples": 73,
+        "maxGripError": 1.8195904730223347e-8,
+        "maxPrimaryHandShift": 0.13933807240943555
+      },
+      {
+        "name": "diagonal",
+        "duration": 3.1666667461395264,
+        "samples": 154,
+        "maxGripError": 7.793496600116088e-9,
+        "maxPrimaryHandShift": 0.32901954052834065
+      },
+      {
+        "name": "backhand",
+        "duration": 3,
+        "samples": 145,
+        "maxGripError": 4.217650249807677e-9,
+        "maxPrimaryHandShift": 0.30946281873341275
+      },
+      {
+        "name": "overhead",
+        "duration": 2.2333333492279053,
+        "samples": 109,
+        "maxGripError": 8.96031125746778e-9,
+        "maxPrimaryHandShift": 0.25834542248141895
+      }
+    ],
+    "output": {
+      "path": "runtime/reaper-runtime.glb",
+      "bytes": 7115828,
+      "sha256": "23e2222ba0dd3ff7fff4ac4f4b448acfad8b0234464d3da7a68e84be1b255020"
+    }
+  },
+  "compaction": "reaper-compaction.json",
+  "grounding": "reaper-grounding.json",
+  "groundingQA": "reaper-grounding-qa.json",
+  "contactQA": "reaper-contact-qa.json",
+  "validationErrors": 0,
+  "visualQA": {
+    "walking": "review/reaper-final-gait/gait-contact-sheet.png",
+    "actions": "review/reaper-final-actions/action-contact-sheet.png"
+  },
+  "limits": [
+    "Uniform65-sample floor curve; no continuous-extrema proof",
+    "Native one-hand donor arm motion is locally constrained to preserve both hands on original diagonal scythe",
+    "Flowing lower robe follows Hips; it is not simulated cloth",
+    "Both texture variants retain all59342 source triangles; mobile is a texture-size optimization"
+  ]
+}

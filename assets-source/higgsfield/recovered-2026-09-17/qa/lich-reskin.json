@@ -1,0 +1,16 @@
+{
+  "input": "derived/lich-rigged.glb",
+  "inputSHA256": "a6089aa898cbb53ae9f19406a0e8589c8de7fa4063d90f72b4123c2b1dfae7c9",
+  "output": "derived/lich-rigged.glb",
+  "outputSHA256": "ffc5122b4935535d4d58e9a4fd7a463bd5a8f9c3e8d871eefe1fc245521373e9",
+  "sourceGeometryUntouched": true,
+  "originalBinaryPrefixPreserved": true,
+  "vertices": 34211,
+  "triangles": 56904,
+  "virtualWeldedVertices": 28413,
+  "hardPinnedVertices": 18974,
+  "smoothingPasses": 100,
+  "equipmentVerticesRigidHand": 1886,
+  "weightSumMaxError": 1.7881393432617188e-07,
+  "method": "Continuous vertical torso/hood field with fitted arm capsules, preserved rigid scythe anchors and seam-aware topological smoothing. Robed characters lower garment follows Hips; fitted arm capsule fields and seam-welded smoothing avoid transferred distant hand/leg islands."
+}

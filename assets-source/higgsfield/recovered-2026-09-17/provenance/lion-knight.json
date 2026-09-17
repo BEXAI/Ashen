@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "slug": "lion-knight",
+  "originalArtwork": {
+    "assetId": "db95c2d3-580c-43c5-ab3b-58ee75def5cb",
+    "filename": "hf_20260909_023256_db95c2d3-580c-43c5-ab3b-58ee75def5cb.png",
+    "sha256": "faac96203fb4585a9ff6581aab8d1b4fc3135eaf3e89f1b4503eb1c7c3481348",
+    "bytes": 1437282,
+    "screenshot": {
+      "row": 1,
+      "column": 4,
+      "right_edge_partial": false,
+      "bottom_edge_clipped": false,
+      "visually_matched": true
+    },
+    "filenameTimestampUTC": "2026-09-09T02:32:56Z",
+    "dateAmericaNewYork": "2026-09-08"
+  },
+  "modelGeneration": {
+    "jobId": "303045a4-0142-4fa0-a885-40c6487b680f",
+    "jobType": "image_to_3d",
+    "createdAt": "2026-09-09T02:35:31.701196Z"
+  },
+  "originalGLB": {
+    "path": "models/lion-knight-original.glb",
+    "bytes": 8761360,
+    "sha256": "498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7"
+  },
+  "riggedInput": {
+    "path": "models/lion-knight-original.glb",
+    "bytes": 8761360,
+    "sha256": "498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7"
+  },
+  "derivation": {},
+  "motion": "Genuine September 8 native motion library; rest-aware rotation retargeting. Static input clip replaced with genuine idle."
+}

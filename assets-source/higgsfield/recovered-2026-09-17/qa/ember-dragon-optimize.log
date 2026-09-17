@@ -1,0 +1,30 @@
+{
+  "report": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/ember-dragon/ember-dragon-runtime.report.json",
+  "sourceSHA256": "cd7a55e202c5c94c46e28e0d5e02bebb139e172f07b8c4fb75546ceaf5234e8a",
+  "counts": {
+    "nodes": 27,
+    "bones": 24,
+    "skins": 1,
+    "meshes": 1,
+    "animations": 12,
+    "animationTracks": 864,
+    "textures": 4,
+    "uniqueMeshTriangles": 16444,
+    "instancedTriangles": 16444
+  },
+  "variants": [
+    {
+      "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/ember-dragon/ember-dragon-runtime.mobile1024.glb",
+      "bytes": 3350040,
+      "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+      "validationErrors": 0
+    },
+    {
+      "path": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/ember-dragon/ember-dragon-runtime.hd2048.glb",
+      "bytes": 6669748,
+      "sha256": "03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85",
+      "validationErrors": 0
+    }
+  ],
+  "sourceUnchanged": true
+}

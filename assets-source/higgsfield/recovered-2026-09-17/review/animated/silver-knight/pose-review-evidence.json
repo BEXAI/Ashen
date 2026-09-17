@@ -1,0 +1,279 @@
+{
+  "slug": "silver-knight",
+  "delivery": {
+    "input": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/optimized/silver-knight/silver-knight-runtime.mobile1024.glb",
+    "sha256": "68df4950c9fd42eb06ba956c583f143ed820a0701fb87426c95430a3c30085cd",
+    "bytes": 3782032,
+    "decodedPath": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/delivery-decoded.glb",
+    "decodeMethod": "Meshopt decoded without simplification; embedded WebP decoded losslessly to PNG for bpy import",
+    "clips": [
+      {
+        "name": "idle",
+        "duration": 4
+      },
+      {
+        "name": "forward",
+        "duration": 1.7333333492279053
+      },
+      {
+        "name": "backward",
+        "duration": 0.8999999761581421
+      },
+      {
+        "name": "strafe_left",
+        "duration": 1.1666667461395264
+      },
+      {
+        "name": "strafe_right",
+        "duration": 1.2666666507720947
+      },
+      {
+        "name": "dodge",
+        "duration": 1.8333333730697632
+      },
+      {
+        "name": "hit",
+        "duration": 1.6333333253860474
+      },
+      {
+        "name": "death",
+        "duration": 2.9666666984558105
+      },
+      {
+        "name": "side",
+        "duration": 1.5
+      },
+      {
+        "name": "diagonal",
+        "duration": 3.1666667461395264
+      },
+      {
+        "name": "backhand",
+        "duration": 3
+      },
+      {
+        "name": "overhead",
+        "duration": 2.2333333492279053
+      }
+    ],
+    "decodingOnly": true
+  },
+  "method": "Actual mobile delivery Meshopt+WebP decoded without geometry changes; bpy imported canonical animation actions. Runtime wrapper height/yaw/ground curves applied. Game-authored held props not included.",
+  "poses": [
+    {
+      "clip": "idle",
+      "phase": 0.5,
+      "timeSeconds": 2.0,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/idle-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.5096002817153931,
+          -0.7173129916191101,
+          -1.6810372471809387e-07
+        ],
+        "max": [
+          0.5882400870323181,
+          0.6373140215873718,
+          2.4616341590881348
+        ]
+      },
+      "sampledGroundMinimum": -0.002077270491179288,
+      "runtimeGroundCorrection": 0.0020772710455058663,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "forward",
+      "phase": 0.5,
+      "timeSeconds": 0.8666666746139526,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/forward-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.5124589800834656,
+          -0.725511908531189,
+          -3.129243850708008e-07
+        ],
+        "max": [
+          0.4562748074531555,
+          0.6890486478805542,
+          2.5022387504577637
+        ]
+      },
+      "sampledGroundMinimum": 0.01091086390707625,
+      "runtimeGroundCorrection": -0.010910863352749673,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "side",
+      "phase": 0.385,
+      "timeSeconds": 0.5775,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/side-0.385.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.7213916778564453,
+          -1.1579376459121704,
+          3.038346767425537e-05
+        ],
+        "max": [
+          0.7600632309913635,
+          0.7733315229415894,
+          2.307993173599243
+        ]
+      },
+      "sampledGroundMinimum": 0.07269641136486026,
+      "runtimeGroundCorrection": -0.07269641081053367,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "diagonal",
+      "phase": 0.4,
+      "timeSeconds": 1.2666666984558106,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/diagonal-0.400.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.7354515790939331,
+          -1.0219168663024902,
+          0.0013946294784545898
+        ],
+        "max": [
+          0.8420787453651428,
+          0.6309727430343628,
+          2.4946999549865723
+        ]
+      },
+      "sampledGroundMinimum": 0.07448899794832355,
+      "runtimeGroundCorrection": -0.07448899739399696,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "backhand",
+      "phase": 0.48000000000000004,
+      "timeSeconds": 1.4400000000000002,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/backhand-0.480.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.7250552177429199,
+          -0.9322700500488281,
+          -0.001439691986888647
+        ],
+        "max": [
+          1.2745232582092285,
+          0.9414654970169067,
+          2.4746155738830566
+        ]
+      },
+      "sampledGroundMinimum": -0.005321500802985829,
+      "runtimeGroundCorrection": 0.005321501357312407,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "overhead",
+      "phase": 0.52,
+      "timeSeconds": 1.1613333415985108,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/overhead-0.520.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.7409422397613525,
+          -1.0903970003128052,
+          9.63360071182251e-05
+        ],
+        "max": [
+          0.5218251943588257,
+          0.7617080807685852,
+          2.5110738277435303
+        ]
+      },
+      "sampledGroundMinimum": 0.07762066025766542,
+      "runtimeGroundCorrection": -0.07762065970333884,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "dodge",
+      "phase": 0.5,
+      "timeSeconds": 0.9166666865348816,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/dodge-0.500.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.5841032862663269,
+          -0.7442964315414429,
+          0.05670078471302986
+        ],
+        "max": [
+          0.8644787073135376,
+          1.4382106065750122,
+          1.3146449327468872
+        ]
+      },
+      "sampledGroundMinimum": 0.03958407115522322,
+      "runtimeGroundCorrection": 0,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "death",
+      "phase": 0.85,
+      "timeSeconds": 2.521666693687439,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/death-0.850.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.6069252490997314,
+          -1.5090081691741943,
+          -0.0008628368377685547
+        ],
+        "max": [
+          1.2285300493240356,
+          1.5937306880950928,
+          0.8664761781692505
+        ]
+      },
+      "sampledGroundMinimum": -0.15123117482567483,
+      "runtimeGroundCorrection": 0.15123117538000141,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "dodge",
+      "phase": 0.828125,
+      "timeSeconds": 1.5182291995733976,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/dodge-0.828.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.43238863348960876,
+          -1.0986555814743042,
+          -1.4901161193847656e-06
+        ],
+        "max": [
+          0.712575376033783,
+          0.7363114356994629,
+          2.0092852115631104
+        ]
+      },
+      "sampledGroundMinimum": -0.36036105261478735,
+      "runtimeGroundCorrection": 0.36036105316911393,
+      "modelScale": 1.4324324306163299
+    },
+    {
+      "clip": "death",
+      "phase": 0.515625,
+      "timeSeconds": 1.5296875163912773,
+      "image": "/Users/nathaniel/Documents/ChatGPT/Knight/references/recovered-september9-2026/review/animated/silver-knight/death-0.516.png",
+      "worldBoundsBlender": {
+        "min": [
+          -0.7913942337036133,
+          -0.37243902683258057,
+          1.6391277313232422e-07
+        ],
+        "max": [
+          0.7974502444267273,
+          0.6432539820671082,
+          2.1251728534698486
+        ]
+      },
+      "sampledGroundMinimum": -0.1689986862028357,
+      "runtimeGroundCorrection": 0.1689986867571623,
+      "modelScale": 1.4324324306163299
+    }
+  ],
+  "notes": [
+    "Sampled poses, not continuous animation acceptance.",
+    "No device or browser GPU performance evidence.",
+    "Restored renderer grounding may differ slightly between uniform curve samples; bounds measured from actual bpy evaluated vertices."
+  ]
+}

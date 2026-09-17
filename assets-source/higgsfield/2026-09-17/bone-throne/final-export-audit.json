@@ -1,0 +1,164 @@
+{
+  "validations": {
+    "source": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 0,
+      "numHints": 0,
+      "messages": [],
+      "truncated": false
+    },
+    "compressed": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 2,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/buffers/0"
+        }
+      ],
+      "truncated": false
+    },
+    "fallback": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 0,
+      "numHints": 0,
+      "messages": [],
+      "truncated": false
+    }
+  },
+  "accessorPreservation": {
+    "source": [
+      {
+        "mode": 4,
+        "attributes": {
+          "POSITION": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "80201c637bbec8f65b32c090229e309b0e01666d394d3f9f60be1f00c59995cb"
+          },
+          "NORMAL": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "972eb43727820ba588e481ee623e7ba63c1450a196c5322a25a81f927d880e42"
+          },
+          "COLOR_0": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "a14e7d4f10fb67eeee1ee2167412e5e23f585878cdf35d6f25983c3f29a73042"
+          }
+        },
+        "indices": {
+          "count": 18360,
+          "sha256": "1db1239ff24b2483c2451d9f453eab13f99701e5e07bc4d699bfecdb1c02d0a0",
+          "orientedTrianglesSha256": "b7fc0afe30f8d17647f1cb8fa7107e840301885180557502b93172233a829731"
+        }
+      }
+    ],
+    "compressed": [
+      {
+        "mode": 4,
+        "attributes": {
+          "POSITION": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "80201c637bbec8f65b32c090229e309b0e01666d394d3f9f60be1f00c59995cb"
+          },
+          "NORMAL": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "972eb43727820ba588e481ee623e7ba63c1450a196c5322a25a81f927d880e42"
+          },
+          "COLOR_0": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "a14e7d4f10fb67eeee1ee2167412e5e23f585878cdf35d6f25983c3f29a73042"
+          }
+        },
+        "indices": {
+          "count": 18360,
+          "sha256": "6fdb74efb59ae2e7f605c45bed7f00e4f93af4123104adda7c52d3f3934e8a1b",
+          "orientedTrianglesSha256": "b7fc0afe30f8d17647f1cb8fa7107e840301885180557502b93172233a829731"
+        }
+      }
+    ],
+    "fallback": [
+      {
+        "mode": 4,
+        "attributes": {
+          "POSITION": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "80201c637bbec8f65b32c090229e309b0e01666d394d3f9f60be1f00c59995cb"
+          },
+          "NORMAL": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "972eb43727820ba588e481ee623e7ba63c1450a196c5322a25a81f927d880e42"
+          },
+          "COLOR_0": {
+            "type": "VEC3",
+            "normalized": false,
+            "componentType": 5126,
+            "count": 9385,
+            "sha256": "a14e7d4f10fb67eeee1ee2167412e5e23f585878cdf35d6f25983c3f29a73042"
+          }
+        },
+        "indices": {
+          "count": 18360,
+          "sha256": "1db1239ff24b2483c2451d9f453eab13f99701e5e07bc4d699bfecdb1c02d0a0",
+          "orientedTrianglesSha256": "b7fc0afe30f8d17647f1cb8fa7107e840301885180557502b93172233a829731"
+        }
+      }
+    ]
+  },
+  "allVertexAttributeBytesIdentical": true,
+  "allOrientedTrianglesIdentical": true,
+  "triangleIndexNote": "Meshopt may cyclically rotate each triangle; oriented geometry and winding remain identical.",
+  "compressedRoundTripBounds": {
+    "min": [
+      -0.4400021433830261,
+      -5.551115123125783e-17,
+      -0.48002639412879944
+    ],
+    "max": [
+      0.4400021433830261,
+      1.734702230244875,
+      0.48002639412879944
+    ]
+  },
+  "triangles": 6120,
+  "vertices": 9385,
+  "materials": 1,
+  "textures": 0,
+  "skins": 0,
+  "animations": 0,
+  "sourceUnchanged": true
+}

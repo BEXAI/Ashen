@@ -71,9 +71,13 @@ The runtime decoder is bundled from the installed Three.js version.
 
 Higgsfield asset provenance (original user-requested design assets)
 Historical character/reference-image and flame-atlas job records remain in
-assets-source/references/. Runtime character geometry is a locally authored
-rig retrofit; no Meshy model or external catalog character is represented as
-part of this release candidate.
+assets-source/references/. The current sixteen-character roster uses generated geometry from the user's
+Higgsfield jobs, with locally fitted rigs, authored repairs and retargeted or
+authored gameplay motion. Fourteen recovered September 9 models, including
+ogre and goblin, are recorded with original job IDs, source hashes and runtime
+derivative hashes in assets-source/higgsfield/recovered-2026-09-17. Golem and
+shrouded skeleton retain their existing September 8 reconstruction pipeline.
+The historical local ogre/goblin interpretations remain preserved as sources.
 
 The integrated A01 sconce, A02 shrine and A03 arch/pillar/trim kit were authored
 as original bpy geometry and procedural appearance in user-owned Higgsfield
@@ -96,3 +100,14 @@ Body Male - Realistic by Dan Ulrich, Blender Human Base Meshes 1.4.1.
 CC0-1.0 (public domain). Original fitted armor, crown, garments and surface fields.
 Source: https://www.blender.org/download/demo-files/
 License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Bone Throne — catalog mesh selected by the user in Higgsfield 3D Jutsu
+Project: 02765069-6a15-4d44-852b-025f53032fdf, committed revision 1
+Source: https://higgsfield.ai/3d-jutsu/02765069-6a15-4d44-852b-025f53032fdf
+Catalog reference embedded in that source: 65b31468-5c24-440c-9a95-99db1b195b67
+Original GLB, editable Blender file, project receipts, normalization recipe
+and exact hashes are retained in assets-source/higgsfield/2026-09-17/bone-throne.
+Available export receipts do not state license terms. This notice records
+provenance and makes no CC0, public-domain or original-authorship claim.
+Geometry and vertex colors are preserved; delivery uses lossless Meshopt
+compression and a glTF-core fallback.

@@ -1,0 +1,117 @@
+{
+  "input": "runtime/reaper-retargeted.glb",
+  "inputSHA256": "ff35256effed905a15fb41b27d9a79a55bb960573962f3a42ed413fa7272ad19",
+  "method": "Native source clips preserved below the shoulder. Two-bone arm IK baked at 48Hz with unchanged limb lengths/rest transforms; right-hand target minimally projected into the shared two-hand reach region. Right-hand native orientation preserved; left-hand bind grip follows the rigid scythe.",
+  "leftArmLengths": [
+    0.37215588131856775,
+    0.21656407827707713
+  ],
+  "rightArmLengths": [
+    0.2879236009777594,
+    0.16278820596099702
+  ],
+  "offhandGripInRightHand": {
+    "translation": [
+      0.29742347958376864,
+      -0.27990634625280586,
+      0.33089531746413114
+    ],
+    "rotation": [
+      -0.04382965539545609,
+      0.2303097448183309,
+      0.8353388331321613,
+      -0.4972377867892082
+    ]
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 4,
+      "samples": 193,
+      "maxGripError": 3.910777360781667e-9,
+      "maxPrimaryHandShift": 1.1731276108560148e-8
+    },
+    {
+      "name": "forward",
+      "duration": 1.7333333492279053,
+      "samples": 85,
+      "maxGripError": 5.948223522643354e-9,
+      "maxPrimaryHandShift": 5.70930925653472e-9
+    },
+    {
+      "name": "backward",
+      "duration": 0.8999999761581421,
+      "samples": 45,
+      "maxGripError": 9.720392303387971e-9,
+      "maxPrimaryHandShift": 3.0602027194714096e-9
+    },
+    {
+      "name": "strafe_left",
+      "duration": 1.1666667461395264,
+      "samples": 58,
+      "maxGripError": 2.50524741180642e-8,
+      "maxPrimaryHandShift": 0.05876121533372917
+    },
+    {
+      "name": "strafe_right",
+      "duration": 1.2666666507720947,
+      "samples": 62,
+      "maxGripError": 1.7502702151657102e-8,
+      "maxPrimaryHandShift": 0.09587564756551349
+    },
+    {
+      "name": "dodge",
+      "duration": 1.8333333730697632,
+      "samples": 90,
+      "maxGripError": 1.358222536093397e-8,
+      "maxPrimaryHandShift": 0.24687098073599606
+    },
+    {
+      "name": "hit",
+      "duration": 1.6333333253860474,
+      "samples": 80,
+      "maxGripError": 1.6814827409280804e-8,
+      "maxPrimaryHandShift": 0.19148029494492214
+    },
+    {
+      "name": "death",
+      "duration": 2.9666666984558105,
+      "samples": 144,
+      "maxGripError": 1.6374971620585144e-8,
+      "maxPrimaryHandShift": 0.3294818138397597
+    },
+    {
+      "name": "side",
+      "duration": 1.5,
+      "samples": 73,
+      "maxGripError": 1.8195904730223347e-8,
+      "maxPrimaryHandShift": 0.13933807240943555
+    },
+    {
+      "name": "diagonal",
+      "duration": 3.1666667461395264,
+      "samples": 154,
+      "maxGripError": 7.793496600116088e-9,
+      "maxPrimaryHandShift": 0.32901954052834065
+    },
+    {
+      "name": "backhand",
+      "duration": 3,
+      "samples": 145,
+      "maxGripError": 4.217650249807677e-9,
+      "maxPrimaryHandShift": 0.30946281873341275
+    },
+    {
+      "name": "overhead",
+      "duration": 2.2333333492279053,
+      "samples": 109,
+      "maxGripError": 8.96031125746778e-9,
+      "maxPrimaryHandShift": 0.25834542248141895
+    }
+  ],
+  "output": {
+    "path": "runtime/reaper-runtime.glb",
+    "bytes": 7115828,
+    "sha256": "23e2222ba0dd3ff7fff4ac4f4b448acfad8b0234464d3da7a68e84be1b255020"
+  }
+}

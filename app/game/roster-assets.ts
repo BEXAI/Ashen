@@ -9,9 +9,9 @@ import {attachRosterEquipment} from './roster-equipment';
 import {disposeTree,REQUIRED_CHARACTER_CLIPS} from './character-assets';
 import {RosterPresentation} from './roster-presentation';
 
-export const ROSTER_MANIFEST_URL='/assets/roster/september-8/manifest.json';
+export const ROSTER_MANIFEST_URL='/assets/roster/recovered-2026-09-17/manifest.json';
 type Variant={url:string;sha256:string};
-export type RosterModel={height:number;yaw:number;strikeYaw?:number;contactPhase:[number,number]|Record<StrikeId,[number,number]>;variants:{mobile:Variant;hd:Variant};grounding?:{restMinY:number;clips:Record<string,number[]>}};
+export type RosterModel={height:number;yaw:number;strikeYaw?:number;equipment?:'authored'|'embedded';contactSockets?:'authored'|'embedded';contentVersion?:string;bounds?:{min:[number,number,number];max:[number,number,number]};contactPhase:[number,number]|Record<StrikeId,[number,number]>;variants:{mobile:Variant;hd:Variant};grounding?:{restMinY:number;clips:Record<string,number[]>}};
 type Manifest={version:string;characters:Record<RosterId,RosterModel>};
 type RosterTemplate=Pick<GLTF,'scene'|'animations'>;
 type Entry={actor:Actor;id:RosterId;always:boolean;distance:number;failed:boolean;loaded?:{gltf:RosterTemplate;tier:string}};
@@ -38,13 +38,13 @@ export function installRosterVisual(actor:Actor,gltf:RosterTemplate,model:Roster
  let skinned=0;instance.traverse(o=>{if(o instanceof T.SkinnedMesh){skinned++;o.frustumCulled=false;}if(o instanceof T.Mesh){o.castShadow=true;o.receiveShadow=true;}});
  if(!skinned)throw Error('Roster model has no weighted skeleton');
  instance.updateMatrixWorld(true);
- const bounds=new T.Box3().setFromObject(instance),size=bounds.getSize(new T.Vector3());
+ const bounds=model.bounds?new T.Box3(new T.Vector3(...model.bounds.min),new T.Vector3(...model.bounds.max)):new T.Box3().setFromObject(instance),size=bounds.getSize(new T.Vector3());
  if(!Number.isFinite(size.y)||size.y<.01)throw Error('Roster model has invalid bounds');
  const wrapper=new T.Group(),scale=model.height/size.y;
  wrapper.name='September character';wrapper.rotation.y=model.yaw;wrapper.scale.setScalar(scale);
  instance.position.sub(new T.Vector3((bounds.min.x+bounds.max.x)/2,bounds.min.y,(bounds.min.z+bounds.max.z)/2));wrapper.add(instance);
- if(['lion-knight','silver-knight','dusk-rogue','knife-rogue','skeleton-warrior','golem','shrouded-skeleton','ember-dragon'].includes(id)){const units=scale/base.parent!.getWorldScale(new T.Vector3()).y;base.position.set(0,.08*units,0);tip.position.set(0,(id==='knife-rogue'?.7:['golem','shrouded-skeleton','ember-dragon'].includes(id)?.38:1.05)*units,0);}
- const disposeEquipment=attachRosterEquipment(instance,id,scale);
+ if(model.contactSockets!=='embedded'&&['lion-knight','silver-knight','dusk-rogue','knife-rogue','skeleton-warrior','golem','shrouded-skeleton','ember-dragon'].includes(id)){const units=scale/base.parent!.getWorldScale(new T.Vector3()).y;base.position.set(0,.08*units,0);tip.position.set(0,(id==='knife-rogue'?.7:['golem','shrouded-skeleton','ember-dragon'].includes(id)?.38:1.05)*units,0);}
+ const disposeEquipment=model.equipment==='embedded'?()=>{}:attachRosterEquipment(instance,id,scale);
  const muzzle=instance.getObjectByName('EquippedMuzzle')??(id==='ranger'?instance.getObjectByName('LeftHand'):undefined);
  const restY=instance.position.y;
  const mixer=new T.AnimationMixer(instance),actions=new Map(gltf.animations.map(c=>[c.name,mixer.clipAction(c)]));
@@ -87,7 +87,7 @@ export function installRosterVisual(actor:Actor,gltf:RosterTemplate,model:Roster
   segment:(a,b)=>{actor.group.updateMatrixWorld(true);base.getWorldPosition(a);tip.getWorldPosition(b);},
   dispose:()=>{disposeEquipment();mixer.stopAllAction();mixer.uncacheRoot(instance);const skeletons=new Set<T.Skeleton>();instance.traverse(o=>{if(o instanceof T.SkinnedMesh)skeletons.add(o.skeleton);});skeletons.forEach(s=>s.dispose());wrapper.removeFromParent();fallback.forEach(({object,visible})=>{object.visible=visible;});if(actor.visual===visual){actor.visual=undefined;delete actor.group.userData.activeLod;delete actor.group.userData.assetVersion;}},
  };
- sample('idle',0,true);actor.visual=visual;actor.group.userData.activeLod=0;actor.group.userData.assetVersion='september-8-2026';return visual;
+ sample('idle',0,true);actor.visual=visual;actor.group.userData.activeLod=0;actor.group.userData.assetVersion=model.contentVersion??'september-8-2026';return visual;
 }
 
 /** Stream nearby characters serially to bound texture decoding and GPU upload memory. */

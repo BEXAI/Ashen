@@ -1,0 +1,2331 @@
+{
+  "schemaVersion": 1,
+  "pathsRelativeToPackage": true,
+  "files": [
+    {
+      "path": "DRAGON-REBUILD.md",
+      "bytes": 1963,
+      "sha256": "6b906dc935eea84386d2366c6b7871d76fa2663193efd3b9fbe0ab331b36f76b",
+      "preparedInputSha256": "6b906dc935eea84386d2366c6b7871d76fa2663193efd3b9fbe0ab331b36f76b"
+    },
+    {
+      "path": "RANGER.md",
+      "bytes": 3121,
+      "sha256": "891f6571141fb96d6d7588a074321b7b060be542bda596980284280e547d99a8",
+      "preparedInputSha256": "891f6571141fb96d6d7588a074321b7b060be542bda596980284280e547d99a8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2084,
+      "sha256": "c1e5daf47659b9cefa1475c21e0ceaf2b904b92a557090879144ed4c4279a6ff",
+      "preparedInputSha256": "c1e5daf47659b9cefa1475c21e0ceaf2b904b92a557090879144ed4c4279a6ff"
+    },
+    {
+      "path": "REAPER.md",
+      "bytes": 4763,
+      "sha256": "2551ee94390ba2922cff58bb5c79a577882bfcea86ff9f63a1d19adaa6e4a242",
+      "preparedInputSha256": "2551ee94390ba2922cff58bb5c79a577882bfcea86ff9f63a1d19adaa6e4a242"
+    },
+    {
+      "path": "REBUILD.md",
+      "bytes": 6093,
+      "sha256": "00839125473e27a9f416bd93522251fad93177be89c46bde22b1789bc0c6caf7",
+      "preparedInputSha256": "00839125473e27a9f416bd93522251fad93177be89c46bde22b1789bc0c6caf7"
+    },
+    {
+      "path": "SPIDER.md",
+      "bytes": 6167,
+      "sha256": "afd6be778bab7f03008ccf7bee69b8f4adbba5fed91344ad5bbd09ce30ee6f43",
+      "preparedInputSha256": "afd6be778bab7f03008ccf7bee69b8f4adbba5fed91344ad5bbd09ce30ee6f43"
+    },
+    {
+      "path": "acceptance-matrix.md",
+      "bytes": 2814,
+      "sha256": "e24ee9e78626218d7aec6a9c27690c39c9b14c07fecd8f7a52e7dad6631c7a27",
+      "preparedInputSha256": "e24ee9e78626218d7aec6a9c27690c39c9b14c07fecd8f7a52e7dad6631c7a27"
+    },
+    {
+      "path": "derived/ember-dragon-rigged.glb",
+      "bytes": 11107236,
+      "sha256": "36128660aa9fd2992091bec85b0bbe4e77d636ba14ca78a8612f9b3136c136e0",
+      "preparedInputSha256": "36128660aa9fd2992091bec85b0bbe4e77d636ba14ca78a8612f9b3136c136e0"
+    },
+    {
+      "path": "derived/ember-dragon-rigging.json",
+      "bytes": 155915,
+      "sha256": "dd3b61d9b1e9eb83c56630745e1128a2d5fe06edbcb28522b8ab4cc39d00d546",
+      "preparedInputSha256": "dd3b61d9b1e9eb83c56630745e1128a2d5fe06edbcb28522b8ab4cc39d00d546"
+    },
+    {
+      "path": "derived/frost-mage-rigging.json",
+      "bytes": 33397,
+      "sha256": "c2f711e074bc58b952f5f29949d1b1c6f23ba095349633766a430a5ef2de4ed1",
+      "preparedInputSha256": "c2f711e074bc58b952f5f29949d1b1c6f23ba095349633766a430a5ef2de4ed1"
+    },
+    {
+      "path": "derived/goblin-rigging.json",
+      "bytes": 95906,
+      "sha256": "efaa7ba83e42dc14aa0a26f783b251bc46e3907ad78084463960beeeeb1f90e4",
+      "preparedInputSha256": "efaa7ba83e42dc14aa0a26f783b251bc46e3907ad78084463960beeeeb1f90e4"
+    },
+    {
+      "path": "derived/knife-rogue-rigging.json",
+      "bytes": 4012,
+      "sha256": "a2706af6c8e6cad08bf17054f19e3782e70404dbb61a0495a00b4ccecc8bc268",
+      "preparedInputSha256": "a2706af6c8e6cad08bf17054f19e3782e70404dbb61a0495a00b4ccecc8bc268"
+    },
+    {
+      "path": "derived/lich-rigging.json",
+      "bytes": 38808,
+      "sha256": "07037f9f8f6db69dad8bee064d2017018b3bb58ed6c7f82327161b5959c803d1",
+      "preparedInputSha256": "07037f9f8f6db69dad8bee064d2017018b3bb58ed6c7f82327161b5959c803d1"
+    },
+    {
+      "path": "derived/lion-knight-rigging.json",
+      "bytes": 13043,
+      "sha256": "cf31f3ad11fb1a64c29dd41cc36a7dd48f3eb15ee86ec7ac5f4309045b6b635e",
+      "preparedInputSha256": "cf31f3ad11fb1a64c29dd41cc36a7dd48f3eb15ee86ec7ac5f4309045b6b635e"
+    },
+    {
+      "path": "derived/ogre-rigging.json",
+      "bytes": 155334,
+      "sha256": "e90ed9213b88cad091608be6da9f1d0666b678d648bc511b80afef86ba4cb765",
+      "preparedInputSha256": "e90ed9213b88cad091608be6da9f1d0666b678d648bc511b80afef86ba4cb765"
+    },
+    {
+      "path": "derived/ranger-reskinned-rigging.json",
+      "bytes": 70086,
+      "sha256": "a931c12c934352478009af68231df343e03727822b805b02042967cb537b4242",
+      "preparedInputSha256": "a931c12c934352478009af68231df343e03727822b805b02042967cb537b4242"
+    },
+    {
+      "path": "derived/ranger-rigged.glb",
+      "bytes": 4970852,
+      "sha256": "5f21995787dff162a02b78cf7c2b17d311b3e8884ba3435f76fceef51538362b",
+      "preparedInputSha256": "5f21995787dff162a02b78cf7c2b17d311b3e8884ba3435f76fceef51538362b"
+    },
+    {
+      "path": "derived/ranger-rigging.json",
+      "bytes": 30223,
+      "sha256": "26dd487a23f5af1fd205cf0da520139f7fdd11403508c12dcef177840f9eca19",
+      "preparedInputSha256": "26dd487a23f5af1fd205cf0da520139f7fdd11403508c12dcef177840f9eca19"
+    },
+    {
+      "path": "derived/reaper-rigged.glb",
+      "bytes": 5325060,
+      "sha256": "9f9efe4caab81359f06acc303babca9f4d9a4a58caeddca5651586bef69de732",
+      "preparedInputSha256": "9f9efe4caab81359f06acc303babca9f4d9a4a58caeddca5651586bef69de732"
+    },
+    {
+      "path": "derived/reaper-rigging.json",
+      "bytes": 37104,
+      "sha256": "bffc62437cf41b5aa775c2cdf3db37e5a626d69142fd98fdd49b24541fd00c3b",
+      "preparedInputSha256": "bffc62437cf41b5aa775c2cdf3db37e5a626d69142fd98fdd49b24541fd00c3b"
+    },
+    {
+      "path": "derived/sage-rigging.json",
+      "bytes": 54832,
+      "sha256": "2fae118de3df788ad3d0c4aa3a26f2ac96cf4468e89ec6f2edd9401a0f92f6f4",
+      "preparedInputSha256": "2fae118de3df788ad3d0c4aa3a26f2ac96cf4468e89ec6f2edd9401a0f92f6f4"
+    },
+    {
+      "path": "derived/silver-knight-rigging.json",
+      "bytes": 4024,
+      "sha256": "21385e35b82ace8d47067d6e4516c24622dbbd1cd1c9f9979f70032f15be9842",
+      "preparedInputSha256": "21385e35b82ace8d47067d6e4516c24622dbbd1cd1c9f9979f70032f15be9842"
+    },
+    {
+      "path": "derived/skeleton-warrior-rigging.json",
+      "bytes": 383304,
+      "sha256": "e8cf6c4b50424535aeca5e2191b3c421d94228b2a23b9bc62eb429f317fb93e3",
+      "preparedInputSha256": "e8cf6c4b50424535aeca5e2191b3c421d94228b2a23b9bc62eb429f317fb93e3"
+    },
+    {
+      "path": "derived/spider-export-pose-validation.json",
+      "bytes": 24793,
+      "sha256": "54d023297827fc8270c05323b67a3bc470edba5809947326e9edb7ead1c5d0d9",
+      "preparedInputSha256": "54d023297827fc8270c05323b67a3bc470edba5809947326e9edb7ead1c5d0d9"
+    },
+    {
+      "path": "derived/spider-rig-validation.json",
+      "bytes": 26564,
+      "sha256": "f1773fc8d32850c4c86dd2ba8e50478e641e6ff3aeaf5c116b6943424bbc3cb9",
+      "preparedInputSha256": "f1773fc8d32850c4c86dd2ba8e50478e641e6ff3aeaf5c116b6943424bbc3cb9"
+    },
+    {
+      "path": "derived/spider-rigged.blend",
+      "bytes": 3806851,
+      "sha256": "cd410f15536bfb8462703dbf35acb890e98ba1bd91b08ea56f371b156f10fd18",
+      "preparedInputSha256": "cd410f15536bfb8462703dbf35acb890e98ba1bd91b08ea56f371b156f10fd18"
+    },
+    {
+      "path": "dragon-edge-audit.json",
+      "bytes": 4812,
+      "sha256": "bab144f069f2b23db9d39982c2323b6fb33388befd2e6ec63b36e1d014b3bab9",
+      "preparedInputSha256": "bab144f069f2b23db9d39982c2323b6fb33388befd2e6ec63b36e1d014b3bab9"
+    },
+    {
+      "path": "dragon-manifest-entries.json",
+      "bytes": 26111,
+      "sha256": "1c8f062d7ee705a32bcd45dc899180edb564dc93bd940f220701981f0ef5714a",
+      "preparedInputSha256": "1c8f062d7ee705a32bcd45dc899180edb564dc93bd940f220701981f0ef5714a"
+    },
+    {
+      "path": "dragon-reskin-qa.json",
+      "bytes": 127694,
+      "sha256": "605d76e81d391421bd115dfb1f309c9bba656a02959f90778444bdc121e8674a",
+      "preparedInputSha256": "605d76e81d391421bd115dfb1f309c9bba656a02959f90778444bdc121e8674a"
+    },
+    {
+      "path": "dragon-review.json",
+      "bytes": 2835,
+      "sha256": "a7f38b86e2444b088910a7835252b24c657e3c9b3f3e594a902471bb25bea1be",
+      "preparedInputSha256": "a7f38b86e2444b088910a7835252b24c657e3c9b3f3e594a902471bb25bea1be"
+    },
+    {
+      "path": "dragon-runtime-build-summary.json",
+      "bytes": 16221,
+      "sha256": "cb9b907b8b9c496a601721bb1250fc6de0c2f179abb009fdc070801a71f1d5bb",
+      "preparedInputSha256": "cb9b907b8b9c496a601721bb1250fc6de0c2f179abb009fdc070801a71f1d5bb"
+    },
+    {
+      "path": "dragon-runtime-grounding.json",
+      "bytes": 16302,
+      "sha256": "9cc1e3da5dea12ea6ddc4d44b07f51427d29e19e2b2a516f25c85b00a2f5a485",
+      "preparedInputSha256": "9cc1e3da5dea12ea6ddc4d44b07f51427d29e19e2b2a516f25c85b00a2f5a485"
+    },
+    {
+      "path": "ember-dragon-manifest-entry.json",
+      "bytes": 25591,
+      "sha256": "8c6244701c4b97ee7f83b71dacb8c3aa01246f9beb83c5a912f8bcfbc78031e4",
+      "preparedInputSha256": "8c6244701c4b97ee7f83b71dacb8c3aa01246f9beb83c5a912f8bcfbc78031e4"
+    },
+    {
+      "path": "inventory.json",
+      "bytes": 19074,
+      "sha256": "ebb1449f02c1149b9d24ee513464b5b6986756cd3ea206b5516efc2573b65915",
+      "preparedInputSha256": "9d0f31da83fbbf7a1e8e246f3a03ff57af456f9321f56e19fef9179560a921b4"
+    },
+    {
+      "path": "jobs/dusk-rogue.json",
+      "bytes": 925,
+      "sha256": "be4f6894a47411e94179c17e607ec0d9fbf8f04b6d92db1070c05598c604c57e",
+      "preparedInputSha256": "be4f6894a47411e94179c17e607ec0d9fbf8f04b6d92db1070c05598c604c57e"
+    },
+    {
+      "path": "jobs/ember-dragon.json",
+      "bytes": 900,
+      "sha256": "46c94e0955705e57b92412baa5305f905a1b15e183a158e135a1cebfe1e0bcd7",
+      "preparedInputSha256": "46c94e0955705e57b92412baa5305f905a1b15e183a158e135a1cebfe1e0bcd7"
+    },
+    {
+      "path": "jobs/frost-mage.json",
+      "bytes": 925,
+      "sha256": "0169e31fb93e2165863e8920f5f009cc4619cff7388495be156cd8a0a48e5882",
+      "preparedInputSha256": "0169e31fb93e2165863e8920f5f009cc4619cff7388495be156cd8a0a48e5882"
+    },
+    {
+      "path": "jobs/goblin.json",
+      "bytes": 1045,
+      "sha256": "6e45fe59913c069f8d2e052a15414380a77f5dc9d289d6b2c02870f35646bc1d",
+      "preparedInputSha256": "6e45fe59913c069f8d2e052a15414380a77f5dc9d289d6b2c02870f35646bc1d"
+    },
+    {
+      "path": "jobs/knife-rogue.json",
+      "bytes": 1045,
+      "sha256": "bb4d4b8ec6fe4f5028dffe538aeb31c044f987d9c4834a23c0b1c09cfd52eca6",
+      "preparedInputSha256": "bb4d4b8ec6fe4f5028dffe538aeb31c044f987d9c4834a23c0b1c09cfd52eca6"
+    },
+    {
+      "path": "jobs/lich.json",
+      "bytes": 1045,
+      "sha256": "4fe2913e25d7def5c74b43ddc48363241863ec030524af1829ac247bc975b9a4",
+      "preparedInputSha256": "4fe2913e25d7def5c74b43ddc48363241863ec030524af1829ac247bc975b9a4"
+    },
+    {
+      "path": "jobs/lion-knight.json",
+      "bytes": 925,
+      "sha256": "f1b8552079a3411f55d96acd592b57b11dfe8d1bbc5fc40c5bf46d2dfb944f92",
+      "preparedInputSha256": "f1b8552079a3411f55d96acd592b57b11dfe8d1bbc5fc40c5bf46d2dfb944f92"
+    },
+    {
+      "path": "jobs/ogre.json",
+      "bytes": 1045,
+      "sha256": "451515e58d60de7a8eb8326706c70387f580e6f91c5172b688f5b7bf075dc47f",
+      "preparedInputSha256": "451515e58d60de7a8eb8326706c70387f580e6f91c5172b688f5b7bf075dc47f"
+    },
+    {
+      "path": "jobs/ranger.json",
+      "bytes": 1045,
+      "sha256": "96f28a01e074611c64e8f6ef9fc057022e70fb9fcb2a0be2db9607a7ca8475eb",
+      "preparedInputSha256": "96f28a01e074611c64e8f6ef9fc057022e70fb9fcb2a0be2db9607a7ca8475eb"
+    },
+    {
+      "path": "jobs/reaper.json",
+      "bytes": 1045,
+      "sha256": "b2e85917be6b134c7ce2a8a0c684962605c7fdeb235ab765c553255450745df3",
+      "preparedInputSha256": "b2e85917be6b134c7ce2a8a0c684962605c7fdeb235ab765c553255450745df3"
+    },
+    {
+      "path": "jobs/sage.json",
+      "bytes": 1045,
+      "sha256": "1bae562c3cf02341c87fb459067e9472b1421fb8aa8627d0aab42bbc7d5dcee5",
+      "preparedInputSha256": "1bae562c3cf02341c87fb459067e9472b1421fb8aa8627d0aab42bbc7d5dcee5"
+    },
+    {
+      "path": "jobs/silver-knight.json",
+      "bytes": 1045,
+      "sha256": "534fa158b742631752768a522b8cf495aa9f4c9aaf821ce931c8dc9140c07505",
+      "preparedInputSha256": "534fa158b742631752768a522b8cf495aa9f4c9aaf821ce931c8dc9140c07505"
+    },
+    {
+      "path": "jobs/skeleton-warrior.json",
+      "bytes": 1045,
+      "sha256": "c98d30d4ee6a67befeb80bdf541f660499f2c4ae73af76fa9fa63ac76c36efc7",
+      "preparedInputSha256": "c98d30d4ee6a67befeb80bdf541f660499f2c4ae73af76fa9fa63ac76c36efc7"
+    },
+    {
+      "path": "jobs/spider.json",
+      "bytes": 1045,
+      "sha256": "df5dfe2bcb76274d08f7f65b0b08f10f12c97c98ff137f8bb2baf9b6b8742464",
+      "preparedInputSha256": "df5dfe2bcb76274d08f7f65b0b08f10f12c97c98ff137f8bb2baf9b6b8742464"
+    },
+    {
+      "path": "manifest-entries.json",
+      "bytes": 376077,
+      "sha256": "0aefccec94aca9072b2e0b00b06aef58cf6037215e0a825ecc28511588b7f980",
+      "preparedInputSha256": "0aefccec94aca9072b2e0b00b06aef58cf6037215e0a825ecc28511588b7f980"
+    },
+    {
+      "path": "models/dusk-rogue-original.glb",
+      "bytes": 8091428,
+      "sha256": "175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502",
+      "preparedInputSha256": "175842a05b28b5cb7d958dd69d25f32d1bddb7c832528557d03e1d85c11b8502"
+    },
+    {
+      "path": "models/ember-dragon-original.glb",
+      "bytes": 9711732,
+      "sha256": "64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b",
+      "preparedInputSha256": "64a05321975bc368504af64ec466a7493b67d1c30ef58cc978660a43f63bb48b"
+    },
+    {
+      "path": "models/frost-mage-original.glb",
+      "bytes": 8989360,
+      "sha256": "6d3a58d0e8ab8f991173672f3055449d00c5614025b1fe01dc2ab0dd21aeb65f",
+      "preparedInputSha256": "6d3a58d0e8ab8f991173672f3055449d00c5614025b1fe01dc2ab0dd21aeb65f"
+    },
+    {
+      "path": "models/goblin-original.glb",
+      "bytes": 2575956,
+      "sha256": "bc0c51c8a981bc840ffa5aef19ef039875ffd9ddd4c4366b73b79898bc775842",
+      "preparedInputSha256": "bc0c51c8a981bc840ffa5aef19ef039875ffd9ddd4c4366b73b79898bc775842"
+    },
+    {
+      "path": "models/knife-rogue-original.glb",
+      "bytes": 2499408,
+      "sha256": "25be7914d736774ea8a4d44e9b8bedc143d701f6481cf77ad4ac3a632b8b4fa2",
+      "preparedInputSha256": "25be7914d736774ea8a4d44e9b8bedc143d701f6481cf77ad4ac3a632b8b4fa2"
+    },
+    {
+      "path": "models/lich-original.glb",
+      "bytes": 2469452,
+      "sha256": "3b69c806655c577154a0d93277cfcd3d9b413bd06a905a6601906a3f0f8e42be",
+      "preparedInputSha256": "3b69c806655c577154a0d93277cfcd3d9b413bd06a905a6601906a3f0f8e42be"
+    },
+    {
+      "path": "models/lion-knight-original.glb",
+      "bytes": 8761360,
+      "sha256": "498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7",
+      "preparedInputSha256": "498cfa588941cd8f94fe9fd9e46d7b2f94d257b02b983a3571a9c5aa95fa85b7"
+    },
+    {
+      "path": "models/ogre-original.glb",
+      "bytes": 2784968,
+      "sha256": "62c060be802cddc98fcb5a8da15d217439212d5a97334c2bae1a8d2c28960f6f",
+      "preparedInputSha256": "62c060be802cddc98fcb5a8da15d217439212d5a97334c2bae1a8d2c28960f6f"
+    },
+    {
+      "path": "models/ranger-original.glb",
+      "bytes": 2391832,
+      "sha256": "37868d36ef310b55333c2d5d3cdb1ac69d94622fe1488261bdf8444cedf970a2",
+      "preparedInputSha256": "37868d36ef310b55333c2d5d3cdb1ac69d94622fe1488261bdf8444cedf970a2"
+    },
+    {
+      "path": "models/reaper-original.glb",
+      "bytes": 2577964,
+      "sha256": "97630a9dc1097755137041461795ecaf71f4b14c403fff58764151188067399e",
+      "preparedInputSha256": "97630a9dc1097755137041461795ecaf71f4b14c403fff58764151188067399e"
+    },
+    {
+      "path": "models/sage-original.glb",
+      "bytes": 2401736,
+      "sha256": "a086a94930808356c2055aeea9a3e8bd7cb24a85d2b74ad17f49b3625a0e88e7",
+      "preparedInputSha256": "a086a94930808356c2055aeea9a3e8bd7cb24a85d2b74ad17f49b3625a0e88e7"
+    },
+    {
+      "path": "models/silver-knight-original.glb",
+      "bytes": 2588848,
+      "sha256": "dcddbe5ca9a1843e8ae7e3719ddcfb2ab87712c7c9bb84fa0d300da6ba4fd187",
+      "preparedInputSha256": "dcddbe5ca9a1843e8ae7e3719ddcfb2ab87712c7c9bb84fa0d300da6ba4fd187"
+    },
+    {
+      "path": "models/skeleton-warrior-original.glb",
+      "bytes": 2721244,
+      "sha256": "bce905ff66993ca1c3842babf854f095830f2fa80cd6b1b9ef90246ef61c1500",
+      "preparedInputSha256": "bce905ff66993ca1c3842babf854f095830f2fa80cd6b1b9ef90246ef61c1500"
+    },
+    {
+      "path": "models/spider-original.glb",
+      "bytes": 2391248,
+      "sha256": "756b617f8392c3a43ac8432dee4182ee52fd51cbf20803c52e90c6877ed3db1f",
+      "preparedInputSha256": "756b617f8392c3a43ac8432dee4182ee52fd51cbf20803c52e90c6877ed3db1f"
+    },
+    {
+      "path": "ogre-body-grounding-exclusions.json",
+      "bytes": 68658,
+      "sha256": "85d3ef24f9769fb2d66ab250144eb9432845c95a8c700ff1cb2c3b2ca0c968b1",
+      "preparedInputSha256": "85d3ef24f9769fb2d66ab250144eb9432845c95a8c700ff1cb2c3b2ca0c968b1"
+    },
+    {
+      "path": "original-metadata.json",
+      "bytes": 44709,
+      "sha256": "905cc8d6fa0c6951e18f94315d084fc1030846398b46284b6c6e449dacf1a28c",
+      "preparedInputSha256": "905cc8d6fa0c6951e18f94315d084fc1030846398b46284b6c6e449dacf1a28c"
+    },
+    {
+      "path": "provenance/dusk-rogue.json",
+      "bytes": 1231,
+      "sha256": "78a9970cd11ac9028f31e546d0abd40557af1ce71d044052f3534588e4e00bd8",
+      "preparedInputSha256": "78a9970cd11ac9028f31e546d0abd40557af1ce71d044052f3534588e4e00bd8"
+    },
+    {
+      "path": "provenance/ember-dragon.json",
+      "bytes": 181381,
+      "sha256": "772deb565cf95616cebf54debf174f599b88e9c5372a5e3b29981a3d3f131e4e",
+      "preparedInputSha256": "772deb565cf95616cebf54debf174f599b88e9c5372a5e3b29981a3d3f131e4e"
+    },
+    {
+      "path": "provenance/frost-mage.json",
+      "bytes": 38680,
+      "sha256": "9106dd82211f9680aeeceabebb56ac6d6da895a3dd4429d5a4adec88ec0406d2",
+      "preparedInputSha256": "9106dd82211f9680aeeceabebb56ac6d6da895a3dd4429d5a4adec88ec0406d2"
+    },
+    {
+      "path": "provenance/goblin.json",
+      "bytes": 108403,
+      "sha256": "d737cf0447eda37fbce1bffb981477db4cbc8b4ae9e4b1b8be8ef0ae7fe16a02",
+      "preparedInputSha256": "d737cf0447eda37fbce1bffb981477db4cbc8b4ae9e4b1b8be8ef0ae7fe16a02"
+    },
+    {
+      "path": "provenance/knife-rogue.json",
+      "bytes": 5638,
+      "sha256": "2179dcbe6827d40127927bd0e16f2c66dfa1d10b20983ae94cb2bc09d7f243f9",
+      "preparedInputSha256": "2179dcbe6827d40127927bd0e16f2c66dfa1d10b20983ae94cb2bc09d7f243f9"
+    },
+    {
+      "path": "provenance/lich.json",
+      "bytes": 44434,
+      "sha256": "52c9bc4b677ba998ec260aaeb97bfc821f4233c3950071d22131a6efe6f1d8b4",
+      "preparedInputSha256": "52c9bc4b677ba998ec260aaeb97bfc821f4233c3950071d22131a6efe6f1d8b4"
+    },
+    {
+      "path": "provenance/lion-knight.json",
+      "bytes": 1234,
+      "sha256": "3faabc22aebf04cd6a07679b4f51d3e25e8f25affd0cff69770399f49f03f323",
+      "preparedInputSha256": "3faabc22aebf04cd6a07679b4f51d3e25e8f25affd0cff69770399f49f03f323"
+    },
+    {
+      "path": "provenance/ogre.json",
+      "bytes": 242973,
+      "sha256": "3d5ff77a95527e47c0a72551bf84511829af6b5194fc189eb295ad9c0a656394",
+      "preparedInputSha256": "3d5ff77a95527e47c0a72551bf84511829af6b5194fc189eb295ad9c0a656394"
+    },
+    {
+      "path": "provenance/ranger.json",
+      "bytes": 28964,
+      "sha256": "2cea282ce52506cd1c306e5aac0d850d2a6f1a00d270c90056f06de37c29b2a4",
+      "preparedInputSha256": "2cea282ce52506cd1c306e5aac0d850d2a6f1a00d270c90056f06de37c29b2a4"
+    },
+    {
+      "path": "provenance/sage.json",
+      "bytes": 62379,
+      "sha256": "441efb656f2c744479754d72e2c8c1ce6fc2adc912db63a21fc9a3a153466823",
+      "preparedInputSha256": "441efb656f2c744479754d72e2c8c1ce6fc2adc912db63a21fc9a3a153466823"
+    },
+    {
+      "path": "provenance/silver-knight.json",
+      "bytes": 5657,
+      "sha256": "0cef6ff31d94e714c6d4f5f612d890f2c9d254d1d1f385ee701fb39366af47b3",
+      "preparedInputSha256": "0cef6ff31d94e714c6d4f5f612d890f2c9d254d1d1f385ee701fb39366af47b3"
+    },
+    {
+      "path": "provenance/skeleton-warrior.json",
+      "bytes": 430224,
+      "sha256": "9e53de34a64123fa02312f73a131381e44af42d4d0c54581a28611af1d5c7968",
+      "preparedInputSha256": "9e53de34a64123fa02312f73a131381e44af42d4d0c54581a28611af1d5c7968"
+    },
+    {
+      "path": "qa/dusk-rogue-grounding.json",
+      "bytes": 2782,
+      "sha256": "f4b6fa57f59baaa59fd12485401b8a983156a19bd76549f3f83081406eacfb2d",
+      "preparedInputSha256": "f4b6fa57f59baaa59fd12485401b8a983156a19bd76549f3f83081406eacfb2d"
+    },
+    {
+      "path": "qa/ember-dragon-grounding.json",
+      "bytes": 2898,
+      "sha256": "7a08f45951969d6a146d5dfcdd2a47e8b3c5c5dcf2495825070c94cc8472d32f",
+      "preparedInputSha256": "7a08f45951969d6a146d5dfcdd2a47e8b3c5c5dcf2495825070c94cc8472d32f"
+    },
+    {
+      "path": "qa/ember-dragon-normalize.log",
+      "bytes": 1577,
+      "sha256": "c9fe049e1f757c67109fa6091429d49ef94c5bb67cf0848df2442100e7a987d1",
+      "preparedInputSha256": "0515c6b273d7d71d2a6c7d255d4fdc2ac97819ad5738a00432823eed93f02a4e"
+    },
+    {
+      "path": "qa/ember-dragon-optimize.log",
+      "bytes": 1111,
+      "sha256": "0eb974fa20a7e52e4d537b6a9097b1b37f19d2ec2924d9f09c0bfd66ab075773",
+      "preparedInputSha256": "e769281d29cfbc5308653c0f4ce9312f01141bf171558af0f622756f2770ac9f"
+    },
+    {
+      "path": "qa/final-delivery-contract.json",
+      "bytes": 307,
+      "sha256": "cd2bdb3f57e30752ce4865ba71b267138eb2a8a55d7ce6d2d54325595993f89f",
+      "preparedInputSha256": "cd2bdb3f57e30752ce4865ba71b267138eb2a8a55d7ce6d2d54325595993f89f"
+    },
+    {
+      "path": "qa/frost-mage-grounding.json",
+      "bytes": 31049,
+      "sha256": "2e30de44f70c64d83997df4268af9c1b393e359e53025d1b4af881ac3bebf700",
+      "preparedInputSha256": "2e30de44f70c64d83997df4268af9c1b393e359e53025d1b4af881ac3bebf700"
+    },
+    {
+      "path": "qa/goblin-contact-reach.json",
+      "bytes": 8162,
+      "sha256": "c2ae40381174ba21ef8d70127fe22a3f25686383e059de8287598be3a446cb73",
+      "preparedInputSha256": "c2ae40381174ba21ef8d70127fe22a3f25686383e059de8287598be3a446cb73"
+    },
+    {
+      "path": "qa/goblin-grounding.json",
+      "bytes": 47443,
+      "sha256": "fa7334f045929c88102a462db28c308b93ebec5cc5727439360819b0f272dd57",
+      "preparedInputSha256": "fa7334f045929c88102a462db28c308b93ebec5cc5727439360819b0f272dd57"
+    },
+    {
+      "path": "qa/goblin-reskin.json",
+      "bytes": 837,
+      "sha256": "8d048064970fbeea399c77a8ce8f371e6959e0aefca234b35886c4c26529a485",
+      "preparedInputSha256": "8d048064970fbeea399c77a8ce8f371e6959e0aefca234b35886c4c26529a485"
+    },
+    {
+      "path": "qa/knife-rogue-grounding.json",
+      "bytes": 2876,
+      "sha256": "161e7333a55c3a7f4a2df05c94974f60521d79f122ca7787af79a7ed685396ba",
+      "preparedInputSha256": "161e7333a55c3a7f4a2df05c94974f60521d79f122ca7787af79a7ed685396ba"
+    },
+    {
+      "path": "qa/lich-grounding.json",
+      "bytes": 34494,
+      "sha256": "7af38a53c7359b74fbc212c66b849960fd88e8345c9db93ba693d0f02ed9a540",
+      "preparedInputSha256": "7af38a53c7359b74fbc212c66b849960fd88e8345c9db93ba693d0f02ed9a540"
+    },
+    {
+      "path": "qa/lich-reskin.json",
+      "bytes": 834,
+      "sha256": "13a2c130efc6295628e4eeb632ae2e7ef6e8e620e3d59d21674fde95802470e0",
+      "preparedInputSha256": "13a2c130efc6295628e4eeb632ae2e7ef6e8e620e3d59d21674fde95802470e0"
+    },
+    {
+      "path": "qa/lion-knight-grounding.json",
+      "bytes": 15141,
+      "sha256": "c19cb50fa4f7002526a4f8e8f4558bcacc730420f0d6cb7683c39b5f18aeda8a",
+      "preparedInputSha256": "c19cb50fa4f7002526a4f8e8f4558bcacc730420f0d6cb7683c39b5f18aeda8a"
+    },
+    {
+      "path": "qa/ogre-ground-contact-vertices.json",
+      "bytes": 98260,
+      "sha256": "fb96ce7436cd398b9a122fb326a6953a585f19cf416c5b1a2ea165a57dfbb622",
+      "preparedInputSha256": "fb96ce7436cd398b9a122fb326a6953a585f19cf416c5b1a2ea165a57dfbb622"
+    },
+    {
+      "path": "qa/ogre-grounding.json",
+      "bytes": 80267,
+      "sha256": "20c5065e33adae702cbda717b3bcd4fedbcb3e1d0dd9b296ba758c69928363ed",
+      "preparedInputSha256": "20c5065e33adae702cbda717b3bcd4fedbcb3e1d0dd9b296ba758c69928363ed"
+    },
+    {
+      "path": "qa/ogre-reskin.json",
+      "bytes": 834,
+      "sha256": "42a5131af185357c637effce38cf684fc5128ee1a1217888f27ca301d4a1be08",
+      "preparedInputSha256": "42a5131af185357c637effce38cf684fc5128ee1a1217888f27ca301d4a1be08"
+    },
+    {
+      "path": "qa/original-preservation.json",
+      "bytes": 3698,
+      "sha256": "d625933425217213ac05b5ebe7d71ac4da2f71f247a86a97670934e304f879ff",
+      "preparedInputSha256": "d625933425217213ac05b5ebe7d71ac4da2f71f247a86a97670934e304f879ff"
+    },
+    {
+      "path": "qa/ranger-grounding.json",
+      "bytes": 21614,
+      "sha256": "5a4804f0c9422fa8c2d8d0803e3dbf6b6c6d9c6218ef1f6b5369e0ce55e21178",
+      "preparedInputSha256": "5a4804f0c9422fa8c2d8d0803e3dbf6b6c6d9c6218ef1f6b5369e0ce55e21178"
+    },
+    {
+      "path": "qa/sage-grounding.json",
+      "bytes": 50498,
+      "sha256": "c1fc925ae9c0b3fb3d44ef857564e4f30c824e72bda1199cba03b9aa5642e735",
+      "preparedInputSha256": "c1fc925ae9c0b3fb3d44ef857564e4f30c824e72bda1199cba03b9aa5642e735"
+    },
+    {
+      "path": "qa/sage-reskin.json",
+      "bytes": 834,
+      "sha256": "3556bc38e6c2ea199d0411640395cc2263740a1837231de9e242381624e3132b",
+      "preparedInputSha256": "3556bc38e6c2ea199d0411640395cc2263740a1837231de9e242381624e3132b"
+    },
+    {
+      "path": "qa/silver-knight-grounding.json",
+      "bytes": 2883,
+      "sha256": "3c97c073ef6b588ef1f48bb652b79ab65db2b1cdb579c8e3c4cce9087ea98f0a",
+      "preparedInputSha256": "3c97c073ef6b588ef1f48bb652b79ab65db2b1cdb579c8e3c4cce9087ea98f0a"
+    },
+    {
+      "path": "qa/skeleton-warrior-contact-reach.json",
+      "bytes": 2830,
+      "sha256": "223caac41332fed282509218938aadb79b2d40c4052dd1adf5a83ec5b0b20bcc",
+      "preparedInputSha256": "223caac41332fed282509218938aadb79b2d40c4052dd1adf5a83ec5b0b20bcc"
+    },
+    {
+      "path": "qa/skeleton-warrior-grounding.json",
+      "bytes": 189132,
+      "sha256": "bf14b035df21d1013b871b3ce3ece7398bdef416c04ea01679576b5309b72507",
+      "preparedInputSha256": "bf14b035df21d1013b871b3ce3ece7398bdef416c04ea01679576b5309b72507"
+    },
+    {
+      "path": "qa/skeleton-warrior-reskin.json",
+      "bytes": 859,
+      "sha256": "6f3fde3fc8e7860833930a2eefb35dfc0c3f9b04cc657cc43afba9d4020f72f6",
+      "preparedInputSha256": "6f3fde3fc8e7860833930a2eefb35dfc0c3f9b04cc657cc43afba9d4020f72f6"
+    },
+    {
+      "path": "qa/skeleton-warrior-stationary-contact-reach.json",
+      "bytes": 2602,
+      "sha256": "9ce74af1a6a872a080d1cb956974a7a11368a22bb93b6202ca122c8967b3b4da",
+      "preparedInputSha256": "9ce74af1a6a872a080d1cb956974a7a11368a22bb93b6202ca122c8967b3b4da"
+    },
+    {
+      "path": "qa/skeleton-warrior-stationary-maximum-reach.json",
+      "bytes": 758,
+      "sha256": "d7562c990349e5eef90a681811b362bd58d7d864c710e7ac9f49c6416ebf9818",
+      "preparedInputSha256": "d7562c990349e5eef90a681811b362bd58d7d864c710e7ac9f49c6416ebf9818"
+    },
+    {
+      "path": "qa/validation-summaries/dusk-rogue--dusk-rogue-runtime.hd2048.validation.json",
+      "bytes": 5319,
+      "sha256": "d766951dc15e9973e5b7bc6d2163a000ef233c2d8809706708e169e583bfa803",
+      "preparedInputSha256": "d766951dc15e9973e5b7bc6d2163a000ef233c2d8809706708e169e583bfa803"
+    },
+    {
+      "path": "qa/validation-summaries/dusk-rogue--dusk-rogue-runtime.mobile1024.validation.json",
+      "bytes": 5331,
+      "sha256": "7f160cd265b0288d06742c1fcfc36906e39d1474a59335c0430e939163794e51",
+      "preparedInputSha256": "7f160cd265b0288d06742c1fcfc36906e39d1474a59335c0430e939163794e51"
+    },
+    {
+      "path": "qa/validation-summaries/dusk-rogue--dusk-rogue-runtime.report.json",
+      "bytes": 786605,
+      "sha256": "64768f9a69c5b051720bbe147f876848a8d2b3c6f66880f52f1fbd7826672258",
+      "preparedInputSha256": "64768f9a69c5b051720bbe147f876848a8d2b3c6f66880f52f1fbd7826672258"
+    },
+    {
+      "path": "qa/validation-summaries/dusk-rogue--dusk-rogue-runtime.source.validation.json",
+      "bytes": 2312,
+      "sha256": "d177445317ec82af7bedf4350698f723aab58525e0495d75a8edab6cc2d56265",
+      "preparedInputSha256": "d177445317ec82af7bedf4350698f723aab58525e0495d75a8edab6cc2d56265"
+    },
+    {
+      "path": "qa/validation-summaries/ember-dragon--ember-dragon-runtime.hd2048.validation.json",
+      "bytes": 7406,
+      "sha256": "5286ff857f184b12bf9d4ba93f6d109727dbf0624cbba2c96902f87fb890db67",
+      "preparedInputSha256": "5286ff857f184b12bf9d4ba93f6d109727dbf0624cbba2c96902f87fb890db67"
+    },
+    {
+      "path": "qa/validation-summaries/ember-dragon--ember-dragon-runtime.mobile1024.validation.json",
+      "bytes": 7418,
+      "sha256": "bce3a83773ad629bcbf07c9f7095b9f8a3f5dd87a5fea7aee8c9070a2108ac64",
+      "preparedInputSha256": "bce3a83773ad629bcbf07c9f7095b9f8a3f5dd87a5fea7aee8c9070a2108ac64"
+    },
+    {
+      "path": "qa/validation-summaries/ember-dragon--ember-dragon-runtime.report.json",
+      "bytes": 830387,
+      "sha256": "74abd2537ca41099b3162408d1b2f04148f20b306c23f677c7c3e719b219723f",
+      "preparedInputSha256": "74abd2537ca41099b3162408d1b2f04148f20b306c23f677c7c3e719b219723f"
+    },
+    {
+      "path": "qa/validation-summaries/ember-dragon--ember-dragon-runtime.source.validation.json",
+      "bytes": 3559,
+      "sha256": "c6b1406d82877a192b73417fe8de0ae1a19969125756400f511de8a8850d554b",
+      "preparedInputSha256": "c6b1406d82877a192b73417fe8de0ae1a19969125756400f511de8a8850d554b"
+    },
+    {
+      "path": "qa/validation-summaries/frost-mage--frost-mage-runtime.hd2048.validation.json",
+      "bytes": 5514,
+      "sha256": "97b1a7998405fb631d2bf4fdcdd44dfef187d994457c8a9b9b0d04bc05dd55a2",
+      "preparedInputSha256": "97b1a7998405fb631d2bf4fdcdd44dfef187d994457c8a9b9b0d04bc05dd55a2"
+    },
+    {
+      "path": "qa/validation-summaries/frost-mage--frost-mage-runtime.mobile1024.validation.json",
+      "bytes": 5526,
+      "sha256": "56b57f61a845ee7f4f2e28ea49ac7e59bbaa6fe940cd219a40886e1b6c97f05d",
+      "preparedInputSha256": "56b57f61a845ee7f4f2e28ea49ac7e59bbaa6fe940cd219a40886e1b6c97f05d"
+    },
+    {
+      "path": "qa/validation-summaries/frost-mage--frost-mage-runtime.report.json",
+      "bytes": 842857,
+      "sha256": "d382657ecd06e758b3a3efb8a8b46e10a52981540a6d7628de3fd70a74d2ab56",
+      "preparedInputSha256": "d382657ecd06e758b3a3efb8a8b46e10a52981540a6d7628de3fd70a74d2ab56"
+    },
+    {
+      "path": "qa/validation-summaries/frost-mage--frost-mage-runtime.source.validation.json",
+      "bytes": 2409,
+      "sha256": "610e279e8157aae19a49e5b5c07cbfcabfaee3d435439aafcacfc6c3de3acf87",
+      "preparedInputSha256": "610e279e8157aae19a49e5b5c07cbfcabfaee3d435439aafcacfc6c3de3acf87"
+    },
+    {
+      "path": "qa/validation-summaries/goblin--goblin-runtime.hd2048.validation.json",
+      "bytes": 6808,
+      "sha256": "3b9649a9f6e81e24ce8ae7d7c3f0e43cc874d62d4d189d2f317c6dc5e945f230",
+      "preparedInputSha256": "3b9649a9f6e81e24ce8ae7d7c3f0e43cc874d62d4d189d2f317c6dc5e945f230"
+    },
+    {
+      "path": "qa/validation-summaries/goblin--goblin-runtime.mobile1024.validation.json",
+      "bytes": 6820,
+      "sha256": "dd0cbe38d00f9695a679b478d38bea2df4e0c4c3288f1505af71f935364ec9b8",
+      "preparedInputSha256": "dd0cbe38d00f9695a679b478d38bea2df4e0c4c3288f1505af71f935364ec9b8"
+    },
+    {
+      "path": "qa/validation-summaries/goblin--goblin-runtime.report.json",
+      "bytes": 821272,
+      "sha256": "021f4cb26228f9b6c76fb831c9a34cd43baa7440f5a1b46f3d1cbb4f6f9f5c7b",
+      "preparedInputSha256": "021f4cb26228f9b6c76fb831c9a34cd43baa7440f5a1b46f3d1cbb4f6f9f5c7b"
+    },
+    {
+      "path": "qa/validation-summaries/goblin--goblin-runtime.source.validation.json",
+      "bytes": 3274,
+      "sha256": "3e954256c7f1922c3c1c34155504a32b4c9092144d9bfdb245c388e1f01590bd",
+      "preparedInputSha256": "3e954256c7f1922c3c1c34155504a32b4c9092144d9bfdb245c388e1f01590bd"
+    },
+    {
+      "path": "qa/validation-summaries/knife-rogue--knife-rogue-runtime.hd2048.validation.json",
+      "bytes": 6416,
+      "sha256": "6e7e961f9425be55c678cac8ea7daebaddf53038229622ff1a22f71d874a3d9d",
+      "preparedInputSha256": "6e7e961f9425be55c678cac8ea7daebaddf53038229622ff1a22f71d874a3d9d"
+    },
+    {
+      "path": "qa/validation-summaries/knife-rogue--knife-rogue-runtime.mobile1024.validation.json",
+      "bytes": 6428,
+      "sha256": "c754175fbca5357a65af3dcff6cfc89a8e71c26dcfa74b31e13ff9dbb8aa1ab2",
+      "preparedInputSha256": "c754175fbca5357a65af3dcff6cfc89a8e71c26dcfa74b31e13ff9dbb8aa1ab2"
+    },
+    {
+      "path": "qa/validation-summaries/knife-rogue--knife-rogue-runtime.report.json",
+      "bytes": 810600,
+      "sha256": "9cab957cc10c9750e712bc4381c36dbfd8ba9f31cff725bb6aecf84fa341cd8f",
+      "preparedInputSha256": "9cab957cc10c9750e712bc4381c36dbfd8ba9f31cff725bb6aecf84fa341cd8f"
+    },
+    {
+      "path": "qa/validation-summaries/knife-rogue--knife-rogue-runtime.source.validation.json",
+      "bytes": 2892,
+      "sha256": "2d1951a7418f7f0a64d33b1debca5add35d11577d3758284ddf224bd23c5df8b",
+      "preparedInputSha256": "2d1951a7418f7f0a64d33b1debca5add35d11577d3758284ddf224bd23c5df8b"
+    },
+    {
+      "path": "qa/validation-summaries/lich--lich-runtime.hd2048.validation.json",
+      "bytes": 6800,
+      "sha256": "fb731a45383145465eff79d9be3d610e4b615fb215dba91c70329c40eb81c15f",
+      "preparedInputSha256": "fb731a45383145465eff79d9be3d610e4b615fb215dba91c70329c40eb81c15f"
+    },
+    {
+      "path": "qa/validation-summaries/lich--lich-runtime.mobile1024.validation.json",
+      "bytes": 6812,
+      "sha256": "1741ace87ac9c865c35285fbb8188f8c5d82b47265f92457ebac7b106a259d6a",
+      "preparedInputSha256": "1741ace87ac9c865c35285fbb8188f8c5d82b47265f92457ebac7b106a259d6a"
+    },
+    {
+      "path": "qa/validation-summaries/lich--lich-runtime.report.json",
+      "bytes": 834282,
+      "sha256": "ca4546a1816d38ebe5125897f20b417205d8f7bc414882c99974272fdd8a491c",
+      "preparedInputSha256": "ca4546a1816d38ebe5125897f20b417205d8f7bc414882c99974272fdd8a491c"
+    },
+    {
+      "path": "qa/validation-summaries/lich--lich-runtime.source.validation.json",
+      "bytes": 3269,
+      "sha256": "5d47bc0282e8e5a51da22f581b251026197a83aea77d70e2bc5e4bb43afa26fc",
+      "preparedInputSha256": "5d47bc0282e8e5a51da22f581b251026197a83aea77d70e2bc5e4bb43afa26fc"
+    },
+    {
+      "path": "qa/validation-summaries/lion-knight--lion-knight-runtime.hd2048.validation.json",
+      "bytes": 5323,
+      "sha256": "cd6a0e7d0709ad4b5dd2bcadcf55ecb9d255a09448d8eee8f3f6f9f47634e4df",
+      "preparedInputSha256": "cd6a0e7d0709ad4b5dd2bcadcf55ecb9d255a09448d8eee8f3f6f9f47634e4df"
+    },
+    {
+      "path": "qa/validation-summaries/lion-knight--lion-knight-runtime.mobile1024.validation.json",
+      "bytes": 5335,
+      "sha256": "b33166a6e6905a7103dbd2a518f09536572c3a2a27d9ce4827aa39213ac41cf9",
+      "preparedInputSha256": "b33166a6e6905a7103dbd2a518f09536572c3a2a27d9ce4827aa39213ac41cf9"
+    },
+    {
+      "path": "qa/validation-summaries/lion-knight--lion-knight-runtime.report.json",
+      "bytes": 786208,
+      "sha256": "8e9a3c923b171527f3feedf187056a4f9c6ba625f4dd0abc4abe8eeeba73e7c7",
+      "preparedInputSha256": "8e9a3c923b171527f3feedf187056a4f9c6ba625f4dd0abc4abe8eeeba73e7c7"
+    },
+    {
+      "path": "qa/validation-summaries/lion-knight--lion-knight-runtime.source.validation.json",
+      "bytes": 2315,
+      "sha256": "7ec085163b592487f419cdfd71c30931b8bce41b0efdb26866a779ac7afaff02",
+      "preparedInputSha256": "7ec085163b592487f419cdfd71c30931b8bce41b0efdb26866a779ac7afaff02"
+    },
+    {
+      "path": "qa/validation-summaries/ogre--ogre-runtime.hd2048.validation.json",
+      "bytes": 6801,
+      "sha256": "a6051b4f8704d442ed161fe0a06e8dfae7307e2a0b227fcf4fadec695ec1f54a",
+      "preparedInputSha256": "a6051b4f8704d442ed161fe0a06e8dfae7307e2a0b227fcf4fadec695ec1f54a"
+    },
+    {
+      "path": "qa/validation-summaries/ogre--ogre-runtime.mobile1024.validation.json",
+      "bytes": 6813,
+      "sha256": "bcdc41617c0d32618311c02e7b6daf42c87c288d2b767aa178cb9da71cdc7317",
+      "preparedInputSha256": "bcdc41617c0d32618311c02e7b6daf42c87c288d2b767aa178cb9da71cdc7317"
+    },
+    {
+      "path": "qa/validation-summaries/ogre--ogre-runtime.report.json",
+      "bytes": 832895,
+      "sha256": "73d319b4bc7c791c18c7bc0b25f5358a288ca79406b8b60423ce70c218e7d725",
+      "preparedInputSha256": "73d319b4bc7c791c18c7bc0b25f5358a288ca79406b8b60423ce70c218e7d725"
+    },
+    {
+      "path": "qa/validation-summaries/ogre--ogre-runtime.source.validation.json",
+      "bytes": 3270,
+      "sha256": "66c403f90ec88f975bcd17643f5730c8b15a5b492e0a4ce8a4de9120cbb3994a",
+      "preparedInputSha256": "66c403f90ec88f975bcd17643f5730c8b15a5b492e0a4ce8a4de9120cbb3994a"
+    },
+    {
+      "path": "qa/validation-summaries/ranger--ranger-runtime.hd2048.validation.json",
+      "bytes": 6396,
+      "sha256": "e321775f5de8e4b5b8c68b5dc2e7054145ab68775c0550506cf294295779ceee",
+      "preparedInputSha256": "e321775f5de8e4b5b8c68b5dc2e7054145ab68775c0550506cf294295779ceee"
+    },
+    {
+      "path": "qa/validation-summaries/ranger--ranger-runtime.mobile1024.validation.json",
+      "bytes": 6408,
+      "sha256": "60f457f0076a7360bde8b351c0df047faa11d97510a56036fab5c484d5452ac6",
+      "preparedInputSha256": "60f457f0076a7360bde8b351c0df047faa11d97510a56036fab5c484d5452ac6"
+    },
+    {
+      "path": "qa/validation-summaries/ranger--ranger-runtime.report.json",
+      "bytes": 836300,
+      "sha256": "f61de6a66d15655f0f25549978dba54030b3ad68b22daf88a5cf62eea89cc556",
+      "preparedInputSha256": "f61de6a66d15655f0f25549978dba54030b3ad68b22daf88a5cf62eea89cc556"
+    },
+    {
+      "path": "qa/validation-summaries/ranger--ranger-runtime.source.validation.json",
+      "bytes": 2877,
+      "sha256": "ae92a0cfbed726d3b738359959ab5151dcaaa76b5060d6b53a666c2209f1d410",
+      "preparedInputSha256": "ae92a0cfbed726d3b738359959ab5151dcaaa76b5060d6b53a666c2209f1d410"
+    },
+    {
+      "path": "qa/validation-summaries/reaper--reaper-runtime.hd2048.validation.json",
+      "bytes": 6160,
+      "sha256": "190f9e5efd0101997922e575700d42d9ad98742d960c224ca195720cf79ddd2f",
+      "preparedInputSha256": "190f9e5efd0101997922e575700d42d9ad98742d960c224ca195720cf79ddd2f"
+    },
+    {
+      "path": "qa/validation-summaries/reaper--reaper-runtime.mobile1024.validation.json",
+      "bytes": 6172,
+      "sha256": "624f65c3faf7504db16e7ab6735f0882eb975354edc8e318587baaaa2f0ed89b",
+      "preparedInputSha256": "624f65c3faf7504db16e7ab6735f0882eb975354edc8e318587baaaa2f0ed89b"
+    },
+    {
+      "path": "qa/validation-summaries/reaper--reaper-runtime.report.json",
+      "bytes": 828512,
+      "sha256": "f2ced1aaf1dcb237187c648c9daf545f23d4addda1890b17d4a8eb538f3df677",
+      "preparedInputSha256": "f2ced1aaf1dcb237187c648c9daf545f23d4addda1890b17d4a8eb538f3df677"
+    },
+    {
+      "path": "qa/validation-summaries/reaper--reaper-runtime.source.validation.json",
+      "bytes": 2965,
+      "sha256": "32d91326012f04203ccd9ff4b10ff14ee512a4d262a837ef8fffb8a1e8c9dbba",
+      "preparedInputSha256": "32d91326012f04203ccd9ff4b10ff14ee512a4d262a837ef8fffb8a1e8c9dbba"
+    },
+    {
+      "path": "qa/validation-summaries/sage--sage-runtime.hd2048.validation.json",
+      "bytes": 6800,
+      "sha256": "5d959cc55de22bca54160934a5d5d4b8772361264e05a966704c33c624512b42",
+      "preparedInputSha256": "5d959cc55de22bca54160934a5d5d4b8772361264e05a966704c33c624512b42"
+    },
+    {
+      "path": "qa/validation-summaries/sage--sage-runtime.mobile1024.validation.json",
+      "bytes": 6812,
+      "sha256": "1f94d29d4eee3a402260f772ba99168c749c51b3d5148676cc0ef416fff88d02",
+      "preparedInputSha256": "1f94d29d4eee3a402260f772ba99168c749c51b3d5148676cc0ef416fff88d02"
+    },
+    {
+      "path": "qa/validation-summaries/sage--sage-runtime.report.json",
+      "bytes": 845082,
+      "sha256": "3d42b310af3c965fe61aaade98cda604644a5995fa2069b2ac5ec20f15107b28",
+      "preparedInputSha256": "3d42b310af3c965fe61aaade98cda604644a5995fa2069b2ac5ec20f15107b28"
+    },
+    {
+      "path": "qa/validation-summaries/sage--sage-runtime.source.validation.json",
+      "bytes": 3269,
+      "sha256": "943ecf4cffc14fd80c857c6c37cfe81f8524a130ec18edf181ad7500737c5204",
+      "preparedInputSha256": "943ecf4cffc14fd80c857c6c37cfe81f8524a130ec18edf181ad7500737c5204"
+    },
+    {
+      "path": "qa/validation-summaries/silver-knight--silver-knight-runtime.hd2048.validation.json",
+      "bytes": 6424,
+      "sha256": "4e7df3ef7fc6e1fa2dedba3516ba4c7cdbac6df8a35c288aa13a3c3332449c0f",
+      "preparedInputSha256": "4e7df3ef7fc6e1fa2dedba3516ba4c7cdbac6df8a35c288aa13a3c3332449c0f"
+    },
+    {
+      "path": "qa/validation-summaries/silver-knight--silver-knight-runtime.mobile1024.validation.json",
+      "bytes": 6436,
+      "sha256": "a4c210f338a08963b1a9cf7d3c306ca4e1eeb24f0d67c775c54e435673a06a6c",
+      "preparedInputSha256": "a4c210f338a08963b1a9cf7d3c306ca4e1eeb24f0d67c775c54e435673a06a6c"
+    },
+    {
+      "path": "qa/validation-summaries/silver-knight--silver-knight-runtime.report.json",
+      "bytes": 810779,
+      "sha256": "ca61e4e0a32e9d6a62b9c2723d61bf243b2d98214f3baef4c821bd7025913399",
+      "preparedInputSha256": "ca61e4e0a32e9d6a62b9c2723d61bf243b2d98214f3baef4c821bd7025913399"
+    },
+    {
+      "path": "qa/validation-summaries/silver-knight--silver-knight-runtime.source.validation.json",
+      "bytes": 2898,
+      "sha256": "1205b56659f4e8ad06f32d8a39839bb18795f4e96092dcdea9c181e74b95a43c",
+      "preparedInputSha256": "1205b56659f4e8ad06f32d8a39839bb18795f4e96092dcdea9c181e74b95a43c"
+    },
+    {
+      "path": "qa/validation-summaries/skeleton-warrior--skeleton-warrior-runtime.hd2048.validation.json",
+      "bytes": 6848,
+      "sha256": "6d4cde4f06e568f6402b484608b3fe9028e659c393d94394de745eabddcd52e2",
+      "preparedInputSha256": "6d4cde4f06e568f6402b484608b3fe9028e659c393d94394de745eabddcd52e2"
+    },
+    {
+      "path": "qa/validation-summaries/skeleton-warrior--skeleton-warrior-runtime.mobile1024.validation.json",
+      "bytes": 6860,
+      "sha256": "6d11215e4d92efddd0f36567ca137d0e4332dc3fc3c049e9998137202c95c0a6",
+      "preparedInputSha256": "6d11215e4d92efddd0f36567ca137d0e4332dc3fc3c049e9998137202c95c0a6"
+    },
+    {
+      "path": "qa/validation-summaries/skeleton-warrior--skeleton-warrior-runtime.report.json",
+      "bytes": 834791,
+      "sha256": "ccd84d0fdc17d6f93e9452f4eae9eac18b357f96993a6430b7546f878149cc5b",
+      "preparedInputSha256": "ccd84d0fdc17d6f93e9452f4eae9eac18b357f96993a6430b7546f878149cc5b"
+    },
+    {
+      "path": "qa/validation-summaries/skeleton-warrior--skeleton-warrior-runtime.source.validation.json",
+      "bytes": 3305,
+      "sha256": "a888405f337a4a5f34cf763284ff54a7ec01464ba5ca14dd498bfae718406039",
+      "preparedInputSha256": "a888405f337a4a5f34cf763284ff54a7ec01464ba5ca14dd498bfae718406039"
+    },
+    {
+      "path": "qa/validation-summaries/spider--spider-runtime.hd2048.report.json",
+      "bytes": 281498,
+      "sha256": "c0786d5ea880b76ec73c79421db1580606e2b0549d942f389fd71efcb4882cc1",
+      "preparedInputSha256": "c0786d5ea880b76ec73c79421db1580606e2b0549d942f389fd71efcb4882cc1"
+    },
+    {
+      "path": "qa/validation-summaries/spider--spider-runtime.hd2048.source.validation.json",
+      "bytes": 2895,
+      "sha256": "3657d52f73983697f844c1a7bf15157aececc2c5bb058b9fa185963b2b2c276b",
+      "preparedInputSha256": "3657d52f73983697f844c1a7bf15157aececc2c5bb058b9fa185963b2b2c276b"
+    },
+    {
+      "path": "qa/validation-summaries/spider--spider-runtime.hd2048.validation.json",
+      "bytes": 7032,
+      "sha256": "d1677fa2e685336cb782f46069fdd0b9b24d6554ae2c5691e6f8320a2da7cb60",
+      "preparedInputSha256": "d1677fa2e685336cb782f46069fdd0b9b24d6554ae2c5691e6f8320a2da7cb60"
+    },
+    {
+      "path": "qa/validation-summaries/spider--spider-runtime.mobile1024.report.json",
+      "bytes": 281922,
+      "sha256": "e5d950e5d3d4ebb45d04300b34742988905eb850990ea112419e80a70e0f59cb",
+      "preparedInputSha256": "e5d950e5d3d4ebb45d04300b34742988905eb850990ea112419e80a70e0f59cb"
+    },
+    {
+      "path": "qa/validation-summaries/spider--spider-runtime.mobile1024.source.validation.json",
+      "bytes": 2899,
+      "sha256": "a52dec79fadec94a6eb34454c0fe7326417ee55acf2161e6f262d0c1aa28b9dd",
+      "preparedInputSha256": "a52dec79fadec94a6eb34454c0fe7326417ee55acf2161e6f262d0c1aa28b9dd"
+    },
+    {
+      "path": "qa/validation-summaries/spider--spider-runtime.mobile1024.validation.json",
+      "bytes": 7044,
+      "sha256": "3010bb38fe721710c0e2b3662a98261b7da30c6cae8d4b3af576cf9b1302f57b",
+      "preparedInputSha256": "3010bb38fe721710c0e2b3662a98261b7da30c6cae8d4b3af576cf9b1302f57b"
+    },
+    {
+      "path": "ranger-build-summary.json",
+      "bytes": 20643,
+      "sha256": "a657257a311b50db60771286f01b0f13dbca8b64133e98ee6e78bec0489c7fc4",
+      "preparedInputSha256": "a657257a311b50db60771286f01b0f13dbca8b64133e98ee6e78bec0489c7fc4"
+    },
+    {
+      "path": "ranger-compaction.json",
+      "bytes": 302154,
+      "sha256": "f91e98b7c409d923da2006ce7bfa87447d84bf05808ea08c1a2ecdac4791cef8",
+      "preparedInputSha256": "f91e98b7c409d923da2006ce7bfa87447d84bf05808ea08c1a2ecdac4791cef8"
+    },
+    {
+      "path": "ranger-contact-qa.json",
+      "bytes": 23978,
+      "sha256": "5019818ab0ba2946ecce4e42ae98ecdd66cdb08cdb61dda4b80aa441800d1fa3",
+      "preparedInputSha256": "5019818ab0ba2946ecce4e42ae98ecdd66cdb08cdb61dda4b80aa441800d1fa3"
+    },
+    {
+      "path": "ranger-grounding-exclusions.json",
+      "bytes": 24183,
+      "sha256": "3b3fba20bb5940b6f7989dfd120886e0a986c9651ee958588dae21a3332b0744",
+      "preparedInputSha256": "3b3fba20bb5940b6f7989dfd120886e0a986c9651ee958588dae21a3332b0744"
+    },
+    {
+      "path": "ranger-grounding-qa.json",
+      "bytes": 37163,
+      "sha256": "80fe1852702c61cb42950ec16d2168048740f6bc89d5ca538c1be764aa33a146",
+      "preparedInputSha256": "80fe1852702c61cb42950ec16d2168048740f6bc89d5ca538c1be764aa33a146"
+    },
+    {
+      "path": "ranger-grounding.json",
+      "bytes": 24185,
+      "sha256": "0c2c6067ba0c813e9d7488257685c0a35554119f4346daca86a7e3601cfb396b",
+      "preparedInputSha256": "0c2c6067ba0c813e9d7488257685c0a35554119f4346daca86a7e3601cfb396b"
+    },
+    {
+      "path": "ranger-manifest-entry.json",
+      "bytes": 25868,
+      "sha256": "905d27541919fe9ede50a80a7e4b6644a09d9b039ff15942bbb418616a99136a",
+      "preparedInputSha256": "905d27541919fe9ede50a80a7e4b6644a09d9b039ff15942bbb418616a99136a"
+    },
+    {
+      "path": "ranger-pose-samples.json",
+      "bytes": 1576732,
+      "sha256": "1a1a504d311552b011a2c8a61e7b868c9496674e518a92a347845550c2fe1669",
+      "preparedInputSha256": "1a1a504d311552b011a2c8a61e7b868c9496674e518a92a347845550c2fe1669"
+    },
+    {
+      "path": "ranger-provenance.json",
+      "bytes": 40132,
+      "sha256": "54aabc11b39e5332f8a19fdc9cf9041971d513be63f829ff4cbbbf3b503c2907",
+      "preparedInputSha256": "54aabc11b39e5332f8a19fdc9cf9041971d513be63f829ff4cbbbf3b503c2907"
+    },
+    {
+      "path": "ranger-reskin-qa.json",
+      "bytes": 4645,
+      "sha256": "8b0dff3a86b6214880eeaf26e0c1e5b6fda22478b2308e0ad3f7242909827145",
+      "preparedInputSha256": "8b0dff3a86b6214880eeaf26e0c1e5b6fda22478b2308e0ad3f7242909827145"
+    },
+    {
+      "path": "ranger-source-preservation.json",
+      "bytes": 943,
+      "sha256": "6c393156381f62f6d671d1f56c2f041badb71d198c898015f6cccb49f72921e5",
+      "preparedInputSha256": "6c393156381f62f6d671d1f56c2f041badb71d198c898015f6cccb49f72921e5"
+    },
+    {
+      "path": "ranger.SHA256SUMS",
+      "bytes": 503,
+      "sha256": "d553d61306c46e3779f3f9aa733291a13fbd1cff3fdb5649009c2538f7c52ec9",
+      "preparedInputSha256": "d553d61306c46e3779f3f9aa733291a13fbd1cff3fdb5649009c2538f7c52ec9"
+    },
+    {
+      "path": "reaper-build-summary.json",
+      "bytes": 19532,
+      "sha256": "32674f155586ab5bab7ed8a1c671dd4e29bd9d6836089e8bb5d7facf26be0eb9",
+      "preparedInputSha256": "32674f155586ab5bab7ed8a1c671dd4e29bd9d6836089e8bb5d7facf26be0eb9"
+    },
+    {
+      "path": "reaper-compaction.json",
+      "bytes": 291661,
+      "sha256": "4f37da1d3164d0462625799803388c6571cec7e728c546856f38714224e5108d",
+      "preparedInputSha256": "4f37da1d3164d0462625799803388c6571cec7e728c546856f38714224e5108d"
+    },
+    {
+      "path": "reaper-contact-qa.json",
+      "bytes": 29619,
+      "sha256": "615b97815a2e36577d4b3f45dfdc63dd0e869f8609febc3b3a1e74fed934628c",
+      "preparedInputSha256": "615b97815a2e36577d4b3f45dfdc63dd0e869f8609febc3b3a1e74fed934628c"
+    },
+    {
+      "path": "reaper-grip-qa.json",
+      "bytes": 3283,
+      "sha256": "8de082d8b4e76b527b01d96f586612140c5ed9a3454e0daad1383ea22b70fea5",
+      "preparedInputSha256": "8de082d8b4e76b527b01d96f586612140c5ed9a3454e0daad1383ea22b70fea5"
+    },
+    {
+      "path": "reaper-grounding-exclusions.json",
+      "bytes": 28730,
+      "sha256": "e19f58c24735a939cfa297eef7dbb796cafb1f5f02823f1ffeb368ea938df5a4",
+      "preparedInputSha256": "e19f58c24735a939cfa297eef7dbb796cafb1f5f02823f1ffeb368ea938df5a4"
+    },
+    {
+      "path": "reaper-grounding-qa.json",
+      "bytes": 41936,
+      "sha256": "fd275678c2d44ed92cd023d12cf4060caa68cc051a426180bba3cb443f0dbf85",
+      "preparedInputSha256": "fd275678c2d44ed92cd023d12cf4060caa68cc051a426180bba3cb443f0dbf85"
+    },
+    {
+      "path": "reaper-grounding.json",
+      "bytes": 23766,
+      "sha256": "7a6e974a482081c9c6c4b7f99ddddb2a268c5cd681801307be1bc5c90c408215",
+      "preparedInputSha256": "7a6e974a482081c9c6c4b7f99ddddb2a268c5cd681801307be1bc5c90c408215"
+    },
+    {
+      "path": "reaper-manifest-entry.json",
+      "bytes": 25545,
+      "sha256": "6ea0122d1977093c942f3c358b172a77346144542778d2bc231b56cc9932d0f7",
+      "preparedInputSha256": "6ea0122d1977093c942f3c358b172a77346144542778d2bc231b56cc9932d0f7"
+    },
+    {
+      "path": "reaper-pose-samples.json",
+      "bytes": 1238259,
+      "sha256": "c3fa965cd91ccbbf55aac91b5966ac3a7052f2b7177bd62d13a0275d6064f857",
+      "preparedInputSha256": "c3fa965cd91ccbbf55aac91b5966ac3a7052f2b7177bd62d13a0275d6064f857"
+    },
+    {
+      "path": "reaper-provenance.json",
+      "bytes": 43505,
+      "sha256": "3fbda6a3e0d3ae59879690636a6cb95b983d92187a95ec58ea57011cea31b0d9",
+      "preparedInputSha256": "3fbda6a3e0d3ae59879690636a6cb95b983d92187a95ec58ea57011cea31b0d9"
+    },
+    {
+      "path": "reaper-reskin-qa.json",
+      "bytes": 793,
+      "sha256": "3a028ac2297dac8697e1e3c7024197ffc1fb624c8c08ab0d4096ad3e871ed6aa",
+      "preparedInputSha256": "3a028ac2297dac8697e1e3c7024197ffc1fb624c8c08ab0d4096ad3e871ed6aa"
+    },
+    {
+      "path": "reaper.SHA256SUMS",
+      "bytes": 503,
+      "sha256": "eb805bc306501379e420e30fad03fa7009a73fe1182cb3d42eefaa924b0c43da",
+      "preparedInputSha256": "eb805bc306501379e420e30fad03fa7009a73fe1182cb3d42eefaa924b0c43da"
+    },
+    {
+      "path": "review/animated/dusk-rogue/delivery-binding.json",
+      "bytes": 1405,
+      "sha256": "bd56d87a17550ba163ad4e81fad86e567bac8a0e3590a6d088e72025aafd2339",
+      "preparedInputSha256": "bd56d87a17550ba163ad4e81fad86e567bac8a0e3590a6d088e72025aafd2339"
+    },
+    {
+      "path": "review/animated/dusk-rogue/pose-contact-sheet.jpg",
+      "bytes": 152080,
+      "sha256": "8b008361a57b22a8daacba78a7ba518f4a76d9c4dde37b4eda8fadbefa360014",
+      "preparedInputSha256": "8b008361a57b22a8daacba78a7ba518f4a76d9c4dde37b4eda8fadbefa360014"
+    },
+    {
+      "path": "review/animated/dusk-rogue/pose-review-evidence.json",
+      "bytes": 8647,
+      "sha256": "7d9e0b933ee99b898d08438496b16ccfa44f40ae62c0dad18825d2d6a677d0f8",
+      "preparedInputSha256": "7d9e0b933ee99b898d08438496b16ccfa44f40ae62c0dad18825d2d6a677d0f8"
+    },
+    {
+      "path": "review/animated/ember-dragon/delivery-binding.json",
+      "bytes": 1439,
+      "sha256": "324661f9c44937985af70ef8cbd2787487062d9afa19dbbb611e2f0ed5b838f3",
+      "preparedInputSha256": "324661f9c44937985af70ef8cbd2787487062d9afa19dbbb611e2f0ed5b838f3"
+    },
+    {
+      "path": "review/animated/ember-dragon/pose-contact-sheet.jpg",
+      "bytes": 251610,
+      "sha256": "2c791866d406d7383cad6519e439b8cb8b1bdcaede5f3fd56723d3dc916fcaab",
+      "preparedInputSha256": "2c791866d406d7383cad6519e439b8cb8b1bdcaede5f3fd56723d3dc916fcaab"
+    },
+    {
+      "path": "review/animated/ember-dragon/pose-review-evidence.json",
+      "bytes": 8680,
+      "sha256": "155388d8b6bb056b034ebbf7513b1c452266928d631dd2bd64a924d7943d3dbc",
+      "preparedInputSha256": "155388d8b6bb056b034ebbf7513b1c452266928d631dd2bd64a924d7943d3dbc"
+    },
+    {
+      "path": "review/animated/frost-mage/delivery-binding.json",
+      "bytes": 1437,
+      "sha256": "8d834bc8c9d483e4be90139083ac7e8952e4d0e4d292b5eb9554998cd406afdf",
+      "preparedInputSha256": "8d834bc8c9d483e4be90139083ac7e8952e4d0e4d292b5eb9554998cd406afdf"
+    },
+    {
+      "path": "review/animated/frost-mage/front-staff-mask.png",
+      "bytes": 106999,
+      "sha256": "259062c804f4f08fde4bda9f9fd1fcf08b4cc7f68401b4c009ee8bf842396cbb",
+      "preparedInputSha256": "259062c804f4f08fde4bda9f9fd1fcf08b4cc7f68401b4c009ee8bf842396cbb"
+    },
+    {
+      "path": "review/animated/frost-mage/pose-contact-sheet.jpg",
+      "bytes": 186085,
+      "sha256": "3cc255e95c2c15008f0a307b74e612cc643b96369a5c0a8e2fcc68c332883d6c",
+      "preparedInputSha256": "3cc255e95c2c15008f0a307b74e612cc643b96369a5c0a8e2fcc68c332883d6c"
+    },
+    {
+      "path": "review/animated/frost-mage/pose-review-evidence.json",
+      "bytes": 8663,
+      "sha256": "f40b31c8a4a8f02f306396186a2d473890b8317bd6b10ceba41932ac9abd8a01",
+      "preparedInputSha256": "f40b31c8a4a8f02f306396186a2d473890b8317bd6b10ceba41932ac9abd8a01"
+    },
+    {
+      "path": "review/animated/frost-mage/side-staff-mask.png",
+      "bytes": 73717,
+      "sha256": "32699a9135c4060406641e0a2ebd00d4066f726724f869047728e8ce17996ed4",
+      "preparedInputSha256": "32699a9135c4060406641e0a2ebd00d4066f726724f869047728e8ce17996ed4"
+    },
+    {
+      "path": "review/animated/frost-mage/staff-only-mask.png",
+      "bytes": 446417,
+      "sha256": "b187322c9a56ff3109fda8b71c2214f10931400b80dda4b9f4a110f0bd04193c",
+      "preparedInputSha256": "b187322c9a56ff3109fda8b71c2214f10931400b80dda4b9f4a110f0bd04193c"
+    },
+    {
+      "path": "review/animated/frost-mage/staff-segmentation.json",
+      "bytes": 324692,
+      "sha256": "57caee7094c3c85fcb5a7f42129b8c978344a4bf12a271a8cf199255db428d2b",
+      "preparedInputSha256": "57caee7094c3c85fcb5a7f42129b8c978344a4bf12a271a8cf199255db428d2b"
+    },
+    {
+      "path": "review/animated/goblin/delivery-binding.json",
+      "bytes": 1393,
+      "sha256": "901a0cb942896f6a58826b17782f4cfcff896138e4b360c0daf063859ed9ad18",
+      "preparedInputSha256": "901a0cb942896f6a58826b17782f4cfcff896138e4b360c0daf063859ed9ad18"
+    },
+    {
+      "path": "review/animated/goblin/front-heavy-mask.png",
+      "bytes": 221365,
+      "sha256": "52a252e148be23ca91719ea9077383b1909205d85c3ec1fe0177c472b0f58fe6",
+      "preparedInputSha256": "52a252e148be23ca91719ea9077383b1909205d85c3ec1fe0177c472b0f58fe6"
+    },
+    {
+      "path": "review/animated/goblin/pose-contact-sheet.jpg",
+      "bytes": 135959,
+      "sha256": "b7ecb3c3c1627abc6416cbc964076d73762ac44f6f11cd47ce5f2b78dfecbd62",
+      "preparedInputSha256": "b7ecb3c3c1627abc6416cbc964076d73762ac44f6f11cd47ce5f2b78dfecbd62"
+    },
+    {
+      "path": "review/animated/goblin/pose-review-evidence.json",
+      "bytes": 8601,
+      "sha256": "890b63e7ccc856a58e6534a2af2c4090cbd5b17ee4035fac5e31331e801cc5d1",
+      "preparedInputSha256": "890b63e7ccc856a58e6534a2af2c4090cbd5b17ee4035fac5e31331e801cc5d1"
+    },
+    {
+      "path": "review/animated/goblin/right-side-heavy-mask.png",
+      "bytes": 140952,
+      "sha256": "c9638f80f86f189e99de0465d70b57cc8af408b8305b3f1343a10ab48beff224",
+      "preparedInputSha256": "c9638f80f86f189e99de0465d70b57cc8af408b8305b3f1343a10ab48beff224"
+    },
+    {
+      "path": "review/animated/goblin/side-heavy-mask.png",
+      "bytes": 148593,
+      "sha256": "b7065fde6ac1a762f1ba64b1f2b1d2c07bb991b25afc72d31bfbf5670ab66698",
+      "preparedInputSha256": "b7065fde6ac1a762f1ba64b1f2b1d2c07bb991b25afc72d31bfbf5670ab66698"
+    },
+    {
+      "path": "review/animated/goblin/staff-segmentation.json",
+      "bytes": 509709,
+      "sha256": "42077d9323c228aa823306a83dd2db463045f252025e170fe166800040489d2e",
+      "preparedInputSha256": "42077d9323c228aa823306a83dd2db463045f252025e170fe166800040489d2e"
+    },
+    {
+      "path": "review/animated/knife-rogue/delivery-binding.json",
+      "bytes": 1408,
+      "sha256": "26a2d505f1cd2531f8045c12eea6c885ab5537e919d7806aa1a745cfe09a1587",
+      "preparedInputSha256": "26a2d505f1cd2531f8045c12eea6c885ab5537e919d7806aa1a745cfe09a1587"
+    },
+    {
+      "path": "review/animated/knife-rogue/pose-contact-sheet.jpg",
+      "bytes": 158683,
+      "sha256": "bc73dab249318d3d2ac629f3c9e4cea39cedc80977cf809c7ae644f28d898762",
+      "preparedInputSha256": "bc73dab249318d3d2ac629f3c9e4cea39cedc80977cf809c7ae644f28d898762"
+    },
+    {
+      "path": "review/animated/knife-rogue/pose-review-evidence.json",
+      "bytes": 8673,
+      "sha256": "8725a9cda62d77c21dcab90ad21fa477ad33c404f2116f712229e3e4263e1a20",
+      "preparedInputSha256": "8725a9cda62d77c21dcab90ad21fa477ad33c404f2116f712229e3e4263e1a20"
+    },
+    {
+      "path": "review/animated/lich/delivery-binding.json",
+      "bytes": 1419,
+      "sha256": "28ca44a30fe0d7c35b5e384d936b08d2a2ea9e64cb098f0a1ebdf3f2511d5dc1",
+      "preparedInputSha256": "28ca44a30fe0d7c35b5e384d936b08d2a2ea9e64cb098f0a1ebdf3f2511d5dc1"
+    },
+    {
+      "path": "review/animated/lich/front-staff-mask.png",
+      "bytes": 155811,
+      "sha256": "ea61b7f182b1fc5a190811d484631ea7c81c066d2698f4a3a28312fdd837f3d7",
+      "preparedInputSha256": "ea61b7f182b1fc5a190811d484631ea7c81c066d2698f4a3a28312fdd837f3d7"
+    },
+    {
+      "path": "review/animated/lich/pose-contact-sheet.jpg",
+      "bytes": 167365,
+      "sha256": "58cdd3c6045f125de100cd296f5ef8b8a81e1875cc06f5a3542ab10868ea3d9a",
+      "preparedInputSha256": "58cdd3c6045f125de100cd296f5ef8b8a81e1875cc06f5a3542ab10868ea3d9a"
+    },
+    {
+      "path": "review/animated/lich/pose-review-evidence.json",
+      "bytes": 8561,
+      "sha256": "ae501e51359025a4a6acf877915fbd1178c9bedfd23b892698d92a362732fcbe",
+      "preparedInputSha256": "ae501e51359025a4a6acf877915fbd1178c9bedfd23b892698d92a362732fcbe"
+    },
+    {
+      "path": "review/animated/lich/side-staff-mask.png",
+      "bytes": 101190,
+      "sha256": "2278a5a04df58c27340f23347e3bc93d59bfd92ac8194c7cac70e7df0a05010e",
+      "preparedInputSha256": "2278a5a04df58c27340f23347e3bc93d59bfd92ac8194c7cac70e7df0a05010e"
+    },
+    {
+      "path": "review/animated/lich/staff-only-mask.png",
+      "bytes": 440202,
+      "sha256": "d8fa0ec36d7c75f88e52e8280a9dad0fb08034b69d1b974dec3cc0b68f9a7beb",
+      "preparedInputSha256": "d8fa0ec36d7c75f88e52e8280a9dad0fb08034b69d1b974dec3cc0b68f9a7beb"
+    },
+    {
+      "path": "review/animated/lich/staff-segmentation.json",
+      "bytes": 503088,
+      "sha256": "0f5a094779f1e828ed98f28f995fe1f49a9504bd7f978492b484c694bbddca5e",
+      "preparedInputSha256": "0f5a094779f1e828ed98f28f995fe1f49a9504bd7f978492b484c694bbddca5e"
+    },
+    {
+      "path": "review/animated/lion-knight/back-sword-mask.png",
+      "bytes": 251683,
+      "sha256": "fae17d893c78a98e5f02051981e5d38ee40ff25be05ae0a7ee45dcb955942427",
+      "preparedInputSha256": "fae17d893c78a98e5f02051981e5d38ee40ff25be05ae0a7ee45dcb955942427"
+    },
+    {
+      "path": "review/animated/lion-knight/delivery-binding.json",
+      "bytes": 1408,
+      "sha256": "b07683a2f3a77ba1459135fdf5ed67c953e2822a39fe15ac3d892f5d7b86ed57",
+      "preparedInputSha256": "b07683a2f3a77ba1459135fdf5ed67c953e2822a39fe15ac3d892f5d7b86ed57"
+    },
+    {
+      "path": "review/animated/lion-knight/grounding-exclusions.json",
+      "bytes": 11400,
+      "sha256": "179f183f7b77a77afae9448ab8ef7af31e7c657972ecf48a3f4c6cb140ad0345",
+      "preparedInputSha256": "179f183f7b77a77afae9448ab8ef7af31e7c657972ecf48a3f4c6cb140ad0345"
+    },
+    {
+      "path": "review/animated/lion-knight/pose-contact-sheet.jpg",
+      "bytes": 190039,
+      "sha256": "cbf887fabf08fcfc84ac449c0f7fc8455ab5ee339fe9b103e0db41a0c189b791",
+      "preparedInputSha256": "cbf887fabf08fcfc84ac449c0f7fc8455ab5ee339fe9b103e0db41a0c189b791"
+    },
+    {
+      "path": "review/animated/lion-knight/pose-review-evidence.json",
+      "bytes": 9963,
+      "sha256": "1480d63535d2850e6c992e36076a6c107e24a16aecf209b495a9ddf36de904fb",
+      "preparedInputSha256": "1480d63535d2850e6c992e36076a6c107e24a16aecf209b495a9ddf36de904fb"
+    },
+    {
+      "path": "review/animated/ogre/delivery-binding.json",
+      "bytes": 1419,
+      "sha256": "402826809c333152dc0b2fa6e6954f7b70fd78b40119551f60b5233de652fd8e",
+      "preparedInputSha256": "402826809c333152dc0b2fa6e6954f7b70fd78b40119551f60b5233de652fd8e"
+    },
+    {
+      "path": "review/animated/ogre/front-heavy-mask.png",
+      "bytes": 233550,
+      "sha256": "00ea9aa2f8db7e83ae26022cd627683faef864086215a313d2195789ba8de4f4",
+      "preparedInputSha256": "00ea9aa2f8db7e83ae26022cd627683faef864086215a313d2195789ba8de4f4"
+    },
+    {
+      "path": "review/animated/ogre/pose-contact-sheet.jpg",
+      "bytes": 198111,
+      "sha256": "28f758f593319defc863658321c765f84cae467601f99d04e19bafa37a46807c",
+      "preparedInputSha256": "28f758f593319defc863658321c765f84cae467601f99d04e19bafa37a46807c"
+    },
+    {
+      "path": "review/animated/ogre/pose-review-evidence.json",
+      "bytes": 8608,
+      "sha256": "b83836754b52add58a6202ebca1411d80ebcc48f955047f661087569e28898c2",
+      "preparedInputSha256": "b83836754b52add58a6202ebca1411d80ebcc48f955047f661087569e28898c2"
+    },
+    {
+      "path": "review/animated/ogre/right-side-heavy-mask.png",
+      "bytes": 146690,
+      "sha256": "294a85b318dbc99ec934da864d84505bb00c93340f6416b0c8154946397d4b52",
+      "preparedInputSha256": "294a85b318dbc99ec934da864d84505bb00c93340f6416b0c8154946397d4b52"
+    },
+    {
+      "path": "review/animated/ogre/side-heavy-mask.png",
+      "bytes": 149957,
+      "sha256": "d941ab2a21e7521792d935dd7b03c40424b10c00b10daa09d33115532a88b256",
+      "preparedInputSha256": "d941ab2a21e7521792d935dd7b03c40424b10c00b10daa09d33115532a88b256"
+    },
+    {
+      "path": "review/animated/ogre/staff-segmentation.json",
+      "bytes": 525682,
+      "sha256": "7507b7c773b7e375a995b5053e24083612ed604a53e64f534d8c4b2c68cd71e7",
+      "preparedInputSha256": "7507b7c773b7e375a995b5053e24083612ed604a53e64f534d8c4b2c68cd71e7"
+    },
+    {
+      "path": "review/animated/ranger/delivery-binding.json",
+      "bytes": 1357,
+      "sha256": "01dd4348c19485fe2bfb78dadad644fe5d840ed3b203cf10ad3305e06e84cab7",
+      "preparedInputSha256": "01dd4348c19485fe2bfb78dadad644fe5d840ed3b203cf10ad3305e06e84cab7"
+    },
+    {
+      "path": "review/animated/ranger/pose-contact-sheet.jpg",
+      "bytes": 160604,
+      "sha256": "b4df7b52ae4b27b750c61ec438e94ef2a2f287740718e3e166e15777b1c7b19f",
+      "preparedInputSha256": "b4df7b52ae4b27b750c61ec438e94ef2a2f287740718e3e166e15777b1c7b19f"
+    },
+    {
+      "path": "review/animated/ranger/pose-review-evidence.json",
+      "bytes": 8506,
+      "sha256": "3434ed36f20d75d646ee4b855577c521057047761a2d6e389f6a3e88dfbdb08e",
+      "preparedInputSha256": "3434ed36f20d75d646ee4b855577c521057047761a2d6e389f6a3e88dfbdb08e"
+    },
+    {
+      "path": "review/animated/reaper/delivery-binding.json",
+      "bytes": 1393,
+      "sha256": "ca34bfc50af8fcf5189cc652ecfc17ce7394307d5bf7320f362c122bb640f52d",
+      "preparedInputSha256": "ca34bfc50af8fcf5189cc652ecfc17ce7394307d5bf7320f362c122bb640f52d"
+    },
+    {
+      "path": "review/animated/reaper/pose-contact-sheet.jpg",
+      "bytes": 169893,
+      "sha256": "199ead17aa04f66b7724303165883d34b5a11fba321f69e9ea1926080f9b328d",
+      "preparedInputSha256": "199ead17aa04f66b7724303165883d34b5a11fba321f69e9ea1926080f9b328d"
+    },
+    {
+      "path": "review/animated/reaper/pose-review-evidence.json",
+      "bytes": 8575,
+      "sha256": "4d737324666e8a37bab6af04a4992d1643ad34fe66627ad68739babe0658f265",
+      "preparedInputSha256": "4d737324666e8a37bab6af04a4992d1643ad34fe66627ad68739babe0658f265"
+    },
+    {
+      "path": "review/animated/review-summary.json",
+      "bytes": 15193,
+      "sha256": "6ab49ba7946434d06b6e1129d3e80e1a3e2434fa38a853b373ac7237e8ee3057",
+      "preparedInputSha256": "6ab49ba7946434d06b6e1129d3e80e1a3e2434fa38a853b373ac7237e8ee3057"
+    },
+    {
+      "path": "review/animated/sage/delivery-binding.json",
+      "bytes": 1419,
+      "sha256": "5fd76faedbbaadc03f8ca929eef2c5c501c1217f387450edf654b98493702daf",
+      "preparedInputSha256": "5fd76faedbbaadc03f8ca929eef2c5c501c1217f387450edf654b98493702daf"
+    },
+    {
+      "path": "review/animated/sage/front-staff-mask.png",
+      "bytes": 140188,
+      "sha256": "0f2768d78a3c3f02e47531e9dc27a2c73a5048f3d53c541c1879ccdacbcda54d",
+      "preparedInputSha256": "0f2768d78a3c3f02e47531e9dc27a2c73a5048f3d53c541c1879ccdacbcda54d"
+    },
+    {
+      "path": "review/animated/sage/pose-contact-sheet.jpg",
+      "bytes": 163715,
+      "sha256": "39152ea6ea3fc4cb3456daaf3aa1b386e82d178f248d8e477193c4b30c6738b6",
+      "preparedInputSha256": "39152ea6ea3fc4cb3456daaf3aa1b386e82d178f248d8e477193c4b30c6738b6"
+    },
+    {
+      "path": "review/animated/sage/pose-review-evidence.json",
+      "bytes": 8587,
+      "sha256": "1dd4c35ed57b9c027b5dfcb7d333a4a58c0ce44e581f4ae77b0be663bfda86f5",
+      "preparedInputSha256": "1dd4c35ed57b9c027b5dfcb7d333a4a58c0ce44e581f4ae77b0be663bfda86f5"
+    },
+    {
+      "path": "review/animated/sage/side-staff-mask.png",
+      "bytes": 85365,
+      "sha256": "b5d8beab8213a4d6c2951d5fea3ce444ac364ee7fe68000648b64b6bc081d82c",
+      "preparedInputSha256": "b5d8beab8213a4d6c2951d5fea3ce444ac364ee7fe68000648b64b6bc081d82c"
+    },
+    {
+      "path": "review/animated/sage/staff-only-mask.png",
+      "bytes": 440017,
+      "sha256": "d1b601b4d18a3a78f16fe02335bc1c469c4992b8f363532ea5c48232aff7de97",
+      "preparedInputSha256": "d1b601b4d18a3a78f16fe02335bc1c469c4992b8f363532ea5c48232aff7de97"
+    },
+    {
+      "path": "review/animated/sage/staff-segmentation.json",
+      "bytes": 489931,
+      "sha256": "c1a2b4927c650b0ee0cce678f09892bb6ee4470dcaf9a17c605170890782eea4",
+      "preparedInputSha256": "c1a2b4927c650b0ee0cce678f09892bb6ee4470dcaf9a17c605170890782eea4"
+    },
+    {
+      "path": "review/animated/silver-knight/delivery-binding.json",
+      "bytes": 1414,
+      "sha256": "5bbe1b66bf1ab54d8a02a1a7b87fd9e3a2a6a560d87a25ea6bc0ef745cabac71",
+      "preparedInputSha256": "5bbe1b66bf1ab54d8a02a1a7b87fd9e3a2a6a560d87a25ea6bc0ef745cabac71"
+    },
+    {
+      "path": "review/animated/silver-knight/pose-contact-sheet.jpg",
+      "bytes": 179505,
+      "sha256": "6ce098ba4a5324b3cf02a3239d8dfe592a0c994c2888a0961ad9e46c55ef9062",
+      "preparedInputSha256": "6ce098ba4a5324b3cf02a3239d8dfe592a0c994c2888a0961ad9e46c55ef9062"
+    },
+    {
+      "path": "review/animated/silver-knight/pose-review-evidence.json",
+      "bytes": 8702,
+      "sha256": "d557199693e5cd0329146743a536ca6dd264d34e5e613f13c32db276a070a167",
+      "preparedInputSha256": "d557199693e5cd0329146743a536ca6dd264d34e5e613f13c32db276a070a167"
+    },
+    {
+      "path": "review/animated/skeleton-warrior/delivery-binding.json",
+      "bytes": 1423,
+      "sha256": "a4ebcd4adf645c2fe035990ec2e6b7997bfc0849890c1c299d9741c61435f33d",
+      "preparedInputSha256": "a4ebcd4adf645c2fe035990ec2e6b7997bfc0849890c1c299d9741c61435f33d"
+    },
+    {
+      "path": "review/animated/skeleton-warrior/pose-contact-sheet.jpg",
+      "bytes": 163959,
+      "sha256": "0614fb5325d59d7dbf24e06d692191f7284fbf2806bc99d8de687da85f3fa59d",
+      "preparedInputSha256": "0614fb5325d59d7dbf24e06d692191f7284fbf2806bc99d8de687da85f3fa59d"
+    },
+    {
+      "path": "review/animated/skeleton-warrior/pose-review-evidence.json",
+      "bytes": 8745,
+      "sha256": "fc07204b2175262ed247c5e084d53b0f08e786686385667e62822e4371fd7b4e",
+      "preparedInputSha256": "fc07204b2175262ed247c5e084d53b0f08e786686385667e62822e4371fd7b4e"
+    },
+    {
+      "path": "review/animated/spider/delivery-binding.json",
+      "bytes": 1408,
+      "sha256": "b6ad72c5a579acf21de7a9a1157a976156f0bfe86dd682d535d93160fa0b567c",
+      "preparedInputSha256": "b6ad72c5a579acf21de7a9a1157a976156f0bfe86dd682d535d93160fa0b567c"
+    },
+    {
+      "path": "review/animated/spider/pose-contact-sheet.jpg",
+      "bytes": 199707,
+      "sha256": "0f0393d6fe3c78d6fe095d3c32be5195e741122c6146430222901716bf6b9f0c",
+      "preparedInputSha256": "0f0393d6fe3c78d6fe095d3c32be5195e741122c6146430222901716bf6b9f0c"
+    },
+    {
+      "path": "review/animated/spider/pose-review-evidence.json",
+      "bytes": 8518,
+      "sha256": "d16865cbf90521e875d9482a8f66acfef748111ac9e29e30a8ee6a21a9cade81",
+      "preparedInputSha256": "d16865cbf90521e875d9482a8f66acfef748111ac9e29e30a8ee6a21a9cade81"
+    },
+    {
+      "path": "review/dusk-rogue-comparison.jpg",
+      "bytes": 38572,
+      "sha256": "17458751e2ab46322b8d1690bed989c7ab8f8aca9a605574488f3d01dc7199a0",
+      "preparedInputSha256": "17458751e2ab46322b8d1690bed989c7ab8f8aca9a605574488f3d01dc7199a0"
+    },
+    {
+      "path": "review/ember-dragon-comparison.jpg",
+      "bytes": 91801,
+      "sha256": "4636ab1def097c05182a6bee2ab9a72d177164d59f13bc46fd191fc9a9fb980e",
+      "preparedInputSha256": "4636ab1def097c05182a6bee2ab9a72d177164d59f13bc46fd191fc9a9fb980e"
+    },
+    {
+      "path": "review/frost-mage-comparison.jpg",
+      "bytes": 46909,
+      "sha256": "9d7519976470125731d96d113dc6163367e57587b4b1c9fec32a4eafad061ffd",
+      "preparedInputSha256": "9d7519976470125731d96d113dc6163367e57587b4b1c9fec32a4eafad061ffd"
+    },
+    {
+      "path": "review/goblin-comparison.jpg",
+      "bytes": 75478,
+      "sha256": "113e0ddb87754c19fb70e90fbe93d1c21a1dd3bc6a392996a40a9b27ec1c1f22",
+      "preparedInputSha256": "113e0ddb87754c19fb70e90fbe93d1c21a1dd3bc6a392996a40a9b27ec1c1f22"
+    },
+    {
+      "path": "review/knife-rogue-comparison.jpg",
+      "bytes": 55343,
+      "sha256": "9934e31231f75c17e334f2c3282c7d2c43d3bb24c05dc813e7a33021fb3545fa",
+      "preparedInputSha256": "9934e31231f75c17e334f2c3282c7d2c43d3bb24c05dc813e7a33021fb3545fa"
+    },
+    {
+      "path": "review/lich-comparison.jpg",
+      "bytes": 56564,
+      "sha256": "e39248bd27a98f4eb10cf09636262180102c915e8f6551eeaa6844a0ecc76c07",
+      "preparedInputSha256": "e39248bd27a98f4eb10cf09636262180102c915e8f6551eeaa6844a0ecc76c07"
+    },
+    {
+      "path": "review/lion-knight-comparison.jpg",
+      "bytes": 42551,
+      "sha256": "5a4ed55a1bb56a7c34f30708edf5091e723e1c1e7ed35a1d2c4dbc3befb0e8ba",
+      "preparedInputSha256": "5a4ed55a1bb56a7c34f30708edf5091e723e1c1e7ed35a1d2c4dbc3befb0e8ba"
+    },
+    {
+      "path": "review/ogre-comparison.jpg",
+      "bytes": 75720,
+      "sha256": "50ab38852ae911e377ce7b2489bd3dd4801c587b2d0f6bdbd78f01cf49c51fcc",
+      "preparedInputSha256": "50ab38852ae911e377ce7b2489bd3dd4801c587b2d0f6bdbd78f01cf49c51fcc"
+    },
+    {
+      "path": "review/ranger-bow-mask-points.png",
+      "bytes": 149930,
+      "sha256": "0bbfec1973de1cbf88285a3dd926d0c722a6f6e960c0d4fd19ff9eb5ad084286",
+      "preparedInputSha256": "0bbfec1973de1cbf88285a3dd926d0c722a6f6e960c0d4fd19ff9eb5ad084286"
+    },
+    {
+      "path": "review/ranger-comparison.jpg",
+      "bytes": 56795,
+      "sha256": "6bf684ac3111b4910c00061fba56d9a069b1671c5e9ff86e4e25966118b9f0dd",
+      "preparedInputSha256": "6bf684ac3111b4910c00061fba56d9a069b1671c5e9ff86e4e25966118b9f0dd"
+    },
+    {
+      "path": "review/ranger-seamsplit-actions/action-contact-sheet.png",
+      "bytes": 3356276,
+      "sha256": "9c1c35e0c800f06d91b7c45b786212987afa0cf12f0dee4121c8c9537fedd0e3",
+      "preparedInputSha256": "9c1c35e0c800f06d91b7c45b786212987afa0cf12f0dee4121c8c9537fedd0e3"
+    },
+    {
+      "path": "review/reaper-comparison.jpg",
+      "bytes": 61435,
+      "sha256": "75f832ca6d6d649b30fb205bb71ad6a78161212527773d8a94e95703ea66df19",
+      "preparedInputSha256": "75f832ca6d6d649b30fb205bb71ad6a78161212527773d8a94e95703ea66df19"
+    },
+    {
+      "path": "review/reaper-final-actions/action-contact-sheet.png",
+      "bytes": 3642792,
+      "sha256": "2213aa81b104e805c142fe6fa732c324c6ef60b9b88fd36c52d5d82d062c57d1",
+      "preparedInputSha256": "2213aa81b104e805c142fe6fa732c324c6ef60b9b88fd36c52d5d82d062c57d1"
+    },
+    {
+      "path": "review/reaper-final-gait/gait-contact-sheet.png",
+      "bytes": 3024482,
+      "sha256": "6cbdfaced8607cd61ce15c07c46b2887d88a43e5b21be0e395f26a827cf974d1",
+      "preparedInputSha256": "6cbdfaced8607cd61ce15c07c46b2887d88a43e5b21be0e395f26a827cf974d1"
+    },
+    {
+      "path": "review/sage-comparison.jpg",
+      "bytes": 55587,
+      "sha256": "0267c44ad6fe4ac2b412cddc4693c50ba16340aeb5f00cc76c369e9ac49e3ce8",
+      "preparedInputSha256": "0267c44ad6fe4ac2b412cddc4693c50ba16340aeb5f00cc76c369e9ac49e3ce8"
+    },
+    {
+      "path": "review/silver-knight-comparison.jpg",
+      "bytes": 68582,
+      "sha256": "63f234f8563774baa2f2f571598d2ceceea7297f7a9bf0349e90556d20566391",
+      "preparedInputSha256": "63f234f8563774baa2f2f571598d2ceceea7297f7a9bf0349e90556d20566391"
+    },
+    {
+      "path": "review/skeleton-warrior-comparison.jpg",
+      "bytes": 65730,
+      "sha256": "79b45bf38226192fdae3ae79acad990335a1bd75238aaf64e71b31eaf1440790",
+      "preparedInputSha256": "79b45bf38226192fdae3ae79acad990335a1bd75238aaf64e71b31eaf1440790"
+    },
+    {
+      "path": "review/spider-comparison.jpg",
+      "bytes": 53113,
+      "sha256": "d4df10ce333dc62cea7938b540b75265d359e50a5e84e5f6c868b7152b325435",
+      "preparedInputSha256": "d4df10ce333dc62cea7938b540b75265d359e50a5e84e5f6c868b7152b325435"
+    },
+    {
+      "path": "review/spider-final-actions/action-contact-sheet.png",
+      "bytes": 3132993,
+      "sha256": "53451329558d894d1a15af98bb7f661b6d2302ef0f13ab67ae53f76ee69f6859",
+      "preparedInputSha256": "53451329558d894d1a15af98bb7f661b6d2302ef0f13ab67ae53f76ee69f6859"
+    },
+    {
+      "path": "rig-landmarks.json",
+      "bytes": 787,
+      "sha256": "7a42388b2186eee8fb58eee95b6526d205f5f68dad7b43631b07dc97014c497d",
+      "preparedInputSha256": "7a42388b2186eee8fb58eee95b6526d205f5f68dad7b43631b07dc97014c497d"
+    },
+    {
+      "path": "runtime-build-summary.json",
+      "bytes": 250587,
+      "sha256": "aeddeeb6df3c6cbff475727105571ae2bb7215c6e71fb91d8a9a8e72ceba7352",
+      "preparedInputSha256": "aeddeeb6df3c6cbff475727105571ae2bb7215c6e71fb91d8a9a8e72ceba7352"
+    },
+    {
+      "path": "runtime-config.json",
+      "bytes": 6190,
+      "sha256": "1da1ecc5714b6af5a70d8fc485d3c6ee6b1d9732910edc6c510093a97a51d548",
+      "preparedInputSha256": "1da1ecc5714b6af5a70d8fc485d3c6ee6b1d9732910edc6c510093a97a51d548"
+    },
+    {
+      "path": "runtime-grounding.json",
+      "bytes": 333551,
+      "sha256": "68a13bba332f402e7275e83ca058255b09d5591317db57e7cf7315183627967e",
+      "preparedInputSha256": "68a13bba332f402e7275e83ca058255b09d5591317db57e7cf7315183627967e"
+    },
+    {
+      "path": "spider-build-summary.json",
+      "bytes": 2771,
+      "sha256": "9be91a82cf680ac5755aae794e202db49311fe2257b1139f717a3f27ccc0fe53",
+      "preparedInputSha256": "9be91a82cf680ac5755aae794e202db49311fe2257b1139f717a3f27ccc0fe53"
+    },
+    {
+      "path": "spider-grounding-qa.json",
+      "bytes": 64594,
+      "sha256": "f654d3936b055d61eca5d105e640c1083759341fca9fec3925c0619dfeb79b43",
+      "preparedInputSha256": "f654d3936b055d61eca5d105e640c1083759341fca9fec3925c0619dfeb79b43"
+    },
+    {
+      "path": "spider-grounding.json",
+      "bytes": 24657,
+      "sha256": "76c1a687b8704f97d1697007e3e8f70bf78cf684b3f7fdd0abcd06c5788e727d",
+      "preparedInputSha256": "76c1a687b8704f97d1697007e3e8f70bf78cf684b3f7fdd0abcd06c5788e727d"
+    },
+    {
+      "path": "spider-hd-pose-samples.json",
+      "bytes": 666695,
+      "sha256": "cb1b677226efaafb1fd5c72cefff931ecefb8f8892fc44193622f1b48eb51212",
+      "preparedInputSha256": "cb1b677226efaafb1fd5c72cefff931ecefb8f8892fc44193622f1b48eb51212"
+    },
+    {
+      "path": "spider-manifest-entry.json",
+      "bytes": 26365,
+      "sha256": "914432eb4820f211ee6d6fc93b75188fbccc09406b0e4431c3c0c7d4c7d48dca",
+      "preparedInputSha256": "914432eb4820f211ee6d6fc93b75188fbccc09406b0e4431c3c0c7d4c7d48dca"
+    },
+    {
+      "path": "spider-mobile-decimation.json",
+      "bytes": 609,
+      "sha256": "c9cb11e6c244304fca81d725a9f94acc12c3fdb747bb574f7a51338d4f570a3e",
+      "preparedInputSha256": "c9cb11e6c244304fca81d725a9f94acc12c3fdb747bb574f7a51338d4f570a3e"
+    },
+    {
+      "path": "spider-mobile-pose-samples.json",
+      "bytes": 666662,
+      "sha256": "a35e3cb89dd7ecadb7e26c50e83f9dff49348a012222cd5c9ce8ecf82ebfcaea",
+      "preparedInputSha256": "a35e3cb89dd7ecadb7e26c50e83f9dff49348a012222cd5c9ce8ecf82ebfcaea"
+    },
+    {
+      "path": "spider-provenance.json",
+      "bytes": 1208,
+      "sha256": "488c9a1e7f0e918b64a73a2cb5ffd632cfb4a0942cf2397533df06b96e1637d9",
+      "preparedInputSha256": "488c9a1e7f0e918b64a73a2cb5ffd632cfb4a0942cf2397533df06b96e1637d9"
+    },
+    {
+      "path": "spider-source-preservation.json",
+      "bytes": 848,
+      "sha256": "62b312f29726615c8f2cad3545c12ec8803083b47f93e9ad6a650619b83d5b1a",
+      "preparedInputSha256": "62b312f29726615c8f2cad3545c12ec8803083b47f93e9ad6a650619b83d5b1a"
+    },
+    {
+      "path": "spider.SHA256SUMS",
+      "bytes": 699,
+      "sha256": "564ac72e56478f462262a71cbbf5514cf22ed70009ecf986fce69934e1b08891",
+      "preparedInputSha256": "564ac72e56478f462262a71cbbf5514cf22ed70009ecf986fce69934e1b08891"
+    },
+    {
+      "path": "tools/align-skeleton-sword.py",
+      "bytes": 3022,
+      "sha256": "0550d3e4ea7463a383c5153742c392e42fa984e2e65ff003a065d61b23006f9e",
+      "preparedInputSha256": "0550d3e4ea7463a383c5153742c392e42fa984e2e65ff003a065d61b23006f9e"
+    },
+    {
+      "path": "tools/analyze-contact-motion.cjs",
+      "bytes": 3559,
+      "sha256": "3264c12a40770b067ec36f50a2e9123b0a5fbb18ff73d768e4bfac9d3f86dcd0",
+      "preparedInputSha256": "3264c12a40770b067ec36f50a2e9123b0a5fbb18ff73d768e4bfac9d3f86dcd0"
+    },
+    {
+      "path": "tools/audit-ranger-deformation.cjs",
+      "bytes": 3051,
+      "sha256": "97f02994d926c9e493bc110204feacd4b418e5958ccda8b03378f7a4607ac403",
+      "preparedInputSha256": "97f02994d926c9e493bc110204feacd4b418e5958ccda8b03378f7a4607ac403"
+    },
+    {
+      "path": "tools/audit-ranger-source.py",
+      "bytes": 1867,
+      "sha256": "3b5ce2a22d1a179332f5a94b068237ad69c4d5d994cc0b66d4623b6fffa8ce05",
+      "preparedInputSha256": "3b5ce2a22d1a179332f5a94b068237ad69c4d5d994cc0b66d4623b6fffa8ce05"
+    },
+    {
+      "path": "tools/audit-reaper-deformation.cjs",
+      "bytes": 3051,
+      "sha256": "4012a2adec58c9fa0b54a51f4b3c9b3ecd326c65f7986a1f54a92c7d1de04372",
+      "preparedInputSha256": "4012a2adec58c9fa0b54a51f4b3c9b3ecd326c65f7986a1f54a92c7d1de04372"
+    },
+    {
+      "path": "tools/audit-spider-source.cjs",
+      "bytes": 3107,
+      "sha256": "e75ba6d5f2cdb6123669cdd5322893819c2b84d6312c56d78a8af56d8379a93b",
+      "preparedInputSha256": "e75ba6d5f2cdb6123669cdd5322893819c2b84d6312c56d78a8af56d8379a93b"
+    },
+    {
+      "path": "tools/build-dragon.cjs",
+      "bytes": 7651,
+      "sha256": "5afb64c59940a4eff6986f80c20f7b9a75f05b0109ee86986a3cb0bac29c96c3",
+      "preparedInputSha256": "5afb64c59940a4eff6986f80c20f7b9a75f05b0109ee86986a3cb0bac29c96c3"
+    },
+    {
+      "path": "tools/build-ranger.cjs",
+      "bytes": 3031,
+      "sha256": "a84a9d737821ebded063255891c8e6a03f402b63e3b4c42e0d7afbcdae2d23f3",
+      "preparedInputSha256": "a84a9d737821ebded063255891c8e6a03f402b63e3b4c42e0d7afbcdae2d23f3"
+    },
+    {
+      "path": "tools/build-reaper-base.cjs",
+      "bytes": 2882,
+      "sha256": "4b96f40e7c63b82b4c2afe2690ab9d9fd5d5de2dfee709f9b9f92908f33a765c",
+      "preparedInputSha256": "4b96f40e7c63b82b4c2afe2690ab9d9fd5d5de2dfee709f9b9f92908f33a765c"
+    },
+    {
+      "path": "tools/build-recovered.cjs",
+      "bytes": 7140,
+      "sha256": "febeb2fecf1195158ec831b5d366c6a8c504a094f9ac16161bd32eee40e60e00",
+      "preparedInputSha256": "febeb2fecf1195158ec831b5d366c6a8c504a094f9ac16161bd32eee40e60e00"
+    },
+    {
+      "path": "tools/collect-originals.py",
+      "bytes": 2933,
+      "sha256": "ab035745ef83d6afde6c69b80602f85b74b140224c6a9df587f62815df46d346",
+      "preparedInputSha256": "ab035745ef83d6afde6c69b80602f85b74b140224c6a9df587f62815df46d346"
+    },
+    {
+      "path": "tools/compact-ranger.cjs",
+      "bytes": 3730,
+      "sha256": "2a40bde2909e3942429bdd1a9101023ccc208654e8c6ade00e3ff977a841b6ea",
+      "preparedInputSha256": "2a40bde2909e3942429bdd1a9101023ccc208654e8c6ade00e3ff977a841b6ea"
+    },
+    {
+      "path": "tools/compact-reaper.cjs",
+      "bytes": 3730,
+      "sha256": "16317cc218285959b1ec7bf4024457f6a042c3ff094f5c4fc6405d71fc5328b5",
+      "preparedInputSha256": "16317cc218285959b1ec7bf4024457f6a042c3ff094f5c4fc6405d71fc5328b5"
+    },
+    {
+      "path": "tools/compact-runtime.cjs",
+      "bytes": 2923,
+      "sha256": "35d5b4386b2afdd4aa71cdc2c034e66a5a0efdd7c244c017cae9668f58d504e4",
+      "preparedInputSha256": "35d5b4386b2afdd4aa71cdc2c034e66a5a0efdd7c244c017cae9668f58d504e4"
+    },
+    {
+      "path": "tools/complete-frost-shaft.py",
+      "bytes": 3652,
+      "sha256": "1e0f34ea6da91d6b97d2d4a2f52c1188491b4fd0ece173c07bdd76bbbb2047a8",
+      "preparedInputSha256": "1e0f34ea6da91d6b97d2d4a2f52c1188491b4fd0ece173c07bdd76bbbb2047a8"
+    },
+    {
+      "path": "tools/constrain-reaper-grip.cjs",
+      "bytes": 7292,
+      "sha256": "3f5b3638940ab90e8e035985a1b4b5732008930e5278356b98d241e582d0cd34",
+      "preparedInputSha256": "3f5b3638940ab90e8e035985a1b4b5732008930e5278356b98d241e582d0cd34"
+    },
+    {
+      "path": "tools/decimate-spider-mobile.py",
+      "bytes": 2348,
+      "sha256": "5e9beb826ed3c725d10d363fecaeadf02dcd27e4a0bfc08192383adc6db73252",
+      "preparedInputSha256": "5e9beb826ed3c725d10d363fecaeadf02dcd27e4a0bfc08192383adc6db73252"
+    },
+    {
+      "path": "tools/dragon-edge-audit.cjs",
+      "bytes": 3500,
+      "sha256": "095bb4a4e6fce39a89b84057f8e23838f3347ea834686768b678308defb92280",
+      "preparedInputSha256": "095bb4a4e6fce39a89b84057f8e23838f3347ea834686768b678308defb92280"
+    },
+    {
+      "path": "tools/fit-embedded-equipment.py",
+      "bytes": 9329,
+      "sha256": "b2fcadcb07b27ad494d8a6fb9ea938aa6e0525d89444c748f660f65f984e2437",
+      "preparedInputSha256": "ccd2b9d3f0c1a3ee850c31a855a12a543a5096226ef0072595182e688d767ad0"
+    },
+    {
+      "path": "tools/fit-recovered-rig.cjs",
+      "bytes": 13103,
+      "sha256": "4f8710f336377630e1d676f21d85706d6ab180f9a4b934d51714e71cbb73c626",
+      "preparedInputSha256": "4f8710f336377630e1d676f21d85706d6ab180f9a4b934d51714e71cbb73c626"
+    },
+    {
+      "path": "tools/ground-ogre-body.py",
+      "bytes": 1929,
+      "sha256": "cfa7dc1de359c260ad65c5847c38deff1a937575448595e4dbd0ea12c0932c05",
+      "preparedInputSha256": "cfa7dc1de359c260ad65c5847c38deff1a937575448595e4dbd0ea12c0932c05"
+    },
+    {
+      "path": "tools/ground-spider.cjs",
+      "bytes": 4395,
+      "sha256": "09771d35e2b1b48bbe4901682301d48dbe5f266d0b5bc401c728acdc332760c3",
+      "preparedInputSha256": "09771d35e2b1b48bbe4901682301d48dbe5f266d0b5bc401c728acdc332760c3"
+    },
+    {
+      "path": "tools/inspect-components.py",
+      "bytes": 1888,
+      "sha256": "57dd3b70fae266f0abc9e1b45a6981177dd262cab0f14ad6d8503191393d29dd",
+      "preparedInputSha256": "57dd3b70fae266f0abc9e1b45a6981177dd262cab0f14ad6d8503191393d29dd"
+    },
+    {
+      "path": "tools/inspect-optimize-glb.cjs",
+      "bytes": 28287,
+      "sha256": "506bd287fa83fceb52942ee287e0538b6b40570923737c6c6a70db030004888e",
+      "preparedInputSha256": "506bd287fa83fceb52942ee287e0538b6b40570923737c6c6a70db030004888e"
+    },
+    {
+      "path": "tools/inspect-originals.py",
+      "bytes": 5374,
+      "sha256": "6e6916f0da64e2e55784c5a48814cc3fab45442bf087120e7db18d6979adf3f2",
+      "preparedInputSha256": "6e6916f0da64e2e55784c5a48814cc3fab45442bf087120e7db18d6979adf3f2"
+    },
+    {
+      "path": "tools/inspect-spider-segmentation.py",
+      "bytes": 2497,
+      "sha256": "353fe95006861b29752b0373cc9507a2689d10bd29de25f12c8d38b3c2dbf295",
+      "preparedInputSha256": "353fe95006861b29752b0373cc9507a2689d10bd29de25f12c8d38b3c2dbf295"
+    },
+    {
+      "path": "tools/locate-ground-vertices.cjs",
+      "bytes": 1111,
+      "sha256": "790acff716dc06c9c1643e0f25fac1a7a0e23a8884fc8493dfae75b4e464fe16",
+      "preparedInputSha256": "790acff716dc06c9c1643e0f25fac1a7a0e23a8884fc8493dfae75b4e464fe16"
+    },
+    {
+      "path": "tools/merge-special-deliveries.cjs",
+      "bytes": 1705,
+      "sha256": "1280409a49d49e52b663630d0f42ac22bc05ae04c6b5c7efdd0ffb205f65455b",
+      "preparedInputSha256": "1280409a49d49e52b663630d0f42ac22bc05ae04c6b5c7efdd0ffb205f65455b"
+    },
+    {
+      "path": "tools/mirror-staff-motion.cjs",
+      "bytes": 2709,
+      "sha256": "596a5264a5c782b46520776422a14c104618154ba38898fd0dab24397fd09de8",
+      "preparedInputSha256": "596a5264a5c782b46520776422a14c104618154ba38898fd0dab24397fd09de8"
+    },
+    {
+      "path": "tools/normalize-retarget-glb.cjs",
+      "bytes": 30039,
+      "sha256": "0c112bd39d89bd40e4b32f4cbbf05d22cb4c8e8b194e059e1abc79fe20ce5ec5",
+      "preparedInputSha256": "0c112bd39d89bd40e4b32f4cbbf05d22cb4c8e8b194e059e1abc79fe20ce5ec5"
+    },
+    {
+      "path": "tools/optimize-spider-variants.cjs",
+      "bytes": 28430,
+      "sha256": "062ec9d588b2f34986bd65ad5df84a04ff386a25c7816592cd5f4a51a85eae1c",
+      "preparedInputSha256": "062ec9d588b2f34986bd65ad5df84a04ff386a25c7816592cd5f4a51a85eae1c"
+    },
+    {
+      "path": "tools/package-ranger.cjs",
+      "bytes": 6498,
+      "sha256": "e6cad19e4645f736915e5e2697acc0bc00904feb6f0128662bf400e81526b1d0",
+      "preparedInputSha256": "e6cad19e4645f736915e5e2697acc0bc00904feb6f0128662bf400e81526b1d0"
+    },
+    {
+      "path": "tools/package-reaper.cjs",
+      "bytes": 6492,
+      "sha256": "5054dc0a89de535739c654aba359bd097df741227bc57be65922fb18686c94aa",
+      "preparedInputSha256": "5054dc0a89de535739c654aba359bd097df741227bc57be65922fb18686c94aa"
+    },
+    {
+      "path": "tools/qa-contact-reach.mjs",
+      "bytes": 3087,
+      "sha256": "3421a744918f53c27ea1e80fecf89d6eb5385494e3fd05fb2aecef1edffee35b",
+      "preparedInputSha256": "3421a744918f53c27ea1e80fecf89d6eb5385494e3fd05fb2aecef1edffee35b"
+    },
+    {
+      "path": "tools/qa-decode-delivery.cjs",
+      "bytes": 1881,
+      "sha256": "bea985c05d5c9a81899b233c30e3a7a0d7cea0672865197613ab6cfd14ba8814",
+      "preparedInputSha256": "bea985c05d5c9a81899b233c30e3a7a0d7cea0672865197613ab6cfd14ba8814"
+    },
+    {
+      "path": "tools/qa-equipment-components.py",
+      "bytes": 1834,
+      "sha256": "5d9edb2f77ff53b3719bf455ed9d4085b220e1265e58fd8aed0fb3e6af0fe9c0",
+      "preparedInputSha256": "5d9edb2f77ff53b3719bf455ed9d4085b220e1265e58fd8aed0fb3e6af0fe9c0"
+    },
+    {
+      "path": "tools/qa-equipment-points.py",
+      "bytes": 3202,
+      "sha256": "089d84f1be33aa015fea6eca82b01ab3b8b68f73e2baee61e97cdd94d66f75db",
+      "preparedInputSha256": "089d84f1be33aa015fea6eca82b01ab3b8b68f73e2baee61e97cdd94d66f75db"
+    },
+    {
+      "path": "tools/qa-maximum-reach.mjs",
+      "bytes": 2975,
+      "sha256": "1194820ca508038e1786d462f6091244250a73ecbadf333ee23eed173090b2ca",
+      "preparedInputSha256": "1194820ca508038e1786d462f6091244250a73ecbadf333ee23eed173090b2ca"
+    },
+    {
+      "path": "tools/qa-render-animated.py",
+      "bytes": 7353,
+      "sha256": "ac8f4f53c7f4d4437169f5ce123c4b87dc4863dd29b7b91054843a80a1d78655",
+      "preparedInputSha256": "ac8f4f53c7f4d4437169f5ce123c4b87dc4863dd29b7b91054843a80a1d78655"
+    },
+    {
+      "path": "tools/qa-staff-masks.py",
+      "bytes": 1741,
+      "sha256": "1ce8cb88e8fb21b9cacaee616036d0f9c4212fa63a3f817fca7ab4284892a55c",
+      "preparedInputSha256": "1ce8cb88e8fb21b9cacaee616036d0f9c4212fa63a3f817fca7ab4284892a55c"
+    },
+    {
+      "path": "tools/ranger-pipeline/inspect-optimize-glb.cjs",
+      "bytes": 28283,
+      "sha256": "7b4626f6205eb222060a28d1f2022e4df744889ac669e6c1fcf6507e2300cb03",
+      "preparedInputSha256": "7b4626f6205eb222060a28d1f2022e4df744889ac669e6c1fcf6507e2300cb03"
+    },
+    {
+      "path": "tools/ranger-pipeline/normalize-retarget-glb.cjs",
+      "bytes": 30035,
+      "sha256": "aea3dd3bd54d4a8ca05f7c03dbdd531d7e23b2ec01d5f5b5718ea1c835a1df65",
+      "preparedInputSha256": "aea3dd3bd54d4a8ca05f7c03dbdd531d7e23b2ec01d5f5b5718ea1c835a1df65"
+    },
+    {
+      "path": "tools/ranger-pipeline/sample-skinned-bounds.cjs",
+      "bytes": 7344,
+      "sha256": "43753f010f9cfea85b9a2f4278fb4bac14f7e6297d4368a42a3ac7cac7e7c919",
+      "preparedInputSha256": "43753f010f9cfea85b9a2f4278fb4bac14f7e6297d4368a42a3ac7cac7e7c919"
+    },
+    {
+      "path": "tools/reaper-pipeline/compact-runtime.cjs",
+      "bytes": 2923,
+      "sha256": "35d5b4386b2afdd4aa71cdc2c034e66a5a0efdd7c244c017cae9668f58d504e4",
+      "preparedInputSha256": "35d5b4386b2afdd4aa71cdc2c034e66a5a0efdd7c244c017cae9668f58d504e4"
+    },
+    {
+      "path": "tools/reaper-pipeline/inspect-optimize-glb.cjs",
+      "bytes": 28283,
+      "sha256": "7b4626f6205eb222060a28d1f2022e4df744889ac669e6c1fcf6507e2300cb03",
+      "preparedInputSha256": "7b4626f6205eb222060a28d1f2022e4df744889ac669e6c1fcf6507e2300cb03"
+    },
+    {
+      "path": "tools/reaper-pipeline/normalize-retarget-glb.cjs",
+      "bytes": 30035,
+      "sha256": "aea3dd3bd54d4a8ca05f7c03dbdd531d7e23b2ec01d5f5b5718ea1c835a1df65",
+      "preparedInputSha256": "aea3dd3bd54d4a8ca05f7c03dbdd531d7e23b2ec01d5f5b5718ea1c835a1df65"
+    },
+    {
+      "path": "tools/reaper-pipeline/sample-skinned-bounds.cjs",
+      "bytes": 7304,
+      "sha256": "04e3ab7d258210719f48dc1b7d0cb839224c283f40f441f4d8dfd8ef3762ccf3",
+      "preparedInputSha256": "04e3ab7d258210719f48dc1b7d0cb839224c283f40f441f4d8dfd8ef3762ccf3"
+    },
+    {
+      "path": "tools/rebuild-all.cjs",
+      "bytes": 4333,
+      "sha256": "210fc30431ad2af7b1b6303e7c85766e97b149a75847b139702c83cce2f29420",
+      "preparedInputSha256": "210fc30431ad2af7b1b6303e7c85766e97b149a75847b139702c83cce2f29420"
+    },
+    {
+      "path": "tools/rebuild-ranger.cjs",
+      "bytes": 1014,
+      "sha256": "da9a851d1ec1cb3b7abe376018ced187686a3a9377dba7f5e62914c2479f804a",
+      "preparedInputSha256": "da9a851d1ec1cb3b7abe376018ced187686a3a9377dba7f5e62914c2479f804a"
+    },
+    {
+      "path": "tools/render-comparisons.py",
+      "bytes": 4651,
+      "sha256": "251fb74425a47198f78f20e375ba81518a8bb88efb06e41ca6720380b25fc8ae",
+      "preparedInputSha256": "251fb74425a47198f78f20e375ba81518a8bb88efb06e41ca6720380b25fc8ae"
+    },
+    {
+      "path": "tools/render-ranger-actions.py",
+      "bytes": 5649,
+      "sha256": "dfcf35e86069e64f393884377291f930aa7f159a2f7003d4fc0a62377bf1871b",
+      "preparedInputSha256": "dfcf35e86069e64f393884377291f930aa7f159a2f7003d4fc0a62377bf1871b"
+    },
+    {
+      "path": "tools/render-reaper-actions.py",
+      "bytes": 5560,
+      "sha256": "0b9854f61ea0f4d48977a156b822c3901f516ddb2fa6d18869c36a52d6cababf",
+      "preparedInputSha256": "0b9854f61ea0f4d48977a156b822c3901f516ddb2fa6d18869c36a52d6cababf"
+    },
+    {
+      "path": "tools/render-spider-actions.py",
+      "bytes": 5551,
+      "sha256": "d50765ea923d551a59f5bbc1b8624175b5948b4555e77ab466d8813b1a46a1f3",
+      "preparedInputSha256": "d50765ea923d551a59f5bbc1b8624175b5948b4555e77ab466d8813b1a46a1f3"
+    },
+    {
+      "path": "tools/render-spider.py",
+      "bytes": 5337,
+      "sha256": "2cfbeaff36c852eff49ee3c125e54abc62f860d19ff7fdd016d1313c0ac8e292",
+      "preparedInputSha256": "2cfbeaff36c852eff49ee3c125e54abc62f860d19ff7fdd016d1313c0ac8e292"
+    },
+    {
+      "path": "tools/reskin-dragon.py",
+      "bytes": 8482,
+      "sha256": "70f7e9afe094544e19119b04febeadc7bfb978a28e12baafa0a150fcb2426614",
+      "preparedInputSha256": "70f7e9afe094544e19119b04febeadc7bfb978a28e12baafa0a150fcb2426614"
+    },
+    {
+      "path": "tools/reskin-humanoid.py",
+      "bytes": 7778,
+      "sha256": "e6d4ca4806efe56c829a877d973145d10183e74420808f4bf4d1bd39befced8d",
+      "preparedInputSha256": "e6d4ca4806efe56c829a877d973145d10183e74420808f4bf4d1bd39befced8d"
+    },
+    {
+      "path": "tools/reskin-ranger.previous.py",
+      "bytes": 10632,
+      "sha256": "19fa0f66075dd3009278ecbc21b7720c5325be779458aa6577838e0880313841",
+      "preparedInputSha256": "19fa0f66075dd3009278ecbc21b7720c5325be779458aa6577838e0880313841"
+    },
+    {
+      "path": "tools/reskin-ranger.py",
+      "bytes": 12528,
+      "sha256": "341d90120a93ee36fb7de08e6dffef8b0f8a2051be6cf8d7b021ba356741ab91",
+      "preparedInputSha256": "341d90120a93ee36fb7de08e6dffef8b0f8a2051be6cf8d7b021ba356741ab91"
+    },
+    {
+      "path": "tools/reskin-reaper.py",
+      "bytes": 6889,
+      "sha256": "fafccdbf02c751ada1ef77071ff75c7522d2b33b37cb8a94ab32855332edd34c",
+      "preparedInputSha256": "fafccdbf02c751ada1ef77071ff75c7522d2b33b37cb8a94ab32855332edd34c"
+    },
+    {
+      "path": "tools/resolve-deps.cjs",
+      "bytes": 1147,
+      "sha256": "97ba8f11e1a01b3a71994135b4b7daaac237ac0d4ea7f094a40663efd6eadbef",
+      "preparedInputSha256": "97ba8f11e1a01b3a71994135b4b7daaac237ac0d4ea7f094a40663efd6eadbef"
+    },
+    {
+      "path": "tools/rig-spider.py",
+      "bytes": 13786,
+      "sha256": "6986c2ed16f01f643ae2088c1bf1bf0fac9d1b2244c532b2215afb2b9d7c981c",
+      "preparedInputSha256": "6986c2ed16f01f643ae2088c1bf1bf0fac9d1b2244c532b2215afb2b9d7c981c"
+    },
+    {
+      "path": "tools/sample-skinned-bounds.cjs",
+      "bytes": 7653,
+      "sha256": "21c1d88e37ec3b2c7270c77094d660d96ec1595d6c425ce82d3585baf3044970",
+      "preparedInputSha256": "21c1d88e37ec3b2c7270c77094d660d96ec1595d6c425ce82d3585baf3044970"
+    },
+    {
+      "path": "tools/segment-heavy-weapons.py",
+      "bytes": 4649,
+      "sha256": "ebcf118ddd707941057c8303b82cba4883b63980b62dcd5de17f357084a6bd05",
+      "preparedInputSha256": "ebcf118ddd707941057c8303b82cba4883b63980b62dcd5de17f357084a6bd05"
+    },
+    {
+      "path": "tools/segment-staff-geometry.py",
+      "bytes": 3145,
+      "sha256": "6164d61e7d62f57ef6d74f2b390ca88c10839a8f737256da6c1517d33a2bcad1",
+      "preparedInputSha256": "6164d61e7d62f57ef6d74f2b390ca88c10839a8f737256da6c1517d33a2bcad1"
+    },
+    {
+      "path": "tools/spider-pipeline/inspect-optimize-glb.cjs",
+      "bytes": 28162,
+      "sha256": "f615eac9a5350ce5281184f219ecb80c922006eca8931a0fafe99d50d40f30c4",
+      "preparedInputSha256": "f615eac9a5350ce5281184f219ecb80c922006eca8931a0fafe99d50d40f30c4"
+    },
+    {
+      "path": "tools/spider-pipeline/normalize-retarget-glb.cjs",
+      "bytes": 29307,
+      "sha256": "10e6c4a53959608a77f3255e77db479d6e6aca881c65fa66d06252021750bc62",
+      "preparedInputSha256": "10e6c4a53959608a77f3255e77db479d6e6aca881c65fa66d06252021750bc62"
+    },
+    {
+      "path": "tools/spider-pipeline/sample-skinned-bounds.cjs",
+      "bytes": 7304,
+      "sha256": "04e3ab7d258210719f48dc1b7d0cb839224c283f40f441f4d8dfd8ef3762ccf3",
+      "preparedInputSha256": "04e3ab7d258210719f48dc1b7d0cb839224c283f40f441f4d8dfd8ef3762ccf3"
+    },
+    {
+      "path": "tools/summarize-validation.py",
+      "bytes": 1842,
+      "sha256": "74187cd10eff3025e6c20ea35526bc05196c7d91ef9c15376244f1ee9674024c",
+      "preparedInputSha256": "74187cd10eff3025e6c20ea35526bc05196c7d91ef9c15376244f1ee9674024c"
+    },
+    {
+      "path": "tools/update-grounding.cjs",
+      "bytes": 1872,
+      "sha256": "8c083ed19ccfd8f60c0e73c145c0ff9264c46956de7e985b8f0a4f8a0e9e4a74",
+      "preparedInputSha256": "8c083ed19ccfd8f60c0e73c145c0ff9264c46956de7e985b8f0a4f8a0e9e4a74"
+    },
+    {
+      "path": "tools/validate-spider-export.py",
+      "bytes": 1848,
+      "sha256": "9140110cec79ec7ffb2587a99d245d7715abccdd982a38e71ff0087221d9b362",
+      "preparedInputSha256": "9140110cec79ec7ffb2587a99d245d7715abccdd982a38e71ff0087221d9b362"
+    },
+    {
+      "path": "tools/verify-originals.py",
+      "bytes": 942,
+      "sha256": "6ac334595001f7342ea98c156662757fecb4caff2ab4969b669bcad12557309a",
+      "preparedInputSha256": "6ac334595001f7342ea98c156662757fecb4caff2ab4969b669bcad12557309a"
+    },
+    {
+      "path": "tools/write-review.py",
+      "bytes": 6891,
+      "sha256": "e287be66a990f12a40d821aee3a268bfe0946ae925427a649c0c3ab24684ef58",
+      "preparedInputSha256": "e287be66a990f12a40d821aee3a268bfe0946ae925427a649c0c3ab24684ef58"
+    },
+    {
+      "path": "tools/write-source-archive-list.py",
+      "bytes": 4505,
+      "sha256": "efc74a977a7a99b2f2cdb95afb5afa1e950b89a87081b8f476b5e07b653b4913",
+      "preparedInputSha256": "efc74a977a7a99b2f2cdb95afb5afa1e950b89a87081b8f476b5e07b653b4913"
+    },
+    {
+      "path": "visual-review.md",
+      "bytes": 2906,
+      "sha256": "72e6b8280cce25ee5ada33e2b83263f8e9b07ddc614f91777d434cef7d3b18ef",
+      "preparedInputSha256": "72e6b8280cce25ee5ada33e2b83263f8e9b07ddc614f91777d434cef7d3b18ef"
+    }
+  ],
+  "fileCount": 357,
+  "sourceArchiveBytes": 130177044,
+  "finalDeliverables": [
+    {
+      "path": "optimized/dusk-rogue/dusk-rogue-runtime.hd2048.glb",
+      "bytes": 6555052,
+      "sha256": "6505fa0c91bb083bd980906d737da9b19cf8fe50f876ca426f9445acfeff1843",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/dusk-rogue/dusk-rogue-runtime.mobile1024.glb",
+      "bytes": 2639212,
+      "sha256": "1628475edf810377585072547347a35a19fa3ad1b85b1b03df8c0b25de0f85bf",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/ember-dragon/ember-dragon-runtime.hd2048.glb",
+      "bytes": 6669748,
+      "sha256": "03b53b03cf89238131d018b91ac23e4f45725b8f3dcf70fad0d618624a953d85",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/ember-dragon/ember-dragon-runtime.mobile1024.glb",
+      "bytes": 3350040,
+      "sha256": "8e94460d3f09ac6eb6e0f7b20f790d3336e1540e03d774f356f124f76ca0d0cd",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/frost-mage/frost-mage-runtime.hd2048.glb",
+      "bytes": 7406468,
+      "sha256": "aca28dd501da39af9ffc85bd4f5039eaa7517c9a23ad7ca179e7d055f69c40e6",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/frost-mage/frost-mage-runtime.mobile1024.glb",
+      "bytes": 3096900,
+      "sha256": "caa2507e89f9fc300ee0d0bbacb88b0efe13552429d95aeafac2a664eb2d2d9b",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/goblin/goblin-runtime.hd2048.glb",
+      "bytes": 3756112,
+      "sha256": "a7a4b2c7c4f99206345ae65f03f05a39a5eddcc34cc15a91a639ee088881a991",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/goblin/goblin-runtime.mobile1024.glb",
+      "bytes": 3829020,
+      "sha256": "c1e7a133a130caca6249c2bc7df245b9e46d8886dc5e1029d5b5421d363515bf",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/knife-rogue/knife-rogue-runtime.hd2048.glb",
+      "bytes": 3649260,
+      "sha256": "ee544c8cec01ab549d37ebc52c917cc5d44dd643097e1e304414e9ecdf8efc75",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/knife-rogue/knife-rogue-runtime.mobile1024.glb",
+      "bytes": 3712196,
+      "sha256": "57714f155f70ac2ad358e771150a536d53a2c733a7ff302081776494bc0917b8",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/lich/lich-runtime.hd2048.glb",
+      "bytes": 3545908,
+      "sha256": "518d50c6c6f058cb0ea26d8a38589d0f3877c92ed829317c738a2bfda50e785d",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/lich/lich-runtime.mobile1024.glb",
+      "bytes": 3596048,
+      "sha256": "449c1e16eccd63c82ba49da960114cc557bb8a0e61f3e759bbcf45488d39bf2f",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/lion-knight/lion-knight-runtime.hd2048.glb",
+      "bytes": 7172864,
+      "sha256": "1db1cd4d63da1c8ab79c4e08b87de0d805d0ece7274730da4655922dd4a9bf50",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/lion-knight/lion-knight-runtime.mobile1024.glb",
+      "bytes": 3021932,
+      "sha256": "d5815c2e56229d68fed1e4267fab315a2fdae38876760e1596c24d0d445966e7",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/ogre/ogre-runtime.hd2048.glb",
+      "bytes": 3917808,
+      "sha256": "385a47b5e3b27d0203c8ce9e579006e00a8ec31a8fbb5982f4a8714bcd6d0954",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/ogre/ogre-runtime.mobile1024.glb",
+      "bytes": 3937504,
+      "sha256": "b0e15300d4d35a02bcadcc50756a20361545ab4612f2605d9317e8160f491d27",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/ranger/ranger-runtime.hd2048.glb",
+      "bytes": 3626684,
+      "sha256": "f42a3fcbc4ed9d8c8f6ba8253b164b8a13d7af93514a7e3aa7c8222c588f2be9",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/ranger/ranger-runtime.mobile1024.glb",
+      "bytes": 3685700,
+      "sha256": "e99ecb1e557455d927d825b7089d3b48652414284f7ccfce9fceed65857a029d",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/reaper/reaper-runtime.hd2048.glb",
+      "bytes": 3560708,
+      "sha256": "dd6f47ccff71dfa8ad7fe9e6e73920041840a0ea9cbda18e3b3d9a1eea61b36d",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/reaper/reaper-runtime.mobile1024.glb",
+      "bytes": 3622420,
+      "sha256": "69a0352aeb31c83cb6eacfbd0c1929e7b09d43096f72384bb17934690d078cd7",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/sage/sage-runtime.hd2048.glb",
+      "bytes": 3580824,
+      "sha256": "5754ad3a887d5f2e306b004b0e921d6f6cf151f6e781b04e6d60b72f16fee524",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/sage/sage-runtime.mobile1024.glb",
+      "bytes": 3616028,
+      "sha256": "a197d091d6a3691c4383fc02aa10917cdc6d50a35f292e4581171b671dd60a42",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/silver-knight/silver-knight-runtime.hd2048.glb",
+      "bytes": 3710392,
+      "sha256": "e1e35106788437f6088e491fe47e1efd3920180ab9236436b8ad3f043e1d5405",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/silver-knight/silver-knight-runtime.mobile1024.glb",
+      "bytes": 3782032,
+      "sha256": "68df4950c9fd42eb06ba956c583f143ed820a0701fb87426c95430a3c30085cd",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/skeleton-warrior/skeleton-warrior-runtime.hd2048.glb",
+      "bytes": 3910956,
+      "sha256": "e705af58a5a3d72d71c4319359210f7059d9019cc4a48545ac4deaab99e3bd07",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/skeleton-warrior/skeleton-warrior-runtime.mobile1024.glb",
+      "bytes": 3961572,
+      "sha256": "4174baf5e4bf86a28a4229c89c0b56d4aef68fd2a72c9038c7487ba717eb9101",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/spider/spider-runtime.hd2048.glb",
+      "bytes": 6026916,
+      "sha256": "f474a184942c23e8a677d11380081a63a9d587218a652f449e6022fda4248cc4",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    },
+    {
+      "path": "optimized/spider/spider-runtime.mobile1024.glb",
+      "bytes": 2929980,
+      "sha256": "80f14f828811811e6a0ad80fe5026cca38714eafa41091c1256058056737471e",
+      "disposition": "Versioned public runtime output; no duplicate source archive copy needed if the public output is preserved."
+    }
+  ],
+  "donors": {
+    "rigDirectory": "../2026-09-08/models",
+    "animationDirectory": "../2026-09-08/models/animations",
+    "identityRecords": "provenance/<slug>.json and original retarget reports contain exact donor hashes and job IDs"
+  },
+  "rebuild": "node tools/rebuild-all.cjs --deps-root <repository> --blender-python <python-with-bpy>",
+  "excluded": [
+    "Decoded QA meshes, failed intermediate runtime GLBs, heavy-source-arrays.npz, dependency caches, provider auth state",
+    "Most derived humanoid GLBs are reproduced from preserved originals; Reaper, Dragon, Ranger fitted seeds and native editable Spider blend are retained explicitly."
+  ],
+  "description": "Selected original models, receipts, required rig inputs, portable recipes and reviewed evidence. Inventory filesystem paths normalized; all original model bytes preserved. Archived recipe/log trailing whitespace normalized without changing model bytes."
+}
