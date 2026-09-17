@@ -7,6 +7,11 @@ available Ashen Higgsfield 3D Jutsu environment models. See
 [source recovery and integration](docs/SOURCE_RECOVERY.md) for provenance,
 validation, and the limitation that later published versions have not been recovered.
 
+The [September 17 Higgsfield source import](assets-source/higgsfield/2026-09-17/README.md)
+contains the latest 15 Ashen-related image/video generations: 14 original PNGs
+and one MP4, with source metadata and checksums. These are source assets for
+future integration; importing them does not change the running game.
+
 ## Dungeon runs
 
 Start a new run or continue the saved one. Speak to the Keeper in the Threshold, then descend through Cinder Crypt, the Ossuary and Chapel of Ash to the Hollow Throne. Each of the three progression seals requires defeating its chamber's three wardens and awakening its shrine. Defeat the Hollow King to clear the dungeon. Loot four relic caches, strengthen armor and blade, and rest at shrines between encounters. Starting another run retains the existing explicit confirmation before replacing a save.

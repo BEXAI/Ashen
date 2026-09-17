@@ -1,0 +1,527 @@
+{
+  "schema_version": 1,
+  "provider": "Higgsfield",
+  "repository": "https://github.com/BEXAI/Ashen",
+  "selection": "Latest 15 completed Ashen-related image/video generations, ordered by provider creation time descending. Unrelated Nismo and other projects excluded. 3D Jutsu scenes are maintained separately in assets-source/higgsfield-jutsu.",
+  "items": [
+    {
+      "rank": 1,
+      "name": "ashen-realm-gameplay-trailer",
+      "id": "97671044-8f81-44b3-b2b7-e3659faba062",
+      "type": "video",
+      "model": "kling3_0",
+      "created_at": "2026-09-09T03:03:54.351Z",
+      "original_filename": "hf_20260909_030354_97671044-8f81-44b3-b2b7-e3659faba062.mp4",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260909_030354_97671044-8f81-44b3-b2b7-e3659faba062.mp4",
+      "filename": "ashen-realm-gameplay-trailer--97671044.mp4",
+      "prompt": "Cinematic gameplay trailer for a browser-based dark fantasy dungeon RPG, presented as a polished real-time game rather than a movie. Hyper-realistic AAA visual target: physically based materials, photoreal stone crypts, wet reflective floors, volumetric torch smoke, dense atmospheric fog, realistic cloth, steel, leather, skin and creature surfaces, dramatic global illumination, sharp high-detail presentation. Start with a lone armored player character entering an individual instanced dungeon through a ruined gothic gate. Transition into third-person gameplay: responsive dodge roll, sword parry, heavy attack, magic ability, enemy health bars and minimal premium HUD. Show highly realistic original character and monster designs: scarred human dungeon knight in dark plate and leather, skeletal revenants with weathered armor, a huge horned subterranean demon with realistic musculature and cracked obsidian skin, and a pale dungeon stalker creature. Show combat in narrow corridors, traps, loot chest interaction, inventory/equipment panel, then a boss arena fight. Include brief mobile iPhone browser gameplay framing with large ergonomic thumb controls, readable buttons, safe-area spacing, smooth touch camera controls, then return to full-screen desktop browser gameplay. No sign-in wall: title screen immediately offers PLAY / CONTINUE and enters the dungeon. Visual language should suggest Unreal Engine 5 quality while remaining an original game, 4K-master cinematic detail, stable geometry, consistent character identity, realistic animation, high-end game trailer camera work. End on a wide shot of the player facing the enormous dungeon boss with title text: ASHEN REALM \u2014 ENTER THE DUNGEON. No logos of existing games, no copyrighted characters.",
+      "params": {
+        "prompt": "Cinematic gameplay trailer for a browser-based dark fantasy dungeon RPG, presented as a polished real-time game rather than a movie. Hyper-realistic AAA visual target: physically based materials, photoreal stone crypts, wet reflective floors, volumetric torch smoke, dense atmospheric fog, realistic cloth, steel, leather, skin and creature surfaces, dramatic global illumination, sharp high-detail presentation. Start with a lone armored player character entering an individual instanced dungeon through a ruined gothic gate. Transition into third-person gameplay: responsive dodge roll, sword parry, heavy attack, magic ability, enemy health bars and minimal premium HUD. Show highly realistic original character and monster designs: scarred human dungeon knight in dark plate and leather, skeletal revenants with weathered armor, a huge horned subterranean demon with realistic musculature and cracked obsidian skin, and a pale dungeon stalker creature. Show combat in narrow corridors, traps, loot chest interaction, inventory/equipment panel, then a boss arena fight. Include brief mobile iPhone browser gameplay framing with large ergonomic thumb controls, readable buttons, safe-area spacing, smooth touch camera controls, then return to full-screen desktop browser gameplay. No sign-in wall: title screen immediately offers PLAY / CONTINUE and enters the dungeon. Visual language should suggest Unreal Engine 5 quality while remaining an original game, 4K-master cinematic detail, stable geometry, consistent character identity, realistic animation, high-end game trailer camera work. End on a wide shot of the player facing the enormous dungeon boss with title text: ASHEN REALM \u2014 ENTER THE DUNGEON. No logos of existing games, no copyrighted characters.",
+        "aspect_ratio": "16:9",
+        "duration": 10,
+        "medias": [],
+        "width": 1280,
+        "height": 720,
+        "multi_shots": false,
+        "multi_prompt": [],
+        "sound": "on",
+        "cfg_scale": 0.5,
+        "mode": "std",
+        "kling_elements": [],
+        "kling_element_ids": [],
+        "multi_shot_mode": "custom",
+        "reference_elements": [],
+        "enhance_prompt": false
+      },
+      "bytes": 10662380,
+      "sha256": "0cbe4f7ceed6e2c73baf9a1b701652c9de6f6b554253791e11a2fdfa6dce49bd",
+      "duration_seconds": 10.041667,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "path": "assets-source/higgsfield/2026-09-17/ashen-realm-gameplay-trailer--97671044.mp4"
+    },
+    {
+      "rank": 2,
+      "name": "ember-sovereign-hero-key-art",
+      "id": "82393442-761b-459c-81a2-315895b0ff89",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T19:58:10.455Z",
+      "original_filename": "hf_20260908_195810_82393442-761b-459c-81a2-315895b0ff89.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_195810_82393442-761b-459c-81a2-315895b0ff89.png",
+      "filename": "ember-sovereign-hero-key-art--82393442.png",
+      "prompt": "Create a new hyper-realistic cinematic hero key art image for the dark fantasy RPG Ashen Realm. Preserve the exact Ember Sovereign character identity from the supplied reference: same long spiked black iron crown integrated into angular helmet, narrow amber eye slits, fitted layered blackened plate armor, broad obsidian breastplate with a few thin irregular glowing orange fissures, oxblood draped waist cloth, long soot black cape. Natural adult human proportions and physically credible costume construction, no cartoon or toy appearance. Scene: the Sovereign stands full-body in a vast ruined volcanic cathedral, slightly right of center, on wet dark basalt floor with reflections. Character must remain the unmistakable focal point. Low-angle 50mm cinematic camera, strong but controlled warm rim light from a lava fissure behind him, cool soft skylight showing the faceplate and armor surface, believable patinated metal, tiny chips and ash, fabric weave and layered folds. Restrained sparse embers and atmospheric depth. Two massive broken cathedral pillars frame the scene at the edges; subdued left third provides negative space suitable for a game's menu. Keep armor silhouette and crown identical to reference; do not add weapons, extra limbs, ornament or giant horns. Premium photoreal dark fantasy film still, tactile materials, wide tonal range, crisp character, no text, no logo, no HUD, no painted illustration.",
+      "params": {
+        "prompt": "Create a new hyper-realistic cinematic hero key art image for the dark fantasy RPG Ashen Realm. Preserve the exact Ember Sovereign character identity from the supplied reference: same long spiked black iron crown integrated into angular helmet, narrow amber eye slits, fitted layered blackened plate armor, broad obsidian breastplate with a few thin irregular glowing orange fissures, oxblood draped waist cloth, long soot black cape. Natural adult human proportions and physically credible costume construction, no cartoon or toy appearance. Scene: the Sovereign stands full-body in a vast ruined volcanic cathedral, slightly right of center, on wet dark basalt floor with reflections. Character must remain the unmistakable focal point. Low-angle 50mm cinematic camera, strong but controlled warm rim light from a lava fissure behind him, cool soft skylight showing the faceplate and armor surface, believable patinated metal, tiny chips and ash, fabric weave and layered folds. Restrained sparse embers and atmospheric depth. Two massive broken cathedral pillars frame the scene at the edges; subdued left third provides negative space suitable for a game's menu. Keep armor silhouette and crown identical to reference; do not add weapons, extra limbs, ornament or giant horns. Premium photoreal dark fantasy film still, tactile materials, wide tonal range, crisp character, no text, no logo, no HUD, no painted illustration.",
+        "aspect_ratio": "16:9",
+        "input_images": [
+          {
+            "id": "e793f490-1984-43d7-a8c6-67fc7eeec237",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/e793f490-1984-43d7-a8c6-67fc7eeec237_resize.jpg"
+          }
+        ],
+        "width": 5504,
+        "height": 3072,
+        "resolution": "4k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 18192918,
+      "sha256": "42a59f3f7339341808ba982252c3bc270f706bd51e2cd0f850c9c5c873033377",
+      "dimensions": {
+        "width": 5504,
+        "height": 3072
+      },
+      "path": "assets-source/higgsfield/2026-09-17/ember-sovereign-hero-key-art--82393442.png"
+    },
+    {
+      "rank": 3,
+      "name": "crypt-warden-photoreal-reference",
+      "id": "52bc1c7f-768c-4687-8557-7b309e19c275",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T19:47:46.538Z",
+      "original_filename": "hf_20260908_194746_52bc1c7f-768c-4687-8557-7b309e19c275.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_194746_52bc1c7f-768c-4687-8557-7b309e19c275.png",
+      "filename": "crypt-warden-photoreal-reference--52bc1c7f.png",
+      "prompt": "Photorealistic dark-fantasy game character, photographed like a real actor in handcrafted practical costume for a high-budget film. SINGLE full-body character, crown/head to boot soles entirely visible, centered on a plain neutral medium-grey studio background, flat soft neutral illumination revealing all material detail. Near-front view with only a tiny 8-degree turn. Natural human proportions, head about one-eighth total body height, anatomical hands, arms in a relaxed A-pose 30 degrees away from torso, hands empty with fingers visible, legs slightly apart. The sole subject must be an actual lifelike believable physical character, not an illustration, cartoon, plastic toy, glossy statue or low-poly model. Excellent reference for image-to-3D reconstruction. No weapons, props, pedestal, smoke, text, collage or environment. CRYPT WARDEN, height2.05m. An unnerving emaciated undead ancient guardian, realistic anatomically accurate human skull with hollow eye sockets and subtle dim amber pinprick eyes, cracked stained porous bone, real tiny human teeth and cheekbones, no grin caricature. Desiccated corpse-grey leathery flesh stretched over lean human anatomy, neck tendons, sparse rib exposure anatomically correctly curved and small, sinewy arms and clawed fingers. Asymmetric fractured bone lamellar shoulder guard strapped on with rotten leather, torn dull charcoal burial cloth around waist and shins. No crown. Narrow anatomical feet with real toes, convincing joints, old weathered metal restraints. Non-graphic, no blood/gore, no exposed organs. Long skull proportions rather than giant round cranium. Fine skin creases, pores, cracked bone surfaces, irregular aged cloth.",
+      "params": {
+        "prompt": "Photorealistic dark-fantasy game character, photographed like a real actor in handcrafted practical costume for a high-budget film. SINGLE full-body character, crown/head to boot soles entirely visible, centered on a plain neutral medium-grey studio background, flat soft neutral illumination revealing all material detail. Near-front view with only a tiny 8-degree turn. Natural human proportions, head about one-eighth total body height, anatomical hands, arms in a relaxed A-pose 30 degrees away from torso, hands empty with fingers visible, legs slightly apart. The sole subject must be an actual lifelike believable physical character, not an illustration, cartoon, plastic toy, glossy statue or low-poly model. Excellent reference for image-to-3D reconstruction. No weapons, props, pedestal, smoke, text, collage or environment. CRYPT WARDEN, height2.05m. An unnerving emaciated undead ancient guardian, realistic anatomically accurate human skull with hollow eye sockets and subtle dim amber pinprick eyes, cracked stained porous bone, real tiny human teeth and cheekbones, no grin caricature. Desiccated corpse-grey leathery flesh stretched over lean human anatomy, neck tendons, sparse rib exposure anatomically correctly curved and small, sinewy arms and clawed fingers. Asymmetric fractured bone lamellar shoulder guard strapped on with rotten leather, torn dull charcoal burial cloth around waist and shins. No crown. Narrow anatomical feet with real toes, convincing joints, old weathered metal restraints. Non-graphic, no blood/gore, no exposed organs. Long skull proportions rather than giant round cranium. Fine skin creases, pores, cracked bone surfaces, irregular aged cloth.",
+        "aspect_ratio": "2:3",
+        "input_images": [],
+        "width": 3392,
+        "height": 5056,
+        "resolution": "4k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 22285604,
+      "sha256": "dfb0457ef7bedcc26b747007f1948174cca09bdf23997fa77f3b3118bfe96e21",
+      "dimensions": {
+        "width": 3392,
+        "height": 5056
+      },
+      "path": "assets-source/higgsfield/2026-09-17/crypt-warden-photoreal-reference--52bc1c7f.png"
+    },
+    {
+      "rank": 4,
+      "name": "ash-knight-photoreal-reference",
+      "id": "681ce391-3b6b-4e7f-a636-b11e165c63a6",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T19:47:46.461Z",
+      "original_filename": "hf_20260908_194746_681ce391-3b6b-4e7f-a636-b11e165c63a6.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_194746_681ce391-3b6b-4e7f-a636-b11e165c63a6.png",
+      "filename": "ash-knight-photoreal-reference--681ce391.png",
+      "prompt": "Photorealistic dark-fantasy game character, photographed like a real actor in handcrafted practical costume for a high-budget film. SINGLE full-body character, crown/head to boot soles entirely visible, centered on a plain neutral medium-grey studio background, flat soft neutral illumination revealing all material detail. Near-front view with only a tiny 8-degree turn. Natural human proportions, head about one-eighth total body height, anatomical hands, arms in a relaxed A-pose 30 degrees away from torso, hands empty with fingers visible, legs slightly apart. The sole subject must be an actual lifelike believable physical character, not an illustration, cartoon, plastic toy, glossy statue or low-poly model. Excellent reference for image-to-3D reconstruction. No weapons, props, pedestal, smoke, text, collage or environment. ASH KNIGHT, height1.88m. Fitted authentic late medieval battle-worn plate armor over tight realistic chainmail and quilted gambeson, dark oxblood cloth split surcoat, narrow short weathered oxblood cape entirely BEHIND body. Anatomically fitted asymmetric pauldrons, fluted cuirass, leather straps and darkened rivets, separate overlapping articulated elbow plates and finger gauntlets, grounded shaped sabatons. Closed realistic steel barbute helmet with narrow dark eyeslit; no oversized head. Weathered blue-black steel with exposed worn edges, subtle scratches, oxidation, crevice dirt and soot. Cloth dense woven wool with irregular frayed hem, rich but subdued red. Convincing real object thickness and joints, disciplined medieval design, no spikes.",
+      "params": {
+        "prompt": "Photorealistic dark-fantasy game character, photographed like a real actor in handcrafted practical costume for a high-budget film. SINGLE full-body character, crown/head to boot soles entirely visible, centered on a plain neutral medium-grey studio background, flat soft neutral illumination revealing all material detail. Near-front view with only a tiny 8-degree turn. Natural human proportions, head about one-eighth total body height, anatomical hands, arms in a relaxed A-pose 30 degrees away from torso, hands empty with fingers visible, legs slightly apart. The sole subject must be an actual lifelike believable physical character, not an illustration, cartoon, plastic toy, glossy statue or low-poly model. Excellent reference for image-to-3D reconstruction. No weapons, props, pedestal, smoke, text, collage or environment. ASH KNIGHT, height1.88m. Fitted authentic late medieval battle-worn plate armor over tight realistic chainmail and quilted gambeson, dark oxblood cloth split surcoat, narrow short weathered oxblood cape entirely BEHIND body. Anatomically fitted asymmetric pauldrons, fluted cuirass, leather straps and darkened rivets, separate overlapping articulated elbow plates and finger gauntlets, grounded shaped sabatons. Closed realistic steel barbute helmet with narrow dark eyeslit; no oversized head. Weathered blue-black steel with exposed worn edges, subtle scratches, oxidation, crevice dirt and soot. Cloth dense woven wool with irregular frayed hem, rich but subdued red. Convincing real object thickness and joints, disciplined medieval design, no spikes.",
+        "aspect_ratio": "2:3",
+        "input_images": [],
+        "width": 3392,
+        "height": 5056,
+        "resolution": "4k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 25159149,
+      "sha256": "ea517d28ecdd2836cf639ffdbddddd6f59e2b0a35fbf63748ef66f42837b6fde",
+      "dimensions": {
+        "width": 3392,
+        "height": 5056
+      },
+      "path": "assets-source/higgsfield/2026-09-17/ash-knight-photoreal-reference--681ce391.png"
+    },
+    {
+      "rank": 5,
+      "name": "ember-sovereign-photoreal-reference",
+      "id": "3d191db7-bca7-4688-8bf7-e0437b0d36c3",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T19:47:46.411Z",
+      "original_filename": "hf_20260908_194746_3d191db7-bca7-4688-8bf7-e0437b0d36c3.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_194746_3d191db7-bca7-4688-8bf7-e0437b0d36c3.png",
+      "filename": "ember-sovereign-photoreal-reference--3d191db7.png",
+      "prompt": "Photorealistic dark-fantasy game character, photographed like a real actor in handcrafted practical costume for a high-budget film. SINGLE full-body character, crown/head to boot soles entirely visible, centered on a plain neutral medium-grey studio background, flat soft neutral illumination revealing all material detail. Near-front view with only a tiny 8-degree turn. Natural human proportions, head about one-eighth total body height, anatomical hands, arms in a relaxed A-pose 30 degrees away from torso, hands empty with fingers visible, legs slightly apart. The sole subject must be an actual lifelike believable physical character, not an illustration, cartoon, plastic toy, glossy statue or low-poly model. Excellent reference for image-to-3D reconstruction. No weapons, props, pedestal, smoke, text, collage or environment. EMBER SOVEREIGN, height2.25m plus narrow iron crown. Powerful realistically proportioned male humanoid in layered blackened iron and fractured obsidian armor, narrow cruel angular helmet with dim ember eyes, tall thin worn iron crown integrated into helmet. Real handforged metal, fractured volcanic plate cuirass with very thin deep orange glowing fissures recessed BETWEEN actual irregular broken pieces, less than3percent glow coverage. Convincing thickness, dark charcoal wool cape behind body, heavy muted burgundy cloth waist drapes, realistic anatomically fitted articulated pauldrons elbowplates gauntlets and boots. Subtle worn metallic edges, soot, mineral roughness, microchips, differentiated steel vs volcanic glass materials. Armor ornament elaborate but believable, very small few sharp crown-like shoulder tips rather than oversized spikes. Distinguished threatening regal silhouette.",
+      "params": {
+        "prompt": "Photorealistic dark-fantasy game character, photographed like a real actor in handcrafted practical costume for a high-budget film. SINGLE full-body character, crown/head to boot soles entirely visible, centered on a plain neutral medium-grey studio background, flat soft neutral illumination revealing all material detail. Near-front view with only a tiny 8-degree turn. Natural human proportions, head about one-eighth total body height, anatomical hands, arms in a relaxed A-pose 30 degrees away from torso, hands empty with fingers visible, legs slightly apart. The sole subject must be an actual lifelike believable physical character, not an illustration, cartoon, plastic toy, glossy statue or low-poly model. Excellent reference for image-to-3D reconstruction. No weapons, props, pedestal, smoke, text, collage or environment. EMBER SOVEREIGN, height2.25m plus narrow iron crown. Powerful realistically proportioned male humanoid in layered blackened iron and fractured obsidian armor, narrow cruel angular helmet with dim ember eyes, tall thin worn iron crown integrated into helmet. Real handforged metal, fractured volcanic plate cuirass with very thin deep orange glowing fissures recessed BETWEEN actual irregular broken pieces, less than3percent glow coverage. Convincing thickness, dark charcoal wool cape behind body, heavy muted burgundy cloth waist drapes, realistic anatomically fitted articulated pauldrons elbowplates gauntlets and boots. Subtle worn metallic edges, soot, mineral roughness, microchips, differentiated steel vs volcanic glass materials. Armor ornament elaborate but believable, very small few sharp crown-like shoulder tips rather than oversized spikes. Distinguished threatening regal silhouette.",
+        "aspect_ratio": "2:3",
+        "input_images": [],
+        "width": 3392,
+        "height": 5056,
+        "resolution": "4k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 19292158,
+      "sha256": "ed89a25e16c5a988d6d4ab72a7c6bd4cede8bc2d5138c7b0a77a956353751606",
+      "dimensions": {
+        "width": 3392,
+        "height": 5056
+      },
+      "path": "assets-source/higgsfield/2026-09-17/ember-sovereign-photoreal-reference--3d191db7.png"
+    },
+    {
+      "rank": 6,
+      "name": "crypt-warden-skin-albedo",
+      "id": "167484ba-7836-447d-a008-66fad885ea89",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T04:41:18.620Z",
+      "original_filename": "hf_20260908_044118_167484ba-7836-447d-a008-66fad885ea89.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_044118_167484ba-7836-447d-a008-66fad885ea89.png",
+      "filename": "crypt-warden-skin-albedo--167484ba.png",
+      "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: Crypt Warden skin, an undead humanoid's corpse-gray desaturated taupe leathery scar tissue. Organic pore detail, fine dry irregular leathery creases, restrained subtle blue-gray veins below the skin color, subtle irregular healed scars distributed organically. Muted cool gray-taupe palette, aged and dead without gore. This is a close surface swatch, entirely unrecognizable as any particular face or body part. No recognizable face, eyes, mouth, ears, limbs, body, blood, wounds, sores, hair, clothing, orange skin tones or fleshy wet highlights.",
+      "params": {
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: Crypt Warden skin, an undead humanoid's corpse-gray desaturated taupe leathery scar tissue. Organic pore detail, fine dry irregular leathery creases, restrained subtle blue-gray veins below the skin color, subtle irregular healed scars distributed organically. Muted cool gray-taupe palette, aged and dead without gore. This is a close surface swatch, entirely unrecognizable as any particular face or body part. No recognizable face, eyes, mouth, ears, limbs, body, blood, wounds, sores, hair, clothing, orange skin tones or fleshy wet highlights.",
+        "aspect_ratio": "1:1",
+        "input_images": [],
+        "width": 4096,
+        "height": 4096,
+        "resolution": "4k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 29499031,
+      "sha256": "a2f979acc712073dfebc0ffd61769b745f6f639e0c6d57a343d61f7d5aca3ef4",
+      "dimensions": {
+        "width": 4096,
+        "height": 4096
+      },
+      "path": "assets-source/higgsfield/2026-09-17/crypt-warden-skin-albedo--167484ba.png"
+    },
+    {
+      "rank": 7,
+      "name": "ember-sovereign-obsidian-albedo",
+      "id": "7f30eae7-5931-41d5-b9ff-833b44abf467",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T04:41:18.601Z",
+      "original_filename": "hf_20260908_044118_7f30eae7-5931-41d5-b9ff-833b44abf467.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_044118_7f30eae7-5931-41d5-b9ff-833b44abf467.png",
+      "filename": "ember-sovereign-obsidian-albedo--7f30eae7.png",
+      "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: Ember Sovereign obsidian. Near-black dark charcoal fractured volcanic glass with an irregular angular fracture network, charcoal seams, and only small restrained ember-orange fissures. Broad quiet near-black regions dominate, while occasional narrow dim orange pigment-colored fissures provide accents. Rich microscopic volcanic texture and sharp fractured visual structure without baked height shading. No specular highlights, reflections, external light, yellow-white lava, flame, large bright glowing areas, smoke, raised rocks, rubble, individual isolated stones or 3D perspective. Orange fissures remain restrained so game engine emission can be controlled separately.",
+      "params": {
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: Ember Sovereign obsidian. Near-black dark charcoal fractured volcanic glass with an irregular angular fracture network, charcoal seams, and only small restrained ember-orange fissures. Broad quiet near-black regions dominate, while occasional narrow dim orange pigment-colored fissures provide accents. Rich microscopic volcanic texture and sharp fractured visual structure without baked height shading. No specular highlights, reflections, external light, yellow-white lava, flame, large bright glowing areas, smoke, raised rocks, rubble, individual isolated stones or 3D perspective. Orange fissures remain restrained so game engine emission can be controlled separately.",
+        "aspect_ratio": "1:1",
+        "input_images": [],
+        "width": 4096,
+        "height": 4096,
+        "resolution": "4k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 19604893,
+      "sha256": "0a3406b9ce7c923ca2cede97bb0e106137a6a73ada4aeb08e854bf28e4f3ad9d",
+      "dimensions": {
+        "width": 4096,
+        "height": 4096
+      },
+      "path": "assets-source/higgsfield/2026-09-17/ember-sovereign-obsidian-albedo--7f30eae7.png"
+    },
+    {
+      "rank": 8,
+      "name": "weathered-forged-steel-albedo",
+      "id": "f578dfc0-0ed2-432d-ac86-611d08bc29cd",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T04:41:18.482Z",
+      "original_filename": "hf_20260908_044118_f578dfc0-0ed2-432d-ac86-611d08bc29cd.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_044118_f578dfc0-0ed2-432d-ac86-611d08bc29cd.png",
+      "filename": "weathered-forged-steel-albedo--f578dfc0.png",
+      "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: weathered forged dark silver steel. Worn satin metal with tiny mostly longitudinal abrasions of varied lengths, subtle dark oxidation pits and rubbed-wear variation implied only through pigment. Restrained dark silver, gunmetal and soft graphite palette. Random gentle forge mottling, convincing fine scratch grain, minimal coarse damage. It should read as dark medieval forged steel in engine lighting. Avoid chrome, mirror shine, photographed objects, bolts, panels, bevels, embossed patterns, bright rim light, gradients, and rusty orange.",
+      "params": {
+        "prompt": "Create one high-detail seamless square material base-color/albedo texture for physically based real-time 3D characters in the realistic torchlit stone-dungeon RPG Ashen Realm. Output exactly 4096 x 4096 pixels. This is a flat orthographic diffuse/albedo material scan filling the entire frame, not a rendered object or scene. Color-only surface information, evenly neutral in value with no baked directional illumination. The material must continue seamlessly across left/right and top/bottom edges; natural non-repeating detail distribution inside the tile. Preserve realistic microscopic surface detail and broad readable quiet regions. No labels, grids, borders, text, icons, silhouettes, perspective, visible tile edges, framing, reflected environment, strong highlights, cast shadows, or external light. Material: weathered forged dark silver steel. Worn satin metal with tiny mostly longitudinal abrasions of varied lengths, subtle dark oxidation pits and rubbed-wear variation implied only through pigment. Restrained dark silver, gunmetal and soft graphite palette. Random gentle forge mottling, convincing fine scratch grain, minimal coarse damage. It should read as dark medieval forged steel in engine lighting. Avoid chrome, mirror shine, photographed objects, bolts, panels, bevels, embossed patterns, bright rim light, gradients, and rusty orange.",
+        "aspect_ratio": "1:1",
+        "input_images": [],
+        "width": 4096,
+        "height": 4096,
+        "resolution": "4k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 27405779,
+      "sha256": "d411782f8991c0177612e5d6bfb59c3976f58af6423ecd29c2cdca3d533c5400",
+      "dimensions": {
+        "width": 4096,
+        "height": 4096
+      },
+      "path": "assets-source/higgsfield/2026-09-17/weathered-forged-steel-albedo--f578dfc0.png"
+    },
+    {
+      "rank": 9,
+      "name": "torch-flame-atlas",
+      "id": "0268dca9-28c5-47df-b46c-6e10b6e44658",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T03:35:53.409Z",
+      "original_filename": "hf_20260908_033553_0268dca9-28c5-47df-b46c-6e10b6e44658.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_0268dca9-28c5-47df-b46c-6e10b6e44658.png",
+      "filename": "torch-flame-atlas--0268dca9.png",
+      "prompt": "Create a production sprite atlas for a 3D game torch fire effect. Exactly 4 columns by 4 rows, 16 equally sized square frames covering the full square canvas edge to edge. Each frame shows one isolated small flame only: bright white-yellow core, amber and orange tongues, a little faint wispy grey smoke above. Pure pitch black background in every cell, no outlines, no dividers, no text, no numbers, no torch or holder. Flame bases stay at identical centered x and fixed lower y within every cell. Smooth consecutive animation progression from top-left across each row, then next row: flame rising, curling and rolling gently through 16 stages which loop seamlessly. Every flame fits fully inside its own square with generous dark margin, does not touch neighboring cells. Physically realistic volumetric flame texture with feathered dissipating edges suitable for additive blending. The atlas fills a 1024x1024 image; 4x4 exact regular layout.",
+      "params": {
+        "prompt": "Create a production sprite atlas for a 3D game torch fire effect. Exactly 4 columns by 4 rows, 16 equally sized square frames covering the full square canvas edge to edge. Each frame shows one isolated small flame only: bright white-yellow core, amber and orange tongues, a little faint wispy grey smoke above. Pure pitch black background in every cell, no outlines, no dividers, no text, no numbers, no torch or holder. Flame bases stay at identical centered x and fixed lower y within every cell. Smooth consecutive animation progression from top-left across each row, then next row: flame rising, curling and rolling gently through 16 stages which loop seamlessly. Every flame fits fully inside its own square with generous dark margin, does not touch neighboring cells. Physically realistic volumetric flame texture with feathered dissipating edges suitable for additive blending. The atlas fills a 1024x1024 image; 4x4 exact regular layout.",
+        "aspect_ratio": "1:1",
+        "input_images": [],
+        "width": 1024,
+        "height": 1024,
+        "resolution": "1k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 1017389,
+      "sha256": "53f06885d4fee6efde35dd3b8a3fbf7010e01908a25b83f4d7aa4f006cecb11d",
+      "dimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "path": "assets-source/higgsfield/2026-09-17/torch-flame-atlas--0268dca9.png"
+    },
+    {
+      "rank": 10,
+      "name": "ash-knight-character-reference",
+      "id": "cf54ea08-3569-43c7-a1c9-7ae5a632bd5c",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T03:35:53.210Z",
+      "original_filename": "hf_20260908_033553_cf54ea08-3569-43c7-a1c9-7ae5a632bd5c.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_cf54ea08-3569-43c7-a1c9-7ae5a632bd5c.png",
+      "filename": "ash-knight-character-reference--cf54ea08.png",
+      "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: ASH KNIGHT from LEFT panel of triptych. Enclosed angular medieval steel helmet with narrow visor slit and lower vertical breathing slits. Layered battered dark steel cuirass and segmented steel arm and leg armor, chainmail visible at neck and joints, rough brown leather belts and straps, worn oxblood dark red fabric tunic/skirt and a short tattered oxblood cape falling behind shoulders. Asymmetric practical pauldrons preserved. Steel gauntlets, sturdy armored boots. Human proportions. Render all materials clearly, especially oxblood cloth, chainmail and steel scuffing. Keep cape behind body so legs and arms remain individually readable.",
+      "params": {
+        "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: ASH KNIGHT from LEFT panel of triptych. Enclosed angular medieval steel helmet with narrow visor slit and lower vertical breathing slits. Layered battered dark steel cuirass and segmented steel arm and leg armor, chainmail visible at neck and joints, rough brown leather belts and straps, worn oxblood dark red fabric tunic/skirt and a short tattered oxblood cape falling behind shoulders. Asymmetric practical pauldrons preserved. Steel gauntlets, sturdy armored boots. Human proportions. Render all materials clearly, especially oxblood cloth, chainmail and steel scuffing. Keep cape behind body so legs and arms remain individually readable.",
+        "aspect_ratio": "2:3",
+        "input_images": [
+          {
+            "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+            "type": "image_job",
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png"
+          }
+        ],
+        "width": 1696,
+        "height": 2528,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 4561919,
+      "sha256": "8abc5ab44f305eb8733148b702412f5e7ddfad9ec9916fab7111357194acc02c",
+      "dimensions": {
+        "width": 1696,
+        "height": 2528
+      },
+      "path": "assets-source/higgsfield/2026-09-17/ash-knight-character-reference--cf54ea08.png"
+    },
+    {
+      "rank": 11,
+      "name": "crypt-warden-character-reference",
+      "id": "c21de7ae-8c13-41c2-be52-494c35b20e2e",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T03:35:53.150Z",
+      "original_filename": "hf_20260908_033553_c21de7ae-8c13-41c2-be52-494c35b20e2e.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_c21de7ae-8c13-41c2-be52-494c35b20e2e.png",
+      "filename": "crypt-warden-character-reference--c21de7ae.png",
+      "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: CRYPT WARDEN from CENTER panel of triptych. Tall lean muscular undead humanoid with corpse-grey wrinkled hide, bald narrow male head, pointed ears, deeply sunken face and faint amber eyes. Bone ivory organic plates over both shoulders, rib-cage motif around chest leaving grey torso visible, bone forearm guards and bone pelvis armor, long bare grey legs, clearly separated long bony clawed fingers and five-toed feet. Closed mouth, no gore. Preserve unsettling natural anatomy and bone plate silhouette; full complete humanoid body, no weapon.",
+      "params": {
+        "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: CRYPT WARDEN from CENTER panel of triptych. Tall lean muscular undead humanoid with corpse-grey wrinkled hide, bald narrow male head, pointed ears, deeply sunken face and faint amber eyes. Bone ivory organic plates over both shoulders, rib-cage motif around chest leaving grey torso visible, bone forearm guards and bone pelvis armor, long bare grey legs, clearly separated long bony clawed fingers and five-toed feet. Closed mouth, no gore. Preserve unsettling natural anatomy and bone plate silhouette; full complete humanoid body, no weapon.",
+        "aspect_ratio": "2:3",
+        "input_images": [
+          {
+            "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+            "type": "image_job",
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png"
+          }
+        ],
+        "width": 1696,
+        "height": 2528,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 5057311,
+      "sha256": "7d19398fee06003879cea9025fe2b3a4f0fa3c60a107c7d97e8d9281aa8e32a4",
+      "dimensions": {
+        "width": 1696,
+        "height": 2528
+      },
+      "path": "assets-source/higgsfield/2026-09-17/crypt-warden-character-reference--c21de7ae.png"
+    },
+    {
+      "rank": 12,
+      "name": "ember-sovereign-character-reference",
+      "id": "ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-08T03:35:53.052Z",
+      "original_filename": "hf_20260908_033553_ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260908_033553_ae5cf226-a6ff-48f8-90d3-0db1ad09a9dd.png",
+      "filename": "ember-sovereign-character-reference--ae5cf226.png",
+      "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: EMBER SOVEREIGN from RIGHT panel of triptych. Massive regal humanoid in layered angular black volcanic plate armor, crown with tall jagged narrow dark metal prongs fused around a closed menacing black helmet, armored shoulders, angular segmented black cuirass, strong armored legs and pointed heavy armored boots. Sparse narrow ember-orange seams recessed between plates, rendered mostly as flat orange-red material with only very restrained glow, black torn cloth tabard hanging in front. Thick black gauntlets with clearly separated fingers. Maintain sovereign crown, monumental shoulders and coherent full volumetric armor. No sword or other prop.",
+      "params": {
+        "prompt": "Use the supplied triptych only to preserve the exact character identity indicated. Produce ONE isolated full-body character reference for 3D reconstruction, directly front-facing with subtle dimensional depth, all of head and both feet inside frame and generous margin. Neutral symmetrical relaxed A-pose: legs shoulder-width apart, straight arms angled 35 degrees away from torso, both empty hands clearly separated from body with visible fingers, palms inward. No weapons, no shield, no extra characters, no background objects, no text, no collage. Uniform mid-light grey studio background. Broad flat neutral white studio lighting from front and sides; diffuse ambient fill, minimal shadows, no rim light, no dramatic atmosphere, no colored cast or painted lighting. Preserve complete volume and readable overlapping pieces; accurate physical matte/metal materials, neutral source colors, realistic high fidelity game character sculpture. Character: EMBER SOVEREIGN from RIGHT panel of triptych. Massive regal humanoid in layered angular black volcanic plate armor, crown with tall jagged narrow dark metal prongs fused around a closed menacing black helmet, armored shoulders, angular segmented black cuirass, strong armored legs and pointed heavy armored boots. Sparse narrow ember-orange seams recessed between plates, rendered mostly as flat orange-red material with only very restrained glow, black torn cloth tabard hanging in front. Thick black gauntlets with clearly separated fingers. Maintain sovereign crown, monumental shoulders and coherent full volumetric armor. No sword or other prop.",
+        "aspect_ratio": "2:3",
+        "input_images": [
+          {
+            "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+            "type": "image_job",
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png"
+          }
+        ],
+        "width": 1696,
+        "height": 2528,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 5214590,
+      "sha256": "537377acb5e0bfe040521447d1051d9dd089d51340a9e31e27c9a8297ee6d70c",
+      "dimensions": {
+        "width": 1696,
+        "height": 2528
+      },
+      "path": "assets-source/higgsfield/2026-09-17/ember-sovereign-character-reference--ae5cf226.png"
+    },
+    {
+      "rank": 13,
+      "name": "crypt-warden-reconstruction-reference",
+      "id": "70f171b8-cb68-41b6-bcc8-772cb44be8fa",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-07T03:22:50.068Z",
+      "original_filename": "hf_20260907_032250_70f171b8-cb68-41b6-bcc8-772cb44be8fa.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_032250_70f171b8-cb68-41b6-bcc8-772cb44be8fa.png",
+      "filename": "crypt-warden-reconstruction-reference--70f171b8.png",
+      "prompt": "Create exactly one isolated full-body dark-fantasy humanoid monster, a production reference for automatic 3D reconstruction. Entire head to soles completely visible with generous margins. Symmetric neutral A-pose, facing camera, arms 35 degrees away from torso, straight separated legs, five visible articulated fingers on each empty hand, palms slightly forward, hands and feet fully visible, clear gaps between limbs and torso. Neutral medium gray seamless backdrop, even soft studio lighting without deep shadows, orthographic-like front three-quarter view only 5 degrees off front. Hyperrealistic sculpted game character, physically plausible material detail, high resolution sharp focus. NO weapons, props, text, labels, collage, ground scenery, fog, flame particles or second character. Reference is for the established Ashen Realm dark fantasy art direction; extract ONLY the named monster, do not reproduce a lineup. CRYPT WARDEN: tall muscular undead humanoid, corpse gray ash skin, organic skull-like face integrated with flesh, deep-set dull amber eyes, anatomically grounded shoulders and long arms, ancient ivory bone plates grown into shoulders and forearms, blunt blackened finger claws, ash and earth embedded in pores, weathered scar tissue, tendons and believable folds, layered tattered charcoal waistcloth. Restrained realistic bone and flesh materials, intimidating readable silhouette, no gore or exposed organs, hands completely empty. Keep shoulders and limbs streamlined enough for humanoid animation.",
+      "params": {
+        "prompt": "Create exactly one isolated full-body dark-fantasy humanoid monster, a production reference for automatic 3D reconstruction. Entire head to soles completely visible with generous margins. Symmetric neutral A-pose, facing camera, arms 35 degrees away from torso, straight separated legs, five visible articulated fingers on each empty hand, palms slightly forward, hands and feet fully visible, clear gaps between limbs and torso. Neutral medium gray seamless backdrop, even soft studio lighting without deep shadows, orthographic-like front three-quarter view only 5 degrees off front. Hyperrealistic sculpted game character, physically plausible material detail, high resolution sharp focus. NO weapons, props, text, labels, collage, ground scenery, fog, flame particles or second character. Reference is for the established Ashen Realm dark fantasy art direction; extract ONLY the named monster, do not reproduce a lineup. CRYPT WARDEN: tall muscular undead humanoid, corpse gray ash skin, organic skull-like face integrated with flesh, deep-set dull amber eyes, anatomically grounded shoulders and long arms, ancient ivory bone plates grown into shoulders and forearms, blunt blackened finger claws, ash and earth embedded in pores, weathered scar tissue, tendons and believable folds, layered tattered charcoal waistcloth. Restrained realistic bone and flesh materials, intimidating readable silhouette, no gore or exposed organs, hands completely empty. Keep shoulders and limbs streamlined enough for humanoid animation.",
+        "aspect_ratio": "2:3",
+        "input_images": [
+          {
+            "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+            "type": "image_job",
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png"
+          }
+        ],
+        "width": 1696,
+        "height": 2528,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 4702325,
+      "sha256": "d152ce83672bd35f936ded4b6209a97678080c0eca56c32491cff628883e6f48",
+      "dimensions": {
+        "width": 1696,
+        "height": 2528
+      },
+      "path": "assets-source/higgsfield/2026-09-17/crypt-warden-reconstruction-reference--70f171b8.png"
+    },
+    {
+      "rank": 14,
+      "name": "ember-sovereign-reconstruction-reference",
+      "id": "ad79d944-eadd-41ab-853c-ce590ae746ed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-07T03:22:49.833Z",
+      "original_filename": "hf_20260907_032249_ad79d944-eadd-41ab-853c-ce590ae746ed.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_032249_ad79d944-eadd-41ab-853c-ce590ae746ed.png",
+      "filename": "ember-sovereign-reconstruction-reference--ad79d944.png",
+      "prompt": "Create exactly one isolated full-body dark-fantasy humanoid monster, a production reference for automatic 3D reconstruction. Entire head to soles completely visible with generous margins. Symmetric neutral A-pose, facing camera, arms 35 degrees away from torso, straight separated legs, five visible articulated fingers on each empty hand, palms slightly forward, hands and feet fully visible, clear gaps between limbs and torso. Neutral medium gray seamless backdrop, even soft studio lighting without deep shadows, orthographic-like front three-quarter view only 5 degrees off front. Hyperrealistic sculpted game character, physically plausible material detail, high resolution sharp focus. NO weapons, props, text, labels, collage, ground scenery, fog, flame particles or second character. Reference is for the established Ashen Realm dark fantasy art direction; extract ONLY the named monster, do not reproduce a lineup. EMBER SOVEREIGN boss: massive heavily built humanoid volcanic monarch, broad chest with layered charred black obsidian armor fused to dark stone flesh, thin glowing orange molten fissures in volcanic skin and armor, heavy realistic weathered iron crown around a recognizable humanoid face/helm, battered stone knees and forearms, powerful articulated gauntlet hands with five separated fingers, ash deposits, very subtle orange eyes and cracks with no blown highlights. Realistic volcanic stone roughness and reflective fractured obsidian plates, dark iron trim, no cape, no wings, no oversized protrusions. Hands completely empty, individual feet visible, sturdy humanoid anatomy suitable for rigging.",
+      "params": {
+        "prompt": "Create exactly one isolated full-body dark-fantasy humanoid monster, a production reference for automatic 3D reconstruction. Entire head to soles completely visible with generous margins. Symmetric neutral A-pose, facing camera, arms 35 degrees away from torso, straight separated legs, five visible articulated fingers on each empty hand, palms slightly forward, hands and feet fully visible, clear gaps between limbs and torso. Neutral medium gray seamless backdrop, even soft studio lighting without deep shadows, orthographic-like front three-quarter view only 5 degrees off front. Hyperrealistic sculpted game character, physically plausible material detail, high resolution sharp focus. NO weapons, props, text, labels, collage, ground scenery, fog, flame particles or second character. Reference is for the established Ashen Realm dark fantasy art direction; extract ONLY the named monster, do not reproduce a lineup. EMBER SOVEREIGN boss: massive heavily built humanoid volcanic monarch, broad chest with layered charred black obsidian armor fused to dark stone flesh, thin glowing orange molten fissures in volcanic skin and armor, heavy realistic weathered iron crown around a recognizable humanoid face/helm, battered stone knees and forearms, powerful articulated gauntlet hands with five separated fingers, ash deposits, very subtle orange eyes and cracks with no blown highlights. Realistic volcanic stone roughness and reflective fractured obsidian plates, dark iron trim, no cape, no wings, no oversized protrusions. Hands completely empty, individual feet visible, sturdy humanoid anatomy suitable for rigging.",
+        "aspect_ratio": "2:3",
+        "input_images": [
+          {
+            "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+            "type": "image_job",
+            "url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png"
+          }
+        ],
+        "width": 1696,
+        "height": 2528,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 4688658,
+      "sha256": "421803eacd14f3a1eff428ef389feda9c23cb2b6082e66fc5982312a07432a57",
+      "dimensions": {
+        "width": 1696,
+        "height": 2528
+      },
+      "path": "assets-source/higgsfield/2026-09-17/ember-sovereign-reconstruction-reference--ad79d944.png"
+    },
+    {
+      "rank": 15,
+      "name": "ashen-realm-character-design-sheet",
+      "id": "a4887158-9444-42f8-9573-ce2581d8495e",
+      "type": "image",
+      "model": "nano_banana_2",
+      "created_at": "2026-09-07T03:06:06.942Z",
+      "original_filename": "hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png",
+      "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_37F4MHBkWDiBNj2P5ED4jf83oHl/hf_20260907_030606_a4887158-9444-42f8-9573-ce2581d8495e.png",
+      "filename": "ashen-realm-character-design-sheet--a4887158.png",
+      "prompt": "Create a hyperrealistic AAA dark fantasy 3D character skin design sheet for Ashen Realm, a torchlit ruined stone dungeon RPG. Three distinct full-body figures equally prominent side by side with clear spacing: heroic Ash Knight in battered blackened steel plate, realistic chain mail, oxblood torn cloth and leather belts, closed angular helm, grounded human anatomy; monstrous Crypt Warden with corpse-grey leathery skin, calcified bone armor, clawed hands and amber eyes, no gore; towering Ember Sovereign boss with volcanic obsidian armor, restrained molten cracks, crown of broken iron and heavy warblade. Photoreal physically based materials, micro scratches, pores, oxidized metals, tactile fabric, believable weight, meticulous anatomical 3D sculpt detail. Front three-quarter full body view each including feet, neutral dark grey studio background, soft neutral key lighting and subtle warm rim, no scenery obscuring silhouettes, no interface, no text or watermarks. Premium Unreal Engine cinematic character render appearance. This is a coherent visual skin concept sheet, not a UV texture map.",
+      "params": {
+        "prompt": "Create a hyperrealistic AAA dark fantasy 3D character skin design sheet for Ashen Realm, a torchlit ruined stone dungeon RPG. Three distinct full-body figures equally prominent side by side with clear spacing: heroic Ash Knight in battered blackened steel plate, realistic chain mail, oxblood torn cloth and leather belts, closed angular helm, grounded human anatomy; monstrous Crypt Warden with corpse-grey leathery skin, calcified bone armor, clawed hands and amber eyes, no gore; towering Ember Sovereign boss with volcanic obsidian armor, restrained molten cracks, crown of broken iron and heavy warblade. Photoreal physically based materials, micro scratches, pores, oxidized metals, tactile fabric, believable weight, meticulous anatomical 3D sculpt detail. Front three-quarter full body view each including feet, neutral dark grey studio background, soft neutral key lighting and subtle warm rim, no scenery obscuring silhouettes, no interface, no text or watermarks. Premium Unreal Engine cinematic character render appearance. This is a coherent visual skin concept sheet, not a UV texture map.",
+        "aspect_ratio": "16:9",
+        "input_images": [],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "bytes": 6035659,
+      "sha256": "b99fd5ca7e95a0e6b77fe13709170a86bed1968a48dd12621fcd0126f274d1f4",
+      "dimensions": {
+        "width": 2752,
+        "height": 1536
+      },
+      "path": "assets-source/higgsfield/2026-09-17/ashen-realm-character-design-sheet--a4887158.png"
+    }
+  ],
+  "imported_at": "2026-09-17T04:07:35.153444+00:00",
+  "total_assets": 15,
+  "total_bytes": 203379763
+}
