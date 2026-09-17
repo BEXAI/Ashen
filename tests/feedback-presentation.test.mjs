@@ -1,10 +1,13 @@
 import { test, after } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { build } from 'esbuild';
+import ts from 'typescript';
+import React from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const dir = await mkdtemp(join(tmpdir(), 'ashen-feedback-tests-'));
@@ -105,6 +108,30 @@ test('An invalid optional visual anchor preserves valid feedback at the original
   assert.deepEqual(scene.children[0].position.toArray(), [1, 2.25, 3]);
   assert.equal(factory.surfaces[0].context.labels.at(-1), '−7');
   numbers.dispose();
+});
+
+test('The actual Game damage overlay suppresses its flash when Reduce Motion is requested', async () => {
+  // Render the production JSX element; do not copy its opacity rule into a helper.
+  // This isolates presentation without constructing WebGL or reading a saved journey.
+  const source = ts.createSourceFile('Game.tsx', await readFile(join(root, 'app/game/Game.tsx'), 'utf8'), ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX);
+  const elements = [];
+  const visit = node => {
+    if (ts.isJsxSelfClosingElement(node) && node.attributes.properties.some(property =>
+      ts.isJsxAttribute(property) && property.name.getText(source) === 'className' && property.initializer &&
+      ts.isStringLiteral(property.initializer) && property.initializer.text === 'damage-flash')) elements.push(node);
+    ts.forEachChild(node, visit);
+  };
+  visit(source); assert.equal(elements.length, 1, 'the production damage overlay must be discoverable');
+  const compiled = ts.transpileModule(`function overlay(hud, reducedMotion) { return ${elements[0].getText(source)}; }`, {
+    compilerOptions: { jsx: ts.JsxEmit.React, target: ts.ScriptTarget.ES2022 },
+  }).outputText;
+  const overlay = new Function('React', `${compiled}; return overlay;`)(React);
+  const hud = Object.freeze({ damageFlash: .75, p: Object.freeze({ health: 113 }) });
+  for (const reducedMotion of [false, true, false]) {
+    const markup = renderToStaticMarkup(overlay(hud, reducedMotion));
+    assert.match(markup, reducedMotion ? /style="opacity:0"/ : /style="opacity:0\.75"/);
+    assert.equal(hud.p.health, 113, 'the preference affects presentation only');
+  }
 });
 
 test('Death plays finite clip, holds final pose three seconds, fades .75 seconds then completes', () => {
