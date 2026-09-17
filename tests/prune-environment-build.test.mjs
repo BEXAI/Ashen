@@ -1,9 +1,12 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';import os from 'node:os';import path from 'node:path';import {createHash} from 'node:crypto';import {pathToFileURL} from 'node:url';import {execFile} from 'node:child_process';import {promisify} from 'node:util';
 const script=process.env.ENVIRONMENT_PRUNER_SOURCE||path.join(process.cwd(),'scripts/prune-environment-build.mjs'),{planEnvironmentPrune,applyEnvironmentPrune,pruneEnvironmentBuild}=await import(pathToFileURL(script));
 const sha=b=>createHash('sha256').update(b).digest('hex'),exists=async p=>fs.access(p).then(()=>true,()=>false);
+const surfaceUrls=['floor','wall'].flatMap(family=>['diff','normal','arm'].flatMap(kind=>['-1k','-2k'].map(tier=>`/assets/dungeon/${family}-${kind}${tier}.webp`))).concat('/assets/dungeon/floor-diff.webp');
 function glb({bufferUri,imageUri}={}){const data=Buffer.from(JSON.stringify({asset:{version:'2.0'},scene:0,scenes:[{nodes:[]}],...(bufferUri?{buffers:[{uri:bufferUri,byteLength:4}]}:{}),...(imageUri?{images:[{uri:imageUri}]}:{})})),json=Buffer.alloc(Math.ceil(data.length/4)*4,32);data.copy(json);const out=Buffer.alloc(20+json.length);out.writeUInt32LE(0x46546c67);out.writeUInt32LE(2,4);out.writeUInt32LE(out.length,8);out.writeUInt32LE(json.length,12);out.writeUInt32LE(0x4e4f534a,16);json.copy(out,20);return out;}
 async function fixture(t,dependencies={}){
  const root=await fs.realpath(await fs.mkdtemp(path.join(os.tmpdir(),'ashen-prune-test-'))),client=path.join(root,'dist/client'),write=async(rel,data)=>{const file=path.join(root,rel);await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,typeof data==='string'||Buffer.isBuffer(data)?data:JSON.stringify(data));return file;};t.after(()=>fs.rm(root,{recursive:true,force:true}));
+ await write('app/game/surface-assets.mjs',await fs.readFile(new URL('../app/game/surface-assets.mjs',import.meta.url)));
+ for(const url of surfaceUrls)await write('dist/client'+url,'surface '+url);
  for(const [file,constant,url]of [['dungeon-assets','DUNGEON_MANIFEST_URL','/assets/dungeon/v13/manifest.json'],['prop-assets','PROP_MANIFEST_URL','/assets/props/v2/manifest.json'],['shrine-assets','SHRINE_MANIFEST_URL','/assets/props/v2/manifest.json'],['architecture-assets','ARCHITECTURE_MANIFEST_URL','/assets/props/v2/manifest.json'],['throne-assets','THRONE_MANIFEST_URL','/assets/props/v3/manifest.json']])await write(`app/game/${file}.ts`,`export const ${constant}='${url}';`);
  const variants={sconce:['v1/sconce.glb','v1/sconce-fallback.glb'],shrine:['v2/shrine.glb','v2/shrine-fallback.glb'],architecture:['v2/architecture.glb','v2/architecture-fallback.glb']},props={version:'props-v2',assets:{}};
  for(const [name,urls]of Object.entries(variants)){const a=glb(name==='shrine'?dependencies:{}),b=glb();await write('dist/client/assets/props/'+urls[0],a);await write('dist/client/assets/props/'+urls[1],b);props.assets[name]={compressed_url:'/assets/props/'+urls[0],fallback_url:'/assets/props/'+urls[1],sha256:sha(a),fallback_sha256:sha(b),download_bytes:a.length,fallback_bytes:b.length};}
@@ -24,6 +27,25 @@ test('mixed versions and exact GLB dependencies survive; only generated dungeon/
 
 test('missing external image prevents every removal, even when manifests and primary files exist',async t=>{
  const f=await fixture(t,{imageUri:'missing.png'});await assert.rejects(pruneEnvironmentBuild({gameRoot:f.root}),/ENOENT/);await assertLegacyIntact(f);
+});
+
+test('all runtime floor and wall maps survive pruning with their original bytes',async t=>{
+ const f=await fixture(t),before=await Promise.all(surfaceUrls.map(url=>fs.readFile(f.client+url)));
+ const plan=await planEnvironmentPrune(f.root);for(const url of surfaceUrls)assert.ok(plan.keep.some(entry=>entry.url===url),url);
+ await applyEnvironmentPrune(plan);for(let i=0;i<surfaceUrls.length;i++)assert.deepEqual(await fs.readFile(f.client+surfaceUrls[i]),before[i]);
+});
+
+test('missing surface maps or a changed surface URL policy abort before any removal',async t=>{
+ const f=await fixture(t);await fs.unlink(f.client+'/assets/dungeon/wall-normal-1k.webp');
+ await assert.rejects(pruneEnvironmentBuild({gameRoot:f.root}),/ENOENT/);await assertLegacyIntact(f);
+ const second=await fixture(t),plan=await planEnvironmentPrune(second.root);
+ await fs.appendFile(path.join(second.root,'app/game/surface-assets.mjs'),'\n// policy changed');
+ await assert.rejects(applyEnvironmentPrune(plan),/Preflight changed/);await assertLegacyIntact(second);
+});
+
+test('a different target checkout surface policy is rejected before planning',async t=>{
+ const f=await fixture(t);await fs.appendFile(path.join(f.root,'app/game/surface-assets.mjs'),'\n// different checkout policy');
+ await assert.rejects(planEnvironmentPrune(f.root),/Surface URL policy differs/);await assertLegacyIntact(f);
 });
 
 test('remote, encoded traversal and escaped external dependencies abort before mutation',async t=>{

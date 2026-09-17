@@ -110,6 +110,17 @@ test('Surface switching coalesces requests, shares maps, and disposes stale comp
  }finally{T.TextureLoader.prototype.load=original;}
  assert.equal(runtimeSurfaceAsset('floor','diff','high'),'/assets/dungeon/floor-diff.webp');assert.equal(runtimeSurfaceAsset('wall','normal','high'),'/assets/dungeon/wall-normal-2k.webp');
 });
+test('production includes the original floor and wall maps for every runtime quality',async()=>{
+ const urls=new Set();
+ for(const quality of ['low','medium','high'])for(const family of ['floor','wall'])for(const kind of ['diff','normal','arm']){
+  const url=runtimeSurfaceAsset(family,kind,quality);urls.add(url);
+  const [source,shipped]=await Promise.all([readFile('public'+url),readFile('dist/client'+url)]);
+  assert.equal(hash(shipped),hash(source),`${quality} ${family} ${kind}: published art differs`);
+  assert.equal(shipped.toString('ascii',8,12),'WEBP',`${url}: not a WebP image`);
+ }
+ assert.equal(urls.size,13);assert.ok(urls.has('/assets/dungeon/floor-diff.webp'));
+});
+
 test('Repeated impacts reuse one bounded particle draw, fade and expire cleanly',()=>{
  const scene=new T.Scene(),pool=new ImpactPool(scene,48),geometry=pool.points.geometry;for(let i=0;i<200;i++)pool.burst(0,1,0,'#d2ad80',20,()=>.5);pool.update(.02);assert.equal(scene.children.length,1);assert.equal(pool.points.geometry,geometry);assert.equal(geometry.attributes.position.count,48);assert.ok(geometry.attributes.particleLife.getX(0)>0&&geometry.attributes.particleLife.getX(0)<1);pool.update(1);assert.equal(pool.points.visible,false);assert.equal(geometry.attributes.particleLife.getX(0),0);pool.dispose();assert.equal(scene.children.length,0);
 });

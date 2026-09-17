@@ -1,4 +1,6 @@
 import * as T from 'three';
+import { runtimeSurfaceAsset } from './surface-assets.mjs';
+export { surfaceAsset, runtimeSurfaceAsset } from './surface-assets.mjs';
 
 export type GraphicsQuality = 'auto' | 'low' | 'medium' | 'high';
 export type Surface = { material:T.MeshStandardMaterial; family:'ground'|'rock'|'floor'|'wall'; repeat:number };
@@ -11,16 +13,6 @@ export function renderResolution(width:number,height:number,quality:string,maxDi
   const ratio=Math.min(target/Math.max(w,h),Math.sqrt(budget/(w*h)),Math.max(1,maxDimension)/Math.max(w,h));
   return {ratio,width:Math.max(1,Math.floor(w*ratio)),height:Math.max(1,Math.floor(h*ratio))};
 }
-export function surfaceAsset(family:string,kind:string,quality:string){
-  const dungeon=family==='floor'||family==='wall';
-  return `/assets/${dungeon?'dungeon':'4k'}/${family}-${kind}${quality==='high'?'':quality==='low'&&dungeon?'-1k':'-2k'}.webp`;
-}
-export function runtimeSurfaceAsset(family:string,kind:string,quality:string){
-  // Preserve a 4K floor color map; data maps and distant masonry use 2K on Ultra.
-  const selected=quality==='high'&&(family==='wall'||family==='floor'&&kind!=='diff')?'medium':quality;
-  return surfaceAsset(family,kind,selected);
-}
-
 export function mobileAutoResolution(width:number,height:number,scale:number,maxDimension=8192){
   const w=Math.max(1,width),h=Math.max(1,height);
   // Bound fragment work on tall phones and tablets before adaptive downshifts.

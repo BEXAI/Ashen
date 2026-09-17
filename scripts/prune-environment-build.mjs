@@ -2,8 +2,10 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {dungeonSurfaceAssets} from '../app/game/surface-assets.mjs';
 
 const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
+const surfacePolicyHash=hash(await fs.readFile(new URL('../app/game/surface-assets.mjs',import.meta.url)));
 const loaders=[['dungeon-assets.ts','DUNGEON_MANIFEST_URL','dungeon'],['prop-assets.ts','PROP_MANIFEST_URL','sconce'],['shrine-assets.ts','SHRINE_MANIFEST_URL','shrine'],['architecture-assets.ts','ARCHITECTURE_MANIFEST_URL','architecture'],['throne-assets.ts','THRONE_MANIFEST_URL','boneThrone']];
 function requireValue(ok,message){if(!ok)throw Error(message);}
 function resourcePath(client,uri,base='/'){
@@ -35,6 +37,12 @@ export async function planEnvironmentPrune(gameRoot){
     if(sha256!==undefined)requireValue(entry.sha256===sha256,`Asset hash differs from active manifest: ${target.url}`);if(bytes!==undefined)requireValue(entry.bytes===bytes,`Asset size differs from active manifest: ${target.url}`);
     if(parse&&!parsed.has(target.file)){parsed.add(target.file);gltfQueue.push(entry);}return entry;
   }
+  // SurfaceTextures requests these maps directly, independently of the room GLBs.
+  const surfaceSource=path.join(game,'app/game/surface-assets.mjs');
+  const targetSurfaceHash=hash(await regularFile(surfaceSource));
+  requireValue(targetSurfaceHash===surfacePolicyHash,'Surface URL policy differs from this pruner; run the target checkout\'s build script');
+  sourceChecks.set(surfaceSource,targetSurfaceHash);
+  for(const url of dungeonSurfaceAssets())await add(url,{family:'dungeon'});
   for(const [file,constant,kind]of loaders){
     const sourceFile=path.join(game,'app/game',file),source=await regularFile(sourceFile);sourceChecks.set(sourceFile,hash(source));const url=source.toString('utf8').match(new RegExp(`${constant}\\s*=\\s*['"]([^'"]+)['"]`))?.[1];requireValue(url,`Cannot resolve ${constant}`);
     const family=kind==='dungeon'?'dungeon':'props',bound=await add(url,{family});let manifest=manifestCache.get(bound.file);if(!manifest){manifest=JSON.parse(bound.data.toString('utf8'));manifestCache.set(bound.file,manifest);manifests.push({url:bound.url,version:manifest.version,sha256:bound.sha256});}
