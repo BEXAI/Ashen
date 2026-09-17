@@ -31,6 +31,7 @@ import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
 import { FXAAShader } from 'three/addons/shaders/FXAAShader.js';
 import { GTAOPass } from 'three/addons/postprocessing/GTAOPass.js';
 import { GATES, gateOpen, roomAt, validDungeonSpawn } from './dungeon';
+import { architectureObstruction } from './architecture-collision';
 import { CharacterAssets } from './character-assets';
 import { ImpactPool, FlameAtlas } from './effects';
 import { cryptEnvironment, DungeonLighting, DUNGEON_ENVIRONMENT_INTENSITY } from './dungeon-lighting';
@@ -161,7 +162,7 @@ export class GameEngine {
   if(!this.world.architecture)return Infinity;
   const direction=to.clone().sub(from),distance=direction.length();if(distance<.001)return Infinity;
   this.sightRay.set(from,direction.divideScalar(distance));this.sightRay.far=distance;this.sightRay.firstHitOnly=true;
-  return Math.min(this.sightRay.intersectObjects([this.world.architecture,...this.world.gates.filter((_g,i)=>!gateOpen(i,this.p))],false)[0]?.distance??Infinity,this.throneAssets?.obstruction(this.sightRay.ray,distance)??Infinity);
+  return Math.min(architectureObstruction(from,to),this.sightRay.intersectObjects([this.world.architecture,...this.world.gates.filter((_g,i)=>!gateOpen(i,this.p))],false)[0]?.distance??Infinity,this.throneAssets?.obstruction(this.sightRay.ray,distance)??Infinity);
  }
  private visibleTarget(x:number,z:number){return this.obstruction(new T.Vector3(this.p.x,1.4,this.p.z),new T.Vector3(x,1.4,z))===Infinity;}
  snapshot(){return structuredClone(this.p);}

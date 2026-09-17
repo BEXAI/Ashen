@@ -13,6 +13,36 @@ export const CORRIDORS = [
   {x:0,z:35,width:6,depth:6}, {x:0,z:5,width:6,depth:6},
   {x:0,z:-25,width:6,depth:6}, {x:0,z:-52,width:6,depth:8},
 ] as const;
+
+export type ArchitectureBox = Readonly<{
+  id:string;roomId:string;x:number;y:number;z:number;width:number;height:number;depth:number;
+  kind:'wall'|'post'|'pilaster'|'capital';rounding?:number;fixture?:string;
+}>;
+/** Solid room masonry, including the portions projecting into the floor union.
+ * Rounded details use their conservative outer box for collision. Their source
+ * and replacement visuals share this envelope; loading never changes authority.
+ */
+export const ROOM_ARCHITECTURE:readonly ArchitectureBox[] = Object.freeze(ROOMS.flatMap((room,i)=>{
+  const boxes:ArchitectureBox[]=[];
+  const add=(box:Omit<ArchitectureBox,'roomId'>)=>boxes.push(Object.freeze({...box,roomId:room.id}));
+  for(const [edge,open] of [[room.z-room.depth/2,i<ROOMS.length-1],[room.z+room.depth/2,i>0]] as [number,boolean][]){
+    if(open){
+      const width=room.width/2-3;
+      for(const side of [-1,1]){
+        add({id:`wall:${room.id}:${edge}:${side}`,kind:'wall',x:room.x+side*(3+width/2),y:4.5,z:edge-.02,width,height:9,depth:.9});
+        add({id:`post:${room.id}:${edge}:${side}`,kind:'post',x:room.x+side*3.25,y:2,z:edge,width:.7,height:4,depth:1,rounding:.1,
+          fixture:edge===room.z-room.depth/2?`threshold-${i}`:undefined});
+      }
+      add({id:`lintel:${room.id}:${edge}`,kind:'wall',x:room.x,y:8,z:edge,width:6,height:2,depth:.9});
+    }else add({id:`wall:${room.id}:${edge}`,kind:'wall',x:room.x,y:4.5,z:edge,width:room.width,height:9,depth:.9});
+  }
+  for(let z=room.z-room.depth/2+3;z<room.z+room.depth/2;z+=6)for(const side of [-1,1]){
+    const x=room.x+side*(room.width/2-.35),fixture=room.id==='crown'&&[-45,-33].includes(z)?`chapel-pillar-${side}-${z}`:undefined;
+    add({id:`pilaster:${room.id}:${side}:${z}`,kind:'pilaster',x,y:2.6,z,width:.7,height:5.2,depth:.9,rounding:.08,fixture});
+    add({id:`capital:${room.id}:${side}:${z}`,kind:'capital',x,y:5.05,z,width:1.1,height:.35,depth:1.2,rounding:.06,fixture});
+  }
+  return boxes;
+}));
 export const GATES = [
   { z:5, shrine:'cinder', enemies:['w1','w2','w3'], name:'Cinder seal' },
   { z:-25, shrine:'dusk', enemies:['w4','w5','w6'], name:'Ossuary seal' },

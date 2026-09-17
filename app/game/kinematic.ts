@@ -1,6 +1,7 @@
 import type { Progress } from './model';
 import type { RosterId } from './character-roster';
 import { BONE_THRONE, CORRIDORS, GATES, GATE_HALF_DEPTH, GATE_HALF_WIDTH, ROOMS, gateOpen } from './dungeon-layout';
+import { ARCHITECTURE_FLOOR_BOXES } from './architecture-collision';
 
 export type XZ = {x:number;z:number};
 export type FloorRect = Readonly<XZ & {width:number;depth:number}>;
@@ -86,7 +87,7 @@ const worlds=new Map<number,CollisionWorld>();
 export function buildCollisionWorld(progress:Pick<Progress,'won'|'shrines'|'defeated'>):CollisionWorld {
   const mask=GATES.reduce((n,_g,i)=>n|(gateOpen(i,progress)?1<<i:0),0);
   let world=worlds.get(mask);if(world)return world;
-  const obstacles:CollisionBox[]=[{id:'bone-throne',minX:BONE_THRONE.x-BONE_THRONE.halfWidth,maxX:BONE_THRONE.x+BONE_THRONE.halfWidth,minZ:BONE_THRONE.z-BONE_THRONE.halfDepth,maxZ:BONE_THRONE.z+BONE_THRONE.halfDepth}];
+  const obstacles:CollisionBox[]=[...ARCHITECTURE_FLOOR_BOXES,{id:'bone-throne',minX:BONE_THRONE.x-BONE_THRONE.halfWidth,maxX:BONE_THRONE.x+BONE_THRONE.halfWidth,minZ:BONE_THRONE.z-BONE_THRONE.halfDepth,maxZ:BONE_THRONE.z+BONE_THRONE.halfDepth}];
   GATES.forEach((g,i)=>{if(!(mask&(1<<i)))obstacles.push({id:`gate:${i}`,minX:-GATE_HALF_WIDTH,maxX:GATE_HALF_WIDTH,minZ:g.z-GATE_HALF_DEPTH,maxZ:g.z+GATE_HALF_DEPTH});});
   world=createCollisionWorld([...ROOMS,...CORRIDORS],obstacles);worlds.set(mask,world);return world;
 }
@@ -115,7 +116,12 @@ function sweepCircle(start:XZ,delta:XZ,radius:number,segments:readonly BoundaryS
     if(Math.abs(t-earliest)<=TIME_EPS&&!hits.some(h=>Math.abs(h.normal.x-nx)<EPS&&Math.abs(h.normal.z-nz)<EPS))hits.push({time:t,normal:point(nx,nz),obstacleId:id});
   };
   const speed2=delta.x*delta.x+delta.z*delta.z;if(speed2<EPS*EPS)return hits;
+  const minX=Math.min(start.x,start.x+delta.x)-radius-EPS,maxX=Math.max(start.x,start.x+delta.x)+radius+EPS;
+  const minZ=Math.min(start.z,start.z+delta.z)-radius-EPS,maxZ=Math.max(start.z,start.z+delta.z)+radius+EPS;
   for(const s of segments){
+    // Most masonry belongs to other rooms. Keep its exact TOI geometry, but do
+    // not solve line/circle quadratics outside this sweep's expanded bounds.
+    if(Math.max(s.a.x,s.b.x)<minX||Math.min(s.a.x,s.b.x)>maxX||Math.max(s.a.z,s.b.z)<minZ||Math.min(s.a.z,s.b.z)>maxZ)continue;
     const sx=s.b.x-s.a.x,sz=s.b.z-s.a.z,length=Math.hypot(sx,sz),tx=sx/length,tz=sz/length,nx=-tz,nz=tx;
     const distance=(start.x-s.a.x)*nx+(start.z-s.a.z)*nz,velocity=delta.x*nx+delta.z*nz;
     if(Math.abs(velocity)>EPS)for(const sign of [-1,1]){

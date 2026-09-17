@@ -69,7 +69,10 @@ test('All gate masks follow shrine+warden progression and their physical slabs b
   p.shrines.push('cinder');p.defeated.push('w1','w2');assert.equal(buildCollisionWorld(p),closed);
   p.defeated.push('w3');assert.equal(gateOpen(0,p),true);const opened=buildCollisionWorld(p);assert.notEqual(opened,closed);
   const moved=moveBody(circle(0,6),xy(0,-2),opened);near(moved.z,4);assert.equal(moved.blocked,false);
-  assert.equal(buildCollisionWorld(progress({won:true})).obstacles.length,1);
+  const won=buildCollisionWorld(progress({won:true}));
+  assert.equal(won.obstacles.some(box=>box.id.startsWith('gate:')),false);
+  assert.equal(won.obstacles.filter(box=>box.id==='bone-throne').length,1);
+  assert.equal(closed.obstacles.length-won.obstacles.length,GATES.length);
 });
 
 test('Throne uses the shared rendered proxy and blocks long sweeps while allowing tangential travel',()=>{

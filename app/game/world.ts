@@ -4,6 +4,7 @@ import { WORLD, type Progress } from './model';
 import { Reflector } from 'three/addons/objects/Reflector.js';
 import type { Surface } from './graphics';
 import { ROOMS, CORRIDORS, GATES, gateOpen } from './dungeon';
+import { ROOM_ARCHITECTURE } from './dungeon-layout';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 import { MeshBVH, acceleratedRaycast } from 'three-mesh-bvh';
@@ -57,7 +58,7 @@ export function createWorld(p:Progress,quality:string):WorldScene {
  }
  const colliders:{x:number,z:number,r:number}[]=[];
  const architectureFallbacks=new Map<string,T.Object3D[]>(),architectureGroups:{roomId:string;group:T.Group}[]=[];
- function replaceable(id:string,roomId:string){const group=new T.Group();group.name=id;group.userData.runtimeFixture=true;scene.add(group);architectureFallbacks.set(id,[group]);architectureGroups.push({roomId,group});return group;}
+ function replaceable(id:string,roomId:string){const existing=architectureFallbacks.get(id)?.[0];if(existing)return existing;const group=new T.Group();group.name=id;group.userData.runtimeFixture=true;scene.add(group);architectureFallbacks.set(id,[group]);architectureGroups.push({roomId,group});return group;}
  for(const room of [...ROOMS,...CORRIDORS]){
   const g=new T.PlaneGeometry(room.width,room.depth);g.rotateX(-Math.PI/2);g.translate(room.x,0,room.z);applyWorldSurfaceUV(g);
   mesh(g,floor,0,0,0);
@@ -65,23 +66,20 @@ export function createWorld(p:Progress,quality:string):WorldScene {
   wall(room.width/2+.45,4.5,room.z,.9,9,room.depth);
   wall(0,9.3,room.z,room.width+.9,.6,room.depth);
  }
+ for(const box of ROOM_ARCHITECTURE){
+  if(box.kind==='wall')wall(box.x,box.y,box.z,box.width,box.height,box.depth);
+  else mesh(new RoundedBoxGeometry(box.width,box.height,box.depth,2,box.rounding),stone,box.x,box.y,box.z,box.fixture?replaceable(box.fixture,box.roomId):scene);
+ }
  ROOMS.forEach((room,i)=>{
   for(const [edge,open] of [[room.z-room.depth/2,i<ROOMS.length-1],[room.z+room.depth/2,i>0]] as [number,boolean][]){
    if(open){
-    const w=room.width/2-3;wall(-(3+w/2),4.5,edge-.02,w,9,.9);wall(3+w/2,4.5,edge-.02,w,9,.9);wall(0,8,edge,6,2,.9);
     const parent=edge===room.z-room.depth/2?replaceable(`threshold-${i}`,room.id):scene;
     const arch=mesh(new T.TorusGeometry(3.2,.32,8,24,Math.PI),stone,0,4,edge,parent);arch.scale.z=1.6;
-    for(const side of [-1,1])mesh(new RoundedBoxGeometry(.7,4,1,2,.1),stone,side*3.25,2,edge,parent);
-   }else wall(0,4.5,edge,room.width,9,.9);
+   }
   }
   // Repeated ribs and pilasters give the ceiling depth without thousands of draw calls.
   for(let z=room.z-room.depth/2+3;z<room.z+room.depth/2;z+=6){
    const rib=mesh(new T.TorusGeometry(room.width/2-.4,.22,6,32,Math.PI),stone,0,5.1,z);rib.scale.y=3.7/(room.width/2-.4);
-   for(const side of [-1,1]){
-    const parent=room.id==='crown'&&[-45,-33].includes(z)?replaceable(`chapel-pillar-${side}-${z}`,room.id):scene;
-    mesh(new RoundedBoxGeometry(.7,5.2,.9,2,.08),stone,side*(room.width/2-.35),2.6,z,parent);
-    mesh(new RoundedBoxGeometry(1.1,.35,1.2,2,.06),stone,side*(room.width/2-.35),5.05,z,parent);
-   }
   }
  });
  const merged=mergeGeometries(geometry)!;geometry.forEach(g=>g.dispose());
