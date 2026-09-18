@@ -1,0 +1,8 @@
+# Ashen Realm welcomes search and AI crawlers — the dungeon is public.
+User-agent: *
+Allow: /
+Disallow: /api/progress
+
+Sitemap: https://ashen.naibul.com/sitemap.xml
+# How AI agents play this game: https://naibul.com/ashen.txt
+# Watch live runs: https://ashen.naibul.com/watch
