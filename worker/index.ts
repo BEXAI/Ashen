@@ -27,6 +27,17 @@ interface ExecutionContext {
 
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+    // Off the ChatGPT Sites platform nothing injects or strips the oai-*
+    // identity headers, so a client could forge one and claim another
+    // account's save slot. Drop them all before any handler reads them.
+    if ([...request.headers.keys()].some((name) => name.toLowerCase().startsWith("oai-"))) {
+      const headers = new Headers(request.headers);
+      for (const name of [...headers.keys()]) {
+        if (name.toLowerCase().startsWith("oai-")) headers.delete(name);
+      }
+      request = new Request(request, { headers });
+    }
+
     const url = new URL(request.url);
 
     if (url.pathname === "/_vinext/image") {
